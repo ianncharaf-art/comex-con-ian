@@ -276,6 +276,10 @@ table.ledger tr.neg td.v{color:var(--good)}
 .bell.on{color:var(--accent);border-color:rgba(212,175,55,.5)}
 .bell.on::after{content:"";position:absolute;top:7px;right:8px;width:7px;height:7px;border-radius:50%;background:var(--accent)}
 .pushmsg{margin:0;font-size:13px;color:var(--ink-2)}
+.subform{display:flex;gap:8px}
+.subform input[type=email]{flex:1;min-width:0;font:500 15px var(--f-body);color:var(--ink);background:var(--sunken);border:1px solid var(--line);border-radius:999px;padding:12px 16px}
+.subform input[type=email]:focus{outline:2px solid var(--accent);outline-offset:1px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
 footer{border-top:1px solid var(--line);padding-block:28px;color:var(--muted);font-size:13px}
 footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 footer b{color:var(--ink);font-family:var(--f-display)}
@@ -327,15 +331,21 @@ footer b{color:var(--ink);font-family:var(--f-display)}
   <div class="news" id="news"></div>
   <div class="join" id="join" hidden>
     <div class="join-copy">
-      <span class="eyebrow">Gratis · Avisos al celu</span>
+      <span class="eyebrow">Gratis · Mail y avisos al celu</span>
       <h3>Recibí el radar de comex antes que nadie</h3>
       <p>Las normas, el dólar y los datos oficiales que importan, explicados simple y con su fuente.</p>
     </div>
     <div class="join-actions">
-      <a class="btn" id="joinform" href="#" target="_blank" rel="noopener" hidden><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Crear mi cuenta con mail</a>
+      <form class="subform" id="subform" novalidate>
+        <label class="sr" for="subemail">Tu mail</label>
+        <input id="subemail" name="email" type="email" inputmode="email" autocomplete="email" placeholder="tu@mail.com" required>
+        <input type="text" name="_honey" id="subhoney" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px">
+        <button class="btn" id="subbtn" type="submit">Sumarme</button>
+      </form>
+      <p class="pushmsg" id="submsg" role="status" hidden></p>
       <button class="btn blue" id="pushbtn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18" aria-hidden="true"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg><span id="pushlbl">Activar notificaciones</span></button>
       <p class="pushmsg" id="pushmsg" hidden></p>
-      <p class="note" id="joinnote">Te llega un aviso al celu cuando hay novedades. Lo desactivás cuando quieras.</p>
+      <p class="note" id="joinnote">Dejá tu mail para recibir el radar y activá los avisos al celu. Usamos tu mail solo para esto y te das de baja cuando quieras.</p>
     </div>
   </div>
   <h3 class="section-title">Fuentes que seguimos</h3>
@@ -826,9 +836,29 @@ if(NEWS_FALLBACK){NEWS=NEWS_FALLBACK;renderNews()}else{renderNews()}
 fetch('news.json?t='+Date.now()).then(r=>r.ok?r.json():Promise.reject()).then(d=>{if(d&&Array.isArray(d.items)){NEWS=d;renderNews()}}).catch(()=>{});
 
 $('sources').innerHTML=SOURCES.map(([n,d,u])=>`<a class="src" href="${u}" target="_blank" rel="noopener"><b>${n}</b><span>${d}</span><em>${u.replace('https://','')}</em></a>`).join('');
-const JOIN={form:''}; // link del formulario de registro con mail
-if(JOIN.form){$('joinform').href=JOIN.form;$('joinform').hidden=false}
 $('join').hidden=false;
+// Registro con mail: cada alta llega por mail a Ian (FormSubmit) y queda en OneSignal.
+const SUB_ENDPOINT='https://formsubmit.co/ajax/ianncharaf@gmail.com';
+(function(){
+  const f=$('subform'),inp=$('subemail'),btn=$('subbtn'),msg=$('submsg');
+  const say=t=>{msg.textContent=t;msg.hidden=!t};
+  let done=null;try{done=localStorage.getItem('ci-sub')}catch(e){}
+  if(done){f.hidden=true;say('Ya estás suscripto con '+done+'.')}
+  f.addEventListener('submit',async e=>{
+    e.preventDefault();
+    const email=inp.value.trim().toLowerCase();
+    if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)){say('Revisá el mail, parece que falta algo.');inp.focus();return}
+    if($('subhoney').value)return;
+    btn.disabled=true;btn.textContent='Enviando…';say('');
+    try{
+      const r=await fetch(SUB_ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify({email,_subject:'Nuevo suscriptor · Comex con Ian',_template:'table',_captcha:'false',origen:location.hostname,fecha:new Date().toISOString()})});
+      if(!r.ok)throw new Error(r.status);
+      try{localStorage.setItem('ci-sub',email)}catch(e){}
+      try{window.OneSignalDeferred&&OneSignalDeferred.push(OS=>OS.User.addEmail(email))}catch(e){}
+      f.hidden=true;say('¡Listo! Ya estás en la lista del radar. Activá también los avisos al celu con el botón de abajo.');
+    }catch(err){say('No se pudo enviar. Probá de nuevo en un rato.');btn.disabled=false;btn.textContent='Sumarme'}
+  });
+})();
 })();
 </script>
 
