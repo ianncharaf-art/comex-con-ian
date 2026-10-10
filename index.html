@@ -270,11 +270,18 @@ table.ledger tr.neg td.v{color:var(--good)}
 .join-actions{display:flex;flex-direction:column;gap:10px}
 .join-actions .btn{justify-content:center;text-decoration:none}
 .btn.blue{background:var(--blue);color:#fff}
+.btn[disabled]{cursor:default;transform:none;filter:none;opacity:.85}
+.bell{appearance:none;flex:none;width:38px;height:38px;border-radius:999px;border:1px solid var(--line);background:var(--sunken);color:var(--ink);display:inline-grid;place-items:center;cursor:pointer;position:relative}
+.bell svg{width:18px;height:18px}
+.bell.on{color:var(--accent);border-color:rgba(212,175,55,.5)}
+.bell.on::after{content:"";position:absolute;top:7px;right:8px;width:7px;height:7px;border-radius:50%;background:var(--accent)}
+.pushmsg{margin:0;font-size:13px;color:var(--ink-2)}
 footer{border-top:1px solid var(--line);padding-block:28px;color:var(--muted);font-size:13px}
 footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 footer b{color:var(--ink);font-family:var(--f-display)}
 </style>
 
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 </head>
 <body>
 <header class="top">
@@ -289,6 +296,7 @@ footer b{color:var(--ink);font-family:var(--f-display)}
       <button class="tab" role="tab" id="t-inco" data-tab="incoterms" aria-selected="false">Incoterms</button>
       <button class="tab" role="tab" id="t-docs" data-tab="documentos" aria-selected="false">Documentos</button>
     </nav>
+    <button class="bell" id="pushbell" type="button" aria-label="Activar notificaciones" title="Activar notificaciones"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></button>
     <span class="status-pill"><span class="live" aria-hidden="true"></span><span id="hupd">Radar</span></span>
   </div>
 </header>
@@ -319,14 +327,15 @@ footer b{color:var(--ink);font-family:var(--f-display)}
   <div class="news" id="news"></div>
   <div class="join" id="join" hidden>
     <div class="join-copy">
-      <span class="eyebrow">Gratis · Todos los días</span>
+      <span class="eyebrow">Gratis · Avisos al celu</span>
       <h3>Recibí el radar de comex antes que nadie</h3>
       <p>Las normas, el dólar y los datos oficiales que importan, explicados simple y con su fuente.</p>
     </div>
     <div class="join-actions">
       <a class="btn" id="joinform" href="#" target="_blank" rel="noopener" hidden><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Crear mi cuenta con mail</a>
-      <a class="btn blue" id="joincanal" href="#" target="_blank" rel="noopener" hidden><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>Activar notificaciones</a>
-      <p class="note">Usamos tu mail solo para mandarte el radar. Te podés dar de baja cuando quieras.</p>
+      <button class="btn blue" id="pushbtn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18" aria-hidden="true"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg><span id="pushlbl">Activar notificaciones</span></button>
+      <p class="pushmsg" id="pushmsg" hidden></p>
+      <p class="note" id="joinnote">Te llega un aviso al celu cuando hay novedades. Lo desactivás cuando quieras.</p>
     </div>
   </div>
   <h3 class="section-title">Fuentes que seguimos</h3>
@@ -817,10 +826,9 @@ if(NEWS_FALLBACK){NEWS=NEWS_FALLBACK;renderNews()}else{renderNews()}
 fetch('news.json?t='+Date.now()).then(r=>r.ok?r.json():Promise.reject()).then(d=>{if(d&&Array.isArray(d.items)){NEWS=d;renderNews()}}).catch(()=>{});
 
 $('sources').innerHTML=SOURCES.map(([n,d,u])=>`<a class="src" href="${u}" target="_blank" rel="noopener"><b>${n}</b><span>${d}</span><em>${u.replace('https://','')}</em></a>`).join('');
-const JOIN={form:'',canal:''}; // links del formulario de registro y del canal de avisos
+const JOIN={form:''}; // link del formulario de registro con mail
 if(JOIN.form){$('joinform').href=JOIN.form;$('joinform').hidden=false}
-if(JOIN.canal){$('joincanal').href=JOIN.canal;$('joincanal').hidden=false}
-$('join').hidden=!(JOIN.form||JOIN.canal);
+$('join').hidden=false;
 })();
 </script>
 
@@ -831,7 +839,7 @@ $('join').hidden=!(JOIN.form||JOIN.canal);
 </div>
 <script>
 (function(){
-  if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));
+  if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('/OneSignalSDKWorker.js',{scope:'/'}).catch(()=>{}));
   const bar=document.getElementById('installbar'),btn=document.getElementById('installbtn'),txt=document.getElementById('installtxt');
   let seen=false;try{seen=localStorage.getItem('ci-install-x')==='1'}catch(e){}
   const standalone=matchMedia('(display-mode: standalone)').matches||navigator.standalone;
@@ -842,6 +850,47 @@ $('join').hidden=!(JOIN.form||JOIN.canal);
   if(ios){txt.textContent='Instalala: tocá Compartir y después "Agregar a pantalla de inicio".';setTimeout(()=>bar.hidden=false,2500)}
   btn.onclick=async()=>{if(!evt)return;evt.prompt();await evt.userChoice.catch(()=>{});bar.hidden=true};
   document.getElementById('installx').onclick=()=>{bar.hidden=true;try{localStorage.setItem('ci-install-x','1')}catch(e){}};
+})();
+</script>
+<script>
+// Notificaciones push con OneSignal
+(function(){
+  const APP_ID='4a40e7fa-e1d9-43ea-844d-5e32fbfeb21c';
+  const btn=document.getElementById('pushbtn'),lbl=document.getElementById('pushlbl'),msg=document.getElementById('pushmsg'),bell=document.getElementById('pushbell');
+  const ios=/iphone|ipad|ipod/i.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+  const standalone=matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
+  let OS=null;
+  const say=t=>{msg.textContent=t;msg.hidden=!t};
+  function paint(){
+    const on=!!(OS&&OS.Notifications.permission&&OS.User.PushSubscription.optedIn);
+    const denied=typeof Notification!=='undefined'&&Notification.permission==='denied';
+    btn.disabled=on;lbl.textContent=on?'Notificaciones activadas':'Activar notificaciones';
+    bell.classList.toggle('on',on);bell.setAttribute('aria-label',on?'Notificaciones activadas':'Activar notificaciones');bell.title=bell.getAttribute('aria-label');
+    if(on)say('Listo. Te vamos a avisar cuando haya novedades en el radar.');
+    else if(denied)say('Bloqueaste las notificaciones para este sitio. Activalas desde la configuración del navegador y volvé a tocar el botón.');
+  }
+  async function activate(){
+    if(ios&&!standalone){say('En iPhone primero instalala: tocá Compartir y después "Agregar a pantalla de inicio". Abrila desde el ícono y activá las notificaciones ahí.');document.getElementById('join').scrollIntoView({behavior:'smooth',block:'center'});return}
+    if(!OS){say('Cargando… probá de nuevo en un segundo.');return}
+    if(!OS.Notifications.isPushSupported()){say('Este navegador no permite notificaciones. Probá con Chrome, Edge, Firefox o Safari actualizado.');return}
+    try{
+      if(!OS.Notifications.permission)await OS.Notifications.requestPermission();
+      if(OS.Notifications.permission&&!OS.User.PushSubscription.optedIn)await OS.User.PushSubscription.optIn();
+    }catch(e){say('No se pudo activar. Probá de nuevo.')}
+    paint();
+  }
+  btn.onclick=activate;
+  bell.onclick=()=>{if(btn.disabled){document.getElementById('join').scrollIntoView({behavior:'smooth',block:'center'});return}activate()};
+  window.OneSignalDeferred=window.OneSignalDeferred||[];
+  OneSignalDeferred.push(async function(OneSignal){
+    try{
+      await OneSignal.init({appId:APP_ID,serviceWorkerPath:'OneSignalSDKWorker.js',serviceWorkerParam:{scope:'/'},allowLocalhostAsSecureOrigin:true});
+      OS=OneSignal;
+      OneSignal.Notifications.addEventListener('permissionChange',paint);
+      OneSignal.User.PushSubscription.addEventListener('change',paint);
+      paint();
+    }catch(e){console.warn('OneSignal',e)}
+  });
 })();
 </script>
 </body>
