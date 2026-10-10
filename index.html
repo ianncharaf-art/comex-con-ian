@@ -280,6 +280,20 @@ table.ledger tr.neg td.v{color:var(--good)}
 .subform input[type=email]{flex:1;min-width:0;font:500 15px var(--f-body);color:var(--ink);background:var(--sunken);border:1px solid var(--line);border-radius:999px;padding:12px 16px}
 .subform input[type=email]:focus{outline:2px solid var(--accent);outline-offset:1px}
 .pop{position:fixed;inset:0;z-index:80;display:grid;place-items:center;padding:16px;background:rgba(3,4,7,.72);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);animation:popfade .25s ease}
+.hinstall{appearance:none;flex:none;display:inline-flex;align-items:center;gap:6px;height:38px;padding:0 14px;border-radius:999px;border:1px solid rgba(212,175,55,.5);background:rgba(212,175,55,.12);color:var(--accent);font:600 13px var(--f-body);cursor:pointer;white-space:nowrap;margin-left:auto}
+.hinstall[hidden]{display:none}
+.hinstall svg{width:16px;height:16px}
+@media (max-width:480px){.hinstall{padding:0 12px;gap:5px}.hinstall .hl{display:none}}
+@media (max-width:350px){.hinstall svg{display:none}}
+.hinstall+.bell{margin-left:-8px}
+.guide .gsteps{list-style:none;margin:4px 0 0;padding:0;display:flex;flex-direction:column;gap:10px;text-align:left}
+.guide .gsteps[hidden]{display:none}
+.guide .gsteps li{display:flex;gap:12px;align-items:flex-start;padding:12px 14px;border-radius:14px;background:var(--sunken);border:1px solid var(--line);color:var(--ink-2);line-height:1.45}
+.guide .gsteps li b{flex:none;width:26px;height:26px;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:var(--on-accent);font:800 13px var(--f-body)}
+.guide .gsteps strong,.guide .gsteps em{color:var(--ink);font-style:normal}
+.guide .gi{width:18px;height:18px;vertical-align:-4px;color:var(--blue);margin:0 2px}
+.guide .btn[hidden]{display:none}
+.guide a.btn{text-decoration:none}
 .pop[hidden]{display:none}
 .pop-card{position:relative;width:min(440px,100%);max-height:calc(100dvh - 32px);overflow:auto;display:flex;flex-direction:column;gap:12px;text-align:center;align-items:stretch;padding:30px 22px 20px;border-radius:22px;background:radial-gradient(120% 80% at 50% 0%,rgba(61,123,255,.22),transparent 60%),linear-gradient(180deg,#0E1424,#080B12);border:1px solid rgba(212,175,55,.45);box-shadow:0 30px 80px -20px rgba(0,0,0,.85);animation:popin .35s cubic-bezier(.2,.9,.3,1.2)}
 .pop-mark{align-self:center}.pop-mark img{display:block;border-radius:14px;box-shadow:0 10px 30px -8px rgba(212,175,55,.45)}
@@ -314,6 +328,7 @@ footer b{color:var(--ink);font-family:var(--f-display)}
       <button class="tab" role="tab" id="t-inco" data-tab="incoterms" aria-selected="false">Incoterms</button>
       <button class="tab" role="tab" id="t-docs" data-tab="documentos" aria-selected="false">Documentos</button>
     </nav>
+    <button class="hinstall" id="hinstall" type="button" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>Instalar<span class="hl"> app</span></button>
     <button class="bell" id="pushbell" type="button" aria-label="Activar notificaciones" title="Activar notificaciones"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></button>
     <span class="status-pill"><span class="live" aria-hidden="true"></span><span id="hupd">Radar</span></span>
   </div>
@@ -907,29 +922,93 @@ if(subDone){$('subform').hidden=true;sayJoin('Ya estás suscripto con '+subDone+
   document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!pop.hidden)close()});
   $('poppush').onclick=()=>{close();$('pushbtn').click()};
   let seen=null;try{seen=localStorage.getItem('ci-pop')}catch(e){}
-  if(!seen&&!subDone)setTimeout(()=>{pop.hidden=false;document.body.style.overflow='hidden';setTimeout(()=>$('popemail').focus({preventScroll:true}),350)},1200);
+  // La guía de instalación decide cuándo mostrarlo (ver más abajo).
+  window.showSubPop=()=>{if(seen||subDone)return false;pop.hidden=false;document.body.style.overflow='hidden';setTimeout(()=>$('popemail').focus({preventScroll:true}),350);return true};
 })();
 })();
 </script>
 
-<div id="installbar" hidden style="position:fixed;left:12px;right:12px;bottom:calc(84px + env(safe-area-inset-bottom,0px));z-index:40;background:linear-gradient(135deg,#0E2A6B,#081634);border:1px solid rgba(212,175,55,.45);border-radius:16px;padding:14px 16px;display:flex;gap:12px;align-items:center;box-shadow:0 20px 40px -12px rgba(0,0,0,.7);color:#F4F1E8;font:500 14px var(--f-body)">
-  <span style="flex:1" id="installtxt">Instalá Comex con Ian en tu celu.</span>
-  <button id="installbtn" class="btn small" hidden>Instalar</button>
-  <button id="installx" aria-label="Cerrar" style="appearance:none;border:0;background:none;color:#F4F1E8;font-size:20px;cursor:pointer">×</button>
+<div class="pop" id="guide" hidden role="dialog" aria-modal="true" aria-labelledby="gtitle">
+  <div class="pop-card guide">
+    <button class="pop-x" id="gx" type="button" aria-label="Cerrar">×</button>
+    <span class="pop-mark" aria-hidden="true"><img src="/icons/icon-192.png" alt="" width="56" height="56"></span>
+    <span class="eyebrow">Gratis · Sin tienda de apps</span>
+    <h2 id="gtitle">Llevá <span>Comex con Ian</span> en tu celu</h2>
+    <p id="glead">Instalala en tu pantalla de inicio en 3 toques y abrila como cualquier app.</p>
+    <ol class="gsteps" id="g-inapp" hidden>
+      <li><b>1</b><span>Estás viendo la web dentro de <em id="gapp">Instagram</em>. Desde acá no se puede instalar.</span></li>
+      <li><b>2</b><span>Tocá <svg class="gi" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/></svg> o <svg class="gi" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="5" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="12" cy="19" r="2"/></svg> arriba a la derecha.</span></li>
+      <li><b>3</b><span>Elegí <strong id="gopen">Abrir en el navegador</strong>. Ahí te mostramos cómo instalarla.</span></li>
+    </ol>
+    <ol class="gsteps" id="g-ios" hidden>
+      <li><b>1</b><span>Tocá <strong>Compartir</strong> <svg class="gi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m8 7 4-4 4 4"/><path d="M6 11H5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-8a1 1 0 0 0-1-1h-1"/></svg> <em id="gioswhere">en la barra de abajo de Safari</em>.</span></li>
+      <li><b>2</b><span>Bajá y tocá <strong>Agregar a pantalla de inicio</strong> <svg class="gi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M12 8v8M8 12h8"/></svg>.</span></li>
+      <li><b>3</b><span>Tocá <strong>Agregar</strong>. Listo: abrila desde el ícono dorado.</span></li>
+    </ol>
+    <ol class="gsteps" id="g-android" hidden>
+      <li><b>1</b><span>Tocá los tres puntitos <svg class="gi" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="12" cy="5" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="12" cy="19" r="2"/></svg> arriba a la derecha de Chrome.</span></li>
+      <li><b>2</b><span>Elegí <strong>Instalar app</strong> o <strong>Agregar a la pantalla principal</strong>.</span></li>
+      <li><b>3</b><span>Confirmá con <strong>Instalar</strong>. Listo: abrila desde el ícono dorado.</span></li>
+    </ol>
+    <ol class="gsteps" id="g-desktop" hidden>
+      <li><b>1</b><span>En Chrome o Edge, tocá el ícono de instalar <svg class="gi" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M12 8v8M8 12h8"/></svg> a la derecha de la barra de direcciones.</span></li>
+      <li><b>2</b><span>O abrí este link en tu celu para tenerla en la pantalla de inicio.</span></li>
+    </ol>
+    <button class="btn" id="ginstall" type="button" hidden>Instalar app</button>
+    <a class="btn blue" id="gchrome" hidden>Abrir en Chrome</a>
+    <button class="btn ghost" id="gcopy" type="button" hidden>Copiar link</button>
+    <button class="pop-skip" id="gskip" type="button">Seguir en la web</button>
+  </div>
 </div>
 <script>
 (function(){
   if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('/OneSignalSDKWorker.js',{scope:'/'}).catch(()=>{}));
-  const bar=document.getElementById('installbar'),btn=document.getElementById('installbtn'),txt=document.getElementById('installtxt');
-  let seen=false;try{seen=localStorage.getItem('ci-install-x')==='1'}catch(e){}
-  const standalone=matchMedia('(display-mode: standalone)').matches||navigator.standalone;
-  if(seen||standalone)return;
-  let evt=null;
-  window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();evt=e;btn.hidden=false;bar.hidden=false});
-  const ios=/iphone|ipad|ipod/i.test(navigator.userAgent);
-  if(ios){txt.textContent='Instalala: tocá Compartir y después "Agregar a pantalla de inicio".';setTimeout(()=>bar.hidden=false,2500)}
-  btn.onclick=async()=>{if(!evt)return;evt.prompt();await evt.userChoice.catch(()=>{});bar.hidden=true};
-  document.getElementById('installx').onclick=()=>{bar.hidden=true;try{localStorage.setItem('ci-install-x','1')}catch(e){}};
+  const $=id=>document.getElementById(id),ua=navigator.userAgent;
+  const g=$('guide');
+  const standalone=matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
+  const ios=/iphone|ipad|ipod/i.test(ua)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+  const android=/android/i.test(ua);
+  const inapp=(ua.match(/Instagram|FBAN|FBAV|FB_IAB|musical_ly|BytedanceWebview|TikTok|LinkedInApp|Twitter|Snapchat|Line\//i)||[])[0];
+  const appName=!inapp?'':/Instagram/i.test(inapp)?'Instagram':/FB/i.test(inapp)?'Facebook':/musical_ly|Bytedance|TikTok/i.test(inapp)?'TikTok':/LinkedIn/i.test(inapp)?'LinkedIn':/Twitter/i.test(inapp)?'X':inapp;
+  let evt=null,after=null;
+  window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();evt=e;$('ginstall').hidden=false});
+  window.addEventListener('appinstalled',()=>{close(true);$('hinstall').hidden=true});
+  function fill(){
+    ['g-inapp','g-ios','g-android','g-desktop'].forEach(id=>$(id).hidden=true);
+    if(inapp){
+      $('g-inapp').hidden=false;$('gapp').textContent=appName;
+      $('glead').textContent='Para instalarla primero tenés que abrirla en tu navegador.';
+      $('gopen').textContent=ios?'Abrir en Safari (o "Abrir en navegador externo")':'Abrir en Chrome (o "Abrir en el navegador")';
+      $('gcopy').hidden=false;
+      if(android){const a=$('gchrome');a.hidden=false;a.href='intent://'+location.host+location.pathname+'#Intent;scheme=https;package=com.android.chrome;end'}
+    }else if(ios){
+      $('g-ios').hidden=false;
+      if(/CriOS|FxiOS|EdgiOS/i.test(ua))$('gioswhere').textContent='arriba a la derecha, en la barra de direcciones';
+    }else if(android){$('g-android').hidden=false}
+    else{$('g-desktop').hidden=false}
+  }
+  function open(next){fill();after=next||null;g.hidden=false;document.body.style.overflow='hidden'}
+  function close(installed){
+    if(g.hidden)return;g.hidden=true;document.body.style.overflow='';
+    try{localStorage.setItem('ci-guide','1')}catch(e){}
+    const f=after;after=null;if(f&&!installed)setTimeout(f,400);
+  }
+  $('gx').onclick=()=>close();$('gskip').onclick=()=>close();
+  g.addEventListener('click',e=>{if(e.target===g)close()});
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!g.hidden)close()});
+  $('ginstall').onclick=async()=>{if(!evt)return;evt.prompt();const r=await evt.userChoice.catch(()=>null);if(r&&r.outcome==='accepted')close(true)};
+  $('gcopy').onclick=async()=>{const url='https://'+location.host+'/';try{await navigator.clipboard.writeText(url);$('gcopy').textContent='¡Link copiado! Pegalo en tu navegador'}catch(e){$('gcopy').textContent=url}};
+  // Botón "Instalar app" del encabezado: siempre a mano mientras no esté instalada.
+  const h=$('hinstall');h.hidden=standalone;h.onclick=()=>open();
+  // Primera visita: guía de instalación (en el celu) y después el cartel de suscripción.
+  let seen=false;try{seen=localStorage.getItem('ci-guide')==='1'}catch(e){}
+  const sub=()=>window.showSubPop&&window.showSubPop();
+  setTimeout(()=>{
+    if(standalone){sub();return}
+    if(inapp){open(sub);return}
+    if((ios||android)&&!seen){open(sub);return}
+    sub();
+  },1200);
 })();
 </script>
 <script>
