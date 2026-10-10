@@ -1,0 +1,22 @@
+name: Notificación push
+
+# Manda un aviso por OneSignal cuando cambia notify.json (aviso manual)
+# o cuando news.json trae una noticia nueva arriba de todo.
+on:
+  push:
+    branches: [main]
+    paths: [notify.json, news.json]
+  workflow_dispatch:
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Enviar notificación
+        env:
+          ONESIGNAL_API_KEY: ${{ secrets.ONESIGNAL_API_KEY }}
+          EVENT: ${{ github.event_name }}
+        run: python3 scripts/notify.py
