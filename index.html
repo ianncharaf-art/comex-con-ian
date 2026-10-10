@@ -1,0 +1,848 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="description" content="Radar diario de comercio exterior argentino, calculadora de costos con todo el NCM, Incoterms 2020 y proforma en Excel. Gratis.">
+<meta name="theme-color" content="#050608">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Comex con Ian">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Comex con Ian">
+<meta property="og:description" content="Noticias de comex todos los días, calculadora de importación con NCM, Incoterms y proforma en Excel.">
+<meta property="og:image" content="/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<title>Comex con Ian · Radar y herramientas de comercio exterior</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<style>
+/* Layout: a trade-intelligence app. Glass top bar + (on phones) a native-style bottom tab bar; News is home, led by one featured story; tools sit in calm, generous cards with data set in mono. */
+:root{
+  --bg:#050608; --bg-2:#0A0D14; --surface:#0C1019; --sunken:#121826; --ink:#F4F1E8; --ink-2:#C8CCD6; --muted:#8890A3; --line:#1B2232; --line-2:#2A3450;
+  --accent:#D4AF37; --accent-ink:#E8C863; --accent-soft:#221C0A; --on-accent:#0A0906;
+  --navy:#0E2A6B; --on-navy:#F4F1E8; --blue:#3D7BFF;
+  --seller:#D4AF37; --buyer:#3D7BFF; --risk:#F4F1E8;
+  --good:#3CCB8B; --good-soft:#0C2A1D; --warn:#E8B04A;
+  --shadow:0 1px 0 rgba(255,255,255,.03) inset,0 14px 36px -18px rgba(0,0,0,.8);
+  --glass:rgba(5,6,8,.78);
+  --f-display:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;
+  --f-body:"Instrument Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+  --r:16px; --r-sm:10px; color-scheme:dark;
+}
+/* Brand is black, blue and gold in both system themes. */
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#050608; --bg-2:#0A0D14; --surface:#0C1019; --sunken:#121826; --ink:#F4F1E8; --ink-2:#C8CCD6; --muted:#8890A3; --line:#1B2232; --line-2:#2A3450;
+  --accent:#D4AF37; --accent-ink:#E8C863; --accent-soft:#221C0A; --on-accent:#0A0906;
+  --navy:#0E2A6B; --on-navy:#F4F1E8; --blue:#3D7BFF;
+  --seller:#D4AF37; --buyer:#3D7BFF; --risk:#F4F1E8;
+  --good:#3CCB8B; --good-soft:#0C2A1D; --warn:#E8B04A;
+  --shadow:0 1px 0 rgba(255,255,255,.03) inset,0 14px 36px -18px rgba(0,0,0,.8);
+  --glass:rgba(5,6,8,.78);}}
+:root[data-theme="dark"]{--bg:#050608; --bg-2:#0A0D14; --surface:#0C1019; --sunken:#121826; --ink:#F4F1E8; --ink-2:#C8CCD6; --muted:#8890A3; --line:#1B2232; --line-2:#2A3450;
+  --accent:#D4AF37; --accent-ink:#E8C863; --accent-soft:#221C0A; --on-accent:#0A0906;
+  --navy:#0E2A6B; --on-navy:#F4F1E8; --blue:#3D7BFF;
+  --seller:#D4AF37; --buyer:#3D7BFF; --risk:#F4F1E8;
+  --good:#3CCB8B; --good-soft:#0C2A1D; --warn:#E8B04A;
+  --shadow:0 1px 0 rgba(255,255,255,.03) inset,0 14px 36px -18px rgba(0,0,0,.8);
+  --glass:rgba(5,6,8,.78);}
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:radial-gradient(1200px 600px at 85% -10%,rgba(61,123,255,.16),transparent 60%),radial-gradient(900px 500px at -10% 10%,rgba(212,175,55,.08),transparent 60%),var(--bg);background-attachment:fixed;min-height:100vh;color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:16px}
+@media (min-width:720px){.wrap{padding-inline:28px}}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:6px}
+
+/* Top bar */
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--glass);backdrop-filter:saturate(1.4) blur(14px);-webkit-backdrop-filter:saturate(1.4) blur(14px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;height:64px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;min-width:0}
+.mark{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,#0E2A6B,#081634);border:1px solid rgba(212,175,55,.45);display:grid;place-items:center;flex:none}
+.mark svg{width:20px;height:20px;display:block}
+.logo b{font-family:var(--f-display);font-weight:800;font-size:19px;letter-spacing:-.02em;white-space:nowrap}
+.logo b span{color:var(--accent)}
+nav.tabs{display:flex;gap:2px;background:var(--sunken);border:1px solid var(--line);border-radius:999px;padding:4px}
+.tab{appearance:none;border:0;background:none;color:var(--muted);font:600 14px var(--f-body);padding:8px 16px;border-radius:999px;cursor:pointer;white-space:nowrap;display:inline-flex;align-items:center;gap:8px;transition:background .2s,color .2s}
+.tab svg{width:18px;height:18px;flex:none}
+.tab:hover{color:var(--ink)}
+.tab[aria-selected="true"]{background:var(--surface);color:var(--ink);box-shadow:var(--shadow)}
+.status-pill{display:inline-flex;align-items:center;gap:8px;font:500 12px var(--f-mono);color:var(--muted);white-space:nowrap}
+.live{width:8px;height:8px;border-radius:50%;background:var(--good);box-shadow:0 0 0 0 var(--good);animation:live 2.4s infinite}
+@keyframes live{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--good) 55%,transparent)}70%{box-shadow:0 0 0 8px transparent}100%{box-shadow:0 0 0 0 transparent}}
+@media (prefers-reduced-motion:reduce){.live{animation:none}*{transition:none!important}}
+/* Bottom tab bar on phones */
+nav.dock{display:none}
+@media (max-width:760px){
+  header nav.tabs{display:none}
+  .status-pill{display:none}
+  .bar{height:58px}
+  nav.dock{display:grid;grid-template-columns:repeat(4,1fr);position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--glass);backdrop-filter:saturate(1.4) blur(16px);-webkit-backdrop-filter:saturate(1.4) blur(16px);border-top:1px solid var(--line);padding:6px 6px calc(6px + env(safe-area-inset-bottom,0px))}
+  nav.dock .tab{flex-direction:column;gap:3px;font-size:11px;padding:6px 2px;border-radius:12px}
+  nav.dock .tab svg{width:22px;height:22px}
+  nav.dock .tab[aria-selected="true"]{background:none;box-shadow:none;color:var(--accent)}
+  main{padding-bottom:110px!important}
+}
+
+main{padding-block:32px 72px}
+section.panel{display:flex;flex-direction:column;gap:22px;animation:rise .35s ease both}
+@keyframes rise{from{opacity:.4;transform:translateY(6px)}to{opacity:1;transform:none}}
+.lede{display:flex;flex-direction:column;gap:10px;max-width:760px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font:600 12px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--accent-ink)}
+.lede h2{margin:0;font-family:var(--f-display);font-weight:800;font-size:clamp(30px,6.4vw,56px);letter-spacing:-.035em;line-height:1;text-wrap:balance}
+.lede h2 em{font-style:normal;background:linear-gradient(100deg,#F3D77A,#D4AF37 45%,#A8841F);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lede p{margin:0;color:var(--muted);font-size:clamp(15px,2vw,17px);max-width:62ch}
+.section-title{margin:8px 0 0;font-family:var(--f-display);font-weight:700;font-size:22px;letter-spacing:-.02em}
+
+/* Cards and forms */
+.grid2{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:20px;align-items:start}
+@media (max-width:900px){.grid2{grid-template-columns:minmax(0,1fr)}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:22px;display:flex;flex-direction:column;gap:16px;min-width:0;box-shadow:var(--shadow)}
+@media (max-width:480px){.card{padding:18px}}
+.card h3{margin:0;font:600 12px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.card.result{position:sticky;top:84px}
+@media (max-width:900px){.card.result{position:static}}
+.fields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.fields .full{grid-column:1/-1}
+@media (max-width:460px){.fields{grid-template-columns:minmax(0,1fr)}}
+label.f{display:flex;flex-direction:column;gap:6px;font-size:13px;font-weight:500;color:var(--ink-2);min-width:0}
+input,select{font:500 15px var(--f-mono);color:var(--ink);background:var(--sunken);border:1px solid var(--line);border-radius:var(--r-sm);padding:0 12px;height:44px;width:100%;min-width:0;font-variant-numeric:tabular-nums;transition:border-color .15s,background .15s,box-shadow .15s}
+input:hover,select:hover{border-color:var(--line-2)}
+input:focus,select:focus{outline:none;border-color:var(--accent);background:var(--surface);box-shadow:0 0 0 4px var(--accent-soft)}
+input[type="text"]#ncmq,input#encmq{font-family:var(--f-body);font-size:16px;height:52px;padding-left:44px;background:var(--sunken) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' fill='none' stroke='%23888F9E' stroke-width='2' stroke-linecap='round' viewBox='0 0 24 24'%3E%3Ccircle cx='11' cy='11' r='7'/%3E%3Cpath d='m20 20-3.5-3.5'/%3E%3C/svg%3E") no-repeat 14px 50%}
+.seg{display:inline-flex;background:var(--sunken);border:1px solid var(--line);border-radius:999px;padding:4px;gap:2px;align-self:flex-start}
+.seg button{appearance:none;border:0;background:none;color:var(--muted);font:600 14px var(--f-body);padding:9px 18px;border-radius:999px;cursor:pointer;transition:background .2s,color .2s}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+.btn{appearance:none;border:0;background:var(--accent);color:var(--on-accent);font:600 15px var(--f-body);padding:13px 20px;border-radius:999px;cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:transform .15s,filter .15s}
+.btn:hover{filter:brightness(1.05);transform:translateY(-1px)}
+.btn.ghost{background:var(--sunken);color:var(--ink);border:1px solid var(--line)}
+.btn.small{padding:8px 14px;font-size:13px}
+.row{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.ncm-wrap{position:relative}
+.ncm-list{position:absolute;left:0;right:0;top:100%;margin-top:6px;background:var(--surface);border:1px solid var(--line);border-radius:14px;z-index:15;max-height:340px;overflow:auto;box-shadow:0 20px 48px -12px rgba(0,0,0,.28);padding:6px}
+.ncm-list button{display:flex;justify-content:space-between;align-items:baseline;gap:12px;width:100%;text-align:left;border:0;background:none;color:var(--ink);padding:10px 12px;border-radius:10px;cursor:pointer;font:14px var(--f-body)}
+.ncm-list button:hover,.ncm-list button:focus{background:var(--sunken)}
+@media (max-width:520px){.ncm-list button{flex-direction:column;gap:2px}}
+.ncm-list code{font-family:var(--f-mono);font-size:12px;color:var(--muted);white-space:nowrap}
+.badge{display:inline-flex;align-items:center;font:600 11px var(--f-mono);letter-spacing:.04em;padding:4px 9px;border-radius:999px;background:var(--sunken);color:var(--ink-2);border:1px solid var(--line)}
+.note{font-size:13px;color:var(--muted);margin:0;line-height:1.5}
+.note a{color:var(--accent-ink)}
+table.ledger{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;font-size:14px}
+table.ledger td{padding:8px 0;border-bottom:1px solid var(--line);vertical-align:baseline}
+table.ledger td.v{text-align:right;font-family:var(--f-mono);white-space:nowrap;padding-left:12px}
+table.ledger tr.group td{padding-top:18px;border-bottom:0;font:600 11px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+table.ledger tr.sub td{font-weight:600}
+table.ledger tr.neg td.v{color:var(--good)}
+.total{display:flex;flex-direction:column;gap:6px;background:linear-gradient(135deg,#0E2A6B,#081634);border:1px solid rgba(212,175,55,.35);color:var(--on-navy);border-radius:14px;padding:18px 20px}
+.total .k{font:600 11px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;opacity:.7}
+.total .n{color:#F3D77A;font-family:var(--f-display);font-weight:800;font-size:clamp(32px,7vw,44px);letter-spacing:-.03em;line-height:1;font-variant-numeric:tabular-nums}
+.total .n small{display:block;font-family:var(--f-mono);font-size:13px;font-weight:500;opacity:.7;margin-top:6px;letter-spacing:0}
+.kpis{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.kpi{background:var(--sunken);border:1px solid var(--line);border-radius:12px;padding:12px 14px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.kpi span{font:500 11px var(--f-mono);letter-spacing:.04em;color:var(--muted)}
+.kpi b{font:600 17px var(--f-mono);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.stack{display:flex;height:12px;border-radius:999px;overflow:hidden;background:var(--sunken);gap:2px}
+.stack i{display:block;height:100%}
+.legend{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:12px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.legend i{width:10px;height:10px;border-radius:3px;display:inline-block}
+.rubros{display:flex;flex-direction:column;gap:8px}
+.rubro{display:grid;grid-template-columns:24px minmax(0,1fr) 110px 84px;gap:8px;align-items:center}
+.rubro .num{font:500 12px var(--f-mono);color:var(--muted)}
+.rubro .lbl{font-size:14px;min-width:0}
+.rubro input,.rubro select{height:40px}
+.rubro select{padding:0 6px;font-size:13px}
+@media (max-width:460px){.rubro{grid-template-columns:20px minmax(0,1fr) 84px 72px;gap:6px}.rubro .lbl{font-size:13px}}
+
+/* Incoterms */
+.terms{display:flex;flex-direction:column;gap:12px}
+.term-group{display:flex;flex-direction:column;gap:8px}
+.term-group .lab{font:600 11px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.term-pills{display:flex;flex-wrap:wrap;gap:8px}
+.pill{appearance:none;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:600 15px var(--f-mono);padding:10px 14px;border-radius:12px;cursor:pointer;letter-spacing:.02em;transition:all .15s}
+.pill:hover{border-color:var(--line-2);transform:translateY(-1px)}
+.pill[aria-pressed="true"]{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+.route{overflow-x:auto;margin-inline:-4px}
+.route svg{display:block;min-width:640px;width:100%;height:auto}
+.term-head{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+.term-head .code{font-family:var(--f-display);font-weight:800;font-size:clamp(44px,9vw,64px);letter-spacing:-.04em;line-height:.9;color:var(--accent)}
+.term-head .name{font-size:17px;font-weight:600;color:var(--ink-2)}
+.facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+@media (max-width:680px){.facts{grid-template-columns:minmax(0,1fr)}}
+.fact{background:var(--sunken);border:1px solid var(--line);border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.fact span{font:600 11px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.fact p{margin:0;font-size:14px}
+.matrix{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);box-shadow:var(--shadow)}
+.matrix table{border-collapse:collapse;min-width:780px;width:100%;font-size:12px}
+.matrix th,.matrix td{padding:9px 6px;border-bottom:1px solid var(--line);text-align:center}
+.matrix tr:last-child td{border-bottom:0}
+.matrix th{font:500 11px var(--f-mono);color:var(--muted);vertical-align:bottom}
+.matrix td:first-child,.matrix th:first-child{text-align:left;font:600 13px var(--f-mono);padding-left:16px;position:sticky;left:0;background:var(--surface)}
+.cell{display:inline-block;width:26px;padding:3px 0;border-radius:6px;font:600 11px var(--f-mono)}
+.cell.S{background:var(--seller);color:var(--on-accent)}
+.cell.B{background:var(--buyer);color:#fff}
+.matrix tr{cursor:pointer}
+.matrix tr.sel td,.matrix tr.sel td:first-child{background:var(--accent-soft)}
+.matrix tr.sel td:first-child{color:var(--accent-ink)}
+
+/* Docs */
+.items{overflow-x:auto;border:1px solid var(--line);border-radius:12px}
+.items table{border-collapse:collapse;min-width:920px;width:100%}
+.items th{font:500 11px var(--f-mono);letter-spacing:.04em;color:var(--muted);text-align:left;padding:10px 8px;border-bottom:1px solid var(--line);background:var(--sunken)}
+.items td{padding:6px;border-bottom:1px solid var(--line)}
+.items tr:last-child td{border-bottom:0}
+.items input{font-size:13px;height:38px;padding:0 9px}
+.items .x{appearance:none;border:0;background:none;color:var(--muted);font-size:20px;cursor:pointer;padding:4px 10px;border-radius:8px}
+.items .x:hover{background:var(--sunken);color:var(--ink)}
+.status{font-size:13px;color:var(--muted);min-height:1.4em;margin:0}
+.status.ok{color:var(--good)} .status.err{color:var(--warn)}
+
+/* News */
+.newshead{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:end}
+@media (max-width:760px){.newshead{grid-template-columns:minmax(0,1fr)}}
+.stats{display:flex;gap:10px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 16px;min-width:120px;box-shadow:var(--shadow)}
+.stat b{display:block;font-family:var(--f-display);font-weight:800;font-size:28px;letter-spacing:-.03em;line-height:1}
+.stat span{font:500 11px var(--f-mono);color:var(--muted)}
+.filters{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px;margin-inline:-16px;padding-inline:16px}
+.filters::-webkit-scrollbar{display:none}
+@media (min-width:720px){.filters{flex-wrap:wrap;margin-inline:0;padding-inline:0}}
+.fpill{appearance:none;flex:none;border:1px solid var(--line);background:var(--surface);color:var(--ink-2);font:600 13px var(--f-body);padding:8px 14px;border-radius:999px;cursor:pointer;white-space:nowrap;transition:all .15s}
+.fpill:hover{border-color:var(--line-2)}
+.fpill[aria-pressed="true"]{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+.news{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+@media (max-width:820px){.news{grid-template-columns:minmax(0,1fr)}}
+.nitem{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:22px;display:flex;flex-direction:column;gap:12px;min-width:0;box-shadow:var(--shadow);transition:transform .2s,border-color .2s}
+.nitem:hover{transform:translateY(-2px);border-color:var(--line-2)}
+.nitem.feat{grid-column:1/-1;background:linear-gradient(135deg,#0E2A6B,#081634 60%,#05060A);color:var(--on-navy);border-color:rgba(212,175,55,.35);padding:clamp(22px,4vw,36px);gap:14px;overflow:hidden}
+.nitem.feat::after{content:"";position:absolute;right:-80px;top:-80px;width:280px;height:280px;border-radius:50%;background:radial-gradient(circle,color-mix(in srgb,var(--accent) 45%,transparent),transparent 70%);pointer-events:none}
+.nitem.feat > *{position:relative;z-index:1}
+.flag{align-self:flex-start;font:600 11px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--on-accent);background:var(--accent);padding:5px 10px;border-radius:999px}
+.nmeta{display:flex;gap:10px;align-items:center;flex-wrap:wrap;font:500 12px var(--f-mono);color:var(--muted)}
+.nitem.feat .nmeta{color:color-mix(in srgb,var(--on-navy) 70%,transparent)}
+.chip{font:600 11px var(--f-mono);letter-spacing:.04em;padding:4px 9px;border-radius:999px;background:var(--accent-soft);color:var(--accent-ink)}
+.nitem.feat .chip{background:color-mix(in srgb,var(--on-navy) 12%,transparent);color:var(--on-navy)}
+.nitem h4{margin:0;font-family:var(--f-display);font-weight:700;font-size:20px;letter-spacing:-.02em;line-height:1.2;text-wrap:balance}
+.nitem.feat h4{font-size:clamp(24px,4.4vw,38px);font-weight:800;letter-spacing:-.03em;max-width:24ch}
+.nitem p{margin:0;max-width:72ch;color:var(--ink-2)}
+.nitem.feat p{color:color-mix(in srgb,var(--on-navy) 85%,transparent)}
+.nwhy{font-size:14px}
+.nwhy b{font-weight:600;color:var(--ink)}
+.nitem.feat .nwhy b{color:var(--on-navy)}
+.nvid{font-size:14px;background:var(--sunken);border-radius:12px;padding:12px 14px;border:1px dashed var(--line-2)}
+.nvid b{color:var(--accent-ink)}
+.nitem.feat .nvid{background:color-mix(in srgb,var(--on-navy) 8%,transparent);border-color:color-mix(in srgb,var(--on-navy) 22%,transparent)}
+.nitem.feat .nvid b{color:var(--accent)}
+.nlink{color:inherit;text-decoration:none}
+.nlink::after{content:"";position:absolute;inset:0;z-index:2;border-radius:inherit}
+.nitem{cursor:pointer}
+.nitem .nsrc{position:relative;z-index:3}
+.nitem:hover h4{color:var(--accent-ink)}
+.nitem.feat:hover h4{color:var(--accent)}
+.ngo{font:600 13px var(--f-body);color:var(--accent-ink);margin-top:auto}
+.nitem.feat .ngo{color:var(--accent)}
+.nlink:focus-visible{outline:none}.nitem:has(.nlink:focus-visible){outline:2px solid var(--accent);outline-offset:2px}
+.nsrc{display:flex;gap:8px;flex-wrap:wrap;padding-top:4px}
+.nsrc a{font:600 13px var(--f-body);color:var(--ink);text-decoration:none;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 12px;display:inline-flex;gap:8px;align-items:center;transition:border-color .15s}
+.nsrc a::after{content:"↗";color:var(--muted)}
+.nsrc a:hover{border-color:var(--accent)}
+.nitem.feat .nsrc a{background:color-mix(in srgb,var(--on-navy) 10%,transparent);border-color:color-mix(in srgb,var(--on-navy) 20%,transparent);color:var(--on-navy)}
+.nsrc a small{font:600 10px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--good)}
+.nsrc a small.m{color:var(--muted)}
+.nitem.feat .nsrc a small.m{color:color-mix(in srgb,var(--on-navy) 60%,transparent)}
+.sources{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}
+.src{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:4px;text-decoration:none;color:var(--ink);min-width:0;transition:border-color .15s,transform .15s}
+.src:hover{border-color:var(--accent);transform:translateY(-1px)}
+.src b{font-family:var(--f-display);font-weight:700;font-size:16px;letter-spacing:-.01em}
+.src span{font-size:13px;color:var(--muted)}
+.src em{font-style:normal;font:500 11px var(--f-mono);color:var(--accent-ink);overflow-wrap:anywhere}
+.join{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:24px;align-items:center;padding:clamp(22px,4vw,36px);border-radius:var(--r);background:linear-gradient(135deg,rgba(212,175,55,.14),rgba(14,42,107,.35) 55%,rgba(5,6,8,.2));border:1px solid rgba(212,175,55,.35)}
+@media (max-width:760px){.join{grid-template-columns:minmax(0,1fr)}}
+.join h3{margin:6px 0 8px;font-family:var(--f-display);font-weight:800;font-size:clamp(24px,4vw,34px);letter-spacing:-.03em;line-height:1.05}
+.join p{margin:0;color:var(--ink-2)}
+.join-actions{display:flex;flex-direction:column;gap:10px}
+.join-actions .btn{justify-content:center;text-decoration:none}
+.btn.blue{background:var(--blue);color:#fff}
+footer{border-top:1px solid var(--line);padding-block:28px;color:var(--muted);font-size:13px}
+footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+footer b{color:var(--ink);font-family:var(--f-display)}
+</style>
+
+</head>
+<body>
+<header class="top">
+  <div class="wrap bar">
+    <a class="logo" href="#noticias" aria-label="Comex con Ian, inicio">
+      <span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><rect x="2.5" y="7" width="19" height="12" rx="2" style="fill:var(--accent)"/><path d="M7 9.5v7M10.5 9.5v7M14 9.5v7M17.5 9.5v7" stroke-width="1.6" stroke-linecap="round" style="stroke:var(--on-navy);opacity:.9"/><path d="M5 7l3-3h8l3 3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="stroke:var(--on-navy)"/></svg></span>
+      <b>Comex <span>con Ian</span></b>
+    </a>
+    <nav class="tabs" role="tablist" aria-label="Secciones">
+      <button class="tab" role="tab" id="t-news" data-tab="noticias" aria-selected="true">Noticias</button>
+      <button class="tab" role="tab" id="t-calc" data-tab="calculadora" aria-selected="false">Calculadora</button>
+      <button class="tab" role="tab" id="t-inco" data-tab="incoterms" aria-selected="false">Incoterms</button>
+      <button class="tab" role="tab" id="t-docs" data-tab="documentos" aria-selected="false">Documentos</button>
+    </nav>
+    <span class="status-pill"><span class="live" aria-hidden="true"></span><span id="hupd">Radar</span></span>
+  </div>
+</header>
+
+<nav class="dock" aria-label="Secciones">
+  <button class="tab" data-tab="noticias" aria-selected="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h13a2 2 0 0 1 2 2v12H6a2 2 0 0 1-2-2V5Z"/><path d="M19 9h1a1 1 0 0 1 1 1v8a1 1 0 0 1-2 0"/><path d="M8 9h7M8 13h7M8 17h4"/></svg>Noticias</button>
+  <button class="tab" data-tab="calculadora" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2.5"/><path d="M8 7h8M8 11h.01M12 11h.01M16 11h.01M8 15h.01M12 15h.01M16 15v3M8 18h4"/></svg>Calculadora</button>
+  <button class="tab" data-tab="incoterms" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17h18l-2 3H5l-2-3Z"/><path d="M6 17V10h12v7"/><path d="M9 10V6h6v4"/></svg>Incoterms</button>
+  <button class="tab" data-tab="documentos" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8l-5-5Z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg>Documentos</button>
+</nav>
+
+<main class="wrap">
+
+<!-- NOTICIAS -->
+<section class="panel" id="p-noticias" role="tabpanel" aria-labelledby="t-news">
+  <div class="newshead">
+    <div class="lede">
+      <span class="eyebrow"><span class="live" aria-hidden="true"></span><span>Radar de comex · <span id="nupd">Actualizado</span></span></span>
+      <h2>Lo que mueve el comercio exterior <em>argentino</em></h2>
+      <p>Normas, aranceles, dólar y datos oficiales, explicados simple. Cada novedad tiene su fecha y su fuente para que la verifiques.</p>
+    </div>
+    <div class="stats">
+      <div class="stat"><b id="ncount">0</b><span>novedades</span></div>
+      <div class="stat"><b id="nsrcs">11</b><span>fuentes que seguimos</span></div>
+    </div>
+  </div>
+  <div class="filters" id="nfilter" role="group" aria-label="Filtrar por tema"></div>
+  <div class="news" id="news"></div>
+  <div class="join" id="join" hidden>
+    <div class="join-copy">
+      <span class="eyebrow">Gratis · Todos los días</span>
+      <h3>Recibí el radar de comex antes que nadie</h3>
+      <p>Las normas, el dólar y los datos oficiales que importan, explicados simple y con su fuente.</p>
+    </div>
+    <div class="join-actions">
+      <a class="btn" id="joinform" href="#" target="_blank" rel="noopener" hidden><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Crear mi cuenta con mail</a>
+      <a class="btn blue" id="joincanal" href="#" target="_blank" rel="noopener" hidden><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>Activar notificaciones</a>
+      <p class="note">Usamos tu mail solo para mandarte el radar. Te podés dar de baja cuando quieras.</p>
+    </div>
+  </div>
+  <h3 class="section-title">Fuentes que seguimos</h3>
+  <div class="sources" id="sources"></div>
+</section>
+
+<!-- CALCULADORA -->
+<section class="panel" id="p-calculadora" role="tabpanel" aria-labelledby="t-calc" hidden>
+  <div class="lede">
+    <span class="eyebrow">¿Cuánto cuesta traerlo?</span>
+    <h2>Calculá el costo real de <em>importar</em> o exportar</h2>
+    <p>Buscá tu producto entre las más de 10.000 posiciones del NCM, cargá precio y flete, y mirá cómo se arma el costo final. Todo se puede editar.</p>
+  </div>
+  <div class="seg" role="group" aria-label="Operación">
+    <button id="m-imp" aria-pressed="true">Importación</button>
+    <button id="m-exp" aria-pressed="false">Exportación</button>
+  </div>
+
+  <!-- Import -->
+  <div class="grid2" id="imp">
+    <div class="card">
+      <h3>Producto</h3>
+      <div class="ncm-wrap">
+        <label class="f" for="ncmq"><span class="sr">Buscar producto o posición NCM</span>
+          <input id="ncmq" type="text" autocomplete="off" placeholder="Buscá: zapatillas, celular, 6404, 8471.30…">
+        </label>
+        <div class="ncm-list" id="ncmlist" hidden></div>
+      </div>
+      <div id="ncmsel"></div>
+      <p class="note">Nomenclador NCM completo (<span id="ncmcount">cargando…</span>) con AEC y reintegro del Anexo I del Decreto 1126/2017. Algunas posiciones cambiaron con la VII Enmienda (2022) y varias alícuotas cambiaron por decretos posteriores.</p>
+      <h3>Valores</h3>
+      <div class="fields">
+        <label class="f" for="fob">Valor FOB total (USD)<input id="fob" type="number" min="0" step="any" value="9000"></label>
+        <label class="f" for="qty">Cantidad de unidades<input id="qty" type="number" min="0" step="any" value="1000"></label>
+        <label class="f" for="flete">Flete internacional (USD)<input id="flete" type="number" min="0" step="any" value="1800"></label>
+        <label class="f" for="seg">Seguro (% sobre FOB + flete)<input id="seg" type="number" min="0" step="any" value="1"></label>
+        <label class="f full" for="tc">Tipo de cambio (ARS por USD, opcional)<input id="tc" type="number" min="0" step="any" placeholder="ej. 1540"></label>
+      </div>
+      <h3>Tributos</h3>
+      <div class="fields">
+        <label class="f" for="die">Derecho de importación %<input id="die" type="number" min="0" step="any" value="35"></label>
+        <label class="f" for="te">Tasa de estadística %<input id="te" type="number" min="0" step="any" value="3"></label>
+        <label class="f" for="iva">IVA %<input id="iva" type="number" min="0" step="any" value="21"></label>
+        <label class="f" for="piva">Percepción IVA %<input id="piva" type="number" min="0" step="any" value="20"></label>
+        <label class="f" for="pgan">Percepción Ganancias %<input id="pgan" type="number" min="0" step="any" value="6"></label>
+        <label class="f" for="iibb">Percepción IIBB %<input id="iibb" type="number" min="0" step="any" value="2.5"></label>
+      </div>
+      <h3>Gastos locales (USD)</h3>
+      <div class="fields">
+        <label class="f" for="desp">Despachante (% del CIF)<input id="desp" type="number" min="0" step="any" value="1"></label>
+        <label class="f" for="term">Terminal y depósito<input id="term" type="number" min="0" step="any" value="450"></label>
+        <label class="f" for="fint">Flete interno<input id="fint" type="number" min="0" step="any" value="300"></label>
+        <label class="f" for="otros">Otros gastos<input id="otros" type="number" min="0" step="any" value="0"></label>
+      </div>
+      <p class="note">Valores orientativos. Confirmá la posición arancelaria y las alícuotas vigentes en <a href="https://www.argentina.gob.ar/vuce" target="_blank" rel="noopener">VUCE</a> o con tu despachante antes de decidir.</p>
+    </div>
+
+    <div class="card result" aria-live="polite">
+      <div class="total"><span class="k">Desembolso total</span><span class="n" id="imptotal"></span></div>
+      <div class="kpis" id="impkpis"></div>
+      <div class="stack" id="impstack" aria-hidden="true"></div>
+      <div class="legend" id="implegend"></div>
+      <table class="ledger" id="impout"></table>
+      <div class="row"><button class="btn ghost small" id="impcopy">Copiar resumen</button><span class="status" id="impcopyst"></span></div>
+    </div>
+  </div>
+
+  <!-- Export -->
+  <div class="grid2" id="exp" hidden>
+    <div class="card">
+      <h3>Producto</h3>
+      <div class="ncm-wrap">
+        <label class="f" for="encmq"><span class="sr">Producto que exportás (NCM)</span>
+          <input id="encmq" type="text" autocomplete="off" placeholder="Buscá: miel, vino, 0409, 2204…">
+        </label>
+        <div class="ncm-list" id="encmlist" hidden></div>
+      </div>
+      <div id="encmsel"></div>
+      <p class="note">Al elegir el producto se carga su reintegro en el rubro 10.</p>
+      <h3>Operación</h3>
+      <div class="fields">
+        <label class="f" for="efob">Valor FOB de la venta (USD)<input id="efob" type="number" min="0" step="any" value="20000"></label>
+        <label class="f" for="etc">Tipo de cambio (opcional)<input id="etc" type="number" min="0" step="any" placeholder="ej. 1540"></label>
+      </div>
+      <h3>Los 10 rubros (USD o % del FOB)</h3>
+      <div class="rubros" id="rubros"></div>
+      <p class="note">El flete y el seguro internacional solo corren por tu cuenta si vendés CFR, CIF, CPT o CIP. Retenciones y reintegros dependen del producto: confirmalos con tu despachante.</p>
+    </div>
+    <div class="card result" aria-live="polite">
+      <div class="total"><span class="k">Neto a cobrar</span><span class="n" id="exptotal"></span></div>
+      <div class="kpis" id="expkpis"></div>
+      <table class="ledger" id="expout"></table>
+      <div class="row"><button class="btn ghost small" id="expcopy">Copiar resumen</button><span class="status" id="expcopyst"></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- INCOTERMS -->
+<section class="panel" id="p-incoterms" role="tabpanel" aria-labelledby="t-inco" hidden>
+  <div class="lede">
+    <span class="eyebrow">Incoterms 2020 · ICC</span>
+    <h2>Quién paga y quién <em>arriesga</em> en cada tramo</h2>
+    <p>Tocá un Incoterm y mirá en el recorrido qué paga el vendedor, qué paga el comprador y en qué punto pasa el riesgo.</p>
+  </div>
+  <div class="terms" id="termpick"></div>
+  <div class="card">
+    <div class="term-head"><span class="code" id="tcode"></span><span class="name" id="tname"></span></div>
+    <div class="route" id="route"></div>
+    <div class="legend">
+      <span><i style="background:var(--seller)"></i>Paga el vendedor</span>
+      <span><i style="background:var(--buyer)"></i>Paga el comprador</span>
+      <span><i style="background:var(--risk);width:3px;height:14px"></i>Acá pasa el riesgo al comprador</span>
+    </div>
+    <div class="facts">
+      <div class="fact"><span>El vendedor entrega</span><p id="fdel"></p></div>
+      <div class="fact"><span>Seguro</span><p id="fins"></p></div>
+      <div class="fact"><span>Conviene cuando</span><p id="fuse"></p></div>
+    </div>
+  </div>
+  <div class="matrix">
+    <table id="matrix"></table>
+  </div>
+  <p class="note">Esquema simplificado para entender la lógica. El reparto exacto de cada gasto, sobre todo descargas y gastos de terminal, depende del contrato y del lugar designado.</p>
+</section>
+
+<!-- DOCUMENTOS -->
+<section class="panel" id="p-documentos" role="tabpanel" aria-labelledby="t-docs" hidden>
+  <div class="lede">
+    <span class="eyebrow">Factura proforma + packing list</span>
+    <h2>Tus documentos en <em>Excel</em>, en un minuto</h2>
+    <p>Completá los datos una vez y descargá un .xlsx con dos hojas: la proforma con precios y el packing list con pesos y bultos. Los datos cargados son un ejemplo para que veas el formato.</p>
+  </div>
+  <div class="grid2" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))">
+    <div class="card">
+      <h3>Exportador / vendedor</h3>
+      <div class="fields">
+        <label class="f full" for="dexp">Razón social<input id="dexp" value="Ningbo Example Footwear Co. (ejemplo)"></label>
+        <label class="f full" for="dexpa">Dirección<input id="dexpa" value="Ningbo, Zhejiang, China"></label>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Importador / comprador</h3>
+      <div class="fields">
+        <label class="f full" for="dimp">Razón social<input id="dimp" value="Importadora Ejemplo S.A. (ejemplo)"></label>
+        <label class="f full" for="dimpa">Dirección y CUIT<input id="dimpa" value="CABA, Argentina · CUIT 30-00000000-0"></label>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <h3>Operación</h3>
+    <div class="fields" style="grid-template-columns:repeat(auto-fill,minmax(min(100%,170px),1fr))">
+      <label class="f" for="dnum">N° proforma<input id="dnum" value="PI-2026-001"></label>
+      <label class="f" for="dfecha">Fecha<input id="dfecha" type="date"></label>
+      <label class="f" for="dinco">Incoterm<select id="dinco"></select></label>
+      <label class="f" for="dlugar">Lugar Incoterm<input id="dlugar" value="Ningbo"></label>
+      <label class="f" for="dorig">Puerto de origen<input id="dorig" value="Ningbo, China"></label>
+      <label class="f" for="ddest">Puerto de destino<input id="ddest" value="Buenos Aires, Argentina"></label>
+      <label class="f" for="dmon">Moneda<select id="dmon"><option>USD</option><option>EUR</option><option>CNY</option></select></label>
+      <label class="f" for="dpago">Condición de pago<input id="dpago" value="30% anticipo, 70% contra BL"></label>
+      <label class="f" for="dvalid">Validez de la oferta<input id="dvalid" value="30 días"></label>
+    </div>
+  </div>
+  <div class="card">
+    <div class="row" style="justify-content:space-between"><h3>Mercadería</h3><button class="btn ghost small" id="additem">+ Agregar ítem</button></div>
+    <div class="items"><table>
+      <thead><tr><th>Descripción</th><th>NCM / HS</th><th>Cant.</th><th>Unidad</th><th>Precio unit.</th><th>Bultos</th><th>Peso neto (kg)</th><th>Peso bruto (kg)</th><th>Medidas bulto (cm)</th><th></th></tr></thead>
+      <tbody id="itembody"></tbody>
+    </table></div>
+    <div class="kpis" id="dockpis" style="grid-template-columns:repeat(auto-fill,minmax(150px,1fr))"></div>
+    <div class="row"><button class="btn" id="dlx">Descargar proforma + packing list (.xlsx)</button></div>
+    <p class="status" id="dlst"></p>
+  </div>
+</section>
+</main>
+
+<footer><div class="wrap"><span><b>Comex con Ian</b> · @iancharaf7</span><span>Herramienta educativa. Los valores son orientativos y no reemplazan el asesoramiento de un despachante de aduana.</span></div></footer>
+<style>.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script>
+(function(){
+const $=id=>document.getElementById(id);
+const num=id=>{const v=parseFloat($(id).value);return isFinite(v)?v:0};
+const usd=v=>'US$ '+v.toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2});
+const ars=v=>'$ '+v.toLocaleString('es-AR',{maximumFractionDigits:0});
+const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+
+/* ---------- Tabs ---------- */
+const TABS=['noticias','calculadora','incoterms','documentos'];
+function showTab(name){
+  if(!TABS.includes(name))name='noticias';
+  document.querySelectorAll('.tab').forEach(t=>t.setAttribute('aria-selected',t.dataset.tab===name?'true':'false'));
+  TABS.forEach(n=>{$('p-'+n).hidden=n!==name});
+  store.set('comex-tab',name);
+}
+document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{showTab(t.dataset.tab);window.scrollTo({top:0})}));
+const hash=(location.hash||'').slice(1);
+showTab(TABS.includes(hash)?hash:'noticias');
+
+/* ---------- NCM completo (nomenclador oficial, ver ncm.json) ---------- */
+const ALIAS={zapatilla:['6404.11.00','6404.19.00'],zapatillas:['6404.11.00','6404.19.00'],remera:['6109.10.00','6109.90.00'],remeras:['6109.10.00','6109.90.00'],jean:['6203.42.00','6204.62.00'],jeans:['6203.42.00','6204.62.00'],buzo:['6110.20.00','6110.30.00'],mochila:['4202.92.00'],mochilas:['4202.92.00'],juguete:['9503.00.99'],juguetes:['9503.00.99'],maquillaje:['3304.99.90','3304.20.10'],cosmeticos:['3304.99.90'],auricular:['8518.30.00'],auriculares:['8518.30.00'],cargador:['8504.40.90'],cargadores:['8504.40.90'],cafetera:['8516.71.00'],notebook:['8471.30.12','8471.30.19'],notebooks:['8471.30.12','8471.30.19'],laptop:['8471.30.12'],celular:['8517.12.31'],celulares:['8517.12.31'],smartphone:['8517.12.31'],televisor:['8528.72.00'],tele:['8528.72.00'],licuadora:['8509.40.10'],anteojos:['9004.10.00'],pelota:['9506.62.00'],monopatin:['8711.60.00'],bici:['8711.60.00','8712.00.10'],bicicleta:['8712.00.10','8711.60.00']};
+let NCMDATA=null,ncmState='cargando';
+const norm=s=>String(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+let IDX=[];
+function buildIndex(d){IDX=d.i.map(x=>({c:x[0],d:x[1],p:x[2],a:x[3],m:x[4],r:x[5],h:d.h[x[0].slice(0,4).replace('.','')]||'',k:''}));IDX.forEach(o=>{o.k=norm(o.d+' '+o.p+' '+o.h);o.cd=o.c.replace(/\./g,'')})}
+const byCode=c=>IDX.find(o=>o.c===c);
+function label(o){const generic=/^(los|las) dem[aá]s|^otros|^otras|^de algod|^de pl[aá]stico|^port[aá]tiles/i.test(o.d)||o.d.length<28;return generic&&(o.p||o.h)?(o.p||o.h).split(' › ').slice(-1)[0]+' › '+o.d:o.d}
+function search(q){
+  q=norm(q.trim());if(!q)return [];
+  const digits=q.replace(/[.\s]/g,'');
+  if(/^\d{2,8}$/.test(digits))return IDX.filter(o=>o.cd.startsWith(digits)).slice(0,60);
+  const words=q.split(/\s+/).filter(Boolean);const alias=new Set();words.forEach(w=>(ALIAS[w]||[]).forEach(c=>alias.add(c)));
+  const rx=words.map(w=>new RegExp('(^|[^a-z0-9])'+w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')));
+  const res=[];IDX.forEach(o=>{if(alias.has(o.c)){res.push([0,o]);return}
+    if(!rx.every(r=>r.test(o.k)))return;
+    const d=o.nd||(o.nd=norm(o.d)),dp=o.ndp||(o.ndp=norm(o.d+' '+o.p));
+    res.push([rx.every(r=>r.test(d))?1:rx.every(r=>r.test(dp))?2:3,o])});
+  return res.sort((a,b)=>a[0]-b[0]||a[1].c.localeCompare(b[1].c)).slice(0,60).map(x=>x[1]);
+}
+function ncmPicker(inputId,listId,onPick){
+  const inp=$(inputId),L=$(listId);
+  inp.addEventListener('input',()=>{
+    L.innerHTML='';const q=inp.value.trim();if(!q){L.hidden=true;return}
+    if(!IDX.length){const p=document.createElement('p');p.className='note';p.style.padding='10px 12px';p.textContent=ncmState==='error'?'No se pudo cargar el nomenclador. Cargá los porcentajes a mano.':'Cargando el nomenclador…';L.append(p);L.hidden=false;return}
+    const hits=search(q);
+    if(!hits.length){const p=document.createElement('p');p.className='note';p.style.padding='10px 12px';p.textContent='Sin resultados. Probá con otra palabra o con los primeros dígitos del NCM.';L.append(p)}
+    hits.forEach(h=>{const b=document.createElement('button');b.type='button';const s=document.createElement('span');s.textContent=label(h);const c=document.createElement('code');c.textContent=h.c+' · AEC '+h.a+'%';b.append(s,c);b.addEventListener('click',()=>{inp.value='';L.hidden=true;onPick(h)});L.append(b)});
+    L.hidden=false;
+  });
+}
+document.addEventListener('click',e=>{if(!e.target.closest('.ncm-wrap'))document.querySelectorAll('.ncm-list').forEach(l=>l.hidden=true)});
+let chosen={c:'6404.11.00',d:'Calzado de deporte (zapatillas)',p:'',h:'',a:35,m:'',r:7.5};
+function selHTML(o,extra){
+  const w=document.createElement('div');w.style.display='flex';w.style.flexDirection='column';w.style.gap='4px';w.style.minWidth='0';
+  const t=document.createElement('span');t.style.fontSize='14px';const b=document.createElement('b');b.style.fontFamily='var(--f-mono)';b.textContent=o.c+' ';t.append(b,document.createTextNode(label(o)));
+  const ctx=document.createElement('span');ctx.className='note';ctx.textContent=[o.h,o.p].filter(Boolean).join(' › ');
+  const tags=document.createElement('div');tags.className='row';tags.style.gap='6px';
+  [['AEC '+o.a+'%'],['Reintegro '+(o.r==null?'—':String(o.r).replace('.',','))+'%'],o.m?[o.m==='BK'?'Bien de capital':'Informática y telecom.']:null,['Referencial']].filter(Boolean).forEach(([x])=>{const s=document.createElement('span');s.className='badge';s.textContent=x;tags.append(s)});
+  w.append(t);if(ctx.textContent)w.append(ctx);w.append(tags);return w;
+}
+function renderSel(){$('ncmsel').innerHTML='';$('ncmsel').append(selHTML(chosen))}
+ncmPicker('ncmq','ncmlist',o=>{chosen=o;$('die').value=o.a;$('iva').value=(o.m==='BK'||o.m==='BIT')?10.5:21;renderSel();calcImp()});
+let echosen=null;
+ncmPicker('encmq','encmlist',o=>{echosen=o;$('r9').value=o.r==null?0:o.r;$('ru9').value='pct';$('encmsel').innerHTML='';$('encmsel').append(selHTML(o));calcExp()});
+renderSel();
+fetch('ncm.json').then(r=>r.ok?r.json():Promise.reject()).then(d=>{NCMDATA=d;buildIndex(d);ncmState='ok';const o=byCode(chosen.c);if(o){chosen=o;renderSel()}$('ncmcount').textContent=IDX.length.toLocaleString('es-AR')+' posiciones';}).catch(()=>{ncmState='error';$('ncmcount').textContent='no se pudo cargar'});
+
+
+/* ---------- Import calc ---------- */
+const COLORS={fob:'var(--muted)',log:'var(--buyer)',trib:'var(--accent)',rec:'var(--warn)',loc:'var(--good)'};
+let impSummary='';
+function row(label,val,cls){return `<tr class="${cls||''}"><td>${label}</td><td class="v">${val===null?'':usd(val)}</td></tr>`}
+function calcImp(){
+  const fob=num('fob'),fl=num('flete'),qty=num('qty'),tc=num('tc');
+  const seg=(fob+fl)*num('seg')/100;
+  const cif=fob+fl+seg;
+  const die=cif*num('die')/100, te=cif*num('te')/100;
+  const base=cif+die+te;
+  const iva=base*num('iva')/100, piva=base*num('piva')/100, pgan=base*num('pgan')/100, iibb=base*num('iibb')/100;
+  const desp=cif*num('desp')/100, term=num('term'), fint=num('fint'), otros=num('otros');
+  const trib=die+te, rec=iva+piva+pgan+iibb, loc=desp+term+fint+otros;
+  const total=cif+trib+rec+loc;
+  const real=cif+trib+loc;
+  $('impout').innerHTML=
+    row('Valor de la mercadería y transporte',null,'group')+
+    row('Precio FOB',fob)+row('Flete internacional',fl)+row('Seguro',seg)+row('Valor en aduana (CIF)',cif,'sub')+
+    row('Tributos que son costo',null,'group')+
+    row(`Derecho de importación (${num('die')}%)`,die)+row(`Tasa de estadística (${num('te')}%)`,te)+
+    row('IVA y percepciones (se recuperan si sos inscripto)',null,'group')+
+    row(`IVA (${num('iva')}%)`,iva)+row(`Percepción IVA (${num('piva')}%)`,piva)+row(`Percepción Ganancias (${num('pgan')}%)`,pgan)+row(`Percepción IIBB (${num('iibb')}%)`,iibb)+
+    row('Gastos locales',null,'group')+
+    row(`Despachante (${num('desp')}% CIF)`,desp)+row('Terminal y depósito',term)+row('Flete interno',fint)+(otros?row('Otros',otros):'');
+  $('imptotal').innerHTML=usd(total)+(tc?`<small>${ars(total*tc)}</small>`:'');
+  const k=[['Costo real (sin recuperables)',usd(real)],['Costo real por unidad',qty?usd(real/qty):'—'],['Multiplicador sobre FOB',fob?'× '+(real/fob).toFixed(2):'—'],['A recuperar como crédito',usd(rec)]];
+  if(tc&&qty)k.push(['Por unidad en pesos',ars(real/qty*tc)]);
+  $('impkpis').innerHTML=k.map(([a,b])=>`<div class="kpi"><span>${a}</span><b>${b}</b></div>`).join('');
+  const parts=[['Mercadería (FOB)',fob,COLORS.fob],['Flete y seguro',fl+seg,COLORS.log],['Derechos y tasa',trib,COLORS.trib],['IVA y percepciones',rec,COLORS.rec],['Gastos locales',loc,COLORS.loc]];
+  $('impstack').innerHTML=total?parts.map(p=>`<i style="width:${p[1]/total*100}%;background:${p[2]}"></i>`).join(''):'';
+  $('implegend').innerHTML=parts.map(p=>`<span><i style="background:${p[2]}"></i>${p[0]} ${total?Math.round(p[1]/total*100):0}%</span>`).join('');
+  impSummary=`¿Cuánto cuesta traerlo? · ${label(chosen)} (NCM ${chosen.c})\nFOB: ${usd(fob)} · Flete: ${usd(fl)} · Seguro: ${usd(seg)}\nCIF: ${usd(cif)}\nDerechos + tasa: ${usd(trib)}\nIVA y percepciones: ${usd(rec)}\nGastos locales: ${usd(loc)}\nDesembolso total: ${usd(total)}\nCosto real: ${usd(real)}${qty?` · por unidad ${usd(real/qty)}`:''}\nValores orientativos · Comex con Ian`;
+}
+['fob','qty','flete','seg','tc','die','te','iva','piva','pgan','iibb','desp','term','fint','otros'].forEach(id=>$(id).addEventListener('input',calcImp));
+
+/* ---------- Export calc (10 rubros) ---------- */
+const RUBROS=[
+ ['Flete interno a puerto o aeropuerto',350,'usd'],
+ ['Gastos portuarios y de terminal (THC)',280,'usd'],
+ ['Honorarios del despachante',1,'pct'],
+ ['Certificaciones y trámites',150,'usd'],
+ ['Flete internacional',0,'usd'],
+ ['Seguro internacional',0,'pct'],
+ ['Tasas y gastos aduaneros varios',120,'usd'],
+ ['Derechos de exportación (retención)',0,'pct'],
+ ['Comisión de intermediación o agente',0,'pct'],
+ ['Reintegro a la exportación',0,'pct']
+];
+$('rubros').innerHTML=RUBROS.map((r,i)=>`<div class="rubro"><span class="num">${String(i+1).padStart(2,'0')}</span><label class="lbl" for="r${i}">${r[0]}</label><input id="r${i}" type="number" min="0" step="any" value="${r[1]}"><select id="ru${i}" aria-label="Unidad de ${r[0]}"><option value="usd"${r[2]==='usd'?' selected':''}>USD</option><option value="pct"${r[2]==='pct'?' selected':''}>% FOB</option></select></div>`).join('');
+let expSummary='';
+function calcExp(){
+  const fob=num('efob'),tc=num('etc');let html=row('Valor FOB de la venta',fob,'sub')+row('Costos y retenciones',null,'group');let ded=0,credit=0;const lines=[];
+  RUBROS.forEach((r,i)=>{const v=num('r'+i);const amt=$('ru'+i).value==='pct'?fob*v/100:v;
+    if(i===9){credit=amt}else{ded+=amt;html+=row(`${String(i+1).padStart(2,'0')} · ${r[0]}`,-amt)}
+    lines.push(`${r[0]}: ${i===9?'+':'-'}${usd(amt)}`)});
+  html+=row('A favor',null,'group')+`<tr class="neg"><td>10 · Reintegro a la exportación</td><td class="v">+${usd(credit)}</td></tr>`;
+  const neto=fob-ded+credit;
+  $('expout').innerHTML=html;
+  $('exptotal').innerHTML=usd(neto)+(tc?`<small>${ars(neto*tc)}</small>`:'');
+  $('expkpis').innerHTML=`<div class="kpi"><span>Total de costos</span><b>${usd(ded)}</b></div><div class="kpi"><span>Te queda del FOB</span><b>${fob?(neto/fob*100).toFixed(1)+'%':'—'}</b></div>`;
+  expSummary=`Exportación · FOB ${usd(fob)}\n${lines.join('\n')}\nNeto a cobrar: ${usd(neto)}\nValores orientativos · Comex con Ian`;
+}
+document.querySelectorAll('#rubros input,#rubros select,#efob,#etc').forEach(el=>el.addEventListener('input',calcExp));
+document.querySelectorAll('#rubros select').forEach(el=>el.addEventListener('change',calcExp));
+
+function mode(m){$('m-imp').setAttribute('aria-pressed',m==='imp');$('m-exp').setAttribute('aria-pressed',m==='exp');$('imp').hidden=m!=='imp';$('exp').hidden=m!=='exp'}
+$('m-imp').addEventListener('click',()=>mode('imp'));$('m-exp').addEventListener('click',()=>mode('exp'));
+
+function copy(text,st){
+  const done=()=>{$(st).textContent='Copiado';$(st).className='status ok'};
+  try{navigator.clipboard.writeText(text).then(done,()=>fallback())}catch(e){fallback()}
+  function fallback(){const ta=document.createElement('textarea');ta.value=text;document.body.append(ta);ta.select();let ok=false;try{ok=document.execCommand('copy')}catch(e){}ta.remove();if(ok)done();else{$(st).textContent='No se pudo copiar en esta vista';$(st).className='status err'}}
+}
+$('impcopy').addEventListener('click',()=>copy(impSummary,'impcopyst'));
+$('expcopy').addEventListener('click',()=>copy(expSummary,'expcopyst'));
+calcImp();calcExp();
+
+/* ---------- Incoterms ---------- */
+const STEPS=['Embalaje y carga en origen','Transporte hasta puerto de origen','Aduana de exportación','Carga a bordo','Flete internacional','Descarga en destino','Aduana de importación e impuestos','Transporte hasta destino final','Descarga final'];
+const SHORT=['Carga','Transp. origen','Aduana expo','A bordo','Flete int.','Descarga dest.','Aduana impo','Transp. destino','Descarga final'];
+// S = vendedor, B = comprador. risk = cantidad de tramos tras los cuales pasa el riesgo.
+const INCO=[
+ {c:'EXW',n:'Ex Works · En fábrica',g:'any',p:'BBBBBBBBB',risk:0,ins:'No obligatorio. Lo contrata el comprador si quiere.',del:'En su propio depósito, sin cargar la mercadería.',use:'El comprador tiene su propia logística en origen. Para el vendedor es el mínimo compromiso.'},
+ {c:'FCA',n:'Free Carrier · Franco transportista',g:'any',p:'SSSBBBBBB',risk:2,ins:'No obligatorio.',del:'Al transportista que designa el comprador, con la aduana de exportación hecha.',use:'Contenedores y carga aérea. Es el reemplazo moderno de FOB para contenedores.'},
+ {c:'CPT',n:'Carriage Paid To · Transporte pagado hasta',g:'any',p:'SSSSSSBSB',risk:2,ins:'No obligatorio.',del:'Al primer transportista, pero paga el flete hasta el destino.',use:'El vendedor consigue mejores fletes, pero el riesgo del viaje queda en el comprador.'},
+ {c:'CIP',n:'Carriage and Insurance Paid · Transporte y seguro pagados',g:'any',p:'SSSSSSBSB',risk:2,ins:'Vendedor, con cobertura amplia (ICC A, mínimo 110%).',del:'Al primer transportista, pagando flete y seguro hasta destino.',use:'Mercadería de valor alto o frágil, cuando el comprador quiere el seguro incluido.'},
+ {c:'DAP',n:'Delivered at Place · Entregada en lugar',g:'any',p:'SSSSSSBSB',risk:8,ins:'No obligatorio. Lo contrata el vendedor porque el riesgo es suyo.',del:'En el lugar convenido de destino, lista para descargar.',use:'El comprador quiere recibir en su puerta pero hacer su propia aduana de importación.'},
+ {c:'DPU',n:'Delivered at Place Unloaded · Entregada y descargada',g:'any',p:'SSSSSSBSS',risk:9,ins:'No obligatorio. Lo contrata el vendedor porque el riesgo es suyo.',del:'En el lugar convenido, ya descargada.',use:'Entregas en terminales o depósitos donde el vendedor controla la descarga.'},
+ {c:'DDP',n:'Delivered Duty Paid · Entregada con derechos pagados',g:'any',p:'SSSSSSSSB',risk:8,ins:'No obligatorio. Lo contrata el vendedor porque el riesgo es suyo.',del:'En el destino, con la importación hecha e impuestos pagados.',use:'Máximo servicio al comprador. Difícil para extranjeros en Argentina, donde importar exige estar inscripto.'},
+ {c:'FAS',n:'Free Alongside Ship · Franco al costado del buque',g:'sea',p:'SSSBBBBBB',risk:3,ins:'No obligatorio.',del:'Al costado del buque en el puerto de embarque.',use:'Graneles y carga pesada o sobredimensionada.'},
+ {c:'FOB',n:'Free On Board · Franco a bordo',g:'sea',p:'SSSSBBBBB',risk:4,ins:'No obligatorio.',del:'A bordo del buque en el puerto de embarque.',use:'El más usado en marítimo. El comprador elige el flete y controla el costo del viaje.'},
+ {c:'CFR',n:'Cost and Freight · Costo y flete',g:'sea',p:'SSSSSBBBB',risk:4,ins:'No obligatorio.',del:'A bordo en origen, pero paga el flete hasta el puerto de destino.',use:'El vendedor negocia el flete. Ojo: el riesgo pasa al comprador al cargar en origen.'},
+ {c:'CIF',n:'Cost, Insurance and Freight · Costo, seguro y flete',g:'sea',p:'SSSSSBBBB',risk:4,ins:'Vendedor, con cobertura mínima (ICC C, 110%).',del:'A bordo en origen, pagando flete y seguro hasta el puerto de destino.',use:'Muy común. Es la base del valor en aduana en Argentina.'}
+];
+let curTerm='FOB';
+function pills(){
+  const groups=[['any','Cualquier medio de transporte'],['sea','Solo marítimo y fluvial']];
+  $('termpick').innerHTML=groups.map(([g,l])=>`<div class="term-group"><span class="lab">${l}</span><div class="term-pills">${INCO.filter(t=>t.g===g).map(t=>`<button class="pill" data-t="${t.c}" aria-pressed="${t.c===curTerm}">${t.c}</button>`).join('')}</div></div>`).join('');
+  $('termpick').querySelectorAll('.pill').forEach(b=>b.addEventListener('click',()=>{curTerm=b.dataset.t;renderTerm()}));
+}
+function css(v){return getComputedStyle(document.documentElement).getPropertyValue(v).trim()}
+function renderTerm(){
+  pills();
+  const t=INCO.find(x=>x.c===curTerm);
+  $('tcode').textContent=t.c;$('tname').textContent=t.n;$('fdel').textContent=t.del;$('fins').textContent=t.ins;$('fuse').textContent=t.use;
+  // route SVG
+  const W=900,H=200,pad=20,n=STEPS.length,cw=(W-pad*2)/n,y=70,h=34;
+  let s=`<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Reparto de costos y riesgo para ${t.c}">`;
+  s+=`<text x="${pad}" y="22" font-family="JetBrains Mono, monospace" font-size="12" style="fill:var(--muted)">ORIGEN · VENDEDOR</text>`;
+  s+=`<text x="${W-pad}" y="22" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="12" style="fill:var(--muted)">DESTINO · COMPRADOR</text>`;
+  for(let i=0;i<n;i++){
+    const x=pad+i*cw, who=t.p[i];
+    s+=`<rect x="${x+2}" y="${y}" width="${cw-4}" height="${h}" rx="8" style="fill:${who==='S'?'var(--seller)':'var(--buyer)'}"/>`;
+    s+=`<text x="${x+cw/2}" y="${y+h/2+5}" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="13" font-weight="600" style="fill:${who==='S'?'var(--on-accent)':'#fff'}">${who==='S'?'V':'C'}</text>`;
+    const words=SHORT[i].split(' ');
+    words.forEach((w,j)=>{s+=`<text x="${x+cw/2}" y="${y+h+20+j*14}" text-anchor="middle" font-family="Instrument Sans, sans-serif" font-size="12" style="fill:var(--ink)">${w}</text>`});
+    s+=`<text x="${x+cw/2}" y="${y-8}" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" style="fill:var(--muted)">${i+1}</text>`;
+  }
+  const rx=pad+t.risk*cw;
+  s+=`<line x1="${rx}" y1="${y-26}" x2="${rx}" y2="${y+h+6}" style="stroke:var(--risk)" stroke-width="3"/>`;
+  s+=`<polygon points="${rx-6},${y-30} ${rx+6},${y-30} ${rx},${y-22}" style="fill:var(--risk)"/>`;
+  s+=`<text x="${Math.min(Math.max(rx,pad+40),W-pad-40)}" y="${y-36}" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" font-weight="600" style="fill:var(--risk)">RIESGO</text>`;
+  s+='</svg>';
+  $('route').innerHTML=s;
+  // matrix
+  let m='<thead><tr><th>Término</th>'+STEPS.map((st,i)=>`<th title="${st}">${i+1}. ${SHORT[i]}</th>`).join('')+'<th>Riesgo pasa tras</th></tr></thead><tbody>';
+  INCO.forEach(x=>{m+=`<tr class="${x.c===curTerm?'sel':''}"><td>${x.c}</td>`+[...x.p].map(w=>`<td><span class="cell ${w}">${w==='S'?'V':'C'}</span></td>`).join('')+`<td style="font-family:var(--f-mono)">${x.risk===0?'Inicio':'Tramo '+x.risk}</td></tr>`});
+  $('matrix').innerHTML=m+'</tbody>';
+  $('matrix').querySelectorAll('tbody tr').forEach((tr,i)=>{tr.style.cursor='pointer';tr.addEventListener('click',()=>{curTerm=INCO[i].c;renderTerm()})});
+}
+renderTerm();
+
+/* ---------- Documentos ---------- */
+$('dinco').innerHTML=INCO.map(t=>`<option${t.c==='FOB'?' selected':''}>${t.c}</option>`).join('');
+$('dfecha').value=new Date().toISOString().slice(0,10);
+let items=[
+ {d:'Zapatillas deportivas running, talles 38-44 (ejemplo)',ncm:'6404.11',q:600,u:'pares',p:9,b:50,pn:420,pb:480,m:'60x40x35'},
+ {d:'Zapatillas urbanas lona (ejemplo)',ncm:'6404.19',q:400,u:'pares',p:7.5,b:34,pn:260,pb:300,m:'60x40x35'}
+];
+const COLS=[['d','text'],['ncm','text'],['q','number'],['u','text'],['p','number'],['b','number'],['pn','number'],['pb','number'],['m','text']];
+function renderItems(){
+  $('itembody').innerHTML=items.map((it,i)=>'<tr>'+COLS.map(([k,t])=>`<td><input id="it${i}${k}" data-i="${i}" data-k="${k}" type="${t}" ${t==='number'?'step="any" min="0"':''} aria-label="${k}" style="${k==='d'?'min-width:220px':''}"></td>`).join('')+`<td><button class="x" data-del="${i}" aria-label="Quitar ítem">×</button></td></tr>`).join('');
+  items.forEach((it,i)=>COLS.forEach(([k])=>{$('it'+i+k).value=it[k]}));
+  $('itembody').querySelectorAll('input').forEach(el=>el.addEventListener('input',()=>{const it=items[el.dataset.i];it[el.dataset.k]=el.type==='number'?(parseFloat(el.value)||0):el.value;docTotals()}));
+  $('itembody').querySelectorAll('[data-del]').forEach(b=>b.addEventListener('click',()=>{items.splice(+b.dataset.del,1);renderItems()}));
+  docTotals();
+}
+function docTotals(){
+  const t=items.reduce((a,x)=>({v:a.v+x.q*x.p,b:a.b+x.b,pn:a.pn+x.pn,pb:a.pb+x.pb}),{v:0,b:0,pn:0,pb:0});
+  const mon=$('dmon').value;
+  $('dockpis').innerHTML=[['Valor total',mon+' '+t.v.toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2})],['Bultos',t.b],['Peso neto',t.pn.toLocaleString('es-AR')+' kg'],['Peso bruto',t.pb.toLocaleString('es-AR')+' kg']].map(([a,b])=>`<div class="kpi"><span>${a}</span><b>${b}</b></div>`).join('');
+}
+$('dmon').addEventListener('change',docTotals);
+$('additem').addEventListener('click',()=>{items.push({d:'',ncm:'',q:0,u:'unidades',p:0,b:0,pn:0,pb:0,m:''});renderItems()});
+renderItems();
+
+function buildWorkbook(){
+  const v=id=>$(id).value, mon=v('dmon');
+  const head=(title)=>[[title],[],['Exportador',v('dexp')],['Dirección',v('dexpa')],['Importador',v('dimp')],['Dirección / CUIT',v('dimpa')],[],['N°',v('dnum'),'','Fecha',v('dfecha')],['Incoterm 2020',v('dinco')+' '+v('dlugar'),'','Moneda',mon],['Puerto de origen',v('dorig'),'','Puerto de destino',v('ddest')]];
+  const pi=head('FACTURA PROFORMA');
+  pi.push(['Condición de pago',v('dpago'),'','Validez',v('dvalid')],[]);
+  pi.push(['Ítem','Descripción','NCM / HS','Cantidad','Unidad','Precio unitario ('+mon+')','Total ('+mon+')']);
+  const r0=pi.length+1;
+  items.forEach((it,i)=>pi.push([i+1,it.d,it.ncm,it.q,it.u,it.p,null]));
+  const r1=pi.length;
+  pi.push([],['','','','','','TOTAL '+mon,null]);
+  const ws1=XLSX.utils.aoa_to_sheet(pi);
+  items.forEach((it,i)=>{const r=r0+i;ws1['G'+r]={t:'n',f:`D${r}*F${r}`,v:it.q*it.p,z:'#,##0.00'};ws1['F'+r].z='#,##0.00'});
+  const tr=r1+2;ws1['G'+tr]={t:'n',f:`SUM(G${r0}:G${r1})`,v:items.reduce((a,x)=>a+x.q*x.p,0),z:'#,##0.00'};
+  ws1['!cols']=[{wch:18},{wch:46},{wch:14},{wch:12},{wch:12},{wch:20},{wch:18}];
+  const pl=head('PACKING LIST');pl.push([]);
+  pl.push(['Ítem','Descripción','NCM / HS','Cantidad','Unidad','Bultos','Peso neto (kg)','Peso bruto (kg)','Medidas bulto (cm)']);
+  const p0=pl.length+1;
+  items.forEach((it,i)=>pl.push([i+1,it.d,it.ncm,it.q,it.u,it.b,it.pn,it.pb,it.m]));
+  const p1=pl.length;
+  pl.push([],['','','','','TOTALES',null,null,null]);
+  const ws2=XLSX.utils.aoa_to_sheet(pl);const pt=p1+2;
+  [['F','b'],['G','pn'],['H','pb']].forEach(([c,k])=>{ws2[c+pt]={t:'n',f:`SUM(${c}${p0}:${c}${p1})`,v:items.reduce((a,x)=>a+x[k],0)}});
+  ws2['!cols']=[{wch:18},{wch:46},{wch:14},{wch:12},{wch:12},{wch:10},{wch:16},{wch:16},{wch:20}];
+  const wb=XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb,ws1,'Proforma');XLSX.utils.book_append_sheet(wb,ws2,'Packing list');
+  return XLSX.write(wb,{type:'array',bookType:'xlsx'});
+}
+let downloads=null;
+(async()=>{try{downloads=window.claude&&window.claude.use?await window.claude.use('downloads'):null}catch(e){downloads=null}})();
+$('dlx').addEventListener('click',async()=>{
+  const st=$('dlst');st.className='status';
+  if(typeof XLSX==='undefined'){st.textContent='No se pudo cargar el generador de Excel. Recargá la página.';st.className='status err';return}
+  if(!downloads){try{const data=buildWorkbook();const name=(($('dnum').value||'proforma').replace(/[^\w.-]+/g,'_'))+'_proforma_packing.xlsx';const url=URL.createObjectURL(new Blob([data],{type:'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'}));const a=document.createElement('a');a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),4000);st.textContent='Listo: '+name;st.className='status ok'}catch(e){st.textContent='No se pudo generar el archivo.';st.className='status err'}return}
+  try{
+    const data=buildWorkbook();
+    const name=(($('dnum').value||'proforma').replace(/[^\w.-]+/g,'_'))+'_proforma_packing.xlsx';
+    st.textContent='Confirmá la descarga…';
+    await downloads.save({filename:name,data:new Uint8Array(data)});
+    st.textContent='Listo: '+name;st.className='status ok';
+  }catch(e){
+    const c=e&&e.code;
+    st.textContent=c==='declined'?'Descarga cancelada.':c==='rate_limited'?'Ya hay una descarga esperando confirmación.':'No se pudo descargar en esta vista.';
+    st.className='status err';
+  }
+});
+
+/* ---------- Fuentes ---------- */
+const SOURCES=[
+ ['BCRA','Tipo de cambio, comunicaciones cambiarias y acceso al MLC','https://www.bcra.gob.ar'],
+ ['ARCA','Aduana, regímenes de importación y exportación, resoluciones generales','https://www.arca.gob.ar'],
+ ['Boletín Oficial','Decretos y resoluciones: cambios de aranceles, retenciones y reintegros','https://www.boletinoficial.gob.ar'],
+ ['VUCE','Ventanilla Única de Comercio Exterior y posiciones arancelarias','https://www.argentina.gob.ar/vuce'],
+ ['SENASA','Requisitos sanitarios para alimentos, animales y vegetales','https://www.argentina.gob.ar/senasa'],
+ ['ANMAT','Requisitos para cosméticos, medicamentos, alimentos y productos médicos','https://www.argentina.gob.ar/anmat'],
+ ['Ministerio de Economía','Política comercial, licencias y medidas de comercio','https://www.argentina.gob.ar/economia'],
+ ['INDEC','Estadísticas de intercambio comercial argentino','https://www.indec.gob.ar'],
+ ['Mercosur','Arancel Externo Común y nomenclatura NCM','https://www.mercosur.int'],
+ ['OMC','Comercio mundial, aranceles y disputas','https://www.wto.org'],
+ ['Cámara de Comercio Internacional','Reglas Incoterms 2020','https://iccwbo.org']
+];
+/* ---------- Radar de noticias ---------- */
+const MESES=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+const fdate=s=>{const [y,m,d]=String(s).split('-');return d&&m?`${+d} ${MESES[+m-1]} ${y}`:s};
+const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const safeUrl=u=>/^https:\/\//.test(u||'')?u:'#';
+let NEWS={actualizado:'',items:[]},nfil='Todas';
+function renderNews(){
+  const upd=NEWS.actualizado?'Actualizado el '+fdate(NEWS.actualizado):'Radar de comex';
+  $('nupd').textContent=upd;$('hupd').textContent=NEWS.actualizado?'Radar · '+fdate(NEWS.actualizado):'Radar';$('ncount').textContent=NEWS.items.length;
+  const cats=['Todas',...new Set(NEWS.items.map(n=>n.categoria))];
+  $('nfilter').innerHTML=cats.map(c=>`<button class="fpill" data-c="${esc(c)}" aria-pressed="${c===nfil}">${esc(c)}</button>`).join('');
+  $('nfilter').querySelectorAll('.fpill').forEach(b=>b.addEventListener('click',()=>{nfil=b.dataset.c;renderNews()}));
+  const list=NEWS.items.filter(n=>nfil==='Todas'||n.categoria===nfil).sort((a,b)=>String(b.fecha).localeCompare(String(a.fecha)));
+  $('news').innerHTML=list.length?list.map((n,i)=>{const fs=n.fuentes||[];const main=fs[0];return `<article class="nitem${i===0&&nfil==='Todas'?' feat':''}">
+    ${i===0&&nfil==='Todas'?'<span class="flag">Última novedad</span>':''}
+    <div class="nmeta"><time datetime="${esc(n.fecha)}">${esc(fdate(n.fecha))}</time><span class="chip">${esc(n.categoria)}</span></div>
+    <h4>${main?`<a class="nlink" href="${esc(safeUrl(main.url))}" target="_blank" rel="noopener">${esc(n.titulo)}</a>`:esc(n.titulo)}</h4><p>${esc(n.resumen)}</p>
+    ${n.porque?`<p class="nwhy"><b>Por qué importa:</b> ${esc(n.porque)}</p>`:''}
+    ${main?`<span class="ngo">Leer en ${esc(main.nombre)} <span aria-hidden="true">→</span></span>`:''}<div class="nsrc">${fs.map(f=>`<a href="${esc(safeUrl(f.url))}" target="_blank" rel="noopener">${esc(f.nombre)} <small class="${f.oficial?'':'m'}">${f.oficial?'Oficial':'Medio'}</small></a>`).join('')}</div>
+  </article>`}).join(''):'<p class="note">No hay novedades en este tema.</p>';
+}
+const NEWS_FALLBACK=/*NEWS_FALLBACK_START*/{"actualizado": "2026-10-09", "items": [{"fecha": "2026-10-07", "categoria": "Importaciones", "titulo": "Las importaciones de septiembre cayeron 2% interanual y cambió qué se compra", "resumen": "Según El Cronista, en septiembre los autos importados bajaron 29%, los bienes de capital 10% y los combustibles subieron 54% (datos de Federico Bernini, IIEP UBA-Conicet). La importación de smartphones creció 746,6% en el acumulado a agosto (Analytica) y China le gana participación a Brasil (ABECEB).", "porque": "Muestra qué productos están entrando más y desde dónde. Los celulares y China son tema caliente.", "fuentes": [{"nombre": "El Cronista", "url": "https://www.cronista.com/economia-politica/las-importaciones-dibujan-un-nuevo-mapa-productivo-quienes-son-los-nuevos-protagonistas/", "oficial": false}]}, {"fecha": "2026-10-06", "categoria": "Dólar", "titulo": "Dólar mayorista a $1.536,90 y oficial en Banco Nación a $1.540", "resumen": "El mayorista, que es el que se usa como referencia para pagar importaciones, cerró en $1.536,90. En agosto había estado por debajo de $1.500.", "porque": "Cada suba del tipo de cambio encarece en pesos todo lo importado.", "fuentes": [{"nombre": "El Cronista", "url": "https://www.cronista.com/finanzas-mercados/dolar-hoy-a-cuanto-cotiza-el-oficial-en-los-bancos-de-la-city-este-martes-6-de-octubre/", "oficial": false}, {"nombre": "BCRA", "url": "https://www.bcra.gob.ar", "oficial": true}]}, {"fecha": "2026-09-24", "categoria": "ARCA · Aduana", "titulo": "ARCA simplificó cómo se guarda y destruye la documentación aduanera (RG 5900/2026)", "resumen": "Una vez prescripta la acción fiscal, el declarante puede destruir la documentación sin autorización, aviso previo ni veedores. Lo vinculado a procesos administrativos o judiciales en curso se sigue guardando. Deroga las RG 2864, 4476, 4654 y 5043.", "porque": "Menos costo y papeleo para importadores y exportadores que actúan como depositarios fieles.", "fuentes": [{"nombre": "Boletín Oficial", "url": "https://www.boletinoficial.gob.ar/seccion/primera/20260924", "oficial": true}, {"nombre": "BAE Negocios", "url": "https://www.baenegocios.com/economia/arca-simplifica-el-archivo-de-documentacion-aduanera/", "oficial": false}]}, {"fecha": "2026-09-18", "categoria": "INDEC", "titulo": "Agosto: superávit comercial de US$2.187 millones", "resumen": "Las exportaciones sumaron US$8.883 millones (+12,4% interanual) y las importaciones US$6.696 millones (+3,6%). El saldo fue US$746 millones mayor que en agosto de 2025.", "porque": "Es el dato oficial de cuánto vende y compra Argentina al mundo.", "fuentes": [{"nombre": "INDEC · Intercambio comercial argentino", "url": "https://www.indec.gob.ar/uploads/informesdeprensa/ica_09_266E5973E036.pdf", "oficial": true}]}, {"fecha": "2026-07-01", "categoria": "Exportación", "titulo": "Decreto 566/2026: retenciones en 0% para químicos, plásticos, acero y automotor", "resumen": "El Anexo I lleva a 0% los derechos de exportación desde el 2 de julio para químicos, fertilizantes, plásticos, caucho, acero, metales no ferrosos y productos automotrices. El Anexo II arranca en 4,5% y 3% y baja mes a mes hasta 0% el 1 de junio de 2027.", "porque": "Exportar productos industriales deja de pagar retenciones o paga cada vez menos.", "fuentes": [{"nombre": "Boletín Oficial", "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/343774/20260701", "oficial": true}, {"nombre": "AAACI", "url": "https://aaaci.org.ar/decreto-566-2026-reduccion-y-eliminacion-de-derechos-de-exportacion/", "oficial": false}]}, {"fecha": "2026-06-29", "categoria": "ARCA · Impuestos", "titulo": "Prorrogan hasta el 31/12/2026 la exención de percepciones de IVA y Ganancias en aduana", "resumen": "La RG 5868/2026 de ARCA extiende la exención para bienes de la canasta básica e insumos de micro y pequeñas empresas. Para los insumos, el importador necesita el Certificado MiPyME vigente al momento de importar.", "porque": "Quien califica no adelanta IVA ni Ganancias al importar, y eso mejora mucho la caja.", "fuentes": [{"nombre": "Boletín Oficial", "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/343657/20260629", "oficial": true}, {"nombre": "El Cronista", "url": "https://www.cronista.com/economia-politica/arca-mantiene-un-beneficio-clave-para-importaciones-quienes-evitaran-adelantos-de-iva-y-ganancias-en-aduana/", "oficial": false}]}, {"fecha": "2026-06-03", "categoria": "Exportación", "titulo": "Decreto 423/2026: baja de retenciones al agro hasta 2028", "resumen": "Trigo y cebada pasan de 7,5% a 5,5%. La soja (24%) baja desde enero de 2027 hasta 21% en diciembre de 2027 y 15% en diciembre de 2028. El aceite de soja va de 18-22% a 11-14% a fines de 2028.", "porque": "Marca cuánto le queda al exportador del campo en los próximos dos años.", "fuentes": [{"nombre": "Boletín Oficial", "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/342702/20260603", "oficial": true}, {"nombre": "Infobae", "url": "https://www.infobae.com/economia/2026/06/03/el-gobierno-oficializo-una-reduccion-en-las-retenciones-para-el-agro-y-los-biocombustibles/", "oficial": false}]}, {"fecha": "2026-02-27", "categoria": "Acuerdos", "titulo": "Acuerdo Mercosur-Unión Europea: Argentina fue el primer país en habilitarlo", "resumen": "Argentina completó sus trámites internos y aceptó la aplicación provisional. Según iProfesional, el acuerdo empezó a aplicarse en forma provisional el 1 de mayo de 2026. Elimina aranceles para el 92% de las exportaciones del Mercosur a la UE.", "porque": "Abre el mercado europeo para carne, miel, arroz y soja, y abarata autos y maquinaria europea.", "fuentes": [{"nombre": "Cancillería", "url": "https://cancilleria.gob.ar/es/actualidad/noticias/argentina-es-el-primer-pais-en-cumplir-los-pasos-internos-y-habilitar-la", "oficial": true}, {"nombre": "iProfesional", "url": "https://www.iprofesional.com/comex/450819-acuerdo-union-europea-mercosur-arranca-mayo-argentina-gran-beneficiada", "oficial": false}]}]}/*NEWS_FALLBACK_END*/;
+if(NEWS_FALLBACK){NEWS=NEWS_FALLBACK;renderNews()}else{renderNews()}
+fetch('news.json?t='+Date.now()).then(r=>r.ok?r.json():Promise.reject()).then(d=>{if(d&&Array.isArray(d.items)){NEWS=d;renderNews()}}).catch(()=>{});
+
+$('sources').innerHTML=SOURCES.map(([n,d,u])=>`<a class="src" href="${u}" target="_blank" rel="noopener"><b>${n}</b><span>${d}</span><em>${u.replace('https://','')}</em></a>`).join('');
+const JOIN={form:'',canal:''}; // links del formulario de registro y del canal de avisos
+if(JOIN.form){$('joinform').href=JOIN.form;$('joinform').hidden=false}
+if(JOIN.canal){$('joincanal').href=JOIN.canal;$('joincanal').hidden=false}
+$('join').hidden=!(JOIN.form||JOIN.canal);
+})();
+</script>
+
+<div id="installbar" hidden style="position:fixed;left:12px;right:12px;bottom:calc(84px + env(safe-area-inset-bottom,0px));z-index:40;background:linear-gradient(135deg,#0E2A6B,#081634);border:1px solid rgba(212,175,55,.45);border-radius:16px;padding:14px 16px;display:flex;gap:12px;align-items:center;box-shadow:0 20px 40px -12px rgba(0,0,0,.7);color:#F4F1E8;font:500 14px var(--f-body)">
+  <span style="flex:1" id="installtxt">Instalá Comex con Ian en tu celu.</span>
+  <button id="installbtn" class="btn small" hidden>Instalar</button>
+  <button id="installx" aria-label="Cerrar" style="appearance:none;border:0;background:none;color:#F4F1E8;font-size:20px;cursor:pointer">×</button>
+</div>
+<script>
+(function(){
+  if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));
+  const bar=document.getElementById('installbar'),btn=document.getElementById('installbtn'),txt=document.getElementById('installtxt');
+  let seen=false;try{seen=localStorage.getItem('ci-install-x')==='1'}catch(e){}
+  const standalone=matchMedia('(display-mode: standalone)').matches||navigator.standalone;
+  if(seen||standalone)return;
+  let evt=null;
+  window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();evt=e;btn.hidden=false;bar.hidden=false});
+  const ios=/iphone|ipad|ipod/i.test(navigator.userAgent);
+  if(ios){txt.textContent='Instalala: tocá Compartir y después "Agregar a pantalla de inicio".';setTimeout(()=>bar.hidden=false,2500)}
+  btn.onclick=async()=>{if(!evt)return;evt.prompt();await evt.userChoice.catch(()=>{});bar.hidden=true};
+  document.getElementById('installx').onclick=()=>{bar.hidden=true;try{localStorage.setItem('ci-install-x','1')}catch(e){}};
+})();
+</script>
+</body>
+</html>
