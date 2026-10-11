@@ -1,6 +1,34 @@
 {
-  "actualizado": "2026-10-10",
+  "actualizado": "2026-10-11",
   "items": [
+    {
+      "fecha": "2026-10-09",
+      "categoria": "Dólar",
+      "titulo": "El BCRA compró US$69 millones el viernes y ya suma casi US$15.000 millones en 2026",
+      "resumen": "El Banco Central adquirió US$69 millones en el mercado de cambios el viernes 9 de octubre y acumula US$341 millones en lo que va del mes y US$14.909 millones desde el inicio de la fase cuatro del programa monetario. Las reservas brutas cerraron la semana en US$49.701 millones y el dólar mayorista subió $1,50 hasta $1.517.",
+      "porque": "Un Banco Central que compra dólares y suma reservas le da más previsibilidad al tipo de cambio con el que importadores y exportadores calculan sus costos y precios.",
+      "fuentes": [
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/10/09/el-bcra-acelero-las-compras-de-dolares-y-acumula-casi-usd-15000-millones-en-2026/",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "fecha": "2026-10-09",
+      "categoria": "Logística",
+      "titulo": "Argentina y Uruguay suman cámaras, escáner y trámites digitales en sus puentes fronterizos",
+      "resumen": "En la reunión bilateral del Subcomité Técnico de Controles y Operatoria de Frontera del Mercosur (29 y 30 de septiembre, Salto Grande) se informaron 113 cámaras de seguridad y una sala de monitoreo de Gendarmería en Concordia–Salto, gestiones para un escáner móvil de rayos X para cargas y la digitalización del sellado de trámites en Gualeguaychú–Fray Bentos, y mejoras en Colón–Paysandú.",
+      "porque": "Los pasos con Uruguay mueven buena parte del transporte de cargas por camión; más control digital y escaneo puede acortar demoras en frontera.",
+      "fuentes": [
+        {
+          "nombre": "Aduana News",
+          "url": "https://aduananews.com/argentina-y-uruguay-avanzan-en-la-digitalizacion-y-el-control-de-sus-pasos-fronterizos/",
+          "oficial": false
+        }
+      ]
+    },
     {
       "fecha": "2026-10-08",
       "categoria": "Mundo",
