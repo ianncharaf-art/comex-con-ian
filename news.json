@@ -2,6 +2,20 @@
   "actualizado": "2026-10-13",
   "items": [
     {
+      "fecha": "2026-10-13",
+      "categoria": "Dólar",
+      "titulo": "El BCRA hizo su mayor compra de dólares desde julio: US$291 millones en un día",
+      "resumen": "El martes 13 de octubre el Banco Central compró US$291 millones en el mercado de cambios, la mayor compra desde fines de julio. Ya suma US$15.200 millones desde el inicio de la fase cuatro del programa monetario, por encima de la meta anual de US$10.000 millones acordada con el FMI. Las reservas brutas subieron US$138 millones y cerraron en US$49.839 millones.",
+      "porque": "Más reservas en el Banco Central le dan más estabilidad al dólar con el que importadores y exportadores calculan costos y precios.",
+      "fuentes": [
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/10/13/el-banco-central-realizo-la-mayor-compra-de-dolares-desde-julio-y-ya-acumula-mas-de-usd-15000-millones-en-2026/",
+          "oficial": false
+        }
+      ]
+    },
+    {
       "fecha": "2026-10-09",
       "categoria": "Dólar",
       "titulo": "El BCRA compró US$69 millones el viernes y ya suma casi US$15.000 millones en 2026",
