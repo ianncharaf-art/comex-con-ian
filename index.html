@@ -84,7 +84,7 @@ nav.dock{display:none}
   header nav.tabs{display:none}
   .status-pill{display:none}
   .bar{height:58px}
-  nav.dock{display:grid;grid-template-columns:repeat(4,1fr);position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--glass);backdrop-filter:saturate(1.4) blur(16px);-webkit-backdrop-filter:saturate(1.4) blur(16px);border-top:1px solid var(--line);padding:6px 6px calc(6px + env(safe-area-inset-bottom,0px))}
+  nav.dock{display:grid;grid-template-columns:repeat(5,1fr);position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--glass);backdrop-filter:saturate(1.4) blur(16px);-webkit-backdrop-filter:saturate(1.4) blur(16px);border-top:1px solid var(--line);padding:6px 6px calc(6px + env(safe-area-inset-bottom,0px))}
   nav.dock .tab{flex-direction:column;gap:3px;font-size:11px;padding:6px 2px;border-radius:12px}
   nav.dock .tab svg{width:22px;height:22px}
   nav.dock .tab[aria-selected="true"]{background:none;box-shadow:none;color:var(--accent)}
@@ -203,6 +203,40 @@ table.ledger tr.neg td.v{color:var(--good)}
 .items .x:hover{background:var(--sunken);color:var(--ink)}
 .status{font-size:13px;color:var(--muted);min-height:1.4em;margin:0}
 .status.ok{color:var(--good)} .status.err{color:var(--warn)}
+
+/* Dólar */
+.fxtick{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin-inline:-16px;padding-inline:16px}
+.fxtick::-webkit-scrollbar{display:none}
+@media (min-width:720px){.fxtick{margin-inline:0;padding-inline:0;flex-wrap:wrap}}
+.fxt{appearance:none;flex:none;display:inline-flex;align-items:baseline;gap:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:8px 14px;cursor:pointer;font:500 13px var(--f-body);transition:border-color .15s}
+.fxt:hover{border-color:var(--accent)}
+.fxt b{font:600 14px var(--f-mono);font-variant-numeric:tabular-nums}
+.fxt .lab{color:var(--muted);font-weight:600}
+.fxgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.fx{position:relative;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:20px;display:flex;flex-direction:column;gap:14px;min-width:0;box-shadow:var(--shadow);transition:border-color .4s}
+.fx.hero{background:linear-gradient(135deg,#0E2A6B,#081634 60%,#05060A);border-color:rgba(212,175,55,.35);color:var(--on-navy)}
+.fx.flash{border-color:var(--accent)}
+.fx-h{display:flex;justify-content:space-between;align-items:flex-start;gap:10px}
+.fx-h h4{margin:0;font-family:var(--f-display);font-weight:700;font-size:19px;letter-spacing:-.02em;line-height:1.15}
+.fx-h small{display:block;font:500 11px var(--f-mono);color:var(--muted);margin-top:4px}
+.fx.hero .fx-h small{color:color-mix(in srgb,var(--on-navy) 65%,transparent)}
+.var{flex:none;font:600 12px var(--f-mono);padding:4px 9px;border-radius:999px;background:var(--sunken);color:var(--muted);font-variant-numeric:tabular-nums}
+.var.up{background:var(--good-soft);color:var(--good)}
+.var.down{background:#2A0F12;color:#FF7A7A}
+.fx-v{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.fx-v div{background:var(--sunken);border-radius:12px;padding:10px 12px;min-width:0}
+.fx.hero .fx-v div{background:rgba(5,6,8,.45)}
+.fx-v span{display:block;font:600 11px var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.fx-v b{display:block;font:600 clamp(19px,2.4vw,23px) var(--f-mono);letter-spacing:-.02em;font-variant-numeric:tabular-nums;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fx-v .sell b{color:var(--accent-ink)}
+.fx-f{font:500 11px var(--f-mono);color:var(--muted)}
+.fx.hero .fx-f{color:color-mix(in srgb,var(--on-navy) 65%,transparent)}
+.fxbar{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.fxbar .status-pill{display:inline-flex}
+.fxnote{font-size:13px;color:var(--muted);margin:0;max-width:80ch}
+.fxnote a{color:var(--accent-ink)}
+.usefx{appearance:none;border:0;background:none;color:var(--accent-ink);font:600 12px var(--f-body);padding:2px 0;cursor:pointer;text-align:left;text-decoration:underline;text-underline-offset:3px}
+.usefx[hidden]{display:none}
 
 /* News */
 .newshead{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:end}
@@ -324,6 +358,7 @@ footer b{color:var(--ink);font-family:var(--f-display)}
     </a>
     <nav class="tabs" role="tablist" aria-label="Secciones">
       <button class="tab" role="tab" id="t-news" data-tab="noticias" aria-selected="true">Noticias</button>
+      <button class="tab" role="tab" id="t-fx" data-tab="dolar" aria-selected="false">Dólar</button>
       <button class="tab" role="tab" id="t-calc" data-tab="calculadora" aria-selected="false">Calculadora</button>
       <button class="tab" role="tab" id="t-inco" data-tab="incoterms" aria-selected="false">Incoterms</button>
       <button class="tab" role="tab" id="t-docs" data-tab="documentos" aria-selected="false">Documentos</button>
@@ -336,6 +371,7 @@ footer b{color:var(--ink);font-family:var(--f-display)}
 
 <nav class="dock" aria-label="Secciones">
   <button class="tab" data-tab="noticias" aria-selected="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h13a2 2 0 0 1 2 2v12H6a2 2 0 0 1-2-2V5Z"/><path d="M19 9h1a1 1 0 0 1 1 1v8a1 1 0 0 1-2 0"/><path d="M8 9h7M8 13h7M8 17h4"/></svg>Noticias</button>
+  <button class="tab" data-tab="dolar" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20"/><path d="M17 6.5c-.8-1.5-2.6-2.5-5-2.5-3 0-5 1.5-5 3.7 0 5 10 2.6 10 8 0 2.2-2.1 3.8-5 3.8-2.6 0-4.5-1.1-5.3-2.8"/></svg>Dólar</button>
   <button class="tab" data-tab="calculadora" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2.5"/><path d="M8 7h8M8 11h.01M12 11h.01M16 11h.01M8 15h.01M12 15h.01M16 15v3M8 18h4"/></svg>Calculadora</button>
   <button class="tab" data-tab="incoterms" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17h18l-2 3H5l-2-3Z"/><path d="M6 17V10h12v7"/><path d="M9 10V6h6v4"/></svg>Incoterms</button>
   <button class="tab" data-tab="documentos" aria-selected="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8l-5-5Z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg>Documentos</button>
@@ -356,6 +392,7 @@ footer b{color:var(--ink);font-family:var(--f-display)}
       <div class="stat"><b id="nsrcs">11</b><span>fuentes que seguimos</span></div>
     </div>
   </div>
+  <div class="fxtick" id="fxtick" aria-label="Dólar hoy" hidden></div>
   <div class="filters" id="nfilter" role="group" aria-label="Filtrar por tema"></div>
   <div class="news" id="news"></div>
   <div class="join" id="join" hidden>
@@ -379,6 +416,23 @@ footer b{color:var(--ink);font-family:var(--f-display)}
   </div>
   <h3 class="section-title">Fuentes que seguimos</h3>
   <div class="sources" id="sources"></div>
+</section>
+
+<!-- DÓLAR -->
+<section class="panel" id="p-dolar" role="tabpanel" aria-labelledby="t-fx" hidden>
+  <div class="lede">
+    <span class="eyebrow"><span class="live" aria-hidden="true"></span><span>Cotizaciones en vivo</span></span>
+    <h2>El dólar <em>hoy</em>, todos los tipos</h2>
+    <p>Oficial, blue, MEP, contado con liqui, mayorista, cripto y tarjeta. Se actualiza solo cada minuto mientras tenés la página abierta.</p>
+  </div>
+  <div class="fxbar">
+    <span class="status-pill"><span class="live" aria-hidden="true"></span><span id="fxupd">Cargando cotizaciones…</span></span>
+    <button class="fpill" id="fxreload" type="button">Actualizar ahora</button>
+  </div>
+  <div class="fxgrid" id="fxgrid" aria-live="polite"></div>
+  <h3 class="section-title">Otras monedas</h3>
+  <div class="fxgrid" id="fxother"></div>
+  <p class="fxnote">Valores en pesos por unidad. La variación compara el precio de venta con el cierre del día hábil anterior. Fuentes: <a href="https://dolarapi.com" target="_blank" rel="noopener">DolarApi</a> (BNA, mercado y casas de cambio) y <a href="https://argentinadatos.com" target="_blank" rel="noopener">ArgentinaDatos</a> para el histórico. Para importar y exportar, la referencia es el <b>mayorista</b> (Comunicación A 3500 del BCRA).</p>
 </section>
 
 <!-- CALCULADORA -->
@@ -411,7 +465,7 @@ footer b{color:var(--ink);font-family:var(--f-display)}
         <label class="f" for="qty">Cantidad de unidades<input id="qty" type="number" min="0" step="any" value="1000"></label>
         <label class="f" for="flete">Flete internacional (USD)<input id="flete" type="number" min="0" step="any" value="1800"></label>
         <label class="f" for="seg">Seguro (% sobre FOB + flete)<input id="seg" type="number" min="0" step="any" value="1"></label>
-        <label class="f full" for="tc">Tipo de cambio (ARS por USD, opcional)<input id="tc" type="number" min="0" step="any" placeholder="ej. 1540"></label>
+        <label class="f full" for="tc">Tipo de cambio (ARS por USD, opcional)<input id="tc" type="number" min="0" step="any" placeholder="ej. 1540"><button class="usefx" type="button" data-for="tc" hidden></button></label>
       </div>
       <h3>Tributos</h3>
       <div class="fields">
@@ -457,7 +511,7 @@ footer b{color:var(--ink);font-family:var(--f-display)}
       <h3>Operación</h3>
       <div class="fields">
         <label class="f" for="efob">Valor FOB de la venta (USD)<input id="efob" type="number" min="0" step="any" value="20000"></label>
-        <label class="f" for="etc">Tipo de cambio (opcional)<input id="etc" type="number" min="0" step="any" placeholder="ej. 1540"></label>
+        <label class="f" for="etc">Tipo de cambio (opcional)<input id="etc" type="number" min="0" step="any" placeholder="ej. 1540"><button class="usefx" type="button" data-for="etc" hidden></button></label>
       </div>
       <h3>Los 10 rubros (USD o % del FOB)</h3>
       <div class="rubros" id="rubros"></div>
@@ -582,7 +636,7 @@ const ars=v=>'$ '+v.toLocaleString('es-AR',{maximumFractionDigits:0});
 const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
 
 /* ---------- Tabs ---------- */
-const TABS=['noticias','calculadora','incoterms','documentos'];
+const TABS=['noticias','dolar','calculadora','incoterms','documentos'];
 function showTab(name){
   if(!TABS.includes(name))name='noticias';
   document.querySelectorAll('.tab').forEach(t=>t.setAttribute('aria-selected',t.dataset.tab===name?'true':'false'));
@@ -1050,6 +1104,107 @@ if(subDone){$('subform').hidden=true;sayJoin('Ya estás suscripto con '+subDone+
       paint();
     }catch(e){console.warn('OneSignal',e)}
   });
+})();
+</script>
+<script>
+/* ---------- Dólar en vivo (DolarApi + cierre anterior de ArgentinaDatos) ---------- */
+(function(){
+const $=id=>document.getElementById(id);
+const API='https://dolarapi.com/v1/';
+const HIST='https://api.argentinadatos.com/v1/cotizaciones/dolares/';
+const ORDER=[
+  ['oficial','Oficial','Banco Nación'],
+  ['blue','Blue','Informal'],
+  ['bolsa','MEP','Dólar bolsa'],
+  ['contadoconliqui','Contado con liqui','CCL'],
+  ['mayorista','Mayorista','Referencia comex · A3500'],
+  ['cripto','Cripto','USDT'],
+  ['tarjeta','Tarjeta','Oficial + impuestos']
+];
+const TICK=['oficial','blue','bolsa','contadoconliqui','mayorista'];
+const OTHER={EUR:['Euro','Oficial'],BRL:['Real','Oficial'],CLP:['Peso chileno','Oficial'],UYU:['Peso uruguayo','Oficial']};
+const ls={get(k){try{return JSON.parse(localStorage.getItem(k))}catch(e){return null}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+const money=v=>v==null?'—':'$ '+Number(v).toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2});
+const tm=iso=>{const d=new Date(iso);if(isNaN(d))return '';const t=d.toLocaleTimeString('es-AR',{hour:'2-digit',minute:'2-digit',timeZone:'America/Argentina/Buenos_Aires'});const same=d.toLocaleDateString('es-AR',{timeZone:'America/Argentina/Buenos_Aires'})===new Date().toLocaleDateString('es-AR',{timeZone:'America/Argentina/Buenos_Aires'});return same?'hoy '+t:d.toLocaleDateString('es-AR',{day:'numeric',month:'short',timeZone:'America/Argentina/Buenos_Aires'})+' '+t};
+const ymdAR=d=>d.toLocaleDateString('en-CA',{timeZone:'America/Argentina/Buenos_Aires'});
+let last={},prev=ls.get('fx-prev')||{};
+
+/* Cierre del día hábil anterior a la última actualización, buscando hasta 6 días atrás. */
+async function prevClose(casa,iso){
+  const day=ymdAR(new Date(iso));
+  const key=casa+'@'+day;
+  if(prev[key])return prev[key];
+  const d=new Date(day+'T12:00:00Z');
+  for(let i=1;i<=6;i++){
+    d.setUTCDate(d.getUTCDate()-1);
+    const p=d.toISOString().slice(0,10).replace(/-/g,'/');
+    try{
+      const r=await fetch(HIST+casa+'/'+p);
+      if(!r.ok)continue;
+      const j=await r.json();
+      if(j&&j.venta){prev[key]=j.venta;ls.set('fx-prev',prev);return j.venta}
+    }catch(e){return null}
+  }
+  return null;
+}
+function varTag(now,before){
+  if(!now||!before)return '';
+  const pc=(now/before-1)*100;
+  const cls=Math.abs(pc)<0.005?'':(pc>0?'up':'down');
+  const s=(pc>0?'▲ +':pc<0?'▼ ':'')+pc.toLocaleString('es-AR',{minimumFractionDigits:2,maximumFractionDigits:2})+'%';
+  return '<span class="var '+cls+'" title="vs. cierre anterior">'+s+'</span>';
+}
+function card(id,name,sub,o,hero){
+  return '<article class="fx'+(hero?' hero':'')+'" id="fx-'+id+'"><div class="fx-h"><div><h4>'+name+'</h4><small>'+sub+'</small></div><span class="vslot"></span></div>'+
+    '<div class="fx-v"><div><span>Compra</span><b>'+money(o.compra)+'</b></div><div class="sell"><span>Venta</span><b>'+money(o.venta)+'</b></div></div>'+
+    '<div class="fx-f">Actualizado '+tm(o.fechaActualizacion)+'</div></article>';
+}
+function useBtns(){
+  const m=last.mayorista,of=last.oficial;
+  const ref=m&&m.venta?['mayorista',m.venta]:(of&&of.venta?['oficial',of.venta]:null);
+  document.querySelectorAll('.usefx').forEach(b=>{
+    if(!ref){b.hidden=true;return}
+    b.hidden=false;b.textContent='Usar dólar '+ref[0]+' de hoy ('+money(ref[1])+')';
+    b.onclick=()=>{const i=$(b.dataset.for);i.value=ref[1];i.dispatchEvent(new Event('input',{bubbles:true}))};
+  });
+}
+async function load(){
+  $('fxupd').textContent='Actualizando…';
+  try{
+    const r=await fetch(API+'dolares',{cache:'no-store'});
+    if(!r.ok)throw 0;
+    const arr=await r.json();
+    const by={};arr.forEach(x=>by[x.casa]=x);
+    const changed=new Set(ORDER.map(o=>o[0]).filter(c=>last[c]&&by[c]&&(last[c].venta!==by[c].venta||last[c].compra!==by[c].compra)));
+    last=by;
+    $('fxgrid').innerHTML=ORDER.filter(o=>by[o[0]]).map((o,i)=>card(o[0],o[1],o[2],by[o[0]],i===0)).join('');
+    changed.forEach(c=>{const el=$('fx-'+c);if(el){el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),1600)}});
+    $('fxtick').innerHTML=TICK.filter(c=>by[c]).map(c=>'<button class="fxt" type="button" data-c="'+c+'"><span class="lab">'+ORDER.find(o=>o[0]===c)[1]+'</span><b>'+money(by[c].venta)+'</b><span class="vslot"></span></button>').join('');
+    $('fxtick').hidden=false;
+    $('fxtick').querySelectorAll('.fxt').forEach(b=>b.onclick=()=>{const t=document.querySelector('.tab[data-tab="dolar"]');if(t)t.click()});
+    $('fxupd').textContent='Consultado a las '+new Date().toLocaleTimeString('es-AR',{hour:'2-digit',minute:'2-digit',second:'2-digit',timeZone:'America/Argentina/Buenos_Aires'});
+    useBtns();
+    ORDER.forEach(async o=>{
+      const x=by[o[0]];if(!x)return;
+      const pv=await prevClose(o[0],x.fechaActualizacion);
+      const tag=varTag(x.venta,pv);if(!tag)return;
+      document.querySelectorAll('#fx-'+o[0]+' .vslot, .fxt[data-c="'+o[0]+'"] .vslot').forEach(s=>s.innerHTML=tag);
+    });
+  }catch(e){
+    $('fxupd').textContent=Object.keys(last).length?'Sin conexión, mostrando la última cotización':'No se pudieron cargar las cotizaciones';
+  }
+  try{
+    const r=await fetch(API+'cotizaciones',{cache:'no-store'});
+    if(!r.ok)return;
+    const arr=await r.json();
+    $('fxother').innerHTML=arr.filter(x=>OTHER[x.moneda]).map(x=>card(x.moneda.toLowerCase(),OTHER[x.moneda][0]+' · '+x.moneda,OTHER[x.moneda][1],x,false)).join('');
+  }catch(e){}
+}
+let timer=null;
+function start(){if(timer)return;load();timer=setInterval(()=>{if(document.visibilityState==='visible')load()},60000)}
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&timer)load()});
+$('fxreload').onclick=load;
+start();
 })();
 </script>
 </body>
