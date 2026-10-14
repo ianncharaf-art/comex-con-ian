@@ -2,7 +2,7 @@
 <html lang="es-AR">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover">
 <meta name="description" content="Radar diario de comercio exterior argentino, calculadora de costos con todo el NCM, Incoterms 2020 y proforma en Excel. Gratis.">
 <meta name="theme-color" content="#050608">
 <link rel="manifest" href="/manifest.webmanifest">
@@ -199,13 +199,16 @@ table.ledger tr.neg td.v{color:var(--good)}
 .items td{padding:6px;border-bottom:1px solid var(--line)}
 .items tr:last-child td{border-bottom:0}
 .items input{font-size:13px;height:38px;padding:0 9px}
+/* iOS agranda la página al tocar un campo con letra menor a 16px: en el celu todos los campos van a 16px. */
+@media (max-width:760px){input,select,textarea,.items input{font-size:16px}}
+html{touch-action:manipulation}
 .items .x{appearance:none;border:0;background:none;color:var(--muted);font-size:20px;cursor:pointer;padding:4px 10px;border-radius:8px}
 .items .x:hover{background:var(--sunken);color:var(--ink)}
 .status{font-size:13px;color:var(--muted);min-height:1.4em;margin:0}
 .status.ok{color:var(--good)} .status.err{color:var(--warn)}
 
 /* Dólar */
-.fxtick{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin-inline:-16px;padding-inline:16px}
+.fxtick{display:flex;min-height:40px;gap:8px;overflow-x:auto;scrollbar-width:none;margin-inline:-16px;padding-inline:16px}
 .fxtick::-webkit-scrollbar{display:none}
 @media (min-width:720px){.fxtick{margin-inline:0;padding-inline:0;flex-wrap:wrap}}
 .fxt{appearance:none;flex:none;display:inline-flex;align-items:baseline;gap:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:8px 14px;cursor:pointer;font:500 13px var(--f-body);transition:border-color .15s}
@@ -392,7 +395,7 @@ footer b{color:var(--ink);font-family:var(--f-display)}
       <div class="stat"><b id="nsrcs">11</b><span>fuentes que seguimos</span></div>
     </div>
   </div>
-  <div class="fxtick" id="fxtick" aria-label="Dólar hoy" hidden></div>
+  <div class="fxtick" id="fxtick" aria-label="Dólar hoy"></div>
   <div class="filters" id="nfilter" role="group" aria-label="Filtrar por tema"></div>
   <div class="news" id="news"></div>
   <div class="join" id="join" hidden>
@@ -1180,7 +1183,6 @@ async function load(){
     $('fxgrid').innerHTML=ORDER.filter(o=>by[o[0]]).map((o,i)=>card(o[0],o[1],o[2],by[o[0]],i===0)).join('');
     changed.forEach(c=>{const el=$('fx-'+c);if(el){el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),1600)}});
     $('fxtick').innerHTML=TICK.filter(c=>by[c]).map(c=>'<button class="fxt" type="button" data-c="'+c+'"><span class="lab">'+ORDER.find(o=>o[0]===c)[1]+'</span><b>'+money(by[c].venta)+'</b><span class="vslot"></span></button>').join('');
-    $('fxtick').hidden=false;
     $('fxtick').querySelectorAll('.fxt').forEach(b=>b.onclick=()=>{const t=document.querySelector('.tab[data-tab="dolar"]');if(t)t.click()});
     $('fxupd').textContent='Consultado a las '+new Date().toLocaleTimeString('es-AR',{hour:'2-digit',minute:'2-digit',second:'2-digit',timeZone:'America/Argentina/Buenos_Aires'});
     useBtns();
