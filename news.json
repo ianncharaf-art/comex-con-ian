@@ -1,6 +1,20 @@
 {
-  "actualizado": "2026-10-13",
+  "actualizado": "2026-10-14",
   "items": [
+    {
+      "fecha": "2026-10-13",
+      "categoria": "INDEC",
+      "titulo": "La inflación de septiembre fue 1,9% y acumula 23,6% en el año",
+      "resumen": "Según el INDEC, los precios subieron 1,9% en septiembre (1,7% en agosto), 23,6% en enero-septiembre y 33,4% interanual. Lo que más subió fue vivienda, agua, electricidad y gas (3,1%) y educación (3%). La inflación núcleo fue 1,7%.",
+      "porque": "Si los precios en pesos suben más rápido que el dólar, los productos importados se abaratan en términos reales y exportar desde Argentina se vuelve menos competitivo.",
+      "fuentes": [
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/10/13/la-inflacion-en-septiembre-fue-de-19-y-acumulo-334-en-los-ultimos-doce-meses/",
+          "oficial": false
+        }
+      ]
+    },
     {
       "fecha": "2026-10-13",
       "categoria": "Dólar",
