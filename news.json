@@ -1,6 +1,25 @@
 {
-  "actualizado": "2026-10-14",
+  "actualizado": "2026-10-15",
   "items": [
+    {
+      "fecha": "2026-10-14",
+      "categoria": "Acuerdos",
+      "titulo": "Argentina y EE.UU. firmaron un protocolo que destraba el acuerdo comercial para enviarlo al Congreso",
+      "resumen": "El canciller Pablo Quirno y el representante comercial de EE.UU., Jamieson Greer, firmaron en Washington un protocolo adicional al Acuerdo de Comercio e Inversiones Recíprocas (firmado en febrero de 2026). Según Quirno, permite enviar el acuerdo al Congreso y EE.UU. reafirma el trato de nación más favorecida para productos argentinos. El texto todavía no es público. Quirno destacó exportaciones a EE.UU. por US$6.570 millones en enero-agosto (+35%) y la cuota de carne ampliada de 20.000 a 100.000 toneladas.",
+      "porque": "EE.UU. es uno de los principales destinos de las exportaciones argentinas: el acuerdo define aranceles y cupos para carne, industria y economías regionales.",
+      "fuentes": [
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/10/14/argentina-firmo-con-eeuu-un-protocolo-adicional-para-fortalecer-el-acuerdo-bilateral-sobre-comercio-e-inversiones-reciprocas/",
+          "oficial": false
+        },
+        {
+          "nombre": "Cancillería (acuerdo de febrero)",
+          "url": "https://www.cancilleria.gob.ar/es/actualidad/noticias/argentina-y-estados-unidos-firmaron-un-acuerdo-sobre-comercio-e-inversiones",
+          "oficial": true
+        }
+      ]
+    },
     {
       "fecha": "2026-10-13",
       "categoria": "INDEC",
