@@ -529,25 +529,37 @@ section.panel>*:nth-child(n+5){animation-delay:.18s}
   .tab-ind{transition:none}
 }
 
-/* Ilustraciones de comex: a la derecha del título en compu; en el celu solo el buque de Noticias */
+/* Fotos reales de comex: cada sección abre con una foto de puerto a todo el ancho, teñida de azul y oscurecida para que el texto se lea, como en las webs de las grandes navieras */
+html,body{overflow-x:clip}
 section.panel{position:relative}
-.ill{position:absolute;top:-6px;right:0;width:min(30vw,330px);pointer-events:none;opacity:.95}
-.ill svg{display:block;width:100%;height:auto;overflow:visible}
-@media (max-width:1023px){.ill{display:none}.ill-noticias{display:block;position:static;width:100%;max-width:340px;margin:-18px 0 -12px;align-self:center}}
-.ill-ship{animation:illBob 6s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
-.ill-waves{animation:illWave 4s linear infinite}
-.ill-swing{animation:illSwing 5s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 0}
-.ill-dash{stroke-dasharray:4 6;animation:illDash 2.4s linear infinite}
-.ill-pulse{animation:illPulse 2.4s var(--ease) infinite;transform-box:fill-box;transform-origin:center}
-@keyframes illBob{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-2px) rotate(-.6deg)}}
-@keyframes illWave{to{transform:translateX(40px)}}
-@keyframes illSwing{0%,100%{transform:rotate(1.6deg)}50%{transform:rotate(-1.6deg)}}
-@keyframes illDash{to{stroke-dashoffset:-40}}
-@keyframes illPulse{from{transform:scale(.4);opacity:1}to{transform:scale(1.6);opacity:0}}
-footer{display:flex;flex-direction:column}
+.hero-bg{position:absolute;top:0;left:0;right:0;height:clamp(480px,76vh,780px);z-index:-1;overflow:hidden;pointer-events:none;background:var(--bg)}
+.hero-bg img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.06);transition:opacity .7s var(--ease),transform 1.4s var(--ease);filter:saturate(.8) contrast(1.06) brightness(.92)}
+.hero-bg img.on{opacity:1;transform:scale(1);animation:kenburns 30s ease-in-out 1.4s infinite alternate}
+@keyframes kenburns{to{transform:scale(1.07) translate3d(-1.2%,-.8%,0)}}
+.hero-bg::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(115deg,rgba(14,42,107,.62),rgba(14,42,107,.18) 58%,rgba(212,175,55,.1));mix-blend-mode:multiply}
+.hero-bg::after{content:"";position:absolute;inset:0;z-index:2;background:linear-gradient(90deg,rgba(6,6,7,.88) 0%,rgba(6,6,7,.6) 42%,rgba(6,6,7,.18) 100%),linear-gradient(180deg,rgba(6,6,7,.55) 0%,rgba(6,6,7,0) 20%,rgba(6,6,7,.4) 60%,var(--bg) 100%)}
+@media (max-width:760px){
+  .hero-bg{height:clamp(440px,70vh,600px)}
+  .hero-bg::after{background:linear-gradient(180deg,rgba(6,6,7,.55) 0%,rgba(6,6,7,.42) 35%,rgba(6,6,7,.7) 70%,var(--bg) 100%)}
+}
+/* Quién soy: foto de un buque en el puerto */
+.about-art{position:relative;margin:0;width:100%;aspect-ratio:4/5;max-height:460px;border-radius:16px;overflow:hidden;border:1px solid var(--line-2);isolation:isolate}
+.about-art img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.85) contrast(1.05);transition:transform 1.2s var(--ease)}
+.about:hover .about-art img{transform:scale(1.04)}
+.about-art::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,42,107,.25),rgba(6,6,7,0) 40%,rgba(6,6,7,.85));pointer-events:none}
+.about-art figcaption{position:absolute;left:16px;right:16px;bottom:14px;z-index:1;display:flex;align-items:flex-end;justify-content:space-between;gap:10px}
+.about-art figcaption b{font:italic 400 clamp(44px,6vw,64px)/.9 var(--f-serif);color:var(--accent-ink);letter-spacing:-.02em}
+.about-art figcaption span{font:500 10px/1.4 var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:rgba(238,233,221,.75);text-align:right}
+@media (max-width:760px){.about-art{aspect-ratio:16/11}}
+/* Pie: el puerto de noche detrás de la marca */
+footer{display:flex;flex-direction:column;border-top-color:transparent}
 footer .wrap{width:100%}
-.port{order:-1;height:max(90px,12.5vw);max-height:170px;margin:0 0 6px;overflow:hidden;pointer-events:none;-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
-.port svg{display:block;width:100%;height:100%}
+footer::before{position:relative;z-index:1}
+.port{order:-1;position:relative;height:clamp(200px,30vw,400px);margin:-40px 0 calc(-1 * clamp(40px,7vw,90px));overflow:hidden;pointer-events:none}
+.port img{display:block;width:100%;height:100%;object-fit:cover;object-position:35% 55%;filter:saturate(.9)}
+.port::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,var(--bg) 0%,rgba(6,6,7,0) 30%,rgba(6,6,7,.2) 65%,var(--bg) 100%)}
+footer .credits{color:var(--muted);font-size:11px}
+@media (prefers-reduced-motion:reduce){.hero-bg img,.hero-bg img.on{animation:none;transition:opacity .3s;transform:none}.about:hover .about-art img{transform:none}}
 
 /* Quién soy */
 .about{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(20px,4vw,48px);align-items:center;padding:clamp(22px,4vw,40px);border:1px solid var(--line);border-radius:var(--r);background:radial-gradient(120% 120% at 0% 100%,rgba(61,123,255,.14),transparent 55%),var(--surface);scroll-margin-top:90px}
@@ -563,7 +575,6 @@ footer .wrap{width:100%}
 .about-facts b{font:500 26px/1 var(--f-display);letter-spacing:-.04em;color:var(--ink)}
 .about-facts span{font:500 10.5px/1.4 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .about .row .btn{text-decoration:none}
-@media (prefers-reduced-motion:reduce){.ill-ship,.ill-waves,.ill-swing,.ill-dash,.ill-pulse{animation:none}}
 </style>
 
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
@@ -634,7 +645,7 @@ footer .wrap{width:100%}
     </div>
   </div>
   <section class="about" id="quien-soy" aria-labelledby="about-t">
-    <div class="about-art" aria-hidden="true"><svg viewBox="0 0 280 220" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="34" width="240" height="160" rx="4" fill="#D4AF37" fill-opacity=".07" stroke="#D4AF37"/><rect x="28" y="42" width="224" height="144" rx="2" stroke="#D4AF37" stroke-opacity=".35"/><line x1="140" y1="146" x2="140" y2="186" stroke="#D4AF37"/><g stroke="#EEE9DD" stroke-opacity=".55"><line x1="104" y1="150" x2="104" y2="180"/><line x1="118" y1="150" x2="118" y2="180"/><line x1="162" y1="150" x2="162" y2="180"/><line x1="176" y1="150" x2="176" y2="180"/><rect x="100" y="160" width="22" height="7" rx="2"/><rect x="158" y="160" width="22" height="7" rx="2"/></g><text x="140" y="114" text-anchor="middle" font-family="Instrument Serif,Georgia,serif" font-style="italic" font-size="54" fill="#E6C766" stroke="none">Ian</text><text x="40" y="62" font-family="Geist Mono,monospace" font-size="10" letter-spacing=".12em" fill="#EEE9DD" fill-opacity=".7" stroke="none">IANU 000018 · 3</text><text x="140" y="138" text-anchor="middle" font-family="Geist Mono,monospace" font-size="10" letter-spacing=".14em" fill="#EEE9DD" fill-opacity=".7" stroke="none">3RA GENERACIÓN · COMEX</text><path d="M0 206 H280" stroke="#4C86FF" stroke-opacity=".5"/><path d="M0 214q10-5 20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0" stroke="#4C86FF" stroke-opacity=".35"/></svg></div>
+    <figure class="about-art"><img src="img/quien-m.jpg" srcset="img/quien-m.jpg 900w, img/quien.jpg 2000w" sizes="(max-width:760px) 100vw, 460px" alt="Buque portacontenedores cargado en el muelle, visto desde arriba" loading="lazy" decoding="async"><figcaption><b>Ian</b><span>3ra generación<br>de importadores</span></figcaption></figure>
     <div class="about-copy">
       <span class="eyebrow">Quién soy</span>
       <h3 id="about-t">Hola, soy <em>Ian</em></h3>
@@ -841,7 +852,7 @@ footer .wrap{width:100%}
 </section>
 </main>
 
-<footer><div class="wrap"><span><b>Comex con Ian</b> · @iancharaf7</span><span>Herramienta educativa. Los valores son orientativos y no reemplazan el asesoramiento de un despachante de aduana.</span></div></footer>
+<footer><div class="port" aria-hidden="true"><img src="img/puerto-m.jpg" srcset="img/puerto-m.jpg 900w, img/puerto.jpg 2000w" sizes="100vw" alt="" loading="lazy" decoding="async"></div><div class="wrap"><span><b>Comex con Ian</b> · @iancharaf7</span><span>Herramienta educativa. Los valores son orientativos y no reemplazan el asesoramiento de un despachante de aduana.</span><span class="credits">Fotos: Logan Voss, Daniel Miksha, Cosmin Andrei Buzamat y Rana Kaname en Unsplash.</span></div></footer>
 <style>.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}</style>
 
 <div class="pop" id="subpop" hidden role="dialog" aria-modal="true" aria-labelledby="poptitle">
@@ -1470,52 +1481,26 @@ start();
     (document.fonts&&document.fonts.ready||Promise.resolve()).then(place);place();
   }
 
-  // Ilustraciones de comex (buques, contenedores, grúas) dibujadas en línea, con los colores de la marca
+  // Fotos reales de puerto detrás del título de cada sección: cambian con un fundido al cambiar de pestaña
   try{
-  const G='#D4AF37',B='#4C86FF',I='#EEE9DD';
-  const box=(x,y,w,h,c)=>{let s='<rect x="'+x+'" y="'+y+'" width="'+w+'" height="'+h+'" rx="1.5" fill="'+c+'" fill-opacity=".13" stroke="'+c+'" stroke-opacity=".9"/>';for(let i=x+4;i<x+w-2;i+=4)s+='<line x1="'+i+'" y1="'+(y+2.5)+'" x2="'+i+'" y2="'+(y+h-2.5)+'" stroke="'+c+'" stroke-opacity=".35"/>';return s};
-  const pal=[G,B,I];
-  const waves=(y,w)=>{let d='M-80 '+y;for(let i=0;i<Math.ceil((w+160)/40);i++)d+=' q10 -5 20 0 t20 0';return '<path class="ill-wave" d="'+d+'" stroke="'+B+'" stroke-opacity=".55"/>'};
-  const svg=(vb,inner)=>'<svg viewBox="'+vb+'" fill="none" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">'+inner+'</svg>';
-  function ship(ox,oy,cols,s){ // buque portacontenedores
-    let g='<path d="M'+ox+' '+oy+' H'+(ox+cols*24+70)+' L'+(ox+cols*24+54)+' '+(oy+28)+' H'+(ox+22)+' Z" fill="#0E2A6B" fill-opacity=".55" stroke="'+B+'"/>';
-    g+='<line x1="'+(ox+14)+'" y1="'+(oy+16)+'" x2="'+(ox+cols*24+60)+'" y2="'+(oy+16)+'" stroke="'+G+'" stroke-opacity=".8"/>';
-    const bx=ox+cols*24+22;g+='<rect x="'+bx+'" y="'+(oy-44)+'" width="30" height="44" rx="2" fill="#060607" stroke="'+I+'" stroke-opacity=".8"/><rect x="'+(bx+4)+'" y="'+(oy-38)+'" width="22" height="5" fill="'+G+'" fill-opacity=".7" stroke="none"/><rect x="'+(bx+12)+'" y="'+(oy-60)+'" width="10" height="16" fill="'+G+'" fill-opacity=".2" stroke="'+G+'"/>';
-    (s||[2,3,3,2,3,3,1,3,2,3]).slice(0,cols).forEach((n,c)=>{for(let r=0;r<n;r++)g+=box(ox+16+c*24,oy-14*(r+1),22,14,pal[(c+r*2)%3])});
-    return g;
-  }
-  function crane(x,base,top,boomL,boomR){ // grúa pórtico de muelle
-    return '<g stroke="'+I+'" stroke-opacity=".75"><line x1="'+(x-36)+'" y1="'+base+'" x2="'+(x-30)+'" y2="'+top+'"/><line x1="'+(x+36)+'" y1="'+base+'" x2="'+(x+30)+'" y2="'+top+'"/><line x1="'+(x-33)+'" y1="'+((base+top)/2)+'" x2="'+(x+33)+'" y2="'+((base+top)/2)+'"/><line x1="'+(x-33)+'" y1="'+((base+top)/2)+'" x2="'+(x+34)+'" y2="'+(base-8)+'"/></g>'+
-      '<line x1="'+boomL+'" y1="'+top+'" x2="'+boomR+'" y2="'+top+'" stroke="'+G+'" stroke-width="2.2"/><path d="M'+boomL+' '+top+' L'+x+' '+(top-28)+' L'+boomR+' '+top+'" stroke="'+G+'" stroke-opacity=".6"/>';
-  }
-  const ILL={
-    noticias:svg('0 0 360 200','<circle cx="300" cy="44" r="22" fill="'+G+'" fill-opacity=".1" stroke="'+G+'" stroke-opacity=".5"/><path d="M52 44q5-5 10 0q5-5 10 0M84 30q4-4 8 0q4-4 8 0" stroke="'+I+'" stroke-opacity=".6"/><g class="ill-ship">'+ship(26,136,10)+'</g><g class="ill-waves">'+waves(170,360)+waves(184,360)+'</g>'),
-    dolar:svg('0 0 360 200','<g stroke="'+I+'" stroke-opacity=".12" stroke-dasharray="2 5"><line x1="20" y1="40" x2="340" y2="40"/><line x1="20" y1="80" x2="340" y2="80"/><line x1="20" y1="120" x2="340" y2="120"/></g>'+
-      [0,1,2,3,4,5,6,7].map(i=>box(40+i*34,172,32,18,pal[i%3])).join('')+[0,1,2,3,4,5].map(i=>box(74+i*34,154,32,18,pal[(i+1)%3])).join('')+[0,1,2].map(i=>box(142+i*34,136,32,18,pal[(i+2)%3])).join('')+
-      '<polyline points="30,118 80,106 122,112 170,86 220,92 268,60 326,38" stroke="'+G+'" stroke-width="1.8"/>'+[[30,118],[80,106],[122,112],[170,86],[220,92],[268,60]].map(p=>'<circle cx="'+p[0]+'" cy="'+p[1]+'" r="2.6" fill="#060607" stroke="'+G+'"/>').join('')+'<circle class="ill-pulse" cx="326" cy="38" r="9" stroke="'+G+'"/><circle cx="326" cy="38" r="3.4" fill="'+G+'" stroke="none"/>'),
-    calculadora:svg('0 0 360 220','<line x1="0" y1="200" x2="232" y2="200" stroke="'+I+'" stroke-opacity=".35"/>'+box(14,186,30,14,B)+box(46,186,30,14,G)+box(78,186,30,14,I)+box(30,172,30,14,G)+box(62,172,30,14,B)+crane(170,200,56,40,350)+
-      '<rect x="294" y="56" width="18" height="6" fill="'+G+'" fill-opacity=".6" stroke="'+G+'"/><g class="ill-swing"><line x1="303" y1="62" x2="303" y2="118" stroke="'+I+'" stroke-opacity=".7"/><line x1="288" y1="119" x2="318" y2="119" stroke="'+I+'" stroke-opacity=".8"/>'+box(287,121,32,16,G)+'</g>'+
-      '<path d="M236 178 H360 V202 H246 Z" fill="#0E2A6B" fill-opacity=".55" stroke="'+B+'"/>'+box(252,164,22,14,B)+box(276,164,22,14,I)+box(276,150,22,14,G)+box(300,164,22,14,B)+'<g class="ill-waves">'+waves(212,360)+'</g>'),
-    incoterms:svg('0 0 360 200','<path class="ill-dash" d="M34 150 C96 150 104 86 180 86 S264 150 326 150" stroke="'+G+'" stroke-width="1.6"/>'+
-      '<path d="M14 156 V128 L26 136 V128 L38 136 V128 L50 136 V156 Z" fill="'+I+'" fill-opacity=".06" stroke="'+I+'" stroke-opacity=".8"/><line x1="44" y1="128" x2="44" y2="112" stroke="'+I+'" stroke-opacity=".8"/>'+
-      '<g class="ill-ship"><path d="M146 92 H218 L210 106 H156 Z" fill="#0E2A6B" fill-opacity=".6" stroke="'+B+'"/>'+box(156,80,16,12,G)+box(174,80,16,12,B)+box(192,80,16,12,I)+'</g>'+
-      '<path d="M306 156 V136 L326 124 L346 136 V156 Z" fill="'+G+'" fill-opacity=".08" stroke="'+G+'"/><rect x="320" y="142" width="12" height="14" stroke="'+G+'" stroke-opacity=".7"/>'+
-      '<g font-family="Geist Mono,monospace" font-size="9" letter-spacing=".1em" fill="'+I+'" fill-opacity=".55" stroke="none"><text x="12" y="176">ORIGEN</text><text x="348" y="176" text-anchor="end">DESTINO</text></g><g class="ill-waves">'+waves(118,360).replace('stroke-opacity=".55"','stroke-opacity=".3"')+'</g>'),
-    documentos:svg('0 0 360 200',box(30,96,210,92,B)+'<line x1="135" y1="98" x2="135" y2="186" stroke="'+B+'"/><g stroke="'+I+'" stroke-opacity=".7"><line x1="112" y1="104" x2="112" y2="180"/><line x1="122" y1="104" x2="122" y2="180"/><line x1="148" y1="104" x2="148" y2="180"/><line x1="158" y1="104" x2="158" y2="180"/></g>'+
-      '<g transform="rotate(-6 255 100)"><rect x="200" y="22" width="112" height="146" rx="5" fill="#0D0E11" stroke="'+I+'" stroke-opacity=".85"/><text x="214" y="46" font-family="Geist Mono,monospace" font-size="9" letter-spacing=".12em" fill="'+G+'" stroke="none">PROFORMA</text><g stroke="'+I+'" stroke-opacity=".35"><line x1="214" y1="60" x2="298" y2="60"/><line x1="214" y1="72" x2="290" y2="72"/><line x1="214" y1="84" x2="298" y2="84"/><line x1="214" y1="96" x2="270" y2="96"/><line x1="214" y1="116" x2="298" y2="116"/><line x1="214" y1="128" x2="284" y2="128"/></g></g>'+
-      '<circle cx="292" cy="150" r="20" stroke="'+G+'" stroke-width="1.6"/><circle cx="292" cy="150" r="15" stroke="'+G+'" stroke-opacity=".5"/><text x="292" y="154" text-anchor="middle" font-family="Geist Mono,monospace" font-size="10" font-weight="600" fill="'+G+'" stroke="none">B/L</text>')
+  const PHOTO=null;
+  const url=(k,big)=>PHOTO?PHOTO[k]:'img/'+k+(big?'':'-m')+'.jpg';
+  const bg=document.createElement('div');bg.className='hero-bg';bg.setAttribute('aria-hidden','true');document.body.prepend(bg);
+  const imgs={};
+  const showPhoto=()=>{
+    const p=document.querySelector('section.panel:not([hidden])');if(!p)return;
+    const k=p.id.replace('p-','');let im=imgs[k];
+    if(!im){
+      im=new Image();im.alt='';im.decoding='async';
+      if(!PHOTO){im.sizes='100vw';im.srcset=url(k)+' 900w, '+url(k,1)+' 2000w'}
+      im.src=url(k);imgs[k]=im;bg.append(im);
+    }
+    const on=()=>requestAnimationFrame(()=>requestAnimationFrame(()=>{for(const x in imgs)imgs[x].classList.toggle('on',imgs[x]===im)}));
+    if(im.complete&&im.naturalWidth)on();else im.addEventListener('load',on,{once:true});
   };
-  document.querySelectorAll('section.panel').forEach(p=>{const k=p.id.replace('p-','');if(!ILL[k]||p.querySelector('.ill'))return;const d=document.createElement('div');d.className='ill ill-'+k;d.setAttribute('aria-hidden','true');d.innerHTML=ILL[k];p.prepend(d)});
-  // Puerto en el pie: grúas, pilas de contenedores y un buque
-  const foot=document.querySelector('footer');
-  if(foot&&!foot.querySelector('.port')){
-    let s='<line x1="0" y1="132" x2="1200" y2="132" stroke="'+I+'" stroke-opacity=".25"/>';
-    [[40,6],[300,4],[1010,5]].forEach(([x,n])=>{for(let c=0;c<n;c++)for(let r=0;r<2+((c*7+x)%3);r++)s+=box(x+c*30,118-r*14,28,14,pal[(c+r+x)%3])});
-    s+=crane(240,132,40,150,420)+crane(560,132,30,470,760)+crane(900,132,40,800,1080);
-    s+='<g class="ill-ship">'+ship(560,104,8,[3,2,3,3,2,3,1,2])+'</g><g class="ill-waves">'+waves(140,1200).replace('stroke-opacity=".55"','stroke-opacity=".35"')+'</g>';
-    const d=document.createElement('div');d.className='port';d.setAttribute('aria-hidden','true');d.innerHTML='<svg viewBox="0 0 1200 150" preserveAspectRatio="xMidYMax slice" fill="none" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">'+s+'</svg>';
-    foot.prepend(d);
-  }
+  const mainEl=document.querySelector('main');
+  if(mainEl)new MutationObserver(showPhoto).observe(mainEl,{subtree:true,attributes:true,attributeFilter:['hidden']});
+  showPhoto();
   }catch(e){}
 
   if(reduce)return;
