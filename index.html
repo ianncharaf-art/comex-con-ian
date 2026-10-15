@@ -20,7 +20,7 @@
 <title>Comex con Ian · Radar y herramientas de comercio exterior</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400..600&family=Instrument+Serif:ital@0;1&display=swap">
 <style>
 /* Layout: a trade-intelligence app. Glass top bar + (on phones) a native-style bottom tab bar; News is home, led by one featured story; tools sit in calm, generous cards with data set in mono. */
 :root{
@@ -346,6 +346,225 @@ footer{border-top:1px solid var(--line);padding-block:28px;color:var(--muted);fo
 footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 footer b{color:var(--ink);font-family:var(--f-display)}
 </style>
+<style id="design">
+/* Capa de diseño (oct 2026), inspirada en oryzo.ai: menos ruido, tipografía protagonista, etiquetas entre corchetes, superficies planas con línea fina y movimientos cortos con easing suave. Solo estética: no cambia estructura ni funciones. Negro, azul y dorado. */
+:root:not(#z){
+  --bg:#060607; --bg-2:#0B0B0D; --surface:#0D0E11; --sunken:#131418; --ink:#EEE9DD; --ink-2:#BFBAAF; --muted:#8C887F;
+  --line:rgba(238,233,221,.08); --line-2:rgba(238,233,221,.17);
+  --accent:#D4AF37; --accent-ink:#E6C766; --accent-soft:rgba(212,175,55,.12); --on-accent:#0A0906;
+  --navy:#0E2A6B; --blue:#4C86FF; --buyer:#4C86FF;
+  --shadow:none; --glass:rgba(6,6,7,.66);
+  --f-display:"Geist","Helvetica Neue",Arial,sans-serif;
+  --f-body:"Geist",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"Geist Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+  --f-serif:"Instrument Serif",Georgia,"Times New Roman",serif;
+  --ease:cubic-bezier(.16,1,.3,1); --ease-io:cubic-bezier(.65,0,.35,1);
+  --r:20px; --r-sm:12px;
+}
+html{scrollbar-color:#2a2a2e transparent}
+::selection{background:var(--accent);color:var(--on-accent)}
+body{background:var(--bg);font-size:15px;letter-spacing:-.006em;font-feature-settings:"ss01","cv11"}
+/* Luz ambiente azul y dorada, y un grano muy leve para que el negro no sea plano */
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(900px 540px at 82% -12%,rgba(61,123,255,.14),transparent 64%),radial-gradient(760px 460px at -12% -4%,rgba(212,175,55,.07),transparent 62%)}
+body::after{content:"";position:fixed;inset:0;z-index:90;pointer-events:none;opacity:.045;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+/* Barra superior: transparente arriba, vidrio con línea al bajar, y una línea dorada que marca cuánto bajaste */
+header.top{background:transparent;border-bottom-color:transparent;backdrop-filter:none;-webkit-backdrop-filter:none;transition:background .4s var(--ease),border-color .4s var(--ease),backdrop-filter .4s}
+header.top.scrolled{background:var(--glass);border-bottom-color:var(--line);backdrop-filter:saturate(1.3) blur(18px);-webkit-backdrop-filter:saturate(1.3) blur(18px)}
+.sprog{position:absolute;left:0;bottom:-1px;height:1px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:linear-gradient(90deg,var(--blue),var(--accent));opacity:.9;pointer-events:none}
+.mark{border-radius:999px;background:radial-gradient(circle at 30% 25%,#173A8C,#081634 70%);border-color:rgba(212,175,55,.5)}
+.logo b{font-family:var(--f-body);font-weight:600;font-size:18px;letter-spacing:-.035em}
+.logo b span{font-family:var(--f-serif);font-style:italic;font-weight:400;font-size:1.14em;letter-spacing:-.01em;color:var(--accent-ink)}
+nav.tabs{position:relative;background:rgba(238,233,221,.03);border-color:var(--line);padding:4px;isolation:isolate}
+.tab{font:500 14px var(--f-body);letter-spacing:-.01em;transition:color .35s var(--ease),background .35s var(--ease)}
+nav.tabs.has-ind .tab[aria-selected="true"]{background:none;box-shadow:none}
+.tab-ind{position:absolute;z-index:-1;top:4px;bottom:4px;left:0;width:0;border-radius:999px;background:var(--ink);transition:transform .5s var(--ease),width .5s var(--ease);pointer-events:none}
+nav.tabs.has-ind .tab[aria-selected="true"]{color:var(--bg)}
+.status-pill{font:500 11px var(--f-mono);letter-spacing:.06em;text-transform:uppercase}
+.bell,.hinstall{transition:border-color .3s var(--ease),background .3s var(--ease),transform .3s var(--ease)}
+.bell:hover{border-color:var(--line-2)}
+.bell:active,.hinstall:active{transform:scale(.94)}
+@media (max-width:760px){
+  nav.dock{background:rgba(8,8,10,.72);border-top-color:var(--line);backdrop-filter:saturate(1.3) blur(20px);-webkit-backdrop-filter:saturate(1.3) blur(20px)}
+  nav.dock .tab{font:500 10.5px var(--f-body);letter-spacing:0;position:relative}
+  nav.dock .tab svg{transition:transform .45s var(--ease)}
+  nav.dock .tab::before{content:"";position:absolute;top:0;left:50%;width:18px;height:2px;margin-left:-9px;border-radius:2px;background:var(--accent);transform:scaleX(0);transition:transform .45s var(--ease)}
+  nav.dock .tab[aria-selected="true"]::before{transform:scaleX(1)}
+  nav.dock .tab[aria-selected="true"] svg{transform:translateY(-1px) scale(1.06)}
+  nav.dock .tab:active svg{transform:scale(.9)}
+  footer{padding-bottom:calc(96px + env(safe-area-inset-bottom,0px))}
+}
+
+/* Tipografía: una sola familia, titulares grandes y apretados, el acento en serif itálica dorada */
+main{padding-block:40px 88px}
+section.panel{gap:26px;animation:none}
+.eyebrow{display:inline-block;font:500 11px/1.7 var(--f-mono);letter-spacing:.1em;color:var(--muted)}
+.eyebrow .live{display:inline-block;vertical-align:1px;margin:0 6px 0 4px}
+.eyebrow::before{content:"[";color:var(--accent);margin-right:2px}
+.eyebrow::after{content:"]";color:var(--accent);margin-left:2px}
+.lede{gap:14px}
+.lede h2{font-family:var(--f-display);font-weight:500;font-size:clamp(36px,7.4vw,76px);letter-spacing:-.052em;line-height:.96}
+.lede h2 em{font-family:var(--f-serif);font-style:italic;font-weight:400;letter-spacing:-.02em;padding-right:.06em;background:linear-gradient(100deg,#F6DE8D,#D4AF37 50%,#B08A22);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lede p{color:var(--ink-2);font-size:clamp(15px,1.9vw,17px);line-height:1.6}
+.section-title{font-family:var(--f-display);font-weight:500;font-size:clamp(24px,3.4vw,32px);letter-spacing:-.04em;margin-top:28px;padding-top:26px;border-top:1px solid var(--line)}
+
+/* Superficies: planas, línea fina, brillo sutil arriba */
+.card,.nitem,.fx,.stat,.src,.matrix,.join{box-shadow:none}
+.card{background:linear-gradient(180deg,rgba(238,233,221,.025),transparent 120px),var(--surface);border-color:var(--line);border-radius:var(--r);padding:24px}
+@media (max-width:480px){.card{padding:18px}}
+.card h3,.term-group .lab,.fact span,.kpi span,.total .k,table.ledger tr.group td,.items th,.matrix th,.fx-v span{font-family:var(--f-mono);font-weight:500;letter-spacing:.1em}
+.card h3::before{content:"[ ";color:var(--accent)}
+.card h3::after{content:" ]";color:var(--accent)}
+.kpi,.fact{background:rgba(238,233,221,.025);border-color:var(--line);border-radius:14px}
+.kpi b{font-family:var(--f-mono);font-weight:500}
+.total{border-radius:16px;background:radial-gradient(120% 140% at 100% 0%,rgba(212,175,55,.16),transparent 55%),linear-gradient(135deg,#0F2D73,#081634 70%);border-color:rgba(212,175,55,.32)}
+.total .n{font-family:var(--f-display);font-weight:500;letter-spacing:-.05em;color:#F3D77A}
+.term-head .code{font-family:var(--f-display);font-weight:500;letter-spacing:-.06em}
+.term-head .name{font-family:var(--f-serif);font-style:italic;font-size:22px;font-weight:400;color:var(--ink-2)}
+.matrix{background:var(--surface);border-color:var(--line);border-radius:var(--r)}
+.matrix td:first-child,.matrix th:first-child{background:var(--surface)}
+.matrix tr td{transition:background .25s var(--ease)}
+.matrix tr:hover td{background:rgba(238,233,221,.03)}
+.items{border-color:var(--line);border-radius:14px}
+.items th{background:rgba(238,233,221,.025)}
+
+/* Controles */
+input,select{font:500 15px var(--f-mono);background:rgba(238,233,221,.035);border-color:var(--line);border-radius:var(--r-sm);transition:border-color .3s var(--ease),background .3s var(--ease),box-shadow .3s var(--ease)}
+input:focus,select:focus{background:rgba(238,233,221,.05);border-color:rgba(212,175,55,.7);box-shadow:0 0 0 4px rgba(212,175,55,.1)}
+input[type="text"]#ncmq,input#encmq{font-family:var(--f-body);background-color:rgba(238,233,221,.035)}
+label.f{font-weight:400;color:var(--ink-2)}
+.seg,nav.tabs{border-radius:999px}
+.seg{background:rgba(238,233,221,.03);border-color:var(--line)}
+.seg button{font:500 14px var(--f-body);transition:background .4s var(--ease),color .4s var(--ease)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.btn{font:500 15px var(--f-body);letter-spacing:-.01em;padding:13px 22px;transition:background .35s var(--ease),color .35s var(--ease),transform .35s var(--ease),box-shadow .35s var(--ease)}
+.btn:hover{filter:none;transform:none;background:#E4C252;box-shadow:0 8px 28px -10px rgba(212,175,55,.55)}
+.btn:active{transform:scale(.97)}
+.btn.ghost{background:transparent;border:1px solid var(--line-2)}
+.btn.ghost:hover{background:rgba(238,233,221,.05);box-shadow:none}
+.btn.blue{background:var(--blue)}
+.btn.blue:hover{background:#6798FF;box-shadow:0 8px 28px -10px rgba(76,134,255,.6)}
+.pill,.fpill,.fxt{transition:background .35s var(--ease),color .35s var(--ease),border-color .35s var(--ease),transform .35s var(--ease)}
+.pill{font:500 15px var(--f-mono);background:transparent;border-color:var(--line-2);border-radius:999px;padding:10px 16px}
+.pill:hover{transform:none;border-color:var(--ink-2)}
+.pill[aria-pressed="true"],.fpill[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.fpill{font:500 13px var(--f-body);background:transparent;border-color:var(--line-2)}
+.fpill:hover{border-color:var(--ink-2)}
+.fxt{background:transparent;border-color:var(--line-2)}
+.fxt b{font-family:var(--f-mono);font-weight:500}
+.badge,.chip{font-family:var(--f-mono);font-weight:500}
+.ncm-list{background:#111216;border-color:var(--line-2);border-radius:16px;box-shadow:0 24px 60px -16px rgba(0,0,0,.8);animation:dropin .28s var(--ease)}
+@keyframes dropin{from{opacity:0;transform:translateY(-6px)}}
+
+/* Noticias */
+.stat{background:transparent;border-color:var(--line);border-radius:16px}
+.stat b{font-family:var(--f-display);font-weight:500;font-size:34px;letter-spacing:-.05em}
+.stat span{font-family:var(--f-mono);letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+.nitem{background:var(--surface);border-color:var(--line);border-radius:var(--r);transition:transform .5s var(--ease),border-color .5s var(--ease)}
+.nitem:hover{transform:translateY(-3px);border-color:var(--line-2)}
+.nitem h4{font-family:var(--f-display);font-weight:500;letter-spacing:-.035em;line-height:1.15;transition:color .35s var(--ease)}
+.nitem.feat{background:radial-gradient(110% 120% at 100% 0%,rgba(212,175,55,.14),transparent 50%),linear-gradient(140deg,#0F2D73,#081634 58%,#060607);border-color:rgba(212,175,55,.28)}
+.nitem.feat h4{font-weight:500;letter-spacing:-.045em;line-height:1.02}
+.nitem.feat::after{opacity:.35}
+.nmeta{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.02em}
+.flag{font-family:var(--f-mono);font-weight:500;letter-spacing:.12em}
+.ngo{font-weight:500;display:inline-flex;gap:6px;align-items:center}
+.ngo,.nsrc a{transition:color .35s var(--ease),border-color .35s var(--ease)}
+.nsrc a{font-weight:500;background:transparent;border-color:var(--line-2)}
+.nsrc a::after{display:inline-block;transition:transform .35s var(--ease)}
+.nsrc a:hover::after{transform:translate(2px,-2px)}
+.src{position:relative;background:transparent;border-color:var(--line);border-radius:16px;transition:border-color .45s var(--ease),transform .45s var(--ease),background .45s var(--ease)}
+.src:hover{transform:translateY(-2px);background:rgba(238,233,221,.025);border-color:rgba(212,175,55,.5)}
+.src b{font-family:var(--f-display);font-weight:500;letter-spacing:-.03em}
+.join{border-radius:var(--r);background:radial-gradient(120% 140% at 0% 0%,rgba(212,175,55,.14),transparent 50%),radial-gradient(120% 140% at 100% 100%,rgba(61,123,255,.18),transparent 55%),var(--surface);border-color:rgba(212,175,55,.28)}
+.join h3{font-family:var(--f-display);font-weight:500;letter-spacing:-.045em}
+.subform input[type=email]{background:rgba(238,233,221,.04);border-color:var(--line-2);transition:border-color .3s var(--ease)}
+
+/* Dólar */
+.fx{background:var(--surface);border-color:var(--line);border-radius:var(--r);transition:border-color .6s var(--ease),transform .5s var(--ease)}
+.fx:hover{transform:translateY(-2px)}
+.fx.hero{background:radial-gradient(110% 120% at 100% 0%,rgba(212,175,55,.14),transparent 50%),linear-gradient(140deg,#0F2D73,#081634 58%,#060607)}
+.fx-h h4{font-family:var(--f-display);font-weight:500;letter-spacing:-.035em}
+.fx-v div{background:rgba(238,233,221,.03);border-radius:12px}
+.fxgrid{grid-template-columns:repeat(auto-fill,minmax(min(100%,290px),1fr))}
+.fx-v b{font:500 clamp(17px,1.9vw,20px) var(--f-mono);letter-spacing:-.03em}
+.var{font-family:var(--f-mono);font-weight:500}
+
+/* Luz que sigue al puntero en tarjetas (solo con mouse) */
+.spot{position:relative;isolation:isolate}
+.spot::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;z-index:-1;opacity:0;transition:opacity .5s var(--ease);background:radial-gradient(420px circle at var(--mx,50%) var(--my,50%),rgba(212,175,55,.08),transparent 45%)}
+.spot:hover::before{opacity:1}
+
+/* Ventanas emergentes */
+.pop{background:rgba(3,3,4,.7);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);animation:popfade .4s var(--ease)}
+.pop-card{border-radius:24px;border-color:rgba(212,175,55,.32);background:radial-gradient(120% 80% at 50% 0%,rgba(61,123,255,.2),transparent 60%),#0B0C10;animation:popin2 .55s var(--ease)}
+.pop-card h2{font-family:var(--f-display);font-weight:500;letter-spacing:-.045em}
+.pop-card h2 span{font-family:var(--f-serif);font-style:italic;font-weight:400;letter-spacing:-.02em}
+@keyframes popin2{from{opacity:0;transform:translateY(24px) scale(.98)}}
+.guide .gsteps li{background:rgba(238,233,221,.03);border-color:var(--line)}
+
+/* Pie con la marca grande, al estilo oryzo */
+footer{border-top-color:var(--line);padding-top:40px;font-size:12.5px}
+footer::before{content:"Comex con Ian"/"";display:block;max-width:1120px;margin:0 auto 28px;padding-inline:16px;font:500 clamp(48px,13.5vw,168px)/.86 var(--f-display);letter-spacing:-.065em;white-space:nowrap;overflow:hidden;background:linear-gradient(180deg,rgba(238,233,221,.16),rgba(238,233,221,0) 92%);-webkit-background-clip:text;background-clip:text;color:transparent}
+@media (min-width:720px){footer::before{padding-inline:28px}}
+footer b{font-family:var(--f-display);font-weight:500}
+
+/* Movimiento: entradas cortas (menos de 0,7 s), escalonadas y sin bloquear nada */
+@keyframes inUp{from{opacity:0;transform:translateY(14px)}}
+@keyframes inHead{from{opacity:0;transform:translateY(.28em);filter:blur(6px)}}
+section.panel>*{animation:inUp .6s var(--ease) backwards}
+section.panel>*:nth-child(2){animation-delay:.05s}
+section.panel>*:nth-child(3){animation-delay:.1s}
+section.panel>*:nth-child(4){animation-delay:.14s}
+section.panel>*:nth-child(n+5){animation-delay:.18s}
+.lede h2{animation:inHead .8s var(--ease) backwards}
+.lede p{animation:inUp .7s var(--ease) .12s backwards}
+.newshead .lede h2,.newshead .lede p{animation-delay:.04s}
+.ani{animation:inUp .55s var(--ease) backwards}
+.rv{opacity:0;transform:translateY(22px)}
+.rv.in{opacity:1;transform:none;transition:opacity .65s var(--ease),transform .75s var(--ease)}
+@media (prefers-reduced-motion:reduce){
+  section.panel>*,.lede h2,.lede p,.ani,.ncm-list,.pop,.pop-card{animation:none!important}
+  .rv{opacity:1;transform:none}
+  .tab-ind{transition:none}
+}
+
+/* Ilustraciones de comex: a la derecha del título en compu; en el celu solo el buque de Noticias */
+section.panel{position:relative}
+.ill{position:absolute;top:-6px;right:0;width:min(30vw,330px);pointer-events:none;opacity:.95}
+.ill svg{display:block;width:100%;height:auto;overflow:visible}
+@media (max-width:1023px){.ill{display:none}.ill-noticias{display:block;position:static;width:100%;max-width:340px;margin:-18px 0 -12px;align-self:center}}
+.ill-ship{animation:illBob 6s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
+.ill-waves{animation:illWave 4s linear infinite}
+.ill-swing{animation:illSwing 5s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 0}
+.ill-dash{stroke-dasharray:4 6;animation:illDash 2.4s linear infinite}
+.ill-pulse{animation:illPulse 2.4s var(--ease) infinite;transform-box:fill-box;transform-origin:center}
+@keyframes illBob{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-2px) rotate(-.6deg)}}
+@keyframes illWave{to{transform:translateX(40px)}}
+@keyframes illSwing{0%,100%{transform:rotate(1.6deg)}50%{transform:rotate(-1.6deg)}}
+@keyframes illDash{to{stroke-dashoffset:-40}}
+@keyframes illPulse{from{transform:scale(.4);opacity:1}to{transform:scale(1.6);opacity:0}}
+footer{display:flex;flex-direction:column}
+footer .wrap{width:100%}
+.port{order:-1;height:max(90px,12.5vw);max-height:170px;margin:0 0 6px;overflow:hidden;pointer-events:none;-webkit-mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent);mask-image:linear-gradient(90deg,transparent,#000 12%,#000 88%,transparent)}
+.port svg{display:block;width:100%;height:100%}
+
+/* Quién soy */
+.about{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:clamp(20px,4vw,48px);align-items:center;padding:clamp(22px,4vw,40px);border:1px solid var(--line);border-radius:var(--r);background:radial-gradient(120% 120% at 0% 100%,rgba(61,123,255,.14),transparent 55%),var(--surface);scroll-margin-top:90px}
+@media (max-width:760px){.about{grid-template-columns:minmax(0,1fr)}}
+.about-art svg{display:block;width:100%;max-width:380px;height:auto;margin-inline:auto}
+.about-copy{display:flex;flex-direction:column;gap:14px;min-width:0}
+.about h3{margin:0;font-family:var(--f-display);font-weight:500;font-size:clamp(34px,5.4vw,58px);letter-spacing:-.05em;line-height:.98}
+.about h3 em{font-family:var(--f-serif);font-style:italic;font-weight:400;letter-spacing:-.02em;color:var(--accent-ink)}
+.about p{margin:0;color:var(--ink-2);max-width:60ch}
+.about-facts{list-style:none;margin:6px 0 0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+@media (max-width:420px){.about-facts{grid-template-columns:minmax(0,1fr)}}
+.about-facts li{border:1px solid var(--line);border-radius:14px;padding:12px 14px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.about-facts b{font:500 26px/1 var(--f-display);letter-spacing:-.04em;color:var(--ink)}
+.about-facts span{font:500 10.5px/1.4 var(--f-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.about .row .btn{text-decoration:none}
+@media (prefers-reduced-motion:reduce){.ill-ship,.ill-waves,.ill-swing,.ill-dash,.ill-pulse{animation:none}}
+</style>
 
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 </head>
@@ -414,6 +633,24 @@ footer b{color:var(--ink);font-family:var(--f-display)}
       <p class="note" id="joinnote">Dejá tu mail para recibir el radar y activá los avisos al celu. Usamos tu mail solo para esto y te das de baja cuando quieras.</p>
     </div>
   </div>
+  <section class="about" id="quien-soy" aria-labelledby="about-t">
+    <div class="about-art" aria-hidden="true"><svg viewBox="0 0 280 220" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="34" width="240" height="160" rx="4" fill="#D4AF37" fill-opacity=".07" stroke="#D4AF37"/><rect x="28" y="42" width="224" height="144" rx="2" stroke="#D4AF37" stroke-opacity=".35"/><line x1="140" y1="146" x2="140" y2="186" stroke="#D4AF37"/><g stroke="#EEE9DD" stroke-opacity=".55"><line x1="104" y1="150" x2="104" y2="180"/><line x1="118" y1="150" x2="118" y2="180"/><line x1="162" y1="150" x2="162" y2="180"/><line x1="176" y1="150" x2="176" y2="180"/><rect x="100" y="160" width="22" height="7" rx="2"/><rect x="158" y="160" width="22" height="7" rx="2"/></g><text x="140" y="114" text-anchor="middle" font-family="Instrument Serif,Georgia,serif" font-style="italic" font-size="54" fill="#E6C766" stroke="none">Ian</text><text x="40" y="62" font-family="Geist Mono,monospace" font-size="10" letter-spacing=".12em" fill="#EEE9DD" fill-opacity=".7" stroke="none">IANU 000018 · 3</text><text x="140" y="138" text-anchor="middle" font-family="Geist Mono,monospace" font-size="10" letter-spacing=".14em" fill="#EEE9DD" fill-opacity=".7" stroke="none">3RA GENERACIÓN · COMEX</text><path d="M0 206 H280" stroke="#4C86FF" stroke-opacity=".5"/><path d="M0 214q10-5 20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0t20 0" stroke="#4C86FF" stroke-opacity=".35"/></svg></div>
+    <div class="about-copy">
+      <span class="eyebrow">Quién soy</span>
+      <h3 id="about-t">Hola, soy <em>Ian</em></h3>
+      <p>Tengo 18 años y soy la tercera generación de una familia de importadores. El comercio exterior es el oficio de mi casa.</p>
+      <p>Estudio Comercio Internacional y emprendo con amigos en Boppa. Armé Comex con Ian para explicar simple lo que mueve el comercio exterior argentino: qué norma cambió, cuánto cuesta traer algo y cómo se calcula, siempre con la fuente oficial.</p>
+      <ul class="about-facts">
+        <li><b>3ra</b><span>generación de importadores</span></li>
+        <li><b>18</b><span>años</span></li>
+        <li><b>Comex</b><span>estudiante de Comercio Internacional</span></li>
+      </ul>
+      <div class="row">
+        <a class="btn" href="https://www.tiktok.com/@iancharaf7" target="_blank" rel="noopener">Seguime en TikTok</a>
+        <a class="btn ghost" href="https://www.instagram.com/iancharaf7/" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </section>
   <h3 class="section-title">Fuentes que seguimos</h3>
   <div class="sources" id="sources"></div>
 </section>
@@ -1205,6 +1442,124 @@ function start(){if(timer)return;load();timer=setInterval(()=>{if(document.visib
 document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&timer)load()});
 $('fxreload').onclick=load;
 start();
+})();
+</script>
+<script id="design-motion">
+/* Movimiento de la capa de diseño: barra que se asienta al bajar, indicador de pestaña que se desliza, tarjetas que aparecen al llegar a ellas y luz que sigue al mouse. Si algo falla, la página se ve igual, solo sin animación. */
+(function(){
+  try{
+  const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const head=document.querySelector('header.top');
+
+  // Barra superior + progreso de lectura
+  if(head){
+    const bar=document.createElement('span');bar.className='sprog';bar.setAttribute('aria-hidden','true');head.append(bar);
+    let ticking=false;
+    const onScroll=()=>{ticking=false;const y=scrollY,max=document.documentElement.scrollHeight-innerHeight;head.classList.toggle('scrolled',y>8);bar.style.transform='scaleX('+(max>0?Math.min(1,y/max):0)+')'};
+    addEventListener('scroll',()=>{if(!ticking){ticking=true;requestAnimationFrame(onScroll)}},{passive:true});
+    addEventListener('resize',onScroll,{passive:true});onScroll();
+  }
+
+  // Indicador deslizante en las pestañas de escritorio
+  const nav=document.querySelector('nav.tabs');
+  if(nav){
+    const ind=document.createElement('span');ind.className='tab-ind';ind.setAttribute('aria-hidden','true');nav.prepend(ind);nav.classList.add('has-ind');
+    const place=()=>{const t=nav.querySelector('.tab[aria-selected="true"]');if(!t||!t.offsetWidth)return;ind.style.width=t.offsetWidth+'px';ind.style.transform='translateX('+t.offsetLeft+'px)'};
+    new MutationObserver(place).observe(nav,{subtree:true,attributes:true,attributeFilter:['aria-selected']});
+    addEventListener('resize',place,{passive:true});
+    (document.fonts&&document.fonts.ready||Promise.resolve()).then(place);place();
+  }
+
+  // Ilustraciones de comex (buques, contenedores, grúas) dibujadas en línea, con los colores de la marca
+  try{
+  const G='#D4AF37',B='#4C86FF',I='#EEE9DD';
+  const box=(x,y,w,h,c)=>{let s='<rect x="'+x+'" y="'+y+'" width="'+w+'" height="'+h+'" rx="1.5" fill="'+c+'" fill-opacity=".13" stroke="'+c+'" stroke-opacity=".9"/>';for(let i=x+4;i<x+w-2;i+=4)s+='<line x1="'+i+'" y1="'+(y+2.5)+'" x2="'+i+'" y2="'+(y+h-2.5)+'" stroke="'+c+'" stroke-opacity=".35"/>';return s};
+  const pal=[G,B,I];
+  const waves=(y,w)=>{let d='M-80 '+y;for(let i=0;i<Math.ceil((w+160)/40);i++)d+=' q10 -5 20 0 t20 0';return '<path class="ill-wave" d="'+d+'" stroke="'+B+'" stroke-opacity=".55"/>'};
+  const svg=(vb,inner)=>'<svg viewBox="'+vb+'" fill="none" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">'+inner+'</svg>';
+  function ship(ox,oy,cols,s){ // buque portacontenedores
+    let g='<path d="M'+ox+' '+oy+' H'+(ox+cols*24+70)+' L'+(ox+cols*24+54)+' '+(oy+28)+' H'+(ox+22)+' Z" fill="#0E2A6B" fill-opacity=".55" stroke="'+B+'"/>';
+    g+='<line x1="'+(ox+14)+'" y1="'+(oy+16)+'" x2="'+(ox+cols*24+60)+'" y2="'+(oy+16)+'" stroke="'+G+'" stroke-opacity=".8"/>';
+    const bx=ox+cols*24+22;g+='<rect x="'+bx+'" y="'+(oy-44)+'" width="30" height="44" rx="2" fill="#060607" stroke="'+I+'" stroke-opacity=".8"/><rect x="'+(bx+4)+'" y="'+(oy-38)+'" width="22" height="5" fill="'+G+'" fill-opacity=".7" stroke="none"/><rect x="'+(bx+12)+'" y="'+(oy-60)+'" width="10" height="16" fill="'+G+'" fill-opacity=".2" stroke="'+G+'"/>';
+    (s||[2,3,3,2,3,3,1,3,2,3]).slice(0,cols).forEach((n,c)=>{for(let r=0;r<n;r++)g+=box(ox+16+c*24,oy-14*(r+1),22,14,pal[(c+r*2)%3])});
+    return g;
+  }
+  function crane(x,base,top,boomL,boomR){ // grúa pórtico de muelle
+    return '<g stroke="'+I+'" stroke-opacity=".75"><line x1="'+(x-36)+'" y1="'+base+'" x2="'+(x-30)+'" y2="'+top+'"/><line x1="'+(x+36)+'" y1="'+base+'" x2="'+(x+30)+'" y2="'+top+'"/><line x1="'+(x-33)+'" y1="'+((base+top)/2)+'" x2="'+(x+33)+'" y2="'+((base+top)/2)+'"/><line x1="'+(x-33)+'" y1="'+((base+top)/2)+'" x2="'+(x+34)+'" y2="'+(base-8)+'"/></g>'+
+      '<line x1="'+boomL+'" y1="'+top+'" x2="'+boomR+'" y2="'+top+'" stroke="'+G+'" stroke-width="2.2"/><path d="M'+boomL+' '+top+' L'+x+' '+(top-28)+' L'+boomR+' '+top+'" stroke="'+G+'" stroke-opacity=".6"/>';
+  }
+  const ILL={
+    noticias:svg('0 0 360 200','<circle cx="300" cy="44" r="22" fill="'+G+'" fill-opacity=".1" stroke="'+G+'" stroke-opacity=".5"/><path d="M52 44q5-5 10 0q5-5 10 0M84 30q4-4 8 0q4-4 8 0" stroke="'+I+'" stroke-opacity=".6"/><g class="ill-ship">'+ship(26,136,10)+'</g><g class="ill-waves">'+waves(170,360)+waves(184,360)+'</g>'),
+    dolar:svg('0 0 360 200','<g stroke="'+I+'" stroke-opacity=".12" stroke-dasharray="2 5"><line x1="20" y1="40" x2="340" y2="40"/><line x1="20" y1="80" x2="340" y2="80"/><line x1="20" y1="120" x2="340" y2="120"/></g>'+
+      [0,1,2,3,4,5,6,7].map(i=>box(40+i*34,172,32,18,pal[i%3])).join('')+[0,1,2,3,4,5].map(i=>box(74+i*34,154,32,18,pal[(i+1)%3])).join('')+[0,1,2].map(i=>box(142+i*34,136,32,18,pal[(i+2)%3])).join('')+
+      '<polyline points="30,118 80,106 122,112 170,86 220,92 268,60 326,38" stroke="'+G+'" stroke-width="1.8"/>'+[[30,118],[80,106],[122,112],[170,86],[220,92],[268,60]].map(p=>'<circle cx="'+p[0]+'" cy="'+p[1]+'" r="2.6" fill="#060607" stroke="'+G+'"/>').join('')+'<circle class="ill-pulse" cx="326" cy="38" r="9" stroke="'+G+'"/><circle cx="326" cy="38" r="3.4" fill="'+G+'" stroke="none"/>'),
+    calculadora:svg('0 0 360 220','<line x1="0" y1="200" x2="232" y2="200" stroke="'+I+'" stroke-opacity=".35"/>'+box(14,186,30,14,B)+box(46,186,30,14,G)+box(78,186,30,14,I)+box(30,172,30,14,G)+box(62,172,30,14,B)+crane(170,200,56,40,350)+
+      '<rect x="294" y="56" width="18" height="6" fill="'+G+'" fill-opacity=".6" stroke="'+G+'"/><g class="ill-swing"><line x1="303" y1="62" x2="303" y2="118" stroke="'+I+'" stroke-opacity=".7"/><line x1="288" y1="119" x2="318" y2="119" stroke="'+I+'" stroke-opacity=".8"/>'+box(287,121,32,16,G)+'</g>'+
+      '<path d="M236 178 H360 V202 H246 Z" fill="#0E2A6B" fill-opacity=".55" stroke="'+B+'"/>'+box(252,164,22,14,B)+box(276,164,22,14,I)+box(276,150,22,14,G)+box(300,164,22,14,B)+'<g class="ill-waves">'+waves(212,360)+'</g>'),
+    incoterms:svg('0 0 360 200','<path class="ill-dash" d="M34 150 C96 150 104 86 180 86 S264 150 326 150" stroke="'+G+'" stroke-width="1.6"/>'+
+      '<path d="M14 156 V128 L26 136 V128 L38 136 V128 L50 136 V156 Z" fill="'+I+'" fill-opacity=".06" stroke="'+I+'" stroke-opacity=".8"/><line x1="44" y1="128" x2="44" y2="112" stroke="'+I+'" stroke-opacity=".8"/>'+
+      '<g class="ill-ship"><path d="M146 92 H218 L210 106 H156 Z" fill="#0E2A6B" fill-opacity=".6" stroke="'+B+'"/>'+box(156,80,16,12,G)+box(174,80,16,12,B)+box(192,80,16,12,I)+'</g>'+
+      '<path d="M306 156 V136 L326 124 L346 136 V156 Z" fill="'+G+'" fill-opacity=".08" stroke="'+G+'"/><rect x="320" y="142" width="12" height="14" stroke="'+G+'" stroke-opacity=".7"/>'+
+      '<g font-family="Geist Mono,monospace" font-size="9" letter-spacing=".1em" fill="'+I+'" fill-opacity=".55" stroke="none"><text x="12" y="176">ORIGEN</text><text x="348" y="176" text-anchor="end">DESTINO</text></g><g class="ill-waves">'+waves(118,360).replace('stroke-opacity=".55"','stroke-opacity=".3"')+'</g>'),
+    documentos:svg('0 0 360 200',box(30,96,210,92,B)+'<line x1="135" y1="98" x2="135" y2="186" stroke="'+B+'"/><g stroke="'+I+'" stroke-opacity=".7"><line x1="112" y1="104" x2="112" y2="180"/><line x1="122" y1="104" x2="122" y2="180"/><line x1="148" y1="104" x2="148" y2="180"/><line x1="158" y1="104" x2="158" y2="180"/></g>'+
+      '<g transform="rotate(-6 255 100)"><rect x="200" y="22" width="112" height="146" rx="5" fill="#0D0E11" stroke="'+I+'" stroke-opacity=".85"/><text x="214" y="46" font-family="Geist Mono,monospace" font-size="9" letter-spacing=".12em" fill="'+G+'" stroke="none">PROFORMA</text><g stroke="'+I+'" stroke-opacity=".35"><line x1="214" y1="60" x2="298" y2="60"/><line x1="214" y1="72" x2="290" y2="72"/><line x1="214" y1="84" x2="298" y2="84"/><line x1="214" y1="96" x2="270" y2="96"/><line x1="214" y1="116" x2="298" y2="116"/><line x1="214" y1="128" x2="284" y2="128"/></g></g>'+
+      '<circle cx="292" cy="150" r="20" stroke="'+G+'" stroke-width="1.6"/><circle cx="292" cy="150" r="15" stroke="'+G+'" stroke-opacity=".5"/><text x="292" y="154" text-anchor="middle" font-family="Geist Mono,monospace" font-size="10" font-weight="600" fill="'+G+'" stroke="none">B/L</text>')
+  };
+  document.querySelectorAll('section.panel').forEach(p=>{const k=p.id.replace('p-','');if(!ILL[k]||p.querySelector('.ill'))return;const d=document.createElement('div');d.className='ill ill-'+k;d.setAttribute('aria-hidden','true');d.innerHTML=ILL[k];p.prepend(d)});
+  // Puerto en el pie: grúas, pilas de contenedores y un buque
+  const foot=document.querySelector('footer');
+  if(foot&&!foot.querySelector('.port')){
+    let s='<line x1="0" y1="132" x2="1200" y2="132" stroke="'+I+'" stroke-opacity=".25"/>';
+    [[40,6],[300,4],[1010,5]].forEach(([x,n])=>{for(let c=0;c<n;c++)for(let r=0;r<2+((c*7+x)%3);r++)s+=box(x+c*30,118-r*14,28,14,pal[(c+r+x)%3])});
+    s+=crane(240,132,40,150,420)+crane(560,132,30,470,760)+crane(900,132,40,800,1080);
+    s+='<g class="ill-ship">'+ship(560,104,8,[3,2,3,3,2,3,1,2])+'</g><g class="ill-waves">'+waves(140,1200).replace('stroke-opacity=".55"','stroke-opacity=".35"')+'</g>';
+    const d=document.createElement('div');d.className='port';d.setAttribute('aria-hidden','true');d.innerHTML='<svg viewBox="0 0 1200 150" preserveAspectRatio="xMidYMax slice" fill="none" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">'+s+'</svg>';
+    foot.prepend(d);
+  }
+  }catch(e){}
+
+  if(reduce)return;
+
+  // Aparición de tarjetas: las que ya se ven entran escalonadas; las de más abajo, al llegar a ellas
+  const SEL='.nitem,.card,.src,.fx,.stat,.fact,.join,.matrix,.section-title';
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;const el=e.target;io.unobserve(el);el.classList.add('in');setTimeout(()=>el.classList.remove('rv','in'),900)}),{rootMargin:'0px 0px -6% 0px'});
+  const inView=el=>{const r=el.getBoundingClientRect();return r.height>0&&r.top<innerHeight*.94};
+  function prep(root,stagger){
+    let i=0;
+    root.querySelectorAll(SEL).forEach(el=>{
+      if(el.closest('.pop')||el.classList.contains('rv'))return;
+      const r=el.getBoundingClientRect();if(!r.height)return;
+      if(r.top>innerHeight*.94){el.classList.add('rv');io.observe(el)}
+      else if(stagger){el.style.animationDelay=Math.min(i++*45,360)+'ms';el.classList.add('ani');setTimeout(()=>{el.classList.remove('ani');el.style.animationDelay=''},1000)}
+    });
+  }
+  // Al cambiar de pestaña o al cargar noticias/fuentes
+  const main=document.querySelector('main');
+  if(main){
+    new MutationObserver(ms=>{
+      let panel=null,lists=new Set();
+      ms.forEach(m=>{
+        if(m.type==='attributes'&&m.target.matches('section.panel')&&!m.target.hidden)panel=m.target;
+        if(m.type==='childList'&&m.target.id&&/^(news|sources)$/.test(m.target.id))lists.add(m.target);
+        if(m.type==='childList'&&m.target.id&&/^(fxgrid|fxother)$/.test(m.target.id)&&!m.target.dataset.seen){m.target.dataset.seen='1';lists.add(m.target)}
+      });
+      requestAnimationFrame(()=>{if(panel)prep(panel,false);lists.forEach(l=>prep(l,true))});
+    }).observe(main,{subtree:true,childList:true,attributes:true,attributeFilter:['hidden']});
+    requestAnimationFrame(()=>prep(main,false));
+  }
+  // Red de seguridad: nada queda invisible
+  setTimeout(()=>document.querySelectorAll('.rv').forEach(el=>{if(inView(el)){el.classList.add('in');io.unobserve(el)}}),1500);
+
+  // Luz que sigue al puntero (solo mouse)
+  if(matchMedia('(hover: hover) and (pointer: fine)').matches){
+    const SPOT='.nitem,.src,.fx,.card:not(.result),.join';
+    document.addEventListener('pointermove',e=>{
+      const el=e.target.closest&&e.target.closest(SPOT);if(!el)return;
+      if(!el.classList.contains('spot'))el.classList.add('spot');
+      const r=el.getBoundingClientRect();el.style.setProperty('--mx',(e.clientX-r.left)+'px');el.style.setProperty('--my',(e.clientY-r.top)+'px');
+    },{passive:true});
+  }
+  }catch(err){document.querySelectorAll('.rv').forEach(el=>el.classList.remove('rv'))}
 })();
 </script>
 </body>
