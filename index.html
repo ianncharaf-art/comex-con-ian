@@ -15,8 +15,16 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Comex con Ian">
 <meta property="og:description" content="Noticias de comex todos los días, calculadora de importación con NCM, Incoterms y proforma en Excel.">
-<meta property="og:image" content="/og.png">
+<meta property="og:image" content="https://comex-con-ian.vercel.app/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://comex-con-ian.vercel.app/">
+<meta property="og:locale" content="es_AR">
+<meta property="og:site_name" content="Comex con Ian">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://comex-con-ian.vercel.app/og.png">
+<link rel="canonical" href="https://comex-con-ian.vercel.app/">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Ian Charaf","url":"https://comex-con-ian.vercel.app/","jobTitle":"Fundador de CH Group","worksFor":{"@type":"Organization","name":"CH Group","sameAs":"https://www.instagram.com/chgroup.arg/"},"sameAs":["https://www.tiktok.com/@iancharaf7","https://www.instagram.com/iancharaf7/","https://www.instagram.com/chgroup.arg/"]}</script>
 <title>Comex con Ian · Radar y herramientas de comercio exterior</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -592,10 +600,11 @@ footer .credits{color:var(--muted);font-size:11px}
       <button class="tab" role="tab" id="t-calc" data-tab="calculadora" aria-selected="false">Calculadora</button>
       <button class="tab" role="tab" id="t-inco" data-tab="incoterms" aria-selected="false">Incoterms</button>
       <button class="tab" role="tab" id="t-docs" data-tab="documentos" aria-selected="false">Documentos</button>
+      <button class="tab" type="button" data-tab="importa" data-go="ch-group" aria-selected="false">Importá conmigo</button>
     </nav>
     <button class="hinstall" id="hinstall" type="button" hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 21h14"/></svg>Instalar<span class="hl"> app</span></button>
     <button class="bell" id="pushbell" type="button" aria-label="Activar notificaciones" title="Activar notificaciones"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></button>
-    <span class="status-pill"><span class="live" aria-hidden="true"></span><span id="hupd">Radar</span></span>
+    <span class="status-pill"><span class="live" aria-hidden="true"></span><span id="hupd"><!--PR:hupd-->Radar · 15 oct 2026<!--/PR:hupd--></span></span>
   </div>
 </header>
 
@@ -613,18 +622,138 @@ footer .credits{color:var(--muted);font-size:11px}
 <section class="panel" id="p-noticias" role="tabpanel" aria-labelledby="t-news">
   <div class="newshead">
     <div class="lede">
-      <span class="eyebrow"><span class="live" aria-hidden="true"></span><span>Radar de comex · <span id="nupd">Actualizado</span></span></span>
+      <span class="eyebrow"><span class="live" aria-hidden="true"></span><span>Radar de comex · <span id="nupd"><!--PR:nupd-->Actualizado el 15 oct 2026<!--/PR:nupd--></span></span></span>
       <h2>Lo que mueve el comercio exterior <em>argentino</em></h2>
       <p>Normas, aranceles, dólar y datos oficiales, explicados simple. Cada novedad tiene su fecha y su fuente para que la verifiques.</p>
     </div>
     <div class="stats">
-      <div class="stat"><b id="ncount">0</b><span>novedades</span></div>
-      <div class="stat"><b id="nsrcs">11</b><span>fuentes que seguimos</span></div>
+      <div class="stat"><b id="ncount"><!--PR:ncount-->20<!--/PR:ncount--></b><span>novedades</span></div>
+      <div class="stat"><b id="nsrcs"><!--PR:nsrcs-->10<!--/PR:nsrcs--></b><span>fuentes que seguimos</span></div>
     </div>
   </div>
   <div class="fxtick" id="fxtick" aria-label="Dólar hoy" hidden></div>
-  <div class="filters" id="nfilter" role="group" aria-label="Filtrar por tema"></div>
-  <div class="news" id="news"></div>
+  <div class="filters" id="nfilter" role="group" aria-label="Filtrar por tema"><!--PR:nfilter--><button class="fpill" data-c="Todas" aria-pressed="true">Todas</button><button class="fpill" data-c="Acuerdos" aria-pressed="false">Acuerdos</button><button class="fpill" data-c="INDEC" aria-pressed="false">INDEC</button><button class="fpill" data-c="Dólar" aria-pressed="false">Dólar</button><button class="fpill" data-c="Datos" aria-pressed="false">Datos</button><button class="fpill" data-c="Logística" aria-pressed="false">Logística</button><button class="fpill" data-c="Mundo" aria-pressed="false">Mundo</button><button class="fpill" data-c="Trámites" aria-pressed="false">Trámites</button><button class="fpill" data-c="Brasil" aria-pressed="false">Brasil</button><button class="fpill" data-c="Importaciones" aria-pressed="false">Importaciones</button><button class="fpill" data-c="ARCA · Aduana" aria-pressed="false">ARCA · Aduana</button><button class="fpill" data-c="Exportación" aria-pressed="false">Exportación</button><button class="fpill" data-c="ARCA · Impuestos" aria-pressed="false">ARCA · Impuestos</button><button class="fpill" data-c="Norma" aria-pressed="false">Norma</button><!--/PR:nfilter--></div>
+  <div class="news" id="news"><!--PR:news--><article class="nitem feat">
+    <span class="flag">Última novedad</span>
+    <div class="nmeta"><time datetime="2026-10-14">14 oct 2026</time><span class="chip">Acuerdos</span></div>
+    <h4><a class="nlink" href="https://www.infobae.com/economia/2026/10/14/argentina-firmo-con-eeuu-un-protocolo-adicional-para-fortalecer-el-acuerdo-bilateral-sobre-comercio-e-inversiones-reciprocas/" target="_blank" rel="noopener">Argentina y EE.UU. firmaron un protocolo que destraba el acuerdo comercial para enviarlo al Congreso</a></h4><p>El canciller Pablo Quirno y el representante comercial de EE.UU., Jamieson Greer, firmaron en Washington un protocolo adicional al Acuerdo de Comercio e Inversiones Recíprocas (firmado en febrero de 2026). Según Quirno, permite enviar el acuerdo al Congreso y EE.UU. reafirma el trato de nación más favorecida para productos argentinos. El texto todavía no es público. Quirno destacó exportaciones a EE.UU. por US$6.570 millones en enero-agosto (+35%) y la cuota de carne ampliada de 20.000 a 100.000 toneladas.</p>
+    <p class="nwhy"><b>Por qué importa:</b> EE.UU. es uno de los principales destinos de las exportaciones argentinas: el acuerdo define aranceles y cupos para carne, industria y economías regionales.</p>
+    <span class="ngo">Leer en Infobae <span aria-hidden="true">→</span></span><div class="nsrc"><a href="https://www.infobae.com/economia/2026/10/14/argentina-firmo-con-eeuu-un-protocolo-adicional-para-fortalecer-el-acuerdo-bilateral-sobre-comercio-e-inversiones-reciprocas/" target="_blank" rel="noopener">Infobae <small class="m">Medio</small></a><a href="https://www.cancilleria.gob.ar/es/actualidad/noticias/argentina-y-estados-unidos-firmaron-un-acuerdo-sobre-comercio-e-inversiones" target="_blank" rel="noopener">Cancillería (acuerdo de febrero) <small class="">Oficial</small></a></div>
+  </article><article class="nitem">
+    
+    <div class="nmeta"><time datetime="2026-10-13">13 oct 2026</time><span class="chip">INDEC</span></div>
+    <h4><a class="nlink" href="https://www.infobae.com/economia/2026/10/13/la-inflacion-en-septiembre-fue-de-19-y-acumulo-334-en-los-ultimos-doce-meses/" target="_blank" rel="noopener">La inflación de septiembre fue 1,9% y acumula 23,6% en el año</a></h4><p>Según el INDEC, los precios subieron 1,9% en septiembre (1,7% en agosto), 23,6% en enero-septiembre y 33,4% interanual. Lo que más subió fue vivienda, agua, electricidad y gas (3,1%) y educación (3%). La inflación núcleo fue 1,7%.</p>
+    <p class="nwhy"><b>Por qué importa:</b> Si los precios en pesos suben más rápido que el dólar, los productos importados se abaratan en términos reales y exportar desde Argentina se vuelve menos competitivo.</p>
+    <span class="ngo">Leer en Infobae <span aria-hidden="true">→</span></span><div class="nsrc"><a href="https://www.infobae.com/economia/2026/10/13/la-inflacion-en-septiembre-fue-de-19-y-acumulo-334-en-los-ultimos-doce-meses/" target="_blank" rel="noopener">Infobae <small class="m">Medio</small></a></div>
+  </article><article class="nitem">
+    
+    <div class="nmeta"><time datetime="2026-10-13">13 oct 2026</time><span class="chip">Dólar</span></div>
+    <h4><a class="nlink" href="https://www.infobae.com/economia/2026/10/13/el-banco-central-realizo-la-mayor-compra-de-dolares-desde-julio-y-ya-acumula-mas-de-usd-15000-millones-en-2026/" target="_blank" rel="noopener">El BCRA hizo su mayor compra de dólares desde julio: US$291 millones en un día</a></h4><p>El martes 13 de octubre el Banco Central compró US$291 millones en el mercado de cambios, la mayor compra desde fines de julio. Ya suma US$15.200 millones desde el inicio de la fase cuatro del programa monetario, por encima de la meta anual de US$10.000 millones acordada con el FMI. Las reservas brutas subieron US$138 millones y cerraron en US$49.839 millones.</p>
+    <p class="nwhy"><b>Por qué importa:</b> Más reservas en el Banco Central le dan más estabilidad al dólar con el que importadores y exportadores calculan costos y precios.</p>
+    <span class="ngo">Leer en Infobae <span aria-hidden="true">→</span></span><div class="nsrc"><a href="https://www.infobae.com/economia/2026/10/13/el-banco-central-realizo-la-mayor-compra-de-dolares-desde-julio-y-ya-acumula-mas-de-usd-15000-millones-en-2026/" target="_blank" rel="noopener">Infobae <small class="m">Medio</small></a></div>
+  </article><article class="nitem">
+    
+    <div class="nmeta"><time datetime="2026-10-10">10 oct 2026</time><span class="chip">Datos</span></div>
+    <h4><a class="nlink" href="https://mundoempresarial.ar/importaciones-argentinas-caen-26-y-revelan-brecha-tecnologica/" target="_blank" rel="noopener">Las importaciones caen 2,6% interanual hasta agosto</a></h4><p>Acumulado del año: importaciones por USD 48.999 millones, exportaciones por USD 67.248 millones y superávit comercial de USD 18.249 millones.</p>
+    
+    <span class="ngo">Leer en Mundo Empresarial <span aria-hidden="true">→</span></span><div class="nsrc"><a href="https://mundoempresarial.ar/importaciones-argentinas-caen-26-y-revelan-brecha-tecnologica/" target="_blank" rel="noopener">Mundo Empresarial <small class="m">Medio</small></a></div>
+  </article><article class="nitem">
+    
+    <div class="nmeta"><time datetime="2026-10-09">9 oct 2026</time><span class="chip">Dólar</span></div>
+    <h4><a class="nlink" href="https://www.infobae.com/economia/2026/10/09/el-bcra-acelero-las-compras-de-dolares-y-acumula-casi-usd-15000-millones-en-2026/" target="_blank" rel="noopener">El BCRA compró US$69 millones el viernes y ya suma casi US$15.000 millones en 2026</a></h4><p>El Banco Central adquirió US$69 millones en el mercado de cambios el viernes 9 de octubre y acumula US$341 millones en lo que va del mes y US$14.909 millones desde el inicio de la fase cuatro del programa monetario. Las reservas brutas cerraron la semana en US$49.701 millones y el dólar mayorista subió $1,50 hasta $1.517.</p>
+    <p class="nwhy"><b>Por qué importa:</b> Un Banco Central que compra dólares y suma reservas le da más previsibilidad al tipo de cambio con el que importadores y exportadores calculan sus costos y precios.</p>
+    <span class="ngo">Leer en Infobae <span aria-hidden="true">→</span></span><div class="nsrc"><a href="https://www.infobae.com/economia/2026/10/09/el-bcra-acelero-las-compras-de-dolares-y-acumula-casi-usd-15000-millones-en-2026/" target="_blank" rel="noopener">Infobae <small class="m">Medio</small></a></div>
+  </article><article class="nitem">
+    
+    <div class="nmeta"><time datetime="2026-10-09">9 oct 2026</time><span class="chip">Logística</span></div>
+    <h4><a class="nlink" href="https://aduananews.com/argentina-y-uruguay-avanzan-en-la-digitalizacion-y-el-control-de-sus-pasos-fronterizos/" target="_blank" rel="noopener">Argentina y Uruguay suman cámaras, escáner y trámites digitales en sus puentes fronterizos</a></h4><p>En la reunión bilateral del Subcomité Técnico de Controles y Operatoria de Frontera del Mercosur (29 y 30 de septiembre, Salto Grande) se informaron 113 cámaras de seguridad y una sala de monitoreo de Gendarmería en Concordia–Salto, gestiones para un escáner móvil de rayos X para cargas y la digitalización del sellado de trámites en Gualeguaychú–Fray Bentos, y mejoras en Colón–Paysandú.</p>
+    <p class="nwhy"><b>Por qué importa:</b> Los pasos con Uruguay mueven buena parte del transporte de cargas por camión; más control digital y escaneo puede acortar demoras en frontera.</p>
+    <span class="ngo">Leer en Aduana News <span aria-hidden="true">→</span></span><div class="nsrc"><a href="https://aduananews.com/argentina-y-uruguay-avanzan-en-la-digitalizacion-y-el-control-de-sus-pasos-fronterizos/" target="_blank" rel="noopener">Aduana News <small class="m">Medio</small></a></div>
+  </article><article class="nitem">
+    
+    <div class="nmeta"><time datetime="2026-10-08">8 oct 2026</time><span class="chip">Mundo</span></div>
+    <h4><a class="nlink" href="https://www.wto.org/english/news_e/news26_e/stat_08oct26_510_e.htm" target="_blank" rel="noopener">La OMC subió al 3,9% su previsión de crecimiento del comercio mundial de bienes para 2026</a></h4><p>En su actualización de octubre, la Organización Mundial del Comercio elevó la proyección de crecimiento del volumen del comercio de mercancías para 2026 del 1,9% al 3,9% y estimó 4,1% para 2027. Para el comercio de servicios bajó la previsión de 2026 del 4,8% al 3,3%.</p>
+    <p class="nwhy"><b>Por qué importa:</b> Más comercio mundial significa más demanda para lo que exporta Argentina y más movimiento en fletes y puertos.</p>
+    <span class="ngo">Leer en OMC (WTO) <span aria-hidden="true">→</span></span><div class="nsrc"><a href="https://www.wto.org/english/news_e/news26_e/stat_08oct26_510_e.htm" target="_blank" rel="noopener">OMC (WTO) <small class="">Oficial</small></a><a href="https://aduananews.com/la-omc-eleva-del-19-al-39-su-prevision-de-crecimiento-del-comercio-mundial-para-2026/" target="_blank" rel="noopener">Aduana News <small class="m">Medio</small></a></div>
+  </article><article class="nitem">
+    
+    <div class="nmeta"><time datetime="2026-10-08">8 oct 2026</time><span class="chip">Trámites</span></div>
+    <h4><a class="nlink" href="https://www.vuce.gob.ar/" target="_blank" rel="noopener">El MERCOSUR digitaliza con el sistema SACIM los cupos de importación del Acuerdo MERCOSUR–UE</a></h4><p>Los cupos (contingentes) de importación que fija el Acuerdo MERCOSUR–Unión Europea pasan a gestionarse en forma digital con el sistema SACIM.</p>
+    
+    <span class="ngo">Leer en VUCE <span aria-hidden="true">→</span></span><div class="nsrc"><a href="https://www.vuce.gob.ar/" target="_blank" rel="noopener">VUCE <small class="">Oficial</small></a></div>
+  </article><article class="nitem">
+    
+    <div class="nmeta"><time datetime="2026-10-07">7 oct 2026</time><span class="chip">Brasil</span></div>
+    <h4><a class="nlink" href="https://aduananews.com/bras-septiembre-cerro-con-un-menor-deficit-de-us-51-millones/" target="_blank" rel="noopener">Comercio con Brasil: en septiembre el déficit bajó a US$51 millones</a></h4><p>Según el informe de la Cámara Argentina de Comercio y Servicios que publicó Aduana News, en septiembre Argentina le exportó a Brasil US$1.305 millones (+5,7% interanual, séptimo mes seguido de suba) y le importó US$1.357 millones (-25,2%). En enero-septiembre el déficit acumulado fue de US$1.687 millones, contra US$4.681 millones en el mismo período de 2025.</p>
+    <p class="nwhy"><b>Por qué importa:</b> Brasil es el principal socio comercial de Argentina: lo que pasa ahí impacta en autos, autopartes y energía.</p>
+    <span class="ngo">Leer en Aduana News <span aria-hidden="true">→</span></span><div class="nsrc"><a href="https://aduananews.com/bras-septiembre-cerro-con-un-menor-deficit-de-us-51-millones/" target="_blank" rel="noopener">Aduana News <small class="m">Medio</small></a></div>
+  </article><article class="nitem">
+    
+    <div class="nmeta"><time datetime="2026-10-07">7 oct 2026</time><span class="chip">Importaciones</span></div>
+    <h4><a class="nlink" href="https://www.cronista.com/economia-politica/las-importaciones-dibujan-un-nuevo-mapa-productivo-quienes-son-los-nuevos-protagonistas/" target="_blank" rel="noopener">Las importaciones de septiembre cayeron 2% interanual y cambió qué se compra</a></h4><p>Según El Cronista, en septiembre los autos importados bajaron 29%, los bienes de capital 10% y los combustibles subieron 54% (datos de Federico Bernini, IIEP UBA-Conicet). La importación de smartphones creció 746,6% en el acumulado a agosto (Analytica) y China le gana participación a Brasil (ABECEB).</p>
+    <p class="nwhy"><b>Por qué importa:</b> Muestra qué productos están entrando más y desde dónde. Los celulares y China son tema caliente.</p>
+    <span class="ngo">Leer en El Cronista <span aria-hidden="true">→</span></span><div class="nsrc"><a href="https://www.cronista.com/economia-politica/las-importaciones-dibujan-un-nuevo-mapa-productivo-quienes-son-los-nuevos-protagonistas/" target="_blank" rel="noopener">El Cronista <small class="m">Medio</small></a></div>
+  </article><article class="nitem">
+    
+    <div class="nmeta"><time datetime="2026-10-06">6 oct 2026</time><span class="chip">Dólar</span></div>
+    <h4><a class="nlink" href="https://www.cronista.com/finanzas-mercados/dolar-hoy-a-cuanto-cotiza-el-oficial-en-los-bancos-de-la-city-este-martes-6-de-octubre/" target="_blank" rel="noopener">Dólar mayorista a $1.536,90 y oficial en Banco Nación a $1.540</a></h4><p>El mayorista, que es el que se usa como referencia para pagar importaciones, cerró en $1.536,90. En agosto había estado por debajo de $1.500.</p>
+    <p class="nwhy"><b>Por qué importa:</b> Cada suba del tipo de cambio encarece en pesos todo lo importado.</p>
+    <span class="ngo">Leer en El Cronista <span aria-hidden="true">→</span></span><div class="nsrc"><a href="https://www.cronista.com/finanzas-mercados/dolar-hoy-a-cuanto-cotiza-el-oficial-en-los-bancos-de-la-city-este-martes-6-de-octubre/" target="_blank" rel="noopener">El Cronista <small class="m">Medio</small></a><a href="https://www.bcra.gob.ar" target="_blank" rel="noopener">BCRA <small class="">Oficial</small></a></div>
+  </article><article class="nitem">
+    
+    <div class="nmeta"><time datetime="2026-10-06">6 oct 2026</time><span class="chip">Trámites</span></div>
+    <h4><a class="nlink" href="https://www.vuce.gob.ar/" target="_blank" rel="noopener">VUCEA suma las licencias para importar productos agropecuarios de la UE dentro de los contingentes del acuerdo</a></h4><p>Las licencias para importar productos agropecuarios de la Unión Europea dentro de los contingentes del Acuerdo MERCOSUR–UE se tramitan en VUCEA.</p>
+    
+    <span class="ngo">Leer en VUCE <span aria-hidden="true">→</span></span><div class="nsrc"><a href="https://www.vuce.gob.ar/" target="_blank" rel="noopener">VUCE <small class="">Oficial</small></a></div>
+  </article><article class="nitem">
+    
+    <div class="nmeta"><time datetime="2026-10-06">6 oct 2026</time><span class="chip">Datos</span></div>
+    <h4><a class="nlink" href="https://aduananews.com/el-comercio-del-g20-se-acelero-en-el-segundo-trimestre-de-2026-y-argentina-elevo-sus-exportaciones-un-93/" target="_blank" rel="noopener">OCDE: las exportaciones argentinas subieron 9,3% en el segundo trimestre</a></h4><p>Según la OCDE, las exportaciones argentinas subieron 9,3% en el 2° trimestre frente al 1°; las importaciones, 2,5%.</p>
+    
+    <span class="ngo">Leer en Aduana News <span aria-hidden="true">→</span></span><div class="nsrc"><a href="https://aduananews.com/el-comercio-del-g20-se-acelero-en-el-segundo-trimestre-de-2026-y-argentina-elevo-sus-exportaciones-un-93/" target="_blank" rel="noopener">Aduana News <small class="m">Medio</small></a></div>
+  </article><article class="nitem">
+    
+    <div class="nmeta"><time datetime="2026-09-24">24 sep 2026</time><span class="chip">ARCA · Aduana</span></div>
+    <h4><a class="nlink" href="https://www.boletinoficial.gob.ar/seccion/primera/20260924" target="_blank" rel="noopener">ARCA simplificó cómo se guarda y destruye la documentación aduanera (RG 5900/2026)</a></h4><p>Una vez prescripta la acción fiscal, el declarante puede destruir la documentación sin autorización, aviso previo ni veedores. Lo vinculado a procesos administrativos o judiciales en curso se sigue guardando. Deroga las RG 2864, 4476, 4654 y 5043.</p>
+    <p class="nwhy"><b>Por qué importa:</b> Menos costo y papeleo para importadores y exportadores que actúan como depositarios fieles.</p>
+    <span class="ngo">Leer en Boletín Oficial <span aria-hidden="true">→</span></span><div class="nsrc"><a href="https://www.boletinoficial.gob.ar/seccion/primera/20260924" target="_blank" rel="noopener">Boletín Oficial <small class="">Oficial</small></a><a href="https://www.baenegocios.com/economia/arca-simplifica-el-archivo-de-documentacion-aduanera/" target="_blank" rel="noopener">BAE Negocios <small class="m">Medio</small></a></div>
+  </article><article class="nitem">
+    
+    <div class="nmeta"><time datetime="2026-09-18">18 sep 2026</time><span class="chip">INDEC</span></div>
+    <h4><a class="nlink" href="https://www.indec.gob.ar/uploads/informesdeprensa/ica_09_266E5973E036.pdf" target="_blank" rel="noopener">Agosto: superávit comercial de US$2.187 millones</a></h4><p>Las exportaciones sumaron US$8.883 millones (+12,4% interanual) y las importaciones US$6.696 millones (+3,6%). El saldo fue US$746 millones mayor que en agosto de 2025.</p>
+    <p class="nwhy"><b>Por qué importa:</b> Es el dato oficial de cuánto vende y compra Argentina al mundo.</p>
+    <span class="ngo">Leer en INDEC · Intercambio comercial argentino <span aria-hidden="true">→</span></span><div class="nsrc"><a href="https://www.indec.gob.ar/uploads/informesdeprensa/ica_09_266E5973E036.pdf" target="_blank" rel="noopener">INDEC · Intercambio comercial argentino <small class="">Oficial</small></a></div>
+  </article><article class="nitem">
+    
+    <div class="nmeta"><time datetime="2026-07-01">1 jul 2026</time><span class="chip">Exportación</span></div>
+    <h4><a class="nlink" href="https://www.boletinoficial.gob.ar/detalleAviso/primera/343774/20260701" target="_blank" rel="noopener">Decreto 566/2026: retenciones en 0% para químicos, plásticos, acero y automotor</a></h4><p>El Anexo I lleva a 0% los derechos de exportación desde el 2 de julio para químicos, fertilizantes, plásticos, caucho, acero, metales no ferrosos y productos automotrices. El Anexo II arranca en 4,5% y 3% y baja mes a mes hasta 0% el 1 de junio de 2027.</p>
+    <p class="nwhy"><b>Por qué importa:</b> Exportar productos industriales deja de pagar retenciones o paga cada vez menos.</p>
+    <span class="ngo">Leer en Boletín Oficial <span aria-hidden="true">→</span></span><div class="nsrc"><a href="https://www.boletinoficial.gob.ar/detalleAviso/primera/343774/20260701" target="_blank" rel="noopener">Boletín Oficial <small class="">Oficial</small></a><a href="https://aaaci.org.ar/decreto-566-2026-reduccion-y-eliminacion-de-derechos-de-exportacion/" target="_blank" rel="noopener">AAACI <small class="m">Medio</small></a></div>
+  </article><article class="nitem">
+    
+    <div class="nmeta"><time datetime="2026-06-29">29 jun 2026</time><span class="chip">ARCA · Impuestos</span></div>
+    <h4><a class="nlink" href="https://www.boletinoficial.gob.ar/detalleAviso/primera/343657/20260629" target="_blank" rel="noopener">Prorrogan hasta el 31/12/2026 la exención de percepciones de IVA y Ganancias en aduana</a></h4><p>La RG 5868/2026 de ARCA extiende la exención para bienes de la canasta básica e insumos de micro y pequeñas empresas. Para los insumos, el importador necesita el Certificado MiPyME vigente al momento de importar.</p>
+    <p class="nwhy"><b>Por qué importa:</b> Quien califica no adelanta IVA ni Ganancias al importar, y eso mejora mucho la caja.</p>
+    <span class="ngo">Leer en Boletín Oficial <span aria-hidden="true">→</span></span><div class="nsrc"><a href="https://www.boletinoficial.gob.ar/detalleAviso/primera/343657/20260629" target="_blank" rel="noopener">Boletín Oficial <small class="">Oficial</small></a><a href="https://www.cronista.com/economia-politica/arca-mantiene-un-beneficio-clave-para-importaciones-quienes-evitaran-adelantos-de-iva-y-ganancias-en-aduana/" target="_blank" rel="noopener">El Cronista <small class="m">Medio</small></a></div>
+  </article><article class="nitem">
+    
+    <div class="nmeta"><time datetime="2026-06-03">3 jun 2026</time><span class="chip">Exportación</span></div>
+    <h4><a class="nlink" href="https://www.boletinoficial.gob.ar/detalleAviso/primera/342702/20260603" target="_blank" rel="noopener">Decreto 423/2026: baja de retenciones al agro hasta 2028</a></h4><p>Trigo y cebada pasan de 7,5% a 5,5%. La soja (24%) baja desde enero de 2027 hasta 21% en diciembre de 2027 y 15% en diciembre de 2028. El aceite de soja va de 18-22% a 11-14% a fines de 2028.</p>
+    <p class="nwhy"><b>Por qué importa:</b> Marca cuánto le queda al exportador del campo en los próximos dos años.</p>
+    <span class="ngo">Leer en Boletín Oficial <span aria-hidden="true">→</span></span><div class="nsrc"><a href="https://www.boletinoficial.gob.ar/detalleAviso/primera/342702/20260603" target="_blank" rel="noopener">Boletín Oficial <small class="">Oficial</small></a><a href="https://www.infobae.com/economia/2026/06/03/el-gobierno-oficializo-una-reduccion-en-las-retenciones-para-el-agro-y-los-biocombustibles/" target="_blank" rel="noopener">Infobae <small class="m">Medio</small></a></div>
+  </article><article class="nitem">
+    
+    <div class="nmeta"><time datetime="2026-02-27">27 feb 2026</time><span class="chip">Acuerdos</span></div>
+    <h4><a class="nlink" href="https://cancilleria.gob.ar/es/actualidad/noticias/argentina-es-el-primer-pais-en-cumplir-los-pasos-internos-y-habilitar-la" target="_blank" rel="noopener">Acuerdo Mercosur-Unión Europea: Argentina fue el primer país en habilitarlo</a></h4><p>Argentina completó sus trámites internos y aceptó la aplicación provisional. Según iProfesional, el acuerdo empezó a aplicarse en forma provisional el 1 de mayo de 2026. Elimina aranceles para el 92% de las exportaciones del Mercosur a la UE.</p>
+    <p class="nwhy"><b>Por qué importa:</b> Abre el mercado europeo para carne, miel, arroz y soja, y abarata autos y maquinaria europea.</p>
+    <span class="ngo">Leer en Cancillería <span aria-hidden="true">→</span></span><div class="nsrc"><a href="https://cancilleria.gob.ar/es/actualidad/noticias/argentina-es-el-primer-pais-en-cumplir-los-pasos-internos-y-habilitar-la" target="_blank" rel="noopener">Cancillería <small class="">Oficial</small></a><a href="https://www.iprofesional.com/comex/450819-acuerdo-union-europea-mercosur-arranca-mayo-argentina-gran-beneficiada" target="_blank" rel="noopener">iProfesional <small class="m">Medio</small></a></div>
+  </article><article class="nitem">
+    
+    <div class="nmeta"><time datetime="2024-12-31">31 dic 2024</time><span class="chip">Norma</span></div>
+    <h4><a class="nlink" href="https://www.cira.org.ar/es/servicios/normativas-servicios/decreto/decreto-1140-2024" target="_blank" rel="noopener">Decreto 1140/2024: tasa de estadística del 3% hasta el 31/12/2027, con topes</a></h4><p>Prorroga la tasa de estadística del 3% sobre el valor en aduana hasta el 31/12/2027, con montos máximos: USD 180 hasta USD 10.000 de base, USD 3.000 hasta USD 100.000, USD 30.000 hasta USD 1.000.000 y USD 150.000 por encima. Las mercaderías de origen MERCOSUR siguen exentas.</p>
+    <p class="nwhy"><b>Por qué importa:</b> Es uno de los tributos que pagás en cada importación: la calculadora ya aplica el tope que corresponde.</p>
+    <span class="ngo">Leer en CIRA <span aria-hidden="true">→</span></span><div class="nsrc"><a href="https://www.cira.org.ar/es/servicios/normativas-servicios/decreto/decreto-1140-2024" target="_blank" rel="noopener">CIRA <small class="m">Medio</small></a></div>
+  </article><!--/PR:news--></div>
   <div class="join" id="join" hidden>
     <div class="join-copy">
       <span class="eyebrow">Gratis · Mail y avisos al celu</span>
@@ -641,29 +770,44 @@ footer .credits{color:var(--muted);font-size:11px}
       <p class="pushmsg" id="submsg" role="status" hidden></p>
       <button class="btn blue" id="pushbtn" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18" aria-hidden="true"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg><span id="pushlbl">Activar notificaciones</span></button>
       <p class="pushmsg" id="pushmsg" hidden></p>
-      <p class="note" id="joinnote">Dejá tu mail para recibir el radar y activá los avisos al celu. Usamos tu mail solo para esto y te das de baja cuando quieras.</p>
+      <p class="note" id="joinnote">Dejá tu mail para recibir el radar y activá los avisos al celu. Usamos tu mail solo para esto y te das de baja cuando quieras. <a href="#privacidad" data-privacy>Política de privacidad</a></p>
     </div>
   </div>
+  <section class="join" id="ch-group" aria-labelledby="ch-t">
+    <div class="join-copy">
+      <span class="eyebrow">CH Group · Importá conmigo</span>
+      <h3 id="ch-t">¿Querés importar? Lo armamos juntos.</h3>
+      <p>Si después de hacer números querés avanzar, en CH Group coordinamos la operación de punta a punta: un solo contacto para proveedor, flete, seguro y despacho, con despachantes matriculados y forwarders aliados.</p>
+    </div>
+    <div class="join-actions">
+      <div class="fact"><span>1 · Tu pedido</span><p>Me contás qué querés traer: producto, cantidad, origen y plazo.</p></div>
+      <div class="fact"><span>2 · Clasificación y costeo</span><p>NCM, intervenciones, tributos y costo puesto en depósito.</p></div>
+      <div class="fact"><span>3 · Logística y seguro</span><p>Cotización con forwarders aliados y el Incoterm que conviene.</p></div>
+      <div class="fact"><span>4 · Despacho y entrega</span><p>Despachante matriculado, liberación y entrega.</p></div>
+      <a class="btn" id="chcta" href="https://www.instagram.com/chgroup.arg/" target="_blank" rel="noopener">Escribinos</a>
+    </div>
+  </section>
   <section class="about" id="quien-soy" aria-labelledby="about-t">
-    <figure class="about-art"><img src="img/quien-m.jpg" srcset="img/quien-m.jpg 900w, img/quien.jpg 2000w" sizes="(max-width:760px) 100vw, 460px" alt="Buque portacontenedores cargado en el muelle, visto desde arriba" loading="lazy" decoding="async"><figcaption><b>Ian</b><span>3ra generación<br>de importadores</span></figcaption></figure>
+    <figure class="about-art"><img src="img/quien-m.jpg" srcset="img/quien-m.jpg 900w, img/quien.jpg 2000w" sizes="(max-width:760px) 100vw, 460px" alt="Buque portacontenedores cargado en el muelle, visto desde arriba" loading="lazy" decoding="async"><figcaption><b>Ian</b><span>IANU&nbsp;000018&nbsp;6 · 3ra&nbsp;generación</span></figcaption></figure>
     <div class="about-copy">
       <span class="eyebrow">Quién soy</span>
       <h3 id="about-t">Hola, soy <em>Ian</em></h3>
-      <p>Tengo 18 años y soy la tercera generación de una familia de importadores. El comercio exterior es el oficio de mi casa.</p>
-      <p>Estudio Comercio Internacional y emprendo con amigos en Boppa. Armé Comex con Ian para explicar simple lo que mueve el comercio exterior argentino: qué norma cambió, cuánto cuesta traer algo y cómo se calcula, siempre con la fuente oficial.</p>
+      <p>Soy la tercera generación de una familia de importadores. El comercio exterior es el oficio de mi casa.</p>
+      <p>Estudio Comercio Internacional y fundé CH Group, donde coordino operaciones de importación para pymes. Armé Comex con Ian para explicar simple lo que mueve el comercio exterior argentino: qué norma cambió, cuánto cuesta traer algo y cómo se calcula, siempre con la fuente oficial.</p>
       <ul class="about-facts">
         <li><b>3ra</b><span>generación de importadores</span></li>
-        <li><b>18</b><span>años</span></li>
-        <li><b>Comex</b><span>estudiante de Comercio Internacional</span></li>
+        <li><b>100%</b><span>novedades con fuente y fecha</span></li>
+        <li><b>CH Group</b><span>fundador</span></li>
       </ul>
       <div class="row">
         <a class="btn" href="https://www.tiktok.com/@iancharaf7" target="_blank" rel="noopener">Seguime en TikTok</a>
         <a class="btn ghost" href="https://www.instagram.com/iancharaf7/" target="_blank" rel="noopener">Instagram</a>
+        <a class="btn ghost" href="https://www.instagram.com/chgroup.arg/" target="_blank" rel="noopener">CH Group</a>
       </div>
     </div>
   </section>
   <h3 class="section-title">Fuentes que seguimos</h3>
-  <div class="sources" id="sources"></div>
+  <div class="sources" id="sources"><!--PR:sources--><a class="src" href="https://www.boletinoficial.gob.ar/" target="_blank" rel="noopener"><b>Boletín Oficial</b><span>Decretos y resoluciones: aranceles, retenciones y reintegros</span><em>www.boletinoficial.gob.ar</em></a><a class="src" href="https://www.arca.gob.ar/" target="_blank" rel="noopener"><b>ARCA</b><span>Aduana, regímenes de importación y exportación, resoluciones generales</span><em>www.arca.gob.ar</em></a><a class="src" href="https://www.vuce.gob.ar/" target="_blank" rel="noopener"><b>VUCE</b><span>Ventanilla Única de Comercio Exterior: licencias, cupos y trámites</span><em>www.vuce.gob.ar</em></a><a class="src" href="https://www.indec.gob.ar/" target="_blank" rel="noopener"><b>INDEC</b><span>Estadísticas oficiales de intercambio comercial</span><em>www.indec.gob.ar</em></a><a class="src" href="https://www.bcra.gob.ar/" target="_blank" rel="noopener"><b>BCRA</b><span>Tipo de cambio y normativa cambiaria</span><em>www.bcra.gob.ar</em></a><a class="src" href="https://cancilleria.gob.ar/es/cei" target="_blank" rel="noopener"><b>Cancillería CEI</b><span>Centro de Economía Internacional: datos y acuerdos comerciales</span><em>cancilleria.gob.ar/es/cei</em></a><a class="src" href="https://www.cira.org.ar/" target="_blank" rel="noopener"><b>CIRA</b><span>Cámara de Importadores: normativa y novedades para importar</span><em>www.cira.org.ar</em></a><a class="src" href="https://cda.org.ar/" target="_blank" rel="noopener"><b>Centro de Despachantes de Aduana</b><span>Novedades aduaneras y operativas</span><em>cda.org.ar</em></a><a class="src" href="https://aduananews.com/" target="_blank" rel="noopener"><b>Aduana News</b><span>Noticias de aduana y comercio exterior</span><em>aduananews.com</em></a><a class="src" href="https://dolarapi.com/" target="_blank" rel="noopener"><b>DolarApi</b><span>Cotizaciones del dólar en vivo</span><em>dolarapi.com</em></a><!--/PR:sources--></div>
 </section>
 
 <!-- DÓLAR -->
@@ -723,7 +867,10 @@ footer .credits{color:var(--muted);font-size:11px}
         <label class="f" for="piva">Percepción IVA %<input id="piva" type="number" min="0" step="any" value="20"></label>
         <label class="f" for="pgan">Percepción Ganancias %<input id="pgan" type="number" min="0" step="any" value="6"></label>
         <label class="f" for="iibb">Percepción IIBB %<input id="iibb" type="number" min="0" step="any" value="2.5"></label>
+        <label class="row note full" for="mercosur" style="flex-wrap:nowrap"><input id="mercosur" type="checkbox" style="width:18px;height:18px;flex:none">Origen MERCOSUR con certificado de origen (tasa de estadística exenta)</label>
+        <label class="row note full" for="excl" style="flex-wrap:nowrap"><input id="excl" type="checkbox" style="width:18px;height:18px;flex:none">Bien alcanzado por la exclusión de percepciones (RG 5868/2026, hasta 31/12/2026)</label>
       </div>
+      <p class="note">Tasa de estadística: 3% sobre el valor CIF con topes del Decreto 1140/2024 (vigente hasta el 31/12/2027). Tributos revisados al 15/10/2026.</p>
       <h3>Gastos locales (USD)</h3>
       <div class="fields">
         <label class="f" for="desp">Despachante (% del CIF)<input id="desp" type="number" min="0" step="any" value="1"></label>
@@ -740,7 +887,7 @@ footer .credits{color:var(--muted);font-size:11px}
       <div class="stack" id="impstack" aria-hidden="true"></div>
       <div class="legend" id="implegend"></div>
       <table class="ledger" id="impout"></table>
-      <div class="row"><button class="btn ghost small" id="impcopy">Copiar resumen</button><span class="status" id="impcopyst"></span></div>
+      <div class="row"><button class="btn ghost small" id="impcopy">Copiar resumen</button><button class="btn ghost small" id="impcta" type="button">Quiero cotizar esto en serio</button><span class="status" id="impcopyst"></span></div>
     </div>
   </div>
 
@@ -852,7 +999,7 @@ footer .credits{color:var(--muted);font-size:11px}
 </section>
 </main>
 
-<footer><div class="port" aria-hidden="true"><img src="img/puerto-m.jpg" srcset="img/puerto-m.jpg 900w, img/puerto.jpg 2000w" sizes="100vw" alt="" loading="lazy" decoding="async"></div><div class="wrap"><span><b>Comex con Ian</b> · @iancharaf7</span><span>Herramienta educativa. Los valores son orientativos y no reemplazan el asesoramiento de un despachante de aduana.</span><span class="credits">Fotos: Logan Voss, Daniel Miksha, Cosmin Andrei Buzamat y Rana Kaname en Unsplash.</span></div></footer>
+<footer><div class="port" aria-hidden="true"><img src="img/puerto-m.jpg" srcset="img/puerto-m.jpg 900w, img/puerto.jpg 2000w" sizes="100vw" alt="" loading="lazy" decoding="async"></div><div class="wrap"><span><b>Comex con Ian</b> · @iancharaf7</span><span>Herramienta educativa. Los valores son orientativos y no reemplazan el asesoramiento de un despachante de aduana.</span><span class="note"><a href="#privacidad" data-privacy>Política de privacidad</a></span><span class="credits">Fotos: Logan Voss, Daniel Miksha, Cosmin Andrei Buzamat y Rana Kaname en Unsplash.</span></div></footer>
 <style>.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}</style>
 
 <div class="pop" id="subpop" hidden role="dialog" aria-modal="true" aria-labelledby="poptitle">
@@ -871,11 +1018,23 @@ footer .credits{color:var(--muted);font-size:11px}
     <p class="pushmsg" id="popmsg" role="status" hidden></p>
     <button class="btn blue" id="poppush" type="button" hidden><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>Activar avisos al celu</button>
     <button class="pop-skip" id="popskip" type="button">Ahora no</button>
-    <p class="note">Usamos tu mail solo para mandarte el radar. Te das de baja cuando quieras.</p>
+    <p class="note">Usamos tu mail solo para mandarte el radar. Te das de baja cuando quieras. <a href="#privacidad" data-privacy>Política de privacidad</a></p>
+  </div>
+</div>
+<div class="pop" id="privpop" hidden role="dialog" aria-modal="true" aria-labelledby="privtitle">
+  <div class="pop-card">
+    <button class="pop-x" id="privx" type="button" aria-label="Cerrar">×</button>
+    <span class="eyebrow">Ley 25.326 · Datos personales</span>
+    <h2 id="privtitle">Política de <span>privacidad</span></h2>
+    <p>Responsable: Ian Charaf, Buenos Aires, Argentina. Recolectamos únicamente el mail que dejás voluntariamente para enviarte el radar de comercio exterior y, si las activás, las notificaciones. No lo vendemos ni lo compartimos con terceros. Podés pedir el acceso, la rectificación o la eliminación de tus datos en cualquier momento escribiendo por Instagram a <a href="https://www.instagram.com/iancharaf7/" target="_blank" rel="noopener">@iancharaf7</a>, y darte de baja desde cualquier envío.</p>
+    <p class="note">La Agencia de Acceso a la Información Pública, en su carácter de Órgano de Control de la Ley N° 25.326, tiene la atribución de atender las denuncias y reclamos que interpongan quienes resulten afectados en sus derechos por incumplimiento de las normas vigentes en materia de protección de datos personales.</p>
+    <button class="pop-skip" id="privok" type="button">Cerrar</button>
   </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script>
+// Si se completa (ej. '5491112345678'), el botón "Escribinos" de CH Group abre WhatsApp en vez de Instagram.
+const WHATSAPP_NUMBER='';
 (function(){
 const $=id=>document.getElementById(id);
 const num=id=>{const v=parseFloat($(id).value);return isFinite(v)?v:0};
@@ -891,9 +1050,17 @@ function showTab(name){
   TABS.forEach(n=>{$('p-'+n).hidden=n!==name});
   store.set('comex-tab',name);
 }
-document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{showTab(t.dataset.tab);window.scrollTo({top:0})}));
+// Ir a una sección dentro de Noticias (por ejemplo el bloque de CH Group)
+function goTo(id){showTab('noticias');const el=$(id);if(el)setTimeout(()=>window.scrollTo({top:el.getBoundingClientRect().top+scrollY-90,behavior:'smooth'}),60)}
+document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{if(t.dataset.go){goTo(t.dataset.go);return}showTab(t.dataset.tab);window.scrollTo({top:0})}));
 const hash=(location.hash||'').slice(1);
 showTab(TABS.includes(hash)?hash:'noticias');
+if(hash==='ch-group'||hash==='quien-soy')goTo(hash);
+// "Importá conmigo" en el menú solo si entra sin tapar el logo (no se cambia el layout de la barra)
+(function(){const it=document.querySelector('nav.tabs .tab[data-go]'),nav=it&&it.parentNode,brand=document.querySelector('.logo b');if(!it||!brand)return;
+  const fit=()=>{it.style.display='';if(!nav.offsetWidth)return;if(nav.getBoundingClientRect().left<brand.getBoundingClientRect().right+12)it.style.display='none'};
+  addEventListener('resize',fit,{passive:true});(document.fonts&&document.fonts.ready||Promise.resolve()).then(fit);
+  const hi=$('hinstall');if(hi)new MutationObserver(fit).observe(hi,{attributes:true,attributeFilter:['hidden']});fit()})();
 
 /* ---------- NCM completo (nomenclador oficial, ver ncm.json) ---------- */
 const ALIAS={zapatilla:['6404.11.00','6404.19.00'],zapatillas:['6404.11.00','6404.19.00'],remera:['6109.10.00','6109.90.00'],remeras:['6109.10.00','6109.90.00'],jean:['6203.42.00','6204.62.00'],jeans:['6203.42.00','6204.62.00'],buzo:['6110.20.00','6110.30.00'],mochila:['4202.92.00'],mochilas:['4202.92.00'],juguete:['9503.00.99'],juguetes:['9503.00.99'],maquillaje:['3304.99.90','3304.20.10'],cosmeticos:['3304.99.90'],auricular:['8518.30.00'],auriculares:['8518.30.00'],cargador:['8504.40.90'],cargadores:['8504.40.90'],cafetera:['8516.71.00'],notebook:['8471.30.12','8471.30.19'],notebooks:['8471.30.12','8471.30.19'],laptop:['8471.30.12'],celular:['8517.12.31'],celulares:['8517.12.31'],smartphone:['8517.12.31'],televisor:['8528.72.00'],tele:['8528.72.00'],licuadora:['8509.40.10'],anteojos:['9004.10.00'],pelota:['9506.62.00'],monopatin:['8711.60.00'],bici:['8711.60.00','8712.00.10'],bicicleta:['8712.00.10','8711.60.00']};
@@ -952,9 +1119,14 @@ function calcImp(){
   const fob=num('fob'),fl=num('flete'),qty=num('qty'),tc=num('tc');
   const seg=(fob+fl)*num('seg')/100;
   const cif=fob+fl+seg;
-  const die=cif*num('die')/100, te=cif*num('te')/100;
+  const die=cif*num('die')/100;
+  // Tasa de estadística (Decreto 1140/2024, hasta 31/12/2027): tope según el valor CIF; exenta para origen MERCOSUR con certificado.
+  const teCap=cif<=10000?180:cif<=100000?3000:cif<=1000000?30000:150000;
+  const teRaw=cif*num('te')/100, mercosur=$('mercosur').checked, excl=$('excl').checked;
+  const te=mercosur?0:Math.min(teRaw,teCap);
+  const teLabel=mercosur?'Tasa de estadística (exenta: origen MERCOSUR)':teRaw>teCap?`Tasa de estadística (${num('te')}% con tope de ${usd(teCap)})`:`Tasa de estadística (${num('te')}%)`;
   const base=cif+die+te;
-  const iva=base*num('iva')/100, piva=base*num('piva')/100, pgan=base*num('pgan')/100, iibb=base*num('iibb')/100;
+  const iva=base*num('iva')/100, piva=excl?0:base*num('piva')/100, pgan=excl?0:base*num('pgan')/100, iibb=base*num('iibb')/100;
   const desp=cif*num('desp')/100, term=num('term'), fint=num('fint'), otros=num('otros');
   const trib=die+te, rec=iva+piva+pgan+iibb, loc=desp+term+fint+otros;
   const total=cif+trib+rec+loc;
@@ -963,9 +1135,9 @@ function calcImp(){
     row('Valor de la mercadería y transporte',null,'group')+
     row('Precio FOB',fob)+row('Flete internacional',fl)+row('Seguro',seg)+row('Valor en aduana (CIF)',cif,'sub')+
     row('Tributos que son costo',null,'group')+
-    row(`Derecho de importación (${num('die')}%)`,die)+row(`Tasa de estadística (${num('te')}%)`,te)+
+    row(`Derecho de importación (${num('die')}%)`,die)+row(teLabel,te)+
     row('IVA y percepciones (se recuperan si sos inscripto)',null,'group')+
-    row(`IVA (${num('iva')}%)`,iva)+row(`Percepción IVA (${num('piva')}%)`,piva)+row(`Percepción Ganancias (${num('pgan')}%)`,pgan)+row(`Percepción IIBB (${num('iibb')}%)`,iibb)+
+    row(`IVA (${num('iva')}%)`,iva)+row(excl?'Percepción IVA (excluida, RG 5868/2026)':`Percepción IVA (${num('piva')}%)`,piva)+row(excl?'Percepción Ganancias (excluida, RG 5868/2026)':`Percepción Ganancias (${num('pgan')}%)`,pgan)+row(`Percepción IIBB (${num('iibb')}%)`,iibb)+
     row('Gastos locales',null,'group')+
     row(`Despachante (${num('desp')}% CIF)`,desp)+row('Terminal y depósito',term)+row('Flete interno',fint)+(otros?row('Otros',otros):'');
   $('imptotal').innerHTML=usd(total)+(tc?`<small>${ars(total*tc)}</small>`:'');
@@ -978,6 +1150,7 @@ function calcImp(){
   impSummary=`¿Cuánto cuesta traerlo? · ${label(chosen)} (NCM ${chosen.c})\nFOB: ${usd(fob)} · Flete: ${usd(fl)} · Seguro: ${usd(seg)}\nCIF: ${usd(cif)}\nDerechos + tasa: ${usd(trib)}\nIVA y percepciones: ${usd(rec)}\nGastos locales: ${usd(loc)}\nDesembolso total: ${usd(total)}\nCosto real: ${usd(real)}${qty?` · por unidad ${usd(real/qty)}`:''}\nValores orientativos · Comex con Ian`;
 }
 ['fob','qty','flete','seg','tc','die','te','iva','piva','pgan','iibb','desp','term','fint','otros'].forEach(id=>$(id).addEventListener('input',calcImp));
+['mercosur','excl'].forEach(id=>$(id).addEventListener('change',calcImp));
 
 /* ---------- Export calc (10 rubros) ---------- */
 const RUBROS=[
@@ -1147,19 +1320,18 @@ $('dlx').addEventListener('click',async()=>{
 });
 
 /* ---------- Fuentes ---------- */
-const SOURCES=[
- ['BCRA','Tipo de cambio, comunicaciones cambiarias y acceso al MLC','https://www.bcra.gob.ar'],
- ['ARCA','Aduana, regímenes de importación y exportación, resoluciones generales','https://www.arca.gob.ar'],
- ['Boletín Oficial','Decretos y resoluciones: cambios de aranceles, retenciones y reintegros','https://www.boletinoficial.gob.ar'],
- ['VUCE','Ventanilla Única de Comercio Exterior y posiciones arancelarias','https://www.argentina.gob.ar/vuce'],
- ['SENASA','Requisitos sanitarios para alimentos, animales y vegetales','https://www.argentina.gob.ar/senasa'],
- ['ANMAT','Requisitos para cosméticos, medicamentos, alimentos y productos médicos','https://www.argentina.gob.ar/anmat'],
- ['Ministerio de Economía','Política comercial, licencias y medidas de comercio','https://www.argentina.gob.ar/economia'],
- ['INDEC','Estadísticas de intercambio comercial argentino','https://www.indec.gob.ar'],
- ['Mercosur','Arancel Externo Común y nomenclatura NCM','https://www.mercosur.int'],
- ['OMC','Comercio mundial, aranceles y disputas','https://www.wto.org'],
- ['Cámara de Comercio Internacional','Reglas Incoterms 2020','https://iccwbo.org']
-];
+const SOURCES=/*SOURCES_START*/[
+ ['Boletín Oficial','Decretos y resoluciones: aranceles, retenciones y reintegros','https://www.boletinoficial.gob.ar/'],
+ ['ARCA','Aduana, regímenes de importación y exportación, resoluciones generales','https://www.arca.gob.ar/'],
+ ['VUCE','Ventanilla Única de Comercio Exterior: licencias, cupos y trámites','https://www.vuce.gob.ar/'],
+ ['INDEC','Estadísticas oficiales de intercambio comercial','https://www.indec.gob.ar/'],
+ ['BCRA','Tipo de cambio y normativa cambiaria','https://www.bcra.gob.ar/'],
+ ['Cancillería CEI','Centro de Economía Internacional: datos y acuerdos comerciales','https://cancilleria.gob.ar/es/cei'],
+ ['CIRA','Cámara de Importadores: normativa y novedades para importar','https://www.cira.org.ar/'],
+ ['Centro de Despachantes de Aduana','Novedades aduaneras y operativas','https://cda.org.ar/'],
+ ['Aduana News','Noticias de aduana y comercio exterior','https://aduananews.com/'],
+ ['DolarApi','Cotizaciones del dólar en vivo','https://dolarapi.com/']
+]/*SOURCES_END*/;
 /* ---------- Radar de noticias ---------- */
 const MESES=['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
 const fdate=s=>{const [y,m,d]=String(s).split('-');return d&&m?`${+d} ${MESES[+m-1]} ${y}`:s};
@@ -1181,12 +1353,25 @@ function renderNews(){
     ${main?`<span class="ngo">Leer en ${esc(main.nombre)} <span aria-hidden="true">→</span></span>`:''}<div class="nsrc">${fs.map(f=>`<a href="${esc(safeUrl(f.url))}" target="_blank" rel="noopener">${esc(f.nombre)} <small class="${f.oficial?'':'m'}">${f.oficial?'Oficial':'Medio'}</small></a>`).join('')}</div>
   </article>`}).join(''):'<p class="note">No hay novedades en este tema.</p>';
 }
-const NEWS_FALLBACK=/*NEWS_FALLBACK_START*/{"actualizado": "2026-10-09", "items": [{"fecha": "2026-10-07", "categoria": "Importaciones", "titulo": "Las importaciones de septiembre cayeron 2% interanual y cambió qué se compra", "resumen": "Según El Cronista, en septiembre los autos importados bajaron 29%, los bienes de capital 10% y los combustibles subieron 54% (datos de Federico Bernini, IIEP UBA-Conicet). La importación de smartphones creció 746,6% en el acumulado a agosto (Analytica) y China le gana participación a Brasil (ABECEB).", "porque": "Muestra qué productos están entrando más y desde dónde. Los celulares y China son tema caliente.", "fuentes": [{"nombre": "El Cronista", "url": "https://www.cronista.com/economia-politica/las-importaciones-dibujan-un-nuevo-mapa-productivo-quienes-son-los-nuevos-protagonistas/", "oficial": false}]}, {"fecha": "2026-10-06", "categoria": "Dólar", "titulo": "Dólar mayorista a $1.536,90 y oficial en Banco Nación a $1.540", "resumen": "El mayorista, que es el que se usa como referencia para pagar importaciones, cerró en $1.536,90. En agosto había estado por debajo de $1.500.", "porque": "Cada suba del tipo de cambio encarece en pesos todo lo importado.", "fuentes": [{"nombre": "El Cronista", "url": "https://www.cronista.com/finanzas-mercados/dolar-hoy-a-cuanto-cotiza-el-oficial-en-los-bancos-de-la-city-este-martes-6-de-octubre/", "oficial": false}, {"nombre": "BCRA", "url": "https://www.bcra.gob.ar", "oficial": true}]}, {"fecha": "2026-09-24", "categoria": "ARCA · Aduana", "titulo": "ARCA simplificó cómo se guarda y destruye la documentación aduanera (RG 5900/2026)", "resumen": "Una vez prescripta la acción fiscal, el declarante puede destruir la documentación sin autorización, aviso previo ni veedores. Lo vinculado a procesos administrativos o judiciales en curso se sigue guardando. Deroga las RG 2864, 4476, 4654 y 5043.", "porque": "Menos costo y papeleo para importadores y exportadores que actúan como depositarios fieles.", "fuentes": [{"nombre": "Boletín Oficial", "url": "https://www.boletinoficial.gob.ar/seccion/primera/20260924", "oficial": true}, {"nombre": "BAE Negocios", "url": "https://www.baenegocios.com/economia/arca-simplifica-el-archivo-de-documentacion-aduanera/", "oficial": false}]}, {"fecha": "2026-09-18", "categoria": "INDEC", "titulo": "Agosto: superávit comercial de US$2.187 millones", "resumen": "Las exportaciones sumaron US$8.883 millones (+12,4% interanual) y las importaciones US$6.696 millones (+3,6%). El saldo fue US$746 millones mayor que en agosto de 2025.", "porque": "Es el dato oficial de cuánto vende y compra Argentina al mundo.", "fuentes": [{"nombre": "INDEC · Intercambio comercial argentino", "url": "https://www.indec.gob.ar/uploads/informesdeprensa/ica_09_266E5973E036.pdf", "oficial": true}]}, {"fecha": "2026-07-01", "categoria": "Exportación", "titulo": "Decreto 566/2026: retenciones en 0% para químicos, plásticos, acero y automotor", "resumen": "El Anexo I lleva a 0% los derechos de exportación desde el 2 de julio para químicos, fertilizantes, plásticos, caucho, acero, metales no ferrosos y productos automotrices. El Anexo II arranca en 4,5% y 3% y baja mes a mes hasta 0% el 1 de junio de 2027.", "porque": "Exportar productos industriales deja de pagar retenciones o paga cada vez menos.", "fuentes": [{"nombre": "Boletín Oficial", "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/343774/20260701", "oficial": true}, {"nombre": "AAACI", "url": "https://aaaci.org.ar/decreto-566-2026-reduccion-y-eliminacion-de-derechos-de-exportacion/", "oficial": false}]}, {"fecha": "2026-06-29", "categoria": "ARCA · Impuestos", "titulo": "Prorrogan hasta el 31/12/2026 la exención de percepciones de IVA y Ganancias en aduana", "resumen": "La RG 5868/2026 de ARCA extiende la exención para bienes de la canasta básica e insumos de micro y pequeñas empresas. Para los insumos, el importador necesita el Certificado MiPyME vigente al momento de importar.", "porque": "Quien califica no adelanta IVA ni Ganancias al importar, y eso mejora mucho la caja.", "fuentes": [{"nombre": "Boletín Oficial", "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/343657/20260629", "oficial": true}, {"nombre": "El Cronista", "url": "https://www.cronista.com/economia-politica/arca-mantiene-un-beneficio-clave-para-importaciones-quienes-evitaran-adelantos-de-iva-y-ganancias-en-aduana/", "oficial": false}]}, {"fecha": "2026-06-03", "categoria": "Exportación", "titulo": "Decreto 423/2026: baja de retenciones al agro hasta 2028", "resumen": "Trigo y cebada pasan de 7,5% a 5,5%. La soja (24%) baja desde enero de 2027 hasta 21% en diciembre de 2027 y 15% en diciembre de 2028. El aceite de soja va de 18-22% a 11-14% a fines de 2028.", "porque": "Marca cuánto le queda al exportador del campo en los próximos dos años.", "fuentes": [{"nombre": "Boletín Oficial", "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/342702/20260603", "oficial": true}, {"nombre": "Infobae", "url": "https://www.infobae.com/economia/2026/06/03/el-gobierno-oficializo-una-reduccion-en-las-retenciones-para-el-agro-y-los-biocombustibles/", "oficial": false}]}, {"fecha": "2026-02-27", "categoria": "Acuerdos", "titulo": "Acuerdo Mercosur-Unión Europea: Argentina fue el primer país en habilitarlo", "resumen": "Argentina completó sus trámites internos y aceptó la aplicación provisional. Según iProfesional, el acuerdo empezó a aplicarse en forma provisional el 1 de mayo de 2026. Elimina aranceles para el 92% de las exportaciones del Mercosur a la UE.", "porque": "Abre el mercado europeo para carne, miel, arroz y soja, y abarata autos y maquinaria europea.", "fuentes": [{"nombre": "Cancillería", "url": "https://cancilleria.gob.ar/es/actualidad/noticias/argentina-es-el-primer-pais-en-cumplir-los-pasos-internos-y-habilitar-la", "oficial": true}, {"nombre": "iProfesional", "url": "https://www.iprofesional.com/comex/450819-acuerdo-union-europea-mercosur-arranca-mayo-argentina-gran-beneficiada", "oficial": false}]}]}/*NEWS_FALLBACK_END*/;
+const NEWS_FALLBACK=/*NEWS_FALLBACK_START*/{"actualizado":"2026-10-15","items":[{"fecha":"2026-10-14","categoria":"Acuerdos","titulo":"Argentina y EE.UU. firmaron un protocolo que destraba el acuerdo comercial para enviarlo al Congreso","resumen":"El canciller Pablo Quirno y el representante comercial de EE.UU., Jamieson Greer, firmaron en Washington un protocolo adicional al Acuerdo de Comercio e Inversiones Recíprocas (firmado en febrero de 2026). Según Quirno, permite enviar el acuerdo al Congreso y EE.UU. reafirma el trato de nación más favorecida para productos argentinos. El texto todavía no es público. Quirno destacó exportaciones a EE.UU. por US$6.570 millones en enero-agosto (+35%) y la cuota de carne ampliada de 20.000 a 100.000 toneladas.","porque":"EE.UU. es uno de los principales destinos de las exportaciones argentinas: el acuerdo define aranceles y cupos para carne, industria y economías regionales.","fuentes":[{"nombre":"Infobae","url":"https://www.infobae.com/economia/2026/10/14/argentina-firmo-con-eeuu-un-protocolo-adicional-para-fortalecer-el-acuerdo-bilateral-sobre-comercio-e-inversiones-reciprocas/","oficial":false},{"nombre":"Cancillería (acuerdo de febrero)","url":"https://www.cancilleria.gob.ar/es/actualidad/noticias/argentina-y-estados-unidos-firmaron-un-acuerdo-sobre-comercio-e-inversiones","oficial":true}]},{"fecha":"2026-10-13","categoria":"INDEC","titulo":"La inflación de septiembre fue 1,9% y acumula 23,6% en el año","resumen":"Según el INDEC, los precios subieron 1,9% en septiembre (1,7% en agosto), 23,6% en enero-septiembre y 33,4% interanual. Lo que más subió fue vivienda, agua, electricidad y gas (3,1%) y educación (3%). La inflación núcleo fue 1,7%.","porque":"Si los precios en pesos suben más rápido que el dólar, los productos importados se abaratan en términos reales y exportar desde Argentina se vuelve menos competitivo.","fuentes":[{"nombre":"Infobae","url":"https://www.infobae.com/economia/2026/10/13/la-inflacion-en-septiembre-fue-de-19-y-acumulo-334-en-los-ultimos-doce-meses/","oficial":false}]},{"fecha":"2026-10-13","categoria":"Dólar","titulo":"El BCRA hizo su mayor compra de dólares desde julio: US$291 millones en un día","resumen":"El martes 13 de octubre el Banco Central compró US$291 millones en el mercado de cambios, la mayor compra desde fines de julio. Ya suma US$15.200 millones desde el inicio de la fase cuatro del programa monetario, por encima de la meta anual de US$10.000 millones acordada con el FMI. Las reservas brutas subieron US$138 millones y cerraron en US$49.839 millones.","porque":"Más reservas en el Banco Central le dan más estabilidad al dólar con el que importadores y exportadores calculan costos y precios.","fuentes":[{"nombre":"Infobae","url":"https://www.infobae.com/economia/2026/10/13/el-banco-central-realizo-la-mayor-compra-de-dolares-desde-julio-y-ya-acumula-mas-de-usd-15000-millones-en-2026/","oficial":false}]},{"fecha":"2026-10-10","categoria":"Datos","titulo":"Las importaciones caen 2,6% interanual hasta agosto","resumen":"Acumulado del año: importaciones por USD 48.999 millones, exportaciones por USD 67.248 millones y superávit comercial de USD 18.249 millones.","fuentes":[{"nombre":"Mundo Empresarial","url":"https://mundoempresarial.ar/importaciones-argentinas-caen-26-y-revelan-brecha-tecnologica/","oficial":false}]},{"fecha":"2026-10-09","categoria":"Dólar","titulo":"El BCRA compró US$69 millones el viernes y ya suma casi US$15.000 millones en 2026","resumen":"El Banco Central adquirió US$69 millones en el mercado de cambios el viernes 9 de octubre y acumula US$341 millones en lo que va del mes y US$14.909 millones desde el inicio de la fase cuatro del programa monetario. Las reservas brutas cerraron la semana en US$49.701 millones y el dólar mayorista subió $1,50 hasta $1.517.","porque":"Un Banco Central que compra dólares y suma reservas le da más previsibilidad al tipo de cambio con el que importadores y exportadores calculan sus costos y precios.","fuentes":[{"nombre":"Infobae","url":"https://www.infobae.com/economia/2026/10/09/el-bcra-acelero-las-compras-de-dolares-y-acumula-casi-usd-15000-millones-en-2026/","oficial":false}]},{"fecha":"2026-10-09","categoria":"Logística","titulo":"Argentina y Uruguay suman cámaras, escáner y trámites digitales en sus puentes fronterizos","resumen":"En la reunión bilateral del Subcomité Técnico de Controles y Operatoria de Frontera del Mercosur (29 y 30 de septiembre, Salto Grande) se informaron 113 cámaras de seguridad y una sala de monitoreo de Gendarmería en Concordia–Salto, gestiones para un escáner móvil de rayos X para cargas y la digitalización del sellado de trámites en Gualeguaychú–Fray Bentos, y mejoras en Colón–Paysandú.","porque":"Los pasos con Uruguay mueven buena parte del transporte de cargas por camión; más control digital y escaneo puede acortar demoras en frontera.","fuentes":[{"nombre":"Aduana News","url":"https://aduananews.com/argentina-y-uruguay-avanzan-en-la-digitalizacion-y-el-control-de-sus-pasos-fronterizos/","oficial":false}]},{"fecha":"2026-10-08","categoria":"Mundo","titulo":"La OMC subió al 3,9% su previsión de crecimiento del comercio mundial de bienes para 2026","resumen":"En su actualización de octubre, la Organización Mundial del Comercio elevó la proyección de crecimiento del volumen del comercio de mercancías para 2026 del 1,9% al 3,9% y estimó 4,1% para 2027. Para el comercio de servicios bajó la previsión de 2026 del 4,8% al 3,3%.","porque":"Más comercio mundial significa más demanda para lo que exporta Argentina y más movimiento en fletes y puertos.","fuentes":[{"nombre":"OMC (WTO)","url":"https://www.wto.org/english/news_e/news26_e/stat_08oct26_510_e.htm","oficial":true},{"nombre":"Aduana News","url":"https://aduananews.com/la-omc-eleva-del-19-al-39-su-prevision-de-crecimiento-del-comercio-mundial-para-2026/","oficial":false}]},{"fecha":"2026-10-08","categoria":"Trámites","titulo":"El MERCOSUR digitaliza con el sistema SACIM los cupos de importación del Acuerdo MERCOSUR–UE","resumen":"Los cupos (contingentes) de importación que fija el Acuerdo MERCOSUR–Unión Europea pasan a gestionarse en forma digital con el sistema SACIM.","fuentes":[{"nombre":"VUCE","url":"https://www.vuce.gob.ar/","oficial":true}]},{"fecha":"2026-10-07","categoria":"Brasil","titulo":"Comercio con Brasil: en septiembre el déficit bajó a US$51 millones","resumen":"Según el informe de la Cámara Argentina de Comercio y Servicios que publicó Aduana News, en septiembre Argentina le exportó a Brasil US$1.305 millones (+5,7% interanual, séptimo mes seguido de suba) y le importó US$1.357 millones (-25,2%). En enero-septiembre el déficit acumulado fue de US$1.687 millones, contra US$4.681 millones en el mismo período de 2025.","porque":"Brasil es el principal socio comercial de Argentina: lo que pasa ahí impacta en autos, autopartes y energía.","fuentes":[{"nombre":"Aduana News","url":"https://aduananews.com/bras-septiembre-cerro-con-un-menor-deficit-de-us-51-millones/","oficial":false}]},{"fecha":"2026-10-07","categoria":"Importaciones","titulo":"Las importaciones de septiembre cayeron 2% interanual y cambió qué se compra","resumen":"Según El Cronista, en septiembre los autos importados bajaron 29%, los bienes de capital 10% y los combustibles subieron 54% (datos de Federico Bernini, IIEP UBA-Conicet). La importación de smartphones creció 746,6% en el acumulado a agosto (Analytica) y China le gana participación a Brasil (ABECEB).","porque":"Muestra qué productos están entrando más y desde dónde. Los celulares y China son tema caliente.","fuentes":[{"nombre":"El Cronista","url":"https://www.cronista.com/economia-politica/las-importaciones-dibujan-un-nuevo-mapa-productivo-quienes-son-los-nuevos-protagonistas/","oficial":false}]},{"fecha":"2026-10-06","categoria":"Dólar","titulo":"Dólar mayorista a $1.536,90 y oficial en Banco Nación a $1.540","resumen":"El mayorista, que es el que se usa como referencia para pagar importaciones, cerró en $1.536,90. En agosto había estado por debajo de $1.500.","porque":"Cada suba del tipo de cambio encarece en pesos todo lo importado.","fuentes":[{"nombre":"El Cronista","url":"https://www.cronista.com/finanzas-mercados/dolar-hoy-a-cuanto-cotiza-el-oficial-en-los-bancos-de-la-city-este-martes-6-de-octubre/","oficial":false},{"nombre":"BCRA","url":"https://www.bcra.gob.ar","oficial":true}]},{"fecha":"2026-10-06","categoria":"Trámites","titulo":"VUCEA suma las licencias para importar productos agropecuarios de la UE dentro de los contingentes del acuerdo","resumen":"Las licencias para importar productos agropecuarios de la Unión Europea dentro de los contingentes del Acuerdo MERCOSUR–UE se tramitan en VUCEA.","fuentes":[{"nombre":"VUCE","url":"https://www.vuce.gob.ar/","oficial":true}]},{"fecha":"2026-10-06","categoria":"Datos","titulo":"OCDE: las exportaciones argentinas subieron 9,3% en el segundo trimestre","resumen":"Según la OCDE, las exportaciones argentinas subieron 9,3% en el 2° trimestre frente al 1°; las importaciones, 2,5%.","fuentes":[{"nombre":"Aduana News","url":"https://aduananews.com/el-comercio-del-g20-se-acelero-en-el-segundo-trimestre-de-2026-y-argentina-elevo-sus-exportaciones-un-93/","oficial":false}]},{"fecha":"2026-09-24","categoria":"ARCA · Aduana","titulo":"ARCA simplificó cómo se guarda y destruye la documentación aduanera (RG 5900/2026)","resumen":"Una vez prescripta la acción fiscal, el declarante puede destruir la documentación sin autorización, aviso previo ni veedores. Lo vinculado a procesos administrativos o judiciales en curso se sigue guardando. Deroga las RG 2864, 4476, 4654 y 5043.","porque":"Menos costo y papeleo para importadores y exportadores que actúan como depositarios fieles.","fuentes":[{"nombre":"Boletín Oficial","url":"https://www.boletinoficial.gob.ar/seccion/primera/20260924","oficial":true},{"nombre":"BAE Negocios","url":"https://www.baenegocios.com/economia/arca-simplifica-el-archivo-de-documentacion-aduanera/","oficial":false}]},{"fecha":"2026-09-18","categoria":"INDEC","titulo":"Agosto: superávit comercial de US$2.187 millones","resumen":"Las exportaciones sumaron US$8.883 millones (+12,4% interanual) y las importaciones US$6.696 millones (+3,6%). El saldo fue US$746 millones mayor que en agosto de 2025.","porque":"Es el dato oficial de cuánto vende y compra Argentina al mundo.","fuentes":[{"nombre":"INDEC · Intercambio comercial argentino","url":"https://www.indec.gob.ar/uploads/informesdeprensa/ica_09_266E5973E036.pdf","oficial":true}]},{"fecha":"2026-07-01","categoria":"Exportación","titulo":"Decreto 566/2026: retenciones en 0% para químicos, plásticos, acero y automotor","resumen":"El Anexo I lleva a 0% los derechos de exportación desde el 2 de julio para químicos, fertilizantes, plásticos, caucho, acero, metales no ferrosos y productos automotrices. El Anexo II arranca en 4,5% y 3% y baja mes a mes hasta 0% el 1 de junio de 2027.","porque":"Exportar productos industriales deja de pagar retenciones o paga cada vez menos.","fuentes":[{"nombre":"Boletín Oficial","url":"https://www.boletinoficial.gob.ar/detalleAviso/primera/343774/20260701","oficial":true},{"nombre":"AAACI","url":"https://aaaci.org.ar/decreto-566-2026-reduccion-y-eliminacion-de-derechos-de-exportacion/","oficial":false}]},{"fecha":"2026-06-29","categoria":"ARCA · Impuestos","titulo":"Prorrogan hasta el 31/12/2026 la exención de percepciones de IVA y Ganancias en aduana","resumen":"La RG 5868/2026 de ARCA extiende la exención para bienes de la canasta básica e insumos de micro y pequeñas empresas. Para los insumos, el importador necesita el Certificado MiPyME vigente al momento de importar.","porque":"Quien califica no adelanta IVA ni Ganancias al importar, y eso mejora mucho la caja.","fuentes":[{"nombre":"Boletín Oficial","url":"https://www.boletinoficial.gob.ar/detalleAviso/primera/343657/20260629","oficial":true},{"nombre":"El Cronista","url":"https://www.cronista.com/economia-politica/arca-mantiene-un-beneficio-clave-para-importaciones-quienes-evitaran-adelantos-de-iva-y-ganancias-en-aduana/","oficial":false}]},{"fecha":"2026-06-03","categoria":"Exportación","titulo":"Decreto 423/2026: baja de retenciones al agro hasta 2028","resumen":"Trigo y cebada pasan de 7,5% a 5,5%. La soja (24%) baja desde enero de 2027 hasta 21% en diciembre de 2027 y 15% en diciembre de 2028. El aceite de soja va de 18-22% a 11-14% a fines de 2028.","porque":"Marca cuánto le queda al exportador del campo en los próximos dos años.","fuentes":[{"nombre":"Boletín Oficial","url":"https://www.boletinoficial.gob.ar/detalleAviso/primera/342702/20260603","oficial":true},{"nombre":"Infobae","url":"https://www.infobae.com/economia/2026/06/03/el-gobierno-oficializo-una-reduccion-en-las-retenciones-para-el-agro-y-los-biocombustibles/","oficial":false}]},{"fecha":"2026-02-27","categoria":"Acuerdos","titulo":"Acuerdo Mercosur-Unión Europea: Argentina fue el primer país en habilitarlo","resumen":"Argentina completó sus trámites internos y aceptó la aplicación provisional. Según iProfesional, el acuerdo empezó a aplicarse en forma provisional el 1 de mayo de 2026. Elimina aranceles para el 92% de las exportaciones del Mercosur a la UE.","porque":"Abre el mercado europeo para carne, miel, arroz y soja, y abarata autos y maquinaria europea.","fuentes":[{"nombre":"Cancillería","url":"https://cancilleria.gob.ar/es/actualidad/noticias/argentina-es-el-primer-pais-en-cumplir-los-pasos-internos-y-habilitar-la","oficial":true},{"nombre":"iProfesional","url":"https://www.iprofesional.com/comex/450819-acuerdo-union-europea-mercosur-arranca-mayo-argentina-gran-beneficiada","oficial":false}]},{"fecha":"2024-12-31","categoria":"Norma","titulo":"Decreto 1140/2024: tasa de estadística del 3% hasta el 31/12/2027, con topes","resumen":"Prorroga la tasa de estadística del 3% sobre el valor en aduana hasta el 31/12/2027, con montos máximos: USD 180 hasta USD 10.000 de base, USD 3.000 hasta USD 100.000, USD 30.000 hasta USD 1.000.000 y USD 150.000 por encima. Las mercaderías de origen MERCOSUR siguen exentas.","porque":"Es uno de los tributos que pagás en cada importación: la calculadora ya aplica el tope que corresponde.","fuentes":[{"nombre":"CIRA","url":"https://www.cira.org.ar/es/servicios/normativas-servicios/decreto/decreto-1140-2024","oficial":false}]}]}/*NEWS_FALLBACK_END*/;
 if(NEWS_FALLBACK){NEWS=NEWS_FALLBACK;renderNews()}else{renderNews()}
-fetch('news.json?t='+Date.now()).then(r=>r.ok?r.json():Promise.reject()).then(d=>{if(d&&Array.isArray(d.items)){NEWS=d;renderNews()}}).catch(()=>{});
+// Si news.json falla o viene vacío, queda lo último guardado (pre-renderizado en el HTML y en NEWS_FALLBACK).
+fetch('news.json?t='+Date.now()).then(r=>r.ok?r.json():Promise.reject()).then(d=>{if(d&&Array.isArray(d.items)&&d.items.length){NEWS=d;renderNews()}}).catch(()=>{});
 
-$('sources').innerHTML=SOURCES.map(([n,d,u])=>`<a class="src" href="${u}" target="_blank" rel="noopener"><b>${n}</b><span>${d}</span><em>${u.replace('https://','')}</em></a>`).join('');
+$('sources').innerHTML=SOURCES.map(([n,d,u])=>`<a class="src" href="${u}" target="_blank" rel="noopener"><b>${n}</b><span>${d}</span><em>${u.replace('https://','').replace(/\/$/,'')}</em></a>`).join('');$('nsrcs').textContent=SOURCES.length;
 $('join').hidden=false;
+// CH Group: Instagram por defecto; WhatsApp si WHATSAPP_NUMBER tiene un número.
+if(WHATSAPP_NUMBER)$('chcta').href='https://wa.me/'+WHATSAPP_NUMBER.replace(/\D/g,'')+'?text='+encodeURIComponent('Hola Ian, quiero cotizar una importación con CH Group.');
+$('impcta').addEventListener('click',()=>goTo('ch-group'));
+// Política de privacidad (Ley 25.326)
+const priv=$('privpop');
+const openPriv=e=>{if(e)e.preventDefault();priv.hidden=false;$('privx').focus()};
+const closePriv=()=>{priv.hidden=true;if(location.hash==='#privacidad')history.replaceState(null,'',location.pathname+location.search)};
+document.querySelectorAll('[data-privacy]').forEach(a=>a.addEventListener('click',openPriv));
+$('privx').addEventListener('click',closePriv);$('privok').addEventListener('click',closePriv);
+priv.addEventListener('click',e=>{if(e.target===priv)closePriv()});
+addEventListener('keydown',e=>{if(e.key==='Escape'&&!priv.hidden)closePriv()});
+if(location.hash==='#privacidad')openPriv();
 // Registro con mail: cada alta llega por mail a Ian (FormSubmit) y queda en OneSignal.
 const SUB_ENDPOINT='https://formsubmit.co/ajax/ianncharaf@gmail.com';
 async function subscribe(email){
