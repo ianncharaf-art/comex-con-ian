@@ -1,0 +1,30 @@
+# Cada vez que el radar actualiza news.json, vuelve a escribir las novedades dentro de index.html
+# para que buscadores y previews de links vean el contenido sin JavaScript.
+name: Pre-render del radar
+on:
+  push:
+    branches: [main]
+    paths: [news.json, scripts/prerender.mjs]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: prerender
+  cancel-in-progress: false
+jobs:
+  prerender:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: 20}
+      - run: node scripts/prerender.mjs
+      - name: Guardar index.html
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git diff --cached --quiet && exit 0
+          git commit -m "Radar pre-renderizado en la web"
+          git pull --rebase origin main
+          git push
