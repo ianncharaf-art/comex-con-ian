@@ -1,0 +1,28 @@
+# Actualiza fx.json con el dólar del día para la miniapp de Claude (que no puede consultar APIs en vivo).
+# La web no lo necesita: consulta DolarApi directo cada minuto.
+name: Dólar para la miniapp
+on:
+  schedule:
+    - cron: '40 10 * * *'   # 07:40 en Argentina, antes del radar de la mañana
+    - cron: '40 21 * * *'   # 18:40 en Argentina, antes del radar de la tarde
+  workflow_dispatch:
+  push:
+    paths: ['scripts/fx.mjs']
+permissions:
+  contents: write
+jobs:
+  fx:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: 20}
+      - run: node scripts/fx.mjs
+      - name: Guardar fx.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add fx.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Dólar del día para la miniapp [skip ci]"
+          git push
