@@ -20,7 +20,7 @@
 <title>Comex con Ian · Radar y herramientas de comercio exterior</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400..600&family=Instrument+Serif:ital@0;1&display=swap">
 <style>
 /* Layout: a trade-intelligence app. Glass top bar + (on phones) a native-style bottom tab bar; News is home, led by one featured story; tools sit in calm, generous cards with data set in mono. */
 :root{
@@ -345,6 +345,189 @@ table.ledger tr.neg td.v{color:var(--good)}
 footer{border-top:1px solid var(--line);padding-block:28px;color:var(--muted);font-size:13px}
 footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 footer b{color:var(--ink);font-family:var(--f-display)}
+</style>
+<style id="design">
+/* Capa de diseño (oct 2026), inspirada en oryzo.ai: menos ruido, tipografía protagonista, etiquetas entre corchetes, superficies planas con línea fina y movimientos cortos con easing suave. Solo estética: no cambia estructura ni funciones. Negro, azul y dorado. */
+:root:not(#z){
+  --bg:#060607; --bg-2:#0B0B0D; --surface:#0D0E11; --sunken:#131418; --ink:#EEE9DD; --ink-2:#BFBAAF; --muted:#8C887F;
+  --line:rgba(238,233,221,.08); --line-2:rgba(238,233,221,.17);
+  --accent:#D4AF37; --accent-ink:#E6C766; --accent-soft:rgba(212,175,55,.12); --on-accent:#0A0906;
+  --navy:#0E2A6B; --blue:#4C86FF; --buyer:#4C86FF;
+  --shadow:none; --glass:rgba(6,6,7,.66);
+  --f-display:"Geist","Helvetica Neue",Arial,sans-serif;
+  --f-body:"Geist",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"Geist Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+  --f-serif:"Instrument Serif",Georgia,"Times New Roman",serif;
+  --ease:cubic-bezier(.16,1,.3,1); --ease-io:cubic-bezier(.65,0,.35,1);
+  --r:20px; --r-sm:12px;
+}
+html{scrollbar-color:#2a2a2e transparent}
+::selection{background:var(--accent);color:var(--on-accent)}
+body{background:var(--bg);font-size:15px;letter-spacing:-.006em;font-feature-settings:"ss01","cv11"}
+/* Luz ambiente azul y dorada, y un grano muy leve para que el negro no sea plano */
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(900px 540px at 82% -12%,rgba(61,123,255,.14),transparent 64%),radial-gradient(760px 460px at -12% -4%,rgba(212,175,55,.07),transparent 62%)}
+body::after{content:"";position:fixed;inset:0;z-index:90;pointer-events:none;opacity:.045;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+/* Barra superior: transparente arriba, vidrio con línea al bajar, y una línea dorada que marca cuánto bajaste */
+header.top{background:transparent;border-bottom-color:transparent;backdrop-filter:none;-webkit-backdrop-filter:none;transition:background .4s var(--ease),border-color .4s var(--ease),backdrop-filter .4s}
+header.top.scrolled{background:var(--glass);border-bottom-color:var(--line);backdrop-filter:saturate(1.3) blur(18px);-webkit-backdrop-filter:saturate(1.3) blur(18px)}
+.sprog{position:absolute;left:0;bottom:-1px;height:1px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:linear-gradient(90deg,var(--blue),var(--accent));opacity:.9;pointer-events:none}
+.mark{border-radius:999px;background:radial-gradient(circle at 30% 25%,#173A8C,#081634 70%);border-color:rgba(212,175,55,.5)}
+.logo b{font-family:var(--f-body);font-weight:600;font-size:18px;letter-spacing:-.035em}
+.logo b span{font-family:var(--f-serif);font-style:italic;font-weight:400;font-size:1.14em;letter-spacing:-.01em;color:var(--accent-ink)}
+nav.tabs{position:relative;background:rgba(238,233,221,.03);border-color:var(--line);padding:4px;isolation:isolate}
+.tab{font:500 14px var(--f-body);letter-spacing:-.01em;transition:color .35s var(--ease),background .35s var(--ease)}
+nav.tabs.has-ind .tab[aria-selected="true"]{background:none;box-shadow:none}
+.tab-ind{position:absolute;z-index:-1;top:4px;bottom:4px;left:0;width:0;border-radius:999px;background:var(--ink);transition:transform .5s var(--ease),width .5s var(--ease);pointer-events:none}
+nav.tabs.has-ind .tab[aria-selected="true"]{color:var(--bg)}
+.status-pill{font:500 11px var(--f-mono);letter-spacing:.06em;text-transform:uppercase}
+.bell,.hinstall{transition:border-color .3s var(--ease),background .3s var(--ease),transform .3s var(--ease)}
+.bell:hover{border-color:var(--line-2)}
+.bell:active,.hinstall:active{transform:scale(.94)}
+@media (max-width:760px){
+  nav.dock{background:rgba(8,8,10,.72);border-top-color:var(--line);backdrop-filter:saturate(1.3) blur(20px);-webkit-backdrop-filter:saturate(1.3) blur(20px)}
+  nav.dock .tab{font:500 10.5px var(--f-body);letter-spacing:0;position:relative}
+  nav.dock .tab svg{transition:transform .45s var(--ease)}
+  nav.dock .tab::before{content:"";position:absolute;top:0;left:50%;width:18px;height:2px;margin-left:-9px;border-radius:2px;background:var(--accent);transform:scaleX(0);transition:transform .45s var(--ease)}
+  nav.dock .tab[aria-selected="true"]::before{transform:scaleX(1)}
+  nav.dock .tab[aria-selected="true"] svg{transform:translateY(-1px) scale(1.06)}
+  nav.dock .tab:active svg{transform:scale(.9)}
+  footer{padding-bottom:calc(96px + env(safe-area-inset-bottom,0px))}
+}
+
+/* Tipografía: una sola familia, titulares grandes y apretados, el acento en serif itálica dorada */
+main{padding-block:40px 88px}
+section.panel{gap:26px;animation:none}
+.eyebrow{display:inline-block;font:500 11px/1.7 var(--f-mono);letter-spacing:.1em;color:var(--muted)}
+.eyebrow .live{display:inline-block;vertical-align:1px;margin:0 6px 0 4px}
+.eyebrow::before{content:"[";color:var(--accent);margin-right:2px}
+.eyebrow::after{content:"]";color:var(--accent);margin-left:2px}
+.lede{gap:14px}
+.lede h2{font-family:var(--f-display);font-weight:500;font-size:clamp(36px,7.4vw,76px);letter-spacing:-.052em;line-height:.96}
+.lede h2 em{font-family:var(--f-serif);font-style:italic;font-weight:400;letter-spacing:-.02em;padding-right:.06em;background:linear-gradient(100deg,#F6DE8D,#D4AF37 50%,#B08A22);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lede p{color:var(--ink-2);font-size:clamp(15px,1.9vw,17px);line-height:1.6}
+.section-title{font-family:var(--f-display);font-weight:500;font-size:clamp(24px,3.4vw,32px);letter-spacing:-.04em;margin-top:28px;padding-top:26px;border-top:1px solid var(--line)}
+
+/* Superficies: planas, línea fina, brillo sutil arriba */
+.card,.nitem,.fx,.stat,.src,.matrix,.join{box-shadow:none}
+.card{background:linear-gradient(180deg,rgba(238,233,221,.025),transparent 120px),var(--surface);border-color:var(--line);border-radius:var(--r);padding:24px}
+@media (max-width:480px){.card{padding:18px}}
+.card h3,.term-group .lab,.fact span,.kpi span,.total .k,table.ledger tr.group td,.items th,.matrix th,.fx-v span{font-family:var(--f-mono);font-weight:500;letter-spacing:.1em}
+.card h3::before{content:"[ ";color:var(--accent)}
+.card h3::after{content:" ]";color:var(--accent)}
+.kpi,.fact{background:rgba(238,233,221,.025);border-color:var(--line);border-radius:14px}
+.kpi b{font-family:var(--f-mono);font-weight:500}
+.total{border-radius:16px;background:radial-gradient(120% 140% at 100% 0%,rgba(212,175,55,.16),transparent 55%),linear-gradient(135deg,#0F2D73,#081634 70%);border-color:rgba(212,175,55,.32)}
+.total .n{font-family:var(--f-display);font-weight:500;letter-spacing:-.05em;color:#F3D77A}
+.term-head .code{font-family:var(--f-display);font-weight:500;letter-spacing:-.06em}
+.term-head .name{font-family:var(--f-serif);font-style:italic;font-size:22px;font-weight:400;color:var(--ink-2)}
+.matrix{background:var(--surface);border-color:var(--line);border-radius:var(--r)}
+.matrix td:first-child,.matrix th:first-child{background:var(--surface)}
+.matrix tr td{transition:background .25s var(--ease)}
+.matrix tr:hover td{background:rgba(238,233,221,.03)}
+.items{border-color:var(--line);border-radius:14px}
+.items th{background:rgba(238,233,221,.025)}
+
+/* Controles */
+input,select{font:500 15px var(--f-mono);background:rgba(238,233,221,.035);border-color:var(--line);border-radius:var(--r-sm);transition:border-color .3s var(--ease),background .3s var(--ease),box-shadow .3s var(--ease)}
+input:focus,select:focus{background:rgba(238,233,221,.05);border-color:rgba(212,175,55,.7);box-shadow:0 0 0 4px rgba(212,175,55,.1)}
+input[type="text"]#ncmq,input#encmq{font-family:var(--f-body);background-color:rgba(238,233,221,.035)}
+label.f{font-weight:400;color:var(--ink-2)}
+.seg,nav.tabs{border-radius:999px}
+.seg{background:rgba(238,233,221,.03);border-color:var(--line)}
+.seg button{font:500 14px var(--f-body);transition:background .4s var(--ease),color .4s var(--ease)}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.btn{font:500 15px var(--f-body);letter-spacing:-.01em;padding:13px 22px;transition:background .35s var(--ease),color .35s var(--ease),transform .35s var(--ease),box-shadow .35s var(--ease)}
+.btn:hover{filter:none;transform:none;background:#E4C252;box-shadow:0 8px 28px -10px rgba(212,175,55,.55)}
+.btn:active{transform:scale(.97)}
+.btn.ghost{background:transparent;border:1px solid var(--line-2)}
+.btn.ghost:hover{background:rgba(238,233,221,.05);box-shadow:none}
+.btn.blue{background:var(--blue)}
+.btn.blue:hover{background:#6798FF;box-shadow:0 8px 28px -10px rgba(76,134,255,.6)}
+.pill,.fpill,.fxt{transition:background .35s var(--ease),color .35s var(--ease),border-color .35s var(--ease),transform .35s var(--ease)}
+.pill{font:500 15px var(--f-mono);background:transparent;border-color:var(--line-2);border-radius:999px;padding:10px 16px}
+.pill:hover{transform:none;border-color:var(--ink-2)}
+.pill[aria-pressed="true"],.fpill[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.fpill{font:500 13px var(--f-body);background:transparent;border-color:var(--line-2)}
+.fpill:hover{border-color:var(--ink-2)}
+.fxt{background:transparent;border-color:var(--line-2)}
+.fxt b{font-family:var(--f-mono);font-weight:500}
+.badge,.chip{font-family:var(--f-mono);font-weight:500}
+.ncm-list{background:#111216;border-color:var(--line-2);border-radius:16px;box-shadow:0 24px 60px -16px rgba(0,0,0,.8);animation:dropin .28s var(--ease)}
+@keyframes dropin{from{opacity:0;transform:translateY(-6px)}}
+
+/* Noticias */
+.stat{background:transparent;border-color:var(--line);border-radius:16px}
+.stat b{font-family:var(--f-display);font-weight:500;font-size:34px;letter-spacing:-.05em}
+.stat span{font-family:var(--f-mono);letter-spacing:.06em;text-transform:uppercase;font-size:10.5px}
+.nitem{background:var(--surface);border-color:var(--line);border-radius:var(--r);transition:transform .5s var(--ease),border-color .5s var(--ease)}
+.nitem:hover{transform:translateY(-3px);border-color:var(--line-2)}
+.nitem h4{font-family:var(--f-display);font-weight:500;letter-spacing:-.035em;line-height:1.15;transition:color .35s var(--ease)}
+.nitem.feat{background:radial-gradient(110% 120% at 100% 0%,rgba(212,175,55,.14),transparent 50%),linear-gradient(140deg,#0F2D73,#081634 58%,#060607);border-color:rgba(212,175,55,.28)}
+.nitem.feat h4{font-weight:500;letter-spacing:-.045em;line-height:1.02}
+.nitem.feat::after{opacity:.35}
+.nmeta{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.02em}
+.flag{font-family:var(--f-mono);font-weight:500;letter-spacing:.12em}
+.ngo{font-weight:500;display:inline-flex;gap:6px;align-items:center}
+.ngo,.nsrc a{transition:color .35s var(--ease),border-color .35s var(--ease)}
+.nsrc a{font-weight:500;background:transparent;border-color:var(--line-2)}
+.nsrc a::after{display:inline-block;transition:transform .35s var(--ease)}
+.nsrc a:hover::after{transform:translate(2px,-2px)}
+.src{position:relative;background:transparent;border-color:var(--line);border-radius:16px;transition:border-color .45s var(--ease),transform .45s var(--ease),background .45s var(--ease)}
+.src:hover{transform:translateY(-2px);background:rgba(238,233,221,.025);border-color:rgba(212,175,55,.5)}
+.src b{font-family:var(--f-display);font-weight:500;letter-spacing:-.03em}
+.join{border-radius:var(--r);background:radial-gradient(120% 140% at 0% 0%,rgba(212,175,55,.14),transparent 50%),radial-gradient(120% 140% at 100% 100%,rgba(61,123,255,.18),transparent 55%),var(--surface);border-color:rgba(212,175,55,.28)}
+.join h3{font-family:var(--f-display);font-weight:500;letter-spacing:-.045em}
+.subform input[type=email]{background:rgba(238,233,221,.04);border-color:var(--line-2);transition:border-color .3s var(--ease)}
+
+/* Dólar */
+.fx{background:var(--surface);border-color:var(--line);border-radius:var(--r);transition:border-color .6s var(--ease),transform .5s var(--ease)}
+.fx:hover{transform:translateY(-2px)}
+.fx.hero{background:radial-gradient(110% 120% at 100% 0%,rgba(212,175,55,.14),transparent 50%),linear-gradient(140deg,#0F2D73,#081634 58%,#060607)}
+.fx-h h4{font-family:var(--f-display);font-weight:500;letter-spacing:-.035em}
+.fx-v div{background:rgba(238,233,221,.03);border-radius:12px}
+.fxgrid{grid-template-columns:repeat(auto-fill,minmax(min(100%,290px),1fr))}
+.fx-v b{font:500 clamp(17px,1.9vw,20px) var(--f-mono);letter-spacing:-.03em}
+.var{font-family:var(--f-mono);font-weight:500}
+
+/* Luz que sigue al puntero en tarjetas (solo con mouse) */
+.spot{position:relative;isolation:isolate}
+.spot::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;z-index:-1;opacity:0;transition:opacity .5s var(--ease);background:radial-gradient(420px circle at var(--mx,50%) var(--my,50%),rgba(212,175,55,.08),transparent 45%)}
+.spot:hover::before{opacity:1}
+
+/* Ventanas emergentes */
+.pop{background:rgba(3,3,4,.7);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);animation:popfade .4s var(--ease)}
+.pop-card{border-radius:24px;border-color:rgba(212,175,55,.32);background:radial-gradient(120% 80% at 50% 0%,rgba(61,123,255,.2),transparent 60%),#0B0C10;animation:popin2 .55s var(--ease)}
+.pop-card h2{font-family:var(--f-display);font-weight:500;letter-spacing:-.045em}
+.pop-card h2 span{font-family:var(--f-serif);font-style:italic;font-weight:400;letter-spacing:-.02em}
+@keyframes popin2{from{opacity:0;transform:translateY(24px) scale(.98)}}
+.guide .gsteps li{background:rgba(238,233,221,.03);border-color:var(--line)}
+
+/* Pie con la marca grande, al estilo oryzo */
+footer{border-top-color:var(--line);padding-top:40px;font-size:12.5px}
+footer::before{content:"Comex con Ian"/"";display:block;max-width:1120px;margin:0 auto 28px;padding-inline:16px;font:500 clamp(48px,13.5vw,168px)/.86 var(--f-display);letter-spacing:-.065em;white-space:nowrap;overflow:hidden;background:linear-gradient(180deg,rgba(238,233,221,.16),rgba(238,233,221,0) 92%);-webkit-background-clip:text;background-clip:text;color:transparent}
+@media (min-width:720px){footer::before{padding-inline:28px}}
+footer b{font-family:var(--f-display);font-weight:500}
+
+/* Movimiento: entradas cortas (menos de 0,7 s), escalonadas y sin bloquear nada */
+@keyframes inUp{from{opacity:0;transform:translateY(14px)}}
+@keyframes inHead{from{opacity:0;transform:translateY(.28em);filter:blur(6px)}}
+section.panel>*{animation:inUp .6s var(--ease) backwards}
+section.panel>*:nth-child(2){animation-delay:.05s}
+section.panel>*:nth-child(3){animation-delay:.1s}
+section.panel>*:nth-child(4){animation-delay:.14s}
+section.panel>*:nth-child(n+5){animation-delay:.18s}
+.lede h2{animation:inHead .8s var(--ease) backwards}
+.lede p{animation:inUp .7s var(--ease) .12s backwards}
+.newshead .lede h2,.newshead .lede p{animation-delay:.04s}
+.ani{animation:inUp .55s var(--ease) backwards}
+.rv{opacity:0;transform:translateY(22px)}
+.rv.in{opacity:1;transform:none;transition:opacity .65s var(--ease),transform .75s var(--ease)}
+@media (prefers-reduced-motion:reduce){
+  section.panel>*,.lede h2,.lede p,.ani,.ncm-list,.pop,.pop-card{animation:none!important}
+  .rv{opacity:1;transform:none}
+  .tab-ind{transition:none}
+}
 </style>
 
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
@@ -1205,6 +1388,76 @@ function start(){if(timer)return;load();timer=setInterval(()=>{if(document.visib
 document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible'&&timer)load()});
 $('fxreload').onclick=load;
 start();
+})();
+</script>
+<script id="design-motion">
+/* Movimiento de la capa de diseño: barra que se asienta al bajar, indicador de pestaña que se desliza, tarjetas que aparecen al llegar a ellas y luz que sigue al mouse. Si algo falla, la página se ve igual, solo sin animación. */
+(function(){
+  try{
+  const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const head=document.querySelector('header.top');
+
+  // Barra superior + progreso de lectura
+  if(head){
+    const bar=document.createElement('span');bar.className='sprog';bar.setAttribute('aria-hidden','true');head.append(bar);
+    let ticking=false;
+    const onScroll=()=>{ticking=false;const y=scrollY,max=document.documentElement.scrollHeight-innerHeight;head.classList.toggle('scrolled',y>8);bar.style.transform='scaleX('+(max>0?Math.min(1,y/max):0)+')'};
+    addEventListener('scroll',()=>{if(!ticking){ticking=true;requestAnimationFrame(onScroll)}},{passive:true});
+    addEventListener('resize',onScroll,{passive:true});onScroll();
+  }
+
+  // Indicador deslizante en las pestañas de escritorio
+  const nav=document.querySelector('nav.tabs');
+  if(nav){
+    const ind=document.createElement('span');ind.className='tab-ind';ind.setAttribute('aria-hidden','true');nav.prepend(ind);nav.classList.add('has-ind');
+    const place=()=>{const t=nav.querySelector('.tab[aria-selected="true"]');if(!t||!t.offsetWidth)return;ind.style.width=t.offsetWidth+'px';ind.style.transform='translateX('+t.offsetLeft+'px)'};
+    new MutationObserver(place).observe(nav,{subtree:true,attributes:true,attributeFilter:['aria-selected']});
+    addEventListener('resize',place,{passive:true});
+    (document.fonts&&document.fonts.ready||Promise.resolve()).then(place);place();
+  }
+
+  if(reduce)return;
+
+  // Aparición de tarjetas: las que ya se ven entran escalonadas; las de más abajo, al llegar a ellas
+  const SEL='.nitem,.card,.src,.fx,.stat,.fact,.join,.matrix,.section-title';
+  const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;const el=e.target;io.unobserve(el);el.classList.add('in');setTimeout(()=>el.classList.remove('rv','in'),900)}),{rootMargin:'0px 0px -6% 0px'});
+  const inView=el=>{const r=el.getBoundingClientRect();return r.height>0&&r.top<innerHeight*.94};
+  function prep(root,stagger){
+    let i=0;
+    root.querySelectorAll(SEL).forEach(el=>{
+      if(el.closest('.pop')||el.classList.contains('rv'))return;
+      const r=el.getBoundingClientRect();if(!r.height)return;
+      if(r.top>innerHeight*.94){el.classList.add('rv');io.observe(el)}
+      else if(stagger){el.style.animationDelay=Math.min(i++*45,360)+'ms';el.classList.add('ani');setTimeout(()=>{el.classList.remove('ani');el.style.animationDelay=''},1000)}
+    });
+  }
+  // Al cambiar de pestaña o al cargar noticias/fuentes
+  const main=document.querySelector('main');
+  if(main){
+    new MutationObserver(ms=>{
+      let panel=null,lists=new Set();
+      ms.forEach(m=>{
+        if(m.type==='attributes'&&m.target.matches('section.panel')&&!m.target.hidden)panel=m.target;
+        if(m.type==='childList'&&m.target.id&&/^(news|sources)$/.test(m.target.id))lists.add(m.target);
+        if(m.type==='childList'&&m.target.id&&/^(fxgrid|fxother)$/.test(m.target.id)&&!m.target.dataset.seen){m.target.dataset.seen='1';lists.add(m.target)}
+      });
+      requestAnimationFrame(()=>{if(panel)prep(panel,false);lists.forEach(l=>prep(l,true))});
+    }).observe(main,{subtree:true,childList:true,attributes:true,attributeFilter:['hidden']});
+    requestAnimationFrame(()=>prep(main,false));
+  }
+  // Red de seguridad: nada queda invisible
+  setTimeout(()=>document.querySelectorAll('.rv').forEach(el=>{if(inView(el)){el.classList.add('in');io.unobserve(el)}}),1500);
+
+  // Luz que sigue al puntero (solo mouse)
+  if(matchMedia('(hover: hover) and (pointer: fine)').matches){
+    const SPOT='.nitem,.src,.fx,.card:not(.result),.join';
+    document.addEventListener('pointermove',e=>{
+      const el=e.target.closest&&e.target.closest(SPOT);if(!el)return;
+      if(!el.classList.contains('spot'))el.classList.add('spot');
+      const r=el.getBoundingClientRect();el.style.setProperty('--mx',(e.clientX-r.left)+'px');el.style.setProperty('--my',(e.clientY-r.top)+'px');
+    },{passive:true});
+  }
+  }catch(err){document.querySelectorAll('.rv').forEach(el=>el.classList.remove('rv'))}
 })();
 </script>
 </body>
