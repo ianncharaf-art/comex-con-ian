@@ -2,6 +2,25 @@
   "actualizado": "2026-10-15",
   "items": [
     {
+      "fecha": "2026-10-15",
+      "categoria": "Comercio exterior",
+      "titulo": "CEPAL proyecta exportaciones argentinas récord de US$103.390 millones en 2026",
+      "resumen": "Según las proyecciones que presentó la CEPAL, las exportaciones de bienes de Argentina subirían 19% en 2026, a US$103.390 millones, y las importaciones caerían 3%, a US$69.998 millones, con un superávit de US$33.392 millones. El volumen exportado crecería 9% y los precios 10%; las exportaciones de servicios, 17%. Para toda la región, la CEPAL prevé un alza de 20% en el valor de las exportaciones de bienes.",
+      "porque": "Es la proyección de un organismo internacional que confirma el año exportador récord y muestra que el superávit se apoya en precios y en importaciones que caen.",
+      "fuentes": [
+        {
+          "nombre": "El Cronista",
+          "url": "https://www.cronista.com/economia-politica/la-otra-cara-del-superavit-comercial-argentino-record-segun-la-cepal/",
+          "oficial": false
+        },
+        {
+          "nombre": "CEPAL (comunicado)",
+          "url": "https://www.cepal.org/en/pressreleases/eclac-goods-exports-region-will-grow-20-2026-and-modern-services-trade-creates",
+          "oficial": true
+        }
+      ]
+    },
+    {
       "fecha": "2026-10-14",
       "categoria": "Acuerdos",
       "titulo": "Argentina y EE.UU. firmaron un protocolo que destraba el acuerdo comercial para enviarlo al Congreso",
@@ -44,19 +63,6 @@
         {
           "nombre": "Infobae",
           "url": "https://www.infobae.com/economia/2026/10/13/el-banco-central-realizo-la-mayor-compra-de-dolares-desde-julio-y-ya-acumula-mas-de-usd-15000-millones-en-2026/",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-10-10",
-      "categoria": "Datos",
-      "titulo": "Las importaciones caen 2,6% interanual hasta agosto",
-      "resumen": "Acumulado del año: importaciones por USD 48.999 millones, exportaciones por USD 67.248 millones y superávit comercial de USD 18.249 millones.",
-      "fuentes": [
-        {
-          "nombre": "Mundo Empresarial",
-          "url": "https://mundoempresarial.ar/importaciones-argentinas-caen-26-y-revelan-brecha-tecnologica/",
           "oficial": false
         }
       ]
@@ -109,19 +115,6 @@
       ]
     },
     {
-      "fecha": "2026-10-08",
-      "categoria": "Trámites",
-      "titulo": "El MERCOSUR digitaliza con el sistema SACIM los cupos de importación del Acuerdo MERCOSUR–UE",
-      "resumen": "Los cupos (contingentes) de importación que fija el Acuerdo MERCOSUR–Unión Europea pasan a gestionarse en forma digital con el sistema SACIM.",
-      "fuentes": [
-        {
-          "nombre": "VUCE",
-          "url": "https://www.vuce.gob.ar/",
-          "oficial": true
-        }
-      ]
-    },
-    {
       "fecha": "2026-10-07",
       "categoria": "Brasil",
       "titulo": "Comercio con Brasil: en septiembre el déficit bajó a US$51 millones",
@@ -165,32 +158,6 @@
           "nombre": "BCRA",
           "url": "https://www.bcra.gob.ar",
           "oficial": true
-        }
-      ]
-    },
-    {
-      "fecha": "2026-10-06",
-      "categoria": "Trámites",
-      "titulo": "VUCEA suma las licencias para importar productos agropecuarios de la UE dentro de los contingentes del acuerdo",
-      "resumen": "Las licencias para importar productos agropecuarios de la Unión Europea dentro de los contingentes del Acuerdo MERCOSUR–UE se tramitan en VUCEA.",
-      "fuentes": [
-        {
-          "nombre": "VUCE",
-          "url": "https://www.vuce.gob.ar/",
-          "oficial": true
-        }
-      ]
-    },
-    {
-      "fecha": "2026-10-06",
-      "categoria": "Datos",
-      "titulo": "OCDE: las exportaciones argentinas subieron 9,3% en el segundo trimestre",
-      "resumen": "Según la OCDE, las exportaciones argentinas subieron 9,3% en el 2° trimestre frente al 1°; las importaciones, 2,5%.",
-      "fuentes": [
-        {
-          "nombre": "Aduana News",
-          "url": "https://aduananews.com/el-comercio-del-g20-se-acelero-en-el-segundo-trimestre-de-2026-y-argentina-elevo-sus-exportaciones-un-93/",
-          "oficial": false
         }
       ]
     },
@@ -299,20 +266,6 @@
         {
           "nombre": "iProfesional",
           "url": "https://www.iprofesional.com/comex/450819-acuerdo-union-europea-mercosur-arranca-mayo-argentina-gran-beneficiada",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2024-12-31",
-      "categoria": "Norma",
-      "titulo": "Decreto 1140/2024: tasa de estadística del 3% hasta el 31/12/2027, con topes",
-      "resumen": "Prorroga la tasa de estadística del 3% sobre el valor en aduana hasta el 31/12/2027, con montos máximos: USD 180 hasta USD 10.000 de base, USD 3.000 hasta USD 100.000, USD 30.000 hasta USD 1.000.000 y USD 150.000 por encima. Las mercaderías de origen MERCOSUR siguen exentas.",
-      "porque": "Es uno de los tributos que pagás en cada importación: la calculadora ya aplica el tope que corresponde.",
-      "fuentes": [
-        {
-          "nombre": "CIRA",
-          "url": "https://www.cira.org.ar/es/servicios/normativas-servicios/decreto/decreto-1140-2024",
           "oficial": false
         }
       ]
