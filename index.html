@@ -389,6 +389,8 @@ nav.tabs.has-ind .tab[aria-selected="true"]{background:none;box-shadow:none}
 .tab-ind{position:absolute;z-index:-1;top:4px;bottom:4px;left:0;width:0;border-radius:999px;background:var(--ink);transition:transform .5s var(--ease),width .5s var(--ease);pointer-events:none}
 nav.tabs.has-ind .tab[aria-selected="true"]{color:var(--bg)}
 .status-pill{font:500 11px var(--f-mono);letter-spacing:.06em;text-transform:uppercase}
+/* La fecha del radar ya está en Noticias: se saca de la barra para que entre "Importá conmigo" en el menú */
+header.top .status-pill{display:none}
 .bell,.hinstall{transition:border-color .3s var(--ease),background .3s var(--ease),transform .3s var(--ease)}
 .bell:hover{border-color:var(--line-2)}
 .bell:active,.hinstall:active{transform:scale(.94)}
