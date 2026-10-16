@@ -3,6 +3,20 @@
   "items": [
     {
       "fecha": "2026-10-15",
+      "categoria": "Dólar",
+      "titulo": "Las reservas del BCRA superaron los US$50.000 millones tras otra compra fuerte de dólares",
+      "resumen": "El Banco Central compró US$182 millones en el mercado de cambios y las reservas internacionales brutas llegaron a US$50.040 millones. En lo que va del año ya acumula compras por US$15.483 millones. El dólar mayorista cerró en $1.513, sin cambios respecto de la rueda anterior.",
+      "porque": "Más reservas le dan al BCRA margen para sostener el tipo de cambio que usan exportadores e importadores para cobrar y pagar.",
+      "fuentes": [
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/10/15/el-banco-central-volvio-a-realizar-una-fuerte-compra-de-dolares-y-las-reservas-superaron-los-usd-50000-millones/",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "fecha": "2026-10-15",
       "categoria": "Comercio exterior",
       "titulo": "CEPAL proyecta exportaciones argentinas récord de US$103.390 millones en 2026",
       "resumen": "Según las proyecciones que presentó la CEPAL, las exportaciones de bienes de Argentina subirían 19% en 2026, a US$103.390 millones, y las importaciones caerían 3%, a US$69.998 millones, con un superávit de US$33.392 millones. El volumen exportado crecería 9% y los precios 10%; las exportaciones de servicios, 17%. Para toda la región, la CEPAL prevé un alza de 20% en el valor de las exportaciones de bienes.",
