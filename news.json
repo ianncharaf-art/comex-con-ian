@@ -96,6 +96,20 @@
       ]
     },
     {
+      "fecha": "2026-10-12",
+      "categoria": "Comercio exterior",
+      "titulo": "Proyectan que Argentina exportará casi US$180.000 millones en 2035",
+      "resumen": "Marcelo Elizondo, presidente del capítulo argentino de la Cámara de Comercio Internacional (ICC), proyecta exportaciones por US$105.150 millones en 2026 y US$179.945 millones en 2035. La participación argentina en el comercio mundial de bienes subiría de 0,29% en 2023 (mínimo histórico) a 0,39% en 2026 y 0,55% en 2035. Los motores serían agroindustria, energía (oleoducto Vaca Muerta Oil Sur), minería (litio y cobre bajo el RIGI) y economía del conocimiento.",
+      "porque": "Muestra qué sectores van a mover el comercio exterior argentino en los próximos diez años y dónde van a estar las oportunidades.",
+      "fuentes": [
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/10/12/la-argentina-recupera-participacion-en-el-comercio-mundial-proyectan-que-en-2035-exportara-usd-180000-millones/",
+          "oficial": false
+        }
+      ]
+    },
+    {
       "fecha": "2026-10-09",
       "categoria": "Dólar",
       "titulo": "El BCRA compró US$69 millones el viernes y ya suma casi US$15.000 millones en 2026",
