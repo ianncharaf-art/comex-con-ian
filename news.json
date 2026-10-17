@@ -1,6 +1,20 @@
 {
-  "actualizado": "2026-10-16",
+  "actualizado": "2026-10-17",
   "items": [
+    {
+      "fecha": "2026-10-16",
+      "categoria": "Dólar",
+      "titulo": "El BCRA cerró su mejor semana de compras desde julio: US$642 millones",
+      "resumen": "El viernes el Banco Central compró US$68 millones y cerró la semana con compras por US$642 millones en cuatro ruedas. En octubre ya suma US$983 millones y en el año US$15.551 millones. Las reservas brutas quedaron en US$50.236 millones.",
+      "porque": "El ritmo de compras muestra cuántos dólares entran por exportaciones y financiamiento al mercado oficial, donde operan exportadores e importadores.",
+      "fuentes": [
+        {
+          "nombre": "A24",
+          "url": "https://www.a24.com/economia/el-banco-central-compro-us-642-millones-una-semana-y-acumula-casi-us-1000-millones-octubre-n1607293",
+          "oficial": false
+        }
+      ]
+    },
     {
       "fecha": "2026-10-15",
       "categoria": "Dólar",
