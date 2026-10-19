@@ -2,6 +2,25 @@
   "actualizado": "2026-10-19",
   "items": [
     {
+      "fecha": "2026-10-19",
+      "categoria": "INDEC",
+      "titulo": "Balanza comercial de septiembre: superávit de US$2.976 millones con exportaciones récord",
+      "resumen": "Según el INDEC, en septiembre las exportaciones sumaron US$10.036 millones (+23,5% interanual) y las importaciones US$7.060 millones (-1,8%), con un superávit de US$2.976 millones. En enero-septiembre las exportaciones llegan a US$77.267 millones (+21,6%), las importaciones a US$56.069 millones (-2,5%) y el saldo a US$21.198 millones.",
+      "porque": "Es el dato oficial del comercio exterior argentino: muestra cuánto se exporta e importa y confirma el año récord para las exportaciones.",
+      "fuentes": [
+        {
+          "nombre": "INDEC (informe ICA septiembre 2026)",
+          "url": "https://www.indec.gob.ar/uploads/informesdeprensa/ica_10_263F42E3F39F.pdf",
+          "oficial": true
+        },
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/10/19/con-exportaciones-en-niveles-record-la-balanza-comercial-marco-un-superavit-de-usd-2976-millones-en-septiembre/",
+          "oficial": false
+        }
+      ]
+    },
+    {
       "fecha": "2026-10-16",
       "categoria": "Dólar",
       "titulo": "El BCRA cerró su mejor semana de compras desde julio: US$642 millones",
