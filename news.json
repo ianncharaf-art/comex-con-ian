@@ -1,6 +1,20 @@
 {
-  "actualizado": "2026-10-19",
+  "actualizado": "2026-10-20",
   "items": [
+    {
+      "fecha": "2026-10-19",
+      "categoria": "Dólar",
+      "titulo": "El BCRA ya compró más de US$1.000 millones en octubre",
+      "resumen": "El lunes el Banco Central compró US$18 millones y llegó a US$1.001 millones en octubre; en el año acumula US$15.569 millones. Las reservas brutas cerraron en US$50.152 millones (US$84 millones menos que el viernes) y el dólar mayorista subió $6,50 (0,4%) a $1.524,50.",
+      "porque": "El ritmo de compras y el valor del mayorista marcan el tipo de cambio al que liquidan exportadores e importadores.",
+      "fuentes": [
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/10/19/el-banco-central-ya-compro-mas-de-usd-1000-millones-en-lo-que-va-de-octubre/",
+          "oficial": false
+        }
+      ]
+    },
     {
       "fecha": "2026-10-19",
       "categoria": "INDEC",
