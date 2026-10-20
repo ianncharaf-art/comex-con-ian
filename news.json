@@ -2,6 +2,20 @@
   "actualizado": "2026-10-20",
   "items": [
     {
+      "fecha": "2026-10-20",
+      "categoria": "Comercio exterior",
+      "titulo": "El superávit comercial de 2026 superaría los US$26.000 millones, más del doble que en 2025",
+      "resumen": "La consultora ABECEB proyecta un superávit comercial de más de US$26.000 millones en 2026, frente a US$11.320 millones en 2025; entre enero y septiembre ya suma US$21.198 millones. LCG estima exportaciones por unos US$104.000 millones (+20%) e importaciones 2,5% más bajas. En septiembre, combustibles y energía exportaron US$1.781 millones (+89,1% interanual).",
+      "porque": "Muestra que el récord exportador se sostiene y que la energía ya pesa 16,1% de lo exportado en el año.",
+      "fuentes": [
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/10/20/el-superavit-comercial-de-2026-podria-superar-los-usd-26000-millones-y-duplicar-el-resultado-de-2025/",
+          "oficial": false
+        }
+      ]
+    },
+    {
       "fecha": "2026-10-19",
       "categoria": "Dólar",
       "titulo": "El BCRA ya compró más de US$1.000 millones en octubre",
