@@ -52,6 +52,13 @@ $('bk-in').onchange=async e=>{const f=e.target.files[0];e.target.value='';if(!f)
 if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('/centro/sw.js',{scope:'/centro/'}).catch(()=>{}));
 $('instx').onclick=""")
 
+# Push notifications (logic in centro/push.js): bell next to the sync dot.
+BELL = '<button class="cbell" id="cbell" type="button" aria-label="Activar notificaciones" title="Activar notificaciones"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></button>'
+rep('<span class="sync"><span class="dot" id="syncdot">', '<span class="row" style="flex-wrap:nowrap;gap:12px">' + BELL + '<span class="sync"><span class="dot" id="syncdot">')
+rep('<span id="synctxt">Conectando…</span></span>\n</div></header>', '<span id="synctxt">Conectando…</span></span></span>\n</div></header>')
+rep('.toast{position:fixed;', '.cbell{appearance:none;width:38px;height:38px;border-radius:12px;border:1px solid var(--line);background:var(--sunken);color:var(--muted);display:grid;place-items:center;cursor:pointer;position:relative}.cbell svg{width:19px;height:19px}.cbell.on{color:var(--gold-2);border-color:rgba(212,175,55,.45)}.cbell.on::after{content:"";position:absolute;top:7px;right:8px;width:7px;height:7px;border-radius:50%;background:var(--good)}\n.toast{position:fixed;')
+rep('</body></html>\n', '<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>\n<script src="/centro/push.js" defer></script>\n</body></html>\n')
+
 open(out, 'w', encoding='utf8').write(s)
 if len(sys.argv) > 2:
     shutil.copyfile(sys.argv[2], 'centro/carrera.json')

@@ -1,0 +1,27 @@
+name: Recordatorio del Centro
+
+# Todos los días a las 19 (Argentina) le avisa a Ian qué toca en el Centro.
+# A mano: "Run workflow" con título y mensaje para mandarle un aviso puntual.
+on:
+  schedule:
+    - cron: "0 22 * * *"
+  workflow_dispatch:
+    inputs:
+      titulo:
+        description: Título (vacío = el recordatorio del día)
+        required: false
+      mensaje:
+        description: Mensaje
+        required: false
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Enviar recordatorio
+        env:
+          ONESIGNAL_API_KEY: ${{ secrets.ONESIGNAL_API_KEY }}
+          TITULO: ${{ github.event.inputs.titulo }}
+          MENSAJE: ${{ github.event.inputs.mensaje }}
+        run: python3 scripts/centro_notify.py
