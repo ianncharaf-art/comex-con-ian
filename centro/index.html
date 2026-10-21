@@ -791,6 +791,7 @@ $('bk-in').onchange=async e=>{const f=e.target.files[0];e.target.value='';if(!f)
 if('serviceWorker' in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('/centro/sw.js',{scope:'/centro/'}).catch(()=>{}));
 $('instx').onclick=()=>{$('instban').hidden=true;try{localStorage.setItem('ci-inst','1')}catch(e){}};
 go(cur);render();renderAnalisis();
+if(!window.claude||!window.claude.use)fetch('/centro/feed.json',{cache:'no-store',credentials:'include'}).then(r=>r.ok?r.json():null).then(f=>{if(!f||!f.items)return;let n=0;for(const [id,x] of Object.entries(f.items)){if(!x||(x.kind!=='guion'&&x.kind!=='semana'))continue;const l=items.get(id);if(!l)n++;if(l&&JSON.stringify({...x,usado:!!l.usado})===JSON.stringify(l))continue;items.set(id,l&&l.usado?{...x,usado:true}:x)}lsSave();render();if(n)toast(n===1?'Llegó contenido nuevo de Claude':'Llegaron '+n+' contenidos nuevos de Claude')}).catch(()=>{});
 (async()=>{
   if(!window.claude||!window.claude.use){setSync(true,'Guardado en este celu');return}
   const [d,s]=await Promise.all([claude.use('db'),claude.use('sample')]);

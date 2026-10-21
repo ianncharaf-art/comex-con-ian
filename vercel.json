@@ -37,6 +37,15 @@
       ]
     },
     {
+      "source": "/centro/feed.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache"
+        }
+      ]
+    },
+    {
       "source": "/centro/(.*)",
       "headers": [
         {

@@ -1,0 +1,147 @@
+{
+ "actualizado": "2026-10-21T15:39:04+00:00",
+ "items": {
+  "guion-2026-10-19-1": {
+   "fecha": "2026-10-19",
+   "fuente": "https://www.indec.gob.ar/uploads/informesdeprensa/ica_10_263F42E3F39F.pdf",
+   "guion": "GANCHO (con el celu en la mano): \"Argentina le vendió al mundo más de 10 mil millones de dólares en un solo mes. Y compró menos que el año pasado.\"\n\n1. \"Salió el dato del INDEC de septiembre: exportaciones por 10.036 millones de dólares, 23,5% más que hace un año.\" (en pantalla: US$10.036 M · +23,5%)\n2. \"Las importaciones, en cambio, bajaron 1,8%: 7.060 millones.\" (en pantalla: US$7.060 M · -1,8%)\n3. \"La diferencia es el superávit: casi 3.000 millones de dólares a favor en un mes.\" (en pantalla: +US$2.976 M)\n4. \"Si importás, esto te importa: más dólares entrando le dan aire al mercado de cambios donde pagás a tu proveedor.\" Tu lectura en una frase: lo que ves en el rubro.\n\nCIERRE: \"¿Vos notás que se importa menos? Contame en qué rubro estás.\"\n\nTexto en pantalla: los 3 números grandes. Fuente en el caption: INDEC, Intercambio Comercial Argentino.",
+   "kind": "guion",
+   "noticia": "INDEC: en septiembre las exportaciones sumaron US$10.036 millones (+23,5%) y las importaciones US$7.060 millones (-1,8%). Superávit de US$2.976 millones.",
+   "para": "Graciela",
+   "titulo": "Argentina exportó un récord en septiembre. ¿Y por qué importamos menos?"
+  },
+  "guion-2026-10-19-2": {
+   "fecha": "2026-10-19",
+   "fuente": "https://www.infobae.com/economia/2026/10/19/el-banco-central-ya-compro-mas-de-usd-1000-millones-en-lo-que-va-de-octubre/",
+   "guion": "GANCHO: \"El Banco Central ya compró más de mil millones de dólares este mes. Te explico por qué eso le importa a cualquiera que quiera importar.\"\n\n1. \"En octubre lleva 1.001 millones de dólares comprados, y en el año más de 15.500 millones.\" (en pantalla: US$1.001 M en octubre)\n2. \"¿De dónde salen esos dólares? Principalmente de lo que se exporta y entra al mercado oficial.\"\n3. \"¿Por qué te importa? El dólar mayorista, hoy en $1.524,50, es el que se usa para pagarle a un proveedor de afuera.\" (en pantalla: $1.524,50)\n4. \"Más reservas significa más margen para que ese dólar no salte de golpe. Y si importás, lo que más te mata es la sorpresa.\"\n\nCIERRE: \"Guardalo y la próxima vez que escuches 'el Central compró' ya sabés qué significa.\"\n\nPerilla: profe canchero. Fuente en el caption.",
+   "kind": "guion",
+   "noticia": "BCRA: compró US$1.001 millones en octubre y US$15.569 millones en el año. Mayorista a $1.524,50. Reservas brutas US$50.152 millones.",
+   "para": "Tomi",
+   "titulo": "El Banco Central compró más de mil millones de dólares en octubre. ¿Y a mí qué?"
+  },
+  "guion-2026-10-20-1": {
+   "fecha": "2026-10-20",
+   "fuente": "https://www.infobae.com/economia/2026/10/20/el-superavit-comercial-de-2026-podria-superar-los-usd-26000-millones-y-duplicar-el-resultado-de-2025/",
+   "guion": "GANCHO: \"Si pensás que Argentina vive de vender soja, mirá este número.\"\n\n1. \"En septiembre, combustibles y energía exportaron 1.781 millones de dólares. Casi el doble que hace un año: más 89%.\" (en pantalla: US$1.781 M · +89,1%)\n2. \"Hoy la energía ya es el 16% de todo lo que Argentina exporta en el año.\" (en pantalla: 16,1% de las exportaciones)\n3. \"Por eso una consultora, ABECEB, proyecta que este año el país le venda al mundo 26 mil millones de dólares más de lo que compra. El año pasado fueron 11 mil.\" (en pantalla: 2025: US$11.320 M → 2026: +US$26.000 M)\n4. \"Ojo: es una proyección, no un dato cerrado. Pero muestra hacia dónde va la cosa.\"\n\nTU LECTURA (una frase): qué ves vos desde el rubro, por ejemplo si en la familia se habla de Vaca Muerta o de más movimiento en los puertos.\n\nCIERRE: \"¿Sabías que el petróleo ya pesa tanto en lo que exportamos? Guardalo para la próxima vez que alguien te diga que Argentina es solo campo.\"\n\nPerilla: profe canchero. Fuente para el caption: Infobae con datos de ABECEB e INDEC.",
+   "kind": "guion",
+   "noticia": "ABECEB proyecta un superávit comercial de más de US$26.000 millones en 2026 (US$11.320 millones en 2025). En septiembre combustibles y energía exportaron US$1.781 millones (+89,1%) y ya son el 16,1% de lo exportado en el año.",
+   "para": "Tomi",
+   "titulo": "Argentina ya no le vende al mundo solo soja: la energía casi duplicó sus exportaciones"
+  },
+  "sem-2026-10-26": {
+   "carruseles": [
+    {
+     "caption": "Si llegaste hasta acá, ya sabés de qué va esta cuenta. Comentá qué producto querés que calcule primero 👇",
+     "destacada": "Empezá acá · fijalo primero en el perfil",
+     "pilar": "Vida de pibe de 18 que emprende + Boppa",
+     "slides": [
+      "Portada: foto tuya + \"Tengo 18 y soy tercera generación de importadores\"",
+      "Mi abuelo arrancó a importar. Mi viejo siguió. Yo crecí entre cajas y contenedores.",
+      "Estudio Comercio Internacional, así que ahora le pongo nombre a lo que vi toda la vida.",
+      "Acá te explico cuánto cuesta traer cualquier cosa, qué cambia en el comex y lo que nadie te cuenta.",
+      "Lo que no vas a ver: cursos, lujo ni humo. Números reales y errores reales.",
+      "Seguime y comentá qué producto querés que calcule primero."
+     ],
+     "titulo": "Quién soy en 6 slides"
+    },
+    {
+     "caption": "Todos miran el precio de fábrica. El costo real aparece después. ¿Cuál de estos no sabías? Guardalo 📌",
+     "destacada": "¿Cuánto cuesta? · fijalo segundo",
+     "pilar": "Comercio exterior simple",
+     "slides": [
+      "Portada: \"El precio del proveedor NO es lo que te cuesta\"",
+      "1. Flete internacional: barco o avión, hasta el puerto de acá.",
+      "2. Seguro: protege la carga en el viaje.",
+      "3. Derechos de importación: dependen de la posición arancelaria (NCM) del producto.",
+      "4. Tasa de estadística e IVA + percepciones al despachar.",
+      "5. Despachante de aduana: sus honorarios.",
+      "6. Depósito fiscal y gastos en puerto mientras se libera la carga.",
+      "7. Flete interno: del puerto hasta tu depósito.",
+      "Guardalo antes de pedir tu primera cotización. Y calculalo en comex-con-ian.vercel.app"
+     ],
+     "titulo": "Los costos que nadie te cuenta cuando importás"
+    },
+    {
+     "caption": "Si un proveedor te pasa un precio sin decir el incoterm, no sabés qué estás pagando. Guardalo 🍕",
+     "destacada": "Glosario",
+     "pilar": "Comercio exterior simple",
+     "slides": [
+      "Portada: \"3 palabras que tenés que saber antes de pedir un precio\"",
+      "EXW: vas vos a buscar la pizza al local. Todo el viaje corre por tu cuenta.",
+      "FOB: el local te la deja en la moto del delivery. Desde ahí, el envío lo pagás vos.",
+      "CIF: la pizza llega a la puerta de tu edificio con envío y seguro pagos. Subirla es cosa tuya.",
+      "Mismo producto, tres precios distintos. Siempre preguntá cuál te están pasando.",
+      "Guardalo para tu primera cotización. ¿Te explico DDP en el próximo?"
+     ],
+     "titulo": "FOB, CIF y EXW explicados con un delivery de pizza"
+    }
+   ],
+   "desde": "2026-10-26",
+   "foco": "Semana 0: dejar la cuenta lista antes de arrancar el plan de noviembre",
+   "hasta": "2026-11-01",
+   "kind": "semana",
+   "perfil": [
+    {
+     "detalle": "Configuración > Tipo de cuenta > Cambiar a cuenta profesional > Creador. Categoría: \"Educación\" o \"Creador digital\". Te da estadísticas y botones.",
+     "titulo": "Instagram: pasá a cuenta profesional de creador"
+    },
+    {
+     "detalle": "Campo Nombre (no el usuario): \"Ian Charaf | Comercio exterior\". Ese campo aparece en la búsqueda, el usuario sigue siendo @iancharaf7.",
+     "titulo": "Instagram: nombre buscable"
+    },
+    {
+     "detalle": "18 años · 3ra generación de importadores 📦\nEstudio Comercio Internacional 🎓\nTe explico cuánto cuesta traer cualquier cosa 🌎\n👇 Calculadora y noticias gratis\nLink: comex-con-ian.vercel.app",
+     "titulo": "Instagram: bio"
+    },
+    {
+     "detalle": "Nombre: \"Ian | Comercio exterior\"\nBio (80 caracteres): \"3ra generación de importadores 📦 Te digo cuánto cuesta traerlo\"\nLink: si TikTok te deja ponerlo, el de tu web.",
+     "titulo": "TikTok: nombre y bio"
+    },
+    {
+     "detalle": "Cara clara, fondo simple. Si podés, con cajas o un contenedor atrás.",
+     "titulo": "Foto de perfil igual en las dos"
+    },
+    {
+     "detalle": "1. Empezá acá: carrusel \"Quién soy\" + video #1\n2. ¿Cuánto cuesta?: todos los episodios de la serie\n3. Noticias: lo que cambió cada semana\n4. Glosario: FOB, CIF, NCM, despachante...\n5. Preguntas: tus respuestas de los domingos\nTapas: fondo negro, ícono dorado, mismo estilo que tu web.",
+     "titulo": "Destacadas de Instagram (5)"
+    },
+    {
+     "detalle": "Instagram: 1) carrusel \"Quién soy\", 2) carrusel \"Costos que nadie te cuenta\", 3) tu mejor video del mes.\nTikTok: 1) video #1 \"Por qué empecé\", 2) el primer \"Cuánto cuesta traerlo\", 3) el video con más vistas.",
+     "titulo": "Fijados"
+    },
+    {
+     "detalle": "Cuando te aparezca la opción, armá una por serie: \"¿Cuánto cuesta traerlo?\", \"Qué cambió\", \"Familia de importadores\".",
+     "titulo": "TikTok: listas de reproducción"
+    }
+   ],
+   "stories": [
+    {
+     "detalle": "Opciones: Cuánto cuesta traer algo / Cómo funciona la aduana. Usá la respuesta para el primer video del martes.",
+     "titulo": "Lunes: encuesta \"¿Qué querés que explique primero?\""
+    },
+    {
+     "detalle": "Las mejores van al domingo de \"Preguntas de la semana\".",
+     "titulo": "Miércoles: caja de preguntas \"Preguntame lo que quieras de importar\""
+    },
+    {
+     "detalle": "Foto de 3 productos de tu casa, encuesta en cada uno, respuesta en la story siguiente.",
+     "titulo": "Viernes: \"Adiviná: ¿importado o nacional?\""
+    },
+    {
+     "detalle": "Tu setup, cuántos videos grabaste, \"mañana arranca\". Genera expectativa.",
+     "titulo": "Domingo: detrás de escena de la tanda"
+    }
+   ],
+   "videos": [
+    {
+     "dia": "Dom 1/11",
+     "fecha": "2026-11-01",
+     "guion": "Ya están en el tablero con fecha. Grabá en el mismo lugar, misma ropa o 2 cambios. Orden: el #1 \"Por qué empecé\" primero, que es el que vas a fijar.",
+     "para": "Los dos",
+     "pilar": "Vida de pibe de 18 que emprende + Boppa",
+     "titulo": "Grabar la tanda 1 (videos 1 a 10 del plan)"
+    }
+   ]
+  }
+ }
+}
