@@ -1,0 +1,17 @@
+{
+  "id": "/centro/",
+  "name": "Centro Ian",
+  "short_name": "Centro Ian",
+  "description": "Mi centro de mando: contenido, redes, estudio y proveedores.",
+  "lang": "es-AR",
+  "start_url": "/centro/",
+  "scope": "/centro/",
+  "display": "standalone",
+  "background_color": "#050608",
+  "theme_color": "#050608",
+  "icons": [
+    {"src": "/centro/icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "/centro/icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "/centro/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
