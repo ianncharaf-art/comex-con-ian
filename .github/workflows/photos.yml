@@ -20,8 +20,14 @@ jobs:
           mkdir -p img
           grep -v '^#' scripts/photos.txt | while read -r name id _; do
             [ -z "$name" ] && continue
-            curl -fsSL "https://images.unsplash.com/$id?w=2000&q=70&fm=jpg&fit=crop&auto=format" -o "img/$name.jpg"
-            curl -fsSL "https://images.unsplash.com/$id?w=900&q=68&fm=jpg&fit=crop&auto=format" -o "img/$name-m.jpg"
+            [ -s "img/$name.jpg" ] && [ -s "img/$name-m.jpg" ] && continue
+            # ids "photo-..." van directo a la CDN; los ids cortos de la página de Unsplash usan /download
+            if [[ "$id" == photo-* ]]; then
+              big="https://images.unsplash.com/$id?w=2000&q=70&fm=jpg&fit=crop&auto=format"; small="https://images.unsplash.com/$id?w=900&q=68&fm=jpg&fit=crop&auto=format"
+            else
+              big="https://unsplash.com/photos/$id/download?force=true&w=2000"; small="https://unsplash.com/photos/$id/download?force=true&w=900"
+            fi
+            curl -fsSL "$big" -o "img/$name.jpg" && curl -fsSL "$small" -o "img/$name-m.jpg" || { echo "No se pudo bajar $name ($id)"; rm -f "img/$name.jpg" "img/$name-m.jpg"; }
           done
           ls -la img
       - name: Subir

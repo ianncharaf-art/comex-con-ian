@@ -360,6 +360,25 @@ const ddmm=f=>f?f.slice(8,10)+'/'+f.slice(5,7):'';
 // *word* marks a gold highlight; without marks, numbers and acronyms get it.
 const SL={W:1080,H:1350,ink:'#F4F1E8',ink2:'#D5D9E2',muted:'#9AA2B5',gold:'#F3D77A',gold2:'#D4AF37',blue:'#3D7BFF',navy:'#0E2A6B',dark:'#0A0906',cache:new Map(),img:new Map(),
   photos:['puerto','incoterms','noticias','dolar','calculadora','documentos','quien']};
+// Backgrounds follow the topic: specific themes first, generic comex last.
+SL.themes=[
+  ['pizza',/pizza|delivery|\bmoto\b/i,['t-pizza-1','t-pizza-2'],true],
+  ['estudio',/estudi|facultad|universidad|carrera|aprend|examen/i,['t-estudio-1','t-estudio-2'],true],
+  ['argentina',/argentin|abuelo|mi viejo|familia|tercera generaci|buenos aires|indec|qui[eé]n soy/i,['t-argentina-1','t-argentina-2','quien'],true],
+  ['avion',/avi[oó]n|a[eé]re[oa]|courier|vuelo/i,['t-avion-1','t-avion-2']],
+  ['camion',/cami[oó]n|flete interno|terrestre|hasta tu dep[oó]sito/i,['t-camion-1']],
+  ['fabrica',/f[aá]brica|proveedor|china|producci|fabric/i,['t-fabrica-1','t-fabrica-2']],
+  ['deposito',/dep[oó]sito|almac[eé]n|stock|mercader[ií]a/i,['t-deposito-1']],
+  ['dinero',/d[oó]lar|\bplata\b|precio|cost[oa]|pag[aáo]|banco|bcra|reservas|tipo de cambio|millones|us\$|\$\s?\d/i,['t-dinero-1','t-dinero-2']],
+  ['barco',/barco|buque|mar[ií]tim|flete|naviera|puerto|seguro|\bfob\b|\bcif\b|\bexw\b|incoterm/i,['incoterms','quien','noticias','puerto']],
+  ['contenedores',/contenedor|aduana|despach|arancel|ncm|\biva\b|import|export/i,['dolar','calculadora','documentos']]];
+function slTheme(t){t=String(t||'');for(const th of SL.themes)if(th[1].test(t))return th;return null}
+function slPhotosFor(meta,raw){
+  const all=(meta.slides||[]).join(' ');
+  const base=(meta.tema&&SL.themes.find(t=>t[0]===meta.tema))||slTheme(meta.titulo)||slTheme(all)||SL.themes[SL.themes.length-1];
+  if(base[3])return base[2];
+  const own=slTheme(raw);return (own||base)[2];
+}
 function slParse(raw,i,n){
   let s=String(raw||'').trim(),note='',num='',head='',body='',cover=i===0;
   // Links never go on the image: send people to the bio instead.
@@ -373,7 +392,7 @@ function slParse(raw,i,n){
   if(num&&c>0&&c<48){head=s.slice(0,c);body=s.slice(c+1).trim();body=body.charAt(0).toUpperCase()+body.slice(1)}
   else if(cover||s.length<=80){head=s}
   else{const k=s.search(/[.!?](\s|$)/);if(k>15&&k<110){head=s.slice(0,k+1);body=s.slice(k+1).trim()}else{head=s}}
-  return {cover,last:i===n-1&&n>1,num,head,body,note};
+  return {cover,last:i===n-1&&n>1,num,head,body,note,raw:String(raw||'')};
 }
 function slWords(t,auto){
   const out=[];let hl=false,any=/\*[^*]+\*/.test(t);
@@ -411,12 +430,12 @@ async function slDraw(p,i,n,meta){
   const {W,H}=SL,c=document.createElement('canvas');c.width=W;c.height=H;const ctx=c.getContext('2d');
   const FD='"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif',FB='"Instrument Sans",system-ui,sans-serif',FM='"JetBrains Mono",Menlo,monospace',FC='Anton,"Bricolage Grotesque",Impact,sans-serif';
   const seed=[...String(meta.titulo||'')].reduce((a,ch)=>a+ch.charCodeAt(0),0);
-  const style=p.last?'gold':p.cover?'photo':['glow','photo','navy'][(i-1)%3];
+  const style=p.last?'gold':p.cover?'photo':['photo','glow','photo','navy'][(i-1)%4];
   const gold=style==='gold';
   let photoOk=false;
   // background
   ctx.fillStyle='#050608';ctx.fillRect(0,0,W,H);
-  if(style==='photo'){const im=await slLoad('/img/'+SL.photos[(seed+i)%SL.photos.length]+'.jpg');
+  if(style==='photo'){const pool=slPhotosFor(meta,p.raw);let im=null;for(let k=0;k<pool.length&&!im;k++)im=await slLoad('/img/'+pool[(i+k)%pool.length]+'.jpg');if(!im)im=await slLoad('/img/'+SL.photos[(seed+i)%SL.photos.length]+'.jpg');
     if(im){photoOk=true;slCover(ctx,im,W,H);ctx.fillStyle='rgba(14,42,107,.30)';ctx.fillRect(0,0,W,H);
       let g=ctx.createLinearGradient(0,0,0,H);g.addColorStop(0,p.cover?'rgba(5,6,8,.50)':'rgba(5,6,8,.62)');g.addColorStop(.5,p.cover?'rgba(5,6,8,.30)':'rgba(5,6,8,.55)');g.addColorStop(1,'rgba(5,6,8,.92)');ctx.fillStyle=g;ctx.fillRect(0,0,W,H)}}
   if(style==='navy'||(style==='photo'&&!photoOk)){let g=ctx.createLinearGradient(0,0,W,H);g.addColorStop(0,'#123A8F');g.addColorStop(.6,'#0A1A44');g.addColorStop(1,'#050608');ctx.fillStyle=g;ctx.fillRect(0,0,W,H);
