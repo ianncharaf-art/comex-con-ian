@@ -6,3 +6,18 @@ incoterms  photo-1763258189525-0d7b341243a0  Logan Voss
 documentos  photo-1782398138808-694776d26c4c  Cosmin Andrei Buzamat
 quien  photo-1769144256181-698b8f807066  Daniel Miksha
 puerto  photo-1772541224848-fe94ba571376  Rana Kaname
+# Fondos por tema para los carruseles de /centro (t-<tema>-<n>)
+t-pizza-1  photo-1599462620592-8e17c48eed70  Unsplash
+t-pizza-2  photo-1678443242116-8a1996b1ddad  Unsplash
+t-avion-1  photo-1750033146238-a68bcc1e9239  Unsplash
+t-avion-2  photo-1772965490705-2c75a8cb5cf6  Unsplash
+t-camion-1  photo-1591419478162-a4dd21b7ec0a  Unsplash
+t-dinero-1  photo-1670071479010-a8a14ef00c7b  Unsplash
+t-dinero-2  photo-1708724324835-67976c26ac29  Unsplash
+t-deposito-1  photo-1769355104335-acef3aa4c9b6  Guilherme Mendes
+t-deposito-2  photo-1766040923580-16ad32fae8b4  Rohit Choudhari
+t-fabrica-1  photo-1727373203579-7b8984cb8120  Unsplash
+t-estudio-1  photo-1747515203898-2df8f083f417  Unsplash
+t-estudio-2  photo-1756032433560-56547efed550  Unsplash
+t-argentina-1  photo-1764066531610-5457f1bc5419  Unsplash
+t-argentina-2  photo-1706170421190-48b12aa10f5e  Unsplash
