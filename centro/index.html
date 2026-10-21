@@ -356,34 +356,36 @@ document.addEventListener('click',e=>{
 /* ---------- claude feed: radar scripts + weekly content ---------- */
 let semTab='videos';
 const ddmm=f=>f?f.slice(8,10)+'/'+f.slice(5,7):'';
-// Ian as a cartoon: dark brown hair, white linen shirt. pose 'explica' (index up) or 'ok' (thumbs up).
+// Ian as a cartoon (from his selfie): dark brown hair with side-swept fringe, thick brows, stud earrings,
+// black crewneck with a light-blue patch. pose 'explica' (index up) or 'ok' (thumbs up).
 function slAvatar(pose){
-  const sk='#E8B48A',sk2='#C98F64',hair='#2A1B12',hair2='#3F2A1D',sh='#F7F4EC',sh2='#D8D2C2',ln='#1A120D';
+  const sk='#E0A97F',sk2='#B97F57',hair='#2B1C13',hair2='#4A3222',sw='#16171C',sw2='#2C2F38',rim='#4A4F5C',ln='#1A120D';
   const hand=pose==='ok'
-    ?`<g transform="translate(66 214)"><rect x="-30" y="-14" width="60" height="44" rx="18" fill="${sk}" stroke="${sk2}" stroke-width="3"/><rect x="-10" y="-58" width="22" height="54" rx="11" fill="${sk}" stroke="${sk2}" stroke-width="3"/><path d="M-24 2h46M-24 14h46" stroke="${sk2}" stroke-width="3" stroke-linecap="round"/></g>`
+    ?`<g transform="translate(66 214)"><rect x="-30" y="-14" width="60" height="44" rx="18" fill="${sk}" stroke="${sk2}" stroke-width="3"/><rect x="-11" y="-60" width="24" height="56" rx="12" fill="${sk}" stroke="${sk2}" stroke-width="3"/><path d="M-24 2h46M-24 14h46" stroke="${sk2}" stroke-width="3" stroke-linecap="round"/></g>`
     :`<g transform="translate(66 220)"><rect x="-12" y="-74" width="24" height="64" rx="12" fill="${sk}" stroke="${sk2}" stroke-width="3"/><ellipse cx="0" cy="4" rx="28" ry="26" fill="${sk}" stroke="${sk2}" stroke-width="3"/><path d="M-18 -4c8 4 26 4 34 0" stroke="${sk2}" stroke-width="3" fill="none" stroke-linecap="round"/><ellipse cx="22" cy="0" rx="9" ry="13" fill="${sk}" stroke="${sk2}" stroke-width="3"/></g>`;
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480">
-  <path d="M30 480C36 386 86 318 160 302h80c76 16 128 84 134 178z" fill="${sh}"/>
-  <path d="M120 330c-10 40-12 100-8 150M282 330c10 40 12 100 8 150" stroke="${sh2}" stroke-width="4" fill="none"/>
-  <path d="M174 300l26 56 26-56z" fill="${sk}"/>
-  <path d="M158 300l42 52-18 26-34-62zM242 300l-42 52 18 26 34-62z" fill="${sh}" stroke="${sh2}" stroke-width="4" stroke-linejoin="round"/>
-  <path d="M200 356v124" stroke="${sh2}" stroke-width="4"/><circle cx="200" cy="400" r="5" fill="${sh2}"/><circle cx="200" cy="446" r="5" fill="${sh2}"/>
-  <rect x="176" y="236" width="48" height="76" rx="20" fill="${sk}"/><path d="M178 262c14 10 30 10 44 0" stroke="${sk2}" stroke-width="5" fill="none" opacity=".6"/>
-  <path d="M96 352C58 330 34 292 42 236l50-4c-4 40 6 74 30 96z" fill="${sh}" stroke="${sh2}" stroke-width="4" stroke-linejoin="round"/>
-  <path d="M44 236l48-4" stroke="${sh2}" stroke-width="4"/>
+  <path d="M28 480C34 384 84 318 158 304h84c76 14 128 80 134 176z" fill="${sw}" stroke="${rim}" stroke-width="4"/>
+  <path d="M118 340c-8 40-10 96-6 140M284 340c8 40 10 96 6 140" stroke="${sw2}" stroke-width="5" fill="none"/>
+  <rect x="216" y="372" width="56" height="34" rx="4" fill="#86D6E8"/><rect x="226" y="384" width="36" height="8" rx="3" fill="#1F5F70" opacity=".55"/>
+  <rect x="176" y="236" width="48" height="80" rx="20" fill="${sk}"/><path d="M178 262c14 10 30 10 44 0" stroke="${sk2}" stroke-width="5" fill="none" opacity=".6"/>
+  <path d="M156 304c14 26 74 26 88 0" stroke="${sw2}" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M96 356C58 332 34 292 42 236l52-4c-4 40 6 76 32 98z" fill="${sw}" stroke="${rim}" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M42 236l52-4" stroke="${sw2}" stroke-width="10" stroke-linecap="round"/>
   ${hand}
-  <ellipse cx="114" cy="178" rx="15" ry="21" fill="${sk}"/><ellipse cx="286" cy="178" rx="15" ry="21" fill="${sk}"/>
-  <ellipse cx="114" cy="180" rx="6" ry="10" fill="${sk2}" opacity=".5"/><ellipse cx="286" cy="180" rx="6" ry="10" fill="${sk2}" opacity=".5"/>
-  <ellipse cx="200" cy="168" rx="86" ry="98" fill="${sk}"/>
-  <path d="M110 170C98 92 150 48 212 50c62 2 98 46 84 122-6-28-20-46-40-56-10 16-36 22-62 14-22-8-34-10-50 2-14 10-26 22-34 38z" fill="${hair}"/>
-  <path d="M132 86c18-30 60-44 98-34-30 0-58 14-72 36zM236 60c26 6 48 24 56 50-14-20-32-34-56-42z" fill="${hair2}"/>
-  <path d="M146 78c-10-20 4-38 26-36-8 10-8 22-2 30zM192 56c-2-22 20-32 40-24-12 4-20 14-18 26zM244 64c10-16 30-16 40-4-14 0-22 6-28 14z" fill="${hair}"/>
-  <path d="M146 146c10-8 26-10 38-6M216 140c12-4 28-2 38 6" stroke="${hair}" stroke-width="9" stroke-linecap="round" fill="none"/>
-  <ellipse cx="165" cy="176" rx="10" ry="13" fill="${ln}"/><ellipse cx="235" cy="176" rx="10" ry="13" fill="${ln}"/>
-  <circle cx="169" cy="171" r="3.6" fill="#fff"/><circle cx="239" cy="171" r="3.6" fill="#fff"/>
-  <path d="M200 186c-6 10-6 18 4 20" stroke="${sk2}" stroke-width="4" fill="none" stroke-linecap="round"/>
-  <ellipse cx="146" cy="212" rx="14" ry="8" fill="#E5806A" opacity=".35"/><ellipse cx="254" cy="212" rx="14" ry="8" fill="#E5806A" opacity=".35"/>
-  <path d="M168 220c16 26 48 26 64 0z" fill="#6E2A20"/><path d="M174 221c14 8 38 8 52 0l-2 6c-14 6-34 6-48 0z" fill="#fff"/>
+  <ellipse cx="116" cy="178" rx="14" ry="21" fill="${sk}"/><ellipse cx="284" cy="178" rx="14" ry="21" fill="${sk}"/>
+  <ellipse cx="116" cy="180" rx="6" ry="10" fill="${sk2}" opacity=".5"/><ellipse cx="284" cy="180" rx="6" ry="10" fill="${sk2}" opacity=".5"/>
+  <circle cx="114" cy="200" r="6" fill="#F4F6FA"/><circle cx="286" cy="200" r="6" fill="#F4F6FA"/>
+  <path d="M114 192v16M106 200h16M286 192v16M278 200h16" stroke="#fff" stroke-width="2" opacity=".9"/>
+  <path d="M118 150C118 92 156 66 200 66s82 26 82 84c0 40-8 72-26 94-16 20-36 30-56 30s-40-10-56-30c-18-22-26-54-26-94z" fill="${sk}"/>
+  <path d="M112 172C96 96 140 50 204 50c60 0 96 36 88 104-4-14-10-26-18-34-6 8-12 12-20 14 2-10 0-18-4-24-26 14-70 20-106 34-12 6-20 14-30 28z" fill="${hair}"/>
+  <path d="M286 128c-30-6-84 0-128 18-20 8-32 20-38 30 4-22 18-40 40-52 34-18 84-24 126-14z" fill="${hair}"/>
+  <path d="M150 76c30-20 78-24 112-6-34-6-74-2-104 14zM176 108c30-10 64-12 92-6-30 2-60 8-84 16z" fill="${hair2}"/>
+  <path d="M146 160c12-6 28-8 42-4M214 154c14-4 30-2 42 6" stroke="${hair}" stroke-width="11" stroke-linecap="round" fill="none"/>
+  <ellipse cx="166" cy="180" rx="9" ry="10" fill="${ln}"/><ellipse cx="234" cy="180" rx="9" ry="10" fill="${ln}"/>
+  <circle cx="169" cy="176" r="3.2" fill="#fff"/><circle cx="237" cy="176" r="3.2" fill="#fff"/>
+  <path d="M154 170c8-4 18-4 24 0M222 170c8-4 18-4 24 0" stroke="${sk2}" stroke-width="3" fill="none" opacity=".6"/>
+  <path d="M202 186c-4 12-6 22 6 24" stroke="${sk2}" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M176 226c14 16 36 16 50 0-14 6-36 6-50 0z" fill="#7A3326"/><path d="M180 227c12 5 30 5 42 0l-2 4c-12 4-26 4-38 0z" fill="#fff"/>
   </svg>`;
 }
 // Carousel slides drawn as brand images (black, blue, gold) with Ian's cartoon and port photos.
