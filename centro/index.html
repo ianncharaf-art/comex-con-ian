@@ -356,38 +356,6 @@ document.addEventListener('click',e=>{
 /* ---------- claude feed: radar scripts + weekly content ---------- */
 let semTab='videos';
 const ddmm=f=>f?f.slice(8,10)+'/'+f.slice(5,7):'';
-// Ian as a cartoon (from his selfie): dark brown hair with side-swept fringe, thick brows, stud earrings,
-// black crewneck with a light-blue patch. pose 'explica' (index up) or 'ok' (thumbs up).
-function slAvatar(pose){
-  const sk='#E0A97F',sk2='#B97F57',hair='#2B1C13',hair2='#4A3222',sw='#16171C',sw2='#2C2F38',rim='#4A4F5C',ln='#1A120D';
-  const hand=pose==='ok'
-    ?`<g transform="translate(66 214)"><rect x="-30" y="-14" width="60" height="44" rx="18" fill="${sk}" stroke="${sk2}" stroke-width="3"/><rect x="-11" y="-60" width="24" height="56" rx="12" fill="${sk}" stroke="${sk2}" stroke-width="3"/><path d="M-24 2h46M-24 14h46" stroke="${sk2}" stroke-width="3" stroke-linecap="round"/></g>`
-    :`<g transform="translate(66 220)"><rect x="-12" y="-74" width="24" height="64" rx="12" fill="${sk}" stroke="${sk2}" stroke-width="3"/><ellipse cx="0" cy="4" rx="28" ry="26" fill="${sk}" stroke="${sk2}" stroke-width="3"/><path d="M-18 -4c8 4 26 4 34 0" stroke="${sk2}" stroke-width="3" fill="none" stroke-linecap="round"/><ellipse cx="22" cy="0" rx="9" ry="13" fill="${sk}" stroke="${sk2}" stroke-width="3"/></g>`;
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480">
-  <path d="M28 480C34 384 84 318 158 304h84c76 14 128 80 134 176z" fill="${sw}" stroke="${rim}" stroke-width="4"/>
-  <path d="M118 340c-8 40-10 96-6 140M284 340c8 40 10 96 6 140" stroke="${sw2}" stroke-width="5" fill="none"/>
-  <rect x="216" y="372" width="56" height="34" rx="4" fill="#86D6E8"/><rect x="226" y="384" width="36" height="8" rx="3" fill="#1F5F70" opacity=".55"/>
-  <rect x="176" y="236" width="48" height="80" rx="20" fill="${sk}"/><path d="M178 262c14 10 30 10 44 0" stroke="${sk2}" stroke-width="5" fill="none" opacity=".6"/>
-  <path d="M156 304c14 26 74 26 88 0" stroke="${sw2}" stroke-width="12" fill="none" stroke-linecap="round"/>
-  <path d="M96 356C58 332 34 292 42 236l52-4c-4 40 6 76 32 98z" fill="${sw}" stroke="${rim}" stroke-width="4" stroke-linejoin="round"/>
-  <path d="M42 236l52-4" stroke="${sw2}" stroke-width="10" stroke-linecap="round"/>
-  ${hand}
-  <ellipse cx="116" cy="178" rx="14" ry="21" fill="${sk}"/><ellipse cx="284" cy="178" rx="14" ry="21" fill="${sk}"/>
-  <ellipse cx="116" cy="180" rx="6" ry="10" fill="${sk2}" opacity=".5"/><ellipse cx="284" cy="180" rx="6" ry="10" fill="${sk2}" opacity=".5"/>
-  <circle cx="114" cy="200" r="6" fill="#F4F6FA"/><circle cx="286" cy="200" r="6" fill="#F4F6FA"/>
-  <path d="M114 192v16M106 200h16M286 192v16M278 200h16" stroke="#fff" stroke-width="2" opacity=".9"/>
-  <path d="M118 150C118 92 156 66 200 66s82 26 82 84c0 40-8 72-26 94-16 20-36 30-56 30s-40-10-56-30c-18-22-26-54-26-94z" fill="${sk}"/>
-  <path d="M112 172C96 96 140 50 204 50c60 0 96 36 88 104-4-14-10-26-18-34-6 8-12 12-20 14 2-10 0-18-4-24-26 14-70 20-106 34-12 6-20 14-30 28z" fill="${hair}"/>
-  <path d="M286 128c-30-6-84 0-128 18-20 8-32 20-38 30 4-22 18-40 40-52 34-18 84-24 126-14z" fill="${hair}"/>
-  <path d="M150 76c30-20 78-24 112-6-34-6-74-2-104 14zM176 108c30-10 64-12 92-6-30 2-60 8-84 16z" fill="${hair2}"/>
-  <path d="M146 160c12-6 28-8 42-4M214 154c14-4 30-2 42 6" stroke="${hair}" stroke-width="11" stroke-linecap="round" fill="none"/>
-  <ellipse cx="166" cy="180" rx="9" ry="10" fill="${ln}"/><ellipse cx="234" cy="180" rx="9" ry="10" fill="${ln}"/>
-  <circle cx="169" cy="176" r="3.2" fill="#fff"/><circle cx="237" cy="176" r="3.2" fill="#fff"/>
-  <path d="M154 170c8-4 18-4 24 0M222 170c8-4 18-4 24 0" stroke="${sk2}" stroke-width="3" fill="none" opacity=".6"/>
-  <path d="M202 186c-4 12-6 22 6 24" stroke="${sk2}" stroke-width="4" fill="none" stroke-linecap="round"/>
-  <path d="M176 226c14 16 36 16 50 0-14 6-36 6-50 0z" fill="#7A3326"/><path d="M180 227c12 5 30 5 42 0l-2 4c-12 4-26 4-38 0z" fill="#fff"/>
-  </svg>`;
-}
 // Carousel slides drawn as brand images (black, blue, gold) with Ian's cartoon and port photos.
 // *word* marks a gold highlight; without marks, numbers and acronyms get it.
 const SL={W:1080,H:1350,ink:'#F4F1E8',ink2:'#D5D9E2',muted:'#9AA2B5',gold:'#F3D77A',gold2:'#D4AF37',blue:'#3D7BFF',navy:'#0E2A6B',dark:'#0A0906',cache:new Map(),img:new Map(),
@@ -462,13 +430,16 @@ async function slDraw(p,i,n,meta){
   ctx.textBaseline='middle';ctx.font=`600 26px ${FM}`;ctx.fillStyle=gold?SL.dark:SL.gold;ctx.fillText('COMEX CON IAN',L,104);
   const cnt=`${i+1}/${n}`;ctx.font=`600 28px ${FM}`;const cw=ctx.measureText(cnt).width+44;slRound(ctx,R-cw,78,cw,52,26);ctx.fillStyle=gold?'rgba(10,9,6,.12)':'rgba(255,255,255,.12)';ctx.fill();ctx.fillStyle=gold?SL.dark:SL.ink;ctx.fillText(cnt,R-cw+22,105);
   const photoNote=p.cover&&/foto|imagen|video|captura|selfie/i.test(p.note);
-  const avatar=!photoNote;
-  const avH=p.cover?580:p.last?540:480, avW=avH*400/480;
-  const textBottom=avatar?H-avH+(p.cover?60:40):H-170;
+  const textBottom=H-190;
   let y=p.cover?200:220;
   // eyebrow
   const eb=p.num?'':p.cover?(meta.pilar?String(meta.pilar).split(/[+(]/)[0].trim().toUpperCase().slice(0,38):'GUARDALO'):p.last?'ANTES DE IRTE':'';
   ctx.textBaseline='alphabetic';
+  if(!p.cover){const t0=y;let h=p.num?230:eb?84:0;
+    let yy=slText(ctx,slWords(p.head,!p.num),{x:L,y:t0+h,maxW:TW,maxH:p.body?380:Math.min(560,textBottom-t0-h-20),font:`800 S ${FD}`,min:56,max:(p.last||!p.body)?112:100,lh:1.05,dry:true});
+    if(p.body)yy=slText(ctx,slWords(p.body,false),{x:L,y:yy+74,maxW:TW,maxH:Math.max(120,textBottom-yy-94),font:`500 S ${FB}`,min:30,max:52,lh:1.3,dry:true});
+    if(p.last)yy+=154;
+    y=Math.max(t0,Math.round((180+textBottom-(yy-t0))/2)-20)}
   if(p.num){ctx.font=`800 230px ${FD}`;ctx.lineWidth=4;ctx.strokeStyle='rgba(243,215,122,.45)';ctx.strokeText(p.num,L+10,y+200);ctx.fillStyle=SL.gold;ctx.fillText(p.num,L-6,y+186);y+=230}
   else if(eb){ctx.font=`600 28px ${FM}`;const ew=ctx.measureText(eb).width+40;slRound(ctx,L,y,ew,50,25);ctx.fillStyle=gold?SL.dark:SL.gold;ctx.fill();ctx.fillStyle=gold?SL.gold:SL.dark;ctx.textBaseline='middle';ctx.fillText(eb,L+20,y+26);ctx.textBaseline='alphabetic';y+=84}
   if(p.cover){
@@ -477,16 +448,11 @@ async function slDraw(p,i,n,meta){
     const big=p.last||!p.body;
     y=slText(ctx,slWords(p.head,!p.num),{x:L,y,maxW:TW,maxH:p.body?380:Math.min(560,textBottom-y-20),font:`800 S ${FD}`,min:56,max:big?112:100,lh:1.05,col:ink,hlc:gold?SL.navy:SL.dark,mark:gold?null:'rgba(243,215,122,.95)'});
     if(p.body){y+=30;ctx.fillStyle=gold?SL.dark:SL.blue;ctx.fillRect(L,y,90,8);y+=44;
-      const bw=avatar&&!p.last?TW:TW;y=slText(ctx,slWords(p.body,false),{x:L,y,maxW:bw,maxH:Math.max(120,textBottom-y-20),font:`500 S ${FB}`,min:30,max:52,lh:1.3,col:ink2,hlc:hl})}
+      y=slText(ctx,slWords(p.body,false),{x:L,y,maxW:TW,maxH:Math.max(120,textBottom-y-20),font:`500 S ${FB}`,min:30,max:52,lh:1.3,col:ink2,hlc:hl})}
   }
   if(photoNote){const py=Math.max(y+40,760),ph=H-py-200;ctx.setLineDash([18,12]);ctx.lineWidth=4;ctx.strokeStyle='rgba(243,215,122,.85)';slRound(ctx,L,py,TW,ph,36);ctx.stroke();ctx.setLineDash([]);ctx.fillStyle='rgba(212,175,55,.10)';ctx.fill();
     ctx.font=`700 38px ${FB}`;ctx.fillStyle=SL.gold;ctx.textAlign='center';ctx.textBaseline='middle';ctx.fillText('📸 '+p.note.replace(/^\w/,ch=>ch.toUpperCase()),W/2,py+ph/2);ctx.textAlign='left'}
   if(p.last){const by=Math.min(y+50,H-300);ctx.fillStyle=SL.dark;slRound(ctx,L,by,400,104,52);ctx.fill();ctx.font=`800 44px ${FD}`;ctx.fillStyle=SL.gold;ctx.textBaseline='middle';ctx.textAlign='center';ctx.fillText('Guardalo 📌',L+200,by+54);ctx.textAlign='left'}
-  // avatar
-  if(avatar){const im=await slLoad('data:image/svg+xml;charset=utf-8,'+encodeURIComponent(slAvatar(p.last?'ok':'explica')));
-    if(im){const ax=W-avW+(p.cover?10:20),ay=H-avH;
-      let g=ctx.createRadialGradient(ax+avW*.5,ay+avH*.45,10,ax+avW*.5,ay+avH*.45,avW*.62);g.addColorStop(0,gold?'rgba(255,255,255,.45)':'rgba(61,123,255,.55)');g.addColorStop(1,'rgba(61,123,255,0)');ctx.fillStyle=g;ctx.fillRect(ax-80,ay-80,avW+160,avH+80);
-      ctx.save();ctx.shadowColor='rgba(0,0,0,.45)';ctx.shadowBlur=30;ctx.drawImage(im,ax,ay,avW,avH);ctx.restore()}}
   // footer
   ctx.font=`600 26px ${FM}`;ctx.textBaseline='middle';ctx.fillStyle=gold?'rgba(10,9,6,.7)':SL.muted;ctx.fillText('@IANCHARAF7',L,H-96);
   if(i<n-1){ctx.fillStyle=SL.gold;ctx.fillText('DESLIZÁ →',L,H-140)}
