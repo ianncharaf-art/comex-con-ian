@@ -59,6 +59,11 @@ rep('<span id="synctxt">Conectando…</span></span>\n</div></header>', '<span id
 rep('.toast{position:fixed;', '.cbell{appearance:none;width:38px;height:38px;border-radius:12px;border:1px solid var(--line);background:var(--sunken);color:var(--muted);display:grid;place-items:center;cursor:pointer;position:relative}.cbell svg{width:19px;height:19px}.cbell.on{color:var(--gold-2);border-color:rgba(212,175,55,.45)}.cbell.on::after{content:"";position:absolute;top:7px;right:8px;width:7px;height:7px;border-radius:50%;background:var(--good)}\n.toast{position:fixed;')
 rep('</body></html>\n', '<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>\n<script src="/centro/push.js" defer></script>\n</body></html>\n')
 
+# Claude's radar scripts and weekly plans arrive via centro/feed.json (written by the scheduled tasks).
+rep("go(cur);render();renderAnalisis();\n(async()=>{", """go(cur);render();renderAnalisis();
+if(!window.claude||!window.claude.use)fetch('/centro/feed.json',{cache:'no-store',credentials:'include'}).then(r=>r.ok?r.json():null).then(f=>{if(!f||!f.items)return;let n=0;for(const [id,x] of Object.entries(f.items)){if(!x||(x.kind!=='guion'&&x.kind!=='semana'))continue;const l=items.get(id);if(!l)n++;if(l&&JSON.stringify({...x,usado:!!l.usado})===JSON.stringify(l))continue;items.set(id,l&&l.usado?{...x,usado:true}:x)}lsSave();render();if(n)toast(n===1?'Llegó contenido nuevo de Claude':'Llegaron '+n+' contenidos nuevos de Claude')}).catch(()=>{});
+(async()=>{""")
+
 open(out, 'w', encoding='utf8').write(s)
 if len(sys.argv) > 2:
     shutil.copyfile(sys.argv[2], 'centro/carrera.json')
