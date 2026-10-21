@@ -362,6 +362,8 @@ const SL={W:1080,H:1350,ink:'#F4F1E8',ink2:'#D5D9E2',muted:'#9AA2B5',gold:'#F3D7
   photos:['puerto','incoterms','noticias','dolar','calculadora','documentos','quien']};
 function slParse(raw,i,n){
   let s=String(raw||'').trim(),note='',num='',head='',body='',cover=i===0;
+  // Links never go on the image: send people to the bio instead.
+  s=s.replace(/\b(?:y\s+)?(?:calcul[aá]lo|entr[aá]|registrate|anotate|miralo)?\s*(?:en|a)?\s*(?:https?:\/\/)?(?:www\.)?[a-z0-9-]+(?:\.[a-z0-9-]+)*\.(?:app|com|ar|net|org|io)(?:\/\S*)?/gi,' Link en mi bio 👆').replace(/\s+([.,!?])/g,'$1').replace(/\s{2,}/g,' ').trim();
   if(/^portada\s*[:\-]/i.test(s)){cover=true;s=s.replace(/^portada\s*[:\-]\s*/i,'')}
   const q=s.match(/[“"«]([^”"»]{4,})[”"»]/);
   if(q){note=s.replace(q[0],'').replace(/^[\s+,.:\-]+|[\s+,.:\-]+$/g,'');s=q[1].trim()}
