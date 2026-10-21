@@ -175,6 +175,7 @@ dialog .in{padding:22px;display:flex;flex-direction:column;gap:14px}
 .pv input{width:18px;height:18px;margin-top:2px;flex:none;accent-color:var(--gold)}
 .steps{margin:6px 0 0;padding-left:18px;display:flex;flex-direction:column;gap:4px;color:var(--ink-2);font-size:14px}
 .banner{display:flex;gap:12px;align-items:center;justify-content:space-between;padding:12px 14px;border:1px solid rgba(61,123,255,.35);background:rgba(61,123,255,.1);border-radius:14px;font-size:14px}
+.cbell{appearance:none;width:38px;height:38px;border-radius:12px;border:1px solid var(--line);background:var(--sunken);color:var(--muted);display:grid;place-items:center;cursor:pointer;position:relative}.cbell svg{width:19px;height:19px}.cbell.on{color:var(--gold-2);border-color:rgba(212,175,55,.45)}.cbell.on::after{content:"";position:absolute;top:7px;right:8px;width:7px;height:7px;border-radius:50%;background:var(--good)}
 .toast{position:fixed;left:50%;bottom:100px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:999px;font-weight:600;font-size:14px;z-index:50}
 /* claude-feed */
 .feed{display:grid;gap:10px}
@@ -191,7 +192,7 @@ dialog .in{padding:22px;display:flex;flex-direction:column;gap:14px}
 <header class="top"><div class="wrap bar">
   <div class="logo"><span class="mark" aria-hidden="true">I</span><b>Centro <span>Ian</span></b></div>
   <nav class="tabs" aria-label="Secciones"></nav>
-  <span class="sync"><span class="dot" id="syncdot"></span><span id="synctxt">Conectando…</span></span>
+  <span class="row" style="flex-wrap:nowrap;gap:12px"><button class="cbell" id="cbell" type="button" aria-label="Activar notificaciones" title="Activar notificaciones"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></button><span class="sync"><span class="dot" id="syncdot"></span><span id="synctxt">Conectando…</span></span></span>
 </div></header>
 <nav class="dock" aria-label="Secciones"></nav>
 
@@ -809,4 +810,6 @@ go(cur);render();renderAnalisis();
 })();
 </script>
 
+<script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+<script src="/centro/push.js" defer></script>
 </body></html>
