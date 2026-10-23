@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-21T15:39:04+00:00",
+ "actualizado": "2026-10-23T12:20:33+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -27,6 +27,15 @@
    "noticia": "ABECEB proyecta un superávit comercial de más de US$26.000 millones en 2026 (US$11.320 millones en 2025). En septiembre combustibles y energía exportaron US$1.781 millones (+89,1%) y ya son el 16,1% de lo exportado en el año.",
    "para": "Tomi",
    "titulo": "Argentina ya no le vende al mundo solo soja: la energía casi duplicó sus exportaciones"
+  },
+  "guion-2026-10-22-1": {
+   "fecha": "2026-10-22",
+   "fuente": "https://infobae.com/economia/2026/10/22/el-dolar-volvio-a-subir-y-anoto-un-nuevo-maximo-nominal",
+   "guion": "GANCHO: \"El dólar mayorista subió cinco días seguidos y marcó un récord. Si importás, esto te toca.\"\n\n1. \"El mayorista cerró en 1.528 pesos, el valor nominal más alto hasta ahora. En el Banco Nación, el minorista ya está en 1.550.\" (en pantalla: Mayorista $1.528 · BNA $1.550)\n2. \"¿Por qué el mayorista y no el del banco? Porque es el que se usa para pagarle al proveedor de afuera.\" (en pantalla: pagás importaciones al mayorista)\n3. \"Mientras tanto el Banco Central sigue comprando: 1.210 millones de dólares en octubre. Pero las reservas bajaron 59 millones ese día.\" (en pantalla: BCRA +US$1.210 M en octubre)\n4. \"Ojo: es una suba chica, 0,1% en el día. Lo que importa es la tendencia cuando calculás el costo de tu próxima compra.\" (en pantalla: +0,1% · 5 subas seguidas)\n\nTU LECTURA (una frase): cómo lo manejan en la familia, por ejemplo si cotizan con un margen por si el dólar se mueve entre que comprás y pagás.\n\nCIERRE: \"¿Vos a qué dólar calculás tus costos? Contame en los comentarios.\"\n\nPerilla: directo. Fuente para el caption: Infobae y Ámbito, 22/10/2026.",
+   "kind": "guion",
+   "noticia": "Mayorista $1.528 (+0,1%), quinta suba seguida y máximo nominal; BNA $1.550. BCRA compró US$61 M (US$1.210 M en octubre). Reservas US$50.166 M (-US$59 M).",
+   "para": "Graciela",
+   "titulo": "El dólar mayorista tocó un récord nominal. ¿Qué pasa con lo que importás?"
   },
   "sem-2026-10-26": {
    "carruseles": [
