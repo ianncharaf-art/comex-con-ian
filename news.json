@@ -1,6 +1,25 @@
 {
-  "actualizado": "2026-10-22",
+  "actualizado": "2026-10-23",
   "items": [
+    {
+      "fecha": "2026-10-22",
+      "categoria": "Dólar",
+      "titulo": "El dólar mayorista marcó un nuevo máximo nominal: $1.528 tras cinco subas seguidas",
+      "resumen": "El mayorista cerró en $1.528 (+0,1%), su quinta suba consecutiva y un nuevo máximo nominal; en el Banco Nación el minorista llegó a $1.550. El BCRA compró US$61 millones y suma US$228 millones en la semana, US$1.210 millones en octubre y US$15.778 millones en el año. Las reservas brutas bajaron US$59 millones, a US$50.166 millones.",
+      "porque": "El mayorista es el tipo de cambio al que se pagan las importaciones y se liquidan las exportaciones: cada suba cambia el costo en pesos de traer mercadería.",
+      "fuentes": [
+        {
+          "nombre": "Infobae",
+          "url": "https://infobae.com/economia/2026/10/22/el-dolar-volvio-a-subir-y-anoto-un-nuevo-maximo-nominal",
+          "oficial": false
+        },
+        {
+          "nombre": "Ámbito",
+          "url": "https://www.ambito.com/finanzas/el-bcra-acelero-las-compras-y-acumulo-mas-us200-millones-la-semana-pero-bajaron-las-reservas-n6336918",
+          "oficial": false
+        }
+      ]
+    },
     {
       "fecha": "2026-10-20",
       "categoria": "Comercio exterior",
