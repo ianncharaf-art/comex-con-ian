@@ -2,6 +2,25 @@
   "actualizado": "2026-10-24",
   "items": [
     {
+      "fecha": "2026-10-23",
+      "categoria": "Dólar",
+      "titulo": "El dólar cerró la semana con nuevo récord nominal: $1.529,50 tras seis subas seguidas",
+      "resumen": "El mayorista subió $1,50 (0,1%) a $1.529,50, su sexta suba consecutiva, con un volumen de US$565,4 millones. En la semana avanzó $11,50 (0,8%) y en el año acumula +$74,50 (5,1%). En el Banco Nación el minorista quedó en $1.550, +$15 en la semana.",
+      "porque": "El mayorista es el tipo de cambio de importaciones y exportaciones: con seis subas seguidas, conviene revisar las cotizaciones en pesos antes de cerrar una compra.",
+      "fuentes": [
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/10/23/el-dolar-termino-la-semana-con-nuevo-record-nominal-tras-seis-alzas-consecutivas/",
+          "oficial": false
+        },
+        {
+          "nombre": "Ámbito",
+          "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-viernes-23-octubre-n6337337",
+          "oficial": false
+        }
+      ]
+    },
+    {
       "fecha": "2026-10-22",
       "categoria": "Dólar",
       "titulo": "El dólar mayorista marcó un nuevo máximo nominal: $1.528 tras cinco subas seguidas",
@@ -16,6 +35,20 @@
         {
           "nombre": "Ámbito",
           "url": "https://www.ambito.com/finanzas/el-bcra-acelero-las-compras-y-acumulo-mas-us200-millones-la-semana-pero-bajaron-las-reservas-n6336918",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "fecha": "2026-10-21",
+      "categoria": "Exportación",
+      "titulo": "ABECEB proyecta exportaciones récord de entre US$100.000 y US$106.000 millones en 2026",
+      "resumen": "Mariana Camino, presidenta de ABECEB, proyectó que las exportaciones de 2026 cerrarían entre US$100.000 y US$106.000 millones, un récord histórico, con cuatro motores exportadores en lugar de depender solo del agro. Según Camino, unas 7.000 pymes forman parte del acumulado exportador del año.",
+      "porque": "Más exportaciones significan más dólares entrando al país, lo que pesa en el tipo de cambio y en la disponibilidad de divisas para importar.",
+      "fuentes": [
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/10/21/una-consultora-especializada-en-comercio-exterior-proyecta-exportaciones-record-de-hasta-usd-106000-millones-para-argentina/",
           "oficial": false
         }
       ]
@@ -185,20 +218,6 @@
         {
           "nombre": "Infobae",
           "url": "https://www.infobae.com/economia/2026/10/12/en-nueve-meses-el-agro-argentino-ya-exporto-casi-90-millones-de-toneladas-mas-que-el-record-anual-historico-de-2021/",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-10-09",
-      "categoria": "Dólar",
-      "titulo": "El BCRA compró US$69 millones el viernes y ya suma casi US$15.000 millones en 2026",
-      "resumen": "El Banco Central adquirió US$69 millones en el mercado de cambios el viernes 9 de octubre y acumula US$341 millones en lo que va del mes y US$14.909 millones desde el inicio de la fase cuatro del programa monetario. Las reservas brutas cerraron la semana en US$49.701 millones y el dólar mayorista subió $1,50 hasta $1.517.",
-      "porque": "Un Banco Central que compra dólares y suma reservas le da más previsibilidad al tipo de cambio con el que importadores y exportadores calculan sus costos y precios.",
-      "fuentes": [
-        {
-          "nombre": "Infobae",
-          "url": "https://www.infobae.com/economia/2026/10/09/el-bcra-acelero-las-compras-de-dolares-y-acumula-casi-usd-15000-millones-en-2026/",
           "oficial": false
         }
       ]
