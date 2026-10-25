@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-24T11:34:44+00:00",
+ "actualizado": "2026-10-25T12:15:53+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -36,6 +36,15 @@
    "noticia": "Mayorista $1.528 (+0,1%), quinta suba seguida y máximo nominal; BNA $1.550. BCRA compró US$61 M (US$1.210 M en octubre). Reservas US$50.166 M (-US$59 M).",
    "para": "Graciela",
    "titulo": "El dólar mayorista tocó un récord nominal. ¿Qué pasa con lo que importás?"
+  },
+  "guion-2026-10-23-1": {
+   "fecha": "2026-10-23",
+   "fuente": "https://www.infobae.com/economia/2026/10/23/el-dolar-termino-la-semana-con-nuevo-record-nominal-tras-seis-alzas-consecutivas/",
+   "guion": "GANCHO: \"Hay como cinco dólares en Argentina. Si querés importar, el que te importa es uno solo.\"\n\n1. \"El viernes el mayorista cerró en 1.529,50 pesos. Sexta suba seguida y récord nominal.\" (en pantalla: Mayorista $1.529,50 · 6 subas seguidas)\n2. \"El mayorista es el que se usa para pagarle a un proveedor de afuera. El del Banco Nación, 1.550, es el que ves vos cuando comprás en el banco.\" (en pantalla: Importás → mayorista · Banco → $1.550)\n3. \"En la semana subió 0,8% y en todo el año 5,1%. No es un salto, es goteo.\" (en pantalla: +0,8% semana · +5,1% año)\n4. \"Por eso cuando calculás cuánto te sale traer algo, no uses el dólar de hoy pelado: dejale un margen por si se mueve entre que pedís y pagás.\" (en pantalla: dejá margen)\n\nTU LECTURA (una frase): cómo lo hacen en la empresa familiar cuando cotizan, sin dar números que no tengas.\n\nCIERRE: \"Guardalo para cuando hagas tu primera cuenta de importación.\"\n\nPerilla: profe canchero. Fuente para el caption: Infobae, 23/10/2026.",
+   "kind": "guion",
+   "noticia": "Mayorista $1.529,50 (+0,1%), sexta suba seguida y récord nominal; +0,8% en la semana y +5,1% en el año. BNA minorista $1.550.",
+   "para": "Tomi",
+   "titulo": "El dólar subió seis días seguidos. Te explico cuál es el que te importa si querés traer algo de afuera."
   },
   "sem-2026-10-26": {
    "carruseles": [
