@@ -2,6 +2,25 @@
   "actualizado": "2026-10-26",
   "items": [
     {
+      "fecha": "2026-10-26",
+      "categoria": "Dólar",
+      "titulo": "Tensión por las elecciones en Brasil: el BCRA no compró dólares y el mayorista subió a $1.540",
+      "resumen": "Tras las elecciones en Brasil hubo volatilidad regional y el real se depreció. El mayorista cerró en $1.540, desde $1.529,50 del viernes, su séptima suba seguida; en el Banco Nación el minorista quedó en $1.560. El BCRA no compró ese día; hasta el 23/10 sumaba US$1.253 millones en octubre y US$15.821 millones en el año. Reservas brutas: US$50.481 millones.",
+      "porque": "Brasil es el principal socio comercial de Argentina: si el real se mueve, cambian los precios de lo que se compra y se vende con Brasil, y el dólar mayorista con el que pagás importaciones.",
+      "fuentes": [
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/10/26/el-bcra-decidio-no-comprar-reservas-hoy-ante-la-tension-cambiaria-generada-tras-las-elecciones-en-brasil/",
+          "oficial": false
+        },
+        {
+          "nombre": "Ámbito",
+          "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-lunes-26-octubre-n6338065",
+          "oficial": false
+        }
+      ]
+    },
+    {
       "fecha": "2026-10-23",
       "categoria": "Dólar",
       "titulo": "El dólar cerró la semana con nuevo récord nominal: $1.529,50 tras seis subas seguidas",
@@ -388,25 +407,6 @@
         {
           "nombre": "Infobae",
           "url": "https://www.infobae.com/economia/2026/06/03/el-gobierno-oficializo-una-reduccion-en-las-retenciones-para-el-agro-y-los-biocombustibles/",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-02-27",
-      "categoria": "Acuerdos",
-      "titulo": "Acuerdo Mercosur-Unión Europea: Argentina fue el primer país en habilitarlo",
-      "resumen": "Argentina completó sus trámites internos y aceptó la aplicación provisional. Según iProfesional, el acuerdo empezó a aplicarse en forma provisional el 1 de mayo de 2026. Elimina aranceles para el 92% de las exportaciones del Mercosur a la UE.",
-      "porque": "Abre el mercado europeo para carne, miel, arroz y soja, y abarata autos y maquinaria europea.",
-      "fuentes": [
-        {
-          "nombre": "Cancillería",
-          "url": "https://cancilleria.gob.ar/es/actualidad/noticias/argentina-es-el-primer-pais-en-cumplir-los-pasos-internos-y-habilitar-la",
-          "oficial": true
-        },
-        {
-          "nombre": "iProfesional",
-          "url": "https://www.iprofesional.com/comex/450819-acuerdo-union-europea-mercosur-arranca-mayo-argentina-gran-beneficiada",
           "oficial": false
         }
       ]
