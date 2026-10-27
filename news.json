@@ -1,6 +1,25 @@
 {
-  "actualizado": "2026-10-26",
+  "actualizado": "2026-10-27",
   "items": [
+    {
+      "fecha": "2026-10-26",
+      "categoria": "Acuerdos",
+      "titulo": "Lula reelecto: qué pasa con el comercio entre Argentina y Brasil",
+      "resumen": "Con datos del INDEC, en 2025 Argentina le exportó a Brasil US$12.771 millones y le importó US$18.424 millones: déficit de US$5.653 millones. Desde Brasil llegan sobre todo bienes intermedios (US$5.476 millones) y piezas de bienes de capital (US$3.560 millones). Para Gustavo Perego (ABECEB), el acuerdo automotriz explica el 50% del comercio y el vínculo no depende de quién gane.",
+      "porque": "Brasil es el principal socio comercial: muchos insumos y repuestos que importás vienen de ahí, y su situación política y el real pesan en precios y plazos.",
+      "fuentes": [
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/10/26/exportaciones-importaciones-acuerdos-y-desacuerdos-comercio-politica-e-ideologia-en-la-relacion-entre-argentina-y-brasil/",
+          "oficial": false
+        },
+        {
+          "nombre": "La Nación",
+          "url": "https://www.lanacion.com.ar/economia/punto-por-punto-los-cinco-frentes-que-abre-el-triunfo-de-lula-para-milei-y-la-economia-argentina-nid26102026/",
+          "oficial": false
+        }
+      ]
+    },
     {
       "fecha": "2026-10-26",
       "categoria": "Dólar",
@@ -388,25 +407,6 @@
         {
           "nombre": "El Cronista",
           "url": "https://www.cronista.com/economia-politica/arca-mantiene-un-beneficio-clave-para-importaciones-quienes-evitaran-adelantos-de-iva-y-ganancias-en-aduana/",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-06-03",
-      "categoria": "Exportación",
-      "titulo": "Decreto 423/2026: baja de retenciones al agro hasta 2028",
-      "resumen": "Trigo y cebada pasan de 7,5% a 5,5%. La soja (24%) baja desde enero de 2027 hasta 21% en diciembre de 2027 y 15% en diciembre de 2028. El aceite de soja va de 18-22% a 11-14% a fines de 2028.",
-      "porque": "Marca cuánto le queda al exportador del campo en los próximos dos años.",
-      "fuentes": [
-        {
-          "nombre": "Boletín Oficial",
-          "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/342702/20260603",
-          "oficial": true
-        },
-        {
-          "nombre": "Infobae",
-          "url": "https://www.infobae.com/economia/2026/06/03/el-gobierno-oficializo-una-reduccion-en-las-retenciones-para-el-agro-y-los-biocombustibles/",
           "oficial": false
         }
       ]
