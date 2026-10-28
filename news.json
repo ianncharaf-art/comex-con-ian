@@ -40,6 +40,20 @@
       ]
     },
     {
+      "fecha": "2026-10-25",
+      "categoria": "Exportación",
+      "titulo": "Las exportaciones de los últimos 12 meses superaron los US$100.000 millones",
+      "resumen": "Según un informe de Quantum con datos del INDEC, entre octubre de 2025 y septiembre de 2026 Argentina exportó US$100.845 millones, con un saldo comercial de US$26.472 millones. Marcelo Elizondo estima que la participación argentina en las exportaciones mundiales de bienes subiría a 0,39% en 2026, desde el mínimo histórico de 0,27% en 2023.",
+      "porque": "Más exportaciones significan más dólares entrando al país, lo que da aire al mercado de cambios donde se pagan las importaciones.",
+      "fuentes": [
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/10/25/las-exportaciones-de-los-ultimos-12-meses-superaron-los-usd-100000-millones-y-la-argentina-recupera-participacion-en-el-total-mundial/",
+          "oficial": false
+        }
+      ]
+    },
+    {
       "fecha": "2026-10-23",
       "categoria": "Dólar",
       "titulo": "El dólar cerró la semana con nuevo récord nominal: $1.529,50 tras seis subas seguidas",
@@ -388,25 +402,6 @@
         {
           "nombre": "AAACI",
           "url": "https://aaaci.org.ar/decreto-566-2026-reduccion-y-eliminacion-de-derechos-de-exportacion/",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-06-29",
-      "categoria": "ARCA · Impuestos",
-      "titulo": "Prorrogan hasta el 31/12/2026 la exención de percepciones de IVA y Ganancias en aduana",
-      "resumen": "La RG 5868/2026 de ARCA extiende la exención para bienes de la canasta básica e insumos de micro y pequeñas empresas. Para los insumos, el importador necesita el Certificado MiPyME vigente al momento de importar.",
-      "porque": "Quien califica no adelanta IVA ni Ganancias al importar, y eso mejora mucho la caja.",
-      "fuentes": [
-        {
-          "nombre": "Boletín Oficial",
-          "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/343657/20260629",
-          "oficial": true
-        },
-        {
-          "nombre": "El Cronista",
-          "url": "https://www.cronista.com/economia-politica/arca-mantiene-un-beneficio-clave-para-importaciones-quienes-evitaran-adelantos-de-iva-y-ganancias-en-aduana/",
           "oficial": false
         }
       ]
