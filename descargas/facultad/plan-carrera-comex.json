@@ -1,0 +1,75 @@
+{
+ "titulo": "Comercio Internacional",
+ "materias": [
+  {"id":"m01","anio":1,"ico":"🌎","name":"Fundamentos del Comercio Internacional","desc":"Por qué comercian los países, cómo se mide y qué reglas lo ordenan.","unidades":[
+   ["m01u1","Teorías del comercio internacional","Mercantilismo, Adam Smith y la ventaja absoluta, Ricardo y la ventaja comparativa, Heckscher-Ohlin, nueva teoría del comercio (economías de escala, comercio intraindustrial)."],
+   ["m01u2","Balanza de pagos y balanza comercial","Cuenta corriente, cuenta capital y financiera, balanza comercial de bienes y servicios, cómo leer el informe ICA del INDEC, términos de intercambio."],
+   ["m01u3","Política comercial","Aranceles (ad valorem, específicos, mixtos), efectos económicos de un arancel, cupos, licencias, subsidios a la exportación, proteccionismo vs apertura, el caso argentino a grandes rasgos sin cifras actuales."],
+   ["m01u4","La Organización Mundial del Comercio","GATT 1947 y la OMC (1995), principios de nación más favorecida y trato nacional, acuerdos principales (GATT, GATS, ADPIC, Valoración, OTC, MSF), solución de diferencias."],
+   ["m01u5","Defensa comercial","Dumping y antidumping, subvenciones y derechos compensatorios, salvaguardias, cómo se investiga (daño y relación causal), autoridad de aplicación en Argentina (Comisión Nacional de Comercio Exterior y Ministerio de Economía)."],
+   ["m01u6","Comercio internacional de servicios y nuevas tendencias","Modos de prestación de servicios del GATS, economía del conocimiento, comercio electrónico transfronterizo, cadenas globales de valor, nearshoring."]]},
+  {"id":"m02","anio":1,"ico":"🤝","name":"Integración Económica y Acuerdos Comerciales","desc":"Mercosur, acuerdos y reglas de origen para pagar menos aranceles legalmente.","unidades":[
+   ["m02u1","Etapas de la integración económica","Zona de preferencias, zona de libre comercio, unión aduanera, mercado común, unión económica; creación y desvío de comercio (Viner)."],
+   ["m02u2","Mercosur: historia e instituciones","Tratado de Asunción 1991, Protocolo de Ouro Preto, órganos (CMC, GMC, CCM), normativa Mercosur e incorporación, miembros y asociados."],
+   ["m02u3","Arancel Externo Común y sus excepciones","Qué es el AEC, listas de excepciones nacionales, regímenes especiales (bienes de capital BK, informática y telecomunicaciones BIT), por qué el Mercosur es una unión aduanera imperfecta."],
+   ["m02u4","ALADI y acuerdos de la región","Tratado de Montevideo 1980, acuerdos de alcance parcial y regional, Acuerdos de Complementación Económica (ACE) del Mercosur con Chile, Bolivia, Perú, Colombia, México, etc."],
+   ["m02u5","Acuerdos extrarregionales","Mercosur-Unión Europea, Mercosur-EFTA, Mercosur con Israel, Egipto, Singapur; qué cambia para un importador y un exportador argentino. No dar fechas de vigencia que no sean seguras."],
+   ["m02u6","Reglas de origen y certificación","Criterios: totalmente obtenido, cambio de clasificación arancelaria, valor de contenido regional, requisitos específicos; certificado de origen, entidades habilitadas, origen digital, verificación y sanciones por origen falso."]]},
+  {"id":"m03","anio":1,"ico":"🔎","name":"Clasificación Arancelaria y Valoración en Aduana","desc":"Cómo encontrar la posición correcta y cuánto vale la mercadería para la aduana.","unidades":[
+   ["m03u1","El Sistema Armonizado","Organización Mundial de Aduanas, estructura (secciones, capítulos, partidas, subpartidas), enmiendas periódicas, Notas Explicativas."],
+   ["m03u2","La Nomenclatura Común del Mercosur","De 6 a 8 dígitos, sufijos de valor en Argentina, relación con el AEC y los derechos nacionales, dónde se consulta (VUCE, sistema de ARCA, tarifarios)."],
+   ["m03u3","Reglas Generales de Interpretación","RGI 1 a 6 explicadas una por una con ejemplos (artículos incompletos, mezclas, juegos, más específico, carácter esencial, último en orden, envases)."],
+   ["m03u4","Clasificación en la práctica","Método paso a paso, casos difíciles (partes y accesorios, productos multifunción), criterios de clasificación y consultas vinculantes, consecuencias de clasificar mal."],
+   ["m03u5","Valoración en aduana: el valor de transacción","Acuerdo de Valoración de la OMC (Artículo VII del GATT), método 1, ajustes del artículo 8 (comisiones, envases, regalías, flete y seguro), vinculación entre partes."],
+   ["m03u6","Métodos secundarios y controles de valor","Métodos 2 a 6 en orden, duda razonable, valores criterio y controles de la aduana argentina, subfacturación y sobrefacturación como ilícitos."]]},
+  {"id":"m04","anio":2,"ico":"🛃","name":"Régimen Aduanero Argentino","desc":"El Código Aduanero en la práctica: sujetos, destinaciones, tributos e infracciones.","unidades":[
+   ["m04u1","El Código Aduanero y el territorio aduanero","Ley 22.415, servicio aduanero dentro de ARCA (Dirección General de Aduanas), territorio aduanero general y especial, zonas primarias y secundarias, áreas francas."],
+   ["m04u2","Sujetos del comercio exterior","Importadores y exportadores (registro), despachantes de aduana, agentes de transporte aduanero, depositarios, responsabilidades de cada uno."],
+   ["m04u3","Destinaciones de importación","Importación para consumo, importación temporaria (con y sin transformación, perfeccionamiento activo), depósito de almacenamiento, tránsito; documentación y plazos generales."],
+   ["m04u4","Destinaciones de exportación","Exportación para consumo, exportación temporaria, régimen de reintegros y su lógica, derechos de exportación, ventajas de la exportación simplificada para pymes (sin dar cifras que cambian)."],
+   ["m04u5","Tributos aduaneros y cálculo de la liquidación","Derechos de importación y exportación, tasa de estadística, IVA, percepciones de IVA, Ganancias e Ingresos Brutos, base imponible y orden de cálculo; alícuotas solo como ejemplo hipotético."],
+   ["m04u6","Infracciones y delitos aduaneros","Contrabando y sus formas, declaración inexacta, transgresiones, sanciones, el rol del canal de selectividad (verde, naranja, rojo), cómo operar en regla."]]},
+  {"id":"m05","anio":2,"ico":"🚚","name":"Logística y Transporte Internacional","desc":"Cómo se mueve la mercadería de una fábrica a otra punta del mundo.","unidades":[
+   ["m05u1","Cadena de suministro y logística internacional","Conceptos de supply chain, flujo físico, de información y financiero, lead time, stock de seguridad, costos logísticos totales."],
+   ["m05u2","Modos de transporte y su elección","Marítimo, aéreo, terrestre, ferroviario, fluvial, multimodal; criterios de elección (costo, tiempo, valor, riesgo); transporte terrestre en el Mercosur (ATIT, CRT, MIC/DTA)."],
+   ["m05u3","Contenedores y unitización","Tipos y medidas de contenedores, pallets, FCL y LCL, consolidación, estiba y trinca, peso bruto verificado (VGM, SOLAS)."],
+   ["m05u4","Transporte aéreo de carga","IATA, AWB master y house, peso volumétrico, ULD, mercancías peligrosas (DGR), courier y envíos urgentes."],
+   ["m05u5","Costos y cotizaciones de flete","Componentes del flete (flete básico, recargos BAF, CAF, temporada alta), gastos en origen y destino, THC, demoras y detention, cómo comparar cotizaciones de forwarders."],
+   ["m05u6","Almacenamiento, distribución y última milla","Depósitos fiscales, centros de distribución, gestión de inventarios, cross-docking, embalaje de exportación, marcado de bultos y trazabilidad."]]},
+  {"id":"m06","anio":2,"ico":"⚓","name":"Transporte Marítimo y Marina Mercante","desc":"Buques, navieras, puertos, fletamentos y el derecho de la navegación.","unidades":[
+   ["m06u1","El buque y sus tipos","Arqueo y porte (TRB, TPM), tipos de buques (portacontenedores, graneleros por tamaño, tanqueros, Ro-Ro, carga general, reefer), bandera y registro."],
+   ["m06u2","El mercado naviero","Línea regular vs tramp, alianzas de navieras, concentración del mercado, índices de flete (Drewry WCI, SCFI, Baltic Dry), ciclos del flete."],
+   ["m06u3","Puertos y terminales","Funciones de un puerto, terminales especializadas, sistema portuario argentino (Buenos Aires, Dock Sud, Gran Rosario, Bahía Blanca, Quequén), Hidrovía Paraná-Paraguay, calado y dragado."],
+   ["m06u4","Contratos de fletamento","Fletamento por viaje, por tiempo y a casco desnudo, charter party, laytime, demora y despacho (demurrage y despatch)."],
+   ["m06u5","El conocimiento de embarque","Funciones del B/L, tipos (nominativo, a la orden, al portador; limpio y sucio; master y house), sea waybill, B/L electrónico, regímenes de responsabilidad (Reglas de La Haya-Visby, Hamburgo, Rotterdam)."],
+   ["m06u6","Seguridad, ambiente y autoridades marítimas","OMI, convenios SOLAS, MARPOL, STCW, Código PBIP, Prefectura Naval Argentina, Ley de la Navegación 20.094 en líneas generales."]]},
+  {"id":"m07","anio":3,"ico":"🛡️","name":"Seguros en el Comercio Exterior","desc":"Cómo proteger la mercadería, el cobro y las obligaciones ante la aduana.","unidades":[
+   ["m07u1","Principios del seguro","Riesgo, interés asegurable, buena fe, indemnización, subrogación, prima y suma asegurada, rol del broker."],
+   ["m07u2","Seguro de transporte de mercaderías","Cobertura almacén a almacén, cláusulas ICC A, B y C, cláusulas de guerra y huelga, exclusiones típicas, Incoterms y obligación de asegurar (CIF, CIP)."],
+   ["m07u3","Avería gruesa y avería particular","Reglas de York-Amberes, cómo se declara, contribución y fianzas, ejemplos históricos conocidos sin cifras dudosas."],
+   ["m07u4","Siniestros y reclamos","Qué hacer al recibir mercadería dañada, protesta y reservas, inspección y peritaje (surveyor), documentos, plazos, responsabilidad del transportista y sus límites."],
+   ["m07u5","Seguro de crédito y de caución","Seguro de crédito a la exportación (riesgo comercial y político), seguro de caución aduanero y para importaciones temporarias, garantías ante la aduana."],
+   ["m07u6","Gestión de riesgos en la operación","Mapa de riesgos de una importación y una exportación, cómo elegir cobertura, pólizas flotantes, costo vs beneficio."]]},
+  {"id":"m08","anio":3,"ico":"💸","name":"Pagos Internacionales y Financiamiento","desc":"Cómo cobrar y pagar sin perder plata, y cómo financiar una operación.","unidades":[
+   ["m08u1","Medios de pago y riesgo","Escalera de riesgo: pago anticipado, cuenta abierta, cobranza, carta de crédito; cómo elegir según la confianza y el poder de negociación."],
+   ["m08u2","Cobranza documentaria","URC 522 de la ICC, D/P y D/A, actores, letra de cambio, ventajas y riesgos."],
+   ["m08u3","Carta de crédito documentaria","UCP 600, actores, tipos (irrevocable, confirmada, transferible, back-to-back, stand-by con ISP98), examen de documentos y discrepancias, ISBP."],
+   ["m08u4","Garantías bancarias y fraudes","Garantías a primera demanda (URDG 758), stand-by, fraudes típicos (BEC, cambio de cuenta), debida diligencia."],
+   ["m08u5","Financiamiento del comercio exterior","Prefinanciación y financiación de exportaciones, factoring y forfaiting, financiación de importaciones, costo financiero y plazo."],
+   ["m08u6","Régimen cambiario argentino","Mercado Libre de Cambios, rol del BCRA y sus comunicaciones, obligación de ingreso y liquidación de divisas de exportación, acceso para pagar importaciones; explicar la lógica y aclarar que las reglas cambian seguido, sin dar plazos o topes actuales."]]},
+  {"id":"m09","anio":3,"ico":"📜","name":"Contratación Internacional e Incoterms","desc":"El contrato de compraventa internacional, los Incoterms 2020 y cómo resolver conflictos.","unidades":[
+   ["m09u1","El contrato de compraventa internacional","Elementos esenciales, oferta y aceptación, Convención de Viena de 1980 (CISG) y su aplicación en Argentina, ley aplicable y jurisdicción."],
+   ["m09u2","Incoterms 2020: estructura y reglas multimodales","Qué regulan y qué no, las 10 obligaciones A/B, EXW, FCA (con la opción de B/L a bordo), CPT, CIP, DAP, DPU, DDP."],
+   ["m09u3","Incoterms marítimos y elección del Incoterm","FAS, FOB, CFR, CIF; por qué FOB no conviene con contenedores; cómo elegir según quién controla el flete, el seguro y la aduana; errores clásicos."],
+   ["m09u4","Documentación comercial","Factura proforma y comercial, packing list, certificados (origen, sanitarios, calidad, inspección), requisitos de la factura en la aduana argentina en general."],
+   ["m09u5","Incumplimiento y resolución de disputas","Incumplimiento esencial, remedios (cumplimiento, resolución, daños), fuerza mayor y hardship, negociación, mediación, arbitraje (CCI, Convención de Nueva York 1958)."],
+   ["m09u6","Propiedad intelectual y cumplimiento","Marcas y falsificaciones en aduana, licencias, compliance, sanciones internacionales y control de exportaciones en líneas generales, ética en los negocios."]]},
+  {"id":"m10","anio":4,"ico":"🚀","name":"Estrategia, Marketing y Gestión de Operaciones","desc":"Cómo armar un negocio de importación o exportación de punta a punta.","unidades":[
+   ["m10u1","Selección de mercados","Investigación de mercados (fuentes: Trade Map, UN Comtrade, INDEC, Agencia Argentina de Inversiones y Comercio Internacional), criterios de atractivo y accesibilidad, matriz de selección."],
+   ["m10u2","Formación del precio de exportación","Costos, márgenes, del precio EXW al CIF, precio de exportación vs mercado interno, estrategias de precio."],
+   ["m10u3","Sourcing y desarrollo de proveedores","Dónde buscar proveedores (ferias como la Canton Fair, plataformas B2B), RFQ, muestras, auditorías de fábrica, inspección previa al embarque, negociación intercultural con proveedores asiáticos."],
+   ["m10u4","Costeo de una importación de punta a punta","Del precio FOB al costo puesto en depósito: flete, seguro, tributos, gastos locales, financiero; cómo calcular el precio de venta y el margen; ejercicio integrador con números hipotéticos."],
+   ["m10u5","Promoción comercial y canales","Ferias, misiones comerciales, distribuidores, agentes, e-commerce internacional, marca y posicionamiento, marketing digital B2B."],
+   ["m10u6","Plan de negocios de comercio exterior","Estructura de un plan de negocio internacional, KPIs de una operación, gestión de riesgos, ejemplo de plan para una pyme argentina."]]}
+ ]
+}
