@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-25T12:15:53+00:00",
+ "actualizado": "2026-10-28T12:30:25+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -45,6 +45,24 @@
    "noticia": "Mayorista $1.529,50 (+0,1%), sexta suba seguida y récord nominal; +0,8% en la semana y +5,1% en el año. BNA minorista $1.550.",
    "para": "Tomi",
    "titulo": "El dólar subió seis días seguidos. Te explico cuál es el que te importa si querés traer algo de afuera."
+  },
+  "guion-2026-10-26-1": {
+   "fecha": "2026-10-26",
+   "fuente": "https://www.infobae.com/economia/2026/10/26/exportaciones-importaciones-acuerdos-y-desacuerdos-comercio-politica-e-ideologia-en-la-relacion-entre-argentina-y-brasil/",
+   "guion": "GANCHO: \"Ganó Lula en Brasil. Si lo que importás viene de ahí, esto te toca.\"\n\n1. \"El año pasado le compramos a Brasil 18.424 millones de dólares y le vendimos 12.771. Le compramos mucho más de lo que le vendemos.\" (en pantalla: Importamos US$18.424 M · Exportamos US$12.771 M)\n2. \"¿Qué le compramos? Sobre todo insumos para fabricar: 5.476 millones en bienes intermedios y 3.560 en piezas de maquinaria.\" (en pantalla: insumos US$5.476 M · piezas US$3.560 M)\n3. \"Según ABECEB, la mitad de todo ese comercio es el acuerdo automotriz, y eso no cambia por quién gane una elección.\" (en pantalla: acuerdo automotriz = 50%)\n4. \"Lo que sí mirás es el real y el dólar: el lunes hubo nervios y el mayorista subió a 1.540.\" (en pantalla: mayorista $1.540)\n\nTU LECTURA (una frase): qué productos de Brasil ves en el rubro o en la empresa familiar, sin dar datos de clientes.\n\nCIERRE: \"¿Vos le comprás algo a Brasil? Contame en qué rubro.\"\n\nPerilla: directo. Fuente para el caption: Infobae con datos del INDEC, 26/10/2026.",
+   "kind": "guion",
+   "noticia": "Comercio con Brasil 2025 (INDEC): exportamos US$12.771 M, importamos US$18.424 M, déficit US$5.653 M. Desde Brasil llegan bienes intermedios (US$5.476 M) y piezas de bienes de capital (US$3.560 M). Para ABECEB, el acuerdo automotriz es el 50% del comercio.",
+   "para": "Graciela",
+   "titulo": "Ganó Lula en Brasil. Si importás insumos o repuestos, esto te interesa."
+  },
+  "guion-2026-10-26-2": {
+   "fecha": "2026-10-26",
+   "fuente": "https://www.infobae.com/economia/2026/10/26/el-bcra-decidio-no-comprar-reservas-hoy-ante-la-tension-cambiaria-generada-tras-las-elecciones-en-brasil/",
+   "guion": "GANCHO: \"Votaron en Brasil y el dólar subió en Argentina. No es casualidad.\"\n\n1. \"Brasil es nuestro principal socio comercial: le compramos y le vendemos más que a nadie.\" (en pantalla: Brasil = socio n.º 1)\n2. \"Después de la elección, la moneda de Brasil, el real, perdió valor. Y eso pone nerviosos a todos los mercados de la región.\" (en pantalla: real ↓)\n3. \"Acá el dólar mayorista pasó de 1.529,50 a 1.540. Séptima suba seguida. En el Banco Nación, 1.560.\" (en pantalla: $1.529,50 → $1.540 · BNA $1.560)\n4. \"Y el Banco Central, que venía comprando dólares todos los días, ese día no compró nada.\" (en pantalla: BCRA: compras = 0)\n\nTU LECTURA (una frase): por qué te sirve mirar a Brasil si querés importar o vender afuera.\n\nCIERRE: \"Guardalo: la próxima vez que se mueva Brasil, ya sabés por qué te importa.\"\n\nPerilla: profe canchero. Fuente para el caption: Infobae, 26/10/2026.",
+   "kind": "guion",
+   "noticia": "Tras las elecciones en Brasil el real se depreció; el mayorista cerró en $1.540 (desde $1.529,50), séptima suba seguida; BNA $1.560. El BCRA no compró ese día. Reservas US$50.481 M.",
+   "para": "Tomi",
+   "titulo": "Hubo elecciones en Brasil y el dólar acá subió. Te explico por qué."
   },
   "sem-2026-10-26": {
    "carruseles": [
