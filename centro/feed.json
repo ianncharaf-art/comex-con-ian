@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-28T12:30:25+00:00",
+ "actualizado": "2026-10-29T12:17:29+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -63,6 +63,15 @@
    "noticia": "Tras las elecciones en Brasil el real se depreció; el mayorista cerró en $1.540 (desde $1.529,50), séptima suba seguida; BNA $1.560. El BCRA no compró ese día. Reservas US$50.481 M.",
    "para": "Tomi",
    "titulo": "Hubo elecciones en Brasil y el dólar acá subió. Te explico por qué."
+  },
+  "guion-2026-10-28-1": {
+   "fecha": "2026-10-28",
+   "fuente": "https://www.ambito.com/finanzas/por-tercera-rueda-al-hilo-el-bcra-no-compro-dolares-aunque-las-reservas-siguen-arriba-los-us50000-millones-n6339045",
+   "guion": "GANCHO: \"Tres días seguidos sin que el Banco Central compre un dólar. Y el mayorista, otra vez en récord.\"\n\n1. \"El mayorista cerró en 1.542 pesos, cuatro más que el día anterior. Es el valor nominal más alto hasta ahora.\" (en pantalla: Mayorista $1.542 · récord)\n2. \"El Central, que compraba todos los días, frenó: tres ruedas sin comprar. En octubre lleva 1.252 millones.\" (en pantalla: BCRA: 3 días sin comprar · US$1.252 M en octubre)\n3. \"Su promedio por día bajó a 66 millones, cuando en la primera quincena pasaba los 80.\" (en pantalla: US$80 M → US$66 M por día)\n4. \"Las reservas igual siguen arriba de los 50 mil millones: 50.601.\" (en pantalla: Reservas US$50.601 M)\n\nTU LECTURA (una frase): qué hace un importador cuando ve esto, por ejemplo cotizar con margen o adelantar pagos, según cómo lo manejan en la familia.\n\nCIERRE: \"¿Vos cotizás con el dólar de hoy o le dejás margen? Contame.\"\n\nPerilla: directo. Fuente para el caption: Ámbito, 28/10/2026.",
+   "kind": "guion",
+   "noticia": "Mayorista $1.542 (+$4), nuevo récord nominal. El BCRA no compró por tercera rueda: US$1.252 M en octubre, promedio diario US$66 M (más de US$80 M en la primera quincena). Reservas US$50.601 M (+US$21 M).",
+   "para": "Graciela",
+   "titulo": "El Banco Central dejó de comprar dólares tres días seguidos. Si importás, mirá esto."
   },
   "sem-2026-10-26": {
    "carruseles": [
