@@ -2,6 +2,25 @@
   "actualizado": "2026-10-29",
   "items": [
     {
+      "fecha": "2026-10-29",
+      "categoria": "ARCA · Aduana",
+      "titulo": "ARCA (RG 5917/2026): los minerales refinados en otra provincia se pueden exportar desde cualquier aduana",
+      "resumen": "Con la Resolución General 5917/2026, quien exporta minerales que pasan por fundición y refinación en plantas de otra provincia o distrito aduanero ya no tiene que registrar la exportación en la aduana de la jurisdicción de la mina: puede hacerlo en cualquier aduana habilitada del país. Se mantienen la trazabilidad, la toma de muestras y la prueba de origen ante la Dirección General de Aduanas.",
+      "porque": "Es otra simplificación aduanera: menos traslados y trámites para exportar. Muestra hacia dónde van los cambios de ARCA para el comercio exterior.",
+      "fuentes": [
+        {
+          "nombre": "Acero y Roca",
+          "url": "https://aceroyroca.com/2026/10/29/noticias-arca-exportacion-minerales-procesados/",
+          "oficial": false
+        },
+        {
+          "nombre": "Radio Jota",
+          "url": "https://radiojota.com.ar/una-modificacion-aduanera-elimina-traslados-innecesarios-para-exportar-minerales-refinados/",
+          "oficial": false
+        }
+      ]
+    },
+    {
       "fecha": "2026-10-28",
       "categoria": "Dólar",
       "titulo": "El BCRA lleva tres ruedas sin comprar dólares y el mayorista marcó otro récord: $1.542",
@@ -389,20 +408,6 @@
           "nombre": "BAE Negocios",
           "url": "https://www.baenegocios.com/economia/arca-simplifica-el-archivo-de-documentacion-aduanera/",
           "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-09-18",
-      "categoria": "INDEC",
-      "titulo": "Agosto: superávit comercial de US$2.187 millones",
-      "resumen": "Las exportaciones sumaron US$8.883 millones (+12,4% interanual) y las importaciones US$6.696 millones (+3,6%). El saldo fue US$746 millones mayor que en agosto de 2025.",
-      "porque": "Es el dato oficial de cuánto vende y compra Argentina al mundo.",
-      "fuentes": [
-        {
-          "nombre": "INDEC · Intercambio comercial argentino",
-          "url": "https://www.indec.gob.ar/uploads/informesdeprensa/ica_09_266E5973E036.pdf",
-          "oficial": true
         }
       ]
     }
