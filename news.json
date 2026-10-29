@@ -1,6 +1,25 @@
 {
-  "actualizado": "2026-10-28",
+  "actualizado": "2026-10-29",
   "items": [
+    {
+      "fecha": "2026-10-28",
+      "categoria": "Dólar",
+      "titulo": "El BCRA lleva tres ruedas sin comprar dólares y el mayorista marcó otro récord: $1.542",
+      "resumen": "El mayorista subió $4 y cerró en $1.542, nuevo máximo nominal. El BCRA no compró dólares por tercera rueda seguida: en octubre suma US$1.252 millones y su promedio diario bajó a US$66 millones, desde más de US$80 millones en la primera quincena. Las reservas brutas subieron US$21 millones, a US$50.601 millones. El real brasileño se recuperó en parte tras la caída por la elección.",
+      "porque": "Con el Central sin comprar y el dólar en récord, el costo en pesos de pagar importaciones sigue subiendo: conviene cotizar con margen.",
+      "fuentes": [
+        {
+          "nombre": "Ámbito",
+          "url": "https://www.ambito.com/finanzas/por-tercera-rueda-al-hilo-el-bcra-no-compro-dolares-aunque-las-reservas-siguen-arriba-los-us50000-millones-n6339045",
+          "oficial": false
+        },
+        {
+          "nombre": "La Nación",
+          "url": "https://www.lanacion.com.ar/economia/con-un-dolar-mas-demandado-el-banco-central-pausa-la-compra-de-reservas-nid28102026/",
+          "oficial": false
+        }
+      ]
+    },
     {
       "fecha": "2026-10-26",
       "categoria": "Acuerdos",
@@ -384,25 +403,6 @@
           "nombre": "INDEC · Intercambio comercial argentino",
           "url": "https://www.indec.gob.ar/uploads/informesdeprensa/ica_09_266E5973E036.pdf",
           "oficial": true
-        }
-      ]
-    },
-    {
-      "fecha": "2026-07-01",
-      "categoria": "Exportación",
-      "titulo": "Decreto 566/2026: retenciones en 0% para químicos, plásticos, acero y automotor",
-      "resumen": "El Anexo I lleva a 0% los derechos de exportación desde el 2 de julio para químicos, fertilizantes, plásticos, caucho, acero, metales no ferrosos y productos automotrices. El Anexo II arranca en 4,5% y 3% y baja mes a mes hasta 0% el 1 de junio de 2027.",
-      "porque": "Exportar productos industriales deja de pagar retenciones o paga cada vez menos.",
-      "fuentes": [
-        {
-          "nombre": "Boletín Oficial",
-          "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/343774/20260701",
-          "oficial": true
-        },
-        {
-          "nombre": "AAACI",
-          "url": "https://aaaci.org.ar/decreto-566-2026-reduccion-y-eliminacion-de-derechos-de-exportacion/",
-          "oficial": false
         }
       ]
     }
