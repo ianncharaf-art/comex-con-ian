@@ -2,6 +2,25 @@
   "actualizado": "2026-10-30",
   "items": [
     {
+      "fecha": "2026-10-30",
+      "categoria": "Dólar",
+      "titulo": "El dólar mayorista cerró octubre con una suba de 1,1%, menos que la inflación estimada",
+      "resumen": "El mayorista cerró el 30/10 en $1.534, $5 menos que el día anterior y por debajo de su récord de $1.542. En la semana subió $4,50 y en octubre $17 (1,1%), mientras las consultoras privadas estiman una inflación de entre 1,8% y 2% para el mes. En el Banco Nación el minorista quedó en $1.560. El BCRA terminó octubre con compras netas por US$1.299 millones.",
+      "porque": "Si el dólar sube menos que los precios, lo importado se abarata en términos reales frente a lo que se produce acá: importa para cuánto cobrás y cuánto pagás.",
+      "fuentes": [
+        {
+          "nombre": "Noticias NQN",
+          "url": "https://www.noticiasnqn.com.ar/noticias/2026/10/30/358854-el-dolar-oficial-acumulo-tres-semanas-de-subas-pero-avanzo-menos-que-los-precios-en-octubre",
+          "oficial": false
+        },
+        {
+          "nombre": "Ámbito",
+          "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-viernes-30-octubre-n6339900",
+          "oficial": false
+        }
+      ]
+    },
+    {
       "fecha": "2026-10-29",
       "categoria": "Dólar",
       "titulo": "El BCRA volvió a comprar dólares tras tres ruedas, pero las reservas bajaron casi US$450 millones",
@@ -389,25 +408,6 @@
           "nombre": "El Cronista",
           "url": "https://www.cronista.com/economia-politica/las-importaciones-dibujan-un-nuevo-mapa-productivo-quienes-son-los-nuevos-protagonistas/",
           "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-10-06",
-      "categoria": "Dólar",
-      "titulo": "Dólar mayorista a $1.536,90 y oficial en Banco Nación a $1.540",
-      "resumen": "El mayorista, que es el que se usa como referencia para pagar importaciones, cerró en $1.536,90. En agosto había estado por debajo de $1.500.",
-      "porque": "Cada suba del tipo de cambio encarece en pesos todo lo importado.",
-      "fuentes": [
-        {
-          "nombre": "El Cronista",
-          "url": "https://www.cronista.com/finanzas-mercados/dolar-hoy-a-cuanto-cotiza-el-oficial-en-los-bancos-de-la-city-este-martes-6-de-octubre/",
-          "oficial": false
-        },
-        {
-          "nombre": "BCRA",
-          "url": "https://www.bcra.gob.ar",
-          "oficial": true
         }
       ]
     }
