@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-29T12:17:29+00:00",
+ "actualizado": "2026-10-30T13:58:32+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -72,6 +72,15 @@
    "noticia": "Mayorista $1.542 (+$4), nuevo récord nominal. El BCRA no compró por tercera rueda: US$1.252 M en octubre, promedio diario US$66 M (más de US$80 M en la primera quincena). Reservas US$50.601 M (+US$21 M).",
    "para": "Graciela",
    "titulo": "El Banco Central dejó de comprar dólares tres días seguidos. Si importás, mirá esto."
+  },
+  "guion-2026-10-29-1": {
+   "fecha": "2026-10-29",
+   "fuente": "https://aceroyroca.com/2026/10/29/noticias-arca-exportacion-minerales-procesados/",
+   "guion": "GANCHO: \"Salió una resolución nueva de ARCA. Si exportás, mirá esto en 40 segundos.\"\n\n1. \"Es la Resolución General 5917 de este año y toca a quienes exportan minerales.\" (en pantalla: RG 5917/2026 · exportación de minerales)\n2. \"Antes, si el mineral salía de una mina, la exportación se registraba sí o sí en la aduana de esa zona, aunque se refinara en otra provincia.\" (en pantalla: antes: aduana de la mina)\n3. \"Ahora, si se funde y se refina en otra provincia, se puede registrar en cualquier aduana habilitada del país.\" (en pantalla: ahora: cualquier aduana habilitada)\n4. \"Lo que no cambia: tenés que poder seguir el material de punta a punta, tomar muestras y demostrar de dónde salió.\" (en pantalla: sigue: trazabilidad · muestras · origen)\n\nTU LECTURA (una frase): esto va en línea con otras simplificaciones de ARCA para el comercio exterior; si no exportás minerales no te toca, pero muestra hacia dónde van los cambios.\n\nCIERRE: \"¿Querés que te cuente cada resolución de ARCA que salga? Seguime y guardalo.\"\n\nPerilla: directo. Fuente para el caption: Acero y Roca, 29/10/2026, sobre la RG 5917/2026 de ARCA.",
+   "kind": "guion",
+   "noticia": "RG 5917/2026 de ARCA: los minerales que se funden y refinan en plantas de otra provincia o distrito aduanero se pueden registrar para exportar en cualquier aduana habilitada, no solo en la de la mina. Se mantienen trazabilidad, muestras y prueba de origen.",
+   "para": "Graciela",
+   "titulo": "ARCA cambió dónde se registran algunas exportaciones. Te cuento a quién le toca."
   },
   "sem-2026-10-26": {
    "carruseles": [
