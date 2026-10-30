@@ -1,6 +1,25 @@
 {
-  "actualizado": "2026-10-29",
+  "actualizado": "2026-10-30",
   "items": [
+    {
+      "fecha": "2026-10-29",
+      "categoria": "Dólar",
+      "titulo": "El BCRA volvió a comprar dólares tras tres ruedas, pero las reservas bajaron casi US$450 millones",
+      "resumen": "El BCRA compró US$47 millones y suma US$1.299 millones en octubre. El mayorista bajó $3, a $1.539, por debajo de su récord de $1.542; en el Banco Nación el minorista quedó en $1.560. Las reservas brutas cayeron unos US$447 millones, a US$50.154 millones. El Tesoro enfrenta un pago de intereses al FMI de unos US$877 millones el 5 de noviembre.",
+      "porque": "Que el Central vuelva a comprar y el mayorista afloje da un poco de calma al tipo de cambio con el que se pagan las importaciones.",
+      "fuentes": [
+        {
+          "nombre": "Ámbito",
+          "url": "https://www.ambito.com/finanzas/el-bcra-volvio-comprar-dolares-luego-3-ruedas-intervenciones-pero-las-reservas-bajaron-casi-us450-millones-n6339503",
+          "oficial": false
+        },
+        {
+          "nombre": "BAE Negocios",
+          "url": "https://www.baenegocios.com/finanzas/el-dolar-bajo-a-1-539-y-el-bcra-compro-divisas-pero-las-reservas-cayeron-usd-447-millones/",
+          "oficial": false
+        }
+      ]
+    },
     {
       "fecha": "2026-10-29",
       "categoria": "ARCA · Aduana",
@@ -389,25 +408,6 @@
           "nombre": "BCRA",
           "url": "https://www.bcra.gob.ar",
           "oficial": true
-        }
-      ]
-    },
-    {
-      "fecha": "2026-09-24",
-      "categoria": "ARCA · Aduana",
-      "titulo": "ARCA simplificó cómo se guarda y destruye la documentación aduanera (RG 5900/2026)",
-      "resumen": "Una vez prescripta la acción fiscal, el declarante puede destruir la documentación sin autorización, aviso previo ni veedores. Lo vinculado a procesos administrativos o judiciales en curso se sigue guardando. Deroga las RG 2864, 4476, 4654 y 5043.",
-      "porque": "Menos costo y papeleo para importadores y exportadores que actúan como depositarios fieles.",
-      "fuentes": [
-        {
-          "nombre": "Boletín Oficial",
-          "url": "https://www.boletinoficial.gob.ar/seccion/primera/20260924",
-          "oficial": true
-        },
-        {
-          "nombre": "BAE Negocios",
-          "url": "https://www.baenegocios.com/economia/arca-simplifica-el-archivo-de-documentacion-aduanera/",
-          "oficial": false
         }
       ]
     }
