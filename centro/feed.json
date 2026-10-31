@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-31T11:38:18+00:00",
+ "actualizado": "2026-10-31T12:16:41+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -81,6 +81,24 @@
    "noticia": "RG 5917/2026 de ARCA: los minerales que se funden y refinan en plantas de otra provincia o distrito aduanero se pueden registrar para exportar en cualquier aduana habilitada, no solo en la de la mina. Se mantienen trazabilidad, muestras y prueba de origen.",
    "para": "Graciela",
    "titulo": "ARCA cambió dónde se registran algunas exportaciones. Te cuento a quién le toca."
+  },
+  "guion-2026-10-29-2": {
+   "kind": "guion",
+   "fecha": "2026-10-29",
+   "para": "Graciela",
+   "titulo": "El Central volvió a comprar dólares, pero las reservas bajaron. Te explico.",
+   "noticia": "El BCRA compró US$47 M y suma US$1.299 M en octubre. Mayorista $1.539 (-$3); BNA $1.560. Reservas brutas -US$447 M, a US$50.154 M. Pago de intereses al FMI de unos US$877 M el 5/11.",
+   "fuente": "https://www.ambito.com/finanzas/el-bcra-volvio-comprar-dolares-luego-3-ruedas-intervenciones-pero-las-reservas-bajaron-casi-us450-millones-n6339503",
+   "guion": "GANCHO: \"El Banco Central volvió a comprar dólares. Y aun así las reservas bajaron.\"\n\n1. \"Después de tres días sin comprar, el Central compró 47 millones. En octubre lleva 1.299 millones.\" (en pantalla: +US$47 M · octubre US$1.299 M)\n2. \"El mayorista aflojó 3 pesos y cerró en 1.539, abajo del récord de 1.542.\" (en pantalla: mayorista $1.539)\n3. \"Pero las reservas cayeron unos 447 millones y quedaron en 50.154 millones.\" (en pantalla: reservas -US$447 M)\n4. \"Y el 5 de noviembre hay que pagarle al FMI unos 877 millones de intereses.\" (en pantalla: FMI 5/11 · US$877 M)\n\nTU LECTURA (una frase): qué mirás vos de estos números antes de cerrar un pago a un proveedor, según cómo lo manejan en la empresa familiar.\n\nCIERRE: \"¿Seguís el dólar todos los días o solo cuando tenés que pagar? Contame.\"\n\nPerilla: directo. Fuente para el caption: Ámbito y BAE Negocios, 29/10/2026."
+  },
+  "guion-2026-10-30-1": {
+   "kind": "guion",
+   "fecha": "2026-10-30",
+   "para": "Tomi",
+   "titulo": "En octubre el dólar subió menos que los precios. Qué significa para lo importado.",
+   "noticia": "Mayorista cerró el 30/10 en $1.534 (récord previo $1.542). En octubre subió $17 (1,1%); consultoras estiman inflación de 1,8% a 2%. BNA $1.560. BCRA: compras netas US$1.299 M en octubre.",
+   "fuente": "https://www.noticiasnqn.com.ar/noticias/2026/10/30/358854-el-dolar-oficial-acumulo-tres-semanas-de-subas-pero-avanzo-menos-que-los-precios-en-octubre",
+   "guion": "GANCHO: \"En octubre el dólar subió menos que los precios. Y eso cambia la cuenta de lo importado.\"\n\n1. \"El mayorista cerró octubre en 1.534 pesos. En todo el mes subió 17 pesos: 1,1%.\" (en pantalla: $1.534 · octubre +1,1%)\n2. \"Las consultoras estiman que la inflación del mes fue de entre 1,8% y 2%.\" (en pantalla: inflación estimada 1,8% a 2%)\n3. \"O sea: lo que se produce acá subió más que el dólar con el que se paga lo de afuera.\" (en pantalla: precios > dólar)\n4. \"Por eso, en términos reales, traer algo de afuera quedó un poco más barato que el mes pasado.\" (en pantalla: lo importado, relativamente más barato)\n\nTU LECTURA (una frase): por qué esto te sirve para decidir si conviene comprar acá o traerlo, siempre haciendo la cuenta completa.\n\nCIERRE: \"Guardalo y comentá qué producto querés que calcule.\"\n\nPerilla: profe canchero. Fuente para el caption: Noticias NQN y Ámbito, 30/10/2026."
   },
   "sem-2026-10-26": {
    "carruseles": [
