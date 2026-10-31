@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-10-30T13:58:32+00:00",
+ "actualizado": "2026-10-31T11:38:18+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -194,6 +194,252 @@
      "para": "Los dos",
      "pilar": "Vida de pibe de 18 que emprende + Boppa",
      "titulo": "Grabar la tanda 1 (videos 1 a 10 del plan)"
+    }
+   ]
+  },
+  "sem-2026-11-02": {
+   "carruseles": [
+    {
+     "caption": "La posición arancelaria es el DNI de tu producto: define cuánto pagás y qué papeles necesitás. El buscador está en el link de mi bio. Guardalo 📌",
+     "destacada": "Glosario",
+     "pilar": "Comercio exterior simple",
+     "slides": [
+      "Portada: vos con una caja en la mano + \"El *DNI de tu producto* define cuánto pagás\"",
+      "La posición arancelaria (NCM) es el *código* que le dice a la aduana *qué es tu producto*.",
+      "Con ese código se definen los *derechos de importación* que pagás.",
+      "También dice si necesitás *permisos o certificados* para traerlo.",
+      "Dos productos parecidos pueden tener *códigos distintos* y pagar distinto.",
+      "Por eso la clasificación la revisa el *despachante*, no el proveedor.",
+      "Antes de importar, *buscá tu producto* y mirá qué le toca.",
+      "Buscador de posiciones *en el link de mi bio*. Entrá y registrate."
+     ],
+     "titulo": "Qué es la posición arancelaria"
+    },
+    {
+     "caption": "Antes de comparar proveedores, hacé estas 5 preguntas. ¿Cuál no hacías? Guardalo 📌",
+     "destacada": "¿Cuánto cuesta?",
+     "pilar": "Comercio exterior simple",
+     "slides": [
+      "Portada: captura de un chat con un proveedor + \"5 preguntas *antes de pedir un precio*\"",
+      "1. Incoterm: ¿el precio es *EXW, FOB o CIF*?",
+      "2. Mínimo: ¿cuál es el *pedido mínimo* que aceptan?",
+      "3. Tiempos: ¿cuántos días de *producción* y cuándo sale la carga?",
+      "4. Muestra: ¿me mandan una *muestra* antes del pedido grande?",
+      "5. Pago: ¿qué *forma y plazos de pago* aceptan?",
+      "Con esas 5 respuestas ya podés *hacer la cuenta completa*.",
+      "Calculadora gratis *en el link de mi bio*. Entrá y registrate."
+     ],
+     "titulo": "5 preguntas antes de pedir un precio"
+    }
+   ],
+   "desde": "2026-11-02",
+   "foco": "Semana 1: arrancar con constancia (3 videos por día) y fijar los dos que presentan la cuenta",
+   "hasta": "2026-11-08",
+   "kind": "semana",
+   "perfil": [
+    {
+     "detalle": "Si ya abriste la cuenta nueva de comex, publicá todo esto ahí y usá la personal solo para colaboraciones y stories. El paso a paso está en el plan de 3 meses que te pasé.",
+     "titulo": "Cuenta nueva de marca"
+    },
+    {
+     "detalle": "Fijá el video 1 apenas salga. Cuando salgan los carruseles, fijá \"Quién soy\" y \"Los costos que nadie te cuenta\".",
+     "titulo": "Fijados de la semana"
+    },
+    {
+     "detalle": "Usá la misma portada para todos los \"¿Cuánto cuesta traerlo?\": fondo negro, el producto y \"Ep. 1\", \"Ep. 2\" en dorado. En la grilla se ve como serie y la gente busca el siguiente.",
+     "titulo": "Portada fija para la serie"
+    }
+   ],
+   "stories": [
+    {
+     "detalle": "Compartí el video 1 con un sticker de pregunta: \"¿Qué producto calculo primero?\". Las respuestas van al episodio de la semana que viene.",
+     "titulo": "Lunes: \"Arrancó\""
+    },
+    {
+     "detalle": "Foto de las zapatillas de US$9 con un slider o encuesta antes de que salga el video del mediodía.",
+     "titulo": "Martes: slider \"¿Cuánto creés que salen acá?\""
+    },
+    {
+     "detalle": "\"Preguntame lo que quieras de importar\". Las mejores van al video del domingo.",
+     "titulo": "Miércoles: caja de preguntas"
+    },
+    {
+     "detalle": "Sticker de quiz: \"Si el precio incluye flete y seguro hasta el puerto de acá, es...\" EXW / FOB / CIF (respuesta: CIF).",
+     "titulo": "Jueves: quiz de incoterms"
+    },
+    {
+     "detalle": "\"¿Lo de China siempre sale más barato?\" Sí / Depende. Respuesta: el video de mitos.",
+     "titulo": "Viernes: encuesta de mito"
+    },
+    {
+     "detalle": "Mostrá la tanda 2 que grabás el miércoles o tu setup, y cuántos videos llevás publicados.",
+     "titulo": "Domingo: detrás de escena"
+    },
+    {
+     "detalle": "Mostrá la cuenta real del producto del domingo y mencioná al que más se acercó.",
+     "titulo": "Lunes 9/11: respuesta del \"Adiviná\""
+    }
+   ],
+   "videos": [
+    {
+     "dia": "Lun 2/11",
+     "fecha": "2026-11-02",
+     "guion": "GANCHO: \"Tengo 18, mi abuelo importaba, mi viejo importa y yo crecí entre cajas. Por eso abrí esta cuenta.\"\n1. 3ra generación: en casa se habla de contenedores, dólar y aduana. (en pantalla: 3ra generación de importadores)\n2. Estudio comercio internacional y en redes casi todo es humo. (en pantalla: mucho humo)\n3. Acá: costos reales, qué cambia cada semana y la familia. (en pantalla: costos reales · noticias · familia)\n4. Lo que no vas a ver: cursos, lujo ni plata fácil. (en pantalla: sin cursos · sin humo)\nCIERRE: \"Comentame qué producto calculo primero y seguime.\" Fijalo.",
+     "para": "Los dos",
+     "pilar": "Vida de pibe de 18 que emprende + Boppa",
+     "titulo": "Por qué empecé a hablar de comex en redes"
+    },
+    {
+     "dia": "Lun 2/11",
+     "fecha": "2026-11-02",
+     "guion": "GANCHO: \"Esto cambió esta semana si importás. En 40 segundos.\"\n1. Mayorista cerró octubre en $1.534: +1,1% en el mes, menos que la inflación estimada (1,8% a 2%). (en pantalla: $1.534 · octubre +1,1%)\n2. Tocó un récord de $1.542 y el BCRA pasó tres días sin comprar, con los nervios por Brasil. (en pantalla: récord $1.542 · BCRA 3 días sin comprar)\n3. ARCA, RG 5917: minerales refinados en otra provincia se exportan desde cualquier aduana habilitada. (en pantalla: RG 5917/2026)\n4. Qué hacer: cotizá con margen. (en pantalla: cotizá con margen)\nCIERRE: \"Guardalo y el lunes que viene te traigo lo nuevo.\" Revisá el radar antes de grabar.",
+     "para": "Graciela",
+     "pilar": "Noticias y tendencias del rubro",
+     "titulo": "Lo que cambió esta semana si importás"
+    },
+    {
+     "dia": "Lun 2/11",
+     "fecha": "2026-11-02",
+     "guion": "GANCHO: \"El dólar subió y lo importado todavía no cambió de precio. Te explico por qué.\"\n1. Octubre: mayorista $1.534, récord de $1.542 en el medio. (en pantalla: $1.534 · récord $1.542)\n2. Al proveedor de afuera se le paga al mayorista. (en pantalla: al proveedor le pagás al mayorista)\n3. Lo que está en la góndola se compró con el dólar de antes. (en pantalla: stock viejo = dólar viejo)\n4. La suba aparece cuando se repone. (en pantalla: la suba llega al reponer)\nCIERRE: \"¿Lo notás en tu rubro?\"",
+     "para": "Graciela",
+     "pilar": "Noticias y tendencias del rubro",
+     "titulo": "El dólar se movió. Esto le pasa a lo que comprás importado"
+    },
+    {
+     "dia": "Mar 3/11",
+     "fecha": "2026-11-03",
+     "guion": "GANCHO: \"Estas zapatillas salen 9 dólares en fábrica. ¿Dónde se va el resto?\"\n1. US$9 en fábrica. (en pantalla: US$9 en fábrica)\n2. + flete y seguro. (en pantalla: + flete + seguro)\n3. + derechos, tasa e IVA según la NCM. (en pantalla: + impuestos según NCM)\n4. + despachante, depósito y flete interno: la cuenta en la calculadora. (en pantalla: costo final (chequear))\nCIERRE: \"¿Qué calculo en el próximo?\" Hacé la cuenta real antes de grabar.",
+     "para": "Tomi",
+     "pilar": "Comercio exterior simple",
+     "titulo": "Estas zapatillas salen 9 dólares en fábrica. ¿Dónde se va el resto?"
+    },
+    {
+     "dia": "Mar 3/11",
+     "fecha": "2026-11-03",
+     "guion": "GANCHO: \"El precio del proveedor chino no es lo que te cuesta. Ni cerca.\"\n1. Flete + seguro. 2. Impuestos según NCM. 3. Despachante + depósito. 4. Flete interno. (cada uno en pantalla)\nCIERRE: \"Guardalo antes de tu primera cotización.\"",
+     "para": "Tomi",
+     "pilar": "Comercio exterior simple",
+     "titulo": "El precio que te pasa el chino no es lo que te cuesta"
+    },
+    {
+     "dia": "Mar 3/11",
+     "fecha": "2026-11-03",
+     "guion": "GANCHO: \"¿Cuánto cuesta de verdad traer unos auriculares de China?\"\n1. Precio del proveedor y su incoterm. 2. Flete por unidad. 3. NCM e impuestos en la calculadora. 4. Costo final vs precio acá (chequear).\nCIERRE: \"Comentá qué calculo en el próximo.\"",
+     "para": "Tomi",
+     "pilar": "Comercio exterior simple",
+     "titulo": "Cuánto cuesta traer unos auriculares"
+    },
+    {
+     "dia": "Mié 4/11",
+     "fecha": "2026-11-04",
+     "guion": "GANCHO: \"Cuando mi abuelo arrancó a importar no existía WhatsApp. Ni Alibaba.\"\n1. Antes: viajar o escribir y esperar días. 2. Hoy: WhatsApp con la fábrica en minutos. 3. Lo que no cambió: papeles y dólar. 4. Una anécdota de la familia.\nCIERRE: \"¿Qué es más difícil, antes o ahora?\" Confirmá los detalles con tu familia.",
+     "para": "Los dos",
+     "pilar": "Tercera generación",
+     "titulo": "Cómo era importar cuando arrancó mi abuelo vs ahora"
+    },
+    {
+     "dia": "Mié 4/11",
+     "fecha": "2026-11-04",
+     "guion": "GANCHO: \"Cosas que solo entendés si tu familia importa.\"\n1. El contenedor es un integrante más. 2. Sabés el dólar antes que la hora. 3. Vacaciones según el barco. 4. 'Está en aduana' explica cualquier mal humor.\nCIERRE: \"Etiquetá a alguien que lo vive.\"",
+     "para": "Los dos",
+     "pilar": "Tercera generación",
+     "titulo": "Cosas que solo entendés si tu familia importa"
+    },
+    {
+     "dia": "Mié 4/11",
+     "fecha": "2026-11-04",
+     "guion": "GANCHO: \"A los 12 mi viejo me dijo una frase sobre negocios que todavía uso.\"\n1. La frase. 2. Qué significa. 3. Cuándo la usaste. 4. Por qué sirve aunque no importes.\nCIERRE: \"¿Qué frase de tu casa nunca te olvidaste?\"",
+     "para": "Los dos",
+     "pilar": "Tercera generación",
+     "titulo": "La frase que me dijo mi viejo a los 12 sobre negocios"
+    },
+    {
+     "dia": "Jue 5/11",
+     "fecha": "2026-11-05",
+     "guion": "GANCHO: \"Antes de pedirle un precio a un proveedor, preguntá esto.\"\n1. EXW: retirás en fábrica. 2. FOB: arriba del barco en origen. 3. CIF: con flete y seguro hasta el puerto de acá. 4. Tres precios distintos: preguntá el incoterm.\nCIERRE: \"Guardalo para tu primera cotización.\"",
+     "para": "Tomi",
+     "pilar": "Comercio exterior simple",
+     "titulo": "FOB, CIF o EXW: preguntalo antes de pedir un precio"
+    },
+    {
+     "dia": "Jue 5/11",
+     "fecha": "2026-11-05",
+     "guion": "GANCHO: \"La aduana es el patovica del boliche.\"\n1. La lista = la declaración. 2. El DNI = la NCM. 3. Pasás o te revisan. 4. Si algo no coincide, esperás afuera y cuesta plata.\nCIERRE: \"¿Qué te costó más, el patovica o la aduana?\"",
+     "para": "Tomi",
+     "pilar": "Comercio exterior simple",
+     "titulo": "La aduana explicada como el patovica de un boliche"
+    },
+    {
+     "dia": "Jue 5/11",
+     "fecha": "2026-11-05",
+     "guion": "GANCHO: \"Si importás, sin el despachante no pasa nada.\"\n1. Te representa ante la aduana. 2. Clasifica, declara y calcula. 3. Resuelve si algo no cierra. 4. Honorarios < un error.\nCIERRE: \"¿Te cuento qué preguntarle antes de contratarlo?\"",
+     "para": "Tomi",
+     "pilar": "Comercio exterior simple",
+     "titulo": "Qué hace un despachante y por qué lo necesitás"
+    },
+    {
+     "dia": "Vie 6/11",
+     "fecha": "2026-11-06",
+     "guion": "GANCHO: \"El dropshipping que te venden en TikTok no funciona igual acá.\"\n1. Nació para EE.UU. 2. Acá hay aduana y límites de courier (chequear los vigentes). 3. Tiempos largos. 4. La cuenta es otra.\nCIERRE: \"¿Probaste? Contame cómo te fue.\"",
+     "para": "Los dos",
+     "pilar": "Comercio exterior simple",
+     "titulo": "Lo que nadie te dice del dropshipping en Argentina"
+    },
+    {
+     "dia": "Vie 6/11",
+     "fecha": "2026-11-06",
+     "guion": "GANCHO: \"3 mitos de importar: verdadero, falso o depende.\"\n1. 'Solo para empresas grandes': depende (chequear requisitos). 2. 'China siempre es más barato': depende. 3. 'El precio del proveedor es lo que pagás': falso.\nCIERRE: \"¿Qué otro mito escuchaste?\"",
+     "para": "Los dos",
+     "pilar": "Comercio exterior simple",
+     "titulo": "Mitos de importar que escucho todo el tiempo"
+    },
+    {
+     "dia": "Vie 6/11",
+     "fecha": "2026-11-06",
+     "guion": "GANCHO: \"Este consejo de TikTok tiene un dato que falta.\"\n1. Stitch con la frase. 2. Qué tiene de cierto. 3. El dato que falta (impuestos, flete o tiempos). 4. Cómo lo harías vos.\nCIERRE: \"Mandame otros y los reviso.\" Video real, sin burlarte.",
+     "para": "Los dos",
+     "pilar": "Comercio exterior simple",
+     "titulo": "Reacciono a un mal consejo de importación de TikTok"
+    },
+    {
+     "dia": "Sáb 7/11",
+     "fecha": "2026-11-07",
+     "guion": "Sketch: 'fui a ver un contenedor' → 'es una caja gigante que viaja en barco' → '¿de 20 o de 40 pies?' → remate: 'calculame la Play'.\nCIERRE: \"Etiquetá al amigo que no sabe qué es un contenedor.\"",
+     "para": "Tomi",
+     "pilar": "Vida de pibe de 18 que emprende + Boppa",
+     "titulo": "Tengo 18 y sé cuánto cuesta un contenedor. Mis amigos no saben qué es"
+    },
+    {
+     "dia": "Sáb 7/11",
+     "fecha": "2026-11-07",
+     "guion": "Sketch: grupo '¿salimos?' → 'dame 5 minutos, estoy con una posición arancelaria' → dos horas después igual → en la previa explicás qué es FOB.\nCIERRE: \"¿Te pasa con la facu o el laburo?\"",
+     "para": "Tomi",
+     "pilar": "Vida de pibe de 18 que emprende + Boppa",
+     "titulo": "Mis amigos salen el viernes. Yo estoy calculando aranceles"
+    },
+    {
+     "dia": "Sáb 7/11",
+     "fecha": "2026-11-07",
+     "guion": "GANCHO: \"Lo que me dicen los adultos cuando cuento que importo a los 18.\"\n1. '¿Y tus viejos qué dicen?' 2. '¿Vas a estudiar algo de verdad?' 3. '¿Me traés un iPhone?' 4. 'A tu edad yo...'\nCIERRE: \"¿Cuál te dijeron a vos?\" Usá las frases reales.",
+     "para": "Tomi",
+     "pilar": "Vida de pibe de 18 que emprende + Boppa",
+     "titulo": "Cosas que dicen los adultos cuando les cuento que importo a los 18"
+    },
+    {
+     "dia": "Dom 8/11",
+     "fecha": "2026-11-08",
+     "guion": "GANCHO: \"Las 3 preguntas que más me hicieron.\"\n1 a 3: pregunta real + respuesta en una frase. Si no hay, usá: cuánto necesito para empezar, si conviene China, qué hace un despachante.\nCIERRE: \"Dejá tu pregunta para el domingo que viene.\"",
+     "para": "Los dos",
+     "pilar": "Comercio exterior simple",
+     "titulo": "Lo que más me preguntan desde que hablo de comex"
+    },
+    {
+     "dia": "Dom 8/11",
+     "fecha": "2026-11-08",
+     "guion": "GANCHO: \"Adiviná cuánto costó traer esto a Argentina.\"\n1. El producto (sin datos de clientes). 2. Pistas: origen y cómo vino. 3. Dejá tu número.\nCIERRE: \"Mañana en stories la cuenta; el que más se acerque tiene mención.\" Calculá el costo real antes.",
+     "para": "Los dos",
+     "pilar": "Comercio exterior simple",
+     "titulo": "Adiviná cuánto costó traer esto"
     }
    ]
   }
