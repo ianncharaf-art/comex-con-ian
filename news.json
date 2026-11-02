@@ -2,6 +2,25 @@
   "actualizado": "2026-11-02",
   "items": [
     {
+      "fecha": "2026-11-02",
+      "categoria": "Dólar",
+      "titulo": "Noviembre arrancó con suba: el mayorista saltó $11,50 y cerró en $1.545,50",
+      "resumen": "En la primera rueda de noviembre el mayorista subió $11,50 (0,8%) y cerró en $1.545,50, todavía 26,5% por debajo del techo de la banda cambiaria ($1.954,48). En el Banco Nación el minorista subió $5, a $1.565, y quedó igual que el blue ($1.565). El contado con liquidación cerró en $1.656,65 (brecha de 7,2%).",
+      "porque": "El mayorista es el tipo de cambio con el que se pagan las importaciones: si arranca el mes subiendo, conviene revisar las cotizaciones en pesos antes de cerrar una compra.",
+      "fuentes": [
+        {
+          "nombre": "0223",
+          "url": "https://www.0223.com.ar/nota/2026-11-2-17-34-0-el-dolar-mayorista-salto-cerca-de-los-1-550-en-el-inicio-de-noviembre-y-se-sostuvo-la-presion-cambiaria",
+          "oficial": false
+        },
+        {
+          "nombre": "El Cronista",
+          "url": "https://www.cronista.com/finanzas-mercados/dolar-hoy-a-cuanto-cotiza-el-oficial-en-los-bancos-de-la-city-hoy-lunes-2-de-noviembre/",
+          "oficial": false
+        }
+      ]
+    },
+    {
       "fecha": "2026-10-30",
       "categoria": "Dólar",
       "titulo": "El dólar mayorista cerró octubre con una suba de 1,1%, menos que la inflación estimada",
@@ -393,20 +412,6 @@
         {
           "nombre": "Aduana News",
           "url": "https://aduananews.com/bras-septiembre-cerro-con-un-menor-deficit-de-us-51-millones/",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-10-07",
-      "categoria": "Importaciones",
-      "titulo": "Las importaciones de septiembre cayeron 2% interanual y cambió qué se compra",
-      "resumen": "Según El Cronista, en septiembre los autos importados bajaron 29%, los bienes de capital 10% y los combustibles subieron 54% (datos de Federico Bernini, IIEP UBA-Conicet). La importación de smartphones creció 746,6% en el acumulado a agosto (Analytica) y China le gana participación a Brasil (ABECEB).",
-      "porque": "Muestra qué productos están entrando más y desde dónde. Los celulares y China son tema caliente.",
-      "fuentes": [
-        {
-          "nombre": "El Cronista",
-          "url": "https://www.cronista.com/economia-politica/las-importaciones-dibujan-un-nuevo-mapa-productivo-quienes-son-los-nuevos-protagonistas/",
           "oficial": false
         }
       ]
