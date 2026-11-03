@@ -725,10 +725,166 @@ footer .credits{color:var(--muted);font-size:var(--s-sm)}
   .pre-line::after{transform:none!important}
 }
 </style>
+<style id="premium">
+/* Capa premium v3 (nov 2026). Solo estética y movimiento: no cambia ids, marcadores ni funciones.
+   Entrada de marca (la pantalla se abre como una paleta del tablero), título que sube palabra por palabra,
+   cambio de pestaña con transición nativa, barra de lectura dorada, columna de accesos al costado de la bitácora,
+   dock de la app con indicador que se desliza y textura de grano. Todo menos de 0,8 s; con "reducir movimiento" no se mueve nada. */
+
+/* Entrada: dos mitades iguales que se separan por la bisagra */
+#intro{position:fixed;inset:0;z-index:200;pointer-events:auto;cursor:pointer}
+#intro .ih{position:absolute;inset:0;background:#050608;display:grid;place-items:center;will-change:transform}
+#intro .ih.t{clip-path:inset(0 0 calc(50% + 2px) 0)}
+#intro .ih.b{clip-path:inset(calc(50% + 2px) 0 0 0)}
+#intro .iw{display:flex;flex-wrap:wrap;justify-content:center;gap:0 .22em;padding:0 16px;font:800 clamp(46px,11vw,150px)/.9 "Archivo","Helvetica Neue",Arial,sans-serif;font-stretch:72%;letter-spacing:-.01em;color:#F4F1EA;text-align:center}
+#intro .iw>span{display:inline-flex;overflow:hidden;padding-bottom:.04em}
+#intro .iw i{display:inline-block;font-style:normal;transform:translateY(105%)}
+#intro .iw .g i{color:#D4AF37}
+#intro .ihg{position:absolute;left:0;right:0;top:calc(50% - 2px);height:4px;background:#D4AF37;transform:scaleX(0);transform-origin:0 50%}
+#intro .ib{position:absolute;left:50%;bottom:max(28px,env(safe-area-inset-bottom));transform:translateX(-50%);font:500 13.5px/1.4 "Archivo",system-ui,sans-serif;color:#9BA0AA;white-space:nowrap;opacity:0}
+@media (max-width:600px){#intro .iw{font-size:17vw;line-height:.86;gap:0 .2em}}
+html.intro-on,html.intro-on body{overflow:hidden}
+
+/* El título del inicio sube palabra por palabra */
+html.hero-wait #p-noticias .lede h1,html.hero-wait #p-noticias .lede>p,html.hero-wait #p-noticias .lede .eyebrow{opacity:0}
+.lede h1 .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.06em;margin-bottom:-.06em}
+.lede h1 .w>span{display:inline-block}
+
+/* Título del inicio más grande: dos líneas en compu */
+#p-noticias .lede h1{font-size:clamp(42px,7vw,108px);line-height:.9;letter-spacing:-.018em}
+@media (max-width:760px){#p-noticias .lede h1{font-size:clamp(42px,12vw,60px)}}
+
+/* Grano de película sobre todo, muy suave */
+.grain{position:fixed;inset:-50%;z-index:90;pointer-events:none;opacity:.05;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .9 0'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)'/%3E%3C/svg%3E");view-transition-name:cci-grain}
+
+/* Barra de lectura dorada arriba de todo */
+.readbar{position:fixed;top:0;left:0;right:0;height:2px;z-index:25;background:var(--accent);transform-origin:0 50%;transform:scaleX(0);pointer-events:none;view-transition-name:cci-read}
+@supports (animation-timeline:scroll()){
+  .readbar{animation:readbar linear both;animation-timeline:scroll(root block)}
+  @keyframes readbar{to{transform:scaleX(1)}}
+}
+
+/* Cambio de pestaña: lo viejo se va rápido, lo nuevo sube */
+header.top{view-transition-name:cci-top}
+nav.dock{view-transition-name:cci-dock}
+::view-transition-group(cci-top),::view-transition-group(cci-dock),::view-transition-group(cci-grain),::view-transition-group(cci-read){animation:none}
+::view-transition-old(cci-top),::view-transition-new(cci-top),::view-transition-old(cci-dock),::view-transition-new(cci-dock){animation:none}
+::view-transition-old(root){animation:vt-out .16s cubic-bezier(.4,0,1,1) both}
+::view-transition-new(root){animation:vt-in .38s cubic-bezier(.16,1,.3,1) both}
+@keyframes vt-out{to{opacity:0;transform:translateY(-8px)}}
+@keyframes vt-in{from{opacity:0;transform:translateY(16px)}}
+
+/* Barra superior: el fondo entra de a poco, el logo responde */
+header.top.scrolled{background:rgba(5,6,8,.82)}
+.logo .mark{transition:transform .5s cubic-bezier(.16,1,.3,1)}
+@media (hover:hover) and (pointer:fine){.logo:hover .mark{transform:rotate(-8deg) scale(1.06)}}
+.tab{transition:color .2s ease}
+
+/* Botones: brillo que cruza al pasar el mouse y respuesta al toque */
+.btn,.hinstall{position:relative;overflow:hidden;isolation:isolate}
+.btn::after,.hinstall::after{content:"";position:absolute;inset:0;z-index:-1;background:rgba(255,255,255,.22);transform:translateX(-101%) skewX(-18deg);transition:transform .55s cubic-bezier(.16,1,.3,1)}
+.btn.ghost::after{background:rgba(244,241,234,.08)}
+@media (hover:hover) and (pointer:fine){.btn:hover::after,.hinstall:hover::after{transform:translateX(101%) skewX(-18deg)}}
+.ngo span,.rail-c .ax{display:inline-block;transition:transform .3s cubic-bezier(.16,1,.3,1)}
+@media (hover:hover) and (pointer:fine){.nitem:hover .ngo span,.rail-c:hover .ax{transform:translateX(5px)}}
+
+/* Noticias: la foto destacada respira al pasar el mouse; las fuentes suben */
+.nphoto img{transition:transform .7s cubic-bezier(.16,1,.3,1),filter .4s ease}
+@media (hover:hover) and (pointer:fine){
+  .nitem.feat:hover .nphoto img{transform:scale(1.035);filter:grayscale(0) contrast(1.06) brightness(.92)}
+  .nsrc a{transition:background-color .15s ease,transform .2s cubic-bezier(.16,1,.3,1)}
+  .nsrc a:hover{transform:translateY(-2px)}
+}
+.nitem:not(.feat) .nmeta::before{transition:transform .35s cubic-bezier(.16,1,.3,1)}
+@media (hover:hover) and (pointer:fine){.nitem:not(.feat):hover .nmeta::before{transform:rotateX(180deg)}}
+
+/* Columna de accesos al costado de la bitácora (compu ancha) */
+.rail{display:none}
+@media (min-width:1180px){
+  .news.has-rail{display:grid;grid-template-columns:minmax(0,1fr) 296px;column-gap:72px;align-items:start}
+  .news.has-rail>*{grid-column:1}
+  .news.has-rail>.nitem.feat{grid-column:1/-1}
+  .news.has-rail>.rail{display:flex;grid-column:2;grid-row:2/span 400;position:sticky;top:96px;align-self:start;margin-top:40px}
+}
+.rail{flex-direction:column;gap:12px}
+.rail-c{display:flex;flex-direction:column;gap:6px;padding:20px 22px;background:var(--surface);border-radius:var(--r);color:var(--ink);text-decoration:none;font:inherit;text-align:left;border:0;cursor:pointer;transition:background-color .2s ease,transform .25s cubic-bezier(.16,1,.3,1)}
+.rail-c:active{transform:scale(.98)}
+@media (hover:hover) and (pointer:fine){.rail-c:hover{background:var(--raised)}}
+.rail-c .rl{font:600 var(--s-sm)/1.3 var(--f-body);color:var(--muted)}
+.rail-c b{font:800 22px/1.08 var(--f-display);font-stretch:80%;letter-spacing:-.005em}
+.rail-c .ar{color:var(--accent-ink);font-weight:700;font-size:15px}
+.rail-fx{background:var(--navy)}
+@media (hover:hover) and (pointer:fine){.rail-fx:hover{background:#12347F}}
+.rail-fx .rl{color:rgba(244,241,234,.75)}
+.rail-fx b{font-size:44px;line-height:1;font-stretch:72%;color:var(--accent);font-variant-numeric:tabular-nums}
+.rail-fx small{font:500 var(--s-sm)/1.35 var(--f-body);color:rgba(244,241,234,.75)}
+.rail-ch{background:var(--accent);color:var(--on-accent)}
+.rail-ch .rl{color:rgba(10,9,6,.7)}
+.rail-ch .ar{color:var(--on-accent)}
+@media (hover:hover) and (pointer:fine){.rail-ch:hover{background:#E1BF4A}}
+
+/* Dock del celu y de la app: un indicador que se desliza y un toque con rebote */
+@media (max-width:760px){
+  nav.dock{position:fixed}
+  nav.dock .tab::before{display:none}
+  nav.dock .dock-ind{position:absolute;top:0;left:0;width:22px;height:3px;border-radius:0 0 3px 3px;background:var(--accent);transform:translateX(var(--x,-40px));pointer-events:none}
+  nav.dock .dock-ind.ready{transition:transform .42s cubic-bezier(.16,1,.3,1)}
+  nav.dock .tab svg{transition:transform .35s cubic-bezier(.16,1,.3,1)}
+  nav.dock .tab[aria-selected="true"] svg{transform:translateY(-2px)}
+  nav.dock .tab:active svg{transform:scale(.86)}
+}
+html.is-app body{overscroll-behavior-y:none}
+html.is-app,html.is-app .tab,html.is-app .btn,html.is-app .fpill{-webkit-tap-highlight-color:transparent}
+html.is-app nav.dock,html.is-app .tab{-webkit-user-select:none;user-select:none}
+
+@media (prefers-reduced-motion:reduce){
+  ::view-transition-old(root),::view-transition-new(root){animation:none}
+  .btn::after,.hinstall::after{display:none}
+  .nphoto img,.logo .mark,nav.dock .dock-ind.ready,nav.dock .tab svg{transition:none}
+  .readbar{animation:none;display:none}
+}
+</style>
 
 <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
 </head>
 <body>
+<script id="premium-early">
+/* Entrada de marca: se arma antes de pintar la página. Una vez por visita en la web, cada vez que abrís la app.
+   Si algo falla o tarda, se saca sola; tocar la pantalla la salta. */
+(function(){
+  var d=document.documentElement,done,p=new Promise(function(r){done=r});window.__introDone=p;
+  try{
+    var app=matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
+    if(app)d.classList.add('is-app');
+    var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var seen=false;try{seen=sessionStorage.getItem('cci-intro')==='1';sessionStorage.setItem('cci-intro','1')}catch(e){}
+    var hash=(location.hash||'').slice(1);
+    var onHome=!hash||hash==='noticias';
+    if(onHome&&!reduce)d.classList.add('hero-wait');
+    setTimeout(function(){d.classList.remove('hero-wait')},2000);
+    if(reduce||(seen&&!app)||!onHome||typeof Element.prototype.animate!=='function'){done();return}
+    var w='<div class="iw" aria-hidden="true"><span><i>C</i><i>O</i><i>M</i><i>E</i><i>X</i></span><span><i>C</i><i>O</i><i>N</i></span><span class="g"><i>I</i><i>A</i><i>N</i></span></div>';
+    var el=document.createElement('div');el.id='intro';el.setAttribute('aria-hidden','true');
+    el.innerHTML='<div class="ihg"></div><div class="ih t">'+w+'</div><div class="ih b">'+w+'<p class="ib">Radar de comercio exterior</p></div>';
+    d.classList.add('intro-on');document.body.prepend(el);
+    var EX='cubic-bezier(.16,1,.3,1)',fin=false;
+    var end=function(){if(fin)return;fin=true;d.classList.remove('intro-on');el.remove();done()};
+    var open=function(){
+      var t=el.querySelector('.t'),b=el.querySelector('.b');
+      t.animate([{transform:'translateY(0)'},{transform:'translateY(-100%)'}],{duration:380,easing:'cubic-bezier(.7,0,.2,1)',fill:'forwards'});
+      b.animate([{transform:'translateY(0)'},{transform:'translateY(100%)'}],{duration:380,easing:'cubic-bezier(.7,0,.2,1)',fill:'forwards'}).finished.then(end,end);
+      el.querySelector('.ihg').animate([{opacity:1},{opacity:0}],{duration:200,easing:'ease-out',fill:'forwards'});
+      setTimeout(done,120);
+    };
+    el.addEventListener('click',function(){open()},{once:true});
+    el.querySelectorAll('.ih').forEach(function(h){h.querySelectorAll('i').forEach(function(i,k){i.animate([{transform:'translateY(105%)'},{transform:'translateY(0)'}],{duration:420,delay:k*18,easing:EX,fill:'forwards'})})});
+    el.querySelector('.ihg').animate([{transform:'scaleX(0)'},{transform:'scaleX(1)'}],{duration:440,easing:'cubic-bezier(.7,0,.2,1)',fill:'forwards'});
+    var cap=el.querySelector('.ib');cap.animate([{opacity:0,transform:'translate(-50%,6px)'},{opacity:1,transform:'translate(-50%,0)'}],{duration:300,delay:160,easing:EX,fill:'forwards'});
+    setTimeout(open,460);
+    setTimeout(end,1600);
+  }catch(e){d.classList.remove('intro-on','hero-wait');var x=document.getElementById('intro');if(x)x.remove();done()}
+})();
+</script>
 <header class="top">
   <div class="wrap bar">
     <a class="logo" href="#noticias" aria-label="Comex con Ian, inicio">
@@ -959,14 +1115,14 @@ footer .credits{color:var(--muted);font-size:var(--s-sm)}
     </div>
   </section>
   <section class="about" id="quien-soy" aria-labelledby="about-t">
-    <figure class="about-art"><img src="img/quien-m.jpg" srcset="img/quien-m.jpg 900w, img/quien.jpg 2000w" sizes="(max-width:760px) 100vw, 460px" alt="Buque portacontenedores cargado en el muelle, visto desde arriba" loading="lazy" decoding="async"><figcaption><b>Ian</b><span>IANU&nbsp;000018&nbsp;6 · 3ra&nbsp;generación</span></figcaption></figure>
+    <figure class="about-art"><img src="img/quien-m.jpg" srcset="img/quien-m.jpg 900w, img/quien.jpg 2000w" sizes="(max-width:760px) 100vw, 460px" alt="Buque portacontenedores cargado en el muelle, visto desde arriba" loading="lazy" decoding="async"><figcaption><b>Ian</b><span>IANU&nbsp;000018&nbsp;6 · Comex con Ian</span></figcaption></figure>
     <div class="about-copy">
       <span class="eyebrow">Quién soy</span>
       <h3 id="about-t">Hola, soy <em>Ian</em></h3>
-      <p>Soy la tercera generación de una familia de importadores. El comercio exterior es el oficio de mi casa.</p>
+      <p>Tengo 18 años, trabajo en la empresa de importación de mi familia y emprendo desde chico. El comercio exterior es el oficio de mi casa.</p>
       <p>Estudio Comercio Internacional y fundé CH Group, que acompaña a pymes a importar. Armé Comex con Ian para explicar simple lo que mueve el comercio exterior argentino: qué norma cambió, cuánto cuesta traer algo y cómo se calcula, siempre con la fuente oficial.</p>
       <ul class="about-facts">
-        <li><b>3ra</b><span>generación de importadores</span></li>
+        <li><b>18</b><span>años, emprendiendo desde la primaria</span></li>
         <li><b>100%</b><span>novedades con fuente y fecha</span></li>
         <li><b>CH Group</b><span>fundador</span></li>
       </ul>
@@ -1983,8 +2139,104 @@ start();
   if(tick)new MutationObserver(()=>{const b=tick.querySelector('.fxt[data-c="mayorista"] b');if(!b)return;const n=parseFloat(b.textContent.replace(/[^\d,]/g,'').replace(',','.'));if(n)setVal('fx',fmtPeso(n))}).observe(tick,{childList:true,subtree:true});
   ['ncount','nsrcs','nupd'].forEach(id=>{const el=$(id);if(el)new MutationObserver(()=>{setVal('n',txt('ncount'));setVal('s',txt('nsrcs'));setVal('d',radarDate())}).observe(el,{childList:true,characterData:true,subtree:true})});
   const go=()=>{if(started)return;started=true;render(canAnim&&visible())};
-  Promise.race([fxFirst,new Promise(r=>setTimeout(r,450))]).then(()=>(document.fonts&&document.fonts.ready||Promise.resolve())).then(go,go);
+  Promise.all([Promise.race([fxFirst,new Promise(r=>setTimeout(r,450))]),window.__introDone]).then(()=>(document.fonts&&document.fonts.ready||Promise.resolve())).then(go,go);
   }catch(err){document.querySelectorAll('.pre,.pre-x').forEach(el=>el.classList.remove('pre','pre-x','pre-line'));const nh=document.querySelector('.newshead.has-board');if(nh&&!nh.querySelector('.board'))nh.classList.remove('has-board')}
+})();
+</script>
+<script id="premium-motion">
+/* Movimiento de la capa premium. Lee lo que ya arma la página; no cambia ids ni funciones. Si algo falla, la página se ve igual. */
+(function(){
+  var d=document.documentElement;
+  try{
+  var reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var canAnim=!reduce&&typeof Element.prototype.animate==='function';
+  var EX='cubic-bezier(.16,1,.3,1)';
+  var $=function(id){return document.getElementById(id)};
+  var intro=window.__introDone||Promise.resolve();
+
+  // Grano y barra de lectura
+  var g=document.createElement('div');g.className='grain';g.setAttribute('aria-hidden','true');document.body.append(g);
+  var rb=document.createElement('div');rb.className='readbar';rb.setAttribute('aria-hidden','true');document.body.append(rb);
+  if(!reduce&&!(window.CSS&&CSS.supports&&CSS.supports('animation-timeline','scroll()'))){
+    var tk=false;var upd=function(){tk=false;var h=document.documentElement.scrollHeight-innerHeight;rb.style.transform='scaleX('+(h>0?Math.min(1,scrollY/h):0).toFixed(4)+')'};
+    addEventListener('scroll',function(){if(!tk){tk=true;requestAnimationFrame(upd)}},{passive:true});addEventListener('resize',upd,{passive:true});upd();
+  }
+
+  // Título del inicio: cada palabra sube desde su propia ranura
+  var h1=document.querySelector('#p-noticias .lede h1');
+  var heroParts=[document.querySelector('#p-noticias .lede>p'),document.querySelector('#p-noticias .lede .eyebrow')];
+  var words=[];
+  if(h1&&canAnim&&d.classList.contains('hero-wait')){
+    var split=function(node){
+      [].slice.call(node.childNodes).forEach(function(n){
+        if(n.nodeType===3){
+          var parts=n.textContent.split(/(\s+)/),f=document.createDocumentFragment();
+          parts.forEach(function(t){if(!t)return;if(/^\s+$/.test(t)){f.append(document.createTextNode(t));return}var w=document.createElement('span');w.className='w';var s=document.createElement('span');s.textContent=t;w.append(s);f.append(w);words.push(s)});
+          n.replaceWith(f);
+        }else if(n.nodeType===1)split(n);
+      });
+    };
+    split(h1);
+    words.forEach(function(s){s.style.transform='translateY(110%)'});
+  }
+  intro.then(function(){
+    d.classList.remove('hero-wait');
+    if(!words.length)return;
+    words.forEach(function(s,i){s.animate([{transform:'translateY(110%)'},{transform:'translateY(0)'}],{duration:640,delay:i*45,easing:EX,fill:'backwards'});s.style.transform=''});
+    heroParts.forEach(function(el,i){if(el)el.animate([{opacity:0,transform:'translateY(14px)'},{opacity:1,transform:'none'}],{duration:520,delay:200+words.length*30+i*80,easing:EX,fill:'backwards'})});
+  });
+
+  // Cambio de pestaña con transición nativa y entrada escalonada de lo que trae la pestaña nueva
+  var orig=window.showTab;
+  if(typeof orig==='function'){
+    var current=function(){var p=document.querySelector('section.panel:not([hidden])');return p?p.id.replace('p-',''):''};
+    var stagger=function(name){
+      if(!canAnim)return;var p=$('p-'+name);if(!p||name==='noticias')return;
+      [].slice.call(p.children).slice(0,7).forEach(function(el,i){el.animate([{opacity:0,transform:'translateY(18px)'},{opacity:1,transform:'none'}],{duration:520,delay:60+i*55,easing:EX,fill:'backwards'})});
+    };
+    window.showTab=function(name){
+      if(name===current())return orig(name);
+      if(!canAnim||!document.startViewTransition||document.visibilityState!=='visible'){orig(name);stagger(name);return}
+      try{document.startViewTransition(function(){orig(name);stagger(name)})}catch(e){orig(name)}
+    };
+  }
+
+  // Columna de accesos al costado de la bitácora
+  var news=$('news');
+  if(news){
+    var rail=document.createElement('aside');rail.className='rail';rail.setAttribute('aria-label','Accesos rápidos');
+    rail.innerHTML=
+      '<button class="rail-c rail-fx" type="button" data-to="dolar"><span class="rl">Dólar mayorista</span><b id="railfx">—</b><small id="railfxd">Referencia para importar</small><span class="ar">Ver todos los tipos <span class="ax">→</span></span></button>'+
+      '<button class="rail-c" type="button" data-to="calculadora"><span class="rl">Calculadora con todo el NCM</span><b>¿Cuánto te cuesta traerlo?</b><span class="ar">Calcular <span class="ax">→</span></span></button>'+
+      '<button class="rail-c" type="button" data-to="join"><span class="rl">Gratis, en tu mail</span><b>Recibí el radar antes que nadie</b><span class="ar">Sumarme <span class="ax">→</span></span></button>'+
+      '<button class="rail-c rail-ch" type="button" data-to="ch-group"><span class="rl">CH Group · Importá conmigo</span><b>¿Querés importar? Lo armamos juntos</b><span class="ar">Ver cómo <span class="ax">→</span></span></button>';
+    rail.addEventListener('click',function(e){
+      var b=e.target.closest('[data-to]');if(!b)return;var to=b.dataset.to;
+      if(to==='dolar'||to==='calculadora'){var t=document.querySelector('.tab[data-tab="'+to+'"]');if(t)t.click();return}
+      var el=$(to);if(el&&!el.hidden)scrollTo({top:el.getBoundingClientRect().top+scrollY-90,behavior:reduce?'auto':'smooth'});
+    });
+    var keep=function(){if(rail.parentNode!==news||news.lastElementChild!==rail)news.append(rail);news.classList.add('has-rail')};
+    keep();new MutationObserver(function(){if(rail.parentNode!==news)keep()}).observe(news,{childList:true});
+    var j=$('join');if(j&&j.hidden){var jb=rail.querySelector('[data-to="join"]');new MutationObserver(function(){jb.hidden=j.hidden}).observe(j,{attributes:true,attributeFilter:['hidden']});jb.hidden=j.hidden}
+    var setFx=function(v,dt){var b=$('railfx');if(b&&v)b.textContent=v;var s=$('railfxd');if(s&&dt)s.textContent=dt};
+    fetch('fx.json',{cache:'no-cache'}).then(function(r){return r.ok?r.json():null}).then(function(x){
+      var m=x&&Array.isArray(x.dolares)&&x.dolares.find(function(y){return y.casa==='mayorista'});
+      if(m&&m.venta){var f=m.fechaActualizacion?new Date(m.fechaActualizacion):null;setFx('$'+Number(m.venta).toLocaleString('es-AR',{maximumFractionDigits:2}),'Referencia para importar'+(f&&!isNaN(f)?' · '+f.toLocaleDateString('es-AR',{day:'numeric',month:'short'}):''))}
+    }).catch(function(){});
+    var tick=$('fxtick');
+    if(tick)new MutationObserver(function(){var b=tick.querySelector('.fxt[data-c="mayorista"] b');if(b&&b.textContent.trim())setFx(b.textContent.trim().replace(/\s+/g,''),'Referencia para importar · en vivo')}).observe(tick,{childList:true,subtree:true});
+  }
+
+  // Dock: indicador que se desliza hasta la pestaña activa y un toque leve en Android
+  var dock=document.querySelector('nav.dock');
+  if(dock){
+    var di=document.createElement('span');di.className='dock-ind';di.setAttribute('aria-hidden','true');dock.prepend(di);
+    var place=function(){var t=dock.querySelector('.tab[aria-selected="true"]');if(!t||!t.offsetWidth){di.style.opacity='0';return}di.style.opacity='';di.style.setProperty('--x',(t.offsetLeft+t.offsetWidth/2-11).toFixed(1)+'px');if(!di.classList.contains('ready'))requestAnimationFrame(function(){requestAnimationFrame(function(){di.classList.add('ready')})})};
+    new MutationObserver(place).observe(dock,{subtree:true,attributes:true,attributeFilter:['aria-selected']});
+    addEventListener('resize',place,{passive:true});place();
+    dock.addEventListener('click',function(e){if(e.target.closest('.tab')&&navigator.vibrate&&d.classList.contains('is-app'))try{navigator.vibrate(8)}catch(x){}});
+  }
+  }catch(err){d.classList.remove('hero-wait','intro-on');document.querySelectorAll('#p-noticias .lede h1 .w>span').forEach(function(s){s.style.transform=''})}
 })();
 </script>
 </body>
