@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-03T12:17:58+00:00",
+ "actualizado": "2026-11-04T12:18:59+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -108,6 +108,15 @@
    "noticia": "Primera rueda de noviembre: mayorista +$11,50 (0,8%), cierre $1.545,50, 26,5% abajo del techo de la banda ($1.954,48). BNA +$5, a $1.565, igual que el blue. CCL $1.656,65 (brecha 7,2%).",
    "para": "Tomi",
    "titulo": "Noviembre arrancó y el dólar ya saltó. Te explico qué es ese dólar y por qué te importa."
+  },
+  "guion-2026-11-03-1": {
+   "fecha": "2026-11-03",
+   "fuente": "https://www.infobae.com/economia/2026/11/03/nueva-banda-cambiaria-hasta-que-precio-puede-subir-el-dolar-en-noviembre-sin-que-intervenga-el-bcra/",
+   "guion": "GANCHO: \"¿Hasta dónde puede subir el dólar este mes? El Central ya puso el número.\"\n\n1. \"El mayorista cerró el martes en 1.551 y en el Nación el minorista llegó a 1.570, récord nominal.\" (en pantalla: mayorista $1.551 · BNA $1.570 récord)\n2. \"La banda tiene un techo: hasta ahí el dólar sube sin que intervenga el Central. A fin de noviembre llega a 1.989,12.\" (en pantalla: techo fin de noviembre $1.989,12)\n3. \"Ese techo se mueve con la inflación de dos meses antes: para noviembre se usa la de septiembre, 1,93%.\" (en pantalla: se ajusta con la inflación de septiembre · 1,93%)\n4. \"Y un dato para tener en cuenta: en el año el mayorista subió 6,22% y la inflación 23,6% hasta septiembre.\" (en pantalla: dólar +6,22% vs inflación +23,6%)\n\nTU LECTURA (una frase): cómo usar el techo de la banda para calcular el peor escenario cuando cotizás una importación, según cómo lo hacen en la empresa familiar.\n\nCIERRE: \"¿Vos cotizás con el dólar de hoy o con el techo? Contame.\"\n\nPerilla: directo. Fuente para el caption: Infobae (con datos del BCRA) y Ámbito, 3/11/2026.",
+   "kind": "guion",
+   "noticia": "Mayorista $1.551 el 3/11; BNA $1.570, récord nominal. Techo de la banda a fin de noviembre: $1.989,12 (estaba en $1.954,48), ajustado por la inflación de septiembre (1,93%). En 2026 el mayorista sube 6,22% contra una inflación de 23,6% hasta septiembre.",
+   "para": "Graciela",
+   "titulo": "¿Hasta dónde puede subir el dólar este mes? El Central ya puso el número."
   },
   "sem-2026-10-26": {
    "carruseles": [
