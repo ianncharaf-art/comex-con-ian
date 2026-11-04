@@ -2,6 +2,25 @@
   "actualizado": "2026-11-04",
   "items": [
     {
+      "fecha": "2026-11-04",
+      "categoria": "Dólar",
+      "titulo": "El dólar aflojó a $1.546 y el BCRA volvió a comprar, aunque poco: US$9 millones",
+      "resumen": "El mayorista bajó $5 (0,32%) y cerró en $1.546; en el Banco Nación el minorista se mantuvo en $1.570. El BCRA compró US$9 millones, su primera compra de noviembre tras dos ruedas sin intervenir (la anterior fue de US$96 millones el 30/10). Las reservas subieron US$142 millones, a US$50.435 millones (dato sujeto a ajustes).",
+      "porque": "Después de dos días de subas, un respiro en el mayorista, que es el dólar con el que se pagan las importaciones. Que el Central compre poco indica que todavía hay pocos dólares sobrando en el mercado.",
+      "fuentes": [
+        {
+          "nombre": "BAE Negocios",
+          "url": "https://www.baenegocios.com/finanzas/el-dolar-bajo-y-el-bcra-compro-divisas-aunque-por-un-monto-reducido/",
+          "oficial": false
+        },
+        {
+          "nombre": "Ámbito",
+          "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-miercoles-4-noviembre-n6341581",
+          "oficial": false
+        }
+      ]
+    },
+    {
       "fecha": "2026-11-03",
       "categoria": "Dólar",
       "titulo": "El dólar volvió a subir: mayorista $1.551 y la banda de noviembre llega hasta $1.989,12",
@@ -398,25 +417,6 @@
         {
           "nombre": "Aduana News",
           "url": "https://aduananews.com/argentina-y-uruguay-avanzan-en-la-digitalizacion-y-el-control-de-sus-pasos-fronterizos/",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-10-08",
-      "categoria": "Mundo",
-      "titulo": "La OMC subió al 3,9% su previsión de crecimiento del comercio mundial de bienes para 2026",
-      "resumen": "En su actualización de octubre, la Organización Mundial del Comercio elevó la proyección de crecimiento del volumen del comercio de mercancías para 2026 del 1,9% al 3,9% y estimó 4,1% para 2027. Para el comercio de servicios bajó la previsión de 2026 del 4,8% al 3,3%.",
-      "porque": "Más comercio mundial significa más demanda para lo que exporta Argentina y más movimiento en fletes y puertos.",
-      "fuentes": [
-        {
-          "nombre": "OMC (WTO)",
-          "url": "https://www.wto.org/english/news_e/news26_e/stat_08oct26_510_e.htm",
-          "oficial": true
-        },
-        {
-          "nombre": "Aduana News",
-          "url": "https://aduananews.com/la-omc-eleva-del-19-al-39-su-prevision-de-crecimiento-del-comercio-mundial-para-2026/",
           "oficial": false
         }
       ]
