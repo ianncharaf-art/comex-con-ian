@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-04",
+  "actualizado": "2026-11-05",
   "items": [
     {
       "fecha": "2026-11-04",
@@ -16,6 +16,25 @@
         {
           "nombre": "Ámbito",
           "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-miercoles-4-noviembre-n6341581",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "fecha": "2026-11-03",
+      "categoria": "ARCA · Aduana",
+      "titulo": "Caputo anunció que las pymes podrán pagar deudas aduaneras con el saldo a favor de exportación",
+      "resumen": "En la Conferencia Industrial de la UIA, el ministro Luis Caputo anunció que las pymes podrán usar el 100% del saldo a favor por exportación o IVA de exportación para cancelar deudas aduaneras (las grandes empresas, solo un porcentaje). También anunció la suspensión de los embargos de ARCA hasta mayo de 2027 y la extensión del plan de 18 cuotas. Por ahora son anuncios: todavía no hay resolución ni decreto que fije requisitos y fecha de vigencia.",
+      "porque": "Si exportás y tenés IVA a favor trabado, podría servirte para pagar deudas con la Aduana. Conviene esperar la norma oficial antes de contar con eso.",
+      "fuentes": [
+        {
+          "nombre": "Ministerio de Economía",
+          "url": "https://www.argentina.gob.ar/noticias/luis-caputo-la-mayoria-abrumadora-de-los-empresarios-coincide-en-que-no-tiene-ningun",
+          "oficial": true
+        },
+        {
+          "nombre": "PYME Noticias",
+          "url": "https://www.pymenoticias.com/post/argentina-suspension-embargos-arca-saldos-exportacion-pymes",
           "oficial": false
         }
       ]
@@ -403,20 +422,6 @@
         {
           "nombre": "Infobae",
           "url": "https://www.infobae.com/economia/2026/10/12/en-nueve-meses-el-agro-argentino-ya-exporto-casi-90-millones-de-toneladas-mas-que-el-record-anual-historico-de-2021/",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-10-09",
-      "categoria": "Logística",
-      "titulo": "Argentina y Uruguay suman cámaras, escáner y trámites digitales en sus puentes fronterizos",
-      "resumen": "En la reunión bilateral del Subcomité Técnico de Controles y Operatoria de Frontera del Mercosur (29 y 30 de septiembre, Salto Grande) se informaron 113 cámaras de seguridad y una sala de monitoreo de Gendarmería en Concordia–Salto, gestiones para un escáner móvil de rayos X para cargas y la digitalización del sellado de trámites en Gualeguaychú–Fray Bentos, y mejoras en Colón–Paysandú.",
-      "porque": "Los pasos con Uruguay mueven buena parte del transporte de cargas por camión; más control digital y escaneo puede acortar demoras en frontera.",
-      "fuentes": [
-        {
-          "nombre": "Aduana News",
-          "url": "https://aduananews.com/argentina-y-uruguay-avanzan-en-la-digitalizacion-y-el-control-de-sus-pasos-fronterizos/",
           "oficial": false
         }
       ]
