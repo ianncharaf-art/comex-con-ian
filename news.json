@@ -1,6 +1,25 @@
 {
-  "actualizado": "2026-11-05",
+  "actualizado": "2026-11-06",
   "items": [
+    {
+      "fecha": "2026-11-05",
+      "categoria": "Dólar",
+      "titulo": "Se pagaron US$880 millones al FMI y las reservas bajaron de US$50.000 millones",
+      "resumen": "Con un pago de US$880 millones al FMI, las reservas brutas cayeron US$793 millones y cerraron en US$49.642 millones. El mismo día el BCRA compró US$42 millones y en el año ya suma US$16.019 millones. El mayorista cerró en $1.545,50, con una suba de $11,50 en la semana.",
+      "porque": "Las reservas son el colchón de dólares del país: cuanto más firmes, menos riesgo de saltos bruscos en el tipo de cambio con el que pagás importaciones.",
+      "fuentes": [
+        {
+          "nombre": "Ámbito",
+          "url": "https://www.ambito.com/finanzas/el-bcra-ya-compro-mas-us16000-millones-el-ano-pero-las-reservas-cayeron-un-pago-al-fmi-n6342144",
+          "oficial": false
+        },
+        {
+          "nombre": "El Intransigente",
+          "url": "https://elintransigente.com/2026/11/05/gobierno-nacional-pago-fmi-reservas-brutas-debajo-50000-millones/",
+          "oficial": false
+        }
+      ]
+    },
     {
       "fecha": "2026-11-04",
       "categoria": "Dólar",
@@ -408,20 +427,6 @@
         {
           "nombre": "Infobae",
           "url": "https://www.infobae.com/economia/2026/10/12/la-argentina-recupera-participacion-en-el-comercio-mundial-proyectan-que-en-2035-exportara-usd-180000-millones/",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-10-12",
-      "categoria": "Comercio exterior",
-      "titulo": "El agro ya exportó 88,9 millones de toneladas en nueve meses, más que el récord anual de 2021",
-      "resumen": "Según la Bolsa de Comercio de Rosario, entre enero y septiembre se exportaron cerca de 88,9 millones de toneladas de granos, subproductos y aceites, unas 6 Mt más que el récord de todo 2021 (83 Mt). Se destacan trigo (12,8 Mt), girasol (más de 6,5 Mt) y maíz (30,2 Mt en la campaña). CIARA-CEC liquidó US$3.228 millones en septiembre y US$22.275 millones en el año.",
-      "porque": "El agro es la principal fuente de dólares del comercio exterior argentino y un récord de volumen sostiene la oferta de divisas.",
-      "fuentes": [
-        {
-          "nombre": "Infobae",
-          "url": "https://www.infobae.com/economia/2026/10/12/en-nueve-meses-el-agro-argentino-ya-exporto-casi-90-millones-de-toneladas-mas-que-el-record-anual-historico-de-2021/",
           "oficial": false
         }
       ]
