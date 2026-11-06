@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-04T12:18:59+00:00",
+ "actualizado": "2026-11-06T13:03:08+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -117,6 +117,24 @@
    "noticia": "Mayorista $1.551 el 3/11; BNA $1.570, récord nominal. Techo de la banda a fin de noviembre: $1.989,12 (estaba en $1.954,48), ajustado por la inflación de septiembre (1,93%). En 2026 el mayorista sube 6,22% contra una inflación de 23,6% hasta septiembre.",
    "para": "Graciela",
    "titulo": "¿Hasta dónde puede subir el dólar este mes? El Central ya puso el número."
+  },
+  "guion-2026-11-03-2": {
+   "fecha": "2026-11-03",
+   "fuente": "https://www.argentina.gob.ar/noticias/luis-caputo-la-mayoria-abrumadora-de-los-empresarios-coincide-en-que-no-tiene-ningun",
+   "guion": "GANCHO: \"Si exportás y tenés IVA a favor trabado, esto te puede servir. Pero todavía no.\"\n\n1. \"En la conferencia de la UIA, Caputo anunció que las pymes van a poder usar el 100% del saldo a favor de exportación para pagar deudas con la Aduana.\" (en pantalla: pymes: 100% del saldo a favor → deudas aduaneras)\n2. \"Las empresas grandes, solo un porcentaje que todavía no dijeron.\" (en pantalla: grandes: un % sin definir)\n3. \"También anunció que se suspenden los embargos de ARCA hasta mayo de 2027 y que se extiende el plan de 18 cuotas.\" (en pantalla: embargos suspendidos hasta mayo 2027 · plan 18 cuotas)\n4. \"Ojo: por ahora es un anuncio. No salió ninguna resolución con requisitos ni fecha.\" (en pantalla: todavía sin norma)\n\nTU LECTURA (una frase): en la empresa familiar, ¿el saldo a favor que queda trabado es un problema? Contalo sin dar números de la empresa.\n\nCIERRE: \"Guardalo y cuando salga la norma te cuento cómo se pide.\"\n\nPerilla: directo. Fuente para el caption: Ministerio de Economía, 3/11/2026.",
+   "kind": "guion",
+   "noticia": "Caputo anunció en la UIA que las pymes podrán usar el 100% del saldo a favor por exportación o IVA de exportación para pagar deudas aduaneras (grandes empresas, un porcentaje), suspensión de embargos de ARCA hasta mayo de 2027 y extensión del plan de 18 cuotas. Aún sin norma publicada.",
+   "para": "Graciela",
+   "titulo": "Si exportás y tenés IVA a favor trabado, esto te puede servir. Pero todavía no."
+  },
+  "guion-2026-11-05-1": {
+   "fecha": "2026-11-05",
+   "fuente": "https://www.ambito.com/finanzas/el-bcra-ya-compro-mas-us16000-millones-el-ano-pero-las-reservas-cayeron-un-pago-al-fmi-n6342144",
+   "guion": "GANCHO: \"El Central compró dólares y aun así las reservas bajaron. ¿Cómo puede ser?\"\n\n1. \"Las reservas son los dólares que guarda el Banco Central. Pensalo como la alcancía del país.\" (en pantalla: reservas = la alcancía de dólares)\n2. \"El jueves el Central metió 42 millones. En el año ya lleva más de 16 mil millones.\" (en pantalla: +US$42 M · año US$16.019 M)\n3. \"Pero ese mismo día se le pagaron 880 millones al FMI.\" (en pantalla: pago FMI US$880 M)\n4. \"Resultado: la alcancía bajó 793 millones y quedó en 49.642 millones, abajo de los 50 mil.\" (en pantalla: reservas US$49.642 M)\n\nTU LECTURA (una frase): por qué a alguien que quiere importar le importa que la alcancía esté llena.\n\nCIERRE: \"Guardalo: la próxima vez que escuches 'reservas', ya sabés qué son.\"\n\nPerilla: profe canchero. Fuente para el caption: Ámbito, 5/11/2026.",
+   "kind": "guion",
+   "noticia": "Pago de US$880 M al FMI: reservas brutas -US$793 M, a US$49.642 M. El BCRA compró US$42 M ese día y US$16.019 M en el año. Mayorista $1.545,50 (+$11,50 en la semana).",
+   "para": "Tomi",
+   "titulo": "El Central compró dólares y aun así las reservas bajaron. Te explico en 40 segundos."
   },
   "sem-2026-10-26": {
    "carruseles": [
