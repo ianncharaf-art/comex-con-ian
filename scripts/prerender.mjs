@@ -14,6 +14,9 @@ if (!news || !Array.isArray(news.items) || !news.items.length) {
 
 const m = html.match(/\/\*SOURCES_START\*\/([\s\S]*?)\/\*SOURCES_END\*\//);
 const SOURCES = new Function('return ' + m[1])();
+// Mismo resaltado de palabras clave por materia que usa el navegador (bloque KW en index.html)
+const k = html.match(/\/\*KW_START\*\/([\s\S]*?)\/\*KW_END\*\//);
+const hl = new Function('return ' + k[1])();
 
 const MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
 const fdate = s => { const [y, mo, d] = String(s).split('-'); return d && mo ? `${+d} ${MESES[+mo - 1]} ${y}` : s; };
@@ -28,8 +31,8 @@ const items = list.map((n, i) => {
   return `<article class="nitem${i === 0 ? ' feat' : ''}">
     ${i === 0 ? '<span class="flag">Última novedad</span>' : ''}
     <div class="nmeta"><time datetime="${esc(n.fecha)}">${esc(fdate(n.fecha))}</time><span class="chip">${esc(n.categoria)}</span></div>
-    <h4>${main ? `<a class="nlink" href="${esc(safeUrl(main.url))}" target="_blank" rel="noopener">${esc(n.titulo)}</a>` : esc(n.titulo)}</h4><p>${esc(n.resumen)}</p>
-    ${n.porque ? `<p class="nwhy"><b>Por qué importa:</b> ${esc(n.porque)}</p>` : ''}
+    <h4>${main ? `<a class="nlink" href="${esc(safeUrl(main.url))}" target="_blank" rel="noopener">${esc(n.titulo)}</a>` : esc(n.titulo)}</h4><p>${hl(n.resumen)}</p>
+    ${n.porque ? `<p class="nwhy"><b>Por qué importa:</b> ${hl(n.porque)}</p>` : ''}
     ${main ? `<span class="ngo">Leer en ${esc(main.nombre)} <span aria-hidden="true">→</span></span>` : ''}<div class="nsrc">${fs.map(f => `<a href="${esc(safeUrl(f.url))}" target="_blank" rel="noopener">${esc(f.nombre)} <small class="${f.oficial ? '' : 'm'}">${f.oficial ? 'Oficial' : 'Medio'}</small></a>`).join('')}</div>
   </article>`;
 }).join('');
