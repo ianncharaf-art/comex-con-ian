@@ -2,6 +2,53 @@
   "actualizado": "2026-11-10",
   "items": [
     {
+      "fecha": "2026-11-10",
+      "categoria": "Dólar",
+      "titulo": "El mayorista repitió $1.545,50 y el contado con liquidación subió a $1.659",
+      "resumen": "El mayorista cerró el martes 10 en $1.545,50, igual que el lunes 9. En el Banco Nación el minorista quedó en $1.570 y el blue en $1.555. El contado con liquidación subió de $1.653,57 a $1.659,12 y la brecha pasó de 7,0% a 7,4%; el MEP quedó en $1.583,82.",
+      "porque": "Con el mayorista quieto dos ruedas seguidas, el dólar con el que pagás importaciones da previsibilidad para cotizar esta semana. La brecha con el contado con liquidación sigue baja.",
+      "claves": [
+        "El mayorista cerró el martes 10 en $1.545,50, igual que el lunes 9",
+        "da previsibilidad para cotizar esta semana"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Ámbito",
+          "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-martes-10-noviembre-n6343658",
+          "oficial": false
+        },
+        {
+          "nombre": "Ámbito (lunes 9)",
+          "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-lunes-9-noviembre-n6343290",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "fecha": "2026-11-06",
+      "categoria": "Comercio exterior",
+      "titulo": "Abrió el cupo 2027 para importar 50.000 autos eléctricos e híbridos con arancel 0%",
+      "resumen": "La Disposición 451/2026 (Boletín Oficial del 6/11) convoca a pedir cupo para importar en 2027 vehículos electrificados con Derecho de Importación Extrazona de 0%: 50.000 unidades, 25.000 para terminales y 25.000 para importadores. El precio deja de ordenar el reparto: cuentan la producción local y los patentamientos (terminales) y el volumen importado (importadores). Los nuevos importadores reciben el 20% de su tramo y se reservan 2.500 unidades para quienes instalen al menos 20 puntos de carga. Las solicitudes van por TAD hasta las 23:59 del 17 de noviembre.",
+      "porque": "Si importás o querés empezar a importar autos electrificados, tenés hasta el 17 de noviembre para anotarte: fuera del cupo, esos autos pagan el arancel normal.",
+      "claves": [
+        "Las solicitudes van por TAD hasta las 23:59 del 17 de noviembre",
+        "El precio deja de ordenar el reparto",
+        "tenés hasta el 17 de noviembre para anotarte"
+      ],
+      "fuentes": [
+        {
+          "nombre": "CIRA (texto de la disposición)",
+          "url": "https://www.cira.org.ar/es/servicios/normativas-servicios/disposicion/disposicion-451-2026/",
+          "oficial": false
+        },
+        {
+          "nombre": "iProfesional",
+          "url": "https://www.iprofesional.com/negocios/468526-importacion-de-autos-electricos-el-gobierno-cambia-el-cupo-para-2027",
+          "oficial": false
+        }
+      ]
+    },
+    {
       "fecha": "2026-11-05",
       "categoria": "Dólar",
       "titulo": "Se pagaron US$880 millones al FMI y las reservas bajaron de US$50.000 millones",
@@ -479,41 +526,6 @@
         {
           "nombre": "Infobae",
           "url": "https://www.infobae.com/economia/2026/10/13/la-inflacion-en-septiembre-fue-de-19-y-acumulo-334-en-los-ultimos-doce-meses/",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-10-13",
-      "categoria": "Dólar",
-      "titulo": "El BCRA hizo su mayor compra de dólares desde julio: US$291 millones en un día",
-      "resumen": "El martes 13 de octubre el Banco Central compró US$291 millones en el mercado de cambios, la mayor compra desde fines de julio. Ya suma US$15.200 millones desde el inicio de la fase cuatro del programa monetario, por encima de la meta anual de US$10.000 millones acordada con el FMI. Las reservas brutas subieron US$138 millones y cerraron en US$49.839 millones.",
-      "porque": "Más reservas en el Banco Central le dan más estabilidad al dólar con el que importadores y exportadores calculan costos y precios.",
-      "claves": [
-        "por encima de la meta anual de US$10.000 millones acordada con el FMI"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Infobae",
-          "url": "https://www.infobae.com/economia/2026/10/13/el-banco-central-realizo-la-mayor-compra-de-dolares-desde-julio-y-ya-acumula-mas-de-usd-15000-millones-en-2026/",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-10-12",
-      "categoria": "Comercio exterior",
-      "titulo": "Proyectan que Argentina exportará casi US$180.000 millones en 2035",
-      "resumen": "Marcelo Elizondo, presidente del capítulo argentino de la Cámara de Comercio Internacional (ICC), proyecta exportaciones por US$105.150 millones en 2026 y US$179.945 millones en 2035. La participación argentina en el comercio mundial de bienes subiría de 0,29% en 2023 (mínimo histórico) a 0,39% en 2026 y 0,55% en 2035. Los motores serían agroindustria, energía (oleoducto Vaca Muerta Oil Sur), minería (litio y cobre bajo el RIGI) y economía del conocimiento.",
-      "porque": "Muestra qué sectores van a mover el comercio exterior argentino en los próximos diez años y dónde van a estar las oportunidades.",
-      "claves": [
-        "Los motores serían agroindustria, energía",
-        "dónde van a estar las oportunidades"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Infobae",
-          "url": "https://www.infobae.com/economia/2026/10/12/la-argentina-recupera-participacion-en-el-comercio-mundial-proyectan-que-en-2035-exportara-usd-180000-millones/",
           "oficial": false
         }
       ]
