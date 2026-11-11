@@ -1,25 +1,25 @@
 {
-  "actualizado": "2026-11-10",
+  "actualizado": "2026-11-11",
   "items": [
     {
       "fecha": "2026-11-10",
       "categoria": "Dólar",
-      "titulo": "El mayorista repitió $1.545,50 y el contado con liquidación subió a $1.659",
-      "resumen": "El mayorista cerró el martes 10 en $1.545,50, igual que el lunes 9. En el Banco Nación el minorista quedó en $1.570 y el blue en $1.555. El contado con liquidación subió de $1.653,57 a $1.659,12 y la brecha pasó de 7,0% a 7,4%; el MEP quedó en $1.583,82.",
-      "porque": "Con el mayorista quieto dos ruedas seguidas, el dólar con el que pagás importaciones da previsibilidad para cotizar esta semana. La brecha con el contado con liquidación sigue baja.",
+      "titulo": "Cinco días sin bancos: no hubo mercado de cambios del 6 al 10 de noviembre",
+      "resumen": "Los bancos cerraron cinco días seguidos: el viernes 6 por el Día del Trabajador Bancario, el fin de semana, el lunes 9 por el feriado nacional por la visita del papa León XIV (Decreto 1103/2026) y el martes 10 por un feriado bancario del BCRA (Comunicación A 8487). Siguieron funcionando home banking, billeteras, cajeros y tarjetas, pero no la atención en sucursales. El mayorista quedó en $1.545,50, el último cierre del jueves 5; el mercado vuelve a operar el miércoles 11.",
+      "porque": "Si tenías que pagarle a un proveedor del exterior o liquidar una exportación, esos días no hubo operaciones: conviene reprogramar giros y vencimientos para esta semana.",
       "claves": [
-        "El mayorista cerró el martes 10 en $1.545,50, igual que el lunes 9",
-        "da previsibilidad para cotizar esta semana"
+        "el mercado vuelve a operar el miércoles 11",
+        "conviene reprogramar giros y vencimientos para esta semana"
       ],
       "fuentes": [
         {
-          "nombre": "Ámbito",
-          "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-martes-10-noviembre-n6343658",
+          "nombre": "Bloomberg Línea",
+          "url": "https://www.bloomberglinea.com/latinoamerica/argentina/bancos-en-argentina-cerraran-cinco-dias-seguidos-en-noviembre-cuando-y-que-operaciones-seguirian-disponibles/",
           "oficial": false
         },
         {
-          "nombre": "Ámbito (lunes 9)",
-          "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-lunes-9-noviembre-n6343290",
+          "nombre": "Perfil",
+          "url": "https://www.perfil.com/noticias/economia/el-banco-central-establecio-un-nuevo-feriado-bancario-por-la-visita-del-papa-leon-xiv-cuando-no-abriran-los-bancos-a40.phtml",
           "oficial": false
         }
       ]
