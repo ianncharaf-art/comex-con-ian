@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-07T11:35:51+00:00",
+ "actualizado": "2026-11-11T12:13:44+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -135,6 +135,15 @@
    "noticia": "Pago de US$880 M al FMI: reservas brutas -US$793 M, a US$49.642 M. El BCRA compró US$42 M ese día y US$16.019 M en el año. Mayorista $1.545,50 (+$11,50 en la semana).",
    "para": "Tomi",
    "titulo": "El Central compró dólares y aun así las reservas bajaron. Te explico en 40 segundos."
+  },
+  "guion-2026-11-10-1": {
+   "fecha": "2026-11-10",
+   "fuente": "https://www.bloomberglinea.com/latinoamerica/argentina/bancos-en-argentina-cerraran-cinco-dias-seguidos-en-noviembre-cuando-y-que-operaciones-seguirian-disponibles/",
+   "guion": "GANCHO: \"Cinco días sin bancos. Si importás, esto te importa.\"\n\n1. \"Del viernes 6 al martes 10 no abrieron los bancos: Día del Bancario, el finde, el feriado del lunes por la visita del papa y un feriado bancario del Central el martes.\" (en pantalla: 6 al 10/11 sin bancos)\n2. \"Home banking, billeteras y tarjetas funcionaron, pero no hubo mercado de cambios: nadie pudo girar dólares a un proveedor ni liquidar una exportación.\" (en pantalla: sin mercado de cambios)\n3. \"El mayorista quedó congelado en $1.545,50, el cierre del jueves 5.\" (en pantalla: mayorista $1.545,50)\n4. \"El miércoles 11 volvió todo. Si tenías un pago o un vencimiento en esos días, hablá hoy con tu banco y con tu proveedor.\" (en pantalla: reprogramá giros esta semana)\n\nMi lectura: no es una crisis, es calendario; el problema es que te agarre con un pago comprometido y sin avisar.\n\nCIERRE: \"¿Te tocó algún pago trabado? Contame. Y guardalo para el próximo feriado largo.\"\n\nFuente para el caption: Bloomberg Línea y Perfil.",
+   "kind": "guion",
+   "noticia": "Bancos cerrados del viernes 6 al martes 10 de noviembre (Día del Bancario, finde, feriado por la visita del papa y feriado bancario del BCRA); el mayorista quedó en $1.545,50 y el mercado volvió el miércoles 11.",
+   "para": "Graciela",
+   "titulo": "Cinco días sin bancos: si tenías que pagarle a un proveedor de afuera, mirá esto"
   },
   "sem-2026-10-26": {
    "carruseles": [
