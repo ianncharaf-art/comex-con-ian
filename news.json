@@ -2,6 +2,29 @@
   "actualizado": "2026-11-11",
   "items": [
     {
+      "fecha": "2026-11-11",
+      "categoria": "Dólar",
+      "titulo": "Volvió el mercado tras cinco días: el mayorista bajó a $1.544 y el BCRA compró US$29 millones",
+      "resumen": "En la primera rueda después de cinco días sin operaciones, el mayorista abrió en $1.550 pero terminó en $1.544, $1,50 menos que el jueves 5, con poco volumen por el feriado en EE.UU. (unos US$427 millones). El BCRA compró US$29 millones y suma US$80 millones en noviembre y US$16.048 millones en el año. Las reservas brutas cayeron US$312 millones, a US$49.330 millones, por la baja del oro y la suba global del dólar. En el Banco Nación el minorista siguió en $1.570.",
+      "porque": "El dólar con el que pagás importaciones volvió sin saltos después del parate: buena señal para cerrar cotizaciones que quedaron frenadas por los feriados.",
+      "claves": [
+        "el mayorista abrió en $1.550 pero terminó en $1.544",
+        "buena señal para cerrar cotizaciones que quedaron frenadas por los feriados"
+      ],
+      "fuentes": [
+        {
+          "nombre": "BAE Negocios",
+          "url": "https://www.baenegocios.com/finanzas/el-dolar-bajo-tras-cinco-dias-sin-operaciones-y-el-bcra-compro-otros-usd-29-millones/",
+          "oficial": false
+        },
+        {
+          "nombre": "Ámbito",
+          "url": "https://www.ambito.com/finanzas/las-reservas-del-bcra-cayeron-minimos-mas-un-mes-pero-se-mantuvieron-las-compras-pese-al-feriado-eeuu-n6344161",
+          "oficial": false
+        }
+      ]
+    },
+    {
       "fecha": "2026-11-10",
       "categoria": "Dólar",
       "titulo": "Cinco días sin bancos: no hubo mercado de cambios del 6 al 10 de noviembre",
@@ -510,23 +533,6 @@
           "nombre": "Cancillería (acuerdo de febrero)",
           "url": "https://www.cancilleria.gob.ar/es/actualidad/noticias/argentina-y-estados-unidos-firmaron-un-acuerdo-sobre-comercio-e-inversiones",
           "oficial": true
-        }
-      ]
-    },
-    {
-      "fecha": "2026-10-13",
-      "categoria": "INDEC",
-      "titulo": "La inflación de septiembre fue 1,9% y acumula 23,6% en el año",
-      "resumen": "Según el INDEC, los precios subieron 1,9% en septiembre (1,7% en agosto), 23,6% en enero-septiembre y 33,4% interanual. Lo que más subió fue vivienda, agua, electricidad y gas (3,1%) y educación (3%). La inflación núcleo fue 1,7%.",
-      "porque": "Si los precios en pesos suben más rápido que el dólar, los productos importados se abaratan en términos reales y exportar desde Argentina se vuelve menos competitivo.",
-      "claves": [
-        "los productos importados se abaratan en términos reales y exportar desde Argentina se vuelve menos competitivo"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Infobae",
-          "url": "https://www.infobae.com/economia/2026/10/13/la-inflacion-en-septiembre-fue-de-19-y-acumulo-334-en-los-ultimos-doce-meses/",
-          "oficial": false
         }
       ]
     }
