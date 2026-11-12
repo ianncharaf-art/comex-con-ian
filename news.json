@@ -20,6 +20,49 @@
       ]
     },
     {
+      "fecha": "2026-11-12",
+      "categoria": "Dólar",
+      "titulo": "El BCRA compró US$103 millones, su mayor compra de noviembre, y el mayorista cerró en $1.545,50",
+      "resumen": "El Banco Central compró US$103 millones el jueves 12, el monto más alto de noviembre: en el mes suma US$183 millones y en el año US$16.147 millones. Aun así, las reservas brutas bajaron US$252 millones, a US$49.078 millones. El mayorista subió $1,50 y cerró en $1.545,50; el blue terminó en $1.565, $5 menos que el miércoles.",
+      "porque": "Que el Central pueda comprar más de US$100 millones en un día muestra que entran dólares al mercado: le da calma al tipo de cambio con el que pagás importaciones.",
+      "claves": [
+        "el monto más alto de noviembre",
+        "El mayorista subió $1,50 y cerró en $1.545,50",
+        "le da calma al tipo de cambio con el que pagás importaciones"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/11/12/el-banco-central-compro-mas-de-usd-100-millones-el-mayor-monto-de-noviembre/",
+          "oficial": false
+        },
+        {
+          "nombre": "Ámbito",
+          "url": "https://www.ambito.com/finanzas/el-dolar-blue-un-fuerte-rebote-y-volvio-acercarse-al-mayorista-n6344634",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "fecha": "2026-11-12",
+      "categoria": "INDEC",
+      "titulo": "La inflación de octubre fue 2,2% y volvió a pasar el 2% mensual",
+      "resumen": "Según el INDEC, los precios subieron 2,2% en octubre, 0,3 puntos más que el 1,9% de septiembre. En los primeros diez meses de 2026 la inflación acumula 26,3% y en los últimos doce meses, 33,1%. Es la primera vez en tres meses que el índice supera el 2% (agosto fue 1,7%).",
+      "porque": "Con el mayorista casi quieto y precios subiendo 2,2% por mes, lo importado se abarata en pesos frente a lo local: tenelo en cuenta al fijar precios de venta.",
+      "claves": [
+        "los precios subieron 2,2% en octubre",
+        "la inflación acumula 26,3%",
+        "tenelo en cuenta al fijar precios de venta"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Minuto Uno",
+          "url": "https://www.minutouno.com/economia/segun-el-indec-la-inflacion-octubre-fue-22-n6344582",
+          "oficial": false
+        }
+      ]
+    },
+    {
       "fecha": "2026-11-11",
       "categoria": "Dólar",
       "titulo": "Volvió el mercado tras cinco días: el mayorista bajó a $1.544 y el BCRA compró US$29 millones",
@@ -56,6 +99,44 @@
         {
           "nombre": "PolitiFact",
           "url": "https://politifact.com/factchecks/2026/nov/11/byron-donalds/florida-byron-donalds-iran-war-strait-hormuz-oil",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "fecha": "2026-11-11",
+      "categoria": "Comercio exterior",
+      "titulo": "Nuevas reglas para importar ropa usada: trámite previo al embarque y reembarco si algo no coincide",
+      "resumen": "La Resolución 461/2026 de la Secretaría de Industria y Comercio (Boletín Oficial del 11/11, vigente desde el 12/11) fija el procedimiento para importar ropa usada (NCM 6309.00.10 y 6309.00.90). El trámite se hace antes de embarcar, por cada operación, y después hay 90 días hábiles para el despacho a plaza. Si al llegar hay diferencias en los papeles o en la mercadería, se reembarca a origen en 30 días corridos a cargo del importador; si se repite, queda inhabilitado 36 meses para esta operatoria.",
+      "porque": "Si pensás traer fardos de ropa usada, primero hacé el trámite y revisá que la documentación coincida con la carga: un error te obliga a devolverla pagando vos.",
+      "claves": [
+        "El trámite se hace antes de embarcar, por cada operación",
+        "se reembarca a origen en 30 días corridos a cargo del importador",
+        "primero hacé el trámite"
+      ],
+      "fuentes": [
+        {
+          "nombre": "CIRA (texto de la resolución)",
+          "url": "https://www.cira.org.ar/es/servicios/normativas-servicios/resolucion/resolucion-461-2026-2/",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "fecha": "2026-11-11",
+      "categoria": "Mundo",
+      "titulo": "El Canal de Panamá suma tránsitos y vuelve al calado máximo de 50 pies",
+      "resumen": "Por la mejora en los niveles del lago, la Autoridad del Canal de Panamá subió la capacidad de reservas diarias de 33 a 34 cupos (24 en las esclusas Panamax y 10 en las Neopanamax) y restableció el calado máximo de 15,24 metros (50 pies) en las Neopanamax, desde los 49 pies de octubre. El cupo extra en Panamax se libera por etapas: subasta del 12 al 17 de noviembre y desde el 24 de noviembre en el sistema regular.",
+      "porque": "Panamá conecta la costa este de EE.UU. con Asia y la costa del Pacífico: más cupos y más calado significan menos demoras y barcos más cargados en esas rutas.",
+      "claves": [
+        "de 33 a 34 cupos",
+        "restableció el calado máximo de 15,24 metros (50 pies)",
+        "menos demoras y barcos más cargados"
+      ],
+      "fuentes": [
+        {
+          "nombre": "gCaptain",
+          "url": "https://gcaptain.com/panama-canal-raises-daily-transit-capacity-as-water-conditions-improve",
           "oficial": false
         }
       ]
@@ -102,6 +183,25 @@
         {
           "nombre": "MercoPress",
           "url": "https://es.mercopress.com/2026/11/11/el-acuerdo-ue-mercosur-seis-meses-despues-ganadores-afectados-y-la-incognita-del-tribunal-europeo",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "fecha": "2026-11-10",
+      "categoria": "Exportación",
+      "titulo": "Brasil cosecha 27% menos trigo y se abre la puerta al trigo argentino",
+      "resumen": "La Conab estima que Brasil producirá 5,73 millones de toneladas de trigo en 2026/27, 27,2% menos que el año anterior, por lluvias en São Paulo y Paraná. El USDA proyecta que Brasil importará un récord de 7,5 millones de toneladas. Argentina exportó casi 2 millones de toneladas en septiembre y octubre, récord para esos meses según la Bolsa de Comercio de Rosario, y en octubre entraron a puertos más de 980.000 toneladas.",
+      "porque": "Brasil es el principal comprador del trigo argentino: con menos cosecha propia, los exportadores tienen más demanda asegurada a pocos kilómetros.",
+      "claves": [
+        "27,2% menos que el año anterior",
+        "importará un récord de 7,5 millones de toneladas",
+        "los exportadores tienen más demanda asegurada"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/11/10/trigo-argentino-al-rescate-una-menor-cosecha-en-brasil-abre-grandes-puertas-para-la-exportacion-nacional/",
           "oficial": false
         }
       ]
@@ -172,6 +272,25 @@
         {
           "nombre": "iProfesional",
           "url": "https://www.iprofesional.com/negocios/468526-importacion-de-autos-electricos-el-gobierno-cambia-el-cupo-para-2027",
+          "oficial": false
+        }
+      ]
+    },
+    {
+      "fecha": "2026-11-06",
+      "categoria": "Mundo",
+      "titulo": "Maersk y Hapag-Lloyd anunciaron su vuelta al Canal de Suez",
+      "resumen": "Maersk prevé volver a cruzar el Canal de Suez desde el 12 de noviembre y Hapag-Lloyd desde el 13, con su servicio conjunto ME1 entre India y Europa, en lugar de rodear el Cabo de Buena Esperanza. La continuidad depende de cómo evolucione la seguridad en el Mar Rojo, y los puertos y escalas tendrán que reajustarse.",
+      "porque": "Si las grandes navieras dejan de dar la vuelta por África, se libera capacidad de barcos en todo el mundo y eso tiende a bajar los fletes, también hacia Sudamérica.",
+      "claves": [
+        "desde el 12 de noviembre",
+        "La continuidad depende de cómo evolucione la seguridad en el Mar Rojo",
+        "tiende a bajar los fletes"
+      ],
+      "fuentes": [
+        {
+          "nombre": "DataPortuaria",
+          "url": "https://dataportuaria.com/en/internacional/shipping/maersk-and-hapag-lloyd-to-resume-suez-canal-transits-on-november-12-and-13-cf9307",
           "oficial": false
         }
       ]
