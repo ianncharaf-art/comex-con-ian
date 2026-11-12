@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-11T12:13:44+00:00",
+ "actualizado": "2026-11-12T12:14:10+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -144,6 +144,15 @@
    "noticia": "Bancos cerrados del viernes 6 al martes 10 de noviembre (Día del Bancario, finde, feriado por la visita del papa y feriado bancario del BCRA); el mayorista quedó en $1.545,50 y el mercado volvió el miércoles 11.",
    "para": "Graciela",
    "titulo": "Cinco días sin bancos: si tenías que pagarle a un proveedor de afuera, mirá esto"
+  },
+  "guion-2026-11-11-1": {
+   "fecha": "2026-11-11",
+   "fuente": "https://www.baenegocios.com/finanzas/el-dolar-bajo-tras-cinco-dias-sin-operaciones-y-el-bcra-compro-otros-usd-29-millones/",
+   "guion": "GANCHO: \"El Central compró dólares y las reservas bajaron. Te explico.\"\n\n1. \"Volvió el mercado después de cinco días sin bancos y el mayorista cerró en $1.544, un peso y medio menos que antes del parate.\" (en pantalla: mayorista $1.544)\n2. \"El Banco Central compró 29 millones de dólares. En el año ya lleva 16.048 millones.\" (en pantalla: +US$29 M · año US$16.048 M)\n3. \"Pero las reservas bajaron 312 millones, a 49.330 millones. ¿Por qué? Porque parte de las reservas son oro y otras monedas, y ese día el oro bajó y el dólar subió en el mundo.\" (en pantalla: reservas -US$312 M · oro ↓)\n4. \"O sea: las reservas no son solo dólares en una caja. Valen más o menos según los precios de afuera.\" (en pantalla: reservas = dólares + oro + otras)\n\nMi lectura: para el que importa, lo importante es que el dólar volvió sin saltos después del parate.\n\nCIERRE: \"¿Sabías que las reservas tenían oro? Guardalo.\"\n\nFuente para el caption: BAE Negocios y Ámbito.",
+   "kind": "guion",
+   "noticia": "Tras cinco días sin operar, el mayorista cerró en $1.544 ($1,50 menos); el BCRA compró US$29 millones (US$16.048 millones en el año) pero las reservas cayeron US$312 millones a US$49.330 millones por la baja del oro y la suba global del dólar.",
+   "para": "Tomi",
+   "titulo": "El Central compró dólares pero las reservas bajaron. ¿Cómo puede ser?"
   },
   "sem-2026-10-26": {
    "carruseles": [
