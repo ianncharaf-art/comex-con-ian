@@ -23,9 +23,12 @@ const fdate = s => { const [y, mo, d] = String(s).split('-'); return d && mo ? `
 const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const safeUrl = u => /^https:\/\//.test(u || '') ? u : '#';
 
-const cats = ['Todas', ...new Set(news.items.map(n => n.categoria))];
+// Igual que en el navegador: las noticias de 10 días o más no se muestran (hora Argentina)
+const hoyAR = Date.parse(new Date().toLocaleDateString('en-CA', { timeZone: 'America/Argentina/Buenos_Aires' }) + 'T00:00:00Z');
+const fresh = news.items.filter(n => { const t = Date.parse(String(n.fecha) + 'T00:00:00Z'); return isNaN(t) || (hoyAR - t) / 864e5 < 10; });
+const cats = ['Todas', ...new Set(fresh.map(n => n.categoria))];
 const filters = cats.map(c => `<button class="fpill" data-c="${esc(c)}" aria-pressed="${c === 'Todas'}">${esc(c)}</button>`).join('');
-const list = [...news.items].sort((a, b) => String(b.fecha).localeCompare(String(a.fecha)));
+const list = [...fresh].sort((a, b) => String(b.fecha).localeCompare(String(a.fecha)));
 const items = list.map((n, i) => {
   const fs = n.fuentes || []; const main = fs[0];
   return `<article class="nitem${i === 0 ? ' feat' : ''}">
@@ -43,7 +46,7 @@ const slot = (name, content) => {
   if (!re.test(html)) throw new Error('Falta el marcador ' + name);
   html = html.replace(re, () => `<!--PR:${name}-->${content}<!--/PR:${name}-->`);
 };
-slot('ncount', String(news.items.length));
+slot('ncount', String(fresh.length));
 slot('nsrcs', String(SOURCES.length));
 slot('nupd', news.actualizado ? 'Actualizado el ' + fdate(news.actualizado) : 'Radar de comex');
 slot('hupd', news.actualizado ? 'Radar · ' + fdate(news.actualizado) : 'Radar');
