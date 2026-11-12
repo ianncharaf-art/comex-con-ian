@@ -1,0 +1,326 @@
+[
+ {
+  "nombre": "Boletín Oficial",
+  "oficial": true,
+  "desc": "Decretos y resoluciones: aranceles, retenciones, reintegros",
+  "url": "https://www.boletinoficial.gob.ar/"
+ },
+ {
+  "nombre": "ARCA",
+  "oficial": true,
+  "desc": "Aduana, regímenes de importación y exportación, resoluciones generales",
+  "url": "https://www.arca.gob.ar/"
+ },
+ {
+  "nombre": "VUCE",
+  "oficial": true,
+  "desc": "Ventanilla Única: licencias, certificados y trámites",
+  "url": "https://www.vuce.gob.ar/"
+ },
+ {
+  "nombre": "BCRA",
+  "oficial": true,
+  "desc": "Tipo de cambio, Com. A 3500 y normativa cambiaria",
+  "url": "https://www.bcra.gob.ar/"
+ },
+ {
+  "nombre": "INDEC",
+  "oficial": true,
+  "desc": "Intercambio comercial argentino y estadísticas",
+  "url": "https://www.indec.gob.ar/"
+ },
+ {
+  "nombre": "Ministerio de Economía",
+  "oficial": true,
+  "desc": "Política comercial, aranceles y anuncios",
+  "url": "https://www.argentina.gob.ar/economia"
+ },
+ {
+  "nombre": "Secretaría de Industria y Comercio",
+  "oficial": true,
+  "desc": "Licencias, antidumping y regímenes especiales",
+  "url": "https://www.argentina.gob.ar/economia/industria-y-comercio"
+ },
+ {
+  "nombre": "Comisión Nacional de Comercio Exterior",
+  "oficial": true,
+  "desc": "Investigaciones de dumping y salvaguardias",
+  "url": "https://www.argentina.gob.ar/cnce"
+ },
+ {
+  "nombre": "Cancillería · CEI",
+  "oficial": true,
+  "desc": "Centro de Economía Internacional y acuerdos",
+  "url": "https://cancilleria.gob.ar/es/cei"
+ },
+ {
+  "nombre": "Argentina TradeNet",
+  "oficial": true,
+  "desc": "Promoción de exportaciones y oportunidades",
+  "url": "https://www.cancilleria.gob.ar/es/argentinatradenet/noticias"
+ },
+ {
+  "nombre": "Agencia de Inversiones y Comercio Internacional",
+  "oficial": true,
+  "desc": "Programas para exportadores",
+  "url": "https://www.inversionycomercio.ar/"
+ },
+ {
+  "nombre": "SENASA",
+  "oficial": true,
+  "desc": "Requisitos sanitarios y fitosanitarios",
+  "url": "https://www.argentina.gob.ar/senasa"
+ },
+ {
+  "nombre": "ANMAT",
+  "oficial": true,
+  "desc": "Alimentos, cosméticos, medicamentos y productos médicos",
+  "url": "https://www.argentina.gob.ar/anmat"
+ },
+ {
+  "nombre": "INV",
+  "oficial": true,
+  "desc": "Instituto Nacional de Vitivinicultura",
+  "url": "https://www.argentina.gob.ar/inv"
+ },
+ {
+  "nombre": "ENACOM",
+  "oficial": true,
+  "desc": "Homologación de equipos de telecomunicaciones",
+  "url": "https://www.enacom.gob.ar/"
+ },
+ {
+  "nombre": "Puerto Buenos Aires (AGP)",
+  "oficial": true,
+  "desc": "Operativa portuaria y terminales",
+  "url": "https://www.puertobuenosaires.gob.ar/"
+ },
+ {
+  "nombre": "Argentina.gob.ar · Noticias",
+  "oficial": true,
+  "desc": "Anuncios del Gobierno nacional",
+  "url": "https://www.argentina.gob.ar/noticias"
+ },
+ {
+  "nombre": "CIRA",
+  "oficial": false,
+  "desc": "Cámara de Importadores: normativa y novedades para importar",
+  "url": "https://www.cira.org.ar/"
+ },
+ {
+  "nombre": "Centro de Despachantes de Aduana",
+  "oficial": false,
+  "desc": "Novedades aduaneras y operativas",
+  "url": "https://cda.org.ar/"
+ },
+ {
+  "nombre": "Cámara Argentina de Comercio y Servicios",
+  "oficial": false,
+  "desc": "Comercio exterior e informes",
+  "url": "https://www.cac.com.ar/"
+ },
+ {
+  "nombre": "Cámara de Exportadores (CERA)",
+  "oficial": false,
+  "desc": "Novedades para exportadores",
+  "url": "https://www.cera.org.ar/"
+ },
+ {
+  "nombre": "CAME",
+  "oficial": false,
+  "desc": "Pymes, comercio e importaciones",
+  "url": "https://www.redcame.org.ar/"
+ },
+ {
+  "nombre": "UIA",
+  "oficial": false,
+  "desc": "Unión Industrial: industria y comercio exterior",
+  "url": "https://www.uia.org.ar/"
+ },
+ {
+  "nombre": "Bolsa de Comercio de Rosario",
+  "oficial": false,
+  "desc": "Agro, granos, puertos y exportaciones",
+  "url": "https://www.bcr.com.ar/"
+ },
+ {
+  "nombre": "CIARA-CEC",
+  "oficial": false,
+  "desc": "Exportaciones agroindustriales y liquidación de divisas",
+  "url": "https://www.ciaracec.com.ar/"
+ },
+ {
+  "nombre": "Aduana News",
+  "oficial": false,
+  "desc": "Noticias de aduana y comercio exterior",
+  "url": "https://aduananews.com/"
+ },
+ {
+  "nombre": "Comercio y Justicia",
+  "oficial": false,
+  "desc": "Normativa y negocios",
+  "url": "https://comercioyjusticia.info/"
+ },
+ {
+  "nombre": "Ámbito · Comercio exterior",
+  "oficial": false,
+  "desc": "Sección de comercio exterior",
+  "url": "https://www.ambito.com/comercio-exterior-a5125851"
+ },
+ {
+  "nombre": "La Nación · Comercio exterior",
+  "oficial": false,
+  "desc": "Sección de comercio exterior",
+  "url": "https://www.lanacion.com.ar/economia/comercio-exterior/"
+ },
+ {
+  "nombre": "El Cronista",
+  "oficial": false,
+  "desc": "Economía, finanzas y comercio",
+  "url": "https://www.cronista.com/"
+ },
+ {
+  "nombre": "Infobae · Economía",
+  "oficial": false,
+  "desc": "Economía y dólar",
+  "url": "https://www.infobae.com/economia/"
+ },
+ {
+  "nombre": "Clarín · Economía",
+  "oficial": false,
+  "desc": "Economía y negocios",
+  "url": "https://www.clarin.com/economia/"
+ },
+ {
+  "nombre": "iProfesional",
+  "oficial": false,
+  "desc": "Negocios, impuestos y comercio exterior",
+  "url": "https://www.iprofesional.com/"
+ },
+ {
+  "nombre": "BAE Negocios",
+  "oficial": false,
+  "desc": "Finanzas, mercados y dólar",
+  "url": "https://www.baenegocios.com/"
+ },
+ {
+  "nombre": "Bloomberg Línea",
+  "oficial": false,
+  "desc": "Argentina y Latinoamérica",
+  "url": "https://www.bloomberglinea.com/latinoamerica/argentina/"
+ },
+ {
+  "nombre": "Buenos Aires Times",
+  "oficial": false,
+  "desc": "Economía argentina en inglés",
+  "url": "https://www.batimes.com.ar/"
+ },
+ {
+  "nombre": "Mercosur",
+  "oficial": true,
+  "desc": "Decisiones, AEC y acuerdos del bloque",
+  "url": "https://www.mercosur.int/"
+ },
+ {
+  "nombre": "ALADI",
+  "oficial": true,
+  "desc": "Acuerdos regionales y preferencias",
+  "url": "https://www.aladi.org/"
+ },
+ {
+  "nombre": "MercoPress",
+  "oficial": false,
+  "desc": "Noticias del Mercosur y el Atlántico Sur",
+  "url": "https://es.mercopress.com/"
+ },
+ {
+  "nombre": "OMC",
+  "oficial": false,
+  "desc": "Organización Mundial del Comercio",
+  "url": "https://www.wto.org/indexsp.htm"
+ },
+ {
+  "nombre": "OMA",
+  "oficial": false,
+  "desc": "Organización Mundial de Aduanas",
+  "url": "https://www.wcoomd.org/"
+ },
+ {
+  "nombre": "ICC",
+  "oficial": false,
+  "desc": "Cámara de Comercio Internacional · Incoterms",
+  "url": "https://iccwbo.org/"
+ },
+ {
+  "nombre": "UNCTAD",
+  "oficial": false,
+  "desc": "Comercio y transporte marítimo mundial",
+  "url": "https://unctad.org/es"
+ },
+ {
+  "nombre": "Reuters",
+  "oficial": false,
+  "desc": "Comercio mundial, aranceles y materias primas",
+  "url": "https://www.reuters.com/business/"
+ },
+ {
+  "nombre": "Drewry",
+  "oficial": false,
+  "desc": "World Container Index: fletes de contenedores",
+  "url": "https://www.drewry.co.uk/"
+ },
+ {
+  "nombre": "Freightos",
+  "oficial": false,
+  "desc": "Índice FBX de fletes marítimos y aéreos",
+  "url": "https://www.freightos.com/"
+ },
+ {
+  "nombre": "Xeneta",
+  "oficial": false,
+  "desc": "Mercado de fletes y tarifas",
+  "url": "https://www.xeneta.com/"
+ },
+ {
+  "nombre": "Container News",
+  "oficial": false,
+  "desc": "Navieras, puertos y contenedores",
+  "url": "https://container-news.com/"
+ },
+ {
+  "nombre": "The Loadstar",
+  "oficial": false,
+  "desc": "Logística y carga aérea y marítima",
+  "url": "https://theloadstar.com/"
+ },
+ {
+  "nombre": "Splash247",
+  "oficial": false,
+  "desc": "Transporte marítimo",
+  "url": "https://splash247.com/"
+ },
+ {
+  "nombre": "The Logistics World",
+  "oficial": false,
+  "desc": "Logística en Latinoamérica",
+  "url": "https://thelogisticsworld.com/"
+ },
+ {
+  "nombre": "Canal de Panamá",
+  "oficial": true,
+  "desc": "Avisos de tránsito y restricciones",
+  "url": "https://pancanal.com/"
+ },
+ {
+  "nombre": "Canal de Suez",
+  "oficial": true,
+  "desc": "Tránsitos y tarifas",
+  "url": "https://www.suezcanal.gov.eg/"
+ },
+ {
+  "nombre": "DolarApi",
+  "oficial": false,
+  "desc": "Cotizaciones del dólar en vivo",
+  "url": "https://dolarapi.com/"
+ }
+]

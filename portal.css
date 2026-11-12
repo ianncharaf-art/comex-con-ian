@@ -172,3 +172,8 @@
 .ncm-res{grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr))}
 .ncm-c small{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .ncm-c .pt-tag{justify-self:start}
+/* Fuentes: 12 a la vista, el resto con "Ver las 54" */
+.sources[data-collapsed="1"] .src:nth-child(n+13){display:none}
+.srcmore{margin-top:14px;align-self:flex-start}
+.srcnote{margin:-6px 0 14px;max-width:70ch}
+.nmore{margin:24px 0 0;align-self:flex-start}
