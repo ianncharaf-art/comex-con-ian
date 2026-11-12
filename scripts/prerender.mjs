@@ -26,19 +26,17 @@ const safeUrl = u => /^https:\/\//.test(u || '') ? u : '#';
 // Igual que en el navegador: las noticias de 10 días o más no se muestran (hora Argentina)
 const hoyAR = Date.parse(new Date().toLocaleDateString('en-CA', { timeZone: 'America/Argentina/Buenos_Aires' }) + 'T00:00:00Z');
 const fresh = news.items.filter(n => { const t = Date.parse(String(n.fecha) + 'T00:00:00Z'); return isNaN(t) || (hoyAR - t) / 864e5 < 10; });
-const cats = ['Todas', ...new Set(fresh.map(n => n.categoria))];
-const filters = cats.map(c => `<button class="fpill" data-c="${esc(c)}" aria-pressed="${c === 'Todas'}">${esc(c)}</button>`).join('');
+// Temas, urgencia e impacto (bloque META) y tarjeta (bloque CARD): el mismo código que corre en el navegador
+const mm = html.match(/\/\*META_START\*\/([\s\S]*?)\/\*META_END\*\//);
+const META = new Function('return ' + mm[1])();
+const cm = html.match(/\/\*CARD_START\*\/([\s\S]*?)\/\*CARD_END\*\//);
+const CARD = new Function('return ' + cm[1])();
+const counts = {};
+fresh.forEach(n => { const c = META.cat(n); counts[c] = (counts[c] || 0) + 1; });
+const filters = ['Todas', ...META.CATS].map(c => `<button class="fpill" data-c="${esc(c)}" aria-pressed="${c === 'Todas'}"${c !== 'Todas' && !counts[c] ? ' data-empty' : ''}>${esc(c)}${c !== 'Todas' ? ` <small>${counts[c] || 0}</small>` : ''}</button>`).join('');
 const list = [...fresh].sort((a, b) => String(b.fecha).localeCompare(String(a.fecha)));
-const items = list.map((n, i) => {
-  const fs = n.fuentes || []; const main = fs[0];
-  return `<article class="nitem${i === 0 ? ' feat' : ''}">
-    ${i === 0 ? '<span class="flag">Última novedad</span>' : ''}
-    <div class="nmeta"><time datetime="${esc(n.fecha)}">${esc(fdate(n.fecha))}</time><span class="chip">${esc(n.categoria)}</span></div>
-    <h4>${main ? `<a class="nlink" href="${esc(safeUrl(main.url))}" target="_blank" rel="noopener">${esc(n.titulo)}</a>` : esc(n.titulo)}</h4><p>${hl(n.resumen, n)}</p>
-    ${n.porque ? `<p class="nwhy"><b>Por qué importa:</b> ${hl(n.porque, n)}</p>` : ''}
-    ${main ? `<span class="ngo">Leer en ${esc(main.nombre)} <span aria-hidden="true">→</span></span>` : ''}<div class="nsrc">${fs.map(f => `<a href="${esc(safeUrl(f.url))}" target="_blank" rel="noopener">${esc(f.nombre)} <small class="${f.oficial ? '' : 'm'}">${f.oficial ? 'Oficial' : 'Medio'}</small></a>`).join('')}</div>
-  </article>`;
-}).join('');
+const U = { esc, fdate, safeUrl, hl, META };
+const items = list.map((n, i) => CARD(n, i === 0, U)).join('');
 const sources = SOURCES.map(([n, d, u]) => `<a class="src" href="${u}" target="_blank" rel="noopener"><b>${n}</b><span>${d}</span><em>${u.replace('https://', '').replace(/\/$/, '')}</em></a>`).join('');
 
 const slot = (name, content) => {

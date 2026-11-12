@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /centro
+Disallow: /api/
+
+Sitemap: https://comex-con-ian.vercel.app/sitemap.xml
