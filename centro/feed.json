@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-12T12:14:10+00:00",
+ "actualizado": "2026-11-13T12:14:01+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -153,6 +153,24 @@
    "noticia": "Tras cinco días sin operar, el mayorista cerró en $1.544 ($1,50 menos); el BCRA compró US$29 millones (US$16.048 millones en el año) pero las reservas cayeron US$312 millones a US$49.330 millones por la baja del oro y la suba global del dólar.",
    "para": "Tomi",
    "titulo": "El Central compró dólares pero las reservas bajaron. ¿Cómo puede ser?"
+  },
+  "guion-2026-11-12-1": {
+   "fecha": "2026-11-12",
+   "fuente": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry",
+   "guion": "GANCHO: \"¿Cuánto sale mover un contenedor por el mundo? Te muestro.\"\n\n1. \"Hay un índice que mide el precio promedio de mover un contenedor de 40 pies: esta semana quedó en 4.305 dólares, 2% menos que la anterior.\" (en pantalla: contenedor 40' = US$4.305)\n2. \"De Shanghái a Rotterdam, en Europa: 3.504 dólares. A Génova: 4.168.\" (en pantalla: China → Europa ≈ US$3.500-4.200)\n3. \"De Shanghái a Los Ángeles: 7.416. A Nueva York: 9.020. El doble que a Europa.\" (en pantalla: China → EE.UU. ≈ US$7.400-9.000)\n4. \"Ojo: es una referencia mundial, no el precio a Buenos Aires. Para tu ruta tenés que pedir cotización.\" (en pantalla: Buenos Aires: pedí cotización)\n\nMi lectura: el flete es una parte grande del costo de importar, y si la referencia baja, es buen momento para pedir precio actualizado.\n\nCIERRE: \"¿Sabías cuánto costaba un contenedor? Guardalo.\"\n\nFuente para el caption: Drewry, World Container Index.",
+   "kind": "guion",
+   "noticia": "El World Container Index de Drewry (12/11) marcó US$4.305 por contenedor de 40 pies (-2%); Shanghái–Rotterdam US$3.504 (-3%), Shanghái–Génova US$4.168, Shanghái–Los Ángeles US$7.416 (-2%), Shanghái–Nueva York US$9.020 (-3%).",
+   "para": "Tomi",
+   "titulo": "Cuánto sale traer un contenedor desde China esta semana"
+  },
+  "guion-2026-11-12-2": {
+   "fecha": "2026-11-12",
+   "fuente": "https://prensamercosur.org/2026/11/12/arca-reglamento-el-plan-de-reduccion-de-multas-para-pymes/",
+   "guion": "GANCHO: \"Si te olvidaste de presentar algo en ARCA, esto te ahorra plata.\"\n\n1. \"ARCA reglamentó una rebaja del 50% en las multas por deberes formales: las que te ponen por no presentar una declaración o un trámite a tiempo.\" (en pantalla: multas formales -50%)\n2. \"Aplica a obligaciones vencidas desde el 2 de enero de 2026 y a infracciones de antes del 9 de octubre.\" (en pantalla: vencidas desde 2/1/2026)\n3. \"La condición: cumplir lo que te faltó hasta el 18 de diciembre.\" (en pantalla: plazo 18/12)\n4. \"Es la Resolución General 5927, publicada el 12 de noviembre en el Boletín Oficial.\" (en pantalla: RG ARCA 5927/2026)\n\nMi lectura: si tenés algo pendiente, no lo dejes para fin de año; habla con tu contador esta semana.\n\nCIERRE: \"Mandáselo a tu contador y guardalo.\"\n\nFuente para el caption: Prensa Mercosur, RG ARCA 5927/2026.",
+   "kind": "guion",
+   "noticia": "La RG 5927/2026 de ARCA (BO 12/11) reglamenta la rebaja de 50% en multas por deberes formales: obligaciones vencidas desde el 2/1/2026, infracciones antes del 9/10/2026, cumpliendo lo omitido hasta el 18/12/2026.",
+   "para": "Graciela",
+   "titulo": "Si tu empresa debe una multa formal, hasta el 18 de diciembre pagás la mitad"
   },
   "sem-2026-10-26": {
    "carruseles": [
