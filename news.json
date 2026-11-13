@@ -120,6 +120,130 @@
       "agregado": "2026-11-13T10:45:00-03:00"
     },
     {
+      "fecha": "2026-11-13",
+      "categoria": "Dólar",
+      "titulo": "Las bandas del dólar suben 2,2% en diciembre: el techo llegará a $2.032,88",
+      "resumen": "Con la inflación de octubre de 2,2%, las bandas cambiarias se actualizan en la misma proporción en diciembre: el techo llegará a $2.032,88 hacia fin de año y el piso quedará en $683,07. El mecanismo que ajusta las bandas por inflación rige desde el 2 de enero de 2026, cuando el techo era de $1.529,03. El mayorista cerró el jueves en $1.545,50, lejos del límite superior.",
+      "porque": "El techo de la banda es el peor escenario para el dólar oficial: usalo como tope al calcular el costo en pesos de una importación que pagás en diciembre.",
+      "claves": [
+        "el techo llegará a $2.032,88 hacia fin de año",
+        "usalo como tope al calcular el costo en pesos"
+      ],
+      "fuentes": [
+        {
+          "nombre": "BAE Negocios",
+          "url": "https://www.baenegocios.com/finanzas/la-inflacion-tambien-mueve-el-dolar-las-bandas-se-actualizan-2-2-y-el-techo-superara-los-2-000-en-diciembre/",
+          "oficial": false
+        },
+        {
+          "nombre": "Ámbito",
+          "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cotiza-este-viernes-13-noviembre-n6344747",
+          "oficial": false
+        }
+      ],
+      "sector": "BCRA / Cambiario",
+      "urgencia": "Media",
+      "impacto": "Para cotizar importaciones con pago en diciembre, tenés un techo oficial de $2.032,88 como escenario más caro; hoy el mayorista está unos $490 por debajo.",
+      "agregado": "2026-11-13T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-13",
+      "categoria": "Exportación",
+      "titulo": "La Bolsa de Rosario sube la cosecha de trigo a 24,3 millones de toneladas",
+      "resumen": "La Bolsa de Comercio de Rosario elevó su estimación de trigo 2026/27 a 24,3 millones de toneladas, unas 500.000 más que en octubre, con 13% de la cosecha hecha. Sería la segunda más grande de la historia, sobre 6,95 millones de hectáreas y un rinde promedio de 36 quintales por hectárea. La baja de los fertilizantes impulsó más inversión y el clima fresco limitó enfermedades. En mayo se esperaban 18 a 19 millones de toneladas.",
+      "porque": "Más trigo significa más saldo exportable justo cuando Brasil necesita importar: buena temporada para exportadores y para la logística de los puertos del Gran Rosario.",
+      "claves": [
+        "24,3 millones de toneladas",
+        "Sería la segunda más grande de la historia",
+        "buena temporada para exportadores"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Ruralnet (datos de la BCR)",
+          "url": "https://ruralnet.com.ar/produccion-trigo-argentina-2026/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Si trabajás en exportación de granos o logística portuaria, diciembre y enero vienen con mucho volumen de trigo para embarcar.",
+      "agregado": "2026-11-13T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-13",
+      "categoria": "Exportación",
+      "titulo": "Brasil compra 17% más autos, pero cada vez menos argentinos: China le gana el lugar",
+      "resumen": "Brasil patentó 2,41 millones de autos y utilitarios livianos en enero-octubre, 17,3% más que en 2025, pero los envíos argentinos a Brasil cayeron 8,4%, a 144.709 unidades. Entre los importados en Brasil, los de origen chino pasaron de 123.500 a 254.900 y los argentinos bajaron de 150.300 a 128.700 (enero-septiembre, Anfavea). Las exportaciones automotrices argentinas totales subieron 0,6% (230.865 unidades) gracias a otros destinos, que crecieron 20,5%; Perú compró 19.377 vehículos.",
+      "porque": "El mercado brasileño crece pero lo ganan los autos chinos: para las automotrices y autopartistas argentinas, diversificar destinos (Perú, Chile, México) ya no es opcional.",
+      "claves": [
+        "los envíos argentinos a Brasil cayeron 8,4%",
+        "los de origen chino pasaron de 123.500 a 254.900",
+        "diversificar destinos"
+      ],
+      "fuentes": [
+        {
+          "nombre": "La Nación",
+          "url": "https://www.lanacion.com.ar/autos/brasil-compra-mas-autos-pero-la-industria-argentina-pierde-terreno-en-su-principal-mercado-nid13112026/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Buen caso para estudiar competencia en el Mercosur: Argentina tiene arancel 0 en Brasil y aun así pierde contra China por precio y oferta de eléctricos.",
+      "agregado": "2026-11-13T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-13",
+      "categoria": "Exportación",
+      "titulo": "China duplicaría su consumo de carne vacuna para 2040: más demanda para Argentina",
+      "resumen": "En el Congreso Federal Ganadero de Rosario, Weng Yu Qing, presidente en Argentina de Huapei Agricultural Development Group, dijo que China proyecta pasar de unos 7 a 15 kilos de carne vacuna por habitante al año para 2040 y que su producción cubre solo la mitad del consumo. Argentina le vende a China más del 60% de su carne. El empresario anticipó más cupo de importación el año próximo y planes de inversión en Argentina, sin montos, y quiere exportar más productos elaborados, para lo que hacen falta habilitaciones entre gobiernos.",
+      "porque": "China ya es el principal comprador de carne argentina y su demanda va a seguir creciendo: hay espacio para vender cortes premium y productos con más valor agregado.",
+      "claves": [
+        "de unos 7 a 15 kilos de carne vacuna por habitante al año para 2040",
+        "Argentina le vende a China más del 60% de su carne",
+        "hay espacio para vender cortes premium"
+      ],
+      "fuentes": [
+        {
+          "nombre": "La Nación",
+          "url": "https://www.lanacion.com.ar/economia/campo/china-proyecta-duplicar-su-consumo-de-carne-para-2040-y-un-empresario-anticipa-mas-compras-e-nid13112026/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Si te interesa exportar alimentos a China, el cuello de botella no es la demanda sino las habilitaciones sanitarias por planta y producto.",
+      "agregado": "2026-11-13T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-13",
+      "categoria": "Mundo",
+      "titulo": "Trump amenaza con duplicar los aranceles a México y Sheinbaum lo rechaza",
+      "resumen": "Donald Trump dijo que duplicaría \"de inmediato\" los aranceles a México si no frena las caravanas de migrantes que van hacia Estados Unidos. Hoy EE.UU. cobra 25% a los productos mexicanos fuera del T-MEC y 50% al acero y al aluminio. Claudia Sheinbaum respondió el jueves 12 que ninguna caravana llegó a la frontera norte desde que asumió Trump. Los dos países negocian bajar aranceles, incluido el del acero, y México espera un acuerdo antes de fin de año.",
+      "porque": "Si EE.UU. le sube aranceles a México, pueden reacomodarse las cadenas de suministro y abrirse oportunidades o competencia para productos argentinos en el mercado estadounidense.",
+      "claves": [
+        "duplicaría \"de inmediato\" los aranceles a México",
+        "25% a los productos mexicanos fuera del T-MEC y 50% al acero y al aluminio",
+        "pueden reacomodarse las cadenas de suministro"
+      ],
+      "fuentes": [
+        {
+          "nombre": "MundoNOW",
+          "url": "https://www.mundonow.com/en/sheinbaum-responds-trump-tariff-threat-migrant-caravans/",
+          "oficial": false
+        },
+        {
+          "nombre": "Kesco Logistics (Weekly Freight Report)",
+          "url": "https://kescologistics.com/news/weekly-freight-report-november-13-2026/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Informativa",
+      "impacto": "Por ahora es una amenaza sin tasa ni fecha: seguila si exportás a EE.UU. productos que también vende México (acero, aluminio, alimentos).",
+      "agregado": "2026-11-13T11:58:00-03:00"
+    },
+    {
       "fecha": "2026-11-12",
       "categoria": "Mundo",
       "titulo": "Los fletes marítimos bajaron 2%: el índice mundial de contenedores quedó en US$4.305",
