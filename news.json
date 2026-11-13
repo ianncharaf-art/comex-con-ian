@@ -2,6 +2,124 @@
   "actualizado": "2026-11-13",
   "items": [
     {
+      "fecha": "2026-11-13",
+      "categoria": "Mundo",
+      "titulo": "Ormuz: Irán dice que cuatro petroleros y un buque de gas fueron alcanzados por explosiones",
+      "resumen": "Irán afirmó que dos superpetroleros explotaron tras chocar con minas y que otros dos se incendiaron al entrar en una zona restringida del estrecho de Ormuz; también dijo que un buque con gas licuado chocó con una mina. Esas versiones no están confirmadas por organismos marítimos independientes. Sí hay registros de ataques a un petrolero el 10 de noviembre y al buque tanque NCC FAJR el 11, con tripulaciones a salvo. En la primera semana y media de noviembre fueron alcanzados al menos diez barcos, y octubre tuvo 37 ataques, el récord desde que empezó el conflicto. El viernes al mediodía el Brent cotizaba US$96,21 y el WTI US$88,62.",
+      "porque": "Con el petróleo cerca de US$96 y Ormuz trabado, el combustible de barcos y aviones sigue caro: eso se traslada a los fletes y a los recargos de seguro de cualquier carga que traigas.",
+      "claves": [
+        "octubre tuvo 37 ataques, el récord desde que empezó el conflicto",
+        "el Brent cotizaba US$96,21",
+        "eso se traslada a los fletes y a los recargos de seguro"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Relámpago Informativo",
+          "url": "https://www.relampagoinformativo.net/internacionales/2026/11/ormuz-arde-y-el-petroleo-juega-a-la-baja-iran-anuncia-nuevas-explosiones-y-amenaza-el-transito-maritimo/",
+          "oficial": false
+        },
+        {
+          "nombre": "PortalPortuario",
+          "url": "https://portalportuario.cl/iran-afirma-que-cuatro-petroleros-fueron-alcanzados-por-explosiones-en-estrecho-de-ormuz",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Media",
+      "impacto": "Si cotizás fletes ahora, preguntá por recargos de combustible (BAF) y de riesgo de guerra: pueden cambiar de una semana a otra mientras siga el conflicto en Ormuz.",
+      "agregado": "2026-11-13T10:45:00-03:00"
+    },
+    {
+      "fecha": "2026-11-13",
+      "categoria": "Comercio exterior",
+      "titulo": "Importar para Navidad: por barco ya no llegás, solo queda avión o courier",
+      "resumen": "Un análisis de El Cronista sobre la preparación del comercio para las fiestas recuerda que un envío marítimo desde China tarda al menos unos 45 días de viaje más una semana para exportar y otra para importar: unos 60 días desde el embarque hasta tener la mercadería en Argentina, y la producción del proveedor puede sumar 30 días más. Por eso, para Navidad solo llegan a tiempo las compras por avión o courier (unos cinco días hábiles del depósito a Argentina). Las compras por courier sumaron US$960 millones entre enero y septiembre, 59,5% más que en 2025. La nota aconseja separar stock disponible de mercadería en tránsito, no lanzar promociones con fechas de entrega que no se puedan garantizar y validar proveedores antes de comprar.",
+      "porque": "Si vendés productos importados, lo que no embarcaste todavía por barco no llega para las fiestas: planificá el próximo pedido con 60 a 90 días de anticipación.",
+      "claves": [
+        "unos 60 días desde el embarque hasta tener la mercadería en Argentina",
+        "para Navidad solo llegan a tiempo las compras por avión o courier",
+        "planificá el próximo pedido con 60 a 90 días de anticipación"
+      ],
+      "fuentes": [
+        {
+          "nombre": "El Cronista",
+          "url": "https://www.cronista.com/economia-politica/el-consumo-se-prepara-para-navidad-el-nuevo-cuello-de-botella-y-las-claves-para-stocks-y-margenes/",
+          "oficial": false
+        }
+      ],
+      "sector": "Régimen Courier / PyMEs",
+      "urgencia": "Alta",
+      "impacto": "Para reponer stock antes de fin de año, usá courier o carga aérea; para el verano y marzo, el pedido marítimo tiene que salir ya.",
+      "agregado": "2026-11-13T10:45:00-03:00"
+    },
+    {
+      "fecha": "2026-11-13",
+      "categoria": "Comercio exterior",
+      "titulo": "Textiles: las importaciones ya son el 70% del mercado y el courier de ropa se multiplicó por seis",
+      "resumen": "Según la Fundación Pro Tejer, presentado en ProTextil 2026, la actividad textil cayó 33,9% en enero-agosto frente a 2023 y la industria usa solo 40,6% de su capacidad: seis de cada diez máquinas están paradas. Las importaciones de indumentaria subieron 46% en enero-septiembre y las de confecciones para el hogar, 12%. Los envíos por courier sumaron US$960 millones, 6,3 veces lo de 2024. Las importaciones ya son el 70% del mercado, contra 50% histórico, y el valor por kilo de la ropa importada es 37% menor que en 2023.",
+      "porque": "Para quien importa ropa hay más competencia y precios más bajos por kilo; para quien fabrica acá, la presión de lo importado sigue creciendo.",
+      "claves": [
+        "Las importaciones ya son el 70% del mercado",
+        "seis de cada diez máquinas están paradas",
+        "hay más competencia y precios más bajos por kilo"
+      ],
+      "fuentes": [
+        {
+          "nombre": "El Economista",
+          "url": "https://eleconomista.com.ar/economia/protextil-2026-derrumbe-sector-encuentra-piso-presionado-caida-ventas-boom-importador-contrabando-n99639",
+          "oficial": false
+        }
+      ],
+      "sector": "Régimen Courier / PyMEs",
+      "urgencia": "Informativa",
+      "impacto": "Si pensás importar indumentaria, el mercado ya está lleno de producto importado: diferenciate por calidad o nicho, no solo por precio.",
+      "agregado": "2026-11-13T10:45:00-03:00"
+    },
+    {
+      "fecha": "2026-11-13",
+      "categoria": "Comercio exterior",
+      "titulo": "Una marca argentina cerró su fábrica en La Rioja y ahora produce el 70% en China",
+      "resumen": "La marca de ropa Luxo cerró en noviembre de 2025 la fábrica que había abierto en 2022 en el Parque Industrial de La Rioja, con 40 trabajadores, y hoy produce 70% en China y 30% en Argentina. Su director viajó cuatro veces a China para desarrollar proveedores; la factura de luz de la planta se había multiplicado por diez. Según la FAIIA, el sector textil perdió 10.000 empleos formales (23%) y cerraron más de 500 empresas.",
+      "porque": "Es un caso real de cómo una pyme pasa de fabricar a importar: desarrollar proveedores en China lleva viajes, muestras y tiempo.",
+      "claves": [
+        "hoy produce 70% en China y 30% en Argentina",
+        "desarrollar proveedores en China lleva viajes, muestras y tiempo"
+      ],
+      "fuentes": [
+        {
+          "nombre": "iProfesional",
+          "url": "https://www.iprofesional.com/negocios/469024-una-marca-de-ropa-cerro-su-fabrica-y-ahora-produce-el-70-en-china",
+          "oficial": false
+        }
+      ],
+      "sector": "Régimen Courier / PyMEs",
+      "urgencia": "Informativa",
+      "impacto": "Buen caso de estudio: muestra los costos que empujan a una marca a importar y el trabajo que implica armar una cadena de proveedores afuera.",
+      "agregado": "2026-11-13T10:45:00-03:00"
+    },
+    {
+      "fecha": "2026-11-13",
+      "categoria": "Acuerdos",
+      "titulo": "La cumbre de presidentes del Mercosur será el 4 de diciembre en Montevideo",
+      "resumen": "La 69.ª Cumbre de Jefes de Estado del Mercosur y Estados Asociados se hará el 4 de diciembre de 2026 en Montevideo, un día después de la primera reunión del Consejo de Comercio del acuerdo con la Unión Europea. Bolivia llevará la agenda de Urupabol (Uruguay, Paraguay y Bolivia), que acordó impulsar la integración logística y portuaria y la hidrovía Paraguay-Paraná.",
+      "porque": "En las cumbres del Mercosur se definen aranceles comunes, excepciones y acuerdos con otros bloques: lo que salga el 4 de diciembre puede cambiar costos de importar y exportar.",
+      "claves": [
+        "el 4 de diciembre de 2026 en Montevideo",
+        "puede cambiar costos de importar y exportar"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Prensa Latina",
+          "url": "https://prensa-latina.cu/2026/11/13/bolivia-reforzara-posicion-de-subregion-en-cumbre-de-mercosur",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Agendá la fecha: después de la cumbre conviene revisar si cambió algún arancel externo común o hay novedades del acuerdo con la UE.",
+      "agregado": "2026-11-13T10:45:00-03:00"
+    },
+    {
       "fecha": "2026-11-12",
       "categoria": "Mundo",
       "titulo": "Los fletes marítimos bajaron 2%: el índice mundial de contenedores quedó en US$4.305",
