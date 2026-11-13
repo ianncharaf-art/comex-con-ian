@@ -14,5 +14,9 @@ for(const x of dolares){
     try{const j=await get(HIST+x.casa+'/'+d.toISOString().slice(0,10).replace(/-/g,'/'));if(j&&j.venta){cierre[x.casa]=j.venta;break}}catch(e){}
   }
 }
-writeFileSync('fx.json',JSON.stringify({consultado:new Date().toISOString(),dolares,cotizaciones,cierre})+'\n');
-console.log('fx.json:',dolares.length,'dólares,',cotizaciones.length,'monedas,',Object.keys(cierre).length,'cierres');
+// Feriados de este año y el próximo (ArgentinaDatos), para el calendario de la barra de indicadores de la web
+let feriados=[];
+const y=+ymdAR(new Date()).slice(0,4);
+for(const yy of [y,y+1]){try{const f=await get('https://api.argentinadatos.com/v1/feriados/'+yy);if(Array.isArray(f))feriados.push(...f.map(x=>({fecha:x.fecha,tipo:x.tipo,nombre:x.nombre})))}catch(e){}}
+writeFileSync('fx.json',JSON.stringify({consultado:new Date().toISOString(),dolares,cotizaciones,cierre,feriados})+'\n');
+console.log('fx.json:',dolares.length,'dólares,',cotizaciones.length,'monedas,',Object.keys(cierre).length,'cierres,',feriados.length,'feriados');

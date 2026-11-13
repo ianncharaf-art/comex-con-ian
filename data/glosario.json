@@ -1,0 +1,562 @@
+[
+{
+"t": "SEDI",
+"n": "Sistema Estadístico de Importaciones",
+"d": "Declaración que el importador registra en ARCA antes de embarcar, con los datos de la operación. Reemplazó al SIRA en 2024.",
+"u": "Se carga con clave fiscal o la hace el despachante; sin SEDI no se puede oficializar el despacho de importación.",
+"e": "Antes de que salga tu contenedor de China, tu despachante registra la SEDI con la posición NCM, el valor FOB y el origen."
+},
+{
+"t": "SIRA",
+"n": "Sistema de Importaciones de la República Argentina",
+"d": "Régimen de autorización previa de importaciones que rigió entre 2022 y 2023. Fue reemplazado por la SEDI.",
+"u": "Aparece en material viejo y en casos de deudas de importación de esos años.",
+"e": "Si leés que una importación 'esperaba aprobación del SIRA', es de antes de 2024."
+},
+{
+"t": "SIMI",
+"n": "Sistema Integral de Monitoreo de Importaciones",
+"d": "Declaración anticipada de importaciones vigente entre 2016 y 2022, antecesora del SIRA.",
+"u": "Solo sirve para entender normativa e historia del comercio exterior argentino.",
+"e": "Un libro de 2019 te va a hablar del SIMI; hoy el equivalente es la SEDI."
+},
+{
+"t": "LNA",
+"n": "Licencias No Automáticas",
+"d": "Permisos previos que el Estado otorgaba caso por caso para importar ciertos productos.",
+"u": "Se usaron como herramienta de control hasta 2015; el término sigue apareciendo en la OMC y en otros países.",
+"e": "Un importador de calzado en 2014 necesitaba una LNA aprobada antes de embarcar."
+},
+{
+"t": "SIM",
+"n": "Sistema Informático Malvina",
+"d": "Sistema de la Aduana argentina donde se registran y oficializan las destinaciones (despachos y permisos de embarque).",
+"u": "El despachante carga ahí la operación; el SIM asigna el canal de selectividad y liquida los tributos.",
+"e": "'Oficializamos en el SIM a las 10, salió canal verde.'"
+},
+{
+"t": "ARCA",
+"n": "Agencia de Recaudación y Control Aduanero",
+"d": "Organismo que reemplazó a la AFIP en 2024; incluye a la Dirección General de Aduanas y a la DGI.",
+"u": "Todo lo aduanero e impositivo se tramita con clave fiscal de ARCA.",
+"e": "Para inscribirte como importador hacés el trámite en ARCA con tu CUIT."
+},
+{
+"t": "VUCE",
+"n": "Ventanilla Única de Comercio Exterior",
+"d": "Plataforma que centraliza trámites e intervenciones de distintos organismos para importar y exportar.",
+"u": "Ahí se gestionan muchos certificados y autorizaciones previas en un solo lugar.",
+"e": "El certificado de origen digital y varias intervenciones se piden por VUCE."
+},
+{
+"t": "NCM",
+"n": "Nomenclatura Común del Mercosur",
+"d": "Código de 8 dígitos que clasifica cada mercadería. Los primeros 6 son el Sistema Armonizado mundial.",
+"u": "Define el derecho de importación, las intervenciones y el reintegro de exportación.",
+"e": "Las zapatillas deportivas con suela de goma van en la 6404.11.00."
+},
+{
+"t": "SA",
+"n": "Sistema Armonizado",
+"d": "Nomenclatura internacional de la Organización Mundial de Aduanas, de 6 dígitos, que usan casi todos los países.",
+"u": "Es la base de la NCM; se actualiza cada 5 años aproximadamente.",
+"e": "La 8518.30 (auriculares) es igual en Argentina, China y Estados Unidos; cambian los dígitos siguientes."
+},
+{
+"t": "AEC",
+"n": "Arancel Externo Común",
+"d": "Derecho de importación común que aplican los países del Mercosur a mercadería de fuera del bloque.",
+"u": "Es la referencia del derecho de importación; Argentina puede tener excepciones.",
+"e": "El AEC de las zapatillas es 35%: sobre US$ 10.000 CIF pagás US$ 3.500 de derecho."
+},
+{
+"t": "DIE",
+"n": "Derecho de Importación Extrazona",
+"d": "Tributo aduanero que paga la mercadería que no es de origen Mercosur.",
+"u": "Se calcula sobre el valor en aduana (CIF) y depende de la posición NCM.",
+"e": "Auriculares de China: 20% sobre el CIF."
+},
+{
+"t": "TE",
+"n": "Tasa de estadística",
+"d": "Tasa que se cobra sobre el valor en aduana de las importaciones, con tope según el monto.",
+"u": "Hoy es 3% con topes (prorrogada hasta 2027); el origen Mercosur con certificado está exento.",
+"e": "Para una importación de US$ 8.000 CIF, el 3% daría US$ 240 pero el tope es US$ 180."
+},
+{
+"t": "CIF (valor)",
+"n": "Valor en aduana",
+"d": "Base imponible de la importación: costo de la mercadería + flete + seguro hasta el lugar de importación.",
+"u": "Sobre ese valor se calculan derecho y tasa de estadística; el IVA va sobre CIF + derecho + tasa.",
+"e": "FOB 7.000 + flete 900 + seguro 100 = US$ 8.000 de valor en aduana."
+},
+{
+"t": "FOB",
+"n": "Free On Board · Franco a bordo",
+"d": "Incoterm marítimo: el vendedor entrega la mercadería cargada a bordo del buque en el puerto de embarque.",
+"u": "Es el más usado al comprar en China; desde que sube al barco el riesgo y el flete son del comprador.",
+"e": "FOB Ningbo US$ 40.000: vos contratás el flete y el seguro hasta Buenos Aires."
+},
+{
+"t": "CIF",
+"n": "Cost, Insurance and Freight",
+"d": "Incoterm marítimo: el vendedor paga flete y seguro mínimo hasta el puerto de destino, pero el riesgo pasa al subir al barco en origen.",
+"u": "Solo para barco. Para avión o contenedor multimodal corresponde CIP.",
+"e": "CIF Buenos Aires: el proveedor paga el flete, pero si el barco se hunde el riesgo es tuyo (por eso viene con seguro)."
+},
+{
+"t": "CFR",
+"n": "Cost and Freight",
+"d": "Como CIF pero sin seguro: el vendedor paga el flete marítimo hasta destino.",
+"u": "Si comprás CFR, contratá vos el seguro.",
+"e": "CFR Buenos Aires con mercadería frágil: sin seguro propio quedás descubierto."
+},
+{
+"t": "EXW",
+"n": "Ex Works · En fábrica",
+"d": "El vendedor pone la mercadería a disposición en su planta; el comprador hace todo lo demás, incluso la exportación.",
+"u": "Es el precio más bajo pero el más trabajoso para el comprador; riesgoso si no tenés agente en origen.",
+"e": "EXW Guangzhou: tu forwarder tiene que retirar en fábrica y hacer la aduana china."
+},
+{
+"t": "FCA",
+"n": "Free Carrier · Franco transportista",
+"d": "El vendedor entrega la mercadería despachada de exportación al transportista que designó el comprador.",
+"u": "Recomendado por la ICC para contenedores y carga aérea en lugar de FOB.",
+"e": "FCA terminal Shanghái: el riesgo pasa cuando entregás el contenedor en la terminal."
+},
+{
+"t": "CPT",
+"n": "Carriage Paid To",
+"d": "El vendedor paga el transporte hasta destino, pero el riesgo pasa al entregar al primer transportista.",
+"u": "Sirve para cualquier medio de transporte, sin seguro obligatorio.",
+"e": "CPT Santiago por camión: el exportador paga el flete, el riesgo es del comprador desde la planta."
+},
+{
+"t": "CIP",
+"n": "Carriage and Insurance Paid To",
+"d": "Como CPT pero el vendedor también contrata seguro (cobertura amplia en Incoterms 2020).",
+"u": "Es el correcto para cargas aéreas en las que el vendedor paga flete y seguro.",
+"e": "Una cotización 'CIF Ezeiza' por avión en realidad debería ser CIP Ezeiza."
+},
+{
+"t": "DAP",
+"n": "Delivered At Place",
+"d": "El vendedor entrega en el lugar convenido en destino, listo para descargar, sin pagar los tributos de importación.",
+"u": "Típico de envíos courier puerta a puerta donde el importador paga los impuestos.",
+"e": "El proveedor manda por DHL hasta tu depósito y vos pagás los tributos al recibir."
+},
+{
+"t": "DPU",
+"n": "Delivered at Place Unloaded",
+"d": "El vendedor entrega la mercadería descargada en el lugar de destino.",
+"u": "Reemplazó al DAT en Incoterms 2020.",
+"e": "DPU depósito fiscal Buenos Aires: el vendedor paga hasta la descarga."
+},
+{
+"t": "DDP",
+"n": "Delivered Duty Paid",
+"d": "El vendedor entrega en destino con todos los tributos de importación pagos.",
+"u": "Máxima obligación para el vendedor; en Argentina es difícil para un extranjero porque debe ser importador.",
+"e": "Una tienda que te vende 'DDP Argentina' se hace cargo de aduana e impuestos."
+},
+{
+"t": "FAS",
+"n": "Free Alongside Ship",
+"d": "El vendedor entrega la mercadería al costado del buque en el puerto de embarque.",
+"u": "Usado en cargas a granel o pesadas, poco en contenedores.",
+"e": "Exportación de granos FAS puerto de Rosario."
+},
+{
+"t": "Incoterms",
+"n": "International Commercial Terms",
+"d": "Reglas de la Cámara de Comercio Internacional que definen quién paga qué y dónde pasa el riesgo entre vendedor y comprador.",
+"u": "Siempre se escriben con lugar y versión: 'FOB Ningbo Incoterms 2020'.",
+"e": "Un mismo producto cuesta distinto en EXW, FOB o DDP porque cambia quién paga cada tramo."
+},
+{
+"t": "B/L",
+"n": "Bill of Lading · Conocimiento de embarque",
+"d": "Documento que emite la naviera: es recibo de la carga, prueba del contrato de transporte y título de propiedad.",
+"u": "Sin el B/L original o liberado no podés retirar la mercadería en destino.",
+"e": "'El proveedor no me libera el B/L hasta que pague el saldo.'"
+},
+{
+"t": "HBL / MBL",
+"n": "House B/L y Master B/L",
+"d": "El MBL lo emite la naviera al forwarder; el HBL lo emite el forwarder a cada cliente.",
+"u": "En cargas consolidadas (LCL) cada importador recibe un HBL.",
+"e": "Tu carga LCL viaja en un contenedor con otras 10; tenés tu HBL y el forwarder tiene el MBL."
+},
+{
+"t": "AWB",
+"n": "Air Waybill · Guía aérea",
+"d": "Documento de transporte aéreo; los 3 primeros de sus 11 dígitos identifican a la aerolínea.",
+"u": "Con el número de AWB rastreás la carga en la web de la aerolínea.",
+"e": "AWB 045-12345678: el 045 es LATAM."
+},
+{
+"t": "CRT",
+"n": "Carta de Porte Internacional por Carretera",
+"d": "Documento del contrato de transporte terrestre internacional.",
+"u": "Obligatorio en cargas por camión entre países del Cono Sur.",
+"e": "Un camión de Mendoza a Santiago viaja con CRT y MIC/DTA."
+},
+{
+"t": "MIC/DTA",
+"n": "Manifiesto Internacional de Carga / Declaración de Tránsito Aduanero",
+"d": "Documento que permite que un camión cruce fronteras en tránsito aduanero.",
+"u": "Lo presenta el transportista en cada aduana de paso.",
+"e": "Una carga de San Pablo a Buenos Aires viaja en tránsito con MIC/DTA hasta la aduana de destino."
+},
+{
+"t": "Factura comercial",
+"n": "Commercial invoice",
+"d": "Documento del vendedor con la descripción de la mercadería, cantidades, precios, Incoterm y origen.",
+"u": "Es la base del despacho: tiene que coincidir con lo declarado.",
+"e": "Una diferencia entre la factura y el despacho puede terminar en multa."
+},
+{
+"t": "Factura E",
+"n": "Factura electrónica de exportación",
+"d": "Comprobante electrónico de ARCA para operaciones de exportación.",
+"u": "Se emite antes del permiso de embarque; la necesita también Exporta Simple.",
+"e": "Exportás yerba a Chile y emitís factura E en dólares."
+},
+{
+"t": "Packing list",
+"n": "Lista de empaque",
+"d": "Detalle de bultos, pesos neto y bruto, medidas y contenido de cada bulto.",
+"u": "Lo usan el depósito, la aduana en verificación y el transportista.",
+"e": "Canal rojo: el verificador abre el bulto 7 y controla contra el packing."
+},
+{
+"t": "Proforma",
+"n": "Factura proforma",
+"d": "Cotización formal del vendedor antes de cerrar la venta.",
+"u": "Sirve para negociar, pedir financiación y armar la SEDI.",
+"e": "El proveedor te manda la proforma PI-2026-001 con 30% de anticipo."
+},
+{
+"t": "Certificado de origen",
+"n": "Certificate of origin",
+"d": "Documento que acredita dónde se produjo la mercadería según las reglas de un acuerdo.",
+"u": "Permite pagar menos derecho entre países con acuerdo y es clave en casos de antidumping.",
+"e": "Con certificado de origen Mercosur, una importación de Brasil paga 0% de derecho."
+},
+{
+"t": "Despachante de aduana",
+"n": "Auxiliar del comercio exterior",
+"d": "Profesional habilitado que representa al importador o exportador ante la Aduana.",
+"u": "Clasifica, liquida y oficializa las destinaciones en el SIM.",
+"e": "Tu despachante te pide factura, packing y B/L para armar el despacho."
+},
+{
+"t": "Despacho de importación",
+"n": "Destinación de importación",
+"d": "Declaración que oficializa el ingreso de la mercadería al país y liquida los tributos.",
+"u": "Puede ser a consumo (definitivo) o temporal.",
+"e": "Despacho a consumo: pagaste los tributos y la mercadería es libre."
+},
+{
+"t": "Permiso de embarque",
+"n": "Destinación de exportación",
+"d": "Declaración que oficializa la exportación en el SIM.",
+"u": "Define derechos de exportación, reintegros y plazos de liquidación de divisas.",
+"e": "Sin permiso de embarque cumplido, la carga no sube al barco."
+},
+{
+"t": "Canal verde",
+"n": "Selectividad: sin control",
+"d": "El sistema libera la mercadería sin control documental ni físico.",
+"u": "Es el resultado más rápido; el control puede llegar después (control a posteriori).",
+"e": "Oficializaste a las 10 y salió verde: retirás en el día."
+},
+{
+"t": "Canal naranja",
+"n": "Selectividad: control documental",
+"d": "La aduana revisa la documentación pero no abre la carga.",
+"u": "Que esté todo bien presentado acelera la liberación.",
+"e": "Canal naranja: el verificador pide la factura original y el certificado de origen."
+},
+{
+"t": "Canal rojo",
+"n": "Selectividad: control documental y físico",
+"d": "La aduana revisa los papeles y verifica físicamente la mercadería.",
+"u": "Suma días y costos de depósito; los errores de descripción se detectan acá.",
+"e": "Canal rojo: abren el contenedor y cuentan las cajas contra el packing."
+},
+{
+"t": "Antidumping",
+"n": "Derecho antidumping",
+"d": "Derecho adicional que se aplica a un producto de un origen que se vende por debajo de su valor normal.",
+"u": "Siempre revisá si tu NCM y origen tienen antidumping antes de cotizar.",
+"e": "Ciertos productos de China pagan un derecho extra por kilo o por unidad."
+},
+{
+"t": "Dumping",
+"n": "Práctica de dumping",
+"d": "Exportar un producto a un precio menor que el de su mercado de origen.",
+"u": "Si causa daño a la industria local, se investiga y puede terminar en antidumping.",
+"e": "Una investigación del Ministerio de Economía sobre vajilla de un origen."
+},
+{
+"t": "ZFI",
+"n": "Zona Franca",
+"d": "Área donde la mercadería puede ingresar sin pagar tributos de importación mientras permanezca ahí.",
+"u": "Sirve para almacenar, fraccionar o reexportar sin nacionalizar.",
+"e": "Importás a la zona franca de La Plata y nacionalizás de a partes según vendés."
+},
+{
+"t": "Depósito fiscal",
+"n": "Depósito bajo control aduanero",
+"d": "Lugar habilitado donde la mercadería espera el despacho sin estar nacionalizada.",
+"u": "Cobran por día: cuanto antes despaches, menos pagás.",
+"e": "Tu contenedor está en depósito fiscal desde hace 12 días: suma almacenaje."
+},
+{
+"t": "Demurrage",
+"n": "Sobrestadía del contenedor",
+"d": "Cargo de la naviera por usar el contenedor más días que los libres pactados dentro de la terminal.",
+"u": "Negociá días libres en el flete y despachá rápido.",
+"e": "Te dieron 7 días libres; el día 10 pagás 3 días de demurrage."
+},
+{
+"t": "Detention",
+"n": "Detención del contenedor",
+"d": "Cargo por tener el contenedor fuera de la terminal más días que los libres.",
+"u": "Aplica cuando lo llevás a tu depósito y tardás en devolverlo vacío.",
+"e": "Lo vaciaste en 5 días pero tenías 3 libres: pagás 2 de detention."
+},
+{
+"t": "FCL",
+"n": "Full Container Load",
+"d": "Contenedor completo para un solo cargador.",
+"u": "Conviene cuando llenás más de unos 15 m³.",
+"e": "Un FCL de 40' con 2.000 pares de zapatillas."
+},
+{
+"t": "LCL",
+"n": "Less than Container Load · Carga consolidada",
+"d": "Tu carga comparte contenedor con otras; pagás por m³ o tonelada.",
+"u": "Ideal para las primeras importaciones chicas.",
+"e": "Traés 3 m³ de mercadería en LCL desde Shenzhen."
+},
+{
+"t": "TEU",
+"n": "Twenty-foot Equivalent Unit",
+"d": "Unidad de medida equivalente a un contenedor de 20 pies.",
+"u": "Se usa para medir la capacidad de buques y el movimiento de puertos.",
+"e": "Un contenedor de 40' equivale a 2 TEU."
+},
+{
+"t": "Peso volumétrico",
+"n": "Peso tasable",
+"d": "Peso calculado según el volumen, que se compara con el real para cobrar el flete.",
+"u": "En aéreo se divide el volumen en cm³ por 6.000; se cobra el mayor.",
+"e": "Caja de 60x50x40 cm: 120.000/6.000 = 20 kg tasables, aunque pese 8."
+},
+{
+"t": "Flete",
+"n": "Freight",
+"d": "Costo del transporte internacional de la mercadería.",
+"u": "Forma parte del valor en aduana en la importación.",
+"e": "Flete marítimo Asia–Buenos Aires de un 40'."
+},
+{
+"t": "Forwarder",
+"n": "Agente de cargas",
+"d": "Empresa que organiza el transporte internacional y coordina con navieras, aerolíneas y depósitos.",
+"u": "Te cotiza puerta a puerta y consolida cargas LCL.",
+"e": "Tu forwarder reserva el espacio en el barco y te manda el HBL."
+},
+{
+"t": "Booking",
+"n": "Reserva de espacio",
+"d": "Reserva de lugar en un buque o vuelo para una carga.",
+"u": "Tiene fecha de cut-off para entregar la carga.",
+"e": "Booking confirmado para el buque que sale el 20: cut-off el 17."
+},
+{
+"t": "Cut-off",
+"n": "Fecha límite de entrega",
+"d": "Último momento para entregar la carga o la documentación antes de la salida del buque o vuelo.",
+"u": "Si lo pasás, tu carga queda para el próximo barco.",
+"e": "Cut-off documental el martes 18 h."
+},
+{
+"t": "Lead time",
+"n": "Tiempo total de abastecimiento",
+"d": "Tiempo desde que hacés el pedido hasta que tenés la mercadería disponible.",
+"u": "Incluye producción, tránsito, despacho y entrega.",
+"e": "45 días de producción + 40 de tránsito + 5 de despacho = 90 días de lead time."
+},
+{
+"t": "Tránsito",
+"n": "Tiempo de viaje",
+"d": "Días que tarda la carga desde el puerto de origen hasta el de destino.",
+"u": "Asia–Buenos Aires suele andar entre 35 y 50 días por mar.",
+"e": "Tránsito de Ningbo a Buenos Aires: 42 días."
+},
+{
+"t": "Transbordo",
+"n": "Transshipment",
+"d": "Cambio de buque en un puerto intermedio durante el viaje.",
+"u": "Agrega tiempo y riesgo de demoras.",
+"e": "Tu contenedor hace transbordo en Singapur."
+},
+{
+"t": "Importación temporaria",
+"n": "Régimen de importación temporal",
+"d": "Ingreso de mercadería sin pagar tributos por un plazo, con obligación de reexportarla o transformarla.",
+"u": "Usado para muestras, ferias, equipos o insumos que se exportan transformados.",
+"e": "Traés una máquina para una feria y la devolvés a los 90 días."
+},
+{
+"t": "Reintegro",
+"n": "Reintegro de exportación",
+"d": "Devolución de impuestos internos pagados en la cadena de producción de un bien exportado.",
+"u": "Se cobra un porcentaje del valor FOB según la posición NCM.",
+"e": "Exportás vino y cobrás el reintegro de su posición sobre el FOB."
+},
+{
+"t": "DEX",
+"n": "Derechos de exportación",
+"d": "Tributo sobre las exportaciones, conocido como retenciones.",
+"u": "El porcentaje depende de la posición NCM y cambia por decreto.",
+"e": "Algunos productos del agro todavía pagan derechos de exportación."
+},
+{
+"t": "Exporta Simple",
+"n": "Régimen de exportación simplificada",
+"d": "Régimen para pymes y emprendedores que exportan envíos chicos por courier o correo.",
+"u": "Simplifica el trámite con factura E y operadores habilitados.",
+"e": "Vendés mates a un cliente de España y despachás por Exporta Simple."
+},
+{
+"t": "Courier",
+"n": "Régimen de envíos courier",
+"d": "Régimen simplificado para envíos chicos que ingresan por empresas de courier o por correo.",
+"u": "Uso personal con franquicia de US$ 400; para revender, importación comercial con CUIT inscripto.",
+"e": "Te compraste unas zapatillas en Estados Unidos de US$ 150 y entran en la franquicia."
+},
+{
+"t": "Franquicia",
+"n": "Franquicia de envíos",
+"d": "Monto por el que no se pagan derechos en envíos de uso personal.",
+"u": "Desde el Decreto 604/2026 es de US$ 400 FOB por envío, para correo y courier.",
+"e": "Compra de US$ 500: pagás tributos sobre los US$ 100 que exceden."
+},
+{
+"t": "IVA adicional",
+"n": "Percepción de IVA en aduana",
+"d": "Percepción que se cobra en el despacho además del IVA, a cuenta del impuesto.",
+"u": "Es 20% (10% en bienes con IVA reducido); un inscripto la recupera.",
+"e": "Sobre la base imponible del IVA pagás 21% de IVA más 20% de percepción."
+},
+{
+"t": "Percepción de Ganancias",
+"n": "Percepción en aduana",
+"d": "Anticipo del impuesto a las ganancias que se cobra en el despacho de importación.",
+"u": "Suele ser 6%, aunque puede variar según el caso; se computa en tu declaración anual.",
+"e": "En una importación de US$ 10.000 de base, US$ 600 de percepción."
+},
+{
+"t": "Valor criterio",
+"n": "Valores de referencia",
+"d": "Valores mínimos que la aduana usa como alerta para controlar precios declarados muy bajos.",
+"u": "Si declarás por debajo, tenés que justificar el precio o garantizar la diferencia.",
+"e": "Declarás un textil a US$ 1/kg y aduana pide justificación."
+},
+{
+"t": "DJCP",
+"n": "Declaración Jurada de Composición de Producto",
+"d": "Declaración con la composición de productos textiles y de calzado que se exigía para importarlos.",
+"u": "Sigue apareciendo en normativa y despachos anteriores; revisá si aplica según la norma vigente.",
+"e": "La composición declarada (80% algodón, 20% poliéster) debe coincidir con la etiqueta."
+},
+{
+"t": "Licencia de configuración (LCM)",
+"n": "Licencia para Configuración de Modelo",
+"d": "Autorización de seguridad para vehículos y motos que se comercializan en Argentina.",
+"u": "Necesaria para patentar vehículos importados.",
+"e": "Importás motos eléctricas: cada modelo necesita su LCM."
+},
+{
+"t": "NIMF 15",
+"n": "Norma fitosanitaria para embalajes de madera",
+"d": "Norma internacional que exige tratar y sellar pallets y cajones de madera.",
+"u": "Si el pallet no tiene sello, SENASA puede rechazar o tratar el embalaje con costo.",
+"e": "Pallets de madera con sello IPPC/HT."
+},
+{
+"t": "Carta de crédito",
+"n": "Crédito documentario (L/C)",
+"d": "Medio de pago en el que un banco se compromete a pagar al vendedor contra la presentación de documentos.",
+"u": "Da seguridad a ambas partes; cuesta más que una transferencia.",
+"e": "El banco paga al proveedor cuando presenta el B/L y la factura en orden."
+},
+{
+"t": "T/T",
+"n": "Telegraphic Transfer · Transferencia",
+"d": "Transferencia bancaria internacional, el medio de pago más común con proveedores asiáticos.",
+"u": "Suele pactarse 30% de anticipo y 70% contra copia del B/L.",
+"e": "Pagás 30% T/T al confirmar y el saldo antes de que liberen el B/L."
+},
+{
+"t": "MLC",
+"n": "Mercado Libre de Cambios",
+"d": "Mercado oficial donde se compran y venden divisas, regulado por el BCRA.",
+"u": "Por ahí se pagan importaciones y se liquidan exportaciones.",
+"e": "Tu banco accede al MLC para girarle los dólares al proveedor."
+},
+{
+"t": "A3500",
+"n": "Comunicación A 3500 del BCRA",
+"d": "Tipo de cambio mayorista de referencia que publica el BCRA cada día.",
+"u": "Se usa para valuar contratos y operaciones de comercio exterior.",
+"e": "El contrato dice 'tipo de cambio Com. A 3500 del día anterior al pago'."
+},
+{
+"t": "Seguro de transporte",
+"n": "Póliza de carga",
+"d": "Seguro que cubre la mercadería durante el viaje.",
+"u": "Si el Incoterm te deja el riesgo, contratalo: el flete no cubre daños.",
+"e": "Una tormenta daña tu carga: el seguro paga, la naviera no."
+},
+{
+"t": "Avería gruesa",
+"n": "General average",
+"d": "Pérdida que se reparte entre todos los dueños de la carga cuando se sacrifica parte para salvar el buque.",
+"u": "Aunque tu carga llegue sana, podés tener que pagar tu parte si no estás asegurado.",
+"e": "Incendio a bordo: todos los importadores aportan para liberar sus contenedores."
+},
+{
+"t": "Posición arancelaria",
+"n": "Código de clasificación",
+"d": "El código NCM completo de una mercadería, con sus aperturas.",
+"u": "De ella dependen tributos, intervenciones y reintegros.",
+"e": "Posición 8518.30.00 para auriculares."
+},
+{
+"t": "RGI",
+"n": "Reglas Generales Interpretativas",
+"d": "Seis reglas del Sistema Armonizado que ordenan cómo clasificar cualquier mercadería.",
+"u": "La 1 manda por el texto de las partidas y notas; la 6 para las subpartidas.",
+"e": "Un set de regalo se clasifica por el artículo que le da el carácter esencial (RGI 3 b)."
+},
+{
+"t": "Mercosur",
+"n": "Mercado Común del Sur",
+"d": "Unión aduanera de Argentina, Brasil, Paraguay, Uruguay y Bolivia.",
+"u": "Entre socios, la mercadería con origen paga 0% de derecho.",
+"e": "Importar de Brasil con certificado de origen: sin derecho ni tasa de estadística."
+},
+{
+"t": "ACE",
+"n": "Acuerdo de Complementación Económica",
+"d": "Acuerdos comerciales firmados en el marco de ALADI, como el ACE 35 Mercosur–Chile.",
+"u": "Dan preferencias arancelarias con certificado de origen.",
+"e": "Exportás a Chile por el ACE 35 y tu cliente paga menos arancel."
+}
+]
