@@ -244,6 +244,80 @@
       "agregado": "2026-11-13T11:58:00-03:00"
     },
     {
+      "fecha": "2026-11-13",
+      "categoria": "Dólar",
+      "titulo": "El mayorista cerró la semana en $1.543,50 y el BCRA compró US$40 millones",
+      "resumen": "El viernes 13 el dólar mayorista bajó $2 y cerró en $1.543,50, su nivel más bajo desde principios de noviembre y su primera baja semanal en un mes. El BCRA compró US$40 millones: suma US$172 millones en la semana, US$223 millones en noviembre y US$16.191 millones en el año. Las reservas brutas subieron US$524 millones, a US$49.597 millones. En el Banco Nación el dólar quedó en $1.570, el MEP en $1.577,22 y el contado con liqui en $1.672,02.",
+      "porque": "Semana tranquila para el dólar con el que pagás importaciones: con el BCRA comprando y el mayorista lejos del techo de la banda, no hay apuro por adelantar pagos.",
+      "claves": [
+        "cerró en $1.543,50, su nivel más bajo desde principios de noviembre",
+        "US$223 millones en noviembre",
+        "no hay apuro por adelantar pagos"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Ámbito",
+          "url": "https://www.ambito.com/finanzas/el-bcra-sostuvo-las-compras-dolares-la-semana-y-ya-acumulo-mas-us200-millones-noviembre-n6345123",
+          "oficial": false
+        },
+        {
+          "nombre": "Ámbito (cierre del día)",
+          "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-viernes-13-noviembre-n6345065",
+          "oficial": false
+        }
+      ],
+      "sector": "BCRA / Cambiario",
+      "urgencia": "Informativa",
+      "impacto": "Para cotizar la semana que viene, tomá como referencia un mayorista de $1.543,50 y una brecha con el MEP de solo 2,2%.",
+      "agregado": "2026-11-13T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-13",
+      "categoria": "Exportación",
+      "titulo": "La industria se parte en tres: los sectores exportadores crecen y los que compiten con importaciones caen 19%",
+      "resumen": "Según el Informe Trimestral de Exportaciones Argentinas del IIEP (UBA-CONICET), entre enero y septiembre de 2026, frente a 2022, la producción de los sectores exportadores subió 2,5%, la de los orientados al mercado interno bajó 12% y la de los que compiten con importaciones cayó 19%. Las importaciones de agroquímicos crecieron 277%, las de maquinaria agrícola 81% y las de estructuras metálicas 188%. Las exportaciones de bienes sumaron US$77.158 millones en nueve meses (+21%), pero las de productos diferenciados se desaceleraron de 18% a 11%, y el tipo de cambio real quedó 10% por debajo de 2025 en el tercer trimestre.",
+      "porque": "Exportar se volvió la mejor defensa para la industria; para quien importa insumos y maquinaria, la oferta del exterior está más barata que la local.",
+      "claves": [
+        "la de los que compiten con importaciones cayó 19%",
+        "Las exportaciones de bienes sumaron US$77.158 millones en nueve meses (+21%)",
+        "Exportar se volvió la mejor defensa para la industria"
+      ],
+      "fuentes": [
+        {
+          "nombre": "El Cronista",
+          "url": "https://www.cronista.com/economia-politica/la-industria-se-parte-en-tres-donde-presiona-el-dolar-y-quienes-resisten-por-las-exportaciones/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Buen dato para estudiar: muestra qué sectores ganan y pierden con la apertura y un dólar más barato en términos reales.",
+      "agregado": "2026-11-13T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-13",
+      "categoria": "Mundo",
+      "titulo": "EE.UU. le promete a India aranceles más bajos que a sus competidores y el acuerdo estaría cerca",
+      "resumen": "Según Bloomberg, Estados Unidos le aseguró a India que, con el acuerdo comercial en negociación, pagará aranceles más bajos que sus pares. El ministro de Comercio indio, Piyush Goyal, dijo el viernes que el anuncio podría llegar \"bastante pronto\". La primera etapa cubre solo bienes; India no cederá en lácteos ni en productos transgénicos. Las negociaciones llevan casi dos años y el marco de la primera fase se cerró en febrero de 2026.",
+      "porque": "India compite con Argentina en productos como aceites, legumbres y cueros en el mercado de EE.UU.: un trato preferencial para India puede cambiar quién le vende más barato a los estadounidenses.",
+      "claves": [
+        "pagará aranceles más bajos que sus pares",
+        "el anuncio podría llegar \"bastante pronto\"",
+        "puede cambiar quién le vende más barato a los estadounidenses"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Business Today (Bloomberg)",
+          "url": "https://www.businesstoday.in/latest/economy/story/us-assures-india-of-lower-tariffs-than-peers-under-proposed-trade-deal-report-567432-2026-11-13",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Informativa",
+      "impacto": "Si exportás a EE.UU., seguí qué aranceles le quedan a India cuando se firme: es un competidor directo en varios productos agroindustriales.",
+      "agregado": "2026-11-13T19:58:00-03:00"
+    },
+    {
       "fecha": "2026-11-12",
       "categoria": "Mundo",
       "titulo": "Los fletes marítimos bajaron 2%: el índice mundial de contenedores quedó en US$4.305",
