@@ -177,3 +177,6 @@
 .srcmore{margin-top:14px;align-self:flex-start}
 .srcnote{margin:-6px 0 14px;max-width:70ch}
 .nmore{margin:24px 0 0;align-self:flex-start}
+/* Noticias nuevas desde tu última visita */
+.nnew{font:700 10.5px var(--f-mono);letter-spacing:.08em;text-transform:uppercase;background:var(--accent);color:var(--on-accent);padding:3px 7px;border-radius:4px;align-self:flex-start}
+.fpill[data-new]:not([aria-pressed="true"]){color:var(--accent-ink)}
