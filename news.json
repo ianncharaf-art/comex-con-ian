@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-12",
+  "actualizado": "2026-11-13",
   "items": [
     {
       "fecha": "2026-11-12",
@@ -61,6 +61,29 @@
           "oficial": false
         }
       ]
+    },
+    {
+      "fecha": "2026-11-12",
+      "categoria": "ARCA · Aduana",
+      "titulo": "ARCA reglamentó la rebaja de 50% en multas por deberes formales: hay tiempo hasta el 18 de diciembre",
+      "resumen": "La Resolución General 5927/2026 de ARCA (Boletín Oficial del 12/11) reglamenta la reducción de 50% de las multas por infracciones a deberes formales de la ley de procedimiento tributario, prevista en la Ley 27.826 y el Decreto 1253/2026. Alcanza a obligaciones vencidas desde el 2 de enero de 2026 con infracciones cometidas antes del 9 de octubre de 2026, siempre que se cumpla la obligación omitida hasta el 18 de diciembre de 2026.",
+      "porque": "Si tu empresa dejó de presentar alguna declaración o trámite formal este año, ponerte al día antes del 18 de diciembre te ahorra la mitad de la multa.",
+      "claves": [
+        "reducción de 50% de las multas",
+        "hasta el 18 de diciembre de 2026",
+        "te ahorra la mitad de la multa"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Prensa Mercosur",
+          "url": "https://prensamercosur.org/2026/11/12/arca-reglamento-el-plan-de-reduccion-de-multas-para-pymes/",
+          "oficial": false
+        }
+      ],
+      "sector": "Régimen Courier / PyMEs",
+      "urgencia": "Alta",
+      "impacto": "Si tenés presentaciones atrasadas en ARCA, regularizalas antes del 18/12 para pagar la mitad de la multa. Confirmá con tu contador si tu caso entra en las fechas de la norma.",
+      "vence": "2026-12-18"
     },
     {
       "fecha": "2026-11-11",
@@ -142,6 +165,55 @@
       ]
     },
     {
+      "fecha": "2026-11-11",
+      "categoria": "Comercio exterior",
+      "titulo": "Las exportaciones a Brasil suben por octavo mes seguido y el déficit con Brasil se achica 61%",
+      "resumen": "Según el informe de la Cámara Argentina de Comercio y Servicios (CAC), en octubre Argentina le vendió a Brasil US$1.260 millones (+1,8% interanual, octavo mes seguido en alza) y le compró US$1.530 millones (-6,7%), con un déficit de US$270 millones. En enero-octubre el déficit fue de US$1.957 millones, contra US$5.082 millones en el mismo período de 2025. Subieron las ventas de aluminio, fuel oil, petróleo crudo, polímeros de etileno, trigo y centeno; cayeron las compras de autos y autopartes.",
+      "porque": "Brasil es el primer socio comercial: si exportás, es el mercado más cercano que sigue creciendo; si importás autopartes o vehículos de Brasil, la demanda local viene en baja.",
+      "claves": [
+        "octavo mes seguido en alza",
+        "el déficit fue de US$1.957 millones, contra US$5.082 millones",
+        "es el mercado más cercano que sigue creciendo"
+      ],
+      "fuentes": [
+        {
+          "nombre": "BAE Negocios",
+          "url": "https://www.baenegocios.com/economia/argentina-suma-ocho-meses-de-crecimiento-de-las-exportaciones-a-brasil-que-productos-impulsaron-las-ventas/",
+          "oficial": false
+        },
+        {
+          "nombre": "El Cronista",
+          "url": "https://www.cronista.com/economia-politica/argentina-exporta-mas-a-brasil-pero-todavia-acumula-un-deficit-que-sectores-lo-explican/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Sirve para elegir mercado: Brasil sigue comprando más aluminio, combustibles, plásticos y cereales argentinos. Buen dato para estudiar cómo se mueve el comercio dentro del Mercosur."
+    },
+    {
+      "fecha": "2026-11-11",
+      "categoria": "Comercio exterior",
+      "titulo": "Paso de los Libres: el Gobierno avanza con la concesión por 20 años del principal paso de cargas con Brasil",
+      "resumen": "El Decreto 1350/2026 declara de interés público concesionar el Centro de Fronteras Paso de los Libres (Corrientes), que incluye el COTECAR y el Área de Control Integrado. El concesionario haría obras de repavimentación, iluminación, pesaje, seguridad, inspección no intrusiva y un parque solar de 1 MW, sin fondos públicos, por 20 años prorrogables por cinco más. Todavía no hay adjudicación: la Jefatura de Gabinete tiene que preparar los pliegos y llamar a licitación.",
+      "porque": "Por Paso de los Libres cruza buena parte de los camiones entre Argentina y Brasil: si se moderniza, deberían bajar las demoras en frontera.",
+      "claves": [
+        "por 20 años prorrogables por cinco más",
+        "Todavía no hay adjudicación",
+        "deberían bajar las demoras en frontera"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Aduana News",
+          "url": "https://aduananews.com/el-gobierno-impulsa-la-concesion-del-centro-de-fronteras-paso-de-los-libres/",
+          "oficial": false
+        }
+      ],
+      "sector": "Logística y Fletes",
+      "urgencia": "Informativa",
+      "impacto": "Si mandás o recibís carga por camión con Brasil, seguí la licitación: las obras pueden cambiar tiempos y costos de cruce en los próximos años."
+    },
+    {
       "fecha": "2026-11-10",
       "categoria": "Dólar",
       "titulo": "Cinco días sin bancos: no hubo mercado de cambios del 6 al 10 de noviembre",
@@ -205,6 +277,28 @@
           "oficial": false
         }
       ]
+    },
+    {
+      "fecha": "2026-11-10",
+      "categoria": "Mundo",
+      "titulo": "El flete aéreo se dispara: China–EE.UU. ya supera los US$8 por kilo",
+      "resumen": "Según el Freightos Air Index del 10 de noviembre, el flete aéreo China–Norteamérica subió 3% en la semana a más de US$8,00 por kilo, igual al máximo del año pasado, que recién se alcanzó a mediados de diciembre de 2025. China–Europa subió 11% a US$4,87 por kilo (+23% interanual) y el transatlántico subió 33% en un mes, a US$2,90 por kilo. En el marítimo, Asia–Norte de Europa bajó 5% a US$3.400 por contenedor de 40 pies.",
+      "porque": "Si traés mercadería urgente por avión desde China, en noviembre y diciembre se paga temporada alta: conviene reservar con tiempo o pasar lo que se pueda a barco.",
+      "claves": [
+        "más de US$8,00 por kilo",
+        "China–Europa subió 11% a US$4,87 por kilo",
+        "conviene reservar con tiempo o pasar lo que se pueda a barco"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Freightos",
+          "url": "https://www.freightos.com/freight-resources/la-lb-strike-deadline-extended-dem-win-increasing-trade-uncertainty-november-10-2026-update/",
+          "oficial": false
+        }
+      ],
+      "sector": "Logística y Fletes",
+      "urgencia": "Media",
+      "impacto": "Si importás por avión (courier o carga), presupuestá fletes más caros hasta fin de año y evaluá consolidar envíos o pasar a marítimo lo que no sea urgente."
     },
     {
       "fecha": "2026-11-09",
@@ -296,6 +390,50 @@
       ]
     },
     {
+      "fecha": "2026-11-06",
+      "categoria": "Mundo",
+      "titulo": "Xeneta prevé que los fletes marítimos caigan 30% en 2027",
+      "resumen": "En su Ocean Outlook 2027, presentado el 5 de noviembre en Múnich, Xeneta proyectó que los fletes spot de contenedores bajen 30% en 2027 y los contratos de largo plazo, 5% (contra el tercer trimestre de 2026). La flota crecería 6,8% y la demanda solo entre 2,5% y 4%: en 2027 entran 2,9 millones de TEU nuevos y se desguazarían unos 500.000. La vuelta a Suez ya liberó unos 599.000 TEU. Los riesgos: nuevas amenazas en el Mar Rojo y restricciones por sequía en Panamá.",
+      "porque": "Si más barcos compiten por menos carga, los fletes bajan: antes de firmar un contrato de flete largo para 2027, compará con el spot y negociá.",
+      "claves": [
+        "bajen 30% en 2027",
+        "La flota crecería 6,8% y la demanda solo entre 2,5% y 4%",
+        "antes de firmar un contrato de flete largo para 2027, compará con el spot y negociá"
+      ],
+      "fuentes": [
+        {
+          "nombre": "SAFETY4SEA",
+          "url": "https://safety4sea.com/xeneta-forecasts-30-decline-in-ocean-freight-spot-rates-in-2027/",
+          "oficial": false
+        }
+      ],
+      "sector": "Logística y Fletes",
+      "urgencia": "Media",
+      "impacto": "Para planificar importaciones 2027: la tendencia esperada es de fletes más baratos, así que conviene no atarse a tarifas altas por mucho tiempo."
+    },
+    {
+      "fecha": "2026-11-06",
+      "categoria": "Acuerdos",
+      "titulo": "Quirno: los acuerdos ya cubren 30% del PBI mundial y la meta es llegar al 80%",
+      "resumen": "El canciller Pablo Quirno dijo en los 160 años de la Sociedad Rural que los acuerdos con la Unión Europea, la EFTA, Singapur y Estados Unidos llevaron la cobertura de Argentina de 10% a 30% del producto mundial, y que la meta es llegar a 80% en el próximo mandato. En la agenda están Canadá, Vietnam, Emiratos Árabes Unidos, Indonesia, Filipinas y Bangladesh; Argentina pidió entrar al acuerdo transpacífico (CPTPP). Entre enero y septiembre las agroexportaciones superaron los US$43.000 millones (+13%).",
+      "porque": "Cada acuerdo nuevo baja aranceles para vender afuera y para traer insumos: conviene mirar qué países vienen y qué productos tuyos entrarían más baratos.",
+      "claves": [
+        "de 10% a 30% del producto mundial",
+        "Canadá, Vietnam, Emiratos Árabes Unidos, Indonesia, Filipinas y Bangladesh",
+        "conviene mirar qué países vienen"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Agroempresario",
+          "url": "https://agroempresario.com/publicacion/123576/quirno-anuncio-nuevas-negociaciones-comerciales-para-argentina/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Para exportadores y estudiantes: estos son los próximos mercados que pueden abrirse con menos aranceles. Ninguno de los nuevos tiene fecha todavía."
+    },
+    {
       "fecha": "2026-11-05",
       "categoria": "Dólar",
       "titulo": "Se pagaron US$880 millones al FMI y las reservas bajaron de US$50.000 millones",
@@ -316,6 +454,29 @@
           "oficial": false
         }
       ]
+    },
+    {
+      "fecha": "2026-11-05",
+      "categoria": "ARCA · Aduana",
+      "titulo": "Ya es oficial: ARCA suspende ejecuciones fiscales a pymes hasta junio de 2027 y amplía el plan de pagos",
+      "resumen": "Las Resoluciones Generales 5923 y 5924/2026 de ARCA (Boletín Oficial del 5/11) suspenden hasta el 30 de junio de 2027 los juicios de ejecución fiscal y los embargos a MiPyMEs tramos 1 y 2 (con certificado vigente al 29/10/2026), pequeños contribuyentes y entidades sin fines de lucro. El plan de facilidades ahora incluye deudas y multas vencidas hasta el 31 de octubre de 2026 y se puede adherir hasta el 30 de junio de 2027 por \"Mis Facilidades\"; las deudas nuevas se pueden cargar desde el 16 de noviembre.",
+      "porque": "Si tu pyme tiene deudas con ARCA, ganás tiempo sin embargos y podés meter en cuotas lo que venció hasta octubre: revisalo con tu contador.",
+      "claves": [
+        "hasta el 30 de junio de 2027",
+        "se pueden cargar desde el 16 de noviembre",
+        "ganás tiempo sin embargos"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Aduana News",
+          "url": "https://aduananews.com/arca-reglamenta-la-suspension-de-ejecuciones-fiscales-para-mipymes-y-pequenos-contribuyentes/",
+          "oficial": false
+        }
+      ],
+      "sector": "Régimen Courier / PyMEs",
+      "urgencia": "Media",
+      "impacto": "Si tenés deudas fiscales o aduaneras, desde el 16/11 podés sumar lo vencido hasta octubre al plan de cuotas, sin riesgo de embargo hasta mediados de 2027.",
+      "vence": "2027-06-30"
     },
     {
       "fecha": "2026-11-04",
@@ -341,51 +502,25 @@
       ]
     },
     {
-      "fecha": "2026-11-03",
-      "categoria": "ARCA · Aduana",
-      "titulo": "Caputo anunció que las pymes podrán pagar deudas aduaneras con el saldo a favor de exportación",
-      "resumen": "En la Conferencia Industrial de la UIA, el ministro Luis Caputo anunció que las pymes podrán usar el 100% del saldo a favor por exportación o IVA de exportación para cancelar deudas aduaneras (las grandes empresas, solo un porcentaje). También anunció la suspensión de los embargos de ARCA hasta mayo de 2027 y la extensión del plan de 18 cuotas. Por ahora son anuncios: todavía no hay resolución ni decreto que fije requisitos y fecha de vigencia.",
-      "porque": "Si exportás y tenés IVA a favor trabado, podría servirte para pagar deudas con la Aduana. Conviene esperar la norma oficial antes de contar con eso.",
+      "fecha": "2026-11-04",
+      "categoria": "Exportación",
+      "titulo": "Argentina vuelve a exportar sebo a la Unión Europea después de tres años",
+      "resumen": "El SENASA habilitó el establecimiento N° 263 para exportar sebo incomestible, un subproducto de la faena vacuna, a la Unión Europea. Ese mercado estaba cerrado para el producto argentino desde noviembre de 2023.",
+      "porque": "Reabrir un mercado para un subproducto le suma valor a toda la cadena de la carne: los frigoríficos pueden vender a Europa algo que antes vendían más barato.",
       "claves": [
-        "las pymes podrán usar el 100% del saldo a favor por exportación o IVA de exportación para cancelar deudas aduaneras",
-        "Por ahora son anuncios",
-        "Conviene esperar la norma oficial antes de contar con eso"
+        "estaba cerrado para el producto argentino desde noviembre de 2023",
+        "le suma valor a toda la cadena de la carne"
       ],
       "fuentes": [
         {
-          "nombre": "Ministerio de Economía",
-          "url": "https://www.argentina.gob.ar/noticias/luis-caputo-la-mayoria-abrumadora-de-los-empresarios-coincide-en-que-no-tiene-ningun",
-          "oficial": true
-        },
-        {
-          "nombre": "PYME Noticias",
-          "url": "https://www.pymenoticias.com/post/argentina-suspension-embargos-arca-saldos-exportacion-pymes",
+          "nombre": "Mirador Provincial",
+          "url": "https://www.miradorprovincial.com/2026/11/04/el-senasa-habilito-una-planta-y-argentina-recupera-el-mercado-europeo-para-exportar-sebo-animal/",
           "oficial": false
         }
-      ]
-    },
-    {
-      "fecha": "2026-11-03",
-      "categoria": "Dólar",
-      "titulo": "El dólar volvió a subir: mayorista $1.551 y la banda de noviembre llega hasta $1.989,12",
-      "resumen": "El mayorista cerró el 3/11 en $1.551 y en el Banco Nación el minorista quedó en $1.570, nuevo récord nominal. Según el BCRA, el techo de la banda cambiaria llegará a $1.989,12 a fin de noviembre (estaba en $1.954,48): se ajusta con la inflación de dos meses antes, en este caso la de septiembre (1,93%). En 2026 el mayorista acumulaba una suba de 6,22%, contra una inflación de 23,6% hasta septiembre.",
-      "porque": "La banda marca hasta dónde puede subir el dólar antes de que intervenga el BCRA: te da un techo para calcular el peor escenario al cotizar una importación.",
-      "claves": [
-        "el techo de la banda cambiaria llegará a $1.989,12 a fin de noviembre",
-        "te da un techo para calcular el peor escenario al cotizar una importación"
       ],
-      "fuentes": [
-        {
-          "nombre": "Infobae",
-          "url": "https://www.infobae.com/economia/2026/11/03/nueva-banda-cambiaria-hasta-que-precio-puede-subir-el-dolar-en-noviembre-sin-que-intervenga-el-bcra/",
-          "oficial": false
-        },
-        {
-          "nombre": "Ámbito",
-          "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-martes-3-noviembre-n6341089",
-          "oficial": false
-        }
-      ]
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Ejemplo de cómo funciona una habilitación sanitaria: sin la aprobación de SENASA para cada planta, el producto no puede entrar a Europa aunque haya demanda."
     }
   ]
 }
