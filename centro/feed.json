@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T12:14:01+00:00",
+ "actualizado": "2026-11-14T11:34:40+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -784,6 +784,262 @@
      "para": "Los dos",
      "pilar": "Comercio exterior simple",
      "titulo": "Adiviná cuánto costó traer esto, parte 2"
+    }
+   ]
+  },
+  "sem-2026-11-16": {
+   "carruseles": [
+    {
+     "caption": "Barco, avión o courier: cuánto tarda cada uno y cuándo conviene. Guardalo 📌 Calculadora en el link de mi bio.",
+     "destacada": "¿Cuánto cuesta?",
+     "pilar": "Comercio exterior simple",
+     "slides": [
+      "Portada: vos con un barquito y un avión de juguete + \"¿*Barco, avión* o courier?\"",
+      "Tres formas de traer algo de *China*. Cada una con su tiempo.",
+      "1. Barco: unos *60 días* desde que embarca hasta que lo tenés.",
+      "2. Avión: unos *5 días hábiles*, pero se paga *por kilo*.",
+      "3. Courier: rápido, con *límites* de valor y peso por envío.",
+      "Referencia mundial: un contenedor de 40 pies sale *US$4.305*.",
+      "Liviano y urgente: *avión*. Pesado y con tiempo: *barco*.",
+      "Calculadora gratis en el *link de mi bio*. Entrá y registrate."
+     ],
+     "titulo": "Barco, avión o courier"
+    },
+    {
+     "caption": "Lo más importante de noviembre si importás o exportás. Guardalo 📌 Todas las noticias, en el link de mi bio.",
+     "destacada": "Noticias",
+     "pilar": "Noticias y tendencias del rubro",
+     "slides": [
+      "Portada: vos con un calendario de noviembre + \"Lo que *cambió en noviembre* si importás\"",
+      "Inflación de octubre: *2,2%*.",
+      "Por eso el techo de la banda sube a *$2.032,88* en diciembre.",
+      "Multas formales de ARCA: *50% menos* si te ponés al día hasta el *18/12*.",
+      "Ropa usada: ahora hay *trámite previo* al embarque.",
+      "Autos eléctricos: cupo de *50.000* con arancel 0%, pedidos hasta el *17/11*.",
+      "Todas las noticias en el *link de mi bio*. Entrá y registrate."
+     ],
+     "titulo": "Qué cambió en noviembre si importás"
+    },
+    {
+     "caption": "Antes de pagarle a un proveedor de afuera, mirá esto. Guardalo 📌",
+     "destacada": "Empezá acá",
+     "pilar": "Comercio exterior simple",
+     "slides": [
+      "Portada: vos mirando el celu con cara de sospecha + \"3 señales de un *proveedor trucho*\"",
+      "Antes de pagar, *frená* y mirá esto.",
+      "1. Precio raro: *muy por debajo* de todos los demás.",
+      "2. Pago por fuera: te pide pagar *fuera de la plataforma* o a una cuenta personal.",
+      "3. Sin pruebas: no te manda *fotos o videos reales* del producto.",
+      "Si ves una, *preguntá más*. Si ves dos, *no compres*.",
+      "Más guías en el *link de mi bio*. Entrá y registrate."
+     ],
+     "titulo": "3 señales de un proveedor trucho"
+    }
+   ],
+   "desde": "2026-11-16",
+   "foco": "Semana 3: vuelven los videos después del modo mudo, con tiempos y costos reales de traer cosas (barco, avión, courier) y la historia de Ian",
+   "hasta": "2026-11-22",
+   "kind": "semana",
+   "perfil": [
+    {
+     "detalle": "El domingo mirá cuál de los videos de la semana tuvo más guardados y fijalo arriba de todo, en lugar del que tengas fijado ahora.",
+     "titulo": "Fijá el mejor video de la semana"
+    },
+    {
+     "detalle": "Subí capturas de las estadísticas de TikTok e Instagram de esta semana a la pestaña Redes del Centro Ian: con eso el plan de diciembre se arma con lo que funcionó.",
+     "titulo": "Mandá métricas al Centro"
+    }
+   ],
+   "stories": [
+    {
+     "detalle": "Contá que ya estás recuperado y que vuelven los videos esta semana. Sticker de cuenta regresiva al primero del lunes.",
+     "titulo": "Domingo: volví a hablar"
+    },
+    {
+     "detalle": "\"¿Compraste algo por courier este año?\" Sí / No. Las respuestas sirven para el video de las 19:00.",
+     "titulo": "Lunes: encuesta courier"
+    },
+    {
+     "detalle": "\"¿Cuánto creés que sale una PlayStation acá vs en EE.UU.?\" Antes del video de las 12:30.",
+     "titulo": "Martes: slider PlayStation"
+    },
+    {
+     "detalle": "Mostrá la grabación del miércoles y cuántos videos llevás en noviembre.",
+     "titulo": "Miércoles: detrás de escena de la tanda"
+    },
+    {
+     "detalle": "\"¿Cuánto tarda un barco desde China?\" Opciones: 15 días / 60 días / 6 meses. Respuesta: unos 60 días.",
+     "titulo": "Jueves: quiz contenedor"
+    },
+    {
+     "detalle": "\"Preguntame lo que quieras de importar.\" Las mejores van al video del domingo.",
+     "titulo": "Viernes: caja de preguntas"
+    },
+    {
+     "detalle": "Mostrá la cuenta real y mencioná al que más se acercó.",
+     "titulo": "Lunes 23/11: respuesta del Adiviná parte 3"
+    }
+   ],
+   "videos": [
+    {
+     "dia": "Lun 16/11",
+     "fecha": "2026-11-16",
+     "guion": "GANCHO: \"Esto cambió esta semana si importás. En 40 segundos.\"\n\n1. \"Volvió el mercado después de cinco días sin bancos y el mayorista cerró el viernes en 1.543,50, su primera baja semanal en un mes.\" (en pantalla: mayorista $1.543,50)\n2. \"La inflación de octubre fue 2,2%. Por eso el techo de la banda sube en diciembre a 2.032,88.\" (en pantalla: inflación 2,2% · techo $2.032,88)\n3. \"Nuevas reglas para importar ropa usada: trámite antes de embarcar y, si algo no coincide, se reembarca a tu cargo.\" (en pantalla: ropa usada: trámite previo)\n4. \"Y si tenés multas formales en ARCA, hasta el 18 de diciembre pagás la mitad si te ponés al día.\" (en pantalla: multas -50% hasta 18/12)\n\nCIERRE: \"Guardalo y el lunes que viene te traigo lo nuevo.\"\n\nCAPTION: Lo que cambió esta semana si importás o exportás. Guardalo 📌\n\nNOTA: revisá el radar el domingo antes de grabar por si hay algo más nuevo.",
+     "para": "Graciela",
+     "pilar": "Noticias y tendencias del rubro",
+     "titulo": "Lo que cambió esta semana si importás"
+    },
+    {
+     "dia": "Lun 16/11",
+     "fecha": "2026-11-16",
+     "guion": "GANCHO: \"Comprar por courier: qué se puede y qué no, hoy.\"\n\n1. \"El courier explotó: entre enero y septiembre se compraron 960 millones de dólares por esta vía, 59,5% más que el año pasado.\" (en pantalla: US$960 M · +59,5%)\n2. \"Llega rápido: unos cinco días hábiles desde el depósito afuera hasta Argentina.\" (en pantalla: ≈5 días hábiles)\n3. \"Pero tiene límites de valor, peso y cantidad por envío, y no todo se puede traer así.\" (en pantalla: límites por envío (chequear))\n4. \"Para vender en serio, el camino es la importación formal. El courier sirve para probar.\" (en pantalla: courier = probar)\n\nCIERRE: \"¿Qué compraste por courier este año? Contame.\"\n\nCAPTION: Courier hoy: lo que se puede, lo que no y para qué sirve. Guardalo 📌\n\nNOTA: chequeá los límites vigentes (valor, peso, unidades) antes de grabar. Dato de El Cronista.",
+     "para": "Graciela",
+     "pilar": "Noticias y tendencias del rubro",
+     "titulo": "Comprar por courier hoy: qué se puede y qué no"
+    },
+    {
+     "dia": "Lun 16/11",
+     "fecha": "2026-11-16",
+     "guion": "GANCHO: \"¿Qué está importando Argentina este año? Te sorprende.\"\n\n1. \"Ropa: las importaciones de indumentaria subieron 46% entre enero y septiembre. Ya son el 70% del mercado.\" (en pantalla: ropa +46% · 70% importada)\n2. \"Agroquímicos: 277% más que en 2022.\" (en pantalla: agroquímicos +277%)\n3. \"Maquinaria agrícola: 81% más.\" (en pantalla: maquinaria agrícola +81%)\n4. \"Lectura: el campo importa para producir más, y en ropa la industria local pierde lugar.\" (en pantalla: insumos vs consumo)\n\nCIERRE: \"¿Te diste cuenta de que tu ropa viene de afuera? Contame.\"\n\nCAPTION: Lo que más creció en importaciones este año. Datos de Pro Tejer e IIEP (UBA-CONICET).\n\nNOTA: los datos son de Pro Tejer (ropa) e IIEP (vs 2022); si querés un dato oficial del INDEC, chequealo antes.",
+     "para": "Graciela",
+     "pilar": "Noticias y tendencias del rubro",
+     "titulo": "Lo que más está importando Argentina este año"
+    },
+    {
+     "dia": "Mar 17/11",
+     "fecha": "2026-11-17",
+     "guion": "GANCHO: \"Una PlayStation en Estados Unidos, Chile y Argentina. Mirá la diferencia.\"\n\n1. \"Precio en Estados Unidos, en la tienda oficial.\" (en pantalla: EE.UU. US$ (chequear))\n2. \"Precio en Chile.\" (en pantalla: Chile (chequear))\n3. \"Precio acá.\" (en pantalla: Argentina (chequear))\n4. \"Por qué: impuestos según la posición arancelaria, logística, importador y la escala de cada mercado.\" (en pantalla: impuestos + logística + escala)\n\nCIERRE: \"¿En qué país la comprarías vos? Comentá.\"\n\nCAPTION: Cuánto cuesta traerlo, ep. 4: PlayStation en 3 países 👇\n\nNOTA: sacá los tres precios el mismo día de grabar, del mismo modelo, y pasalos a dólares con la misma fuente.",
+     "para": "Tomi",
+     "pilar": "Comercio exterior simple",
+     "titulo": "Una PlayStation: Estados Unidos, Chile y Argentina"
+    },
+    {
+     "dia": "Mar 17/11",
+     "fecha": "2026-11-17",
+     "guion": "GANCHO: \"¿Barco o avión? Hice la cuenta.\"\n\n1. \"Barco desde China: unos 45 días de viaje, más una semana para exportar y otra para importar. Unos 60 días.\" (en pantalla: barco ≈ 60 días)\n2. \"Avión o courier: unos cinco días hábiles.\" (en pantalla: avión ≈ 5 días)\n3. \"Pero el avión se paga por kilo: China–Estados Unidos ya pasa los 8 dólares por kilo. Un contenedor de 40 pies sale 4.305 de referencia.\" (en pantalla: US$8/kg vs US$4.305 el contenedor)\n4. \"Regla: liviano y urgente, avión. Pesado y con tiempo, barco.\" (en pantalla: liviano/urgente vs pesado/con tiempo)\n\nCIERRE: \"¿Vos qué traerías en avión? Guardalo.\"\n\nCAPTION: Barco o avión: cuándo conviene cada uno. Guardalo 📌\n\nNOTA: los valores son referencias mundiales (Freightos y Drewry), no tarifas a Buenos Aires.",
+     "para": "Tomi",
+     "pilar": "Comercio exterior simple",
+     "titulo": "¿Barco o avión? Hice la cuenta"
+    },
+    {
+     "dia": "Mar 17/11",
+     "fecha": "2026-11-17",
+     "guion": "GANCHO: \"El mate que tomás todos los días, ¿se hace acá o se importa?\"\n\n1. \"La yerba es nuestra: Argentina la produce y la exporta. La yerba canchada creció 199% en exportaciones este año.\" (en pantalla: yerba = argentina 🇦🇷 · +199%)\n2. \"La bombilla, el termo y el mate: acá depende. Muchos termos vienen de afuera.\" (en pantalla: termo ¿importado? (chequear))\n3. \"Mirá la etiqueta: dice el país de origen.\" (en pantalla: mirá la etiqueta)\n4. \"Hacé la prueba con tu equipo de mate y contame qué encontraste.\" (en pantalla: tu equipo de mate)\n\nCIERRE: \"¿De dónde es tu termo? Comentá.\"\n\nCAPTION: ¿Tu mate es argentino o importado? Mirá la etiqueta y contame 🧉\n\nNOTA: chequeá el origen de los productos que muestres; el dato de yerba es de la Secretaría de Agricultura.",
+     "para": "Tomi",
+     "pilar": "Comercio exterior simple",
+     "titulo": "El mate que tomás todos los días, ¿se hace acá o se importa?"
+    },
+    {
+     "dia": "Mié 18/11",
+     "fecha": "2026-11-18",
+     "guion": "GANCHO: \"Tres crisis argentinas que mi familia pasó importando.\"\n\n1. \"Crisis 1: qué pasó y cómo se adaptaron.\" (en pantalla: crisis 1 + año)\n2. \"Crisis 2: qué cambió en el negocio.\" (en pantalla: crisis 2 + año)\n3. \"Crisis 3: la más reciente, lo que viste vos.\" (en pantalla: crisis 3)\n4. \"Lo que aprendí: en Argentina el que sobrevive es el que se adapta rápido.\" (en pantalla: adaptarse rápido)\n\nCIERRE: \"¿Tu familia pasó alguna? Contame.\"\n\nCAPTION: Tres crisis, una empresa familiar que importa. Lo que aprendí.\n\nNOTA: chequeá años y hechos con tu familia; sin datos sensibles del negocio. No uses la frase \"tercera generación de importadores\".",
+     "para": "Los dos",
+     "pilar": "Tercera generación",
+     "titulo": "3 crisis argentinas que mi familia sobrevivió importando"
+    },
+    {
+     "dia": "Mié 18/11",
+     "fecha": "2026-11-18",
+     "guion": "GANCHO: \"Le mostré Temu a mi abuelo, que importa hace años.\"\n\n1. \"Le muestro la app y los precios.\" (en pantalla: reacción)\n2. \"Lo primero que pregunta.\" (en pantalla: su pregunta)\n3. \"Lo que le parece bien y lo que no.\" (en pantalla: 👍 / 👎)\n4. \"Su consejo para el que compra ahí.\" (en pantalla: el consejo)\n\nCIERRE: \"¿Ustedes compran en Temu? Comentá.\"\n\nCAPTION: Le mostré Temu a mi abuelo importador. Su reacción 😂\n\nNOTA: si no quiere salir en cámara, contá vos lo que dijo.",
+     "para": "Los dos",
+     "pilar": "Tercera generación",
+     "titulo": "Le mostré Temu a mi abuelo importador"
+    },
+    {
+     "dia": "Mié 18/11",
+     "fecha": "2026-11-18",
+     "guion": "GANCHO: \"Lo que aprendí viendo a mi viejo negociar con proveedores.\"\n\n1. \"Táctica 1: qué hace y por qué funciona.\" (en pantalla: táctica 1)\n2. \"Táctica 2.\" (en pantalla: táctica 2)\n3. \"Lo que nunca hace.\" (en pantalla: lo que nunca hace)\n4. \"Cómo lo uso yo.\" (en pantalla: cómo lo uso yo)\n\nCIERRE: \"Guardalo para tu próxima negociación.\"\n\nCAPTION: Dos cosas que aprendí viendo negociar a mi viejo. Guardalo 📌",
+     "para": "Los dos",
+     "pilar": "Tercera generación",
+     "titulo": "Lo que aprendí viendo a mi viejo negociar con proveedores"
+    },
+    {
+     "dia": "Jue 19/11",
+     "fecha": "2026-11-19",
+     "guion": "GANCHO: \"Te dijeron 30 días y tu contenedor tarda el doble. Te explico por qué.\"\n\n1. \"Producción: el proveedor puede sumar 30 días antes de embarcar.\" (en pantalla: producción ≈ 30 días)\n2. \"Viaje desde China: unos 45 días.\" (en pantalla: viaje ≈ 45 días)\n3. \"Una semana para exportar y otra para importar.\" (en pantalla: +1 semana + 1 semana)\n4. \"Total: unos 60 días desde el embarque, 90 si contás la fabricación.\" (en pantalla: ≈ 60-90 días)\n\nCIERRE: \"Para Navidad, por barco ya no llegás. Guardalo.\"\n\nCAPTION: Por qué tu contenedor tarda el doble de lo que te dijeron. Guardalo 📌\n\nNOTA: datos de El Cronista (13/11); son tiempos típicos, varían por ruta.",
+     "para": "Tomi",
+     "pilar": "Comercio exterior simple",
+     "titulo": "Por qué tu contenedor tarda el doble de lo que te dijeron"
+    },
+    {
+     "dia": "Jue 19/11",
+     "fecha": "2026-11-19",
+     "guion": "GANCHO: \"3 señales de que un proveedor de Alibaba te puede estafar.\"\n\n1. \"Precio muy por debajo de todos los demás.\" (en pantalla: 1. precio raro)\n2. \"Te pide pagar por fuera de la plataforma o a una cuenta personal.\" (en pantalla: 2. pago por fuera)\n3. \"No te manda fotos o videos reales del producto ni de la fábrica.\" (en pantalla: 3. sin pruebas)\n\nCIERRE: \"Guardalo antes de tu primera compra.\"\n\nCAPTION: 3 señales para no caer con un proveedor de Alibaba. Guardalo 📌",
+     "para": "Tomi",
+     "pilar": "Comercio exterior simple",
+     "titulo": "Cómo saber si un proveedor de Alibaba te está estafando"
+    },
+    {
+     "dia": "Jue 19/11",
+     "fecha": "2026-11-19",
+     "guion": "GANCHO: \"Contenedor de 20 o de 40, explicado con cajas de zapatos.\"\n\n1. \"Un contenedor de 20 pies mide unos 6 metros de largo.\" (en pantalla: 20' ≈ 6 m (chequear))\n2. \"El de 40 mide el doble de largo, unos 12 metros.\" (en pantalla: 40' ≈ 12 m)\n3. \"Pensalo en cajas de zapatos: en el de 40 entra el doble de cajas, pero no cuesta el doble mover uno.\" (en pantalla: x2 cajas ≠ x2 precio)\n4. \"Por eso, si llenás el de 40, cada caja sale más barata.\" (en pantalla: lleno = más barato por caja)\n\nCIERRE: \"¿Sabías que había dos tamaños? Guardalo.\"\n\nCAPTION: Contenedor de 20 vs 40 explicado fácil 📦\n\nNOTA: chequeá medidas y capacidad antes de grabar; podés calcular cuántas cajas de zapatos entran con las medidas reales.",
+     "para": "Tomi",
+     "pilar": "Comercio exterior simple",
+     "titulo": "Contenedor de 20 vs de 40 explicado con cajas de zapatos"
+    },
+    {
+     "dia": "Vie 20/11",
+     "fecha": "2026-11-20",
+     "guion": "GANCHO: \"¿Por qué lo mismo llega más caro acá que a Chile?\"\n\n1. \"Impuestos: según el producto, acá se pagan más derechos y tasas.\" (en pantalla: impuestos (chequear))\n2. \"Logística: puertos, distancias y costos internos.\" (en pantalla: logística)\n3. \"Escala: Chile compra más seguido y negocia mejor.\" (en pantalla: escala)\n4. \"No es una sola cosa: es la suma.\" (en pantalla: la suma)\n\nCIERRE: \"¿Cruzaste a Chile a comprar? Contame.\"\n\nCAPTION: Por qué lo mismo llega más caro a Argentina que a Chile.\n\nNOTA: opinión con ejemplos; si das un precio o arancel, chequealo.",
+     "para": "Los dos",
+     "pilar": "Comercio exterior simple",
+     "titulo": "Por qué lo mismo llega más caro a Argentina que a Chile"
+    },
+    {
+     "dia": "Vie 20/11",
+     "fecha": "2026-11-20",
+     "guion": "GANCHO: \"¿Importar es para ricos? Mis amigos me lo preguntan.\"\n\n1. \"No hace falta llenar un contenedor para empezar.\" (en pantalla: no hace falta un contenedor)\n2. \"Podés probar con pocas unidades por courier.\" (en pantalla: probar chico)\n3. \"Lo que sí hace falta: hacer la cuenta completa antes de comprar.\" (en pantalla: la cuenta completa)\n4. \"El que pierde plata no es el que tiene poco, es el que no hace la cuenta.\" (en pantalla: la cuenta > la plata)\n\nCIERRE: \"¿Vos qué pensabas? Comentá.\"\n\nCAPTION: ¿Importar es solo para los que tienen plata? Mi opinión.",
+     "para": "Los dos",
+     "pilar": "Comercio exterior simple",
+     "titulo": "¿Importar es para ricos? Mis amigos me lo preguntan"
+    },
+    {
+     "dia": "Vie 20/11",
+     "fecha": "2026-11-20",
+     "guion": "GANCHO: \"¿Se puede vivir de importar en Argentina?\"\n\n1. \"Sí, pero no es plata fácil.\" (en pantalla: sí, pero)\n2. \"Lo que veo en mi familia: cambian las reglas y te tenés que adaptar.\" (en pantalla: reglas que cambian)\n3. \"Los que duran: conocen su producto y hacen bien las cuentas.\" (en pantalla: producto + cuentas)\n4. \"Mi opinión: se puede, si lo tomás como un trabajo y no como un atajo.\" (en pantalla: trabajo, no atajo)\n\nCIERRE: \"¿Vos lo harías? Contame.\"\n\nCAPTION: ¿Se puede vivir de importar en Argentina? Mi opinión sincera.",
+     "para": "Los dos",
+     "pilar": "Comercio exterior simple",
+     "titulo": "¿Se puede vivir de importar en Argentina?"
+    },
+    {
+     "dia": "Sáb 21/11",
+     "fecha": "2026-11-21",
+     "guion": "GANCHO: \"Arranqué un negocio con mis amigos. Se llama Boppa.\"\n\n1. \"Qué es Boppa en una frase.\" (en pantalla: qué es)\n2. \"Cómo arrancamos.\" (en pantalla: cómo arrancamos)\n3. \"Qué hace cada uno.\" (en pantalla: el equipo)\n4. \"Lo que viene.\" (en pantalla: lo que viene)\n\nCIERRE: \"¿Arrancarías algo con tus amigos? Contame.\"\n\nCAPTION: Arranqué un negocio con mis amigos. Les cuento.\n\nNOTA: con permiso de tus socios; contá solo lo que quieran mostrar.",
+     "para": "Tomi",
+     "pilar": "Vida de pibe de 18 que emprende + Boppa",
+     "titulo": "Arranqué un negocio con mis amigos"
+    },
+    {
+     "dia": "Sáb 21/11",
+     "fecha": "2026-11-21",
+     "guion": "GANCHO: \"El error que cometimos en Boppa para que no lo cometas vos.\"\n\n1. \"Qué hicimos.\" (en pantalla: el error)\n2. \"Qué pasó.\" (en pantalla: qué pasó)\n3. \"Cuánto nos costó, en plata o en tiempo.\" (en pantalla: lo que costó)\n4. \"Lo que hacemos distinto ahora.\" (en pantalla: lo que cambiamos)\n\nCIERRE: \"Guardalo si estás por arrancar algo.\"\n\nCAPTION: Nuestro error en Boppa, para que no lo cometas vos.",
+     "para": "Tomi",
+     "pilar": "Vida de pibe de 18 que emprende + Boppa",
+     "titulo": "El error que cometimos en Boppa para que no lo cometas vos"
+    },
+    {
+     "dia": "Sáb 21/11",
+     "fecha": "2026-11-21",
+     "guion": "GANCHO: \"Cómo divido facu, familia, Boppa y redes. Mi semana real.\"\n\n1. \"Mañanas: qué hacés.\" (en pantalla: mañanas)\n2. \"Tardes: empresa familiar y Boppa.\" (en pantalla: tardes)\n3. \"Grabación: domingo y miércoles.\" (en pantalla: dom y mié grabo)\n4. \"Lo que todavía no me sale.\" (en pantalla: lo que me cuesta)\n\nCIERRE: \"¿Cómo te organizás vos?\"\n\nCAPTION: Mi semana real a los 18, sin humo.",
+     "para": "Tomi",
+     "pilar": "Vida de pibe de 18 que emprende + Boppa",
+     "titulo": "Cómo divido facu, familia, Boppa y redes"
+    },
+    {
+     "dia": "Dom 22/11",
+     "fecha": "2026-11-22",
+     "guion": "GANCHO: \"Respondo las 3 preguntas que más me hicieron esta semana.\"\n\n1. \"Pregunta 1 + respuesta en una frase.\" (en pantalla: la pregunta)\n2. \"Pregunta 2 + respuesta.\" (en pantalla: la pregunta)\n3. \"Pregunta 3 + respuesta.\" (en pantalla: la pregunta)\n\nCIERRE: \"Dejá tu pregunta para el domingo que viene.\"\n\nCAPTION: Respondo sus preguntas de la semana. Dejá la tuya 👇\n\nNOTA: usá preguntas reales de comentarios, DMs y la caja de preguntas de stories.",
+     "para": "Los dos",
+     "pilar": "Comercio exterior simple",
+     "titulo": "Respondo sus preguntas de la semana"
+    },
+    {
+     "dia": "Dom 22/11",
+     "fecha": "2026-11-22",
+     "guion": "GANCHO: \"Adiviná cuánto costó traer esto. Parte 3.\"\n\n1. \"Mostrás el producto, sin datos de clientes.\" (en pantalla: el producto)\n2. \"Pistas: de dónde viene y cómo vino.\" (en pantalla: pistas)\n3. \"Dejá tu número en los comentarios.\" (en pantalla: ¿cuánto costó?)\n\nCIERRE: \"El lunes en stories la cuenta; el que más se acerque tiene mención.\"\n\nCAPTION: Parte 3: adiviná cuánto costó traerlo 👀\n\nNOTA: calculá el costo real antes de publicar.",
+     "para": "Los dos",
+     "pilar": "Comercio exterior simple",
+     "titulo": "Adiviná cuánto costó traer esto, parte 3"
     }
    ]
   }
