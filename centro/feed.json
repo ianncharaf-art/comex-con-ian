@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T11:34:40+00:00",
+ "actualizado": "2026-11-14T12:13:50+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -171,6 +171,24 @@
    "noticia": "La RG 5927/2026 de ARCA (BO 12/11) reglamenta la rebaja de 50% en multas por deberes formales: obligaciones vencidas desde el 2/1/2026, infracciones antes del 9/10/2026, cumpliendo lo omitido hasta el 18/12/2026.",
    "para": "Graciela",
    "titulo": "Si tu empresa debe una multa formal, hasta el 18 de diciembre pagás la mitad"
+  },
+  "guion-2026-11-13-1": {
+   "fecha": "2026-11-13",
+   "fuente": "https://www.cronista.com/economia-politica/el-consumo-se-prepara-para-navidad-el-nuevo-cuello-de-botella-y-las-claves-para-stocks-y-margenes/",
+   "guion": "GANCHO: \"Si vendés importado y pensás en Navidad, ojo con esto.\"\n\n1. \"Por barco desde China son unos 45 días de viaje, más una semana para exportar y otra para importar: unos 60 días.\" (en pantalla: barco ≈ 60 días)\n2. \"Lo que no embarcaste todavía no llega para las fiestas.\" (en pantalla: no llega a Navidad)\n3. \"Lo único que llega: avión o courier, unos cinco días hábiles. Por eso el courier ya movió 960 millones de dólares en el año.\" (en pantalla: avión/courier ≈ 5 días · US$960 M)\n4. \"Separá lo que tenés en stock de lo que está en viaje y no prometas fechas que no podés cumplir.\" (en pantalla: stock ≠ en tránsito)\n\nMi lectura: para la temporada que viene, el pedido se planifica con 60 a 90 días de anticipación.\n\nCIERRE: \"¿Ya tenés el stock de fin de año? Guardalo para el año que viene.\"\n\nFuente para el caption: El Cronista.",
+   "kind": "guion",
+   "noticia": "Un envío marítimo desde China tarda unos 45 días de viaje más una semana para exportar y otra para importar (≈60 días); por avión o courier, unos 5 días hábiles. El courier sumó US$960 millones en enero-septiembre (+59,5%).",
+   "para": "Graciela",
+   "titulo": "Si querés mercadería importada para Navidad, por barco ya no llegás"
+  },
+  "guion-2026-11-14-1": {
+   "fecha": "2026-11-14",
+   "fuente": "https://www.noticiasdecampo.com/2026/11/14/crecieron-los-envios-al-exterior-de-245-productos-agroindustriales/",
+   "guion": "GANCHO: \"Pensás que Argentina solo exporta soja. Mirá esto.\"\n\n1. \"245 productos del agro vendieron más afuera en los primeros nueve meses del año: 37.793 millones de dólares.\" (en pantalla: 245 productos · US$37.793 M)\n2. \"El girasol creció 822%. El cordero congelado, 765%.\" (en pantalla: girasol +822% · cordero +765%)\n3. \"Y los chicos también: la yerba mate canchada, 199%, y los frutos secos, 186%.\" (en pantalla: yerba +199% · frutos secos +186%)\n4. \"Productos de nicho que crecen así pueden ser la puerta de entrada para el que quiere empezar a exportar.\" (en pantalla: nicho = oportunidad)\n\nMi lectura: exportar no es solo para los gigantes de la soja; hay lugar para productos chicos.\n\nCIERRE: \"¿Qué producto argentino exportarías vos? Comentá.\"\n\nFuente para el caption: Secretaría de Agricultura con datos del INDEC, vía Noticias de Campo.",
+   "kind": "guion",
+   "noticia": "245 productos agroindustriales aumentaron sus exportaciones en enero-septiembre 2026 (US$37.793 millones, 87% del total agroindustrial): girasol +822%, cordero congelado +765%, hilados de algodón +280%, yerba mate canchada +199%, frutos secos +186%.",
+   "para": "Tomi",
+   "titulo": "No todo es soja: el girasol exportado creció 822% este año"
   },
   "sem-2026-10-26": {
    "carruseles": [
