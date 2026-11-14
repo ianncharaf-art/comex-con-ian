@@ -3,6 +3,189 @@
   "items": [
     {
       "fecha": "2026-11-14",
+      "categoria": "Comercio exterior",
+      "titulo": "Tesla llega a la Argentina: pedidos desde el 20 de noviembre para el Model 3 y el Model Y",
+      "resumen": "Tesla confirmó que arrancará en el país con el Model 3 y el Model Y, ambos 100% eléctricos, y que los pedidos se abrirán el 20 de noviembre. Todavía no informó precios ni versiones. El Decreto 1128/2026, vigente desde el 1° de octubre, subió de US$16.000 a US$35.000 el valor FOB máximo de los autos eléctricos que entran sin el arancel extrazona del 35%. Además, el acuerdo con Estados Unidos fija un cupo anual de 10.000 vehículos de origen estadounidense con arancel cero.",
+      "porque": "Es un caso real de cómo un cambio de arancel abre un negocio de importación: el tope se mide en valor FOB, sin flete, seguro ni impuestos posteriores.",
+      "claves": [
+        "de US$16.000 a US$35.000 el valor FOB máximo",
+        "cupo anual de 10.000 vehículos",
+        "sin flete, seguro ni impuestos posteriores"
+      ],
+      "fuentes": [
+        {
+          "nombre": "La Nación",
+          "url": "https://www.lanacion.com.ar/autos/tesla-confirmo-cuales-seran-sus-dos-primeros-modelos-en-la-argentina-nid14112026/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Buen ejemplo para estudiar: la exención es solo del arancel extrazona; el auto igual paga el resto de los impuestos de importación.",
+      "agregado": "2026-11-14T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-14",
+      "categoria": "Dólar",
+      "titulo": "El riesgo país bajó 109 puntos en la semana y cerró en 830",
+      "resumen": "El riesgo país de JP Morgan cerró la semana en 830 puntos básicos, 109 menos que la semana anterior, cuando había llegado a 939, su nivel más alto desde octubre de 2025. Los bonos en dólares subieron cerca de 3%. El dólar mayorista terminó en $1.543,50 y el oficial minorista del Banco Nación en $1.570. El BCRA compró USD 172 millones en tres ruedas y las reservas brutas quedaron en USD 49.594 millones.",
+      "porque": "Un riesgo país más bajo abarata el crédito en dólares para empresas, incluida la prefinanciación de importaciones y exportaciones.",
+      "claves": [
+        "830 puntos básicos",
+        "compró USD 172 millones en tres ruedas",
+        "abarata el crédito en dólares"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/11/14/los-bonos-rebotaron-3-y-el-riesgo-pais-argentino-desconto-mas-de-100-puntos-basicos-en-una-semana-de-alta-volatilidad-externa/",
+          "oficial": false
+        }
+      ],
+      "sector": "BCRA / Cambiario",
+      "urgencia": "Informativa",
+      "impacto": "Si financiás compras al exterior, seguí el riesgo país: cuando baja, los bancos suelen mejorar las tasas de prefinanciación.",
+      "agregado": "2026-11-14T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-14",
+      "categoria": "Comercio exterior",
+      "titulo": "Casi 10.000 empresas con empleados menos en 2026: comercio y transporte, los más golpeados",
+      "resumen": "Según datos de la Superintendencia de Riesgos del Trabajo, entre diciembre de 2025 y agosto de 2026 las empresas con al menos un trabajador registrado bajaron de 489.749 a 479.928, un saldo neto de 9.821 menos (-2%). Comercio perdió 4.156 empresas, industria manufacturera 1.841 y transporte y almacenamiento 1.663 (-4,9%, la mayor caída entre los sectores grandes). Es un saldo neto, no un conteo de cierres, y no incluye unipersonales.",
+      "porque": "Transporte y almacenamiento es parte directa de la cadena logística del comercio exterior: menos empresas puede significar menos oferta de fletes y depósitos.",
+      "claves": [
+        "un saldo neto de 9.821 menos",
+        "transporte y almacenamiento 1.663",
+        "menos oferta de fletes y depósitos"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Infobae (datos SRT)",
+          "url": "https://www.infobae.com/economia/2026/11/14/cerraron-casi-10000-empresas-en-lo-que-va-de-2026-cuales-fueron-los-sectores-mas-afectados/",
+          "oficial": false
+        }
+      ],
+      "sector": "Logística y Fletes",
+      "urgencia": "Informativa",
+      "impacto": "Si dependés de un transportista o depósito chico, tené un proveedor alternativo cotizado por si deja de operar.",
+      "agregado": "2026-11-14T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-14",
+      "categoria": "Exportación",
+      "titulo": "IERAL: el agro exporta un 10% más en volumen y factura unos US$43.000 millones en 2026",
+      "resumen": "Juan Manuel Garzón, economista jefe del IERAL (Fundación Mediterránea), dijo que las exportaciones agroindustriales de 2026 son récord en volumen, cerca de un 10% más que en 2025, y que facturan unos US$43.000 millones, cerca del pico de US$44.000 millones de 2022; la diferencia se explica por precios internacionales más bajos de soja, maíz y trigo. Según Garzón, el tipo de cambio no es hoy el principal problema: pidió estabilidad, crédito, menos impuestos, eliminar las retenciones que quedan y mejor infraestructura.",
+      "porque": "Muestra que para exportar más no alcanza con un dólar alto: pesan los impuestos, el financiamiento y la logística.",
+      "claves": [
+        "récord en volumen",
+        "unos US$43.000 millones",
+        "no alcanza con un dólar alto"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Cadena 3",
+          "url": "https://www.cadena3.com/noticia/una-manana-para-todos/el-dolar-no-es-el-unico-problema-que-necesita-argentina-para-exportar-mas_613125",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Para estudiar: buen resumen de qué frena las exportaciones argentinas más allá del tipo de cambio.",
+      "agregado": "2026-11-14T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-14",
+      "categoria": "ARCA · Aduana",
+      "titulo": "La Corte dejó firme un fallo contra retenciones de 2007-2008 y Federación Agraria pide derogar el artículo 755 del Código Aduanero",
+      "resumen": "La Corte Suprema rechazó un recurso de la Dirección General de Aduanas y quedó firme una sentencia de mayo de 2025 que declaró inválidas resoluciones ministeriales de 2007 y 2008, entre ellas la 125, y ordenó devolverle a Louis Dreyfus lo pagado de más, con intereses. La Cámara había considerado que el artículo 755 del Código Aduanero no alcanza por sí solo porque no fija escala, piso ni techo. Federación Agraria pidió al Congreso derogar ese artículo para que las retenciones se fijen solo por ley.",
+      "porque": "El artículo 755 es la herramienta que usa el Poder Ejecutivo para subir o bajar derechos de exportación por decreto; si se discute, cambia cómo se fijan las retenciones.",
+      "claves": [
+        "artículo 755 del Código Aduanero",
+        "no fija escala, piso ni techo",
+        "subir o bajar derechos de exportación por decreto"
+      ],
+      "fuentes": [
+        {
+          "nombre": "La Nación",
+          "url": "https://www.lanacion.com.ar/economia/campo/la-justicia-nos-vuelve-a-dar-la-razon-federacion-agraria-pidio-derogar-el-articulo-del-codigo-nid14112026/",
+          "oficial": false
+        }
+      ],
+      "sector": "ARCA / Aduana",
+      "urgencia": "Informativa",
+      "impacto": "Para estudiar derecho aduanero: es un caso concreto sobre quién puede fijar los derechos de exportación y con qué límites.",
+      "agregado": "2026-11-14T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-14",
+      "categoria": "Exportación",
+      "titulo": "Brasil tendría una de sus peores cosechas de trigo y compraría unos 8 millones de toneladas",
+      "resumen": "Según Carlos Pouiller, director de AZ-Group, Brasil cosecharía unos 5,7 millones de toneladas de trigo, cerca de 2,5 millones menos que en las dos campañas anteriores, y deberá importar unos 8 millones, sobre todo de Argentina, su proveedor tradicional. La estimación preliminar de producción argentina 2026/27 es de 23 millones de toneladas. En el mercado local, los precios de cosecha cayeron unos 15-20 US$/t desde los máximos de hace un mes.",
+      "porque": "Brasil compra trigo argentino con arancel cero dentro del Mercosur: más demanda brasileña sostiene precios y embarques por camión y barco.",
+      "claves": [
+        "deberá importar unos 8 millones",
+        "con arancel cero dentro del Mercosur"
+      ],
+      "fuentes": [
+        {
+          "nombre": "La Nación",
+          "url": "https://www.lanacion.com.ar/economia/campo/el-trigo-evoluciona-favorablemente-y-se-abre-una-oportunidad-en-brasil-nid14112026/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Si trabajás en logística de granos o con Brasil, el verano y el otoño vienen con más volumen de trigo hacia allá.",
+      "agregado": "2026-11-14T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-14",
+      "categoria": "Exportación",
+      "titulo": "El maíz argentino es el más barato del mundo y la demanda exportadora sostiene el precio",
+      "resumen": "El USDA subió su estimación de producción argentina de maíz de 55 a 57 millones de toneladas y la de exportaciones de 38 a 40 millones. El maíz Up River para enero cotiza 212 US$/t FOB, unos US$10 por debajo del estadounidense y entre US$3 y 8 por debajo del brasileño. Para la campaña 2026/27, los exportadores ya compraron 8,15 millones de toneladas, pero las declaraciones de venta al exterior (DJVE) suman solo 1,026 millones.",
+      "porque": "Un precio FOB más bajo que el de Estados Unidos y Brasil es lo que hace que los compradores elijan origen Argentina.",
+      "claves": [
+        "de 38 a 40 millones",
+        "212 US$/t FOB",
+        "más bajo que el de Estados Unidos y Brasil"
+      ],
+      "fuentes": [
+        {
+          "nombre": "La Nación",
+          "url": "https://www.lanacion.com.ar/economia/campo/la-firme-demanda-por-el-maiz-argentino-sostiene-los-precios-en-el-mercado-local-nid14112026/",
+          "oficial": false
+        }
+      ],
+      "sector": "Logística y Fletes",
+      "urgencia": "Informativa",
+      "impacto": "Para estudiar: compará el FOB de cada origen para entender por qué un comprador elige un país u otro.",
+      "agregado": "2026-11-14T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-14",
+      "categoria": "Mundo",
+      "titulo": "Canadá avanza en un acuerdo con Trump y cierra un tratado de libre comercio con el ASEAN",
+      "resumen": "El primer ministro de Canadá, Mark Carney, dijo que las negociaciones con Estados Unidos avanzan hacia un posible acuerdo que podría bajar los aranceles al acero y al aluminio, aunque \"todavía no\" está cerrado. Desde agosto, Washington aplica aranceles del 50% a unos US$20.000 millones de productos canadienses. En paralelo, Canadá concluyó en lo sustancial un tratado de libre comercio con el ASEAN (cerca de 700 millones de personas) y otro con Filipinas, que cubre más del 90% de las líneas arancelarias.",
+      "porque": "Muestra la tendencia mundial: ante los aranceles de EE.UU., los países diversifican mercados firmando acuerdos con Asia, igual que busca hacer el Mercosur.",
+      "claves": [
+        "aranceles del 50%",
+        "más del 90% de las líneas arancelarias",
+        "los países diversifican mercados"
+      ],
+      "fuentes": [
+        {
+          "nombre": "AP (vía News4JAX)",
+          "url": "https://www.news4jax.com/business/2026/11/14/canadas-carney-reports-progress-in-trade-talks-with-trump-as-he-expands-ties-with-asia/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Informativa",
+      "impacto": "Si exportás acero o aluminio a EE.UU., un acuerdo con Canadá puede sumar competencia con menos arancel.",
+      "agregado": "2026-11-14T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-14",
       "categoria": "Mundo",
       "titulo": "Ormuz: Irán informa otros tres petroleros incendiados por minas y la ONU alerta por más ataques",
       "resumen": "Las Fuerzas Armadas de Irán informaron que otros tres petroleros se incendiaron tras chocar con minas en rutas \"no autorizadas\" del estrecho de Ormuz; uno quedó inmovilizado con sus sistemas de identificación apagados. No hay confirmación independiente. El 13 de noviembre, la ONU advirtió en el Consejo de Seguridad que crecen los ataques a barcos comerciales: la Organización Marítima Internacional contó 134 incidentes confirmados en Ormuz y otras aguas de Medio Oriente entre el 28 de febrero y el 11 de noviembre. Antes de la guerra, por Ormuz pasaba cerca del 20% del petróleo mundial.",
@@ -95,121 +278,77 @@
     },
     {
       "fecha": "2026-11-13",
-      "categoria": "Mundo",
-      "titulo": "Ormuz: Irán dice que cuatro petroleros y un buque de gas fueron alcanzados por explosiones",
-      "resumen": "Irán afirmó que dos superpetroleros explotaron tras chocar con minas y que otros dos se incendiaron al entrar en una zona restringida del estrecho de Ormuz; también dijo que un buque con gas licuado chocó con una mina. Esas versiones no están confirmadas por organismos marítimos independientes. Sí hay registros de ataques a un petrolero el 10 de noviembre y al buque tanque NCC FAJR el 11, con tripulaciones a salvo. En la primera semana y media de noviembre fueron alcanzados al menos diez barcos, y octubre tuvo 37 ataques, el récord desde que empezó el conflicto. El viernes al mediodía el Brent cotizaba US$96,21 y el WTI US$88,62.",
-      "porque": "Con el petróleo cerca de US$96 y Ormuz trabado, el combustible de barcos y aviones sigue caro: eso se traslada a los fletes y a los recargos de seguro de cualquier carga que traigas.",
+      "categoria": "Dólar",
+      "titulo": "El mayorista cerró la semana en $1.543,50 y el BCRA compró US$40 millones",
+      "resumen": "El viernes 13 el dólar mayorista bajó $2 y cerró en $1.543,50, su nivel más bajo desde principios de noviembre y su primera baja semanal en un mes. El BCRA compró US$40 millones: suma US$172 millones en la semana, US$223 millones en noviembre y US$16.191 millones en el año. Las reservas brutas subieron US$524 millones, a US$49.597 millones. En el Banco Nación el dólar quedó en $1.570, el MEP en $1.577,22 y el contado con liqui en $1.672,02.",
+      "porque": "Semana tranquila para el dólar con el que pagás importaciones: con el BCRA comprando y el mayorista lejos del techo de la banda, no hay apuro por adelantar pagos.",
       "claves": [
-        "octubre tuvo 37 ataques, el récord desde que empezó el conflicto",
-        "el Brent cotizaba US$96,21",
-        "eso se traslada a los fletes y a los recargos de seguro"
+        "cerró en $1.543,50, su nivel más bajo desde principios de noviembre",
+        "US$223 millones en noviembre",
+        "no hay apuro por adelantar pagos"
       ],
       "fuentes": [
         {
-          "nombre": "Relámpago Informativo",
-          "url": "https://www.relampagoinformativo.net/internacionales/2026/11/ormuz-arde-y-el-petroleo-juega-a-la-baja-iran-anuncia-nuevas-explosiones-y-amenaza-el-transito-maritimo/",
+          "nombre": "Ámbito",
+          "url": "https://www.ambito.com/finanzas/el-bcra-sostuvo-las-compras-dolares-la-semana-y-ya-acumulo-mas-us200-millones-noviembre-n6345123",
           "oficial": false
         },
         {
-          "nombre": "PortalPortuario",
-          "url": "https://portalportuario.cl/iran-afirma-que-cuatro-petroleros-fueron-alcanzados-por-explosiones-en-estrecho-de-ormuz",
+          "nombre": "Ámbito (cierre del día)",
+          "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-viernes-13-noviembre-n6345065",
           "oficial": false
         }
       ],
-      "sector": "Mundo",
-      "urgencia": "Media",
-      "impacto": "Si cotizás fletes ahora, preguntá por recargos de combustible (BAF) y de riesgo de guerra: pueden cambiar de una semana a otra mientras siga el conflicto en Ormuz.",
-      "agregado": "2026-11-13T10:45:00-03:00"
+      "sector": "BCRA / Cambiario",
+      "urgencia": "Informativa",
+      "impacto": "Para cotizar la semana que viene, tomá como referencia un mayorista de $1.543,50 y una brecha con el MEP de solo 2,2%.",
+      "agregado": "2026-11-13T19:58:00-03:00"
     },
     {
       "fecha": "2026-11-13",
-      "categoria": "Comercio exterior",
-      "titulo": "Importar para Navidad: por barco ya no llegás, solo queda avión o courier",
-      "resumen": "Un análisis de El Cronista sobre la preparación del comercio para las fiestas recuerda que un envío marítimo desde China tarda al menos unos 45 días de viaje más una semana para exportar y otra para importar: unos 60 días desde el embarque hasta tener la mercadería en Argentina, y la producción del proveedor puede sumar 30 días más. Por eso, para Navidad solo llegan a tiempo las compras por avión o courier (unos cinco días hábiles del depósito a Argentina). Las compras por courier sumaron US$960 millones entre enero y septiembre, 59,5% más que en 2025. La nota aconseja separar stock disponible de mercadería en tránsito, no lanzar promociones con fechas de entrega que no se puedan garantizar y validar proveedores antes de comprar.",
-      "porque": "Si vendés productos importados, lo que no embarcaste todavía por barco no llega para las fiestas: planificá el próximo pedido con 60 a 90 días de anticipación.",
+      "categoria": "Exportación",
+      "titulo": "La industria se parte en tres: los sectores exportadores crecen y los que compiten con importaciones caen 19%",
+      "resumen": "Según el Informe Trimestral de Exportaciones Argentinas del IIEP (UBA-CONICET), entre enero y septiembre de 2026, frente a 2022, la producción de los sectores exportadores subió 2,5%, la de los orientados al mercado interno bajó 12% y la de los que compiten con importaciones cayó 19%. Las importaciones de agroquímicos crecieron 277%, las de maquinaria agrícola 81% y las de estructuras metálicas 188%. Las exportaciones de bienes sumaron US$77.158 millones en nueve meses (+21%), pero las de productos diferenciados se desaceleraron de 18% a 11%, y el tipo de cambio real quedó 10% por debajo de 2025 en el tercer trimestre.",
+      "porque": "Exportar se volvió la mejor defensa para la industria; para quien importa insumos y maquinaria, la oferta del exterior está más barata que la local.",
       "claves": [
-        "unos 60 días desde el embarque hasta tener la mercadería en Argentina",
-        "para Navidad solo llegan a tiempo las compras por avión o courier",
-        "planificá el próximo pedido con 60 a 90 días de anticipación"
+        "la de los que compiten con importaciones cayó 19%",
+        "Las exportaciones de bienes sumaron US$77.158 millones en nueve meses (+21%)",
+        "Exportar se volvió la mejor defensa para la industria"
       ],
       "fuentes": [
         {
           "nombre": "El Cronista",
-          "url": "https://www.cronista.com/economia-politica/el-consumo-se-prepara-para-navidad-el-nuevo-cuello-de-botella-y-las-claves-para-stocks-y-margenes/",
-          "oficial": false
-        }
-      ],
-      "sector": "Régimen Courier / PyMEs",
-      "urgencia": "Alta",
-      "impacto": "Para reponer stock antes de fin de año, usá courier o carga aérea; para el verano y marzo, el pedido marítimo tiene que salir ya.",
-      "agregado": "2026-11-13T10:45:00-03:00"
-    },
-    {
-      "fecha": "2026-11-13",
-      "categoria": "Comercio exterior",
-      "titulo": "Textiles: las importaciones ya son el 70% del mercado y el courier de ropa se multiplicó por seis",
-      "resumen": "Según la Fundación Pro Tejer, presentado en ProTextil 2026, la actividad textil cayó 33,9% en enero-agosto frente a 2023 y la industria usa solo 40,6% de su capacidad: seis de cada diez máquinas están paradas. Las importaciones de indumentaria subieron 46% en enero-septiembre y las de confecciones para el hogar, 12%. Los envíos por courier sumaron US$960 millones, 6,3 veces lo de 2024. Las importaciones ya son el 70% del mercado, contra 50% histórico, y el valor por kilo de la ropa importada es 37% menor que en 2023.",
-      "porque": "Para quien importa ropa hay más competencia y precios más bajos por kilo; para quien fabrica acá, la presión de lo importado sigue creciendo.",
-      "claves": [
-        "Las importaciones ya son el 70% del mercado",
-        "seis de cada diez máquinas están paradas",
-        "hay más competencia y precios más bajos por kilo"
-      ],
-      "fuentes": [
-        {
-          "nombre": "El Economista",
-          "url": "https://eleconomista.com.ar/economia/protextil-2026-derrumbe-sector-encuentra-piso-presionado-caida-ventas-boom-importador-contrabando-n99639",
-          "oficial": false
-        }
-      ],
-      "sector": "Régimen Courier / PyMEs",
-      "urgencia": "Informativa",
-      "impacto": "Si pensás importar indumentaria, el mercado ya está lleno de producto importado: diferenciate por calidad o nicho, no solo por precio.",
-      "agregado": "2026-11-13T10:45:00-03:00"
-    },
-    {
-      "fecha": "2026-11-13",
-      "categoria": "Comercio exterior",
-      "titulo": "Una marca argentina cerró su fábrica en La Rioja y ahora produce el 70% en China",
-      "resumen": "La marca de ropa Luxo cerró en noviembre de 2025 la fábrica que había abierto en 2022 en el Parque Industrial de La Rioja, con 40 trabajadores, y hoy produce 70% en China y 30% en Argentina. Su director viajó cuatro veces a China para desarrollar proveedores; la factura de luz de la planta se había multiplicado por diez. Según la FAIIA, el sector textil perdió 10.000 empleos formales (23%) y cerraron más de 500 empresas.",
-      "porque": "Es un caso real de cómo una pyme pasa de fabricar a importar: desarrollar proveedores en China lleva viajes, muestras y tiempo.",
-      "claves": [
-        "hoy produce 70% en China y 30% en Argentina",
-        "desarrollar proveedores en China lleva viajes, muestras y tiempo"
-      ],
-      "fuentes": [
-        {
-          "nombre": "iProfesional",
-          "url": "https://www.iprofesional.com/negocios/469024-una-marca-de-ropa-cerro-su-fabrica-y-ahora-produce-el-70-en-china",
-          "oficial": false
-        }
-      ],
-      "sector": "Régimen Courier / PyMEs",
-      "urgencia": "Informativa",
-      "impacto": "Buen caso de estudio: muestra los costos que empujan a una marca a importar y el trabajo que implica armar una cadena de proveedores afuera.",
-      "agregado": "2026-11-13T10:45:00-03:00"
-    },
-    {
-      "fecha": "2026-11-13",
-      "categoria": "Acuerdos",
-      "titulo": "La cumbre de presidentes del Mercosur será el 4 de diciembre en Montevideo",
-      "resumen": "La 69.ª Cumbre de Jefes de Estado del Mercosur y Estados Asociados se hará el 4 de diciembre de 2026 en Montevideo, un día después de la primera reunión del Consejo de Comercio del acuerdo con la Unión Europea. Bolivia llevará la agenda de Urupabol (Uruguay, Paraguay y Bolivia), que acordó impulsar la integración logística y portuaria y la hidrovía Paraguay-Paraná.",
-      "porque": "En las cumbres del Mercosur se definen aranceles comunes, excepciones y acuerdos con otros bloques: lo que salga el 4 de diciembre puede cambiar costos de importar y exportar.",
-      "claves": [
-        "el 4 de diciembre de 2026 en Montevideo",
-        "puede cambiar costos de importar y exportar"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Prensa Latina",
-          "url": "https://prensa-latina.cu/2026/11/13/bolivia-reforzara-posicion-de-subregion-en-cumbre-de-mercosur",
+          "url": "https://www.cronista.com/economia-politica/la-industria-se-parte-en-tres-donde-presiona-el-dolar-y-quienes-resisten-por-las-exportaciones/",
           "oficial": false
         }
       ],
       "sector": "Mercosur y Acuerdos",
       "urgencia": "Informativa",
-      "impacto": "Agendá la fecha: después de la cumbre conviene revisar si cambió algún arancel externo común o hay novedades del acuerdo con la UE.",
-      "agregado": "2026-11-13T10:45:00-03:00"
+      "impacto": "Buen dato para estudiar: muestra qué sectores ganan y pierden con la apertura y un dólar más barato en términos reales.",
+      "agregado": "2026-11-13T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-13",
+      "categoria": "Mundo",
+      "titulo": "EE.UU. le promete a India aranceles más bajos que a sus competidores y el acuerdo estaría cerca",
+      "resumen": "Según Bloomberg, Estados Unidos le aseguró a India que, con el acuerdo comercial en negociación, pagará aranceles más bajos que sus pares. El ministro de Comercio indio, Piyush Goyal, dijo el viernes que el anuncio podría llegar \"bastante pronto\". La primera etapa cubre solo bienes; India no cederá en lácteos ni en productos transgénicos. Las negociaciones llevan casi dos años y el marco de la primera fase se cerró en febrero de 2026.",
+      "porque": "India compite con Argentina en productos como aceites, legumbres y cueros en el mercado de EE.UU.: un trato preferencial para India puede cambiar quién le vende más barato a los estadounidenses.",
+      "claves": [
+        "pagará aranceles más bajos que sus pares",
+        "el anuncio podría llegar \"bastante pronto\"",
+        "puede cambiar quién le vende más barato a los estadounidenses"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Business Today (Bloomberg)",
+          "url": "https://www.businesstoday.in/latest/economy/story/us-assures-india-of-lower-tariffs-than-peers-under-proposed-trade-deal-report-567432-2026-11-13",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Informativa",
+      "impacto": "Si exportás a EE.UU., seguí qué aranceles le quedan a India cuando se firme: es un competidor directo en varios productos agroindustriales.",
+      "agregado": "2026-11-13T19:58:00-03:00"
     },
     {
       "fecha": "2026-11-13",
@@ -337,77 +476,121 @@
     },
     {
       "fecha": "2026-11-13",
-      "categoria": "Dólar",
-      "titulo": "El mayorista cerró la semana en $1.543,50 y el BCRA compró US$40 millones",
-      "resumen": "El viernes 13 el dólar mayorista bajó $2 y cerró en $1.543,50, su nivel más bajo desde principios de noviembre y su primera baja semanal en un mes. El BCRA compró US$40 millones: suma US$172 millones en la semana, US$223 millones en noviembre y US$16.191 millones en el año. Las reservas brutas subieron US$524 millones, a US$49.597 millones. En el Banco Nación el dólar quedó en $1.570, el MEP en $1.577,22 y el contado con liqui en $1.672,02.",
-      "porque": "Semana tranquila para el dólar con el que pagás importaciones: con el BCRA comprando y el mayorista lejos del techo de la banda, no hay apuro por adelantar pagos.",
+      "categoria": "Mundo",
+      "titulo": "Ormuz: Irán dice que cuatro petroleros y un buque de gas fueron alcanzados por explosiones",
+      "resumen": "Irán afirmó que dos superpetroleros explotaron tras chocar con minas y que otros dos se incendiaron al entrar en una zona restringida del estrecho de Ormuz; también dijo que un buque con gas licuado chocó con una mina. Esas versiones no están confirmadas por organismos marítimos independientes. Sí hay registros de ataques a un petrolero el 10 de noviembre y al buque tanque NCC FAJR el 11, con tripulaciones a salvo. En la primera semana y media de noviembre fueron alcanzados al menos diez barcos, y octubre tuvo 37 ataques, el récord desde que empezó el conflicto. El viernes al mediodía el Brent cotizaba US$96,21 y el WTI US$88,62.",
+      "porque": "Con el petróleo cerca de US$96 y Ormuz trabado, el combustible de barcos y aviones sigue caro: eso se traslada a los fletes y a los recargos de seguro de cualquier carga que traigas.",
       "claves": [
-        "cerró en $1.543,50, su nivel más bajo desde principios de noviembre",
-        "US$223 millones en noviembre",
-        "no hay apuro por adelantar pagos"
+        "octubre tuvo 37 ataques, el récord desde que empezó el conflicto",
+        "el Brent cotizaba US$96,21",
+        "eso se traslada a los fletes y a los recargos de seguro"
       ],
       "fuentes": [
         {
-          "nombre": "Ámbito",
-          "url": "https://www.ambito.com/finanzas/el-bcra-sostuvo-las-compras-dolares-la-semana-y-ya-acumulo-mas-us200-millones-noviembre-n6345123",
+          "nombre": "Relámpago Informativo",
+          "url": "https://www.relampagoinformativo.net/internacionales/2026/11/ormuz-arde-y-el-petroleo-juega-a-la-baja-iran-anuncia-nuevas-explosiones-y-amenaza-el-transito-maritimo/",
           "oficial": false
         },
         {
-          "nombre": "Ámbito (cierre del día)",
-          "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-viernes-13-noviembre-n6345065",
+          "nombre": "PortalPortuario",
+          "url": "https://portalportuario.cl/iran-afirma-que-cuatro-petroleros-fueron-alcanzados-por-explosiones-en-estrecho-de-ormuz",
           "oficial": false
         }
       ],
-      "sector": "BCRA / Cambiario",
-      "urgencia": "Informativa",
-      "impacto": "Para cotizar la semana que viene, tomá como referencia un mayorista de $1.543,50 y una brecha con el MEP de solo 2,2%.",
-      "agregado": "2026-11-13T19:58:00-03:00"
+      "sector": "Mundo",
+      "urgencia": "Media",
+      "impacto": "Si cotizás fletes ahora, preguntá por recargos de combustible (BAF) y de riesgo de guerra: pueden cambiar de una semana a otra mientras siga el conflicto en Ormuz.",
+      "agregado": "2026-11-13T10:45:00-03:00"
     },
     {
       "fecha": "2026-11-13",
-      "categoria": "Exportación",
-      "titulo": "La industria se parte en tres: los sectores exportadores crecen y los que compiten con importaciones caen 19%",
-      "resumen": "Según el Informe Trimestral de Exportaciones Argentinas del IIEP (UBA-CONICET), entre enero y septiembre de 2026, frente a 2022, la producción de los sectores exportadores subió 2,5%, la de los orientados al mercado interno bajó 12% y la de los que compiten con importaciones cayó 19%. Las importaciones de agroquímicos crecieron 277%, las de maquinaria agrícola 81% y las de estructuras metálicas 188%. Las exportaciones de bienes sumaron US$77.158 millones en nueve meses (+21%), pero las de productos diferenciados se desaceleraron de 18% a 11%, y el tipo de cambio real quedó 10% por debajo de 2025 en el tercer trimestre.",
-      "porque": "Exportar se volvió la mejor defensa para la industria; para quien importa insumos y maquinaria, la oferta del exterior está más barata que la local.",
+      "categoria": "Comercio exterior",
+      "titulo": "Importar para Navidad: por barco ya no llegás, solo queda avión o courier",
+      "resumen": "Un análisis de El Cronista sobre la preparación del comercio para las fiestas recuerda que un envío marítimo desde China tarda al menos unos 45 días de viaje más una semana para exportar y otra para importar: unos 60 días desde el embarque hasta tener la mercadería en Argentina, y la producción del proveedor puede sumar 30 días más. Por eso, para Navidad solo llegan a tiempo las compras por avión o courier (unos cinco días hábiles del depósito a Argentina). Las compras por courier sumaron US$960 millones entre enero y septiembre, 59,5% más que en 2025. La nota aconseja separar stock disponible de mercadería en tránsito, no lanzar promociones con fechas de entrega que no se puedan garantizar y validar proveedores antes de comprar.",
+      "porque": "Si vendés productos importados, lo que no embarcaste todavía por barco no llega para las fiestas: planificá el próximo pedido con 60 a 90 días de anticipación.",
       "claves": [
-        "la de los que compiten con importaciones cayó 19%",
-        "Las exportaciones de bienes sumaron US$77.158 millones en nueve meses (+21%)",
-        "Exportar se volvió la mejor defensa para la industria"
+        "unos 60 días desde el embarque hasta tener la mercadería en Argentina",
+        "para Navidad solo llegan a tiempo las compras por avión o courier",
+        "planificá el próximo pedido con 60 a 90 días de anticipación"
       ],
       "fuentes": [
         {
           "nombre": "El Cronista",
-          "url": "https://www.cronista.com/economia-politica/la-industria-se-parte-en-tres-donde-presiona-el-dolar-y-quienes-resisten-por-las-exportaciones/",
+          "url": "https://www.cronista.com/economia-politica/el-consumo-se-prepara-para-navidad-el-nuevo-cuello-de-botella-y-las-claves-para-stocks-y-margenes/",
+          "oficial": false
+        }
+      ],
+      "sector": "Régimen Courier / PyMEs",
+      "urgencia": "Alta",
+      "impacto": "Para reponer stock antes de fin de año, usá courier o carga aérea; para el verano y marzo, el pedido marítimo tiene que salir ya.",
+      "agregado": "2026-11-13T10:45:00-03:00"
+    },
+    {
+      "fecha": "2026-11-13",
+      "categoria": "Comercio exterior",
+      "titulo": "Textiles: las importaciones ya son el 70% del mercado y el courier de ropa se multiplicó por seis",
+      "resumen": "Según la Fundación Pro Tejer, presentado en ProTextil 2026, la actividad textil cayó 33,9% en enero-agosto frente a 2023 y la industria usa solo 40,6% de su capacidad: seis de cada diez máquinas están paradas. Las importaciones de indumentaria subieron 46% en enero-septiembre y las de confecciones para el hogar, 12%. Los envíos por courier sumaron US$960 millones, 6,3 veces lo de 2024. Las importaciones ya son el 70% del mercado, contra 50% histórico, y el valor por kilo de la ropa importada es 37% menor que en 2023.",
+      "porque": "Para quien importa ropa hay más competencia y precios más bajos por kilo; para quien fabrica acá, la presión de lo importado sigue creciendo.",
+      "claves": [
+        "Las importaciones ya son el 70% del mercado",
+        "seis de cada diez máquinas están paradas",
+        "hay más competencia y precios más bajos por kilo"
+      ],
+      "fuentes": [
+        {
+          "nombre": "El Economista",
+          "url": "https://eleconomista.com.ar/economia/protextil-2026-derrumbe-sector-encuentra-piso-presionado-caida-ventas-boom-importador-contrabando-n99639",
+          "oficial": false
+        }
+      ],
+      "sector": "Régimen Courier / PyMEs",
+      "urgencia": "Informativa",
+      "impacto": "Si pensás importar indumentaria, el mercado ya está lleno de producto importado: diferenciate por calidad o nicho, no solo por precio.",
+      "agregado": "2026-11-13T10:45:00-03:00"
+    },
+    {
+      "fecha": "2026-11-13",
+      "categoria": "Comercio exterior",
+      "titulo": "Una marca argentina cerró su fábrica en La Rioja y ahora produce el 70% en China",
+      "resumen": "La marca de ropa Luxo cerró en noviembre de 2025 la fábrica que había abierto en 2022 en el Parque Industrial de La Rioja, con 40 trabajadores, y hoy produce 70% en China y 30% en Argentina. Su director viajó cuatro veces a China para desarrollar proveedores; la factura de luz de la planta se había multiplicado por diez. Según la FAIIA, el sector textil perdió 10.000 empleos formales (23%) y cerraron más de 500 empresas.",
+      "porque": "Es un caso real de cómo una pyme pasa de fabricar a importar: desarrollar proveedores en China lleva viajes, muestras y tiempo.",
+      "claves": [
+        "hoy produce 70% en China y 30% en Argentina",
+        "desarrollar proveedores en China lleva viajes, muestras y tiempo"
+      ],
+      "fuentes": [
+        {
+          "nombre": "iProfesional",
+          "url": "https://www.iprofesional.com/negocios/469024-una-marca-de-ropa-cerro-su-fabrica-y-ahora-produce-el-70-en-china",
+          "oficial": false
+        }
+      ],
+      "sector": "Régimen Courier / PyMEs",
+      "urgencia": "Informativa",
+      "impacto": "Buen caso de estudio: muestra los costos que empujan a una marca a importar y el trabajo que implica armar una cadena de proveedores afuera.",
+      "agregado": "2026-11-13T10:45:00-03:00"
+    },
+    {
+      "fecha": "2026-11-13",
+      "categoria": "Acuerdos",
+      "titulo": "La cumbre de presidentes del Mercosur será el 4 de diciembre en Montevideo",
+      "resumen": "La 69.ª Cumbre de Jefes de Estado del Mercosur y Estados Asociados se hará el 4 de diciembre de 2026 en Montevideo, un día después de la primera reunión del Consejo de Comercio del acuerdo con la Unión Europea. Bolivia llevará la agenda de Urupabol (Uruguay, Paraguay y Bolivia), que acordó impulsar la integración logística y portuaria y la hidrovía Paraguay-Paraná.",
+      "porque": "En las cumbres del Mercosur se definen aranceles comunes, excepciones y acuerdos con otros bloques: lo que salga el 4 de diciembre puede cambiar costos de importar y exportar.",
+      "claves": [
+        "el 4 de diciembre de 2026 en Montevideo",
+        "puede cambiar costos de importar y exportar"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Prensa Latina",
+          "url": "https://prensa-latina.cu/2026/11/13/bolivia-reforzara-posicion-de-subregion-en-cumbre-de-mercosur",
           "oficial": false
         }
       ],
       "sector": "Mercosur y Acuerdos",
       "urgencia": "Informativa",
-      "impacto": "Buen dato para estudiar: muestra qué sectores ganan y pierden con la apertura y un dólar más barato en términos reales.",
-      "agregado": "2026-11-13T19:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-13",
-      "categoria": "Mundo",
-      "titulo": "EE.UU. le promete a India aranceles más bajos que a sus competidores y el acuerdo estaría cerca",
-      "resumen": "Según Bloomberg, Estados Unidos le aseguró a India que, con el acuerdo comercial en negociación, pagará aranceles más bajos que sus pares. El ministro de Comercio indio, Piyush Goyal, dijo el viernes que el anuncio podría llegar \"bastante pronto\". La primera etapa cubre solo bienes; India no cederá en lácteos ni en productos transgénicos. Las negociaciones llevan casi dos años y el marco de la primera fase se cerró en febrero de 2026.",
-      "porque": "India compite con Argentina en productos como aceites, legumbres y cueros en el mercado de EE.UU.: un trato preferencial para India puede cambiar quién le vende más barato a los estadounidenses.",
-      "claves": [
-        "pagará aranceles más bajos que sus pares",
-        "el anuncio podría llegar \"bastante pronto\"",
-        "puede cambiar quién le vende más barato a los estadounidenses"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Business Today (Bloomberg)",
-          "url": "https://www.businesstoday.in/latest/economy/story/us-assures-india-of-lower-tariffs-than-peers-under-proposed-trade-deal-report-567432-2026-11-13",
-          "oficial": false
-        }
-      ],
-      "sector": "Mundo",
-      "urgencia": "Informativa",
-      "impacto": "Si exportás a EE.UU., seguí qué aranceles le quedan a India cuando se firme: es un competidor directo en varios productos agroindustriales.",
-      "agregado": "2026-11-13T19:58:00-03:00"
+      "impacto": "Agendá la fecha: después de la cumbre conviene revisar si cambió algún arancel externo común o hay novedades del acuerdo con la UE.",
+      "agregado": "2026-11-13T10:45:00-03:00"
     },
     {
       "fecha": "2026-11-12",
