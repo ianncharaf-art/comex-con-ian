@@ -3,6 +3,121 @@
   "items": [
     {
       "fecha": "2026-11-14",
+      "categoria": "Exportación",
+      "titulo": "El petróleo superó a la harina de soja y ya es el primer producto de exportación argentino",
+      "resumen": "Entre enero y septiembre de 2026, Argentina exportó USD 7.753 millones de petróleo crudo, un 58,6% más que un año antes, y superó a la harina de soja, que sumó USD 6.971 millones (+7,4%). Los datos son del INDEC, procesados por la Bolsa de Comercio de Rosario. Según el BCRA, el saldo energético en el mercado de cambios fue de USD 7.890 millones.",
+      "porque": "Cambia el mapa exportador: Vaca Muerta pasa a aportar más dólares que el complejo sojero, y eso pesa en la oferta de divisas para importar.",
+      "claves": [
+        "USD 7.753 millones de petróleo crudo",
+        "un 58,6% más",
+        "más dólares que el complejo sojero"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Infobae (datos INDEC-BCR)",
+          "url": "https://www.infobae.com/economia/2026/11/14/el-petroleo-supero-a-la-harina-de-soja-y-paso-a-ser-el-principal-producto-de-exportacion-de-la-argentina/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Dato clave para estudiar: la estructura exportadora argentina ya no depende solo del agro.",
+      "agregado": "2026-11-14T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-14",
+      "categoria": "Exportación",
+      "titulo": "Exportaciones récord en el tercer trimestre: US$27.756 millones",
+      "resumen": "Según el Informe Trimestral de Exportaciones Argentinas (UBA-CONICET, con datos del INDEC), las exportaciones de bienes del tercer trimestre de 2026 llegaron a US$27.756 millones, el valor más alto para ese período. En enero-septiembre sumaron US$77.158 millones, +21% interanual. Los precios subieron 11% y explican cerca de la mitad del aumento. En el trimestre, combustibles crecieron 32%, vehículos 16% y carnes y pesca 47%, mientras cereales y oleaginosas cayeron 10%.",
+      "porque": "Muestra qué rubros empujan las ventas al exterior: combustibles, vehículos y carnes crecen; los granos pierden peso.",
+      "claves": [
+        "US$27.756 millones",
+        "+21% interanual",
+        "carnes y pesca 47%"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Infobae Movant (ITEA UBA-CONICET)",
+          "url": "https://www.infobae.com/movant/2026/11/14/exportaciones-argentinas-de-bienes-marcan-un-record-de-27756-millones-de-dolares-en-el-tercer-trimestre/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Si buscás qué exportar o en qué sector trabajar, mirá los rubros que más crecen: combustibles, carnes y bienes diferenciados.",
+      "agregado": "2026-11-14T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-14",
+      "categoria": "Exportación",
+      "titulo": "Santa Fe exportó 33,6% más en 2026 y es la segunda provincia exportadora",
+      "resumen": "Santa Fe exportó USD 15.945 millones entre enero y septiembre de 2026, un 33,6% más que un año antes, frente a un 21,62% del promedio nacional, según Santa Fe Global y el IPEC con datos del INDEC. Es el 20,6% de lo que exporta el país y queda segunda detrás de Buenos Aires (USD 24.821 millones). El aceite de girasol en bruto creció 186,7% y llegó a USD 901,6 millones. Asia recibe el 45,6% de sus envíos e India es el principal comprador.",
+      "porque": "Santa Fe concentra los puertos del Gran Rosario: lo que exporta la provincia es buena parte de la logística granaria del país.",
+      "claves": [
+        "USD 15.945 millones",
+        "creció 186,7%",
+        "India es el principal comprador"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Diario Castellanos (Santa Fe Global / IPEC)",
+          "url": "https://diariocastellanos.com.ar/provinciales/2026/11/14/santa-fe-exporto-un-336-mas-en-lo-que-va-de-2026-y-esta-segunda-en-el-ranking-argentino.htm",
+          "oficial": false
+        }
+      ],
+      "sector": "Logística y Fletes",
+      "urgencia": "Informativa",
+      "impacto": "Si trabajás con Asia, India es hoy el principal destino de Santa Fe: buen mercado para seguir.",
+      "agregado": "2026-11-14T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-14",
+      "categoria": "Mundo",
+      "titulo": "Maersk cobrará un recargo de temporada alta de hasta USD 1.000 por contenedor desde Asia a Europa",
+      "resumen": "Maersk anunció un recargo de temporada alta (Peak Season Surcharge, PSS) desde el 1 de diciembre de 2026 para la ruta Lejano Oriente-Norte de Europa: USD 500 por contenedor de 20 pies y USD 1.000 por los de 40 y 45 pies. Aplica a cargas que salen de China, Vietnam, Corea del Sur, Japón, Tailandia, Indonesia y otros orígenes asiáticos, y a casi todos los tipos de equipo, incluidos reefers.",
+      "porque": "Los recargos de temporada alta en las rutas principales suelen trasladarse a otras rutas desde Asia: conviene preguntarlo al cotizar hacia Argentina.",
+      "claves": [
+        "desde el 1 de diciembre de 2026",
+        "USD 1.000 por los de 40 y 45 pies",
+        "conviene preguntarlo al cotizar"
+      ],
+      "fuentes": [
+        {
+          "nombre": "India Shipping News",
+          "url": "https://indiashippingnews.com/export-import/maersk-announces-peak-season-surcharge-of-up-to-usd-1000-for-far-east-asia-north-europe-trade-from-december-1-2026",
+          "oficial": false
+        }
+      ],
+      "sector": "Logística y Fletes",
+      "urgencia": "Media",
+      "impacto": "Al pedir cotización de flete desde Asia, preguntá si incluye PSS y desde qué fecha: puede sumar cientos de dólares por contenedor.",
+      "agregado": "2026-11-14T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-14",
+      "categoria": "Mundo",
+      "titulo": "Ormuz: el tránsito de barcos sigue 65% por debajo de antes de la guerra y Irán reporta dos petroleros más",
+      "resumen": "La Guardia Revolucionaria de Irán dijo que dos petroleros explotaron y se incendiaron al chocar con minas en Ormuz el 14 de noviembre, en una ruta que Teherán declaró restringida; no hay confirmación independiente ni nombres de los barcos. Según UKMTO, hubo 308 tránsitos en los siete días al 13 de noviembre, cerca de 65% menos que antes de la guerra, y unas 211 embarcaciones esperaban ancladas al este del estrecho. Aun así, el petróleo cerró la semana en baja por la mayor producción de la OPEP+.",
+      "porque": "Con el estrecho casi trabado, los barcos esperan o desvían: eso mantiene altos el combustible marítimo y los recargos de riesgo que terminan en el flete.",
+      "claves": [
+        "cerca de 65% menos que antes de la guerra",
+        "211 embarcaciones esperaban ancladas",
+        "terminan en el flete"
+      ],
+      "fuentes": [
+        {
+          "nombre": "House of Saud",
+          "url": "https://houseofsaud.com/irgc-2-tankers-mines-hormuz-nov14/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Media",
+      "impacto": "Si tenés carga que pasa por Medio Oriente, pedile a tu forwarder la ruta y el tiempo de tránsito actualizados.",
+      "agregado": "2026-11-14T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-14",
       "categoria": "Comercio exterior",
       "titulo": "Tesla llega a la Argentina: pedidos desde el 20 de noviembre para el Model 3 y el Model Y",
       "resumen": "Tesla confirmó que arrancará en el país con el Model 3 y el Model Y, ambos 100% eléctricos, y que los pedidos se abrirán el 20 de noviembre. Todavía no informó precios ni versiones. El Decreto 1128/2026, vigente desde el 1° de octubre, subió de US$16.000 a US$35.000 el valor FOB máximo de los autos eléctricos que entran sin el arancel extrazona del 35%. Además, el acuerdo con Estados Unidos fija un cupo anual de 10.000 vehículos de origen estadounidense con arancel cero.",
