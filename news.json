@@ -1,6 +1,98 @@
 {
-  "actualizado": "2026-11-13",
+  "actualizado": "2026-11-14",
   "items": [
+    {
+      "fecha": "2026-11-14",
+      "categoria": "Mundo",
+      "titulo": "Ormuz: Irán informa otros tres petroleros incendiados por minas y la ONU alerta por más ataques",
+      "resumen": "Las Fuerzas Armadas de Irán informaron que otros tres petroleros se incendiaron tras chocar con minas en rutas \"no autorizadas\" del estrecho de Ormuz; uno quedó inmovilizado con sus sistemas de identificación apagados. No hay confirmación independiente. El 13 de noviembre, la ONU advirtió en el Consejo de Seguridad que crecen los ataques a barcos comerciales: la Organización Marítima Internacional contó 134 incidentes confirmados en Ormuz y otras aguas de Medio Oriente entre el 28 de febrero y el 11 de noviembre. Antes de la guerra, por Ormuz pasaba cerca del 20% del petróleo mundial.",
+      "porque": "Cada ataque en Ormuz sostiene caros el combustible marítimo y los seguros: son costos que las navieras trasladan al flete de cualquier contenedor que llegue a Argentina.",
+      "claves": [
+        "134 incidentes confirmados",
+        "cerca del 20% del petróleo mundial",
+        "las navieras trasladan al flete"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Infobae (EFE)",
+          "url": "https://www.infobae.com/america/agencias/2026/11/14/las-fuerzas-iranies-informan-de-otros-tres-petroleros-incendiados-por-minas-en-ormuz/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Media",
+      "impacto": "Al pedir cotizaciones de flete, revisá los recargos por combustible y por riesgo de guerra: siguen expuestos a lo que pase en Ormuz.",
+      "agregado": "2026-11-14T07:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-14",
+      "categoria": "Exportación",
+      "titulo": "Crecieron las exportaciones de 245 productos del agro: girasol +822% y cordero +765%",
+      "resumen": "Según la Secretaría de Agricultura, con datos del INDEC, 245 productos agroindustriales aumentaron sus exportaciones en los primeros nueve meses de 2026 frente a 2025. Esos productos sumaron US$37.793 millones (87% de lo exportado por la agroindustria) y 87,13 millones de toneladas. Entre los de más de US$10 millones crecieron el girasol (822%), las reses de cordero congeladas (765%), los hilados de algodón (280%), la lana sucia (179%) y los porotos negros (152%); entre los más chicos, la yerba mate canchada (199%) y los frutos secos (186%).",
+      "porque": "No todo es soja: hay productos de nicho que crecen fuerte afuera y pueden ser una puerta de entrada para pymes que quieren empezar a exportar.",
+      "claves": [
+        "245 productos agroindustriales aumentaron sus exportaciones",
+        "girasol (822%)",
+        "pueden ser una puerta de entrada para pymes"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Noticias de Campo",
+          "url": "https://www.noticiasdecampo.com/2026/11/14/crecieron-los-envios-al-exterior-de-245-productos-agroindustriales/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Si buscás qué exportar, mirá la lista de productos que más crecen: yerba, frutos secos o legumbres son nichos con demanda y escala pyme.",
+      "agregado": "2026-11-14T07:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-14",
+      "categoria": "Exportación",
+      "titulo": "Récord de ventas de maíz: se declararon 680.000 toneladas para exportar en un solo día",
+      "resumen": "El viernes 13 de noviembre los exportadores registraron Declaraciones Juradas de Ventas al Exterior (DJVE) por más de 680.000 toneladas de maíz: 580.000 de la campaña 2025/26 (AGD, Bunge, ACA, COFCO y LDC) y 100.000 de Bunge para embarcar en marzo de 2027. En la campaña 2025/26 ya se declararon unas 41,2 millones de toneladas, cerca del 91,6% de los 45 millones exportables que proyecta la Bolsa de Rosario. El maíz diciembre en Rosario cerró en US$189,10 por tonelada y el FOB oficial para diciembre es de US$205.",
+      "porque": "Las DJVE muestran cuánto ya se vendió afuera: con más del 90% del saldo exportable comprometido, queda poco maíz libre y eso sostiene el precio local.",
+      "claves": [
+        "más de 680.000 toneladas de maíz",
+        "cerca del 91,6% de los 45 millones exportables",
+        "queda poco maíz libre"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Mundo Agropecuario",
+          "url": "https://mundoagropecuario.com/argentina-ventas-maiz-noviembre-2026/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Para estudiar: la DJVE es el registro obligatorio de cada venta de granos al exterior y sirve para anticipar embarques y liquidación de dólares.",
+      "agregado": "2026-11-14T07:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-14",
+      "categoria": "Mundo",
+      "titulo": "China y EE.UU. estrenaron su consejo de comercio y hablaron de aranceles y agro antes del encuentro Xi-Trump",
+      "resumen": "Según el Ministerio de Comercio de China, citado por Reuters, China y Estados Unidos hablaron de rebajas de aranceles, comercio agrícola y otros temas en la primera reunión de su consejo de comercio, el viernes 13. La reunión se dio antes del encuentro entre Xi Jinping y Donald Trump en la cumbre de APEC en Shenzhen. No se informaron acuerdos concretos.",
+      "porque": "Si China vuelve a comprarle más soja y maíz a EE.UU., compite directamente con lo que vende Argentina: el resultado de esta negociación puede mover precios y demanda de granos argentinos.",
+      "claves": [
+        "rebajas de aranceles, comercio agrícola",
+        "No se informaron acuerdos concretos",
+        "compite directamente con lo que vende Argentina"
+      ],
+      "fuentes": [
+        {
+          "nombre": "The Daily Guardian (Reuters)",
+          "url": "https://thedailyguardian.com/business/china-us-discuss-tariffs-farm-trade-ahead-of-xi-trump-meeting-774555/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Informativa",
+      "impacto": "Si exportás granos o subproductos a China, seguí la cumbre de APEC: un acuerdo agrícola EE.UU.-China puede quitarle mercado a Argentina.",
+      "agregado": "2026-11-14T07:58:00-03:00"
+    },
     {
       "fecha": "2026-11-13",
       "categoria": "Mundo",
@@ -793,50 +885,6 @@
       "urgencia": "Media",
       "impacto": "Si tenés deudas fiscales o aduaneras, desde el 16/11 podés sumar lo vencido hasta octubre al plan de cuotas, sin riesgo de embargo hasta mediados de 2027.",
       "vence": "2027-06-30"
-    },
-    {
-      "fecha": "2026-11-04",
-      "categoria": "Dólar",
-      "titulo": "El dólar aflojó a $1.546 y el BCRA volvió a comprar, aunque poco: US$9 millones",
-      "resumen": "El mayorista bajó $5 (0,32%) y cerró en $1.546; en el Banco Nación el minorista se mantuvo en $1.570. El BCRA compró US$9 millones, su primera compra de noviembre tras dos ruedas sin intervenir (la anterior fue de US$96 millones el 30/10). Las reservas subieron US$142 millones, a US$50.435 millones (dato sujeto a ajustes).",
-      "porque": "Después de dos días de subas, un respiro en el mayorista, que es el dólar con el que se pagan las importaciones. Que el Central compre poco indica que todavía hay pocos dólares sobrando en el mercado.",
-      "claves": [
-        "El mayorista bajó $5 (0,32%) y cerró en $1.546",
-        "todavía hay pocos dólares sobrando en el mercado"
-      ],
-      "fuentes": [
-        {
-          "nombre": "BAE Negocios",
-          "url": "https://www.baenegocios.com/finanzas/el-dolar-bajo-y-el-bcra-compro-divisas-aunque-por-un-monto-reducido/",
-          "oficial": false
-        },
-        {
-          "nombre": "Ámbito",
-          "url": "https://www.ambito.com/finanzas/dolar-hoy-cuanto-cerro-este-miercoles-4-noviembre-n6341581",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-11-04",
-      "categoria": "Exportación",
-      "titulo": "Argentina vuelve a exportar sebo a la Unión Europea después de tres años",
-      "resumen": "El SENASA habilitó el establecimiento N° 263 para exportar sebo incomestible, un subproducto de la faena vacuna, a la Unión Europea. Ese mercado estaba cerrado para el producto argentino desde noviembre de 2023.",
-      "porque": "Reabrir un mercado para un subproducto le suma valor a toda la cadena de la carne: los frigoríficos pueden vender a Europa algo que antes vendían más barato.",
-      "claves": [
-        "estaba cerrado para el producto argentino desde noviembre de 2023",
-        "le suma valor a toda la cadena de la carne"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Mirador Provincial",
-          "url": "https://www.miradorprovincial.com/2026/11/04/el-senasa-habilito-una-planta-y-argentina-recupera-el-mercado-europeo-para-exportar-sebo-animal/",
-          "oficial": false
-        }
-      ],
-      "sector": "Mercosur y Acuerdos",
-      "urgencia": "Informativa",
-      "impacto": "Ejemplo de cómo funciona una habilitación sanitaria: sin la aprobación de SENASA para cada planta, el producto no puede entrar a Europa aunque haya demanda."
     }
   ]
 }
