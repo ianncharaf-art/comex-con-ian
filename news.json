@@ -4,6 +4,103 @@
     {
       "fecha": "2026-11-15",
       "categoria": "Mundo",
+      "titulo": "Irán dice que se hundió un superpetrolero con más de 2 millones de barriles tras chocar con una mina en Ormuz",
+      "resumen": "La Guardia Revolucionaria de Irán afirmó que un superpetrolero que llevaba \"más de dos millones de barriles\" de crudo chocó con una mina, se incendió y se hundió en aguas del sur del Golfo, mientras navegaba por una ruta \"no autorizada\". No dio el nombre ni el origen del barco y no hay confirmación independiente. El centro marítimo británico UKMTO dijo que la tripulación está a salvo y que se desconocen los daños y el impacto ambiental.",
+      "porque": "Si se confirma, sería el incidente más grave de la semana en Ormuz: cada ataque empuja los seguros de guerra y el combustible marítimo, que se trasladan al flete.",
+      "claves": [
+        "más de dos millones de barriles",
+        "no hay confirmación independiente",
+        "se trasladan al flete"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Gulf News",
+          "url": "https://gulfnews.com/world/mena/iran-says-supertanker-with-2-million-barrels-of-oil-sank-in-gulf-1.500748289",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Media",
+      "impacto": "Si cotizás fletes esta semana, preguntá si hay recargos nuevos por riesgo de guerra o combustible antes de cerrar.",
+      "agregado": "2026-11-15T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-15",
+      "categoria": "Acuerdos",
+      "titulo": "Singapur le propone a Lula retomar un acuerdo Mercosur-ASEAN en la cumbre de Manila",
+      "resumen": "En la cumbre del ASEAN que empezó el 15 de noviembre en Manila, el primer ministro de Singapur, Lawrence Wong, le sugirió a Lula retomar la negociación de un acuerdo entre el Mercosur y el ASEAN, según el Palacio del Planalto. También repasaron la aplicación del tratado de libre comercio Mercosur-Singapur. El comercio de Brasil con el ASEAN fue de US$38.400 millones en 2025. Lula dijo que, tras los aranceles de Trump, el comercio con EE.UU. bajó al 9,2% del total brasileño.",
+      "porque": "Un acuerdo Mercosur-ASEAN abriría con menos aranceles un mercado de unos 700 millones de personas también para las exportaciones argentinas.",
+      "claves": [
+        "retomar la negociación de un acuerdo entre el Mercosur y el ASEAN",
+        "US$38.400 millones en 2025",
+        "bajó al 9,2% del total brasileño"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Brasil 247 (nota del Planalto)",
+          "url": "https://www.brasil247.com/geral/premie-de-singapura-sugere-a-lula-acordo-mercosul-asean/",
+          "oficial": false
+        },
+        {
+          "nombre": "Clash Report",
+          "url": "https://clashreport.com/world/articles/lula-says-u-s-tariffs-cut-american-share-of-brazil-s-trade-to-9-2-jq718fowfvp",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Es solo una propuesta, sin fecha: seguila si exportás o pensás exportar al Sudeste Asiático.",
+      "agregado": "2026-11-15T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-15",
+      "categoria": "Exportación",
+      "titulo": "Tucumán exportó US$833 millones en 2026: el limón explica más de la mitad",
+      "resumen": "Tucumán exportó US$833,4 millones entre enero y septiembre de 2026, un 19,7% más que un año antes. El complejo citrícola representa el 55,2% del total: limones frescos (US$183,3 millones), jugos concentrados (US$150,4 millones) y aceites esenciales de limón (US$126,7 millones). La Unión Europea compró el 30,1% y Estados Unidos el 25%, con una suba de 36,2%.",
+      "porque": "Es un ejemplo de exportación regional con valor agregado: del limón salen tres productos distintos para mercados exigentes como la UE y EE.UU.",
+      "claves": [
+        "US$833,4 millones",
+        "El complejo citrícola representa el 55,2% del total",
+        "del limón salen tres productos distintos"
+      ],
+      "fuentes": [
+        {
+          "nombre": "El Tucumano (vía Examedia)",
+          "url": "https://examedia.com.ar/portada/post/88241840",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Para estudiar: buen caso de cómo un mismo producto se exporta fresco, como jugo y como aceite esencial.",
+      "agregado": "2026-11-15T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-15",
+      "categoria": "Exportación",
+      "titulo": "China compra el 60% del volumen de carne vacuna que exporta Argentina, pero paga el 40% del valor",
+      "resumen": "Según el presidente del IPCVA, Georges Breitschmitt, China sigue siendo el principal mercado de la carne vacuna argentina: se lleva cerca del 60% del volumen exportado, pero representa alrededor del 40% del valor. La diferencia muestra que a China van cortes de menor precio, mientras otros destinos pagan más por kilo.",
+      "porque": "Explica una idea clave del comercio exterior: no siempre el mercado que más compra es el que más paga; diversificar destinos mejora el precio promedio.",
+      "claves": [
+        "cerca del 60% del volumen exportado",
+        "alrededor del 40% del valor",
+        "no siempre el mercado que más compra es el que más paga"
+      ],
+      "fuentes": [
+        {
+          "nombre": "El Tribuno (vía Examedia)",
+          "url": "https://examedia.com.ar/portada/post/88242482",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Si analizás un mercado de exportación, mirá volumen y valor por separado: el precio por kilo cambia mucho según el destino.",
+      "agregado": "2026-11-15T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-15",
+      "categoria": "Mundo",
       "titulo": "La IA empuja el comercio mundial: los bienes para inteligencia artificial crecen 55% pese a los aranceles",
       "resumen": "Según The Economist (publicado por La Nación), el valor del comercio mundial creció 18% interanual en los primeros ocho meses de 2026, aunque las medidas comerciales restrictivas aumentaron más del 60% en 2025 según un índice de economistas de la OMC y el FMI. El motor es la inteligencia artificial: el comercio de bienes de IA subió 55% y ya es cerca de una cuarta parte de las importaciones mundiales, frente al 15% en 2023. En EE.UU., las importaciones de bienes de IA subieron 69% mientras el resto cayó 10%, porque el 97% del hardware informático entra con exenciones arancelarias.",
       "porque": "Muestra cómo funcionan las exenciones: los gobiernos ponen aranceles altos en general pero liberan lo que necesitan, y eso cambia qué productos y qué países ganan en el comercio mundial.",
