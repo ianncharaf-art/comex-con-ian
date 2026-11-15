@@ -1,6 +1,29 @@
 {
-  "actualizado": "2026-11-14",
+  "actualizado": "2026-11-15",
   "items": [
+    {
+      "fecha": "2026-11-15",
+      "categoria": "Mundo",
+      "titulo": "La IA empuja el comercio mundial: los bienes para inteligencia artificial crecen 55% pese a los aranceles",
+      "resumen": "Según The Economist (publicado por La Nación), el valor del comercio mundial creció 18% interanual en los primeros ocho meses de 2026, aunque las medidas comerciales restrictivas aumentaron más del 60% en 2025 según un índice de economistas de la OMC y el FMI. El motor es la inteligencia artificial: el comercio de bienes de IA subió 55% y ya es cerca de una cuarta parte de las importaciones mundiales, frente al 15% en 2023. En EE.UU., las importaciones de bienes de IA subieron 69% mientras el resto cayó 10%, porque el 97% del hardware informático entra con exenciones arancelarias.",
+      "porque": "Muestra cómo funcionan las exenciones: los gobiernos ponen aranceles altos en general pero liberan lo que necesitan, y eso cambia qué productos y qué países ganan en el comercio mundial.",
+      "claves": [
+        "creció 18% interanual",
+        "el comercio de bienes de IA subió 55%",
+        "el 97% del hardware informático entra con exenciones arancelarias"
+      ],
+      "fuentes": [
+        {
+          "nombre": "La Nación (The Economist)",
+          "url": "https://www.lanacion.com.ar/economia/la-inteligencia-artificial-esta-convirtiendo-a-los-proteccionistas-en-librecambistas-nid15112026/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Informativa",
+      "impacto": "Para estudiar: buen ejemplo de que un arancel general casi nunca es parejo; siempre mirá las exenciones por posición arancelaria.",
+      "agregado": "2026-11-15T07:58:00-03:00"
+    },
     {
       "fecha": "2026-11-14",
       "categoria": "Exportación",
@@ -1138,51 +1161,6 @@
       "sector": "Mercosur y Acuerdos",
       "urgencia": "Informativa",
       "impacto": "Para exportadores y estudiantes: estos son los próximos mercados que pueden abrirse con menos aranceles. Ninguno de los nuevos tiene fecha todavía."
-    },
-    {
-      "fecha": "2026-11-05",
-      "categoria": "Dólar",
-      "titulo": "Se pagaron US$880 millones al FMI y las reservas bajaron de US$50.000 millones",
-      "resumen": "Con un pago de US$880 millones al FMI, las reservas brutas cayeron US$793 millones y cerraron en US$49.642 millones. El mismo día el BCRA compró US$42 millones y en el año ya suma US$16.019 millones. El mayorista cerró en $1.545,50, con una suba de $11,50 en la semana.",
-      "porque": "Las reservas son el colchón de dólares del país: cuanto más firmes, menos riesgo de saltos bruscos en el tipo de cambio con el que pagás importaciones.",
-      "claves": [
-        "menos riesgo de saltos bruscos en el tipo de cambio con el que pagás importaciones"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Ámbito",
-          "url": "https://www.ambito.com/finanzas/el-bcra-ya-compro-mas-us16000-millones-el-ano-pero-las-reservas-cayeron-un-pago-al-fmi-n6342144",
-          "oficial": false
-        },
-        {
-          "nombre": "El Intransigente",
-          "url": "https://elintransigente.com/2026/11/05/gobierno-nacional-pago-fmi-reservas-brutas-debajo-50000-millones/",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-11-05",
-      "categoria": "ARCA · Aduana",
-      "titulo": "Ya es oficial: ARCA suspende ejecuciones fiscales a pymes hasta junio de 2027 y amplía el plan de pagos",
-      "resumen": "Las Resoluciones Generales 5923 y 5924/2026 de ARCA (Boletín Oficial del 5/11) suspenden hasta el 30 de junio de 2027 los juicios de ejecución fiscal y los embargos a MiPyMEs tramos 1 y 2 (con certificado vigente al 29/10/2026), pequeños contribuyentes y entidades sin fines de lucro. El plan de facilidades ahora incluye deudas y multas vencidas hasta el 31 de octubre de 2026 y se puede adherir hasta el 30 de junio de 2027 por \"Mis Facilidades\"; las deudas nuevas se pueden cargar desde el 16 de noviembre.",
-      "porque": "Si tu pyme tiene deudas con ARCA, ganás tiempo sin embargos y podés meter en cuotas lo que venció hasta octubre: revisalo con tu contador.",
-      "claves": [
-        "hasta el 30 de junio de 2027",
-        "se pueden cargar desde el 16 de noviembre",
-        "ganás tiempo sin embargos"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Aduana News",
-          "url": "https://aduananews.com/arca-reglamenta-la-suspension-de-ejecuciones-fiscales-para-mipymes-y-pequenos-contribuyentes/",
-          "oficial": false
-        }
-      ],
-      "sector": "Régimen Courier / PyMEs",
-      "urgencia": "Media",
-      "impacto": "Si tenés deudas fiscales o aduaneras, desde el 16/11 podés sumar lo vencido hasta octubre al plan de cuotas, sin riesgo de embargo hasta mediados de 2027.",
-      "vence": "2027-06-30"
     }
   ]
 }
