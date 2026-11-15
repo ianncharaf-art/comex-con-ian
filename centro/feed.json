@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-14T12:13:50+00:00",
+ "actualizado": "2026-11-15T12:13:56+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -189,6 +189,24 @@
    "noticia": "245 productos agroindustriales aumentaron sus exportaciones en enero-septiembre 2026 (US$37.793 millones, 87% del total agroindustrial): girasol +822%, cordero congelado +765%, hilados de algodón +280%, yerba mate canchada +199%, frutos secos +186%.",
    "para": "Tomi",
    "titulo": "No todo es soja: el girasol exportado creció 822% este año"
+  },
+  "guion-2026-11-14-2": {
+   "fecha": "2026-11-14",
+   "fuente": "https://www.lanacion.com.ar/autos/tesla-confirmo-cuales-seran-sus-dos-primeros-modelos-en-la-argentina-nid14112026/",
+   "guion": "GANCHO: \"Tesla llega a Argentina. Y la culpa la tiene un arancel.\"\n\n1. \"Tesla abre pedidos el 20 de noviembre: Model 3 y Model Y, 100% eléctricos. Precios, todavía no.\" (en pantalla: pedidos desde 20/11)\n2. \"Los autos de afuera del Mercosur pagan 35% de arancel. Pero los eléctricos de hasta 35.000 dólares FOB entran sin pagarlo. Antes el tope era 16.000.\" (en pantalla: tope US$16.000 → US$35.000)\n3. \"FOB quiere decir el precio puesto en el barco en origen: sin flete, sin seguro y sin los impuestos de acá.\" (en pantalla: FOB = precio en el barco)\n4. \"Y el acuerdo con Estados Unidos suma un cupo de 10.000 autos estadounidenses con arancel cero.\" (en pantalla: cupo EE.UU. 10.000 · 0%)\n\nMi lectura: un cambio de arancel puede abrir un negocio entero de un día para el otro.\n\nCIERRE: \"¿Te comprarías un Tesla? Comentá cuánto creés que va a salir.\"\n\nFuente para el caption: La Nación, Decreto 1128/2026.",
+   "kind": "guion",
+   "noticia": "Tesla abre pedidos el 20 de noviembre para el Model 3 y el Model Y (sin precios todavía); el Decreto 1128/2026 subió de US$16.000 a US$35.000 FOB el tope de los eléctricos que entran sin el arancel extrazona del 35%, y el acuerdo con EE.UU. fija un cupo de 10.000 autos con arancel cero.",
+   "para": "Tomi",
+   "titulo": "Tesla llega a Argentina. La razón es un arancel."
+  },
+  "guion-2026-11-14-3": {
+   "fecha": "2026-11-14",
+   "fuente": "https://www.infobae.com/economia/2026/11/14/el-petroleo-supero-a-la-harina-de-soja-y-paso-a-ser-el-principal-producto-de-exportacion-de-la-argentina/",
+   "guion": "GANCHO: \"El producto que más exporta Argentina ya no es la soja.\"\n\n1. \"Entre enero y septiembre se exportaron 7.753 millones de dólares de petróleo crudo, 58,6% más que el año pasado.\" (en pantalla: petróleo US$7.753 M · +58,6%)\n2. \"La harina de soja, que era la número uno, sumó 6.971 millones.\" (en pantalla: harina de soja US$6.971 M)\n3. \"La energía dejó un saldo de 7.890 millones de dólares en el mercado de cambios.\" (en pantalla: saldo energético US$7.890 M)\n4. \"¿Y a vos qué? Esos dólares son parte de los que hay para pagar importaciones.\" (en pantalla: más dólares para importar)\n\nMi lectura: Vaca Muerta cambió el mapa: el país ya no depende solo de la cosecha para conseguir dólares.\n\nCIERRE: \"¿Lo sabías? Guardalo.\"\n\nFuente para el caption: Infobae con datos del INDEC y la Bolsa de Comercio de Rosario.",
+   "kind": "guion",
+   "noticia": "En enero-septiembre 2026 Argentina exportó US$7.753 millones de petróleo crudo (+58,6%) y superó a la harina de soja (US$6.971 millones, +7,4%); el saldo energético en el mercado de cambios fue de US$7.890 millones (INDEC-BCR, BCRA).",
+   "para": "Graciela",
+   "titulo": "Por primera vez el petróleo le gana a la soja en exportaciones"
   },
   "sem-2026-10-26": {
    "carruseles": [
