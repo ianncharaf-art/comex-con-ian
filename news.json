@@ -3,6 +3,52 @@
   "items": [
     {
       "fecha": "2026-11-15",
+      "categoria": "Exportación",
+      "titulo": "FIEL: las exportaciones ya superan los USD 100.000 millones en 12 meses y parte del superávit irá a pagar deuda",
+      "resumen": "Marcela Cristini, economista de FIEL, dijo que en los 12 meses hasta septiembre las exportaciones argentinas \"ya superamos el hito de los USD 100.000 millones\" y que el valor exportado crece a dos dígitos en los últimos dos años. Argentina vende a más de 120 países. Advirtió que, como la deuda pública cuesta renovarse, parte del saldo comercial se usará para pagar deuda mediante compras del Tesoro al Banco Central. Para 2027 espera \"probablemente, un nuevo año de crecimiento exportador\".",
+      "porque": "Los dólares del superávit comercial no quedan todos disponibles para importar: una parte se va al pago de deuda, y eso influye en el tipo de cambio.",
+      "claves": [
+        "USD 100.000 millones",
+        "más de 120 países",
+        "parte del saldo comercial se usará para pagar deuda"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/11/15/marcela-cristini-economista-de-fiel-parte-del-saldo-comercial-tendra-como-destino-el-pago-de-la-deuda-externa/",
+          "oficial": false
+        }
+      ],
+      "sector": "BCRA / Cambiario",
+      "urgencia": "Informativa",
+      "impacto": "Para estudiar: muestra cómo se conectan exportaciones, reservas y deuda en la economía argentina.",
+      "agregado": "2026-11-15T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-15",
+      "categoria": "Acuerdos",
+      "titulo": "Paraguay exportó 25% más hasta octubre y tiene superávit comercial de USD 668 millones",
+      "resumen": "Paraguay exportó USD 17.815,6 millones entre enero y octubre de 2026, un 25% más que un año antes, con granos, aceite y harina de soja como principales productos. Las reexportaciones sumaron USD 4.444,1 millones y la maquila USD 1.300,2 millones (+26,4%). Las importaciones llegaron a USD 17.147,1 millones (+14,5%) y el saldo fue un superávit de USD 668,6 millones.",
+      "porque": "Paraguay es socio del Mercosur y compite con Argentina en soja; además, su régimen de maquila y las reexportaciones lo convierten en un centro logístico de la región.",
+      "claves": [
+        "un 25% más",
+        "superávit de USD 668,6 millones",
+        "su régimen de maquila"
+      ],
+      "fuentes": [
+        {
+          "nombre": "La Tribuna (Paraguay)",
+          "url": "https://www.latribuna.com.py/negocios/economia/2026/11/15/las-exportaciones-e-importaciones-con-repuntes-a-final-de-octubre/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Para estudiar: la maquila paraguaya es un modelo que usan empresas de la región para producir y exportar con menos costos.",
+      "agregado": "2026-11-15T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-15",
       "categoria": "Mundo",
       "titulo": "Irán dice que se hundió un superpetrolero con más de 2 millones de barriles tras chocar con una mina en Ormuz",
       "resumen": "La Guardia Revolucionaria de Irán afirmó que un superpetrolero que llevaba \"más de dos millones de barriles\" de crudo chocó con una mina, se incendió y se hundió en aguas del sur del Golfo, mientras navegaba por una ruta \"no autorizada\". No dio el nombre ni el origen del barco y no hay confirmación independiente. El centro marítimo británico UKMTO dijo que la tripulación está a salvo y que se desconocen los daños y el impacto ambiental.",
