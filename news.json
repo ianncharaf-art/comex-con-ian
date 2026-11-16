@@ -1,6 +1,97 @@
 {
-  "actualizado": "2026-11-15",
+  "actualizado": "2026-11-16",
   "items": [
+    {
+      "fecha": "2026-11-16",
+      "categoria": "ARCA · Aduana",
+      "titulo": "Desde hoy las pymes pueden sumar deudas con ARCA a un plan de hasta 18 cuotas",
+      "resumen": "Desde el lunes 16 de noviembre, ARCA habilita la adhesión al plan anunciado por Luis Caputo: se pueden incluir en Mis Facilidades las obligaciones vencidas hasta el 31 de octubre. Micro y pequeñas empresas acceden a hasta 18 cuotas (medianas, hasta 15) y en retenciones y percepciones a hasta 9 (medianas, hasta 7). El pago a cuenta es de 5% para micro y pequeñas y de 10% para medianas, con una tasa de 2,75% mensual. Hace falta certificado MiPyME vigente. Los embargos están suspendidos hasta mayo de 2027.",
+      "porque": "Muchas pymes que importan o exportan tienen deudas fiscales: regularizarlas evita embargos y trabas para operar.",
+      "claves": [
+        "vencidas hasta el 31 de octubre",
+        "hasta 18 cuotas",
+        "certificado MiPyME vigente"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/11/16/entra-en-vigencia-este-lunes-un-plan-de-arca-con-el-que-economia-busca-ayudar-a-las-pyme/",
+          "oficial": false
+        }
+      ],
+      "sector": "Régimen Courier / PyMEs",
+      "urgencia": "Alta",
+      "impacto": "Si tu empresa tiene deudas con ARCA vencidas hasta octubre, revisá con tu contador si conviene entrar: la tasa es de 2,75% mensual y necesitás el certificado MiPyME al día.",
+      "agregado": "2026-11-16T07:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-16",
+      "categoria": "Dólar",
+      "titulo": "La brecha con el contado con liquidación llega al 7,7%",
+      "resumen": "El dólar mayorista ronda los $1.550 y el contado con liquidación (CCL) cerca de $1.670: una brecha de $120, o 7,7%. En el último mes el oficial subió 1,8% y el CCL 3,5%, según Balanz. El dólar oficial subió solo 6% en lo que va del año, unos 20 puntos menos que la inflación.",
+      "porque": "Cuando la brecha crece, los exportadores tienen menos incentivo para liquidar y los importadores enfrentan expectativas de suba del dólar.",
+      "claves": [
+        "una brecha de $120, o 7,7%",
+        "menos incentivo para liquidar"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/11/16/por-que-crece-la-brecha-entre-el-dolar-oficial-y-las-cotizaciones-financieras/",
+          "oficial": false
+        }
+      ],
+      "sector": "BCRA / Cambiario",
+      "urgencia": "Media",
+      "impacto": "Si tenés que pagar importaciones en las próximas semanas, seguí la brecha: si sigue subiendo, conviene no dejar todo para último momento.",
+      "agregado": "2026-11-16T07:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-16",
+      "categoria": "Dólar",
+      "titulo": "Riesgo país en 800: el Gobierno usará más compras al BCRA para pagar US$4.400 millones en enero",
+      "resumen": "Con el riesgo país cerca de 800 puntos y la emisión de Bonares suspendida desde agosto, el Tesoro recurre a comprarle dólares al BCRA: ya superó su límite de US$6.700 millones para 2026 y compró US$160 millones extra. Antes de fin de año vencen unos US$1.000 millones con organismos multilaterales y a principios de enero unos US$4.400 millones con bonistas. Las compras del Tesoro explican más del 40% de los más de US$16.000 millones que compró el BCRA este año.",
+      "porque": "Si el Tesoro necesita más dólares del BCRA para pagar deuda, hay menos margen para acumular reservas, algo que pesa en la estabilidad del dólar para importar.",
+      "claves": [
+        "unos US$4.400 millones con bonistas",
+        "más del 40% de los más de US$16.000 millones",
+        "menos margen para acumular reservas"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Bloomberg Línea",
+          "url": "https://www.bloomberglinea.com/latinoamerica/argentina/riesgo-pais-argentino-en-800-puntos-hace-retocar-el-programa-financiero-con-mas-compras-al-bcra/",
+          "oficial": false
+        }
+      ],
+      "sector": "BCRA / Cambiario",
+      "urgencia": "Informativa",
+      "impacto": "Para seguir: los pagos de enero pueden mover el dólar financiero; si importás, tenelo en el calendario.",
+      "agregado": "2026-11-16T07:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-16",
+      "categoria": "Mundo",
+      "titulo": "Irán dice que seis petroleros se incendiaron entre domingo y lunes en Ormuz; el Brent sigue en US$95",
+      "resumen": "La Guardia Revolucionaria de Irán dijo que dos petroleros chocaron con minas y explotaron el lunes, y que seis se incendiaron en incidentes similares entre domingo y lunes; Reuters no pudo verificarlo. El Brent subía 0,1% a US$95,89 y el WTI a US$88,65. La Agencia Internacional de Energía espera un excedente de 1,7 millones de barriles diarios en el cuarto trimestre, pero los fletes de petroleros siguen altos por el riesgo.",
+      "porque": "Los fletes de petroleros altos y el riesgo en Ormuz mantienen caro el combustible marítimo, que se traslada a cualquier flete hacia Argentina.",
+      "claves": [
+        "seis se incendiaron",
+        "US$95,89",
+        "se traslada a cualquier flete"
+      ],
+      "fuentes": [
+        {
+          "nombre": "AsiaOne (Reuters)",
+          "url": "https://www.asiaone.com/money/oil-edges-hormuz-tanker-incidents-highlight-shipping-risks",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Media",
+      "impacto": "Al cotizar fletes, pedí el desglose del BAF (recargo por combustible): es la parte que más se mueve con Ormuz.",
+      "agregado": "2026-11-16T07:58:00-03:00"
+    },
     {
       "fecha": "2026-11-15",
       "categoria": "Exportación",
@@ -1217,93 +1308,6 @@
           "oficial": false
         }
       ]
-    },
-    {
-      "fecha": "2026-11-06",
-      "categoria": "Comercio exterior",
-      "titulo": "Abrió el cupo 2027 para importar 50.000 autos eléctricos e híbridos con arancel 0%",
-      "resumen": "La Disposición 451/2026 (Boletín Oficial del 6/11) convoca a pedir cupo para importar en 2027 vehículos electrificados con Derecho de Importación Extrazona de 0%: 50.000 unidades, 25.000 para terminales y 25.000 para importadores. El precio deja de ordenar el reparto: cuentan la producción local y los patentamientos (terminales) y el volumen importado (importadores). Los nuevos importadores reciben el 20% de su tramo y se reservan 2.500 unidades para quienes instalen al menos 20 puntos de carga. Las solicitudes van por TAD hasta las 23:59 del 17 de noviembre.",
-      "porque": "Si importás o querés empezar a importar autos electrificados, tenés hasta el 17 de noviembre para anotarte: fuera del cupo, esos autos pagan el arancel normal.",
-      "claves": [
-        "Las solicitudes van por TAD hasta las 23:59 del 17 de noviembre",
-        "El precio deja de ordenar el reparto",
-        "tenés hasta el 17 de noviembre para anotarte"
-      ],
-      "fuentes": [
-        {
-          "nombre": "CIRA (texto de la disposición)",
-          "url": "https://www.cira.org.ar/es/servicios/normativas-servicios/disposicion/disposicion-451-2026/",
-          "oficial": false
-        },
-        {
-          "nombre": "iProfesional",
-          "url": "https://www.iprofesional.com/negocios/468526-importacion-de-autos-electricos-el-gobierno-cambia-el-cupo-para-2027",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-11-06",
-      "categoria": "Mundo",
-      "titulo": "Maersk y Hapag-Lloyd anunciaron su vuelta al Canal de Suez",
-      "resumen": "Maersk prevé volver a cruzar el Canal de Suez desde el 12 de noviembre y Hapag-Lloyd desde el 13, con su servicio conjunto ME1 entre India y Europa, en lugar de rodear el Cabo de Buena Esperanza. La continuidad depende de cómo evolucione la seguridad en el Mar Rojo, y los puertos y escalas tendrán que reajustarse.",
-      "porque": "Si las grandes navieras dejan de dar la vuelta por África, se libera capacidad de barcos en todo el mundo y eso tiende a bajar los fletes, también hacia Sudamérica.",
-      "claves": [
-        "desde el 12 de noviembre",
-        "La continuidad depende de cómo evolucione la seguridad en el Mar Rojo",
-        "tiende a bajar los fletes"
-      ],
-      "fuentes": [
-        {
-          "nombre": "DataPortuaria",
-          "url": "https://dataportuaria.com/en/internacional/shipping/maersk-and-hapag-lloyd-to-resume-suez-canal-transits-on-november-12-and-13-cf9307",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-11-06",
-      "categoria": "Mundo",
-      "titulo": "Xeneta prevé que los fletes marítimos caigan 30% en 2027",
-      "resumen": "En su Ocean Outlook 2027, presentado el 5 de noviembre en Múnich, Xeneta proyectó que los fletes spot de contenedores bajen 30% en 2027 y los contratos de largo plazo, 5% (contra el tercer trimestre de 2026). La flota crecería 6,8% y la demanda solo entre 2,5% y 4%: en 2027 entran 2,9 millones de TEU nuevos y se desguazarían unos 500.000. La vuelta a Suez ya liberó unos 599.000 TEU. Los riesgos: nuevas amenazas en el Mar Rojo y restricciones por sequía en Panamá.",
-      "porque": "Si más barcos compiten por menos carga, los fletes bajan: antes de firmar un contrato de flete largo para 2027, compará con el spot y negociá.",
-      "claves": [
-        "bajen 30% en 2027",
-        "La flota crecería 6,8% y la demanda solo entre 2,5% y 4%",
-        "antes de firmar un contrato de flete largo para 2027, compará con el spot y negociá"
-      ],
-      "fuentes": [
-        {
-          "nombre": "SAFETY4SEA",
-          "url": "https://safety4sea.com/xeneta-forecasts-30-decline-in-ocean-freight-spot-rates-in-2027/",
-          "oficial": false
-        }
-      ],
-      "sector": "Logística y Fletes",
-      "urgencia": "Media",
-      "impacto": "Para planificar importaciones 2027: la tendencia esperada es de fletes más baratos, así que conviene no atarse a tarifas altas por mucho tiempo."
-    },
-    {
-      "fecha": "2026-11-06",
-      "categoria": "Acuerdos",
-      "titulo": "Quirno: los acuerdos ya cubren 30% del PBI mundial y la meta es llegar al 80%",
-      "resumen": "El canciller Pablo Quirno dijo en los 160 años de la Sociedad Rural que los acuerdos con la Unión Europea, la EFTA, Singapur y Estados Unidos llevaron la cobertura de Argentina de 10% a 30% del producto mundial, y que la meta es llegar a 80% en el próximo mandato. En la agenda están Canadá, Vietnam, Emiratos Árabes Unidos, Indonesia, Filipinas y Bangladesh; Argentina pidió entrar al acuerdo transpacífico (CPTPP). Entre enero y septiembre las agroexportaciones superaron los US$43.000 millones (+13%).",
-      "porque": "Cada acuerdo nuevo baja aranceles para vender afuera y para traer insumos: conviene mirar qué países vienen y qué productos tuyos entrarían más baratos.",
-      "claves": [
-        "de 10% a 30% del producto mundial",
-        "Canadá, Vietnam, Emiratos Árabes Unidos, Indonesia, Filipinas y Bangladesh",
-        "conviene mirar qué países vienen"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Agroempresario",
-          "url": "https://agroempresario.com/publicacion/123576/quirno-anuncio-nuevas-negociaciones-comerciales-para-argentina/",
-          "oficial": false
-        }
-      ],
-      "sector": "Mercosur y Acuerdos",
-      "urgencia": "Informativa",
-      "impacto": "Para exportadores y estudiantes: estos son los próximos mercados que pueden abrirse con menos aranceles. Ninguno de los nuevos tiene fecha todavía."
     }
   ]
 }
