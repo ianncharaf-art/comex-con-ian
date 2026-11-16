@@ -4,6 +4,75 @@
     {
       "fecha": "2026-11-16",
       "categoria": "ARCA · Aduana",
+      "titulo": "ARCA habilitó un nuevo depósito fiscal de 19.400 m² en Lanús para importación y exportación",
+      "resumen": "Por la Resolución 167/2026 de la Subdirección General de Operaciones Aduaneras Metropolitanas, publicada hoy en el Boletín Oficial, ARCA habilitó como depósito fiscal general a Depósito Moreiro Hnos S.R.L., en Lanús, con una superficie de 19.425,73 m². Sirve para operaciones de importación y exportación y para mercadería registrada en otras aduanas. La habilitación es por 10 años, renovables de forma no automática, y queda bajo control de la Aduana de Buenos Aires.",
+      "porque": "Un depósito fiscal permite guardar mercadería sin nacionalizarla todavía: más oferta de depósitos en el AMBA puede dar más opciones de almacenaje a los importadores.",
+      "claves": [
+        "19.425,73 m²",
+        "por 10 años",
+        "sin nacionalizarla todavía"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Boletín Oficial — Resolución 167/2026 ARCA",
+          "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/350331/20261116",
+          "oficial": true
+        }
+      ],
+      "sector": "ARCA / Aduana",
+      "urgencia": "Informativa",
+      "impacto": "Si importás por Buenos Aires, sumá este depósito a la lista para cotizar almacenaje fiscal y comparar costos.",
+      "agregado": "2026-11-16T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-16",
+      "categoria": "Mundo",
+      "titulo": "Récord de importaciones en EE.UU.: 2,67 millones de TEU en octubre y más demoras en los puertos",
+      "resumen": "Según datos de Descartes publicados por FreightWaves, EE.UU. importó 2.674.808 TEU en octubre de 2026, un récord que supera el máximo de mayo de 2022. Es 5% más que en septiembre y 16% más que un año antes. Desde China llegaron 987.805 TEU (+22,9% interanual), el 36,9% del total. La demora promedio en 10 puertos subió a 6,3 días, frente a 4,2 días en junio.",
+      "porque": "Cuando EE.UU. importa a ritmo récord, las navieras priorizan esas rutas y escasean barcos y contenedores en otras, lo que puede encarecer fletes desde Asia hacia Sudamérica.",
+      "claves": [
+        "2.674.808 TEU en octubre de 2026",
+        "subió a 6,3 días",
+        "puede encarecer fletes desde Asia hacia Sudamérica"
+      ],
+      "fuentes": [
+        {
+          "nombre": "FreightWaves (datos Descartes)",
+          "url": "https://www.freightwaves.com/news/u-s-container-imports-hit-record-2-67-million-teus-in-october-as-port-delays-rise",
+          "oficial": false
+        }
+      ],
+      "sector": "Logística y Fletes",
+      "urgencia": "Media",
+      "impacto": "Si traés contenedores desde China, reservá espacio con anticipación: la demanda de EE.UU. compite por los mismos barcos.",
+      "agregado": "2026-11-16T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-16",
+      "categoria": "Mundo",
+      "titulo": "Sheinbaum viaja a APEC con un comercio México-China de US$117.000 millones y aranceles de hasta 50% a Asia",
+      "resumen": "La presidenta de México, Claudia Sheinbaum, viaja a Shenzhen para la cumbre APEC (actividades oficiales del 17 al 19 de noviembre) y se reunirá con Xi Jinping. Entre enero y septiembre, el comercio México-China sumó US$117.080 millones (+12,8%), con un déficit mexicano de US$94.878 millones. Desde enero, México aplica aranceles de 5% a 50% en 1.463 fracciones de 17 sectores a países sin tratado, como calzado, juguetes y autos, lo que golpea sobre todo a China.",
+      "porque": "México es un caso testigo: sube aranceles a China para proteger su industria y cumplir con EE.UU., pero sigue dependiendo de sus insumos. Argentina hace lo contrario: abre importaciones.",
+      "claves": [
+        "aranceles de 5% a 50% en 1.463 fracciones",
+        "déficit mexicano de US$94.878 millones",
+        "Argentina hace lo contrario"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Expansión",
+          "url": "https://expansion.mx/economia/2026/11/16/sheinbaum-xi-jinping-apec-comercio-mexico-china",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Informativa",
+      "impacto": "Para estudiar: compará la política arancelaria de México con la argentina; si exportás a México, revisá si tu producto tiene preferencia por ACE con Argentina.",
+      "agregado": "2026-11-16T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-16",
+      "categoria": "ARCA · Aduana",
       "titulo": "Desde hoy las pymes pueden sumar deudas con ARCA a un plan de hasta 18 cuotas",
       "resumen": "Desde el lunes 16 de noviembre, ARCA habilita la adhesión al plan anunciado por Luis Caputo: se pueden incluir en Mis Facilidades las obligaciones vencidas hasta el 31 de octubre. Micro y pequeñas empresas acceden a hasta 18 cuotas (medianas, hasta 15) y en retenciones y percepciones a hasta 9 (medianas, hasta 7). El pago a cuenta es de 5% para micro y pequeñas y de 10% para medianas, con una tasa de 2,75% mensual. Hace falta certificado MiPyME vigente. Los embargos están suspendidos hasta mayo de 2027.",
       "porque": "Muchas pymes que importan o exportan tienen deudas fiscales: regularizarlas evita embargos y trabas para operar.",
