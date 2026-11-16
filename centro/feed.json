@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-15T12:13:56+00:00",
+ "actualizado": "2026-11-16T12:14:25+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -207,6 +207,24 @@
    "noticia": "En enero-septiembre 2026 Argentina exportó US$7.753 millones de petróleo crudo (+58,6%) y superó a la harina de soja (US$6.971 millones, +7,4%); el saldo energético en el mercado de cambios fue de US$7.890 millones (INDEC-BCR, BCRA).",
    "para": "Graciela",
    "titulo": "Por primera vez el petróleo le gana a la soja en exportaciones"
+  },
+  "guion-2026-11-15-1": {
+   "fecha": "2026-11-15",
+   "fuente": "https://www.infobae.com/economia/2026/11/15/marcela-cristini-economista-de-fiel-parte-del-saldo-comercial-tendra-como-destino-el-pago-de-la-deuda-externa/",
+   "guion": "GANCHO: \"Argentina pasó una marca que nunca había pasado.\"\n\n1. \"En los últimos 12 meses las exportaciones superaron los 100.000 millones de dólares.\" (en pantalla: +US$100.000 M en 12 meses)\n2. \"Se le vende a más de 120 países.\" (en pantalla: +120 países)\n3. \"Pero no todos esos dólares quedan para importar: una parte se usa para pagar deuda.\" (en pantalla: parte → deuda)\n4. \"Y para 2027 se espera que las exportaciones sigan creciendo.\" (en pantalla: 2027 ↑)\n\nMi lectura: exportar es una de las pocas cosas que crece a dos dígitos; si querés meterte en comex, mirá también el lado de vender afuera.\n\nCIERRE: \"¿Exportarías o importarías? Comentá.\"\n\nFuente para el caption: Infobae, entrevista a Marcela Cristini (FIEL).",
+   "kind": "guion",
+   "noticia": "Según Marcela Cristini (FIEL), en los 12 meses hasta septiembre las exportaciones superaron los US$100.000 millones, a más de 120 países, y parte del saldo comercial se usará para pagar deuda.",
+   "para": "Tomi",
+   "titulo": "Argentina ya exporta más de 100.000 millones de dólares al año"
+  },
+  "guion-2026-11-16-1": {
+   "fecha": "2026-11-16",
+   "fuente": "https://www.infobae.com/economia/2026/11/16/entra-en-vigencia-este-lunes-un-plan-de-arca-con-el-que-economia-busca-ayudar-a-las-pyme/",
+   "guion": "GANCHO: \"Si tu pyme tiene deudas con ARCA, esto arranca hoy.\"\n\n1. \"Desde este lunes podés meter en un plan las deudas vencidas hasta el 31 de octubre.\" (en pantalla: deudas hasta 31/10)\n2. \"Micro y pequeñas: hasta 18 cuotas. Medianas: hasta 15.\" (en pantalla: 18 cuotas · medianas 15)\n3. \"Pagás 5% de entrada (10% si sos mediana) y la tasa es 2,75% mensual.\" (en pantalla: entrada 5% · tasa 2,75%)\n4. \"Necesitás el certificado MiPyME vigente. Y los embargos están suspendidos hasta mayo de 2027.\" (en pantalla: certificado MiPyME)\n\nMi lectura: si importás o exportás, una deuda fiscal te puede trabar la operatoria; ordenarla ahora es más barato que esperar.\n\nCIERRE: \"Mandáselo a tu contador y guardalo.\"\n\nFuente para el caption: Infobae.",
+   "kind": "guion",
+   "noticia": "Desde el 16/11 ARCA habilita incluir en Mis Facilidades deudas vencidas hasta el 31/10: micro y pequeñas hasta 18 cuotas (medianas 15), pago a cuenta 5% (medianas 10%), tasa 2,75% mensual, con certificado MiPyME; embargos suspendidos hasta mayo de 2027.",
+   "para": "Graciela",
+   "titulo": "Si tu pyme debe en ARCA, desde hoy podés pagarlo en hasta 18 cuotas"
   },
   "sem-2026-10-26": {
    "carruseles": [
