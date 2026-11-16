@@ -3,6 +3,103 @@
   "items": [
     {
       "fecha": "2026-11-16",
+      "categoria": "Dólar",
+      "titulo": "El mayorista cerró en $1.551, nuevo máximo nominal, y el riesgo país subió a 855",
+      "resumen": "El dólar mayorista subió $7,50 (0,49%) y cerró en $1.551, un nuevo máximo nominal. El BCRA compró u$s33 millones y acumula u$s256 millones en noviembre, pero las reservas brutas cayeron u$s133 millones, a u$s49.464 millones. El riesgo país subió 25 puntos, a 855, y el Merval cayó 4,3% en pesos.",
+      "porque": "Un mayorista en máximos encarece en pesos cada importación que se paga: conviene recalcular costos con el tipo de cambio del día.",
+      "claves": [
+        "cerró en $1.551, un nuevo máximo nominal",
+        "u$s256 millones en noviembre",
+        "recalcular costos con el tipo de cambio del día"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Ámbito",
+          "url": "https://www.ambito.com/finanzas/el-bcra-ya-compro-mas-us250-millones-noviembre-pero-las-reservas-siguen-recuperarse-n6345865",
+          "oficial": false
+        },
+        {
+          "nombre": "La Capital",
+          "url": "https://www.lacapital.com.ar/economia/mercados-cayeron-las-acciones-y-los-bonos-el-riesgo-pais-salto-855-puntos-y-el-dolar-volvio-subir-n10292518.html",
+          "oficial": false
+        }
+      ],
+      "sector": "BCRA / Cambiario",
+      "urgencia": "Media",
+      "impacto": "Para cotizar mañana, tomá $1.551 como base del mayorista y sumá un margen: la tendencia de la semana es de suba.",
+      "agregado": "2026-11-16T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-16",
+      "categoria": "Exportación",
+      "titulo": "Récord del agro: Argentina exportó más de 101 millones de toneladas en diez meses",
+      "resumen": "Según un informe de la Bolsa de Comercio de Rosario, entre enero y octubre de 2026 Argentina exportó más de 101 millones de toneladas de granos y subproductos, un 13% más que el año anterior y unos 10 millones de toneladas por encima del récord previo. El maíz sumó 37,1 millones de toneladas, el trigo 14,5 millones (+45%) y el complejo girasol más de 6,7 millones. Solo el 68,8% de la producción 2025/26 estaba comprometida, el nivel más bajo de la serie para esta época.",
+      "porque": "Más volumen exportado significa más demanda de camiones, puertos y barcos en el Gran Rosario: la logística granaria va a estar exigida.",
+      "claves": [
+        "más de 101 millones de toneladas",
+        "un 13% más",
+        "Solo el 68,8% de la producción 2025/26 estaba comprometida"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Será Noticia / MDZ (vía Examedia)",
+          "url": "https://examedia.com.ar/portada/post/88246126",
+          "oficial": false
+        }
+      ],
+      "sector": "Logística y Fletes",
+      "urgencia": "Informativa",
+      "impacto": "Si trabajás en logística, todavía queda mucha cosecha sin vender: el movimiento en puertos seguirá alto los próximos meses.",
+      "agregado": "2026-11-16T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-16",
+      "categoria": "Mundo",
+      "titulo": "Ormuz: el UKMTO confirma dos ataques a petroleros el lunes, uno quedó sin propulsión",
+      "resumen": "El centro marítimo británico UKMTO reportó dos ataques a buques en Ormuz el 16 de noviembre. Uno, que salía del estrecho, fue alcanzado por un \"proyectil no identificado\" y tuvo un incendio en la sala de máquinas. Otro quedó inmovilizado con fuego en la sala de máquinas a unas siete millas náuticas al norte de Khasab, Omán. Las tripulaciones están a salvo. El UKMTO no identificó los barcos ni a los responsables.",
+      "porque": "Esta vez los ataques los confirma una fuente independiente, no solo Irán: el riesgo real sigue alto y los recargos de guerra y combustible seguirán en los fletes.",
+      "claves": [
+        "proyectil no identificado",
+        "Las tripulaciones están a salvo",
+        "los recargos de guerra y combustible seguirán en los fletes"
+      ],
+      "fuentes": [
+        {
+          "nombre": "gCaptain",
+          "url": "https://gcaptain.com/ukmto-reports-two-tanker-attacks-in-strait-of-hormuz/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Media",
+      "impacto": "Si tu carga viene por rutas que tocan Medio Oriente, pedile a tu forwarder un plan B de ruta y tiempos.",
+      "agregado": "2026-11-16T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-16",
+      "categoria": "Mundo",
+      "titulo": "Carney: Canadá podría recurrir a automotrices chinas si fracasa el acuerdo con EE.UU.",
+      "resumen": "El primer ministro canadiense, Mark Carney, dijo desde Camboya que Canadá podría buscar inversiones de automotrices chinas si las negociaciones con EE.UU. no preservan una industria automotriz integrada en Norteamérica, aunque exigiría fabricación real en Canadá y no solo ensamblado. En enero, Canadá había bajado el arancel a los eléctricos chinos de 100% a 6,1%, con un cupo inicial de 49.000 vehículos por año, a cambio de que China bajara aranceles a productos agrícolas como la canola. La Casa Blanca lo criticó.",
+      "porque": "Es un ejemplo de negociación con aranceles y cupos: Canadá abrió autos a cambio de vender más agro a China, un intercambio que también se discute para el Mercosur.",
+      "claves": [
+        "de 100% a 6,1%",
+        "cupo inicial de 49.000 vehículos por año",
+        "abrió autos a cambio de vender más agro"
+      ],
+      "fuentes": [
+        {
+          "nombre": "The Boston Globe (AP)",
+          "url": "https://www.bostonglobe.com/2026/11/16/business/us-canada-trade-china/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Informativa",
+      "impacto": "Para estudiar: buen caso de cómo un país usa un cupo arancelario como moneda de cambio para abrir mercados a sus exportaciones.",
+      "agregado": "2026-11-16T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-16",
       "categoria": "ARCA · Aduana",
       "titulo": "ARCA habilitó un nuevo depósito fiscal de 19.400 m² en Lanús para importación y exportación",
       "resumen": "Por la Resolución 167/2026 de la Subdirección General de Operaciones Aduaneras Metropolitanas, publicada hoy en el Boletín Oficial, ARCA habilitó como depósito fiscal general a Depósito Moreiro Hnos S.R.L., en Lanús, con una superficie de 19.425,73 m². Sirve para operaciones de importación y exportación y para mercadería registrada en otras aduanas. La habilitación es por 10 años, renovables de forma no automática, y queda bajo control de la Aduana de Buenos Aires.",
