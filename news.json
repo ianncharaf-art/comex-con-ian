@@ -3,6 +3,75 @@
   "items": [
     {
       "fecha": "2026-11-17",
+      "categoria": "ARCA · Aduana",
+      "titulo": "SENASA cambia las reglas de las fumigaciones oficiales para exportar: rige desde el 18 de noviembre",
+      "resumen": "Por la Resolución 955/2026, publicada hoy en el Boletín Oficial, el SENASA derogó la Resolución 79/2023 y cambió los Tratamientos de Fumigación Oficial en comercio internacional (excepto frutas y hortalizas). Sus inspectores dejan de verificar habilitaciones provinciales y se limitan a lo fitosanitario. Antes del tratamiento, la fumigadora debe presentar la nómina del personal, el producto con su marbete, registro y vencimiento, y los cálculos de dosis. El bromuro de metilo queda restringido a cuarentenas exigidas por el país comprador. Rige desde el 18 de noviembre de 2026.",
+      "porque": "Muchos embarques de granos, maderas y otros productos vegetales necesitan una fumigación certificada por SENASA para entrar al país de destino: cambian los papeles que se presentan.",
+      "claves": [
+        "Resolución 955/2026",
+        "Rige desde el 18 de noviembre de 2026",
+        "cambian los papeles que se presentan"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Noticias Agropecuarias (Boletín Oficial)",
+          "url": "https://www.noticiasagropecuarias.com/2026/11/17/el-senasa-modifico-los-controles-sobre-las-fumigaciones-oficiales-y-limito-la-intervencion-de-sus-inspectores/",
+          "oficial": false
+        }
+      ],
+      "sector": "ARCA / Aduana",
+      "urgencia": "Alta",
+      "impacto": "Si exportás productos vegetales que requieren fumigación, confirmá con tu fumigadora que presente la documentación nueva desde el 18/11.",
+      "agregado": "2026-11-17T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-17",
+      "categoria": "ARCA · Aduana",
+      "titulo": "Salta se quedó sin depósitos fiscales: la Aduana clausuró los dos únicos y las empresas operan desde Jujuy",
+      "resumen": "Inspectores de la Aduana clausuraron los dos únicos depósitos fiscales de Salta, COZOFRA (General Güemes) y COCEL (ciudad de Salta). Las importaciones y exportaciones quedaron paralizadas durante semanas y las empresas tuvieron que trasladar sus operaciones a Palpalá, Jujuy, con más costos de transporte y tiempos de trámite. Uno de los depósitos sigue operando con restricciones. Fuentes del sector estiman pérdidas de \"varios millones de dólares\" y un diputado pidió informes al Ejecutivo.",
+      "porque": "Sin depósito fiscal cerca, cada operación de comercio exterior suma flete y días: es un ejemplo de cuánto depende la logística de la infraestructura aduanera local.",
+      "claves": [
+        "los dos únicos depósitos fiscales de Salta",
+        "trasladar sus operaciones a Palpalá, Jujuy",
+        "suma flete y días"
+      ],
+      "fuentes": [
+        {
+          "nombre": "El Tribuno",
+          "url": "https://www.eltribuno.com/salta/2026-11-17-0-46-0-arca-clausuro-depositos-aduaneros-y-paralizo-el-comercio-exterior-en-salta",
+          "oficial": false
+        }
+      ],
+      "sector": "ARCA / Aduana",
+      "urgencia": "Media",
+      "impacto": "Si operás por el NOA, tené un depósito fiscal alternativo (Jujuy) cotizado y sumá días extra a tus plazos.",
+      "agregado": "2026-11-17T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-17",
+      "categoria": "Exportación",
+      "titulo": "BID: las exportaciones argentinas crecieron 24,4% en el primer semestre, pero la inversión extranjera cayó 20%",
+      "resumen": "Según el Monitor de Comercio e Integración 2026 del BID, las exportaciones argentinas de bienes subieron 24,4% interanual en el primer semestre de 2026, impulsadas por petróleo, minería y agro, mientras las importaciones cayeron 18,8%. En cambio, la inversión extranjera directa promedió US$8.019 millones por año entre 2023 y 2025, un 20,4% menos que en 2012-2014. El BID dice que la apertura comercial \"por sí sola no basta\" y ve en el acuerdo Mercosur-UE una oportunidad si se acompaña con reformas.",
+      "porque": "Más exportaciones sin más inversión es un límite: para seguir creciendo afuera hacen falta plantas, puertos y logística nuevas.",
+      "claves": [
+        "24,4% interanual",
+        "un 20,4% menos",
+        "por sí sola no basta"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Forbes Argentina",
+          "url": "https://www.forbesargentina.com/negocios/exportaciones-record-pero-menos-capitales-externos-diagnostico-bid-sobre-futuro-negocios-argentina-n102721",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Para estudiar: buen informe para entender la diferencia entre comercio e inversión, y por qué el acuerdo con la UE importa más allá de los aranceles.",
+      "agregado": "2026-11-17T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-17",
       "categoria": "Acuerdos",
       "titulo": "El real se devaluó 16% desde la reelección de Lula: Argentina pierde competitividad frente a Brasil",
       "resumen": "El real llegó a 5,78-5,79 por dólar, su nivel más alto desde abril de 2025, tras subir otro 2% el lunes; desde la reelección de Lula acumula una depreciación de 16%. En Argentina el impacto fue limitado hasta ahora: el dólar oficial minorista subió $5 a $1.575 y acumula 2% desde fines de octubre. Con una inflación de 26% en el año y un tipo de cambio que subió solo 5%, la economía argentina se encareció en dólares, y la caída del real lo acentúa.",
