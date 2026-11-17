@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-16T12:14:25+00:00",
+ "actualizado": "2026-11-17T12:14:02+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -225,6 +225,24 @@
    "noticia": "Desde el 16/11 ARCA habilita incluir en Mis Facilidades deudas vencidas hasta el 31/10: micro y pequeñas hasta 18 cuotas (medianas 15), pago a cuenta 5% (medianas 10%), tasa 2,75% mensual, con certificado MiPyME; embargos suspendidos hasta mayo de 2027.",
    "para": "Graciela",
    "titulo": "Si tu pyme debe en ARCA, desde hoy podés pagarlo en hasta 18 cuotas"
+  },
+  "guion-2026-11-16-2": {
+   "fecha": "2026-11-16",
+   "fuente": "https://www.boletinoficial.gob.ar/detalleAviso/primera/350331/20261116",
+   "guion": "GANCHO: \"Tu mercadería llegó pero todavía no es tuya. Te explico dónde queda.\"\n\n1. \"Un depósito fiscal es un lugar controlado por la Aduana donde se guarda la mercadería antes de nacionalizarla.\" (en pantalla: depósito fiscal = sala de espera)\n2. \"Ahí espera mientras hacés los papeles y pagás los impuestos.\" (en pantalla: papeles + impuestos)\n3. \"ARCA acaba de habilitar uno nuevo en Lanús: 19.425 metros cuadrados, por 10 años.\" (en pantalla: Lanús · 19.425 m²)\n4. \"Más depósitos en el AMBA son más opciones para el que importa.\" (en pantalla: más opciones)\n\nMi lectura: el depósito también se paga, así que sumalo a la cuenta de lo que te cuesta traer algo.\n\nCIERRE: \"¿Sabías que existían? Guardalo.\"\n\nFuente para el caption: Boletín Oficial, Resolución 167/2026.",
+   "kind": "guion",
+   "noticia": "La Resolución 167/2026 (BO 16/11) habilitó como depósito fiscal general a Depósito Moreiro Hnos S.R.L. en Lanús, con 19.425,73 m², para importación y exportación, por 10 años.",
+   "para": "Tomi",
+   "titulo": "Qué es un depósito fiscal, y por qué abrió uno de casi 20.000 m² en Lanús"
+  },
+  "guion-2026-11-17-1": {
+   "fecha": "2026-11-17",
+   "fuente": "https://www.infobae.com/economia/2026/11/17/el-dolar-en-brasil-trepo-16-desde-la-reeleccion-de-lula-da-silva-como-impacta-en-la-argentina/",
+   "guion": "GANCHO: \"Brasil se abarató 16% en dólares. Y eso te toca.\"\n\n1. \"El real se devaluó 16% desde la reelección de Lula: ya está en 5,78 por dólar.\" (en pantalla: real -16% · R$5,78)\n2. \"Acá el dólar minorista subió solo 2% desde fines de octubre, a 1.575.\" (en pantalla: AR$1.575 · +2%)\n3. \"Resultado: lo que viene de Brasil llega más barato, y lo argentino se encarece allá.\" (en pantalla: Brasil → más barato · Argentina → más caro)\n4. \"Si le comprás a Brasil, es momento de pedir precio nuevo. Si le vendés, preparáte para que te pidan descuento.\" (en pantalla: comprás: pedí precio · vendés: ojo)\n\nMi lectura: Brasil es nuestro principal socio; lo que pasa con el real se siente en tu proveedor y en tu cliente.\n\nCIERRE: \"¿Trabajás con Brasil? Contame cómo lo estás viendo.\"\n\nFuente para el caption: Infobae.",
+   "kind": "guion",
+   "noticia": "El real llegó a 5,78-5,79 por dólar y acumula 16% de devaluación desde la reelección de Lula; en Argentina el minorista subió a $1.575 (2% desde fines de octubre) con inflación de 26% en el año.",
+   "para": "Graciela",
+   "titulo": "Brasil se abarató 16% en dólares. Si importás o exportás con Brasil, mirá esto"
   },
   "sem-2026-10-26": {
    "carruseles": [
