@@ -3,6 +3,75 @@
   "items": [
     {
       "fecha": "2026-11-17",
+      "categoria": "Acuerdos",
+      "titulo": "El Gobierno enviará al Congreso el acuerdo comercial con EE.UU.: elimina aranceles a 1.675 productos argentinos",
+      "resumen": "La Mesa Política decidió enviar al Congreso \"en los próximos días\" el Acuerdo sobre Comercio e Inversiones Recíprocos (ARTI) con EE.UU., firmado el 5 de febrero y adaptado en octubre. EE.UU. elimina aranceles recíprocos a 1.675 productos argentinos, lo que según Cancillería permitiría recuperar unos US$1.013 millones en exportaciones. A cambio, Argentina se compromete a eliminar la tasa de estadística y las licencias de importación, y a abrir un cupo de 80.000 toneladas anuales de carne vacuna estadounidense sin arancel. Se trataría en sesiones extraordinarias de diciembre y rige 60 días después de que ambos países completen sus trámites.",
+      "porque": "Si se aprueba, cambia costos para los dos lados: exportar a EE.UU. sin arancel recíproco e importar sin tasa de estadística.",
+      "claves": [
+        "1.675 productos argentinos",
+        "unos US$1.013 millones en exportaciones",
+        "eliminar la tasa de estadística"
+      ],
+      "fuentes": [
+        {
+          "nombre": "El Cronista",
+          "url": "https://www.cronista.com/economia-politica/el-gobierno-enviara-el-acuerdo-comercial-con-eeuu-al-congreso-y-lo-incluira-en-el-temario-de-extraordinarias/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Media",
+      "impacto": "Si exportás a EE.UU., revisá si tu posición está entre los 1.675 productos; si importás, seguí la eliminación de la tasa de estadística.",
+      "agregado": "2026-11-17T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-17",
+      "categoria": "Dólar",
+      "titulo": "El BCRA compró US$74 millones y las reservas subieron US$277 millones; el mayorista cerró en $1.552",
+      "resumen": "El dólar mayorista subió $1 y cerró en $1.552, un nuevo récord nominal. El BCRA aceleró sus compras: adquirió u$s74 millones en la rueda y acumula u$s330 millones en noviembre. Las reservas brutas subieron u$s277 millones, a u$s49.741 millones.",
+      "porque": "Más compras del BCRA y reservas en alza dan algo de respaldo al tipo de cambio para quienes tienen que pagar importaciones.",
+      "claves": [
+        "cerró en $1.552",
+        "u$s330 millones en noviembre",
+        "u$s49.741 millones"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Ámbito",
+          "url": "https://www.ambito.com/finanzas/el-bcra-acelero-las-compras-dolares-y-las-reservas-subieron-mas-us275-millones-n6346345",
+          "oficial": false
+        }
+      ],
+      "sector": "BCRA / Cambiario",
+      "urgencia": "Informativa",
+      "impacto": "Para cotizar mañana, tomá $1.552 como referencia del mayorista.",
+      "agregado": "2026-11-17T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-17",
+      "categoria": "Mundo",
+      "titulo": "Petróleo sube 1% por ataques en el Golfo: un barco alcanzado dos veces en Ormuz y drones contra un oleoducto saudí",
+      "resumen": "El Brent subía US$1,06 (1,15%) a US$93,50 y el WTI a US$86,56, aunque en noviembre acumulan caídas de 20% y 16%. Un barco fue alcanzado dos veces en Ormuz y su tripulación no estaba localizada; drones iraníes atacaron un radar de EE.UU. en Bahréin y los hutíes dijeron que lanzaron drones contra estaciones del oleoducto saudí Este-Oeste. La Agencia Internacional de Energía prevé excedente porque las exportaciones del Golfo se recuperan y los costos de transporte bajaron mucho.",
+      "porque": "Si los costos de transporte de petróleo bajan, el combustible marítimo se abarata y eso debería ir reflejándose en los recargos de los fletes.",
+      "claves": [
+        "acumulan caídas de 20% y 16%",
+        "los costos de transporte bajaron mucho",
+        "debería ir reflejándose en los recargos de los fletes"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Reuters (vía Lufkin Daily News)",
+          "url": "https://lufkindailynews.com/news_reuters/business/oil-up-1-on-tanker-attacks-expected-us-crude-drop/article_47b28911-4d7c-5312-89d9-db6115abfc52.html",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Informativa",
+      "impacto": "Al renegociar fletes, preguntá si el BAF (recargo por combustible) ya bajó: el petróleo cayó cerca de 20% en noviembre.",
+      "agregado": "2026-11-17T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-17",
       "categoria": "ARCA · Aduana",
       "titulo": "SENASA cambia las reglas de las fumigaciones oficiales para exportar: rige desde el 18 de noviembre",
       "resumen": "Por la Resolución 955/2026, publicada hoy en el Boletín Oficial, el SENASA derogó la Resolución 79/2023 y cambió los Tratamientos de Fumigación Oficial en comercio internacional (excepto frutas y hortalizas). Sus inspectores dejan de verificar habilitaciones provinciales y se limitan a lo fitosanitario. Antes del tratamiento, la fumigadora debe presentar la nómina del personal, el producto con su marbete, registro y vencimiento, y los cálculos de dosis. El bromuro de metilo queda restringido a cuarentenas exigidas por el país comprador. Rige desde el 18 de noviembre de 2026.",
