@@ -1,6 +1,51 @@
 {
-  "actualizado": "2026-11-16",
+  "actualizado": "2026-11-17",
   "items": [
+    {
+      "fecha": "2026-11-17",
+      "categoria": "Acuerdos",
+      "titulo": "El real se devaluó 16% desde la reelección de Lula: Argentina pierde competitividad frente a Brasil",
+      "resumen": "El real llegó a 5,78-5,79 por dólar, su nivel más alto desde abril de 2025, tras subir otro 2% el lunes; desde la reelección de Lula acumula una depreciación de 16%. En Argentina el impacto fue limitado hasta ahora: el dólar oficial minorista subió $5 a $1.575 y acumula 2% desde fines de octubre. Con una inflación de 26% en el año y un tipo de cambio que subió solo 5%, la economía argentina se encareció en dólares, y la caída del real lo acentúa.",
+      "porque": "Brasil es el principal socio comercial: con un real más barato, los productos brasileños llegan más baratos a Argentina y los argentinos se encarecen allá.",
+      "claves": [
+        "depreciación de 16%",
+        "la economía argentina se encareció en dólares",
+        "los productos brasileños llegan más baratos a Argentina"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/11/17/el-dolar-en-brasil-trepo-16-desde-la-reeleccion-de-lula-da-silva-como-impacta-en-la-argentina/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Media",
+      "impacto": "Si exportás a Brasil, revisá precios: tu cliente ahora paga 16% más en reales. Si importás de Brasil, es buen momento para pedir cotización.",
+      "agregado": "2026-11-17T07:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-17",
+      "categoria": "Mundo",
+      "titulo": "Empieza la semana de APEC en Shenzhen con aranceles de EE.UU. de hasta 12,5% a 60 economías",
+      "resumen": "Los 21 miembros de APEC, que concentran algo más de la mitad del comercio mundial, se reúnen esta semana en Shenzhen con bajas expectativas. Después de que la Corte Suprema de EE.UU. anulara muchos aranceles de Trump en febrero de 2026, Washington aplicó nuevos aranceles de hasta 12,5% a 60 economías de Asia y América Latina por supuestos esfuerzos insuficientes contra el trabajo forzoso. Siguen vigentes los aranceles sectoriales al acero, los autos y la madera.",
+      "porque": "Lo que se acuerde entre EE.UU. y China en APEC puede cambiar precios de granos y manufacturas que compiten con productos argentinos.",
+      "claves": [
+        "aranceles de hasta 12,5% a 60 economías",
+        "Siguen vigentes los aranceles sectoriales al acero, los autos y la madera"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Malay Mail (AFP)",
+          "url": "https://www.malaymail.com/news/money/2026/11/17/apec-summit-2026-why-trumps-relentless-tariff-blitz-means-low-expectations-in-china/243480",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Informativa",
+      "impacto": "Si exportás a EE.UU., verificá qué arancel adicional aplica hoy a Argentina antes de cerrar precios.",
+      "agregado": "2026-11-17T07:58:00-03:00"
+    },
     {
       "fecha": "2026-11-16",
       "categoria": "Dólar",
