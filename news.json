@@ -3,6 +3,56 @@
   "items": [
     {
       "fecha": "2026-11-18",
+      "categoria": "Exportación",
+      "titulo": "SENASA prohíbe la ractopamina en cerdos para proteger las exportaciones de carne porcina",
+      "resumen": "Por la Resolución 956/2026, publicada hoy en el Boletín Oficial, el SENASA prohibió en todo el país el uso y la venta de productos veterinarios promotores de crecimiento con sustancias beta agonistas o tirostáticas. Termina así la excepción de 2011 (Resolución 1458/2011) que permitía usar ractopamina en cerdos durante casi 15 años. Lo pidieron cinco entidades de la cadena porcina (FPA, CAEGP, CAICHA, FIFRA y CAENA) y el SENASA dijo que mantener la excepción podía comprometer la estrategia de comercio internacional de carnes.",
+      "porque": "Muchos mercados, como China y la Unión Europea, no aceptan carne con ractopamina: sacarla del todo le da a la carne porcina argentina un argumento sanitario para abrir destinos.",
+      "claves": [
+        "Resolución 956/2026",
+        "prohibió en todo el país el uso y la venta",
+        "no aceptan carne con ractopamina"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Boletín Oficial – SENASA Res. 956/2026",
+          "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/350501/20261118",
+          "oficial": true
+        },
+        {
+          "nombre": "Bichos de Campo",
+          "url": "https://bichosdecampo.com/una-excepcion-para-los-cerdos-que-llego-a-su-fin-a-pedido-de-la-cadena-porcina-senasa-prohibio-la-ractopamina-como-promotor-de-crecimiento-para-proteger-las-exportaciones/",
+          "oficial": false
+        }
+      ],
+      "sector": "ARCA / Aduana",
+      "urgencia": "Media",
+      "impacto": "Si producís, exportás o importás insumos veterinarios para cerdos, revisá que ningún producto tenga beta agonistas: desde hoy están prohibidos.",
+      "agregado": "2026-11-18T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-18",
+      "categoria": "Exportación",
+      "titulo": "Minería: exportaciones de US$6.700 millones hasta septiembre y 13 proyectos RIGI por más de US$27.000 millones",
+      "resumen": "Según la consultora Invecq, las exportaciones mineras sumaron US$6.700 millones entre enero y septiembre de 2026 y el sector apunta a su mejor año. En el RIGI hay 13 proyectos mineros aprobados por más de US$27.000 millones. Las cifras para 2027 en adelante son proyecciones de la consultora, no datos oficiales.",
+      "porque": "La minería se suma al petróleo como motor de dólares: más exportaciones del sector ayudan a que haya oferta de divisas para importar.",
+      "claves": [
+        "US$6.700 millones entre enero y septiembre",
+        "13 proyectos mineros aprobados por más de US$27.000 millones"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Acero y Roca",
+          "url": "https://aceroyroca.com/2026/11/18/noticias-mineria-argentina-2027-exportaciones-inversiones-cobre-litio/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Si vendés insumos, servicios o logística a la minería, es un sector que crece y compra.",
+      "agregado": "2026-11-18T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-18",
       "categoria": "Acuerdos",
       "titulo": "China: Argentina negocia más de siete protocolos para exportar alimentos y una baja recíproca de aranceles",
       "resumen": "El canciller Pablo Quirno confirmó que la visita oficial de Milei a China sigue sin fecha y que el Gobierno cierra \"un par de temas\" antes de fijarla. Mientras tanto se busca firmar más de siete protocolos para habilitar nuevas exportaciones argentinas al mercado chino y se negocia una reducción recíproca de aranceles. Los trabajos están a cargo del secretario de Comercio, Pablo Lavigne, y de la subsecretaria de Comercio Exterior, Carolina Cuenca, con la Embajada china y el sector privado.",
