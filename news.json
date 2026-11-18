@@ -3,6 +3,51 @@
   "items": [
     {
       "fecha": "2026-11-18",
+      "categoria": "Dólar",
+      "titulo": "El mayorista cerró en $1.559,50 y la brecha con el CCL llegó a 10,2%, la más alta desde octubre de 2025",
+      "resumen": "El dólar mayorista subió 0,5% y cerró en $1.559,50; acumula 1,7% en noviembre y 7,2% en el año, contra 26,3% de inflación. El contado con liquidación terminó en $1.718,16 y la brecha con el mayorista se amplió a 10,2%, la mayor desde la crisis cambiaria de octubre de 2025. El BCRA compró US$11 millones y las reservas brutas bajaron US$190 millones, a US$49.511 millones, sobre todo por la caída de 3,5% del oro. El real se debilitó a 5,87 por dólar y el riesgo país bajó a 848 puntos.",
+      "porque": "Con el mayorista en récord nominal y la brecha en alza, conviene cotizar y cerrar pagos al exterior con el tipo de cambio del día, no con el de la semana pasada.",
+      "claves": [
+        "cerró en $1.559,50",
+        "la brecha con el mayorista se amplió a 10,2%",
+        "El real se debilitó a 5,87 por dólar"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/11/18/el-dolar-volvio-a-subir-las-acciones-cayeron-por-el-contagio-externo-y-el-riesgo-pais-perforo-los-850-puntos/",
+          "oficial": false
+        }
+      ],
+      "sector": "BCRA / Cambiario",
+      "urgencia": "Informativa",
+      "impacto": "Para cotizar mañana tomá $1.559,50 de referencia; si vendés a Brasil, el real más débil encarece tu producto allá.",
+      "agregado": "2026-11-18T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-18",
+      "categoria": "Mundo",
+      "titulo": "Xi promete en APEC bajar aranceles y abrir más el mercado chino, antes de reunirse con Trump y Putin",
+      "resumen": "En la cumbre empresarial de APEC en Shenzhen, Xi Jinping pidió apoyar el \"comercio libre y abierto\" y dijo que China bajará aranceles, ampliará el acceso a su mercado en manufacturas y servicios y profundizará reformas. Reafirmó el sistema multilateral con centro en la OMC. Ese mismo día tenía previsto reunirse con Trump y luego en una cumbre a tres con Putin. No se anunciaron tasas concretas.",
+      "porque": "Si China baja aranceles y abre más su mercado, se abre espacio para alimentos argentinos que hoy negocian protocolos para entrar.",
+      "claves": [
+        "China bajará aranceles",
+        "No se anunciaron tasas concretas"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/18/xis-pitch-for-free-trade-amid-trumps-global-trade-disruptions",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Informativa",
+      "impacto": "Si exportás a China, seguí qué rebajas concretas salen de APEC en los próximos días.",
+      "agregado": "2026-11-18T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-18",
       "categoria": "Exportación",
       "titulo": "SENASA prohíbe la ractopamina en cerdos para proteger las exportaciones de carne porcina",
       "resumen": "Por la Resolución 956/2026, publicada hoy en el Boletín Oficial, el SENASA prohibió en todo el país el uso y la venta de productos veterinarios promotores de crecimiento con sustancias beta agonistas o tirostáticas. Termina así la excepción de 2011 (Resolución 1458/2011) que permitía usar ractopamina en cerdos durante casi 15 años. Lo pidieron cinco entidades de la cadena porcina (FPA, CAEGP, CAICHA, FIFRA y CAENA) y el SENASA dijo que mantener la excepción podía comprometer la estrategia de comercio internacional de carnes.",
