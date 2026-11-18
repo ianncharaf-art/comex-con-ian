@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-17T12:14:02+00:00",
+ "actualizado": "2026-11-18T12:14:30+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -243,6 +243,24 @@
    "noticia": "El real llegó a 5,78-5,79 por dólar y acumula 16% de devaluación desde la reelección de Lula; en Argentina el minorista subió a $1.575 (2% desde fines de octubre) con inflación de 26% en el año.",
    "para": "Graciela",
    "titulo": "Brasil se abarató 16% en dólares. Si importás o exportás con Brasil, mirá esto"
+  },
+  "guion-2026-11-17-2": {
+   "fecha": "2026-11-17",
+   "fuente": "https://www.cronista.com/economia-politica/el-gobierno-enviara-el-acuerdo-comercial-con-eeuu-al-congreso-y-lo-incluira-en-el-temario-de-extraordinarias/",
+   "guion": "GANCHO: \"Si importás, este acuerdo te puede bajar un costo fijo.\"\n\n1. \"El acuerdo comercial con Estados Unidos va al Congreso, en sesiones extraordinarias de diciembre.\" (en pantalla: acuerdo EE.UU. → Congreso)\n2. \"EE.UU. le saca el arancel recíproco a 1.675 productos argentinos: unos 1.013 millones de dólares en exportaciones, según Cancillería.\" (en pantalla: 1.675 productos · US$1.013 M)\n3. \"A cambio, Argentina elimina la tasa de estadística y las licencias de importación, y abre un cupo de 80.000 toneladas de carne de EE.UU.\" (en pantalla: chau tasa de estadística)\n4. \"Ojo: todavía no rige. Empieza 60 días después de que los dos países terminen los trámites.\" (en pantalla: todavía no rige)\n\nMi lectura: si se aprueba, cambia la cuenta para los dos lados; no la des por hecha hasta que salga.\n\nCIERRE: \"¿Te sirve esto? Guardalo y te aviso cuando se apruebe.\"\n\nFuente para el caption: El Cronista.",
+   "kind": "guion",
+   "noticia": "El Gobierno enviará al Congreso el acuerdo comercial con EE.UU. (ARTI): EE.UU. elimina aranceles recíprocos a 1.675 productos argentinos (unos US$1.013 millones en exportaciones, según Cancillería); Argentina elimina la tasa de estadística y las licencias de importación y abre un cupo de 80.000 t de carne vacuna; rige 60 días después de completar los trámites.",
+   "para": "Graciela",
+   "titulo": "El acuerdo con EE.UU. va al Congreso: chau tasa de estadística si se aprueba"
+  },
+  "guion-2026-11-18-1": {
+   "fecha": "2026-11-18",
+   "fuente": "https://www.cronista.com/economia-politica/china-abre-mas-negociaciones-mientras-espera-a-milei-que-falta-para-la-mision-argentina/",
+   "guion": "GANCHO: \"¿Por qué no le vendemos de todo a China? Por un papel.\"\n\n1. \"Para que un alimento argentino entre a China, los dos gobiernos tienen que firmar un protocolo sanitario.\" (en pantalla: protocolo = permiso de entrada)\n2. \"Sin protocolo, ese producto no entra, aunque haya comprador.\" (en pantalla: sin protocolo, no entra)\n3. \"Ahora Argentina negocia más de siete protocolos nuevos y una baja de aranceles para los dos lados.\" (en pantalla: +7 protocolos · aranceles ↓)\n4. \"Cada protocolo nuevo es un producto que se suma a la lista de lo que podemos vender.\" (en pantalla: +1 protocolo = +1 producto)\n\nMi lectura: en comex, antes que el precio está el permiso: primero fijate si tu producto puede entrar.\n\nCIERRE: \"¿Qué producto argentino le venderías a China? Comentá.\"\n\nFuente para el caption: El Cronista.",
+   "kind": "guion",
+   "noticia": "Argentina negocia más de siete protocolos para habilitar nuevas exportaciones al mercado chino y una baja recíproca de aranceles; la visita de Milei a China sigue sin fecha.",
+   "para": "Tomi",
+   "titulo": "Para vender comida a China no alcanza con querer: hace falta un protocolo"
   },
   "sem-2026-10-26": {
    "carruseles": [
