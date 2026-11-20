@@ -3,6 +3,57 @@
   "items": [
     {
       "fecha": "2026-11-20",
+      "categoria": "Dólar",
+      "titulo": "El mayorista cerró en $1.580 con la mayor suba semanal en 19 meses y la brecha llegó a 12,8%",
+      "resumen": "El dólar mayorista subió $15 (1%) y cerró en $1.580; en la semana subió 2,4%, la mayor suba semanal desde abril de 2025. El contado con liquidación terminó en $1.782,10 y la brecha con el mayorista llegó a 12,8%, la más alta desde la salida del cepo para personas en abril de 2025. El BCRA no compró dólares y las reservas brutas bajaron US$81 millones, a US$49.362 millones. El techo de la banda cambiaria está en $1.976,68.",
+      "porque": "Con el dólar subiendo 2,4% en una semana y la brecha en máximos, conviene revisar precios de reposición y cerrar pagos al exterior sin esperar.",
+      "claves": [
+        "cerró en $1.580",
+        "la brecha con el mayorista llegó a 12,8%",
+        "El BCRA no compró dólares"
+      ],
+      "fuentes": [
+        {
+          "nombre": "El Argentino Diario",
+          "url": "https://elargentinodiario.com.ar/zona-destacada/20/11/2026/el-dolar-mayorista-cerro-a-1-580-con-la-mayor-suba-semanal-en-19-meses/",
+          "oficial": false
+        },
+        {
+          "nombre": "Cholila Online",
+          "url": "https://cholilaonline.ar/2026/11/suba-dolar-mayorista-bcra-freno-compras-reservas-bajaron.html",
+          "oficial": false
+        }
+      ],
+      "sector": "BCRA / Cambiario",
+      "urgencia": "Media",
+      "impacto": "Si importás, actualizá tus precios de reposición con $1.580 de referencia.",
+      "agregado": "2026-11-20T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-20",
+      "categoria": "Comercio exterior",
+      "titulo": "El flete ya pesa más del 6% del valor importado y desde China subió 54%",
+      "resumen": "Según datos del INDEC de octubre, el flete representa 64,2 dólares por cada 1.000 dólares importados a valor FOB, 17,4% más que un año antes. El flete promedio llegó a 143,1 dólares por tonelada (+19%), el más alto desde comienzos de 2025. Desde China, que explica el 41,1% del total, el flete fue de 398,7 dólares por tonelada (+54,3%) y equivale a 106 dólares por cada 1.000 FOB; desde el Mercosur, 70,9 dólares por tonelada.",
+      "porque": "Desde China el flete ya es más del 10% del valor de la mercadería: si no lo calculás bien, se te come el margen.",
+      "claves": [
+        "64,2 dólares por cada 1.000 dólares importados",
+        "398,7 dólares por tonelada (+54,3%)",
+        "se te come el margen"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Infobae Movant",
+          "url": "https://www.infobae.com/movant/2026/11/20/comercio-exterior-argentino-el-flete-representa-mas-del-6-del-valor-importado/",
+          "oficial": false
+        }
+      ],
+      "sector": "Logística y Fletes",
+      "urgencia": "Media",
+      "impacto": "Al calcular el costo de importar desde China, sumá al menos 10% de flete sobre el FOB y pedí varias cotizaciones.",
+      "agregado": "2026-11-20T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-20",
       "categoria": "Exportación",
       "titulo": "El petróleo explicó el 47% del superávit de octubre y ya supera a la harina de soja en el año",
       "resumen": "Las exportaciones de combustibles y energía sumaron US$1.734 millones en octubre (+93,9%) y aportaron US$1.600 millones al superávit, el 47% del saldo de US$3.394 millones. El petróleo crudo exportó US$1.169 millones, más del doble que un año antes, y el maíz US$887 millones (+139,3%). En enero-octubre el crudo suma US$8.923 millones, por encima de la harina y pellets de soja (US$7.891 millones), y las exportaciones totales (US$87.328 millones) ya superan a todo 2025.",
