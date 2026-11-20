@@ -4,6 +4,74 @@
     {
       "fecha": "2026-11-20",
       "categoria": "Exportación",
+      "titulo": "El petróleo explicó el 47% del superávit de octubre y ya supera a la harina de soja en el año",
+      "resumen": "Las exportaciones de combustibles y energía sumaron US$1.734 millones en octubre (+93,9%) y aportaron US$1.600 millones al superávit, el 47% del saldo de US$3.394 millones. El petróleo crudo exportó US$1.169 millones, más del doble que un año antes, y el maíz US$887 millones (+139,3%). En enero-octubre el crudo suma US$8.923 millones, por encima de la harina y pellets de soja (US$7.891 millones), y las exportaciones totales (US$87.328 millones) ya superan a todo 2025.",
+      "porque": "El superávit depende cada vez más del petróleo: si el crudo sigue bajando, entran menos dólares para pagar importaciones.",
+      "claves": [
+        "el 47% del saldo de US$3.394 millones",
+        "ya superan a todo 2025"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Ámbito",
+          "url": "https://www.ambito.com/energia/boom-energetico-el-petroleo-lidera-las-exportaciones-y-el-sector-aporto-el-47-del-superavit-comercial-octubre-n6347477",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Si trabajás con energía o agro, son los sectores que más empujan las exportaciones este año.",
+      "agregado": "2026-11-20T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-20",
+      "categoria": "Comercio exterior",
+      "titulo": "Las compras por courier crecieron 53%: US$1.064 millones en diez meses",
+      "resumen": "Según datos del INDEC, las compras vía courier sumaron US$1.064 millones entre enero y octubre de 2026, 53,2% más que en el mismo período de 2025; solo en octubre fueron US$104 millones (+12,2%). El régimen permite hasta cinco envíos por persona por año, de hasta US$3.000 y 50 kilos cada uno, con no más de tres unidades iguales y para uso personal. Los primeros US$400 FOB de cada envío no pagan derechos ni tasa de estadística, pero sí IVA.",
+      "porque": "El courier se volvió un canal masivo, pero es para uso personal: si comprás para revender, necesitás importar como importador registrado.",
+      "claves": [
+        "US$1.064 millones entre enero y octubre",
+        "hasta cinco envíos por persona por año",
+        "Los primeros US$400 FOB de cada envío no pagan derechos ni tasa de estadística"
+      ],
+      "fuentes": [
+        {
+          "nombre": "BAE Negocios",
+          "url": "https://www.baenegocios.com/economia/aumentaron-un-53-las-compras-via-courier-cuantas-se-pueden-hacer-al-ano-y-cual-es-el-limite-de-dinero/",
+          "oficial": false
+        }
+      ],
+      "sector": "Régimen Courier / PyMEs",
+      "urgencia": "Informativa",
+      "impacto": "Antes de comprar, revisá cuántos envíos te quedan en el servicio \"Envíos Postales Internacionales\" de ARCA.",
+      "agregado": "2026-11-20T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-20",
+      "categoria": "Comercio exterior",
+      "titulo": "Tesla lanza hoy en Argentina el Model 3 y el Model Y, importados de China, desde US$41.590",
+      "resumen": "Tesla empezó a vender en Argentina el Model 3 y el Model Y, importados de China por venta directa, con cinco versiones entre US$41.590 y US$54.590. Las primeras entregas están previstas para marzo y abril de 2027. Según la nota, las primeras unidades entran con arancel de importación de 0% dentro del cupo anual de 50.000 vehículos electrificados sin arancel extrazona. El lanzamiento oficial es hoy en La Boca.",
+      "porque": "Es un caso concreto de cómo un cupo arancelario cambia el negocio: sin el 0% de arancel, estos precios no serían posibles.",
+      "claves": [
+        "entre US$41.590 y US$54.590",
+        "marzo y abril de 2027",
+        "cupo anual de 50.000 vehículos electrificados"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Urgente24",
+          "url": "https://urgente24.com/zona-/tesla-activa-sus-autos-argentina-y-javier-milei-va-al-lanzamiento-n637183",
+          "oficial": false
+        }
+      ],
+      "sector": "ARCA / Aduana",
+      "urgencia": "Informativa",
+      "impacto": "Si importás autos o autopartes, seguí cómo se reparte el cupo de electrificados: define quién entra sin arancel.",
+      "agregado": "2026-11-20T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-20",
+      "categoria": "Exportación",
       "titulo": "Carne a la UE: Economía unifica los requisitos para el cupo de 20.000 toneladas sin arancel",
       "resumen": "Por la Resolución 2003/2026 del Ministerio de Economía, se unifican las exigencias para el cupo anual de 20.000 toneladas de cortes enfriados y congelados con arancel cero hacia la Unión Europea, y se derogan las resoluciones 1466/2011 y 145/2014. Los registros se integran con el SIF, la identificación electrónica individual del ganado y el Sigsa del SENASA. La hacienda apta para la UE se faena primero, se valida la letra \"W\" en medias reses y las cajas deben ir cerradas con fajas de seguridad, número de tropa y la sigla \"SC-W\".",
       "porque": "Es la puerta de entrada de la carne argentina sin arancel a Europa: un error de trazabilidad o rotulado deja la carga fuera del cupo.",
