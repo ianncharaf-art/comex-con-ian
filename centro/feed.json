@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-18T12:14:30+00:00",
+ "actualizado": "2026-11-20T13:02:33+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -261,6 +261,24 @@
    "noticia": "Argentina negocia más de siete protocolos para habilitar nuevas exportaciones al mercado chino y una baja recíproca de aranceles; la visita de Milei a China sigue sin fecha.",
    "para": "Tomi",
    "titulo": "Para vender comida a China no alcanza con querer: hace falta un protocolo"
+  },
+  "guion-2026-11-18-2": {
+   "fecha": "2026-11-18",
+   "fuente": "https://www.infobae.com/economia/2026/11/18/el-dolar-volvio-a-subir-las-acciones-cayeron-por-el-contagio-externo-y-el-riesgo-pais-perforo-los-850-puntos/",
+   "guion": "GANCHO: \"La brecha del dólar volvió a abrirse. Te explico qué significa.\"\n\n1. \"El mayorista, el que se usa para importar, cerró en 1.559,50: récord nominal.\" (en pantalla: mayorista $1.559,50)\n2. \"El contado con liqui cerró en 1.718,16. La diferencia entre los dos, la brecha, llegó a 10,2%.\" (en pantalla: CCL $1.718,16 · brecha 10,2%)\n3. \"Es la brecha más alta desde la crisis cambiaria de octubre de 2025.\" (en pantalla: máxima en un año)\n4. \"Igual, en el año el mayorista subió 7,2% y la inflación 26,3%: en dólares, Argentina está cara.\" (en pantalla: dólar +7,2% vs inflación 26,3%)\n\nMi lectura: si tenés que pagar afuera, cotizá con el tipo de cambio del día, no con el de la semana pasada.\n\nCIERRE: \"¿Cómo estás manejando los pagos al exterior? Contame.\"\n\nFuente para el caption: Infobae.",
+   "kind": "guion",
+   "noticia": "El mayorista subió 0,5% a $1.559,50 (1,7% en noviembre, 7,2% en el año vs 26,3% de inflación); el CCL cerró en $1.718,16 y la brecha llegó a 10,2%, la mayor desde octubre de 2025; reservas US$49.511 millones.",
+   "para": "Graciela",
+   "titulo": "La brecha llegó a 10%: la más alta en un año. Si pagás afuera, ojo"
+  },
+  "guion-2026-11-18-3": {
+   "fecha": "2026-11-18",
+   "fuente": "https://aceroyroca.com/2026/11/18/noticias-mineria-argentina-2027-exportaciones-inversiones-cobre-litio/",
+   "guion": "GANCHO: \"Argentina no solo vende soja y petróleo. Mirá esto.\"\n\n1. \"La minería exportó 6.700 millones de dólares entre enero y septiembre, y va camino a su mejor año.\" (en pantalla: minería US$6.700 M)\n2. \"Hay 13 proyectos mineros aprobados en el RIGI por más de 27.000 millones de dólares.\" (en pantalla: 13 proyectos · US$27.000 M)\n3. \"El RIGI es un régimen con beneficios para inversiones grandes.\" (en pantalla: RIGI = régimen para grandes inversiones)\n4. \"Petróleo y minería son los nuevos motores de dólares, y esos dólares son los que después se usan para importar.\" (en pantalla: más dólares para importar)\n\nMi lectura: el mapa exportador argentino está cambiando, y eso también mueve oportunidades para servicios y logística.\n\nCIERRE: \"¿Sabías cuánto exportaba la minería? Guardalo.\"\n\nFuente para el caption: Acero y Roca, con datos de Invecq.",
+   "kind": "guion",
+   "noticia": "Según Invecq, las exportaciones mineras sumaron US$6.700 millones en enero-septiembre 2026 y hay 13 proyectos mineros en el RIGI por más de US$27.000 millones.",
+   "para": "Tomi",
+   "titulo": "Después del petróleo, la minería: 6.700 millones de dólares en nueve meses"
   },
   "sem-2026-10-26": {
    "carruseles": [
