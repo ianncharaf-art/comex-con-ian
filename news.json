@@ -1,6 +1,141 @@
 {
-  "actualizado": "2026-11-18",
+  "actualizado": "2026-11-20",
   "items": [
+    {
+      "fecha": "2026-11-20",
+      "categoria": "Exportación",
+      "titulo": "Carne a la UE: Economía unifica los requisitos para el cupo de 20.000 toneladas sin arancel",
+      "resumen": "Por la Resolución 2003/2026 del Ministerio de Economía, se unifican las exigencias para el cupo anual de 20.000 toneladas de cortes enfriados y congelados con arancel cero hacia la Unión Europea, y se derogan las resoluciones 1466/2011 y 145/2014. Los registros se integran con el SIF, la identificación electrónica individual del ganado y el Sigsa del SENASA. La hacienda apta para la UE se faena primero, se valida la letra \"W\" en medias reses y las cajas deben ir cerradas con fajas de seguridad, número de tropa y la sigla \"SC-W\".",
+      "porque": "Es la puerta de entrada de la carne argentina sin arancel a Europa: un error de trazabilidad o rotulado deja la carga fuera del cupo.",
+      "claves": [
+        "Resolución 2003/2026",
+        "cupo anual de 20.000 toneladas",
+        "la sigla \"SC-W\""
+      ],
+      "fuentes": [
+        {
+          "nombre": "Urgente24",
+          "url": "https://urgente24.com/dinero/carne-exportacion-cumplir-europa-caputo-actualizo-requisitos-clave-n637175",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Alta",
+      "impacto": "Si exportás carne a la UE dentro del cupo, revisá trazabilidad, faena y rotulado con los nuevos requisitos.",
+      "agregado": "2026-11-20T10:05:00-03:00"
+    },
+    {
+      "fecha": "2026-11-20",
+      "categoria": "Exportación",
+      "titulo": "Exportar más caro no es exportar más: 8 de cada 10 dólares nuevos de octubre vinieron por precios",
+      "resumen": "Según un análisis de El Economista sobre los datos del INDEC, en octubre los precios de exportación subieron 19,7% y las cantidades solo 5,6%. De unos US$2.100 millones adicionales, US$1.656 millones se explican por precios y US$442 millones por volumen. Las importaciones cayeron 17,3% en cantidades; las piezas para bienes de capital bajaron 27,7% en cantidades.",
+      "porque": "Si el récord depende de precios (sobre todo petróleo), puede darse vuelta rápido si bajan las cotizaciones; la caída de importaciones de piezas también anticipa menos producción.",
+      "claves": [
+        "los precios de exportación subieron 19,7% y las cantidades solo 5,6%",
+        "puede darse vuelta rápido si bajan las cotizaciones"
+      ],
+      "fuentes": [
+        {
+          "nombre": "El Economista",
+          "url": "https://eleconomista.com.ar/economia/exportar-mas-caro-exportar-mas-n99801",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Para entender tu mercado, separá precio de volumen: vender lo mismo más caro no es crecer.",
+      "agregado": "2026-11-20T10:05:00-03:00"
+    },
+    {
+      "fecha": "2026-11-20",
+      "categoria": "Mundo",
+      "titulo": "APEC: Trump y Xi no tocaron aranceles y la tregua comercial sigue venciendo el 10 de enero",
+      "resumen": "En la cumbre de APEC en Shenzhen (18 y 19 de noviembre), Trump y Xi acordaron redactar un plan de acción para una relación de \"estabilidad estratégica\", sin contenido ni plazo. No se anunciaron cambios de aranceles: la tregua de Busan vence el 10 de enero de 2027. Hasta esa fecha siguen suspendidos el arancel adicional chino de 24% a bienes de EE.UU. (el 10% se mantiene), los controles chinos a tierras raras y las tasas portuarias a buques vinculados a EE.UU.",
+      "porque": "Si la tregua no se renueva el 10 de enero, vuelven aranceles y tasas portuarias entre las dos mayores economías, y eso mueve fletes y precios de lo que Argentina importa de China.",
+      "claves": [
+        "la tregua de Busan vence el 10 de enero de 2027",
+        "No se anunciaron cambios de aranceles"
+      ],
+      "fuentes": [
+        {
+          "nombre": "China Briefing",
+          "url": "https://www.china-briefing.com/news/apec-2026-in-shenzhen-what-the-leaders-meeting-and-trump-xi-talks-mean-for-business/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Media",
+      "impacto": "Si importás de China para el verano, planificá embarques sabiendo que el 10 de enero puede cambiar el escenario.",
+      "agregado": "2026-11-20T10:05:00-03:00"
+    },
+    {
+      "fecha": "2026-11-20",
+      "categoria": "Mundo",
+      "titulo": "El petróleo va a su tercera semana de baja: Brent en US$90,33 porque Ormuz volvió a niveles cercanos a la preguerra",
+      "resumen": "El Brent caía 1,79% a US$90,33 y se encaminaba a una baja semanal de 6%; el WTI bajaba a US$81,59. Es la tercera semana seguida de caída: el tránsito por Ormuz volvió a niveles cercanos a los de antes de la guerra y crecen las expectativas de exceso de oferta, aunque siguen los incidentes (dos petroleros chocaron con minas). La OPEP+ se reúne el 29 de noviembre.",
+      "porque": "Petróleo más barato debería ir bajando los recargos por combustible en los fletes, pero también achica el ingreso de dólares por exportaciones de crudo argentino.",
+      "claves": [
+        "tercera semana seguida de caída",
+        "Ormuz volvió a niveles cercanos a los de antes de la guerra",
+        "bajando los recargos por combustible en los fletes"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Reuters (vía Yahoo Finance)",
+          "url": "https://finance.yahoo.com/news/oil-prices-edge-higher-houthi-020004794.html",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Informativa",
+      "impacto": "Pedile a tu forwarder que actualice el BAF: con el crudo en baja, el recargo debería bajar.",
+      "agregado": "2026-11-20T10:05:00-03:00"
+    },
+    {
+      "fecha": "2026-11-19",
+      "categoria": "INDEC",
+      "titulo": "Exportaciones récord en octubre: US$10.061 millones y superávit de US$3.394 millones",
+      "resumen": "Según el INDEC, en octubre las exportaciones sumaron US$10.061 millones (+26,4% interanual), un récord histórico, y las importaciones US$6.668 millones (-6,7%). El superávit fue de US$3.394 millones. Combustibles y energía crecieron 93,9% (US$1.734 millones); las MOA sumaron US$3.314 millones y las MOI US$2.685 millones. En enero-octubre las exportaciones suben 22,1% y las importaciones bajan 2,9%.",
+      "porque": "Más dólares de exportación sostienen la oferta para pagar importaciones, mientras las compras al exterior siguen cayendo.",
+      "claves": [
+        "US$10.061 millones (+26,4% interanual)",
+        "superávit fue de US$3.394 millones",
+        "importaciones US$6.668 millones (-6,7%)"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Bloomberg Línea",
+          "url": "https://www.bloomberglinea.com/latinoamerica/argentina/exportaciones-argentinas-marcaron-record-en-octubre-y-el-superavit-comercial-supero-los-us3000-millones/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Si importás, el dato confirma un mercado interno más flojo: las importaciones caen en el año.",
+      "agregado": "2026-11-20T10:05:00-03:00"
+    },
+    {
+      "fecha": "2026-11-19",
+      "categoria": "Dólar",
+      "titulo": "El mayorista marcó otro récord en $1.565 y el BCRA compró apenas US$3 millones",
+      "resumen": "El dólar mayorista subió $5,50 y cerró en $1.565, cuarta suba seguida y nuevo máximo nominal. El BCRA compró solo US$3 millones, la menor compra desde que empezó su programa de acumulación; en noviembre lleva US$344 millones. Las reservas brutas bajaron US$108 millones por la caída del oro.",
+      "porque": "Con el mayorista subiendo cuatro días seguidos, quien tiene que pagar importaciones en dólares paga más pesos cada día.",
+      "claves": [
+        "cerró en $1.565",
+        "compró solo US$3 millones"
+      ],
+      "fuentes": [
+        {
+          "nombre": "BAE Negocios",
+          "url": "https://www.baenegocios.com/finanzas/el-banco-central-redujo-sus-compras-de-dolares-a-apenas-usd-3-millones-y-las-reservas-cayeron/",
+          "oficial": false
+        }
+      ],
+      "sector": "BCRA / Cambiario",
+      "urgencia": "Informativa",
+      "impacto": "Tomá $1.565 como referencia para cotizar y revisá tus pagos pendientes al exterior.",
+      "agregado": "2026-11-20T10:05:00-03:00"
+    },
     {
       "fecha": "2026-11-18",
       "categoria": "Dólar",
@@ -1753,116 +1888,6 @@
       "sector": "Logística y Fletes",
       "urgencia": "Informativa",
       "impacto": "Si mandás o recibís carga por camión con Brasil, seguí la licitación: las obras pueden cambiar tiempos y costos de cruce en los próximos años."
-    },
-    {
-      "fecha": "2026-11-10",
-      "categoria": "Dólar",
-      "titulo": "Cinco días sin bancos: no hubo mercado de cambios del 6 al 10 de noviembre",
-      "resumen": "Los bancos cerraron cinco días seguidos: el viernes 6 por el Día del Trabajador Bancario, el fin de semana, el lunes 9 por el feriado nacional por la visita del papa León XIV (Decreto 1103/2026) y el martes 10 por un feriado bancario del BCRA (Comunicación A 8487). Siguieron funcionando home banking, billeteras, cajeros y tarjetas, pero no la atención en sucursales. El mayorista quedó en $1.545,50, el último cierre del jueves 5; el mercado vuelve a operar el miércoles 11.",
-      "porque": "Si tenías que pagarle a un proveedor del exterior o liquidar una exportación, esos días no hubo operaciones: conviene reprogramar giros y vencimientos para esta semana.",
-      "claves": [
-        "el mercado vuelve a operar el miércoles 11",
-        "conviene reprogramar giros y vencimientos para esta semana"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Bloomberg Línea",
-          "url": "https://www.bloomberglinea.com/latinoamerica/argentina/bancos-en-argentina-cerraran-cinco-dias-seguidos-en-noviembre-cuando-y-que-operaciones-seguirian-disponibles/",
-          "oficial": false
-        },
-        {
-          "nombre": "Perfil",
-          "url": "https://www.perfil.com/noticias/economia/el-banco-central-establecio-un-nuevo-feriado-bancario-por-la-visita-del-papa-leon-xiv-cuando-no-abriran-los-bancos-a40.phtml",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-11-10",
-      "categoria": "Acuerdos",
-      "titulo": "Mercosur y Unión Europea: primera reunión del Comité de Comercio del acuerdo interino",
-      "resumen": "El Comité de Comercio del Acuerdo Interino de Comercio entre el Mercosur y la Unión Europea se reunió por primera vez el 9 y 10 de noviembre en Montevideo. El acuerdo se aplica en forma provisional desde el 1 de mayo de 2026. La primera reunión del Consejo de Comercio, de nivel ministerial, está prevista para el 3 de diciembre, también en Montevideo. MercoPress recuerda que sigue pendiente el dictamen del Tribunal de Justicia de la UE sobre la legalidad del acuerdo.",
-      "porque": "En estas reuniones se define cómo se aplican en la práctica las rebajas de aranceles para vender a Europa y para traer productos europeos.",
-      "claves": [
-        "se reunió por primera vez el 9 y 10 de noviembre en Montevideo",
-        "está prevista para el 3 de diciembre"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Mercosur",
-          "url": "https://mercosur.int/primera-reunion-del-comite-de-comercio-del-acuerdo-interino-de-comercio-entre-el-mercosur-y-la-union-europea",
-          "oficial": true
-        },
-        {
-          "nombre": "MercoPress",
-          "url": "https://es.mercopress.com/2026/11/11/el-acuerdo-ue-mercosur-seis-meses-despues-ganadores-afectados-y-la-incognita-del-tribunal-europeo",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-11-10",
-      "categoria": "Exportación",
-      "titulo": "Brasil cosecha 27% menos trigo y se abre la puerta al trigo argentino",
-      "resumen": "La Conab estima que Brasil producirá 5,73 millones de toneladas de trigo en 2026/27, 27,2% menos que el año anterior, por lluvias en São Paulo y Paraná. El USDA proyecta que Brasil importará un récord de 7,5 millones de toneladas. Argentina exportó casi 2 millones de toneladas en septiembre y octubre, récord para esos meses según la Bolsa de Comercio de Rosario, y en octubre entraron a puertos más de 980.000 toneladas.",
-      "porque": "Brasil es el principal comprador del trigo argentino: con menos cosecha propia, los exportadores tienen más demanda asegurada a pocos kilómetros.",
-      "claves": [
-        "27,2% menos que el año anterior",
-        "importará un récord de 7,5 millones de toneladas",
-        "los exportadores tienen más demanda asegurada"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Infobae",
-          "url": "https://www.infobae.com/economia/2026/11/10/trigo-argentino-al-rescate-una-menor-cosecha-en-brasil-abre-grandes-puertas-para-la-exportacion-nacional/",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-11-10",
-      "categoria": "Mundo",
-      "titulo": "El flete aéreo se dispara: China–EE.UU. ya supera los US$8 por kilo",
-      "resumen": "Según el Freightos Air Index del 10 de noviembre, el flete aéreo China–Norteamérica subió 3% en la semana a más de US$8,00 por kilo, igual al máximo del año pasado, que recién se alcanzó a mediados de diciembre de 2025. China–Europa subió 11% a US$4,87 por kilo (+23% interanual) y el transatlántico subió 33% en un mes, a US$2,90 por kilo. En el marítimo, Asia–Norte de Europa bajó 5% a US$3.400 por contenedor de 40 pies.",
-      "porque": "Si traés mercadería urgente por avión desde China, en noviembre y diciembre se paga temporada alta: conviene reservar con tiempo o pasar lo que se pueda a barco.",
-      "claves": [
-        "más de US$8,00 por kilo",
-        "China–Europa subió 11% a US$4,87 por kilo",
-        "conviene reservar con tiempo o pasar lo que se pueda a barco"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Freightos",
-          "url": "https://www.freightos.com/freight-resources/la-lb-strike-deadline-extended-dem-win-increasing-trade-uncertainty-november-10-2026-update/",
-          "oficial": false
-        }
-      ],
-      "sector": "Logística y Fletes",
-      "urgencia": "Media",
-      "impacto": "Si importás por avión (courier o carga), presupuestá fletes más caros hasta fin de año y evaluá consolidar envíos o pasar a marítimo lo que no sea urgente."
-    },
-    {
-      "fecha": "2026-11-09",
-      "categoria": "Mundo",
-      "titulo": "China extendió dos meses la tregua comercial con Estados Unidos",
-      "resumen": "China anunció el 9 de noviembre que mantiene suspendido por dos meses más el arancel adicional de 24% a los productos de Estados Unidos; sigue vigente uno de 10%. También quedan suspendidas hasta el 10 de enero de 2027 las tasas portuarias especiales a barcos vinculados a Estados Unidos y las medidas contra 27 empresas estadounidenses. Según Reuters, se espera que Xi Jinping y Donald Trump se reúnan la semana próxima en la cumbre de APEC, en China.",
-      "porque": "Cuando las dos economías más grandes frenan su pelea de aranceles, hay menos sobresaltos en precios, fletes y plazos para quien compra en China.",
-      "claves": [
-        "mantiene suspendido por dos meses más el arancel adicional de 24%",
-        "hasta el 10 de enero de 2027"
-      ],
-      "fuentes": [
-        {
-          "nombre": "TimesLIVE (Reuters)",
-          "url": "https://www.timeslive.co.za/news/world/2026-11-09-china-extends-us-trade-truce-by-two-months/",
-          "oficial": false
-        },
-        {
-          "nombre": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-11-09/china-extends-pause-on-24-us-tariffs-to-january-keeps-10-rate",
-          "oficial": false
-        }
-      ]
     }
   ]
 }
