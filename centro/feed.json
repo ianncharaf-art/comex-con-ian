@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-20T13:02:33+00:00",
+ "actualizado": "2026-11-21T11:37:02+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -1148,6 +1148,263 @@
      "para": "Los dos",
      "pilar": "Comercio exterior simple",
      "titulo": "Adiviná cuánto costó traer esto, parte 3"
+    }
+   ]
+  },
+  "sem-2026-11-23": {
+   "carruseles": [
+    {
+     "caption": "El flete ya pesa más que hace un año, sobre todo desde China. Guardalo 📌 Calculadora en el link de mi bio.",
+     "destacada": "¿Cuánto cuesta?",
+     "pilar": "Comercio exterior simple",
+     "slides": [
+      "Portada: vos con una caja y un barquito de juguete + \"Cuánto te cuesta *el flete* hoy\"",
+      "De cada *1.000 dólares* que se importan, *64,2* son flete.",
+      "Hace un año era *17,4% menos*.",
+      "Desde *China*: 398,7 dólares por tonelada, *54% más* que hace un año.",
+      "Desde el *Mercosur*: 70,9 dólares por tonelada.",
+      "China representa el *41%* de todo lo que pagamos de flete.",
+      "Antes de comprar, sumá el *flete actualizado* a tu cuenta.",
+      "Calculadora gratis en el *link de mi bio*. Entrá y registrate."
+     ],
+     "titulo": "Cuánto pesa el flete"
+    },
+    {
+     "caption": "Las reglas del courier en un carrusel. Guardalo antes de tu próxima compra 📌",
+     "destacada": "Glosario",
+     "pilar": "Comercio exterior simple",
+     "slides": [
+      "Portada: vos abriendo un paquete + \"*Courier*: las reglas en 1 minuto\"",
+      "1. Envíos: hasta *5 por persona* por año.",
+      "2. Valor: hasta *3.000 dólares* por envío.",
+      "3. Peso: hasta *50 kilos* por envío.",
+      "4. Unidades: no más de *3 iguales*, para uso personal.",
+      "5. Impuestos: los primeros *400 dólares* no pagan derechos, pero sí *IVA*.",
+      "Este año se compraron *1.064 millones* de dólares por courier.",
+      "Más guías en el *link de mi bio*. Entrá y registrate."
+     ],
+     "titulo": "Courier: las reglas en 1 minuto"
+    },
+    {
+     "caption": "Argentina exportó como nunca en octubre. Te lo explico en un carrusel 📌 Todas las noticias, en el link de mi bio.",
+     "destacada": "Noticias",
+     "pilar": "Noticias y tendencias del rubro",
+     "slides": [
+      "Portada: vos con cara de sorpresa mirando el celu + \"Octubre: *exportaciones récord*\"",
+      "Se exportaron *10.061 millones* de dólares, *26,4% más* que hace un año.",
+      "Se importaron *6.668 millones*, 6,7% menos.",
+      "El superávit fue de *3.394 millones*.",
+      "El *petróleo* explicó casi la mitad: 47% del superávit.",
+      "Ojo: 8 de cada 10 dólares nuevos vinieron por *mejores precios*, no por más cantidad.",
+      "Todas las noticias en el *link de mi bio*. Entrá y registrate."
+     ],
+     "titulo": "Exportaciones récord en octubre"
+    }
+   ],
+   "desde": "2026-11-23",
+   "foco": "Semana 4: cierre de noviembre con el dólar en el centro, costos reales de traer cosas (flete, courier, Temu) y un balance del primer mes",
+   "hasta": "2026-11-29",
+   "kind": "semana",
+   "perfil": [
+    {
+     "detalle": "Cambiá la segunda línea de la bio por una que diga qué publicás cada día (ej: \"Lunes noticias · martes cuánto cuesta · domingo respondo\"), así el que entra sabe qué esperar.",
+     "titulo": "Actualizá la bio para diciembre"
+    },
+    {
+     "detalle": "Antes del video \"Un mes publicando todos los días\", subí capturas de las estadísticas de noviembre a la pestaña Redes del Centro Ian: así el plan de diciembre se ajusta a lo que funcionó.",
+     "titulo": "Cargá los números del mes"
+    }
+   ],
+   "stories": [
+    {
+     "detalle": "\"¿Te afectó la suba del dólar de esta semana?\" Sí / No. Compartí después el video de las 12:30.",
+     "titulo": "Lunes: encuesta dólar"
+    },
+    {
+     "detalle": "\"¿Cuánto creés que te ahorrás comprando en Miami?\" Antes del video de las 12:30.",
+     "titulo": "Martes: slider Miami"
+    },
+    {
+     "detalle": "Caja de preguntas: \"¿Qué le preguntarías a alguien que importa hace años?\" Usá las respuestas para el video de las 19:00.",
+     "titulo": "Miércoles: pregunta para el abuelo"
+    },
+    {
+     "detalle": "\"¿Qué significa el canal rojo?\" Opciones: pasa directo / revisan papeles / abren la mercadería. Respuesta: abren la mercadería (chequear).",
+     "titulo": "Jueves: quiz canales de aduana"
+    },
+    {
+     "detalle": "\"¿Compraste en Temu este año?\" Sí / No / Me da miedo.",
+     "titulo": "Viernes: encuesta Temu"
+    },
+    {
+     "detalle": "Mostrá en 3 historias dónde grabás y estudiás, antes del video de las 19:00.",
+     "titulo": "Sábado: detrás de escena del setup"
+    },
+    {
+     "detalle": "Caja de preguntas: \"¿Qué querés que explique en diciembre?\" Las respuestas van al plan de diciembre.",
+     "titulo": "Domingo: pedido de temas"
+    }
+   ],
+   "videos": [
+    {
+     "dia": "Lun 23/11",
+     "fecha": "2026-11-23",
+     "guion": "GANCHO: \"Semana negra para el dólar. Esto cambió si importás.\"\n\n1. \"El mayorista subió 2,4% en la semana y cerró en 1.580: la mayor suba semanal desde abril de 2025.\" (en pantalla: mayorista $1.580 · +2,4%)\n2. \"La brecha con el contado con liqui llegó a 13,6%, la más alta desde abril de 2025.\" (en pantalla: brecha 13,6%)\n3. \"El riesgo país saltó a 1.070 puntos, influido por la caída de Wall Street y del real.\" (en pantalla: riesgo país 1.070)\n4. \"Lo bueno: en octubre hubo exportaciones récord, 10.061 millones de dólares.\" (en pantalla: exportaciones récord US$10.061 M)\n\nCIERRE: \"Cotizá con el dólar del día. Guardalo y el lunes que viene te traigo lo nuevo.\"\n\nCAPTION: Lo que cambió esta semana si importás o exportás. Guardalo 📌\n\nNOTA: revisá el radar el domingo antes de grabar por si hay algo más nuevo.",
+     "para": "Graciela",
+     "pilar": "Noticias y tendencias del rubro",
+     "titulo": "Lo que cambió esta semana si importás"
+    },
+    {
+     "dia": "Lun 23/11",
+     "fecha": "2026-11-23",
+     "guion": "GANCHO: \"China o Brasil: ¿a quién le compra más Argentina?\"\n\n1. \"Brasil es nuestro principal socio: le compramos y le vendemos mucho, y el real se devaluó fuerte este mes.\" (en pantalla: Brasil = socio n°1 (chequear))\n2. \"China pisa fuerte: del total que pagamos en fletes, el 41% es de cargas desde China.\" (en pantalla: China = 41% del flete)\n3. \"Traer desde China cuesta 398,7 dólares la tonelada de flete; desde el Mercosur, 70,9.\" (en pantalla: China US$398,7/t vs Mercosur US$70,9/t)\n4. \"Para tu negocio: China suele ser más barato de fábrica, Brasil más cerca y más rápido.\" (en pantalla: precio vs cercanía)\n\nCIERRE: \"¿A quién le comprás vos? Comentá.\"\n\nCAPTION: China vs Brasil como proveedor: qué conviene y por qué. Guardalo 📌\n\nNOTA: chequeá en el INDEC la participación de China y Brasil en las importaciones del año antes de decir quién gana.",
+     "para": "Graciela",
+     "pilar": "Noticias y tendencias del rubro",
+     "titulo": "China vs Brasil: ¿a quién le compra más Argentina?"
+    },
+    {
+     "dia": "Lun 23/11",
+     "fecha": "2026-11-23",
+     "guion": "GANCHO: \"Las 3 noticias de comex de noviembre que tenés que saber.\"\n\n1. \"Exportaciones récord: en octubre fueron 10.061 millones de dólares, con superávit de 3.394 millones.\" (en pantalla: récord US$10.061 M)\n2. \"El acuerdo con Estados Unidos va al Congreso: si se aprueba, chau tasa de estadística.\" (en pantalla: acuerdo EE.UU. → Congreso)\n3. \"El dólar se movió: el mayorista llegó a 1.580 y la brecha pasó el 13%.\" (en pantalla: mayorista $1.580 · brecha 13,6%)\n\nCIERRE: \"¿Cuál te afectó más? Guardalo.\"\n\nCAPTION: Las 3 noticias de comex de noviembre en 40 segundos 📌",
+     "para": "Graciela",
+     "pilar": "Noticias y tendencias del rubro",
+     "titulo": "Las 3 noticias de comex del mes que tenés que saber"
+    },
+    {
+     "dia": "Mar 24/11",
+     "fecha": "2026-11-24",
+     "guion": "GANCHO: \"¿Conviene viajar a Miami a comprar? Hice la cuenta.\"\n\n1. \"Pasaje y estadía: el costo fijo del viaje.\" (en pantalla: pasaje + hotel (chequear))\n2. \"Franquicia: lo que podés traer sin pagar impuestos al volver.\" (en pantalla: franquicia US$ (chequear))\n3. \"Lo que te pasás de la franquicia paga impuestos en la aduana.\" (en pantalla: excedente paga)\n4. \"Comparalo con el courier: hasta 3.000 dólares y 50 kilos por envío, cinco envíos por año, y los primeros 400 dólares sin derechos (pagan IVA).\" (en pantalla: courier US$3.000 · 50 kg · 5/año)\n\nCIERRE: \"¿Vos viajarías o pedirías por courier? Comentá.\"\n\nCAPTION: Viajar a Miami a comprar vs courier: hice la cuenta 👇\n\nNOTA: chequeá la franquicia de viajero vigente y un pasaje real antes de grabar. Datos del courier: INDEC/radar 20/11.",
+     "para": "Tomi",
+     "pilar": "Comercio exterior simple",
+     "titulo": "¿Conviene viajar a Miami a comprar? Hice la cuenta"
+    },
+    {
+     "dia": "Mar 24/11",
+     "fecha": "2026-11-24",
+     "guion": "GANCHO: \"Me pidieron que calcule un contenedor lleno de esto.\"\n\n1. \"El producto que más me pidieron en comentarios.\" (en pantalla: captura del comentario)\n2. \"Cuántas unidades entran en un contenedor.\" (en pantalla: unidades por contenedor)\n3. \"El flete: desde China hoy cuesta 398,7 dólares por tonelada, 54% más que hace un año.\" (en pantalla: flete China +54%)\n4. \"Costo total por unidad vs precio de venta acá.\" (en pantalla: costo vs precio)\n\nCIERRE: \"Dejá el próximo producto en los comentarios.\"\n\nCAPTION: Calculé un contenedor de lo que me pidieron. Mirá cuánto da 👇\n\nNOTA: hacé la cuenta real antes con la calculadora; el dato de flete es del INDEC (octubre).",
+     "para": "Tomi",
+     "pilar": "Comercio exterior simple",
+     "titulo": "Cuánto cuesta un contenedor lleno de lo que me pidieron"
+    },
+    {
+     "dia": "Mar 24/11",
+     "fecha": "2026-11-24",
+     "guion": "GANCHO: \"Importar vos o comprarle a un importador. ¿Qué conviene?\"\n\n1. \"Importar vos: pagás menos por unidad, pero dejás plata parada 60 a 90 días.\" (en pantalla: más barato, plata parada)\n2. \"Además corrés el riesgo: demoras, aduana, dólar.\" (en pantalla: riesgo tuyo)\n3. \"Comprarle a un importador: pagás más, pero lo tenés hoy y el riesgo es de él.\" (en pantalla: más caro, ya)\n4. \"Regla: si recién arrancás o vendés poco, comprale a un importador. Cuando tenés volumen, importá.\" (en pantalla: poco volumen vs volumen)\n\nCIERRE: \"¿Vos qué hacés? Guardalo.\"\n\nCAPTION: Importar o comprarle a un importador: cuándo conviene cada uno 📌",
+     "para": "Tomi",
+     "pilar": "Comercio exterior simple",
+     "titulo": "Importar vos o comprarle a un importador: cuándo conviene"
+    },
+    {
+     "dia": "Mié 25/11",
+     "fecha": "2026-11-25",
+     "guion": "GANCHO: \"Lo que mi familia nunca importaría.\"\n\n1. \"Producto o situación 1 y por qué.\" (en pantalla: 1.)\n2. \"Producto o situación 2.\" (en pantalla: 2.)\n3. \"Producto o situación 3.\" (en pantalla: 3.)\n4. \"La regla que hay detrás.\" (en pantalla: la regla)\n\nCIERRE: \"¿Cuál agregarías vos?\"\n\nCAPTION: Lo que en mi familia nunca importaríamos (y por qué).\n\nNOTA: sin datos sensibles del negocio; chequealo con tu familia.",
+     "para": "Los dos",
+     "pilar": "Tercera generación",
+     "titulo": "Lo que mi familia nunca importaría (y por qué)"
+    },
+    {
+     "dia": "Mié 25/11",
+     "fecha": "2026-11-25",
+     "guion": "GANCHO: \"Le pregunté a mi abuelo si le recomendaría a un pibe de hoy dedicarse a importar.\"\n\n1. \"La pregunta.\" (en pantalla: la pregunta)\n2. \"Su respuesta.\" (en pantalla: lo que dijo)\n3. \"Lo que agregaría yo.\" (en pantalla: mi mirada)\n\nCIERRE: \"¿Vos qué le dirías a un pibe de 18?\"\n\nCAPTION: ¿Mi abuelo le recomendaría a un pibe de hoy dedicarse a importar?\n\nNOTA: si no quiere salir, contá vos su respuesta. Cierre emotivo y corto.",
+     "para": "Los dos",
+     "pilar": "Tercera generación",
+     "titulo": "¿Mi abuelo le recomendaría a un pibe de hoy dedicarse a importar?"
+    },
+    {
+     "dia": "Mié 25/11",
+     "fecha": "2026-11-25",
+     "guion": "GANCHO: \"Lo que yo haría distinto a mi familia.\"\n\n1. \"Lo que admiro de cómo lo hacen.\" (en pantalla: lo que admiro)\n2. \"Lo que cambiaría: una cosa.\" (en pantalla: lo que cambiaría)\n3. \"Por qué: lo que veo a los 18 que ellos no tenían.\" (en pantalla: mi mirada de 18)\n\nCIERRE: \"¿Qué harías distinto vos en tu casa?\"\n\nCAPTION: Lo que haría distinto a mi familia, con todo el respeto.\n\nNOTA: con respeto, sin criticar a nadie en particular.",
+     "para": "Los dos",
+     "pilar": "Tercera generación",
+     "titulo": "Lo que yo haría distinto a mi familia"
+    },
+    {
+     "dia": "Jue 26/11",
+     "fecha": "2026-11-26",
+     "guion": "GANCHO: \"El error de 10 segundos que traba tu mercadería en la aduana.\"\n\n1. \"Un dato distinto entre la factura y lo que llega: cantidad, peso o descripción.\" (en pantalla: papel ≠ mercadería)\n2. \"La Aduana lo detecta y tu carga queda parada.\" (en pantalla: carga parada)\n3. \"Mientras tanto pagás depósito por cada día.\" (en pantalla: + días de depósito)\n4. \"Solución: revisá la factura y el packing list antes de que el proveedor embarque.\" (en pantalla: revisá antes de embarcar)\n\nCIERRE: \"Guardalo para tu próxima importación.\"\n\nCAPTION: El error más chico que más caro sale en aduana. Guardalo 📌",
+     "para": "Tomi",
+     "pilar": "Comercio exterior simple",
+     "titulo": "El error de 10 segundos que traba tu mercadería en aduana"
+    },
+    {
+     "dia": "Jue 26/11",
+     "fecha": "2026-11-26",
+     "guion": "GANCHO: \"3 cosas que un proveedor chino nunca te va a decir.\"\n\n1. \"El mínimo de compra se negocia.\" (en pantalla: 1. el mínimo se negocia)\n2. \"La muestra no siempre es igual a la producción.\" (en pantalla: 2. muestra ≠ producción)\n3. \"Los tiempos que te dan son los mejores posibles, no los reales.\" (en pantalla: 3. los tiempos se estiran)\n\nCIERRE: \"¿Te pasó alguna? Contame.\"\n\nCAPTION: Lo que un proveedor chino no te dice. Guardalo 📌",
+     "para": "Tomi",
+     "pilar": "Comercio exterior simple",
+     "titulo": "Las 3 cosas que un proveedor chino nunca te va a decir"
+    },
+    {
+     "dia": "Jue 26/11",
+     "fecha": "2026-11-26",
+     "guion": "GANCHO: \"Canal verde, naranja y rojo: qué le pasa a tu carga en la aduana.\"\n\n1. \"Verde: pasa sin revisión de papeles ni de mercadería.\" (en pantalla: verde = pasa (chequear))\n2. \"Naranja: revisan los papeles.\" (en pantalla: naranja = papeles (chequear))\n3. \"Rojo: revisan papeles y abren la mercadería.\" (en pantalla: rojo = abren todo (chequear))\n4. \"Cuanto más ordenados tus papeles, menos problemas en cualquier canal.\" (en pantalla: papeles en orden)\n\nCIERRE: \"¿Te tocó rojo alguna vez? Contame.\"\n\nCAPTION: Los canales de la aduana explicados fácil 🟢🟠🔴\n\nNOTA: chequeá con tu despachante cómo funciona hoy cada canal antes de grabar.",
+     "para": "Tomi",
+     "pilar": "Comercio exterior simple",
+     "titulo": "Canal verde, naranja y rojo: qué pasa con tu carga en aduana"
+    },
+    {
+     "dia": "Vie 27/11",
+     "fecha": "2026-11-27",
+     "guion": "GANCHO: \"Lo barato de Temu no es magia.\"\n\n1. \"Escala: venden millones de unidades y fabrican a precio de fábrica.\" (en pantalla: escala)\n2. \"Courier: cada compra entra como envío personal, con los primeros 400 dólares sin derechos (paga IVA).\" (en pantalla: courier: US$400 sin derechos)\n3. \"Por eso el courier creció 53% este año: 1.064 millones de dólares en diez meses.\" (en pantalla: courier +53% · US$1.064 M)\n4. \"Un comercio que importa formal paga derechos, flete por contenedor y despachante: no puede igualar ese precio.\" (en pantalla: comercio formal ≠ courier)\n\nCIERRE: \"¿Comprás en Temu? Contame qué compraste.\"\n\nCAPTION: Por qué Temu es tan barato (y no es magia) 👇\n\nNOTA: datos del INDEC (radar 20/11).",
+     "para": "Los dos",
+     "pilar": "Comercio exterior simple",
+     "titulo": "Lo barato de Temu no es magia"
+    },
+    {
+     "dia": "Vie 27/11",
+     "fecha": "2026-11-27",
+     "guion": "GANCHO: \"Los 3 productos que más se van a importar el año que viene.\"\n\n1. \"Autos eléctricos: hay cupo de 50.000 con arancel 0% y ya llegó Tesla.\" (en pantalla: eléctricos)\n2. \"Lo que se compra por courier: ropa y tecnología chica.\" (en pantalla: courier)\n3. \"Maquinaria e insumos para el campo y la energía.\" (en pantalla: maquinaria)\n\nCIERRE: \"¿Cuál agregarías? Comentá y lo vemos en un año.\"\n\nCAPTION: Mi predicción: lo que más se va a importar en 2027. ¿Coincidís?\n\nNOTA: es una opinión con argumentos; decilo así.",
+     "para": "Los dos",
+     "pilar": "Comercio exterior simple",
+     "titulo": "Los 3 productos que más se van a importar el año que viene"
+    },
+    {
+     "dia": "Vie 27/11",
+     "fecha": "2026-11-27",
+     "guion": "GANCHO: \"Si pudiera cambiar una cosa de la aduana, sería esta.\"\n\n1. \"Lo que me parece que funciona bien.\" (en pantalla: lo que anda)\n2. \"Lo que cambiaría y por qué.\" (en pantalla: lo que cambiaría)\n3. \"Qué ganaría el que importa.\" (en pantalla: qué ganaríamos)\n\nCIERRE: \"¿Vos qué cambiarías?\"\n\nCAPTION: Lo que le cambiaría a la aduana si pudiera. Opinión.\n\nNOTA: opinión clara, sin política partidaria.",
+     "para": "Los dos",
+     "pilar": "Comercio exterior simple",
+     "titulo": "Lo que le cambiaría a la aduana si pudiera"
+    },
+    {
+     "dia": "Sáb 28/11",
+     "fecha": "2026-11-28",
+     "guion": "GANCHO: \"Si arrancara a emprender a los 14, haría esto distinto.\"\n\n1. \"Consejo 1 a tu yo de 14.\" (en pantalla: 1.)\n2. \"Consejo 2.\" (en pantalla: 2.)\n3. \"Consejo 3.\" (en pantalla: 3.)\n\nCIERRE: \"¿Qué le dirías vos a tu yo de 14?\"\n\nCAPTION: 3 consejos a mi yo de 14 que vendía billeteras de papel.\n\nNOTA: usá tus historias reales: billeteras de papel, mates, celulares.",
+     "para": "Tomi",
+     "pilar": "Vida de pibe de 18 que emprende + Boppa",
+     "titulo": "Lo que haría si arrancara a emprender a los 14"
+    },
+    {
+     "dia": "Sáb 28/11",
+     "fecha": "2026-11-28",
+     "guion": "GANCHO: \"Mi setup para grabar contenido y estudiar.\"\n\n1. \"Con qué grabo.\" (en pantalla: celu)\n2. \"Luz y lugar.\" (en pantalla: luz)\n3. \"Apps que uso para editar y organizarme.\" (en pantalla: apps)\n\nCIERRE: \"¿Qué app me recomendás?\"\n\nCAPTION: Mi setup real para grabar y estudiar, sin humo.",
+     "para": "Tomi",
+     "pilar": "Vida de pibe de 18 que emprende + Boppa",
+     "titulo": "Mi setup para grabar contenido y estudiar"
+    },
+    {
+     "dia": "Sáb 28/11",
+     "fecha": "2026-11-28",
+     "guion": "GANCHO: \"Un mes publicando todos los días. Esto aprendí.\"\n\n1. \"Cuántos videos publiqué.\" (en pantalla: N videos)\n2. \"El que mejor funcionó y por qué.\" (en pantalla: el mejor)\n3. \"El que peor y qué aprendí.\" (en pantalla: el peor)\n4. \"Lo que cambio en diciembre.\" (en pantalla: diciembre)\n\nCIERRE: \"¿Qué video mío te gustó más?\"\n\nCAPTION: Un mes publicando todos los días: lo que aprendí.\n\nNOTA: usá tus números reales de TikTok e Instagram.",
+     "para": "Tomi",
+     "pilar": "Vida de pibe de 18 que emprende + Boppa",
+     "titulo": "Un mes publicando todos los días: lo que aprendí"
+    },
+    {
+     "dia": "Dom 29/11",
+     "fecha": "2026-11-29",
+     "guion": "GANCHO: \"Respondo las 3 preguntas que más me hicieron esta semana.\"\n\n1. \"Pregunta 1 + respuesta en una frase.\" (en pantalla: la pregunta)\n2. \"Pregunta 2 + respuesta.\" (en pantalla: la pregunta)\n3. \"Pregunta 3 + respuesta.\" (en pantalla: la pregunta)\n\nCIERRE: \"Dejá tu pregunta para el domingo que viene.\"\n\nCAPTION: Respondo sus preguntas de la semana. Dejá la tuya 👇",
+     "para": "Los dos",
+     "pilar": "Comercio exterior simple",
+     "titulo": "Respondo sus preguntas de la semana"
+    },
+    {
+     "dia": "Dom 29/11",
+     "fecha": "2026-11-29",
+     "guion": "GANCHO: \"Gracias por el primer mes. Esto es lo que viene.\"\n\n1. \"Qué fue noviembre para mí.\" (en pantalla: noviembre)\n2. \"Lo que más me sorprendió de ustedes.\" (en pantalla: ustedes)\n3. \"Lo que viene en diciembre: fin de año, compras de fiestas y lo que cambia en 2027.\" (en pantalla: diciembre)\n\nCIERRE: \"Comentá qué tema querés que haga en diciembre.\"\n\nCAPTION: Gracias por el primer mes 🙌 ¿Qué querés ver en diciembre?",
+     "para": "Los dos",
+     "pilar": "Comercio exterior simple",
+     "titulo": "Gracias por el primer mes: lo que viene"
     }
    ]
   }
