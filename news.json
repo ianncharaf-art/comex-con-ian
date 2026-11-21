@@ -3,6 +3,30 @@
   "items": [
     {
       "fecha": "2026-11-21",
+      "categoria": "Mundo",
+      "titulo": "EE.UU. endurece desde el 5 de enero las reglas para importadores extranjeros: deberán estar en CTPAT o usar un agente validado",
+      "resumen": "La Aduana de EE.UU. (CBP) publicó una regla interina para las empresas extranjeras que figuran como importador de registro: deberán ser participantes validados de CTPAT o trabajar con un agente de aduana con licencia y validación CTPAT. Rige desde el 5 de enero de 2027, con cumplimiento total exigido el 6 de mayo de 2027, y suma requisitos de información en los formularios CBP 3461 y 7501. Una falla en el cumplimiento podría demorar la liberación de la mercadería.",
+      "porque": "Si exportás a EE.UU. y figurás vos como importador de registro (algo común en vinos y alimentos), vas a necesitar CTPAT o un agente validado para no quedar con la carga trabada.",
+      "claves": [
+        "Rige desde el 5 de enero de 2027",
+        "cumplimiento total exigido el 6 de mayo de 2027",
+        "vas a necesitar CTPAT o un agente validado"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Vinetur",
+          "url": "https://www.vinetur.com/en/20261121111624/us-will-tighten-customs-rules-for-foreign-importers-on-jan-5-2027.html",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Alta",
+      "impacto": "Si vendés a EE.UU. como importador de registro, hablá ya con tu agente de aduana allá para confirmar que tiene validación CTPAT.",
+      "vence": "2027-01-05",
+      "agregado": "2026-11-21T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-21",
       "categoria": "Dólar",
       "titulo": "Semana negra: el riesgo país saltó a 1.070 puntos y la brecha con el CCL llegó a 13,6%",
       "resumen": "El riesgo país subió 236 puntos en la semana (+28%) y cerró en 1.070, su nivel más alto desde octubre de 2025. Los bonos Globales cayeron 7% en promedio y las acciones argentinas en dólares 11%. El mayorista subió 2,4% en la semana hasta $1.580, el contado con liquidación terminó en $1.794,18 (+7,2%) y la brecha llegó a 13,6%, la más amplia desde abril de 2025. Las reservas bajaron US$187 millones, a US$49.362 millones. Influyeron la caída de Wall Street (S&P 500 -10,5%) y la devaluación del real, que pasó a 5,95 por dólar.",
