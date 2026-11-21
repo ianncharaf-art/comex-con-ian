@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T11:37:02+00:00",
+ "actualizado": "2026-11-21T12:14:48+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -279,6 +279,24 @@
    "noticia": "Según Invecq, las exportaciones mineras sumaron US$6.700 millones en enero-septiembre 2026 y hay 13 proyectos mineros en el RIGI por más de US$27.000 millones.",
    "para": "Tomi",
    "titulo": "Después del petróleo, la minería: 6.700 millones de dólares en nueve meses"
+  },
+  "guion-2026-11-20-1": {
+   "fecha": "2026-11-20",
+   "fuente": "https://www.baenegocios.com/economia/aumentaron-un-53-las-compras-via-courier-cuantas-se-pueden-hacer-al-ano-y-cual-es-el-limite-de-dinero/",
+   "guion": "GANCHO: \"Los argentinos compraron más de mil millones de dólares por courier. Ojo con esto.\"\n\n1. \"Entre enero y octubre fueron 1.064 millones de dólares, 53% más que el año pasado.\" (en pantalla: US$1.064 M · +53%)\n2. \"Podés hacer hasta cinco envíos por año, de hasta 3.000 dólares y 50 kilos cada uno.\" (en pantalla: 5 envíos · US$3.000 · 50 kg)\n3. \"No más de tres unidades iguales y para uso personal.\" (en pantalla: máx. 3 iguales)\n4. \"Los primeros 400 dólares de cada envío no pagan derechos ni tasa de estadística, pero sí IVA.\" (en pantalla: US$400 sin derechos · IVA sí)\n\nMI LECTURA: el courier es para vos; si querés comprar para revender, eso ya es importar y necesitás estar registrado.\n\nCIERRE: \"¿Cuántos envíos te quedan este año? Fijate en ARCA y guardalo.\"\n\nFUENTE para el caption: BAE Negocios con datos del INDEC, 20/11/2026.",
+   "kind": "guion",
+   "noticia": "Compras por courier: US$1.064 millones en enero-octubre (+53,2%); límite 5 envíos por año de hasta US$3.000 y 50 kg, máx. 3 unidades iguales; primeros US$400 FOB sin derechos ni tasa (sí IVA).",
+   "para": "Tomi",
+   "titulo": "Los argentinos compraron más de mil millones de dólares por courier. Ojo con esto."
+  },
+  "guion-2026-11-21-1": {
+   "fecha": "2026-11-21",
+   "fuente": "https://www.infobae.com/economia/2026/11/21/el-riesgo-pais-escalo-230-puntos-y-las-acciones-argentinas-se-hundieron-hasta-25-en-una-semana-muy-negativa-de-wall-street/",
+   "guion": "GANCHO: \"Si pagás algo afuera, esta semana te tiene que importar.\"\n\n1. \"El riesgo país subió 236 puntos en una semana y cerró en 1.070, lo más alto desde octubre de 2025.\" (en pantalla: riesgo país 1.070)\n2. \"El dólar mayorista subió 2,4% y cerró en 1.580 pesos.\" (en pantalla: mayorista $1.580)\n3. \"El contado con liqui terminó en 1.794 y la brecha llegó a 13,6%, la más amplia desde abril de 2025.\" (en pantalla: brecha 13,6%)\n4. \"Pegaron la caída de Wall Street y el real, que se fue a 5,95 por dólar.\" (en pantalla: Wall Street y Brasil)\n\nMI LECTURA: con riesgo país arriba de 1.000 el financiamiento afuera se encarece, así que si tenés pagos o deudas en dólares, revisalos el lunes.\n\nCIERRE: \"¿Te cambió algún pago esta semana? Guardalo y el lunes lo vemos.\"\n\nFUENTE para el caption: Infobae, 21/11/2026.",
+   "kind": "guion",
+   "noticia": "Riesgo país 1.070 (+236 en la semana), mayorista $1.580 (+2,4%), CCL $1.794,18 y brecha 13,6%, la más alta desde abril de 2025.",
+   "para": "Graciela",
+   "titulo": "Si pagás algo afuera, esta semana te tiene que importar."
   },
   "sem-2026-10-26": {
    "carruseles": [
