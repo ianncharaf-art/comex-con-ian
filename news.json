@@ -1,6 +1,29 @@
 {
-  "actualizado": "2026-11-20",
+  "actualizado": "2026-11-21",
   "items": [
+    {
+      "fecha": "2026-11-21",
+      "categoria": "Dólar",
+      "titulo": "Semana negra: el riesgo país saltó a 1.070 puntos y la brecha con el CCL llegó a 13,6%",
+      "resumen": "El riesgo país subió 236 puntos en la semana (+28%) y cerró en 1.070, su nivel más alto desde octubre de 2025. Los bonos Globales cayeron 7% en promedio y las acciones argentinas en dólares 11%. El mayorista subió 2,4% en la semana hasta $1.580, el contado con liquidación terminó en $1.794,18 (+7,2%) y la brecha llegó a 13,6%, la más amplia desde abril de 2025. Las reservas bajaron US$187 millones, a US$49.362 millones. Influyeron la caída de Wall Street (S&P 500 -10,5%) y la devaluación del real, que pasó a 5,95 por dólar.",
+      "porque": "Con riesgo país arriba de 1.000 se encarece y se achica el financiamiento externo, y una brecha de 13,6% suele anticipar presión sobre el dólar oficial.",
+      "claves": [
+        "cerró en 1.070",
+        "la brecha llegó a 13,6%",
+        "se encarece y se achica el financiamiento externo"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/11/21/el-riesgo-pais-escalo-230-puntos-y-las-acciones-argentinas-se-hundieron-hasta-25-en-una-semana-muy-negativa-de-wall-street/",
+          "oficial": false
+        }
+      ],
+      "sector": "BCRA / Cambiario",
+      "urgencia": "Media",
+      "impacto": "Si tenés pagos al exterior o financiación en dólares, revisalos el lunes: el contexto se puso más tenso.",
+      "agregado": "2026-11-21T07:58:00-03:00"
+    },
     {
       "fecha": "2026-11-20",
       "categoria": "Dólar",
@@ -1879,134 +1902,6 @@
       "urgencia": "Alta",
       "impacto": "Si tenés presentaciones atrasadas en ARCA, regularizalas antes del 18/12 para pagar la mitad de la multa. Confirmá con tu contador si tu caso entra en las fechas de la norma.",
       "vence": "2026-12-18"
-    },
-    {
-      "fecha": "2026-11-11",
-      "categoria": "Dólar",
-      "titulo": "Volvió el mercado tras cinco días: el mayorista bajó a $1.544 y el BCRA compró US$29 millones",
-      "resumen": "En la primera rueda después de cinco días sin operaciones, el mayorista abrió en $1.550 pero terminó en $1.544, $1,50 menos que el jueves 5, con poco volumen por el feriado en EE.UU. (unos US$427 millones). El BCRA compró US$29 millones y suma US$80 millones en noviembre y US$16.048 millones en el año. Las reservas brutas cayeron US$312 millones, a US$49.330 millones, por la baja del oro y la suba global del dólar. En el Banco Nación el minorista siguió en $1.570.",
-      "porque": "El dólar con el que pagás importaciones volvió sin saltos después del parate: buena señal para cerrar cotizaciones que quedaron frenadas por los feriados.",
-      "claves": [
-        "el mayorista abrió en $1.550 pero terminó en $1.544",
-        "buena señal para cerrar cotizaciones que quedaron frenadas por los feriados"
-      ],
-      "fuentes": [
-        {
-          "nombre": "BAE Negocios",
-          "url": "https://www.baenegocios.com/finanzas/el-dolar-bajo-tras-cinco-dias-sin-operaciones-y-el-bcra-compro-otros-usd-29-millones/",
-          "oficial": false
-        },
-        {
-          "nombre": "Ámbito",
-          "url": "https://www.ambito.com/finanzas/las-reservas-del-bcra-cayeron-minimos-mas-un-mes-pero-se-mantuvieron-las-compras-pese-al-feriado-eeuu-n6344161",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-11-11",
-      "categoria": "Mundo",
-      "titulo": "Estrecho de Ormuz: el petróleo que pasa sigue por debajo del nivel previo a la guerra",
-      "resumen": "Según Tanker Trackers, por el estrecho de Ormuz pasaron 13,1 millones de barriles por día en la semana que terminó el 5 de noviembre, por debajo del nivel previo a la guerra entre Estados Unidos e Irán, que empezó a fines de febrero de 2026. Reuters informó que los ataques a barcos en el estrecho marcaron un récord en octubre. Los datos los reunió PolitiFact en una verificación publicada el 11 de noviembre.",
-      "porque": "Ormuz es la salida del petróleo del Golfo: mientras siga trabado, el combustible de los barcos y los seguros presionan sobre el costo de los fletes de todo el mundo.",
-      "claves": [
-        "13,1 millones de barriles por día en la semana que terminó el 5 de noviembre",
-        "los ataques a barcos en el estrecho marcaron un récord en octubre"
-      ],
-      "fuentes": [
-        {
-          "nombre": "PolitiFact",
-          "url": "https://politifact.com/factchecks/2026/nov/11/byron-donalds/florida-byron-donalds-iran-war-strait-hormuz-oil",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-11-11",
-      "categoria": "Comercio exterior",
-      "titulo": "Nuevas reglas para importar ropa usada: trámite previo al embarque y reembarco si algo no coincide",
-      "resumen": "La Resolución 461/2026 de la Secretaría de Industria y Comercio (Boletín Oficial del 11/11, vigente desde el 12/11) fija el procedimiento para importar ropa usada (NCM 6309.00.10 y 6309.00.90). El trámite se hace antes de embarcar, por cada operación, y después hay 90 días hábiles para el despacho a plaza. Si al llegar hay diferencias en los papeles o en la mercadería, se reembarca a origen en 30 días corridos a cargo del importador; si se repite, queda inhabilitado 36 meses para esta operatoria.",
-      "porque": "Si pensás traer fardos de ropa usada, primero hacé el trámite y revisá que la documentación coincida con la carga: un error te obliga a devolverla pagando vos.",
-      "claves": [
-        "El trámite se hace antes de embarcar, por cada operación",
-        "se reembarca a origen en 30 días corridos a cargo del importador",
-        "primero hacé el trámite"
-      ],
-      "fuentes": [
-        {
-          "nombre": "CIRA (texto de la resolución)",
-          "url": "https://www.cira.org.ar/es/servicios/normativas-servicios/resolucion/resolucion-461-2026-2/",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-11-11",
-      "categoria": "Mundo",
-      "titulo": "El Canal de Panamá suma tránsitos y vuelve al calado máximo de 50 pies",
-      "resumen": "Por la mejora en los niveles del lago, la Autoridad del Canal de Panamá subió la capacidad de reservas diarias de 33 a 34 cupos (24 en las esclusas Panamax y 10 en las Neopanamax) y restableció el calado máximo de 15,24 metros (50 pies) en las Neopanamax, desde los 49 pies de octubre. El cupo extra en Panamax se libera por etapas: subasta del 12 al 17 de noviembre y desde el 24 de noviembre en el sistema regular.",
-      "porque": "Panamá conecta la costa este de EE.UU. con Asia y la costa del Pacífico: más cupos y más calado significan menos demoras y barcos más cargados en esas rutas.",
-      "claves": [
-        "de 33 a 34 cupos",
-        "restableció el calado máximo de 15,24 metros (50 pies)",
-        "menos demoras y barcos más cargados"
-      ],
-      "fuentes": [
-        {
-          "nombre": "gCaptain",
-          "url": "https://gcaptain.com/panama-canal-raises-daily-transit-capacity-as-water-conditions-improve",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-11-11",
-      "categoria": "Comercio exterior",
-      "titulo": "Las exportaciones a Brasil suben por octavo mes seguido y el déficit con Brasil se achica 61%",
-      "resumen": "Según el informe de la Cámara Argentina de Comercio y Servicios (CAC), en octubre Argentina le vendió a Brasil US$1.260 millones (+1,8% interanual, octavo mes seguido en alza) y le compró US$1.530 millones (-6,7%), con un déficit de US$270 millones. En enero-octubre el déficit fue de US$1.957 millones, contra US$5.082 millones en el mismo período de 2025. Subieron las ventas de aluminio, fuel oil, petróleo crudo, polímeros de etileno, trigo y centeno; cayeron las compras de autos y autopartes.",
-      "porque": "Brasil es el primer socio comercial: si exportás, es el mercado más cercano que sigue creciendo; si importás autopartes o vehículos de Brasil, la demanda local viene en baja.",
-      "claves": [
-        "octavo mes seguido en alza",
-        "el déficit fue de US$1.957 millones, contra US$5.082 millones",
-        "es el mercado más cercano que sigue creciendo"
-      ],
-      "fuentes": [
-        {
-          "nombre": "BAE Negocios",
-          "url": "https://www.baenegocios.com/economia/argentina-suma-ocho-meses-de-crecimiento-de-las-exportaciones-a-brasil-que-productos-impulsaron-las-ventas/",
-          "oficial": false
-        },
-        {
-          "nombre": "El Cronista",
-          "url": "https://www.cronista.com/economia-politica/argentina-exporta-mas-a-brasil-pero-todavia-acumula-un-deficit-que-sectores-lo-explican/",
-          "oficial": false
-        }
-      ],
-      "sector": "Mercosur y Acuerdos",
-      "urgencia": "Informativa",
-      "impacto": "Sirve para elegir mercado: Brasil sigue comprando más aluminio, combustibles, plásticos y cereales argentinos. Buen dato para estudiar cómo se mueve el comercio dentro del Mercosur."
-    },
-    {
-      "fecha": "2026-11-11",
-      "categoria": "Comercio exterior",
-      "titulo": "Paso de los Libres: el Gobierno avanza con la concesión por 20 años del principal paso de cargas con Brasil",
-      "resumen": "El Decreto 1350/2026 declara de interés público concesionar el Centro de Fronteras Paso de los Libres (Corrientes), que incluye el COTECAR y el Área de Control Integrado. El concesionario haría obras de repavimentación, iluminación, pesaje, seguridad, inspección no intrusiva y un parque solar de 1 MW, sin fondos públicos, por 20 años prorrogables por cinco más. Todavía no hay adjudicación: la Jefatura de Gabinete tiene que preparar los pliegos y llamar a licitación.",
-      "porque": "Por Paso de los Libres cruza buena parte de los camiones entre Argentina y Brasil: si se moderniza, deberían bajar las demoras en frontera.",
-      "claves": [
-        "por 20 años prorrogables por cinco más",
-        "Todavía no hay adjudicación",
-        "deberían bajar las demoras en frontera"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Aduana News",
-          "url": "https://aduananews.com/el-gobierno-impulsa-la-concesion-del-centro-de-fronteras-paso-de-los-libres/",
-          "oficial": false
-        }
-      ],
-      "sector": "Logística y Fletes",
-      "urgencia": "Informativa",
-      "impacto": "Si mandás o recibís carga por camión con Brasil, seguí la licitación: las obras pueden cambiar tiempos y costos de cruce en los próximos años."
     }
   ]
 }
