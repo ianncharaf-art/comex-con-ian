@@ -3,6 +3,29 @@
   "items": [
     {
       "fecha": "2026-11-22",
+      "categoria": "Comercio exterior",
+      "titulo": "Fertilizantes: baja la urea, pero el fosfato sigue caro y los importadores argentinos no reponen",
+      "resumen": "Los precios internacionales de los fertilizantes nitrogenados siguieron bajando esta semana: la urea mayorista se ubica en 575-585 US$/tonelada. Los fosfatados siguen caros: DAP y MAP rondan los 860 US$/tonelada CFR, unos 20 dólares por encima de Brasil, y los valores mayoristas van de 975 a 995 US$/tonelada. Según IF Ingeniería en Fertilizantes, la importación argentina de urea sigue paralizada, los importadores eligen no reponer y ya hay faltantes puntuales de DAP. China mantiene congeladas las licencias de exportación de fertilizantes.",
+      "porque": "El fertilizante es un insumo importado clave para el campo: si los importadores no reponen y aparecen faltantes, sube el costo de producir los granos que después se exportan.",
+      "claves": [
+        "la importación argentina de urea sigue paralizada",
+        "ya hay faltantes puntuales de DAP",
+        "China mantiene congeladas las licencias de exportación de fertilizantes"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Bichos de Campo (Valor Soja)",
+          "url": "https://bichosdecampo.com/se-pincharon-los-precios-de-los-fertilizantes-nitrogenados-pero-los-fosfatados-siguen-carisimos/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Media",
+      "impacto": "Si importás o vendés insumos al agro, es un ejemplo claro de cómo el precio internacional y el stock definen cuándo conviene reponer.",
+      "agregado": "2026-11-22T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-22",
       "categoria": "Mundo",
       "titulo": "Ormuz: Irán prepara 14 petroleros para romper el bloqueo de EE.UU., que cumple 130 días",
       "resumen": "El ejército de EE.UU. informó que el sábado se cumplieron 130 días consecutivos de su bloqueo naval contra Irán. Más de 14 petroleros se reunieron cerca de la isla de Kharg y, según Kpler, unos 43 millones de barriles de crudo iraní siguen varados dentro de la zona bloqueada. El tránsito por Ormuz está 65% por debajo de los niveles previos a la guerra: UKMTO contó 263 cruces en la semana al 18 de noviembre, contra 308 la semana anterior, con seis ataques a petroleros. Un supuesto petrolero iraní que figuraba cruzando el estrecho resultó ser una señal falsa, según TankerTrackers.",
