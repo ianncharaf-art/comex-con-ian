@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-21T12:14:48+00:00",
+ "actualizado": "2026-11-22T12:14:00+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -288,6 +288,24 @@
    "noticia": "Compras por courier: US$1.064 millones en enero-octubre (+53,2%); límite 5 envíos por año de hasta US$3.000 y 50 kg, máx. 3 unidades iguales; primeros US$400 FOB sin derechos ni tasa (sí IVA).",
    "para": "Tomi",
    "titulo": "Los argentinos compraron más de mil millones de dólares por courier. Ojo con esto."
+  },
+  "guion-2026-11-20-2": {
+   "fecha": "2026-11-20",
+   "fuente": "https://www.infobae.com/movant/2026/11/20/comercio-exterior-argentino-el-flete-representa-mas-del-6-del-valor-importado/",
+   "guion": "GANCHO: \"Si importás de China, el flete te está comiendo más margen que hace un año.\"\n\n1. \"De cada 1.000 dólares que importa Argentina, 64,2 se van en flete: 17,4% más que hace un año.\" (en pantalla: US$64,2 cada 1.000)\n2. \"Desde China la tonelada sale 398,7 dólares, 54% más.\" (en pantalla: China +54%)\n3. \"Eso es 106 dólares por cada 1.000 de mercadería: más del 10%.\" (en pantalla: más del 10%)\n4. \"Desde el Mercosur, la tonelada sale 70,9 dólares.\" (en pantalla: Mercosur US$70,9/t)\n\nMI LECTURA: si seguís calculando con el flete del año pasado, el margen que creés tener no existe; pedí cotización nueva antes de cerrar.\n\nCIERRE: \"¿Cuándo actualizaste tu flete por última vez? Guardalo.\"\n\nFUENTE para el caption: Infobae Movant con datos del INDEC, 20/11/2026.",
+   "kind": "guion",
+   "noticia": "INDEC octubre: flete 64,2 dólares por cada 1.000 FOB (+17,4%); promedio US$143,1/t (+19%); desde China US$398,7/t (+54,3%), 41,1% del total y 106 dólares por cada 1.000 FOB; Mercosur US$70,9/t.",
+   "para": "Graciela",
+   "titulo": "Si importás de China, el flete te está comiendo más margen que hace un año."
+  },
+  "guion-2026-11-20-3": {
+   "fecha": "2026-11-20",
+   "fuente": "https://urgente24.com/zona-/tesla-activa-sus-autos-argentina-y-javier-milei-va-al-lanzamiento-n637183",
+   "guion": "GANCHO: \"Tesla llegó a Argentina y el secreto del precio está en un cupo.\"\n\n1. \"Venden el Model 3 y el Model Y, traídos de China.\" (en pantalla: hecho en China)\n2. \"Cinco versiones, de 41.590 a 54.590 dólares, y entregan en marzo y abril de 2027.\" (en pantalla: US$41.590 a 54.590)\n3. \"Entran con arancel 0% dentro de un cupo de 50.000 autos electrificados por año.\" (en pantalla: cupo 50.000 · arancel 0%)\n\nMI LECTURA: un cupo con arancel cero puede cambiar todo un negocio; por eso conviene leer las normas antes que los precios.\n\nCIERRE: \"¿Te comprarías uno o no lo ves para acá? Comentá.\"\n\nFUENTE para el caption: Urgente24, 20/11/2026.",
+   "kind": "guion",
+   "noticia": "Tesla vende el Model 3 y el Model Y importados de China, de US$41.590 a US$54.590, entregas en marzo y abril de 2027, con arancel 0% dentro del cupo anual de 50.000 electrificados.",
+   "para": "Tomi",
+   "titulo": "Tesla llegó a Argentina y el secreto del precio está en un cupo."
   },
   "guion-2026-11-21-1": {
    "fecha": "2026-11-21",
