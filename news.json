@@ -1,6 +1,33 @@
 {
-  "actualizado": "2026-11-21",
+  "actualizado": "2026-11-22",
   "items": [
+    {
+      "fecha": "2026-11-22",
+      "categoria": "Mundo",
+      "titulo": "Ormuz: Irán prepara 14 petroleros para romper el bloqueo de EE.UU., que cumple 130 días",
+      "resumen": "El ejército de EE.UU. informó que el sábado se cumplieron 130 días consecutivos de su bloqueo naval contra Irán. Más de 14 petroleros se reunieron cerca de la isla de Kharg y, según Kpler, unos 43 millones de barriles de crudo iraní siguen varados dentro de la zona bloqueada. El tránsito por Ormuz está 65% por debajo de los niveles previos a la guerra: UKMTO contó 263 cruces en la semana al 18 de noviembre, contra 308 la semana anterior, con seis ataques a petroleros. Un supuesto petrolero iraní que figuraba cruzando el estrecho resultó ser una señal falsa, según TankerTrackers.",
+      "porque": "Por Ormuz pasa cerca del 25% del comercio marítimo mundial de petróleo: un intento de romper el bloqueo puede subir el crudo, el combustible y los recargos de flete que pagan los embarques desde Asia hacia Argentina.",
+      "claves": [
+        "El tránsito por Ormuz está 65% por debajo de los niveles previos a la guerra",
+        "puede subir el crudo, el combustible y los recargos de flete"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Euronews",
+          "url": "https://www.euronews.com/2026/11/22/tracking-site-says-iranian-tanker-reportedly-sailing-through-strait-of-hormuz-does-not-exi",
+          "oficial": false
+        },
+        {
+          "nombre": "Gulf News",
+          "url": "https://gulfnews.com/world/mena/iran-readies-14-tankers-to-break-us-blockade-what-happens-if-they-try-1.500756460",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Media",
+      "impacto": "Si cotizás fletes o insumos que dependen del petróleo, conviene seguir esta semana: una escalada en Ormuz suele trasladarse rápido a recargos de combustible.",
+      "agregado": "2026-11-22T07:58:00-03:00"
+    },
     {
       "fecha": "2026-11-21",
       "categoria": "Exportación",
@@ -1864,90 +1891,6 @@
       "urgencia": "Informativa",
       "impacto": "Agendá la fecha: después de la cumbre conviene revisar si cambió algún arancel externo común o hay novedades del acuerdo con la UE.",
       "agregado": "2026-11-13T10:45:00-03:00"
-    },
-    {
-      "fecha": "2026-11-12",
-      "categoria": "Mundo",
-      "titulo": "Los fletes marítimos bajaron 2%: el índice mundial de contenedores quedó en US$4.305",
-      "resumen": "El World Container Index de Drewry del 12 de noviembre marcó US$4.305 por contenedor de 40 pies, 2% menos que la semana anterior. Shanghái–Rotterdam quedó en US$3.504 (-3%), Shanghái–Génova en US$4.168 (sin cambios), Shanghái–Los Ángeles en US$7.416 (-2%) y Shanghái–Nueva York en US$9.020 (-3%). Drewry espera que el Transpacífico siga bajando la semana próxima y que Asia–Europa suba levemente.",
-      "porque": "El flete desde China es una parte grande del costo de importar: si la referencia mundial baja, conviene pedir cotización actualizada antes de cerrar un embarque.",
-      "claves": [
-        "US$4.305 por contenedor de 40 pies, 2% menos que la semana anterior",
-        "conviene pedir cotización actualizada antes de cerrar un embarque"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Drewry · World Container Index",
-          "url": "https://www.drewry.co.uk/supply-chain-advisors/supply-chain-expertise/world-container-index-assessed-by-drewry",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-11-12",
-      "categoria": "Dólar",
-      "titulo": "El BCRA compró US$103 millones, su mayor compra de noviembre, y el mayorista cerró en $1.545,50",
-      "resumen": "El Banco Central compró US$103 millones el jueves 12, el monto más alto de noviembre: en el mes suma US$183 millones y en el año US$16.147 millones. Aun así, las reservas brutas bajaron US$252 millones, a US$49.078 millones. El mayorista subió $1,50 y cerró en $1.545,50; el blue terminó en $1.565, $5 menos que el miércoles.",
-      "porque": "Que el Central pueda comprar más de US$100 millones en un día muestra que entran dólares al mercado: le da calma al tipo de cambio con el que pagás importaciones.",
-      "claves": [
-        "el monto más alto de noviembre",
-        "El mayorista subió $1,50 y cerró en $1.545,50",
-        "le da calma al tipo de cambio con el que pagás importaciones"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Infobae",
-          "url": "https://www.infobae.com/economia/2026/11/12/el-banco-central-compro-mas-de-usd-100-millones-el-mayor-monto-de-noviembre/",
-          "oficial": false
-        },
-        {
-          "nombre": "Ámbito",
-          "url": "https://www.ambito.com/finanzas/el-dolar-blue-un-fuerte-rebote-y-volvio-acercarse-al-mayorista-n6344634",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-11-12",
-      "categoria": "INDEC",
-      "titulo": "La inflación de octubre fue 2,2% y volvió a pasar el 2% mensual",
-      "resumen": "Según el INDEC, los precios subieron 2,2% en octubre, 0,3 puntos más que el 1,9% de septiembre. En los primeros diez meses de 2026 la inflación acumula 26,3% y en los últimos doce meses, 33,1%. Es la primera vez en tres meses que el índice supera el 2% (agosto fue 1,7%).",
-      "porque": "Con el mayorista casi quieto y precios subiendo 2,2% por mes, lo importado se abarata en pesos frente a lo local: tenelo en cuenta al fijar precios de venta.",
-      "claves": [
-        "los precios subieron 2,2% en octubre",
-        "la inflación acumula 26,3%",
-        "tenelo en cuenta al fijar precios de venta"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Minuto Uno",
-          "url": "https://www.minutouno.com/economia/segun-el-indec-la-inflacion-octubre-fue-22-n6344582",
-          "oficial": false
-        }
-      ]
-    },
-    {
-      "fecha": "2026-11-12",
-      "categoria": "ARCA · Aduana",
-      "titulo": "ARCA reglamentó la rebaja de 50% en multas por deberes formales: hay tiempo hasta el 18 de diciembre",
-      "resumen": "La Resolución General 5927/2026 de ARCA (Boletín Oficial del 12/11) reglamenta la reducción de 50% de las multas por infracciones a deberes formales de la ley de procedimiento tributario, prevista en la Ley 27.826 y el Decreto 1253/2026. Alcanza a obligaciones vencidas desde el 2 de enero de 2026 con infracciones cometidas antes del 9 de octubre de 2026, siempre que se cumpla la obligación omitida hasta el 18 de diciembre de 2026.",
-      "porque": "Si tu empresa dejó de presentar alguna declaración o trámite formal este año, ponerte al día antes del 18 de diciembre te ahorra la mitad de la multa.",
-      "claves": [
-        "reducción de 50% de las multas",
-        "hasta el 18 de diciembre de 2026",
-        "te ahorra la mitad de la multa"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Prensa Mercosur",
-          "url": "https://prensamercosur.org/2026/11/12/arca-reglamento-el-plan-de-reduccion-de-multas-para-pymes/",
-          "oficial": false
-        }
-      ],
-      "sector": "Régimen Courier / PyMEs",
-      "urgencia": "Alta",
-      "impacto": "Si tenés presentaciones atrasadas en ARCA, regularizalas antes del 18/12 para pagar la mitad de la multa. Confirmá con tu contador si tu caso entra en las fechas de la norma.",
-      "vence": "2026-12-18"
     }
   ]
 }
