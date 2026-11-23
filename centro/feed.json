@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-22T12:14:00+00:00",
+ "actualizado": "2026-11-23T12:14:28+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -315,6 +315,24 @@
    "noticia": "Riesgo país 1.070 (+236 en la semana), mayorista $1.580 (+2,4%), CCL $1.794,18 y brecha 13,6%, la más alta desde abril de 2025.",
    "para": "Graciela",
    "titulo": "Si pagás algo afuera, esta semana te tiene que importar."
+  },
+  "guion-2026-11-21-2": {
+   "fecha": "2026-11-21",
+   "fuente": "https://www.vinetur.com/en/20261121111624/us-will-tighten-customs-rules-for-foreign-importers-on-jan-5-2027.html",
+   "guion": "GANCHO: \"Si exportás a Estados Unidos, el 5 de enero te cambia algo.\"\n\n1. \"La Aduana de Estados Unidos sacó una regla nueva para las empresas de afuera que figuran como importador.\" (en pantalla: regla nueva CBP)\n2. \"Van a tener que estar en un programa que se llama CTPAT o trabajar con un agente de aduana validado.\" (en pantalla: CTPAT o agente validado)\n3. \"Arranca el 5 de enero de 2027 y el cumplimiento total se exige el 6 de mayo.\" (en pantalla: 5/1 → 6/5/2027)\n4. \"Si no cumplís, te pueden demorar la liberación de la carga.\" (en pantalla: carga demorada)\n\nMI LECTURA: pasa mucho en vinos y alimentos que el exportador figure como importador; si es tu caso, hablalo ya con tu agente.\n\nCIERRE: \"¿Le vendés a Estados Unidos? Mandáselo a quien maneja tus envíos y guardalo.\"\n\nFUENTE para el caption: Vinetur, 21/11/2026.",
+   "kind": "guion",
+   "noticia": "CBP: desde el 5/1/2027 las empresas extranjeras que figuren como importador de registro deberán estar en CTPAT o usar un agente validado; cumplimiento total el 6/5/2027.",
+   "para": "Graciela",
+   "titulo": "Si exportás a Estados Unidos, el 5 de enero te cambia algo."
+  },
+  "guion-2026-11-22-1": {
+   "fecha": "2026-11-22",
+   "fuente": "https://www.euronews.com/2026/11/22/tracking-site-says-iranian-tanker-reportedly-sailing-through-strait-of-hormuz-does-not-exi",
+   "guion": "GANCHO: \"Un bloqueo en un estrecho que no sabés ubicar puede subir lo que comprás.\"\n\n1. \"Es el estrecho de Ormuz: por ahí pasa cerca del 25% del petróleo que se mueve por mar.\" (en pantalla: Ormuz = 25% del petróleo por mar)\n2. \"Estados Unidos lo tiene bloqueado para Irán hace 130 días.\" (en pantalla: 130 días de bloqueo)\n3. \"Hay 43 millones de barriles varados y pasan 65% menos barcos que antes de la guerra.\" (en pantalla: -65% de barcos)\n4. \"Ahora Irán juntó 14 petroleros para intentar romper el bloqueo.\" (en pantalla: 14 petroleros)\n\nMI LECTURA: si sube el petróleo, sube el combustible del barco y eso termina en el flete de lo que traés de Asia.\n\nCIERRE: \"¿Sabías que esto te podía tocar el bolsillo? Comentá.\"\n\nFUENTE para el caption: Euronews, 22/11/2026.",
+   "kind": "guion",
+   "noticia": "Ormuz: el bloqueo de EE.UU. a Irán cumplió 130 días; 14 petroleros esperan cerca de Kharg, 43 millones de barriles varados y el tránsito 65% abajo de la preguerra (263 cruces en la semana al 18/11).",
+   "para": "Tomi",
+   "titulo": "Un bloqueo en un estrecho que no sabés ubicar puede subir lo que comprás."
   },
   "sem-2026-10-26": {
    "carruseles": [
