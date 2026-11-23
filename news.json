@@ -4,6 +4,34 @@
     {
       "fecha": "2026-11-23",
       "categoria": "Mundo",
+      "titulo": "Ormuz en alerta máxima: Trump amenaza con hundir petroleros iraníes y los ataques a buques tocan récord",
+      "resumen": "Trump advirtió el domingo que los buques iraníes que intenten romper el bloqueo irán \"al fondo del mar\", e Irán respondió el lunes que usará \"todos los medios\" para enfrentarlo. Tres petroleros fueron atacados frente a Omán en menos de 15 horas entre el 20 y el 21 de noviembre, y siete desde el 16. Al 22 de noviembre ya había al menos 22 incidentes marítimos en el mes; el nivel de amenaza en el estrecho es SEVERO. Los tránsitos asistidos por EE.UU. promedian unos 38 por día, contra unos 138 diarios de promedio en 2025, y unos 218 buques esperan fondeados al este de Ormuz.",
+      "porque": "Con el estrecho operando a una fracción de lo normal y riesgo de choque militar, cualquier escalada puede disparar el petróleo, el combustible marítimo y los recargos de guerra que se trasladan a los fletes de importación.",
+      "claves": [
+        "el nivel de amenaza en el estrecho es SEVERO",
+        "unos 38 por día, contra unos 138 diarios de promedio en 2025",
+        "los recargos de guerra que se trasladan a los fletes de importación"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Gulf News",
+          "url": "https://gulfnews.com/world/mena/iran-attacks-on-gulf-shipping-hit-highest-levels-since-conflict-began-why-strait-of-hormuz-is-on-alert-1.500757611",
+          "oficial": false
+        },
+        {
+          "nombre": "Euronews",
+          "url": "https://www.euronews.com/2026/11/23/iran-vows-every-means-to-counter-us-blockade-of-hormuz-after-trump-threat",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Media",
+      "impacto": "Si estás cotizando una importación, pedí que el flete venga con el recargo de combustible y de guerra detallado, porque puede cambiar antes del embarque.",
+      "agregado": "2026-11-23T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-23",
+      "categoria": "Mundo",
       "titulo": "La UE e Indonesia firmaron su acuerdo comercial: sin aranceles para más del 90% de los productos",
       "resumen": "Según el boletín Trade Moves, la Unión Europea e Indonesia firmaron el 21 de noviembre en Bruselas su acuerdo de asociación económica (CEPA), después de que los gobiernos de la UE autorizaran la firma el 18. El acuerdo elimina aranceles a más del 90% de los productos y quita en cinco años el arancel indonesio del 50% a los autos europeos. Buscan aplicarlo antes del 1 de enero de 2027, cuando Indonesia sale del sistema de preferencias (SGP) de la UE. El mismo boletín anticipa que Maersk cobrará desde el 1 de diciembre un recargo de temporada alta de US$500 por contenedor de 20 pies y US$1.000 por 40 y 45 pies en la ruta Lejano Oriente-Norte de Europa.",
       "porque": "La UE sigue cerrando acuerdos con países que compiten con Argentina en agro y minerales: cada acuerdo que entra en vigor antes que el Mercosur-UE le da ventaja arancelaria a otro proveedor en el mercado europeo.",
