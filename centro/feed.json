@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-23T12:14:28+00:00",
+ "actualizado": "2026-11-24T12:14:36+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -333,6 +333,24 @@
    "noticia": "Ormuz: el bloqueo de EE.UU. a Irán cumplió 130 días; 14 petroleros esperan cerca de Kharg, 43 millones de barriles varados y el tránsito 65% abajo de la preguerra (263 cruces en la semana al 18/11).",
    "para": "Tomi",
    "titulo": "Un bloqueo en un estrecho que no sabés ubicar puede subir lo que comprás."
+  },
+  "guion-2026-11-22-2": {
+   "fecha": "2026-11-22",
+   "fuente": "https://bichosdecampo.com/se-pincharon-los-precios-de-los-fertilizantes-nitrogenados-pero-los-fosfatados-siguen-carisimos/",
+   "guion": "GANCHO: \"Si tu negocio depende del campo, mirá lo que pasa con los fertilizantes.\"\n\n1. \"La urea viene bajando: está entre 575 y 585 dólares la tonelada.\" (en pantalla: urea 575-585 US$/t ↓)\n2. \"Los fosfatados siguen caros: unos 860 dólares, 20 más que en Brasil.\" (en pantalla: DAP/MAP ~860 US$/t)\n3. \"Los importadores no están reponiendo y ya hay faltantes puntuales de DAP.\" (en pantalla: faltantes de DAP)\n4. \"Y China sigue con las licencias de exportación congeladas.\" (en pantalla: China congelada)\n\nMI LECTURA: cuando el importador no repone es porque no le cierra el precio; si dependés de ese insumo, asegurá stock antes de la campaña.\n\nCIERRE: \"¿Te está costando conseguir algún insumo? Comentá.\"\n\nFUENTE para el caption: Bichos de Campo, 22/11/2026.",
+   "kind": "guion",
+   "noticia": "Urea mayorista 575-585 US$/t en baja; DAP y MAP ~860 US$/t CFR (unos 20 dólares arriba de Brasil) y 975-995 mayorista; importación de urea paralizada y faltantes puntuales de DAP; China mantiene congeladas las licencias de exportación.",
+   "para": "Graciela",
+   "titulo": "Si tu negocio depende del campo, mirá lo que pasa con los fertilizantes."
+  },
+  "guion-2026-11-24-1": {
+   "fecha": "2026-11-24",
+   "fuente": "https://indiashippingnews.com/export-import/eu-india-fta-likely-to-be-signed-in-december-may-come-into-force-by-mid-2027-eu-ambassador/",
+   "guion": "GANCHO: \"Europa firma acuerdos con todos. Con nosotros, todavía no.\"\n\n1. \"La Unión Europea e India firmarían su acuerdo de libre comercio en diciembre.\" (en pantalla: UE + India en diciembre)\n2. \"Podría arrancar a mediados de 2027 y dejar en cero el arancel de unos 33.000 millones de dólares de productos indios.\" (en pantalla: arancel 0 · US$33.000 M)\n3. \"Ya firmaron con Indonesia hace unos días.\" (en pantalla: Indonesia ✓ · India ✓)\n4. \"El acuerdo Mercosur-Unión Europea sigue pendiente.\" (en pantalla: Mercosur ⏳)\n\nMI LECTURA: cada acuerdo que Europa cierra antes que el nuestro le da ventaja a otro país para venderle lo mismo que vendemos nosotros.\n\nCIERRE: \"¿Creés que el acuerdo con el Mercosur sale algún día? Comentá.\"\n\nFUENTE para el caption: India Shipping News, 24/11/2026.",
+   "kind": "guion",
+   "noticia": "La UE e India firmarían su TLC en diciembre, con vigencia hacia mediados de 2027; arancel cero para unos US$33.000 millones de exportaciones indias; comercio de bienes de 118.000 millones de euros en 2025.",
+   "para": "Tomi",
+   "titulo": "Europa firma acuerdos con todos. Con nosotros, todavía no."
   },
   "sem-2026-10-26": {
    "carruseles": [
