@@ -3,6 +3,51 @@
   "items": [
     {
       "fecha": "2026-11-24",
+      "categoria": "Dólar",
+      "titulo": "Dólar mayorista en récord de $1.593 y el BCRA no compró por segunda rueda: reservas -US$618 millones",
+      "resumen": "El dólar mayorista cerró en $1.593, con un salto de $13 en el día y un máximo de $1.595. El Banco Central no compró dólares por segunda rueda consecutiva: en noviembre lleva US$344 millones y en 2026, US$16.312 millones. Las reservas cayeron US$618 millones, a US$48.744 millones, su menor nivel en más de un mes; la baja del oro explica unos US$230 millones. Según Ámbito, los pedidos de cobertura y los pagos al exterior absorbieron los ingresos disponibles.",
+      "porque": "Un mayorista en récord y un BCRA que deja de comprar encarecen en pesos cada pago de importación y suben la demanda de cobertura.",
+      "claves": [
+        "El dólar mayorista cerró en $1.593",
+        "no compró dólares por segunda rueda consecutiva",
+        "Las reservas cayeron US$618 millones"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Ámbito",
+          "url": "https://www.ambito.com/finanzas/el-bcra-no-compro-dolares-segunda-rueda-fila-y-las-reservas-cayeron-al-menor-nivel-mas-un-mes-n6348885",
+          "oficial": false
+        }
+      ],
+      "sector": "BCRA / Cambiario",
+      "urgencia": "Media",
+      "impacto": "Si tenés pagos al exterior en los próximos días, revisá el tipo de cambio con el que presupuestaste: el mayorista subió $36,50 la semana pasada y siguió subiendo hoy.",
+      "agregado": "2026-11-24T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-24",
+      "categoria": "Mundo",
+      "titulo": "EE.UU. prepara nuevos aranceles por sección 301 a 16 socios, entre ellos China, la UE y México",
+      "resumen": "Según Reuters, el gobierno de EE.UU. podría anunciar este martes o miércoles los resultados de su investigación por sección 301 sobre exceso de capacidad industrial, con nuevos aranceles a una amplia gama de productos que se sumarían a los ya vigentes. Los 16 socios investigados son China, la UE, India, Japón, Corea del Sur, México, Vietnam, Taiwán, Tailandia, Malasia, Indonesia, Suiza, Noruega, Singapur, Bangladesh y Camboya. Todavía no se conocen las tasas ni las exenciones. Argentina y Brasil no figuran en la lista.",
+      "porque": "Si EE.UU. le sube el arancel a grandes exportadores asiáticos y europeos, parte de esa mercadería puede buscar otros mercados como Argentina a precios más bajos, y los productos argentinos ganan margen frente a esos competidores en EE.UU.",
+      "claves": [
+        "Argentina y Brasil no figuran en la lista",
+        "parte de esa mercadería puede buscar otros mercados como Argentina a precios más bajos"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Reuters vía TimesLIVE",
+          "url": "https://www.timeslive.co.za/news/world/2026-11-24-trump-administration-to-unveil-new-tariffs-on-imports/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Informativa",
+      "impacto": "Si importás de Asia, atento a ofertas más baratas si esos proveedores pierden mercado en EE.UU.; si exportás a EE.UU., podés ganar competitividad.",
+      "agregado": "2026-11-24T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-24",
       "categoria": "Exportación",
       "titulo": "Minería: exportaciones récord de US$7.455 millones hasta octubre, 52,5% más que en 2025",
       "resumen": "Según el informe mensual de la Dirección Nacional de Promoción y Economía Minera con datos de Aduana, las exportaciones mineras sumaron US$7.455 millones entre enero y octubre de 2026, un 52,5% más que un año antes y un 23% por encima de todo 2025. En octubre fueron US$660 millones, con una baja interanual de 1,2%. El oro aportó US$4.407 millones y la plata US$869 millones; el litio sumó US$1.858 millones (+162,2%) y ya es el 24,9% del total minero. El 82% de lo acumulado fue a China, Suiza, Estados Unidos y Canadá.",
