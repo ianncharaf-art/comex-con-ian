@@ -3,6 +3,50 @@
   "items": [
     {
       "fecha": "2026-11-24",
+      "categoria": "Exportación",
+      "titulo": "Minería: exportaciones récord de US$7.455 millones hasta octubre, 52,5% más que en 2025",
+      "resumen": "Según el informe mensual de la Dirección Nacional de Promoción y Economía Minera con datos de Aduana, las exportaciones mineras sumaron US$7.455 millones entre enero y octubre de 2026, un 52,5% más que un año antes y un 23% por encima de todo 2025. En octubre fueron US$660 millones, con una baja interanual de 1,2%. El oro aportó US$4.407 millones y la plata US$869 millones; el litio sumó US$1.858 millones (+162,2%) y ya es el 24,9% del total minero. El 82% de lo acumulado fue a China, Suiza, Estados Unidos y Canadá.",
+      "porque": "La minería ya explica el 8,6% de todo lo que exporta el país y el litio es el producto que más crece: es uno de los sectores que más dólares suma al mercado.",
+      "claves": [
+        "el litio sumó US$1.858 millones (+162,2%)",
+        "La minería ya explica el 8,6% de todo lo que exporta el país"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Diario Río Negro",
+          "url": "https://www.rionegro.com.ar/energia/record-para-las-exportaciones-mineras-argentina-acumulo-us-7-455-millones-en-los-primeros-diez-meses-del-ano-4810662/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Si estudiás comex, es un buen caso para ver cómo cambia la canasta exportadora: oro, plata y litio ya pesan casi tanto como algunos complejos del agro.",
+      "agregado": "2026-11-24T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-24",
+      "categoria": "Mundo",
+      "titulo": "Ormuz: el tráfico de buques cayó más de 40% en noviembre y más de 25 petroleros fueron atacados en una semana",
+      "resumen": "Según datos de Marine Traffic citados por Al Jazeera, 226 buques entraron o salieron del Golfo entre el 1 y el 7 de noviembre, contra solo 125 entre el 17 y el 23: una caída de más del 40%. En las últimas 24 horas cruzaron el estrecho 28 buques con unos 4,18 millones de barriles, cuando antes de la guerra pasaban entre 125 y 140 por día. Más de 25 petroleros fueron alcanzados en la última semana, y la marina iraní dijo el martes que dos chocaron con minas y se incendiaron. El Brent cotizaba a US$88,35 por barril.",
+      "porque": "Con un estrecho que mueve una fracción de lo normal, el petróleo y el combustible marítimo quedan expuestos a saltos bruscos que se trasladan a los fletes y a los insumos derivados del petróleo que importa Argentina.",
+      "claves": [
+        "una caída de más del 40%",
+        "Más de 25 petroleros fueron alcanzados en la última semana"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/24/hormuz-oil-traffic-is-down-40-percent-are-irans-tanker-attacks-working",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Media",
+      "impacto": "Si importás plásticos, químicos o fertilizantes, seguí el Brent: es lo primero que se mueve si Ormuz se complica más.",
+      "agregado": "2026-11-24T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-24",
       "categoria": "Mundo",
       "titulo": "La UE e India firmarían su TLC en diciembre y podría regir a mediados de 2027",
       "resumen": "El embajador de la Unión Europea en India, Jean-Eric Paquet, dijo el lunes que la expectativa es firmar el acuerdo de libre comercio en diciembre y que podría entrar en vigor hacia mediados de 2027, después del consentimiento del Parlamento Europeo, que se espera para la primavera europea. Según el Ministerio de Comercio indio, al entrar en vigor bajarán a cero los aranceles sobre cerca de US$33.000 millones de exportaciones indias de sectores intensivos en mano de obra. El comercio de bienes entre ambos fue de 118.000 millones de euros en 2025.",
