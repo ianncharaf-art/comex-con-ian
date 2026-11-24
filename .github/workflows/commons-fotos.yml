@@ -1,0 +1,19 @@
+name: Fotos de Commons
+# Baja fotos reales con licencia libre (Wikimedia Commons) a tmp-fotos/ para carruseles.
+on:
+  push:
+    paths: [scripts/commons-fotos.txt]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fotos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 scripts/commons_fotos.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          git add tmp-fotos
+          git diff --cached --quiet || git commit -m "Fotos de Commons para carrusel" && git push
