@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T12:14:36+00:00",
+ "actualizado": "2026-11-25T12:14:35+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -351,6 +351,24 @@
    "noticia": "La UE e India firmarían su TLC en diciembre, con vigencia hacia mediados de 2027; arancel cero para unos US$33.000 millones de exportaciones indias; comercio de bienes de 118.000 millones de euros en 2025.",
    "para": "Tomi",
    "titulo": "Europa firma acuerdos con todos. Con nosotros, todavía no."
+  },
+  "guion-2026-11-24-2": {
+   "fecha": "2026-11-24",
+   "fuente": "https://www.ambito.com/finanzas/el-bcra-no-compro-dolares-segunda-rueda-fila-y-las-reservas-cayeron-al-menor-nivel-mas-un-mes-n6348885",
+   "guion": "GANCHO: \"El dólar mayorista hizo récord y el Central dejó de comprar.\"\n\n1. \"El mayorista cerró en 1.593 pesos: subió 13 en un solo día.\" (en pantalla: mayorista $1.593 récord)\n2. \"El Banco Central no compró dólares por segunda rueda seguida.\" (en pantalla: BCRA: 0 compras x2)\n3. \"Las reservas cayeron 618 millones y quedaron en 48.744 millones, lo más bajo en más de un mes.\" (en pantalla: reservas -US$618 M)\n4. \"Los pagos al exterior y la gente cubriéndose se llevaron los dólares del día.\" (en pantalla: cobertura + pagos afuera)\n\nMI LECTURA: si tenés que pagar una importación, cada peso que sube el mayorista te encarece la factura; mirá bien cuándo cerrás el tipo de cambio.\n\nCIERRE: \"¿Estás pagando afuera este mes? Guardalo.\"\n\nFUENTE para el caption: Ámbito, 24/11/2026.",
+   "kind": "guion",
+   "noticia": "Mayorista récord $1.593 (+$13 en el día); BCRA sin compras por segunda rueda (US$344 M en noviembre, US$16.312 M en 2026); reservas -US$618 M a US$48.744 M.",
+   "para": "Graciela",
+   "titulo": "El dólar mayorista hizo récord y el Central dejó de comprar."
+  },
+  "guion-2026-11-24-3": {
+   "fecha": "2026-11-24",
+   "fuente": "https://www.timeslive.co.za/news/world/2026-11-24-trump-administration-to-unveil-new-tariffs-on-imports/",
+   "guion": "GANCHO: \"Estados Unidos prepara aranceles nuevos a 16 países. Argentina no está.\"\n\n1. \"Es por una investigación sobre países que fabrican de más y venden barato.\" (en pantalla: sección 301)\n2. \"En la lista están China, la Unión Europea, India, Japón, México y Vietnam, entre otros.\" (en pantalla: 16 países)\n3. \"Todavía no se saben las tasas ni qué productos zafan.\" (en pantalla: tasas: ¿?)\n4. \"Argentina y Brasil no figuran.\" (en pantalla: Argentina ✗ en la lista)\n\nMI LECTURA: si a esos países les cuesta más venderle a Estados Unidos, parte de esa mercadería puede venir para acá más barata, y lo argentino gana lugar allá.\n\nCIERRE: \"¿Te parece una oportunidad o un problema? Comentá.\"\n\nFUENTE para el caption: Reuters vía TimesLIVE, 24/11/2026.",
+   "kind": "guion",
+   "noticia": "Según Reuters, EE.UU. anunciaría aranceles por sección 301 a 16 socios (China, UE, India, Japón, México, Vietnam y otros); tasas y exenciones sin conocer; Argentina y Brasil no figuran.",
+   "para": "Tomi",
+   "titulo": "Estados Unidos prepara aranceles nuevos a 16 países. Argentina no está."
   },
   "sem-2026-10-26": {
    "carruseles": [
