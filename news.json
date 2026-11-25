@@ -3,6 +3,52 @@
   "items": [
     {
       "fecha": "2026-11-25",
+      "categoria": "Mundo",
+      "titulo": "EE.UU. propone aranceles de hasta 35% a 14 economías por sobrecapacidad industrial; Argentina no está en la lista",
+      "resumen": "La oficina comercial de EE.UU. (USTR) determinó que 14 economías tienen prácticas sancionables por sección 301 y propuso aranceles adicionales: hasta 35% para Vietnam (20% si firma un acuerdo), hasta 25% para India (17% con acuerdo), hasta 20% para China y Singapur, hasta 18% para Bangladesh, Camboya, Indonesia, Malasia y Tailandia, y 15% para la Unión Europea, Japón, Corea, Suiza y Taiwán. México y Noruega quedaron afuera por ahora. Los comentarios escritos y pedidos de audiencia vencen el 5 de enero de 2027 y las audiencias empiezan el 25 de enero de 2027. Argentina no figura entre los países alcanzados.",
+      "porque": "Si EE.UU. encarece lo que llega de Asia y Europa, esos proveedores van a buscar otros mercados con precios más bajos, y los productos argentinos ganan competitividad relativa para vender en EE.UU.",
+      "claves": [
+        "hasta 35% para Vietnam",
+        "Los comentarios escritos y pedidos de audiencia vencen el 5 de enero de 2027",
+        "Argentina no figura entre los países alcanzados"
+      ],
+      "fuentes": [
+        {
+          "nombre": "USTR (oficial)",
+          "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+          "oficial": true
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Media",
+      "impacto": "Si importás de Asia, puede haber más oferta y mejores precios de proveedores que pierdan mercado en EE.UU.; si exportás a EE.UU., tus competidores asiáticos podrían pagar más arancel que vos.",
+      "vence": "2027-01-05",
+      "agregado": "2026-11-25T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-25",
+      "categoria": "Acuerdos",
+      "titulo": "Mercosur: Argentina renueva por un año aranceles bajos para importar aceite de palma, un medicamento y un insumo del caucho",
+      "resumen": "El Boletín Oficial publicó la incorporación de las Directivas 204/2026, 205/2026 y 210/2026 de la Comisión de Comercio del Mercosur, que renuevan rebajas arancelarias por razones de abastecimiento durante 365 días: un acelerador de vulcanización (NCM 3812.10.00) con alícuota de 2% y cupo de 120 toneladas; un medicamento con abemaciclib (NCM 3004.90.69) con 0% y cupo de 110.000 unidades; y aceite de palma de grado alimenticio (NCM 1511.90.00) con 2% y cupo de 1.134 toneladas.",
+      "porque": "Son cupos con arancel reducido: quien importa esas posiciones puede pagar 0% o 2% en lugar del arancel externo común mientras haya cupo disponible.",
+      "claves": [
+        "renuevan rebajas arancelarias por razones de abastecimiento durante 365 días",
+        "aceite de palma de grado alimenticio (NCM 1511.90.00) con 2% y cupo de 1.134 toneladas"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Economis",
+          "url": "https://economis.com.ar/argentina-renovo-beneficios-arancelarios-para-importar/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Media",
+      "impacto": "Si importás alguna de esas tres posiciones NCM, consultá con tu despachante cómo acceder al cupo antes de que se agote.",
+      "agregado": "2026-11-25T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-25",
       "categoria": "Exportación",
       "titulo": "Agroindustria: exportaciones de US$47.802 millones hasta octubre, 14,2% más que en 2025",
       "resumen": "Según el informe mensual del Consejo Agroindustrial Argentino (CAA), con asistencia técnica de la Bolsa de Cereales, las exportaciones agroindustriales sumaron US$47.802 millones entre enero y octubre de 2026, un 14,2% más que un año antes (US$5.926 millones adicionales). En octubre fueron US$5.460 millones, 21,3% más. Lideraron el maíz (US$7.766,3 millones, +31,2%), la carne y cuero vacuno (US$4.674,3 millones, +34,3%), el trigo (+33,2%) y el girasol (+77,7%); el porcino fue el que más creció (+91,8%). La soja quedó casi igual (-0,5%) y el complejo sucroalcoholero cayó 38,9%. El tipo de cambio real multilateral bajó 2% respecto de septiembre.",
