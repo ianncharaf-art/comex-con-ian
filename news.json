@@ -1,6 +1,51 @@
 {
-  "actualizado": "2026-11-24",
+  "actualizado": "2026-11-25",
   "items": [
+    {
+      "fecha": "2026-11-25",
+      "categoria": "Exportación",
+      "titulo": "Agroindustria: exportaciones de US$47.802 millones hasta octubre, 14,2% más que en 2025",
+      "resumen": "Según el informe mensual del Consejo Agroindustrial Argentino (CAA), con asistencia técnica de la Bolsa de Cereales, las exportaciones agroindustriales sumaron US$47.802 millones entre enero y octubre de 2026, un 14,2% más que un año antes (US$5.926 millones adicionales). En octubre fueron US$5.460 millones, 21,3% más. Lideraron el maíz (US$7.766,3 millones, +31,2%), la carne y cuero vacuno (US$4.674,3 millones, +34,3%), el trigo (+33,2%) y el girasol (+77,7%); el porcino fue el que más creció (+91,8%). La soja quedó casi igual (-0,5%) y el complejo sucroalcoholero cayó 38,9%. El tipo de cambio real multilateral bajó 2% respecto de septiembre.",
+      "porque": "El agro sigue siendo la principal fuente de dólares, pero con un tipo de cambio real que se aprecia la competitividad de los exportadores depende cada vez más del precio internacional.",
+      "claves": [
+        "US$47.802 millones entre enero y octubre de 2026, un 14,2% más",
+        "el porcino fue el que más creció (+91,8%)",
+        "El tipo de cambio real multilateral bajó 2% respecto de septiembre"
+      ],
+      "fuentes": [
+        {
+          "nombre": "deCampoNoticias (informe CAA)",
+          "url": "https://www.decamponoticias.com/exportaciones-agroindustriales-en-2026/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Si exportás alimentos, mirá qué complejos crecen (maíz, carne, trigo, girasol, porcino): son los mercados donde hay más demanda hoy.",
+      "agregado": "2026-11-25T07:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-24",
+      "categoria": "Mundo",
+      "titulo": "Petróleo: el Brent baja a US$91 pese a nuevos ataques en Ormuz, que opera al 49% de lo normal",
+      "resumen": "El Brent cayó 0,4% a US$91,04 por barril y el WTI 0,5% a US$81,66, presionados por la mayor oferta y mercados de combustibles más débiles, según Angel One. La operadora UKMTO informó tres buques más alcanzados por proyectiles al cruzar Ormuz y la agencia Fars dijo que otro petrolero chocó con una mina el martes. Según ANZ, el tránsito por el estrecho está al 49% de lo normal.",
+      "porque": "Aunque el exceso de oferta frena el precio, el riesgo en Ormuz sigue alto: el Brent arriba de US$90 mantiene caros el combustible marítimo y los fletes que pagan los importadores argentinos.",
+      "claves": [
+        "el tránsito por el estrecho está al 49% de lo normal",
+        "el Brent arriba de US$90 mantiene caros el combustible marítimo y los fletes"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Angel One",
+          "url": "https://www.angelone.in/news/commodities/crude-oil-prices-fall-today-as-hormuz-attacks-mount-supply-concerns-and-weak-fuel-markets-weigh-november-25-2026",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Informativa",
+      "impacto": "Si cotizás fletes, el recargo por combustible (BAF) va a seguir alto mientras el Brent se mantenga arriba de US$90.",
+      "agregado": "2026-11-25T07:58:00-03:00"
+    },
     {
       "fecha": "2026-11-24",
       "categoria": "Dólar",
@@ -1245,172 +1290,6 @@
       "urgencia": "Media",
       "impacto": "Al cotizar fletes, pedí el desglose del BAF (recargo por combustible): es la parte que más se mueve con Ormuz.",
       "agregado": "2026-11-16T07:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-15",
-      "categoria": "Exportación",
-      "titulo": "FIEL: las exportaciones ya superan los USD 100.000 millones en 12 meses y parte del superávit irá a pagar deuda",
-      "resumen": "Marcela Cristini, economista de FIEL, dijo que en los 12 meses hasta septiembre las exportaciones argentinas \"ya superamos el hito de los USD 100.000 millones\" y que el valor exportado crece a dos dígitos en los últimos dos años. Argentina vende a más de 120 países. Advirtió que, como la deuda pública cuesta renovarse, parte del saldo comercial se usará para pagar deuda mediante compras del Tesoro al Banco Central. Para 2027 espera \"probablemente, un nuevo año de crecimiento exportador\".",
-      "porque": "Los dólares del superávit comercial no quedan todos disponibles para importar: una parte se va al pago de deuda, y eso influye en el tipo de cambio.",
-      "claves": [
-        "USD 100.000 millones",
-        "más de 120 países",
-        "parte del saldo comercial se usará para pagar deuda"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Infobae",
-          "url": "https://www.infobae.com/economia/2026/11/15/marcela-cristini-economista-de-fiel-parte-del-saldo-comercial-tendra-como-destino-el-pago-de-la-deuda-externa/",
-          "oficial": false
-        }
-      ],
-      "sector": "BCRA / Cambiario",
-      "urgencia": "Informativa",
-      "impacto": "Para estudiar: muestra cómo se conectan exportaciones, reservas y deuda en la economía argentina.",
-      "agregado": "2026-11-15T19:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-15",
-      "categoria": "Acuerdos",
-      "titulo": "Paraguay exportó 25% más hasta octubre y tiene superávit comercial de USD 668 millones",
-      "resumen": "Paraguay exportó USD 17.815,6 millones entre enero y octubre de 2026, un 25% más que un año antes, con granos, aceite y harina de soja como principales productos. Las reexportaciones sumaron USD 4.444,1 millones y la maquila USD 1.300,2 millones (+26,4%). Las importaciones llegaron a USD 17.147,1 millones (+14,5%) y el saldo fue un superávit de USD 668,6 millones.",
-      "porque": "Paraguay es socio del Mercosur y compite con Argentina en soja; además, su régimen de maquila y las reexportaciones lo convierten en un centro logístico de la región.",
-      "claves": [
-        "un 25% más",
-        "superávit de USD 668,6 millones",
-        "su régimen de maquila"
-      ],
-      "fuentes": [
-        {
-          "nombre": "La Tribuna (Paraguay)",
-          "url": "https://www.latribuna.com.py/negocios/economia/2026/11/15/las-exportaciones-e-importaciones-con-repuntes-a-final-de-octubre/",
-          "oficial": false
-        }
-      ],
-      "sector": "Mercosur y Acuerdos",
-      "urgencia": "Informativa",
-      "impacto": "Para estudiar: la maquila paraguaya es un modelo que usan empresas de la región para producir y exportar con menos costos.",
-      "agregado": "2026-11-15T19:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-15",
-      "categoria": "Mundo",
-      "titulo": "Irán dice que se hundió un superpetrolero con más de 2 millones de barriles tras chocar con una mina en Ormuz",
-      "resumen": "La Guardia Revolucionaria de Irán afirmó que un superpetrolero que llevaba \"más de dos millones de barriles\" de crudo chocó con una mina, se incendió y se hundió en aguas del sur del Golfo, mientras navegaba por una ruta \"no autorizada\". No dio el nombre ni el origen del barco y no hay confirmación independiente. El centro marítimo británico UKMTO dijo que la tripulación está a salvo y que se desconocen los daños y el impacto ambiental.",
-      "porque": "Si se confirma, sería el incidente más grave de la semana en Ormuz: cada ataque empuja los seguros de guerra y el combustible marítimo, que se trasladan al flete.",
-      "claves": [
-        "más de dos millones de barriles",
-        "no hay confirmación independiente",
-        "se trasladan al flete"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Gulf News",
-          "url": "https://gulfnews.com/world/mena/iran-says-supertanker-with-2-million-barrels-of-oil-sank-in-gulf-1.500748289",
-          "oficial": false
-        }
-      ],
-      "sector": "Mundo",
-      "urgencia": "Media",
-      "impacto": "Si cotizás fletes esta semana, preguntá si hay recargos nuevos por riesgo de guerra o combustible antes de cerrar.",
-      "agregado": "2026-11-15T11:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-15",
-      "categoria": "Acuerdos",
-      "titulo": "Singapur le propone a Lula retomar un acuerdo Mercosur-ASEAN en la cumbre de Manila",
-      "resumen": "En la cumbre del ASEAN que empezó el 15 de noviembre en Manila, el primer ministro de Singapur, Lawrence Wong, le sugirió a Lula retomar la negociación de un acuerdo entre el Mercosur y el ASEAN, según el Palacio del Planalto. También repasaron la aplicación del tratado de libre comercio Mercosur-Singapur. El comercio de Brasil con el ASEAN fue de US$38.400 millones en 2025. Lula dijo que, tras los aranceles de Trump, el comercio con EE.UU. bajó al 9,2% del total brasileño.",
-      "porque": "Un acuerdo Mercosur-ASEAN abriría con menos aranceles un mercado de unos 700 millones de personas también para las exportaciones argentinas.",
-      "claves": [
-        "retomar la negociación de un acuerdo entre el Mercosur y el ASEAN",
-        "US$38.400 millones en 2025",
-        "bajó al 9,2% del total brasileño"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Brasil 247 (nota del Planalto)",
-          "url": "https://www.brasil247.com/geral/premie-de-singapura-sugere-a-lula-acordo-mercosul-asean/",
-          "oficial": false
-        },
-        {
-          "nombre": "Clash Report",
-          "url": "https://clashreport.com/world/articles/lula-says-u-s-tariffs-cut-american-share-of-brazil-s-trade-to-9-2-jq718fowfvp",
-          "oficial": false
-        }
-      ],
-      "sector": "Mercosur y Acuerdos",
-      "urgencia": "Informativa",
-      "impacto": "Es solo una propuesta, sin fecha: seguila si exportás o pensás exportar al Sudeste Asiático.",
-      "agregado": "2026-11-15T11:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-15",
-      "categoria": "Exportación",
-      "titulo": "Tucumán exportó US$833 millones en 2026: el limón explica más de la mitad",
-      "resumen": "Tucumán exportó US$833,4 millones entre enero y septiembre de 2026, un 19,7% más que un año antes. El complejo citrícola representa el 55,2% del total: limones frescos (US$183,3 millones), jugos concentrados (US$150,4 millones) y aceites esenciales de limón (US$126,7 millones). La Unión Europea compró el 30,1% y Estados Unidos el 25%, con una suba de 36,2%.",
-      "porque": "Es un ejemplo de exportación regional con valor agregado: del limón salen tres productos distintos para mercados exigentes como la UE y EE.UU.",
-      "claves": [
-        "US$833,4 millones",
-        "El complejo citrícola representa el 55,2% del total",
-        "del limón salen tres productos distintos"
-      ],
-      "fuentes": [
-        {
-          "nombre": "El Tucumano (vía Examedia)",
-          "url": "https://examedia.com.ar/portada/post/88241840",
-          "oficial": false
-        }
-      ],
-      "sector": "Mercosur y Acuerdos",
-      "urgencia": "Informativa",
-      "impacto": "Para estudiar: buen caso de cómo un mismo producto se exporta fresco, como jugo y como aceite esencial.",
-      "agregado": "2026-11-15T11:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-15",
-      "categoria": "Exportación",
-      "titulo": "China compra el 60% del volumen de carne vacuna que exporta Argentina, pero paga el 40% del valor",
-      "resumen": "Según el presidente del IPCVA, Georges Breitschmitt, China sigue siendo el principal mercado de la carne vacuna argentina: se lleva cerca del 60% del volumen exportado, pero representa alrededor del 40% del valor. La diferencia muestra que a China van cortes de menor precio, mientras otros destinos pagan más por kilo.",
-      "porque": "Explica una idea clave del comercio exterior: no siempre el mercado que más compra es el que más paga; diversificar destinos mejora el precio promedio.",
-      "claves": [
-        "cerca del 60% del volumen exportado",
-        "alrededor del 40% del valor",
-        "no siempre el mercado que más compra es el que más paga"
-      ],
-      "fuentes": [
-        {
-          "nombre": "El Tribuno (vía Examedia)",
-          "url": "https://examedia.com.ar/portada/post/88242482",
-          "oficial": false
-        }
-      ],
-      "sector": "Mercosur y Acuerdos",
-      "urgencia": "Informativa",
-      "impacto": "Si analizás un mercado de exportación, mirá volumen y valor por separado: el precio por kilo cambia mucho según el destino.",
-      "agregado": "2026-11-15T11:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-15",
-      "categoria": "Mundo",
-      "titulo": "La IA empuja el comercio mundial: los bienes para inteligencia artificial crecen 55% pese a los aranceles",
-      "resumen": "Según The Economist (publicado por La Nación), el valor del comercio mundial creció 18% interanual en los primeros ocho meses de 2026, aunque las medidas comerciales restrictivas aumentaron más del 60% en 2025 según un índice de economistas de la OMC y el FMI. El motor es la inteligencia artificial: el comercio de bienes de IA subió 55% y ya es cerca de una cuarta parte de las importaciones mundiales, frente al 15% en 2023. En EE.UU., las importaciones de bienes de IA subieron 69% mientras el resto cayó 10%, porque el 97% del hardware informático entra con exenciones arancelarias.",
-      "porque": "Muestra cómo funcionan las exenciones: los gobiernos ponen aranceles altos en general pero liberan lo que necesitan, y eso cambia qué productos y qué países ganan en el comercio mundial.",
-      "claves": [
-        "creció 18% interanual",
-        "el comercio de bienes de IA subió 55%",
-        "el 97% del hardware informático entra con exenciones arancelarias"
-      ],
-      "fuentes": [
-        {
-          "nombre": "La Nación (The Economist)",
-          "url": "https://www.lanacion.com.ar/economia/la-inteligencia-artificial-esta-convirtiendo-a-los-proteccionistas-en-librecambistas-nid15112026/",
-          "oficial": false
-        }
-      ],
-      "sector": "Mundo",
-      "urgencia": "Informativa",
-      "impacto": "Para estudiar: buen ejemplo de que un arancel general casi nunca es parejo; siempre mirá las exenciones por posición arancelaria.",
-      "agregado": "2026-11-15T07:58:00-03:00"
     }
   ]
 }
