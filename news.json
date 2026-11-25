@@ -3,6 +3,51 @@
   "items": [
     {
       "fecha": "2026-11-25",
+      "categoria": "Dólar",
+      "titulo": "Dólar mayorista en nuevo récord de $1.604 y el BCRA suma tres ruedas sin comprar",
+      "resumen": "El dólar mayorista cerró en $1.604, con una suba de $11 y su séptima alza consecutiva; tocó un máximo de $1.614,50. El Banco Central no compró dólares por tercera rueda seguida: en noviembre acumula US$344 millones. Las reservas subieron US$4 millones, a US$48.748 millones. Según Ámbito, la mayor demanda de cobertura, los pagos al exterior y los vencimientos financieros redujeron el excedente de divisas. En futuros se operaron US$2.917 millones, más de cuatro veces el volumen de contado.",
+      "porque": "Siete subas seguidas del mayorista encarecen día a día los pagos de importación, y el volumen en futuros muestra que las empresas se están cubriendo ante más suba.",
+      "claves": [
+        "El dólar mayorista cerró en $1.604",
+        "su séptima alza consecutiva",
+        "El Banco Central no compró dólares por tercera rueda seguida"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Ámbito",
+          "url": "https://www.ambito.com/finanzas/en-medio-la-tension-cambiaria-el-bcra-dejo-las-compras-pausa-tecera-rueda-consecutiva-n6349347",
+          "oficial": false
+        }
+      ],
+      "sector": "BCRA / Cambiario",
+      "urgencia": "Media",
+      "impacto": "Si tenés que pagar importaciones en las próximas semanas, evaluá con tu banco cubrirte con futuros: es lo que está haciendo buena parte del mercado.",
+      "agregado": "2026-11-25T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-25",
+      "categoria": "Exportación",
+      "titulo": "Maíz: las exportaciones argentinas crecen 41% hasta octubre mientras las de Brasil caen 24%",
+      "resumen": "Las exportaciones argentinas de maíz crecieron 41% interanual entre enero y octubre, mientras las de Brasil cayeron 24% en el mismo período, según el analista Dante Romano, del Centro de Agronegocios y Alimentos de la Universidad Austral. La siembra de maíz temprano avanza en el 39,8% de las 8,4 millones de hectáreas proyectadas. La baja de los precios internacionales moderó las ventas locales.",
+      "porque": "Argentina le gana mercado a Brasil en maíz, uno de los complejos que más dólares aporta; con precios internacionales en baja, el volumen es lo que sostiene el ingreso de divisas.",
+      "claves": [
+        "crecieron 41% interanual entre enero y octubre",
+        "mientras las de Brasil cayeron 24%"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Radio Rafaela",
+          "url": "https://radiorafaela.com.ar/nuestro-campo/argentina-arraso-en-el-mercado-mundial-de-maiz-con-un-crecimiento-del-41-en-sus-exportaciones",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Buen ejemplo para estudiar cómo dos competidores del Mercosur se disputan el mismo mercado mundial de granos.",
+      "agregado": "2026-11-25T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-25",
       "categoria": "Mundo",
       "titulo": "EE.UU. propone aranceles de hasta 35% a 14 economías por sobrecapacidad industrial; Argentina no está en la lista",
       "resumen": "La oficina comercial de EE.UU. (USTR) determinó que 14 economías tienen prácticas sancionables por sección 301 y propuso aranceles adicionales: hasta 35% para Vietnam (20% si firma un acuerdo), hasta 25% para India (17% con acuerdo), hasta 20% para China y Singapur, hasta 18% para Bangladesh, Camboya, Indonesia, Malasia y Tailandia, y 15% para la Unión Europea, Japón, Corea, Suiza y Taiwán. México y Noruega quedaron afuera por ahora. Los comentarios escritos y pedidos de audiencia vencen el 5 de enero de 2027 y las audiencias empiezan el 25 de enero de 2027. Argentina no figura entre los países alcanzados.",
