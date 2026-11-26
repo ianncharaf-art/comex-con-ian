@@ -1,6 +1,29 @@
 {
-  "actualizado": "2026-11-25",
+  "actualizado": "2026-11-26",
   "items": [
+    {
+      "fecha": "2026-11-26",
+      "categoria": "Mundo",
+      "titulo": "Brent a US$93,75 y WTI a US$83,34: tensión en Medio Oriente y la OPEP+ se reúne el 29/11",
+      "resumen": "El Brent cotizó a US$93,75 por barril y el WTI bajó US$0,34 (0,41%) a US$83,34. Pesan las tensiones en Medio Oriente por posibles cortes de suministro, mientras la expectativa de sobreoferta frena la suba. Los inventarios de EE.UU. subieron 1,1 millones de barriles hasta 418,9 millones. La OPEP+ se reúne el 29 de noviembre para definir la producción de 2027.",
+      "porque": "El petróleo caro encarece fletes marítimos y aéreos y el combustible del transporte interno: revisá cotizaciones de flete y recargos por bunker antes de cerrar operaciones.",
+      "claves": [
+        "El Brent cotizó a US$93,75 por barril",
+        "La OPEP+ se reúne el 29 de noviembre",
+        "revisá cotizaciones de flete y recargos por bunker"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Arbiterz",
+          "url": "https://arbiterz.com/oil-prices-today-brent-trades-at-93-75-wti-falls-to-83-34",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "media",
+      "impacto": "medio",
+      "agregado": "2026-11-26T07:58:00-03:00"
+    },
     {
       "fecha": "2026-11-25",
       "categoria": "Dólar",
@@ -1124,263 +1147,6 @@
       "urgencia": "Informativa",
       "impacto": "Si exportás a EE.UU., verificá qué arancel adicional aplica hoy a Argentina antes de cerrar precios.",
       "agregado": "2026-11-17T07:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-16",
-      "categoria": "Dólar",
-      "titulo": "El mayorista cerró en $1.551, nuevo máximo nominal, y el riesgo país subió a 855",
-      "resumen": "El dólar mayorista subió $7,50 (0,49%) y cerró en $1.551, un nuevo máximo nominal. El BCRA compró u$s33 millones y acumula u$s256 millones en noviembre, pero las reservas brutas cayeron u$s133 millones, a u$s49.464 millones. El riesgo país subió 25 puntos, a 855, y el Merval cayó 4,3% en pesos.",
-      "porque": "Un mayorista en máximos encarece en pesos cada importación que se paga: conviene recalcular costos con el tipo de cambio del día.",
-      "claves": [
-        "cerró en $1.551, un nuevo máximo nominal",
-        "u$s256 millones en noviembre",
-        "recalcular costos con el tipo de cambio del día"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Ámbito",
-          "url": "https://www.ambito.com/finanzas/el-bcra-ya-compro-mas-us250-millones-noviembre-pero-las-reservas-siguen-recuperarse-n6345865",
-          "oficial": false
-        },
-        {
-          "nombre": "La Capital",
-          "url": "https://www.lacapital.com.ar/economia/mercados-cayeron-las-acciones-y-los-bonos-el-riesgo-pais-salto-855-puntos-y-el-dolar-volvio-subir-n10292518.html",
-          "oficial": false
-        }
-      ],
-      "sector": "BCRA / Cambiario",
-      "urgencia": "Media",
-      "impacto": "Para cotizar mañana, tomá $1.551 como base del mayorista y sumá un margen: la tendencia de la semana es de suba.",
-      "agregado": "2026-11-16T19:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-16",
-      "categoria": "Exportación",
-      "titulo": "Récord del agro: Argentina exportó más de 101 millones de toneladas en diez meses",
-      "resumen": "Según un informe de la Bolsa de Comercio de Rosario, entre enero y octubre de 2026 Argentina exportó más de 101 millones de toneladas de granos y subproductos, un 13% más que el año anterior y unos 10 millones de toneladas por encima del récord previo. El maíz sumó 37,1 millones de toneladas, el trigo 14,5 millones (+45%) y el complejo girasol más de 6,7 millones. Solo el 68,8% de la producción 2025/26 estaba comprometida, el nivel más bajo de la serie para esta época.",
-      "porque": "Más volumen exportado significa más demanda de camiones, puertos y barcos en el Gran Rosario: la logística granaria va a estar exigida.",
-      "claves": [
-        "más de 101 millones de toneladas",
-        "un 13% más",
-        "Solo el 68,8% de la producción 2025/26 estaba comprometida"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Será Noticia / MDZ (vía Examedia)",
-          "url": "https://examedia.com.ar/portada/post/88246126",
-          "oficial": false
-        }
-      ],
-      "sector": "Logística y Fletes",
-      "urgencia": "Informativa",
-      "impacto": "Si trabajás en logística, todavía queda mucha cosecha sin vender: el movimiento en puertos seguirá alto los próximos meses.",
-      "agregado": "2026-11-16T19:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-16",
-      "categoria": "Mundo",
-      "titulo": "Ormuz: el UKMTO confirma dos ataques a petroleros el lunes, uno quedó sin propulsión",
-      "resumen": "El centro marítimo británico UKMTO reportó dos ataques a buques en Ormuz el 16 de noviembre. Uno, que salía del estrecho, fue alcanzado por un \"proyectil no identificado\" y tuvo un incendio en la sala de máquinas. Otro quedó inmovilizado con fuego en la sala de máquinas a unas siete millas náuticas al norte de Khasab, Omán. Las tripulaciones están a salvo. El UKMTO no identificó los barcos ni a los responsables.",
-      "porque": "Esta vez los ataques los confirma una fuente independiente, no solo Irán: el riesgo real sigue alto y los recargos de guerra y combustible seguirán en los fletes.",
-      "claves": [
-        "proyectil no identificado",
-        "Las tripulaciones están a salvo",
-        "los recargos de guerra y combustible seguirán en los fletes"
-      ],
-      "fuentes": [
-        {
-          "nombre": "gCaptain",
-          "url": "https://gcaptain.com/ukmto-reports-two-tanker-attacks-in-strait-of-hormuz/",
-          "oficial": false
-        }
-      ],
-      "sector": "Mundo",
-      "urgencia": "Media",
-      "impacto": "Si tu carga viene por rutas que tocan Medio Oriente, pedile a tu forwarder un plan B de ruta y tiempos.",
-      "agregado": "2026-11-16T19:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-16",
-      "categoria": "Mundo",
-      "titulo": "Carney: Canadá podría recurrir a automotrices chinas si fracasa el acuerdo con EE.UU.",
-      "resumen": "El primer ministro canadiense, Mark Carney, dijo desde Camboya que Canadá podría buscar inversiones de automotrices chinas si las negociaciones con EE.UU. no preservan una industria automotriz integrada en Norteamérica, aunque exigiría fabricación real en Canadá y no solo ensamblado. En enero, Canadá había bajado el arancel a los eléctricos chinos de 100% a 6,1%, con un cupo inicial de 49.000 vehículos por año, a cambio de que China bajara aranceles a productos agrícolas como la canola. La Casa Blanca lo criticó.",
-      "porque": "Es un ejemplo de negociación con aranceles y cupos: Canadá abrió autos a cambio de vender más agro a China, un intercambio que también se discute para el Mercosur.",
-      "claves": [
-        "de 100% a 6,1%",
-        "cupo inicial de 49.000 vehículos por año",
-        "abrió autos a cambio de vender más agro"
-      ],
-      "fuentes": [
-        {
-          "nombre": "The Boston Globe (AP)",
-          "url": "https://www.bostonglobe.com/2026/11/16/business/us-canada-trade-china/",
-          "oficial": false
-        }
-      ],
-      "sector": "Mundo",
-      "urgencia": "Informativa",
-      "impacto": "Para estudiar: buen caso de cómo un país usa un cupo arancelario como moneda de cambio para abrir mercados a sus exportaciones.",
-      "agregado": "2026-11-16T19:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-16",
-      "categoria": "ARCA · Aduana",
-      "titulo": "ARCA habilitó un nuevo depósito fiscal de 19.400 m² en Lanús para importación y exportación",
-      "resumen": "Por la Resolución 167/2026 de la Subdirección General de Operaciones Aduaneras Metropolitanas, publicada hoy en el Boletín Oficial, ARCA habilitó como depósito fiscal general a Depósito Moreiro Hnos S.R.L., en Lanús, con una superficie de 19.425,73 m². Sirve para operaciones de importación y exportación y para mercadería registrada en otras aduanas. La habilitación es por 10 años, renovables de forma no automática, y queda bajo control de la Aduana de Buenos Aires.",
-      "porque": "Un depósito fiscal permite guardar mercadería sin nacionalizarla todavía: más oferta de depósitos en el AMBA puede dar más opciones de almacenaje a los importadores.",
-      "claves": [
-        "19.425,73 m²",
-        "por 10 años",
-        "sin nacionalizarla todavía"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Boletín Oficial — Resolución 167/2026 ARCA",
-          "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/350331/20261116",
-          "oficial": true
-        }
-      ],
-      "sector": "ARCA / Aduana",
-      "urgencia": "Informativa",
-      "impacto": "Si importás por Buenos Aires, sumá este depósito a la lista para cotizar almacenaje fiscal y comparar costos.",
-      "agregado": "2026-11-16T11:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-16",
-      "categoria": "Mundo",
-      "titulo": "Récord de importaciones en EE.UU.: 2,67 millones de TEU en octubre y más demoras en los puertos",
-      "resumen": "Según datos de Descartes publicados por FreightWaves, EE.UU. importó 2.674.808 TEU en octubre de 2026, un récord que supera el máximo de mayo de 2022. Es 5% más que en septiembre y 16% más que un año antes. Desde China llegaron 987.805 TEU (+22,9% interanual), el 36,9% del total. La demora promedio en 10 puertos subió a 6,3 días, frente a 4,2 días en junio.",
-      "porque": "Cuando EE.UU. importa a ritmo récord, las navieras priorizan esas rutas y escasean barcos y contenedores en otras, lo que puede encarecer fletes desde Asia hacia Sudamérica.",
-      "claves": [
-        "2.674.808 TEU en octubre de 2026",
-        "subió a 6,3 días",
-        "puede encarecer fletes desde Asia hacia Sudamérica"
-      ],
-      "fuentes": [
-        {
-          "nombre": "FreightWaves (datos Descartes)",
-          "url": "https://www.freightwaves.com/news/u-s-container-imports-hit-record-2-67-million-teus-in-october-as-port-delays-rise",
-          "oficial": false
-        }
-      ],
-      "sector": "Logística y Fletes",
-      "urgencia": "Media",
-      "impacto": "Si traés contenedores desde China, reservá espacio con anticipación: la demanda de EE.UU. compite por los mismos barcos.",
-      "agregado": "2026-11-16T11:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-16",
-      "categoria": "Mundo",
-      "titulo": "Sheinbaum viaja a APEC con un comercio México-China de US$117.000 millones y aranceles de hasta 50% a Asia",
-      "resumen": "La presidenta de México, Claudia Sheinbaum, viaja a Shenzhen para la cumbre APEC (actividades oficiales del 17 al 19 de noviembre) y se reunirá con Xi Jinping. Entre enero y septiembre, el comercio México-China sumó US$117.080 millones (+12,8%), con un déficit mexicano de US$94.878 millones. Desde enero, México aplica aranceles de 5% a 50% en 1.463 fracciones de 17 sectores a países sin tratado, como calzado, juguetes y autos, lo que golpea sobre todo a China.",
-      "porque": "México es un caso testigo: sube aranceles a China para proteger su industria y cumplir con EE.UU., pero sigue dependiendo de sus insumos. Argentina hace lo contrario: abre importaciones.",
-      "claves": [
-        "aranceles de 5% a 50% en 1.463 fracciones",
-        "déficit mexicano de US$94.878 millones",
-        "Argentina hace lo contrario"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Expansión",
-          "url": "https://expansion.mx/economia/2026/11/16/sheinbaum-xi-jinping-apec-comercio-mexico-china",
-          "oficial": false
-        }
-      ],
-      "sector": "Mundo",
-      "urgencia": "Informativa",
-      "impacto": "Para estudiar: compará la política arancelaria de México con la argentina; si exportás a México, revisá si tu producto tiene preferencia por ACE con Argentina.",
-      "agregado": "2026-11-16T11:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-16",
-      "categoria": "ARCA · Aduana",
-      "titulo": "Desde hoy las pymes pueden sumar deudas con ARCA a un plan de hasta 18 cuotas",
-      "resumen": "Desde el lunes 16 de noviembre, ARCA habilita la adhesión al plan anunciado por Luis Caputo: se pueden incluir en Mis Facilidades las obligaciones vencidas hasta el 31 de octubre. Micro y pequeñas empresas acceden a hasta 18 cuotas (medianas, hasta 15) y en retenciones y percepciones a hasta 9 (medianas, hasta 7). El pago a cuenta es de 5% para micro y pequeñas y de 10% para medianas, con una tasa de 2,75% mensual. Hace falta certificado MiPyME vigente. Los embargos están suspendidos hasta mayo de 2027.",
-      "porque": "Muchas pymes que importan o exportan tienen deudas fiscales: regularizarlas evita embargos y trabas para operar.",
-      "claves": [
-        "vencidas hasta el 31 de octubre",
-        "hasta 18 cuotas",
-        "certificado MiPyME vigente"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Infobae",
-          "url": "https://www.infobae.com/economia/2026/11/16/entra-en-vigencia-este-lunes-un-plan-de-arca-con-el-que-economia-busca-ayudar-a-las-pyme/",
-          "oficial": false
-        }
-      ],
-      "sector": "Régimen Courier / PyMEs",
-      "urgencia": "Alta",
-      "impacto": "Si tu empresa tiene deudas con ARCA vencidas hasta octubre, revisá con tu contador si conviene entrar: la tasa es de 2,75% mensual y necesitás el certificado MiPyME al día.",
-      "agregado": "2026-11-16T07:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-16",
-      "categoria": "Dólar",
-      "titulo": "La brecha con el contado con liquidación llega al 7,7%",
-      "resumen": "El dólar mayorista ronda los $1.550 y el contado con liquidación (CCL) cerca de $1.670: una brecha de $120, o 7,7%. En el último mes el oficial subió 1,8% y el CCL 3,5%, según Balanz. El dólar oficial subió solo 6% en lo que va del año, unos 20 puntos menos que la inflación.",
-      "porque": "Cuando la brecha crece, los exportadores tienen menos incentivo para liquidar y los importadores enfrentan expectativas de suba del dólar.",
-      "claves": [
-        "una brecha de $120, o 7,7%",
-        "menos incentivo para liquidar"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Infobae",
-          "url": "https://www.infobae.com/economia/2026/11/16/por-que-crece-la-brecha-entre-el-dolar-oficial-y-las-cotizaciones-financieras/",
-          "oficial": false
-        }
-      ],
-      "sector": "BCRA / Cambiario",
-      "urgencia": "Media",
-      "impacto": "Si tenés que pagar importaciones en las próximas semanas, seguí la brecha: si sigue subiendo, conviene no dejar todo para último momento.",
-      "agregado": "2026-11-16T07:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-16",
-      "categoria": "Dólar",
-      "titulo": "Riesgo país en 800: el Gobierno usará más compras al BCRA para pagar US$4.400 millones en enero",
-      "resumen": "Con el riesgo país cerca de 800 puntos y la emisión de Bonares suspendida desde agosto, el Tesoro recurre a comprarle dólares al BCRA: ya superó su límite de US$6.700 millones para 2026 y compró US$160 millones extra. Antes de fin de año vencen unos US$1.000 millones con organismos multilaterales y a principios de enero unos US$4.400 millones con bonistas. Las compras del Tesoro explican más del 40% de los más de US$16.000 millones que compró el BCRA este año.",
-      "porque": "Si el Tesoro necesita más dólares del BCRA para pagar deuda, hay menos margen para acumular reservas, algo que pesa en la estabilidad del dólar para importar.",
-      "claves": [
-        "unos US$4.400 millones con bonistas",
-        "más del 40% de los más de US$16.000 millones",
-        "menos margen para acumular reservas"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Bloomberg Línea",
-          "url": "https://www.bloomberglinea.com/latinoamerica/argentina/riesgo-pais-argentino-en-800-puntos-hace-retocar-el-programa-financiero-con-mas-compras-al-bcra/",
-          "oficial": false
-        }
-      ],
-      "sector": "BCRA / Cambiario",
-      "urgencia": "Informativa",
-      "impacto": "Para seguir: los pagos de enero pueden mover el dólar financiero; si importás, tenelo en el calendario.",
-      "agregado": "2026-11-16T07:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-16",
-      "categoria": "Mundo",
-      "titulo": "Irán dice que seis petroleros se incendiaron entre domingo y lunes en Ormuz; el Brent sigue en US$95",
-      "resumen": "La Guardia Revolucionaria de Irán dijo que dos petroleros chocaron con minas y explotaron el lunes, y que seis se incendiaron en incidentes similares entre domingo y lunes; Reuters no pudo verificarlo. El Brent subía 0,1% a US$95,89 y el WTI a US$88,65. La Agencia Internacional de Energía espera un excedente de 1,7 millones de barriles diarios en el cuarto trimestre, pero los fletes de petroleros siguen altos por el riesgo.",
-      "porque": "Los fletes de petroleros altos y el riesgo en Ormuz mantienen caro el combustible marítimo, que se traslada a cualquier flete hacia Argentina.",
-      "claves": [
-        "seis se incendiaron",
-        "US$95,89",
-        "se traslada a cualquier flete"
-      ],
-      "fuentes": [
-        {
-          "nombre": "AsiaOne (Reuters)",
-          "url": "https://www.asiaone.com/money/oil-edges-hormuz-tanker-incidents-highlight-shipping-risks",
-          "oficial": false
-        }
-      ],
-      "sector": "Mundo",
-      "urgencia": "Media",
-      "impacto": "Al cotizar fletes, pedí el desglose del BAF (recargo por combustible): es la parte que más se mueve con Ormuz.",
-      "agregado": "2026-11-16T07:58:00-03:00"
     }
   ]
 }
