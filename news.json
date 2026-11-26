@@ -3,6 +3,29 @@
   "items": [
     {
       "fecha": "2026-11-26",
+      "categoria": "Dólar",
+      "titulo": "El mayorista bajó a $1.601,50 tras siete subas y el BCRA lleva cuatro ruedas sin comprar",
+      "resumen": "El dólar mayorista cerró con una baja de $2,50 (0,2%) a $1.601,50 y cortó una serie de siete ruedas en alza, con un volumen de USD 506 millones. El BCRA no compró divisas por cuarto día. Las reservas brutas bajaron USD 15 millones a USD 48.733 millones, el piso desde el 2 de octubre. El dólar en Banco Nación cerró a $1.625 y el blue a $1.710.",
+      "porque": "Para importar, el tipo de cambio se tomó un respiro, pero sin compras del BCRA y con reservas en mínimos el mercado sigue tenso: conviene no dejar pagos al exterior para último momento.",
+      "claves": [
+        "cerró con una baja de $2,50 (0,2%) a $1.601,50",
+        "El BCRA no compró divisas por cuarto día",
+        "conviene no dejar pagos al exterior para último momento"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Infobae",
+          "url": "https://www.infobae.com/economia/2026/11/26/el-dolar-cedio-tras-siete-subas-consecutivas-y-repuntaron-las-acciones-y-los-bonos/",
+          "oficial": false
+        }
+      ],
+      "sector": "BCRA / Cambiario",
+      "urgencia": "Media",
+      "impacto": "Si tenés pagos de importación pendientes, el mayorista cerca de $1.600 es la referencia; con el BCRA sin comprar, la volatilidad puede volver.",
+      "agregado": "2026-11-26T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-26",
       "categoria": "Mundo",
       "titulo": "Brent a US$93,75 y WTI a US$83,34: tensión en Medio Oriente y la OPEP+ se reúne el 29/11",
       "resumen": "El Brent cotizó a US$93,75 por barril y el WTI bajó US$0,34 (0,41%) a US$83,34. Pesan las tensiones en Medio Oriente por posibles cortes de suministro, mientras la expectativa de sobreoferta frena la suba. Los inventarios de EE.UU. subieron 1,1 millones de barriles hasta 418,9 millones. La OPEP+ se reúne el 29 de noviembre para definir la producción de 2027.",
@@ -20,8 +43,8 @@
         }
       ],
       "sector": "Mundo",
-      "urgencia": "media",
-      "impacto": "medio",
+      "urgencia": "Media",
+      "impacto": "Si cotizás fletes o importás con flete a pagar, el petróleo arriba de US$90 sostiene recargos por combustible: pedí cotizaciones con validez corta.",
       "agregado": "2026-11-26T07:58:00-03:00"
     },
     {
