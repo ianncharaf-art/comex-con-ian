@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-25T12:14:35+00:00",
+ "actualizado": "2026-11-26T12:14:43+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -369,6 +369,24 @@
    "noticia": "Según Reuters, EE.UU. anunciaría aranceles por sección 301 a 16 socios (China, UE, India, Japón, México, Vietnam y otros); tasas y exenciones sin conocer; Argentina y Brasil no figuran.",
    "para": "Tomi",
    "titulo": "Estados Unidos prepara aranceles nuevos a 16 países. Argentina no está."
+  },
+  "guion-2026-11-25-1": {
+   "fecha": "2026-11-25",
+   "fuente": "https://economis.com.ar/argentina-renovo-beneficios-arancelarios-para-importar/",
+   "guion": "GANCHO: \"Hay productos que se pueden importar casi sin arancel. Mirá cuáles.\"\n\n1. \"El Mercosur renovó por un año rebajas para tres productos que faltan en la región.\" (en pantalla: 365 días)\n2. \"Aceite de palma alimenticio: 2% de arancel, con un cupo de 1.134 toneladas.\" (en pantalla: aceite de palma 2%)\n3. \"Un insumo para el caucho: 2%, con cupo de 120 toneladas.\" (en pantalla: insumo caucho 2%)\n4. \"Un medicamento oncológico: 0%, con cupo de 110.000 unidades.\" (en pantalla: medicamento 0%)\n\nMI LECTURA: el arancel bajo dura mientras haya cupo; si importás esas posiciones, el que llega primero paga menos.\n\nCIERRE: \"¿Sabías que existían estos cupos? Guardalo.\"\n\nFUENTE para el caption: Economis y Boletín Oficial, 25/11/2026.",
+   "kind": "guion",
+   "noticia": "Directivas Mercosur 204, 205 y 210/2026: por 365 días, acelerador de vulcanización (NCM 3812.10.00) 2% con cupo 120 t; medicamento con abemaciclib (3004.90.69) 0% con cupo 110.000 unidades; aceite de palma alimenticio (1511.90.00) 2% con cupo 1.134 t.",
+   "para": "Graciela",
+   "titulo": "Hay productos que se pueden importar casi sin arancel. Mirá cuáles."
+  },
+  "guion-2026-11-25-2": {
+   "fecha": "2026-11-25",
+   "fuente": "https://radiorafaela.com.ar/nuestro-campo/argentina-arraso-en-el-mercado-mundial-de-maiz-con-un-crecimiento-del-41-en-sus-exportaciones",
+   "guion": "GANCHO: \"En maíz, Argentina le está ganando a Brasil.\"\n\n1. \"Entre enero y octubre exportamos 41% más maíz que el año pasado.\" (en pantalla: Argentina +41%)\n2. \"Brasil, en el mismo período, exportó 24% menos.\" (en pantalla: Brasil -24%)\n3. \"Y ya se sembró el 39,8% del maíz temprano proyectado.\" (en pantalla: siembra 39,8%)\n\nMI LECTURA: con los precios internacionales bajando, lo que sostiene los dólares que entran es vender más volumen, y eso es lo que está pasando.\n\nCIERRE: \"¿Sabías que el maíz era tan importante para que entren dólares? Comentá.\"\n\nFUENTE para el caption: Radio Rafaela, 25/11/2026.",
+   "kind": "guion",
+   "noticia": "Exportaciones argentinas de maíz +41% interanual en enero-octubre; las de Brasil -24% (Dante Romano, Universidad Austral); siembra de maíz temprano en 39,8% de 8,4 millones de hectáreas.",
+   "para": "Tomi",
+   "titulo": "En maíz, Argentina le está ganando a Brasil."
   },
   "sem-2026-10-26": {
    "carruseles": [
