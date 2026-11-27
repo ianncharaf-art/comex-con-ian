@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-26T12:14:43+00:00",
+ "actualizado": "2026-11-27T12:14:39+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -387,6 +387,24 @@
    "noticia": "Exportaciones argentinas de maíz +41% interanual en enero-octubre; las de Brasil -24% (Dante Romano, Universidad Austral); siembra de maíz temprano en 39,8% de 8,4 millones de hectáreas.",
    "para": "Tomi",
    "titulo": "En maíz, Argentina le está ganando a Brasil."
+  },
+  "guion-2026-11-27-1": {
+   "fecha": "2026-11-27",
+   "fuente": "https://www.thenationalnews.com/business/energy/2026/11/27/oil-set-to-post-weekly-gain-as-middle-east-attacks-stoke-supply-concerns/",
+   "guion": "GANCHO: \"El petróleo está cerca de 100 dólares y eso llega a tu flete.\"\n\n1. \"El Brent está en 97,49 dólares y va a cerrar la semana con una suba de casi 7%.\" (en pantalla: Brent US$97,49 · +7%)\n2. \"Atacaron refinerías en Arabia Saudita y un buque cerca de Dubái.\" (en pantalla: ataques en el Golfo)\n3. \"Por Ormuz pasa apenas el 54% del petróleo que pasaba antes de la guerra.\" (en pantalla: Ormuz al 54%)\n4. \"El domingo se reúne la OPEP+.\" (en pantalla: OPEP+ el domingo)\n\nMI LECTURA: cuando sube el petróleo suben los recargos por combustible de navieras y aerolíneas; pedí cotizaciones con validez corta y fijate el BAF.\n\nCIERRE: \"¿Te subieron el flete este mes? Guardalo.\"\n\nFUENTE para el caption: The National, 27/11/2026.",
+   "kind": "guion",
+   "noticia": "Brent US$97,49 (+0,95%), WTI US$86,17; el Brent va a ganar cerca de 7% en la semana por ataques a Jazan, Ras Tanura y un tanquero cerca de Dubái; por Ormuz pasa ~54% del nivel previo a la guerra; la OPEP+ se reúne el domingo.",
+   "para": "Graciela",
+   "titulo": "El petróleo está cerca de 100 dólares y eso llega a tu flete."
+  },
+  "guion-2026-11-27-2": {
+   "fecha": "2026-11-27",
+   "fuente": "https://technode.global/2026/11/27/vietnam-expects-trade-deal-with-us-soon-tariff-much-lower-than-proposed-35/",
+   "guion": "GANCHO: \"Si comprás ropa o zapatillas hechas en Vietnam, mirá esto.\"\n\n1. \"Estados Unidos propuso un arancel de hasta 35% a todo lo que viene de Vietnam.\" (en pantalla: hasta 35%)\n2. \"Si Vietnam firma un acuerdo, podría bajar a 20%.\" (en pantalla: 20% con acuerdo)\n3. \"Apunta a ropa, calzado, tecnología, barcos y cemento.\" (en pantalla: ropa · calzado · tecno)\n4. \"La audiencia en Washington es el 25 de enero de 2027.\" (en pantalla: 25/1/2027)\n\nMI LECTURA: si a Vietnam le cuesta más venderle a Estados Unidos, va a buscar otros compradores, y ahí puede aparecer mejor precio para el que importa desde acá.\n\nCIERRE: \"¿Tenés algo hecho en Vietnam puesto ahora? Fijate la etiqueta y comentá.\"\n\nFUENTE para el caption: TechNode Global, 27/11/2026.",
+   "kind": "guion",
+   "noticia": "Vietnam espera un arancel de EE.UU. 'mucho menor' que el 35% propuesto por la USTR (20% con acuerdo recíproco); apunta a textiles, calzado, construcción naval, cemento y tecnología; audiencia el 25/1/2027.",
+   "para": "Tomi",
+   "titulo": "Si comprás ropa o zapatillas hechas en Vietnam, mirá esto."
   },
   "sem-2026-10-26": {
    "carruseles": [
