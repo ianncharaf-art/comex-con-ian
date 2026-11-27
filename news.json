@@ -3,6 +3,52 @@
   "items": [
     {
       "fecha": "2026-11-27",
+      "categoria": "Dólar",
+      "titulo": "El BCRA volvió a comprar (US$61 millones) y el mayorista cerró en récord de $1.605",
+      "resumen": "El BCRA compró US$61 millones tras cuatro ruedas sin intervenir y acumula US$405 millones en noviembre. Aun así, las reservas bajaron US$35 millones a US$48.698 millones y tuvieron su mayor caída semanal en más de dos meses. El dólar mayorista subió $3,50 y cerró en $1.605, otro máximo nominal, con una suba de $25 en la semana.",
+      "porque": "El mayorista sigue marcando récords nominales: si tenés pagos de importación, calculá tus costos con el dólar arriba de $1.600 y no con cotizaciones viejas.",
+      "claves": [
+        "El BCRA compró US$61 millones tras cuatro ruedas sin intervenir",
+        "cerró en $1.605, otro máximo nominal, con una suba de $25 en la semana",
+        "calculá tus costos con el dólar arriba de $1.600"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Ámbito",
+          "url": "https://www.ambito.com/finanzas/dolar-el-bcra-retomo-las-compras-pero-las-reservas-sufrieron-la-mayor-caida-semanal-mas-2-meses-n6350200",
+          "oficial": false
+        }
+      ],
+      "sector": "BCRA / Cambiario",
+      "urgencia": "Media",
+      "impacto": "Si cotizás productos importados, actualizá el tipo de cambio de tus planillas: la semana cerró $25 más cara.",
+      "agregado": "2026-11-27T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-27",
+      "categoria": "Mundo",
+      "titulo": "El petróleo cerró su primera semana en alza de noviembre: Brent a US$95,44 (+3% semanal)",
+      "resumen": "El Brent cerró el viernes en US$95,44, con una baja de 1,2% en el día pero una suba de cerca de 3% en la semana, la primera de noviembre. El WTI terminó en US$83,08 y perdió 0,9% en la semana. Pesaron los ataques a tanqueros en Ormuz y a la refinería Jazan de Saudi Aramco. La OPEP+ se reúne el domingo y mantendría sus metas del primer trimestre de 2027.",
+      "porque": "Un Brent cerca de US$95-100 mantiene altos los recargos por combustible en fletes marítimos y aéreos: revisá los BAF antes de confirmar embarques de diciembre.",
+      "claves": [
+        "una suba de cerca de 3% en la semana, la primera de noviembre",
+        "La OPEP+ se reúne el domingo",
+        "revisá los BAF antes de confirmar embarques de diciembre"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Reuters vía AOL",
+          "url": "https://www.aol.com/articles/brent-trades-near-months-high-015047000.html",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Informativa",
+      "impacto": "Si tenés embarques para diciembre, el flete puede venir con recargos por combustible más altos que los de octubre.",
+      "agregado": "2026-11-27T19:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-27",
       "categoria": "Mundo",
       "titulo": "Brent a US$97,49 y rumbo a subir 7% en la semana por ataques a refinerías y buques en Medio Oriente",
       "resumen": "El Brent subía 0,95% a US$97,49 por barril y el WTI 2,98% a US$86,17. El Brent va camino a ganar cerca de 7% en la semana, la primera suba semanal del mes. Pesan el ataque a la refinería Jazan de Arabia Saudita, el ataque a Ras Tanura (550.000 barriles diarios) y un proyectil que explotó cerca de un tanquero al oeste de Dubái. Según Kpler, por Ormuz pasan 9,25 millones de barriles diarios, cerca del 54% del nivel previo a la guerra. La OPEP+ se reúne el domingo.",
