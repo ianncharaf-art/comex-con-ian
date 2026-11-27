@@ -1,6 +1,52 @@
 {
-  "actualizado": "2026-11-26",
+  "actualizado": "2026-11-27",
   "items": [
+    {
+      "fecha": "2026-11-27",
+      "categoria": "Mundo",
+      "titulo": "Brent a US$97,49 y rumbo a subir 7% en la semana por ataques a refinerías y buques en Medio Oriente",
+      "resumen": "El Brent subía 0,95% a US$97,49 por barril y el WTI 2,98% a US$86,17. El Brent va camino a ganar cerca de 7% en la semana, la primera suba semanal del mes. Pesan el ataque a la refinería Jazan de Arabia Saudita, el ataque a Ras Tanura (550.000 barriles diarios) y un proyectil que explotó cerca de un tanquero al oeste de Dubái. Según Kpler, por Ormuz pasan 9,25 millones de barriles diarios, cerca del 54% del nivel previo a la guerra. La OPEP+ se reúne el domingo.",
+      "porque": "Con el Brent cerca de US$100, suben el bunker y los recargos por combustible de navieras y aerolíneas: pedí cotizaciones de flete con validez corta y revisá los recargos BAF.",
+      "claves": [
+        "El Brent va camino a ganar cerca de 7% en la semana",
+        "por Ormuz pasan 9,25 millones de barriles diarios, cerca del 54% del nivel previo a la guerra",
+        "revisá los recargos BAF"
+      ],
+      "fuentes": [
+        {
+          "nombre": "The National",
+          "url": "https://www.thenationalnews.com/business/energy/2026/11/27/oil-set-to-post-weekly-gain-as-middle-east-attacks-stoke-supply-concerns/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Media",
+      "impacto": "Si importás con flete a cargo tuyo, el costo de transporte puede subir en las próximas semanas; conviene cerrar tarifas antes de nuevos recargos.",
+      "agregado": "2026-11-27T07:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-27",
+      "categoria": "Mundo",
+      "titulo": "Vietnam espera cerrar pronto un acuerdo con EE.UU. y un arancel \"mucho menor\" que el 35% propuesto",
+      "resumen": "El primer ministro de Vietnam, Le Minh Hung, dijo que el arancel final será \"mucho menor\" que el máximo de 35% que propuso la USTR sobre todos los bienes vietnamitas. La propuesta podría bajar a 20% si Vietnam firma un acuerdo recíproco. Apunta a textiles, confecciones y calzado, construcción naval, cemento y tecnología. La audiencia pública en Washington será el 25 de enero de 2027.",
+      "porque": "Vietnam es proveedor clave de textiles, calzado y electrónica para importadores argentinos; si EE.UU. le sube aranceles, parte de esa oferta puede redirigirse a otros mercados con mejores precios.",
+      "claves": [
+        "máximo de 35% que propuso la USTR",
+        "podría bajar a 20% si Vietnam firma un acuerdo recíproco",
+        "parte de esa oferta puede redirigirse a otros mercados con mejores precios"
+      ],
+      "fuentes": [
+        {
+          "nombre": "TNGlobal",
+          "url": "https://technode.global/2026/11/27/vietnam-expects-trade-deal-with-us-soon-tariff-much-lower-than-proposed-35/",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Informativa",
+      "impacto": "Si comprás textiles, calzado o electrónica en Vietnam, seguí la negociación: puede abrir margen para negociar precios con tus proveedores.",
+      "agregado": "2026-11-27T07:58:00-03:00"
+    },
     {
       "fecha": "2026-11-26",
       "categoria": "Dólar",
@@ -965,211 +1011,6 @@
       "urgencia": "Informativa",
       "impacto": "Si importás de Asia vía costa oeste o exportás al Pacífico, preguntá a tu forwarder qué ruta usa y cuántos días suma.",
       "agregado": "2026-11-18T07:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-17",
-      "categoria": "Mundo",
-      "titulo": "China y Canadá amplían la baja de aranceles: alivio para cerdo, pescado y mariscos canadienses",
-      "resumen": "En la cumbre APEC de Shenzhen, China amplió el alivio arancelario a exportaciones canadienses por unos 400 millones de dólares canadienses (US$280 millones), incluyendo cortes congelados de cerdo, pescado y mariscos. A cambio, Canadá extiende por dos años exenciones arancelarias a ciertos productos de acero y aluminio chinos. En enero Canadá ya había bajado el arancel a los autos eléctricos chinos de 100% a 6,1%.",
-      "porque": "Canadá compite con Argentina en carne de cerdo, pescados y mariscos en China: cada rebaja para ellos es más competencia para el exportador argentino.",
-      "claves": [
-        "unos 400 millones de dólares canadienses (US$280 millones)",
-        "más competencia para el exportador argentino"
-      ],
-      "fuentes": [
-        {
-          "nombre": "PBS NewsHour (AP)",
-          "url": "https://pbs.org/newshour/world/china-and-canada-expand-tariff-relief-while-relations-with-the-u-s-are-strained",
-          "oficial": false
-        }
-      ],
-      "sector": "Mundo",
-      "urgencia": "Informativa",
-      "impacto": "Si exportás pesca o carne a China, mirá cómo queda tu arancel frente al de Canadá.",
-      "agregado": "2026-11-18T07:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-17",
-      "categoria": "Acuerdos",
-      "titulo": "El Gobierno enviará al Congreso el acuerdo comercial con EE.UU.: elimina aranceles a 1.675 productos argentinos",
-      "resumen": "La Mesa Política decidió enviar al Congreso \"en los próximos días\" el Acuerdo sobre Comercio e Inversiones Recíprocos (ARTI) con EE.UU., firmado el 5 de febrero y adaptado en octubre. EE.UU. elimina aranceles recíprocos a 1.675 productos argentinos, lo que según Cancillería permitiría recuperar unos US$1.013 millones en exportaciones. A cambio, Argentina se compromete a eliminar la tasa de estadística y las licencias de importación, y a abrir un cupo de 80.000 toneladas anuales de carne vacuna estadounidense sin arancel. Se trataría en sesiones extraordinarias de diciembre y rige 60 días después de que ambos países completen sus trámites.",
-      "porque": "Si se aprueba, cambia costos para los dos lados: exportar a EE.UU. sin arancel recíproco e importar sin tasa de estadística.",
-      "claves": [
-        "1.675 productos argentinos",
-        "unos US$1.013 millones en exportaciones",
-        "eliminar la tasa de estadística"
-      ],
-      "fuentes": [
-        {
-          "nombre": "El Cronista",
-          "url": "https://www.cronista.com/economia-politica/el-gobierno-enviara-el-acuerdo-comercial-con-eeuu-al-congreso-y-lo-incluira-en-el-temario-de-extraordinarias/",
-          "oficial": false
-        }
-      ],
-      "sector": "Mercosur y Acuerdos",
-      "urgencia": "Media",
-      "impacto": "Si exportás a EE.UU., revisá si tu posición está entre los 1.675 productos; si importás, seguí la eliminación de la tasa de estadística.",
-      "agregado": "2026-11-17T19:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-17",
-      "categoria": "Dólar",
-      "titulo": "El BCRA compró US$74 millones y las reservas subieron US$277 millones; el mayorista cerró en $1.552",
-      "resumen": "El dólar mayorista subió $1 y cerró en $1.552, un nuevo récord nominal. El BCRA aceleró sus compras: adquirió u$s74 millones en la rueda y acumula u$s330 millones en noviembre. Las reservas brutas subieron u$s277 millones, a u$s49.741 millones.",
-      "porque": "Más compras del BCRA y reservas en alza dan algo de respaldo al tipo de cambio para quienes tienen que pagar importaciones.",
-      "claves": [
-        "cerró en $1.552",
-        "u$s330 millones en noviembre",
-        "u$s49.741 millones"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Ámbito",
-          "url": "https://www.ambito.com/finanzas/el-bcra-acelero-las-compras-dolares-y-las-reservas-subieron-mas-us275-millones-n6346345",
-          "oficial": false
-        }
-      ],
-      "sector": "BCRA / Cambiario",
-      "urgencia": "Informativa",
-      "impacto": "Para cotizar mañana, tomá $1.552 como referencia del mayorista.",
-      "agregado": "2026-11-17T19:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-17",
-      "categoria": "Mundo",
-      "titulo": "Petróleo sube 1% por ataques en el Golfo: un barco alcanzado dos veces en Ormuz y drones contra un oleoducto saudí",
-      "resumen": "El Brent subía US$1,06 (1,15%) a US$93,50 y el WTI a US$86,56, aunque en noviembre acumulan caídas de 20% y 16%. Un barco fue alcanzado dos veces en Ormuz y su tripulación no estaba localizada; drones iraníes atacaron un radar de EE.UU. en Bahréin y los hutíes dijeron que lanzaron drones contra estaciones del oleoducto saudí Este-Oeste. La Agencia Internacional de Energía prevé excedente porque las exportaciones del Golfo se recuperan y los costos de transporte bajaron mucho.",
-      "porque": "Si los costos de transporte de petróleo bajan, el combustible marítimo se abarata y eso debería ir reflejándose en los recargos de los fletes.",
-      "claves": [
-        "acumulan caídas de 20% y 16%",
-        "los costos de transporte bajaron mucho",
-        "debería ir reflejándose en los recargos de los fletes"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Reuters (vía Lufkin Daily News)",
-          "url": "https://lufkindailynews.com/news_reuters/business/oil-up-1-on-tanker-attacks-expected-us-crude-drop/article_47b28911-4d7c-5312-89d9-db6115abfc52.html",
-          "oficial": false
-        }
-      ],
-      "sector": "Mundo",
-      "urgencia": "Informativa",
-      "impacto": "Al renegociar fletes, preguntá si el BAF (recargo por combustible) ya bajó: el petróleo cayó cerca de 20% en noviembre.",
-      "agregado": "2026-11-17T19:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-17",
-      "categoria": "ARCA · Aduana",
-      "titulo": "SENASA cambia las reglas de las fumigaciones oficiales para exportar: rige desde el 18 de noviembre",
-      "resumen": "Por la Resolución 955/2026, publicada hoy en el Boletín Oficial, el SENASA derogó la Resolución 79/2023 y cambió los Tratamientos de Fumigación Oficial en comercio internacional (excepto frutas y hortalizas). Sus inspectores dejan de verificar habilitaciones provinciales y se limitan a lo fitosanitario. Antes del tratamiento, la fumigadora debe presentar la nómina del personal, el producto con su marbete, registro y vencimiento, y los cálculos de dosis. El bromuro de metilo queda restringido a cuarentenas exigidas por el país comprador. Rige desde el 18 de noviembre de 2026.",
-      "porque": "Muchos embarques de granos, maderas y otros productos vegetales necesitan una fumigación certificada por SENASA para entrar al país de destino: cambian los papeles que se presentan.",
-      "claves": [
-        "Resolución 955/2026",
-        "Rige desde el 18 de noviembre de 2026",
-        "cambian los papeles que se presentan"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Noticias Agropecuarias (Boletín Oficial)",
-          "url": "https://www.noticiasagropecuarias.com/2026/11/17/el-senasa-modifico-los-controles-sobre-las-fumigaciones-oficiales-y-limito-la-intervencion-de-sus-inspectores/",
-          "oficial": false
-        }
-      ],
-      "sector": "ARCA / Aduana",
-      "urgencia": "Alta",
-      "impacto": "Si exportás productos vegetales que requieren fumigación, confirmá con tu fumigadora que presente la documentación nueva desde el 18/11.",
-      "agregado": "2026-11-17T11:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-17",
-      "categoria": "ARCA · Aduana",
-      "titulo": "Salta se quedó sin depósitos fiscales: la Aduana clausuró los dos únicos y las empresas operan desde Jujuy",
-      "resumen": "Inspectores de la Aduana clausuraron los dos únicos depósitos fiscales de Salta, COZOFRA (General Güemes) y COCEL (ciudad de Salta). Las importaciones y exportaciones quedaron paralizadas durante semanas y las empresas tuvieron que trasladar sus operaciones a Palpalá, Jujuy, con más costos de transporte y tiempos de trámite. Uno de los depósitos sigue operando con restricciones. Fuentes del sector estiman pérdidas de \"varios millones de dólares\" y un diputado pidió informes al Ejecutivo.",
-      "porque": "Sin depósito fiscal cerca, cada operación de comercio exterior suma flete y días: es un ejemplo de cuánto depende la logística de la infraestructura aduanera local.",
-      "claves": [
-        "los dos únicos depósitos fiscales de Salta",
-        "trasladar sus operaciones a Palpalá, Jujuy",
-        "suma flete y días"
-      ],
-      "fuentes": [
-        {
-          "nombre": "El Tribuno",
-          "url": "https://www.eltribuno.com/salta/2026-11-17-0-46-0-arca-clausuro-depositos-aduaneros-y-paralizo-el-comercio-exterior-en-salta",
-          "oficial": false
-        }
-      ],
-      "sector": "ARCA / Aduana",
-      "urgencia": "Media",
-      "impacto": "Si operás por el NOA, tené un depósito fiscal alternativo (Jujuy) cotizado y sumá días extra a tus plazos.",
-      "agregado": "2026-11-17T11:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-17",
-      "categoria": "Exportación",
-      "titulo": "BID: las exportaciones argentinas crecieron 24,4% en el primer semestre, pero la inversión extranjera cayó 20%",
-      "resumen": "Según el Monitor de Comercio e Integración 2026 del BID, las exportaciones argentinas de bienes subieron 24,4% interanual en el primer semestre de 2026, impulsadas por petróleo, minería y agro, mientras las importaciones cayeron 18,8%. En cambio, la inversión extranjera directa promedió US$8.019 millones por año entre 2023 y 2025, un 20,4% menos que en 2012-2014. El BID dice que la apertura comercial \"por sí sola no basta\" y ve en el acuerdo Mercosur-UE una oportunidad si se acompaña con reformas.",
-      "porque": "Más exportaciones sin más inversión es un límite: para seguir creciendo afuera hacen falta plantas, puertos y logística nuevas.",
-      "claves": [
-        "24,4% interanual",
-        "un 20,4% menos",
-        "por sí sola no basta"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Forbes Argentina",
-          "url": "https://www.forbesargentina.com/negocios/exportaciones-record-pero-menos-capitales-externos-diagnostico-bid-sobre-futuro-negocios-argentina-n102721",
-          "oficial": false
-        }
-      ],
-      "sector": "Mercosur y Acuerdos",
-      "urgencia": "Informativa",
-      "impacto": "Para estudiar: buen informe para entender la diferencia entre comercio e inversión, y por qué el acuerdo con la UE importa más allá de los aranceles.",
-      "agregado": "2026-11-17T11:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-17",
-      "categoria": "Acuerdos",
-      "titulo": "El real se devaluó 16% desde la reelección de Lula: Argentina pierde competitividad frente a Brasil",
-      "resumen": "El real llegó a 5,78-5,79 por dólar, su nivel más alto desde abril de 2025, tras subir otro 2% el lunes; desde la reelección de Lula acumula una depreciación de 16%. En Argentina el impacto fue limitado hasta ahora: el dólar oficial minorista subió $5 a $1.575 y acumula 2% desde fines de octubre. Con una inflación de 26% en el año y un tipo de cambio que subió solo 5%, la economía argentina se encareció en dólares, y la caída del real lo acentúa.",
-      "porque": "Brasil es el principal socio comercial: con un real más barato, los productos brasileños llegan más baratos a Argentina y los argentinos se encarecen allá.",
-      "claves": [
-        "depreciación de 16%",
-        "la economía argentina se encareció en dólares",
-        "los productos brasileños llegan más baratos a Argentina"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Infobae",
-          "url": "https://www.infobae.com/economia/2026/11/17/el-dolar-en-brasil-trepo-16-desde-la-reeleccion-de-lula-da-silva-como-impacta-en-la-argentina/",
-          "oficial": false
-        }
-      ],
-      "sector": "Mercosur y Acuerdos",
-      "urgencia": "Media",
-      "impacto": "Si exportás a Brasil, revisá precios: tu cliente ahora paga 16% más en reales. Si importás de Brasil, es buen momento para pedir cotización.",
-      "agregado": "2026-11-17T07:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-17",
-      "categoria": "Mundo",
-      "titulo": "Empieza la semana de APEC en Shenzhen con aranceles de EE.UU. de hasta 12,5% a 60 economías",
-      "resumen": "Los 21 miembros de APEC, que concentran algo más de la mitad del comercio mundial, se reúnen esta semana en Shenzhen con bajas expectativas. Después de que la Corte Suprema de EE.UU. anulara muchos aranceles de Trump en febrero de 2026, Washington aplicó nuevos aranceles de hasta 12,5% a 60 economías de Asia y América Latina por supuestos esfuerzos insuficientes contra el trabajo forzoso. Siguen vigentes los aranceles sectoriales al acero, los autos y la madera.",
-      "porque": "Lo que se acuerde entre EE.UU. y China en APEC puede cambiar precios de granos y manufacturas que compiten con productos argentinos.",
-      "claves": [
-        "aranceles de hasta 12,5% a 60 economías",
-        "Siguen vigentes los aranceles sectoriales al acero, los autos y la madera"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Malay Mail (AFP)",
-          "url": "https://www.malaymail.com/news/money/2026/11/17/apec-summit-2026-why-trumps-relentless-tariff-blitz-means-low-expectations-in-china/243480",
-          "oficial": false
-        }
-      ],
-      "sector": "Mundo",
-      "urgencia": "Informativa",
-      "impacto": "Si exportás a EE.UU., verificá qué arancel adicional aplica hoy a Argentina antes de cerrar precios.",
-      "agregado": "2026-11-17T07:58:00-03:00"
     }
   ]
 }
