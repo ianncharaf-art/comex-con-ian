@@ -3,6 +3,29 @@
   "items": [
     {
       "fecha": "2026-11-28",
+      "categoria": "Exportación",
+      "titulo": "Cosecha récord de 171 millones de toneladas pone a prueba la logística: mover granos cuesta 10% más que en Brasil",
+      "resumen": "La cosecha 2025/2026 marcó un récord de 171 millones de toneladas, 30 millones más que el ciclo anterior, con 72,5 millones de toneladas de maíz y 27,8 millones de trigo. Según FADA, mover granos en Argentina cuesta 10% más que en Brasil y 36% más que en Estados Unidos, y el 90% de las cargas viaja en camión. Una encuesta de SATOWER muestra que la intención de inversión del agro cayó 14,4 puntos y pasó a negativo.",
+      "porque": "Con más volumen para exportar y una logística cara, los fletes internos y los turnos en puertos se tensan: si exportás o importás por puertos del Gran Rosario, anticipá reservas de camiones y turnos.",
+      "claves": [
+        "mover granos en Argentina cuesta 10% más que en Brasil y 36% más que en Estados Unidos",
+        "el 90% de las cargas viaja en camión",
+        "anticipá reservas de camiones y turnos"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Informe Digital vía Examedia",
+          "url": "https://examedia.com.ar/portada/post/88321095",
+          "oficial": false
+        }
+      ],
+      "sector": "Logística y Fletes",
+      "urgencia": "Informativa",
+      "impacto": "Si tu operación depende de fletes terrestres o de puertos del Paraná, la temporada de cosecha puede subir costos y demoras.",
+      "agregado": "2026-11-28T11:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-28",
       "categoria": "Mundo",
       "titulo": "Ormuz: dos tanqueros se incendian por minas y EE.UU. ya desvió 158 buques con su bloqueo a Irán",
       "resumen": "La Guardia Revolucionaria de Irán informó que dos tanqueros se incendiaron al chocar con minas navales en Ormuz. EE.UU. inhabilitó otro buque que intentaba romper su bloqueo a Irán y ya desvió 158 buques comerciales e inhabilitó seis desde abril. La OPEP+, que produce cerca del 35% del petróleo mundial, tendría un acuerdo preliminar para mantener sus metas de producción hasta el primer trimestre de 2027; se reúne el domingo.",
