@@ -1,6 +1,52 @@
 {
-  "actualizado": "2026-11-27",
+  "actualizado": "2026-11-28",
   "items": [
+    {
+      "fecha": "2026-11-28",
+      "categoria": "Mundo",
+      "titulo": "Ormuz: dos tanqueros se incendian por minas y EE.UU. ya desvió 158 buques con su bloqueo a Irán",
+      "resumen": "La Guardia Revolucionaria de Irán informó que dos tanqueros se incendiaron al chocar con minas navales en Ormuz. EE.UU. inhabilitó otro buque que intentaba romper su bloqueo a Irán y ya desvió 158 buques comerciales e inhabilitó seis desde abril. La OPEP+, que produce cerca del 35% del petróleo mundial, tendría un acuerdo preliminar para mantener sus metas de producción hasta el primer trimestre de 2027; se reúne el domingo.",
+      "porque": "Cada incidente en Ormuz sostiene el seguro de guerra, el bunker y los recargos de las navieras: si importás desde Asia, pedí a tu forwarder el detalle de recargos antes de aceptar una cotización.",
+      "claves": [
+        "dos tanqueros se incendiaron al chocar con minas navales en Ormuz",
+        "ya desvió 158 buques comerciales e inhabilitó seis desde abril",
+        "pedí a tu forwarder el detalle de recargos antes de aceptar una cotización"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Investing.com",
+          "url": "https://www.investing.com/news/economy-news/iran-war-intensifies-maritime-risks-as-opec-prepares-for-oil-supply-talks-5054196",
+          "oficial": false
+        }
+      ],
+      "sector": "Mundo",
+      "urgencia": "Media",
+      "impacto": "Si tenés carga en tránsito desde Asia o Medio Oriente, consultá posibles demoras y recargos de emergencia.",
+      "agregado": "2026-11-28T07:58:00-03:00"
+    },
+    {
+      "fecha": "2026-11-28",
+      "categoria": "Exportación",
+      "titulo": "Qué necesita Argentina para exportar US$200.000 millones en 2036: logística, acuerdos y menos trabas",
+      "resumen": "Según Gustavo Scarpetta, especialista en comercio internacional y docente de la Universidad Nacional de Córdoba, Argentina ya superó los US$100.000 millones exportados en 12 meses y podría llegar a US$200.000 millones en 2036. Proyecta US$40.000 millones de minería y US$50.000 millones de petróleo y gas. La participación argentina en las exportaciones mundiales fue de 0,37% el año pasado, contra 0,81% en 1960. Propone mejorar la salida al Pacífico, sumar trenes, reducir la burocracia exportadora y aprovechar los acuerdos.",
+      "porque": "Minería, energía y acuerdos comerciales son los motores que se vienen: para quien estudia o arranca en comex, ahí van a estar las oportunidades de trabajo y de negocio.",
+      "claves": [
+        "ya superó los US$100.000 millones exportados en 12 meses",
+        "US$40.000 millones de minería y US$50.000 millones de petróleo y gas",
+        "reducir la burocracia exportadora y aprovechar los acuerdos"
+      ],
+      "fuentes": [
+        {
+          "nombre": "Ámbito",
+          "url": "https://www.ambito.com/energia/que-necesita-argentina-exportar-us200000-millones-2036-logistica-acuerdos-y-menos-trabas-n6350125",
+          "oficial": false
+        }
+      ],
+      "sector": "Mercosur y Acuerdos",
+      "urgencia": "Informativa",
+      "impacto": "Si exportás o pensás hacerlo, mirá los sectores que más van a crecer y los acuerdos que abren mercados nuevos.",
+      "agregado": "2026-11-28T07:58:00-03:00"
+    },
     {
       "fecha": "2026-11-27",
       "categoria": "Dólar",
@@ -850,213 +896,6 @@
       "urgencia": "Informativa",
       "impacto": "Tomá $1.565 como referencia para cotizar y revisá tus pagos pendientes al exterior.",
       "agregado": "2026-11-20T10:05:00-03:00"
-    },
-    {
-      "fecha": "2026-11-18",
-      "categoria": "Dólar",
-      "titulo": "El mayorista cerró en $1.559,50 y la brecha con el CCL llegó a 10,2%, la más alta desde octubre de 2025",
-      "resumen": "El dólar mayorista subió 0,5% y cerró en $1.559,50; acumula 1,7% en noviembre y 7,2% en el año, contra 26,3% de inflación. El contado con liquidación terminó en $1.718,16 y la brecha con el mayorista se amplió a 10,2%, la mayor desde la crisis cambiaria de octubre de 2025. El BCRA compró US$11 millones y las reservas brutas bajaron US$190 millones, a US$49.511 millones, sobre todo por la caída de 3,5% del oro. El real se debilitó a 5,87 por dólar y el riesgo país bajó a 848 puntos.",
-      "porque": "Con el mayorista en récord nominal y la brecha en alza, conviene cotizar y cerrar pagos al exterior con el tipo de cambio del día, no con el de la semana pasada.",
-      "claves": [
-        "cerró en $1.559,50",
-        "la brecha con el mayorista se amplió a 10,2%",
-        "El real se debilitó a 5,87 por dólar"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Infobae",
-          "url": "https://www.infobae.com/economia/2026/11/18/el-dolar-volvio-a-subir-las-acciones-cayeron-por-el-contagio-externo-y-el-riesgo-pais-perforo-los-850-puntos/",
-          "oficial": false
-        }
-      ],
-      "sector": "BCRA / Cambiario",
-      "urgencia": "Informativa",
-      "impacto": "Para cotizar mañana tomá $1.559,50 de referencia; si vendés a Brasil, el real más débil encarece tu producto allá.",
-      "agregado": "2026-11-18T19:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-18",
-      "categoria": "Mundo",
-      "titulo": "Xi promete en APEC bajar aranceles y abrir más el mercado chino, antes de reunirse con Trump y Putin",
-      "resumen": "En la cumbre empresarial de APEC en Shenzhen, Xi Jinping pidió apoyar el \"comercio libre y abierto\" y dijo que China bajará aranceles, ampliará el acceso a su mercado en manufacturas y servicios y profundizará reformas. Reafirmó el sistema multilateral con centro en la OMC. Ese mismo día tenía previsto reunirse con Trump y luego en una cumbre a tres con Putin. No se anunciaron tasas concretas.",
-      "porque": "Si China baja aranceles y abre más su mercado, se abre espacio para alimentos argentinos que hoy negocian protocolos para entrar.",
-      "claves": [
-        "China bajará aranceles",
-        "No se anunciaron tasas concretas"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/18/xis-pitch-for-free-trade-amid-trumps-global-trade-disruptions",
-          "oficial": false
-        }
-      ],
-      "sector": "Mundo",
-      "urgencia": "Informativa",
-      "impacto": "Si exportás a China, seguí qué rebajas concretas salen de APEC en los próximos días.",
-      "agregado": "2026-11-18T19:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-18",
-      "categoria": "Exportación",
-      "titulo": "SENASA prohíbe la ractopamina en cerdos para proteger las exportaciones de carne porcina",
-      "resumen": "Por la Resolución 956/2026, publicada hoy en el Boletín Oficial, el SENASA prohibió en todo el país el uso y la venta de productos veterinarios promotores de crecimiento con sustancias beta agonistas o tirostáticas. Termina así la excepción de 2011 (Resolución 1458/2011) que permitía usar ractopamina en cerdos durante casi 15 años. Lo pidieron cinco entidades de la cadena porcina (FPA, CAEGP, CAICHA, FIFRA y CAENA) y el SENASA dijo que mantener la excepción podía comprometer la estrategia de comercio internacional de carnes.",
-      "porque": "Muchos mercados, como China y la Unión Europea, no aceptan carne con ractopamina: sacarla del todo le da a la carne porcina argentina un argumento sanitario para abrir destinos.",
-      "claves": [
-        "Resolución 956/2026",
-        "prohibió en todo el país el uso y la venta",
-        "no aceptan carne con ractopamina"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Boletín Oficial – SENASA Res. 956/2026",
-          "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/350501/20261118",
-          "oficial": true
-        },
-        {
-          "nombre": "Bichos de Campo",
-          "url": "https://bichosdecampo.com/una-excepcion-para-los-cerdos-que-llego-a-su-fin-a-pedido-de-la-cadena-porcina-senasa-prohibio-la-ractopamina-como-promotor-de-crecimiento-para-proteger-las-exportaciones/",
-          "oficial": false
-        }
-      ],
-      "sector": "ARCA / Aduana",
-      "urgencia": "Media",
-      "impacto": "Si producís, exportás o importás insumos veterinarios para cerdos, revisá que ningún producto tenga beta agonistas: desde hoy están prohibidos.",
-      "agregado": "2026-11-18T11:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-18",
-      "categoria": "Exportación",
-      "titulo": "Minería: exportaciones de US$6.700 millones hasta septiembre y 13 proyectos RIGI por más de US$27.000 millones",
-      "resumen": "Según la consultora Invecq, las exportaciones mineras sumaron US$6.700 millones entre enero y septiembre de 2026 y el sector apunta a su mejor año. En el RIGI hay 13 proyectos mineros aprobados por más de US$27.000 millones. Las cifras para 2027 en adelante son proyecciones de la consultora, no datos oficiales.",
-      "porque": "La minería se suma al petróleo como motor de dólares: más exportaciones del sector ayudan a que haya oferta de divisas para importar.",
-      "claves": [
-        "US$6.700 millones entre enero y septiembre",
-        "13 proyectos mineros aprobados por más de US$27.000 millones"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Acero y Roca",
-          "url": "https://aceroyroca.com/2026/11/18/noticias-mineria-argentina-2027-exportaciones-inversiones-cobre-litio/",
-          "oficial": false
-        }
-      ],
-      "sector": "Mercosur y Acuerdos",
-      "urgencia": "Informativa",
-      "impacto": "Si vendés insumos, servicios o logística a la minería, es un sector que crece y compra.",
-      "agregado": "2026-11-18T11:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-18",
-      "categoria": "Acuerdos",
-      "titulo": "China: Argentina negocia más de siete protocolos para exportar alimentos y una baja recíproca de aranceles",
-      "resumen": "El canciller Pablo Quirno confirmó que la visita oficial de Milei a China sigue sin fecha y que el Gobierno cierra \"un par de temas\" antes de fijarla. Mientras tanto se busca firmar más de siete protocolos para habilitar nuevas exportaciones argentinas al mercado chino y se negocia una reducción recíproca de aranceles. Los trabajos están a cargo del secretario de Comercio, Pablo Lavigne, y de la subsecretaria de Comercio Exterior, Carolina Cuenca, con la Embajada china y el sector privado.",
-      "porque": "Cada protocolo sanitario nuevo abre un producto argentino que hoy no puede entrar a China; si además bajan aranceles, también cambia el costo de importar desde allá.",
-      "claves": [
-        "más de siete protocolos para habilitar nuevas exportaciones",
-        "reducción recíproca de aranceles"
-      ],
-      "fuentes": [
-        {
-          "nombre": "El Cronista",
-          "url": "https://www.cronista.com/economia-politica/china-abre-mas-negociaciones-mientras-espera-a-milei-que-falta-para-la-mision-argentina/",
-          "oficial": false
-        }
-      ],
-      "sector": "Mercosur y Acuerdos",
-      "urgencia": "Media",
-      "impacto": "Si exportás alimentos, seguí qué productos entran en los protocolos: es la puerta para vender a China.",
-      "agregado": "2026-11-18T07:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-18",
-      "categoria": "Comercio exterior",
-      "titulo": "Industria: los sectores que compiten con importaciones cayeron 19% desde 2022 y los exportadores subieron 2,5%",
-      "resumen": "Un informe del IIEP (UBA) dividió la industria en tres bloques entre 2022 y 2026: las ramas que compiten con importaciones cayeron 19%, las orientadas al mercado interno con poca importación cayeron 12,2% y las exportadoras mejoraron 2,5%. Entre las que compiten con importados, maquinaria y equipo bajó 36%, metales 15% y químicos 13%. La molienda de oleaginosas creció 16%.",
-      "porque": "Muestra dónde la apertura importadora le pegó más a la producción local: ahí es donde hay más competencia de producto importado y más presión para pedir medidas de defensa comercial.",
-      "claves": [
-        "cayeron 19%",
-        "maquinaria y equipo bajó 36%",
-        "las exportadoras mejoraron 2,5%"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Ámbito",
-          "url": "https://www.ambito.com/economia/las-3-caras-la-industria-expuestos-importaciones-y-al-mercado-interno-caen-12-y-19-mientras-exportadores-resisten-n6346413",
-          "oficial": false
-        }
-      ],
-      "sector": "Régimen Courier / PyMEs",
-      "urgencia": "Informativa",
-      "impacto": "Si importás maquinaria, metales o químicos, competís en los rubros donde más cayó la industria local: más mercado, pero también más riesgo de antidumping.",
-      "agregado": "2026-11-18T07:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-18",
-      "categoria": "Mundo",
-      "titulo": "Petróleo baja levemente por más stock en EE.UU., pero Ormuz sigue sin normalizarse",
-      "resumen": "El WTI bajaba 0,65% a US$85,45 y el Brent 0,17% a US$92,98 tras un aumento de 5,28 millones de barriles en los inventarios de crudo de EE.UU. (datos del API). Analistas de LSEG dijeron que normalizar los flujos por Ormuz \"todavía no es posible\" en las condiciones actuales; un buque de GLP fue alcanzado por un proyectil frente a Omán el lunes y su tripulación fue evacuada.",
-      "porque": "El petróleo sigue cerca de US$93 y el riesgo en Ormuz no se fue: los recargos por combustible y seguros de guerra en los fletes todavía no tienen motivo para desaparecer.",
-      "claves": [
-        "WTI bajaba 0,65% a US$85,45",
-        "normalizar los flujos por Ormuz"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Reuters (vía The Express Tribune)",
-          "url": "https://tribune.com.pk/story/2640958/oil-prices-fall-as-higher-us-crude-stocks-temper-supply-risks",
-          "oficial": false
-        }
-      ],
-      "sector": "Mundo",
-      "urgencia": "Informativa",
-      "impacto": "Al cotizar flete, preguntá cuánto pesan BAF y recargos de riesgo: el petróleo no termina de bajar.",
-      "agregado": "2026-11-18T07:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-18",
-      "categoria": "Mundo",
-      "titulo": "Tailandia eliminará aranceles al 99% de los productos de EE.UU. y abre un cupo de 1 millón de toneladas de maíz",
-      "resumen": "Según el marco comercial anunciado con EE.UU., Tailandia eliminará aranceles a 99% de los bienes estadounidenses y permitirá hasta 1 millón de toneladas de maíz de EE.UU. con arancel cero (antes el cupo era de 54.700 toneladas al 20%). Las compras comprometidas superan US$20.000 millones y la harina de soja tendrá arancel de 2%. EE.UU. aplica un 12,5% (Sección 301) a la mayoría de los productos tailandeses. El texto legal final todavía no se firmó.",
-      "porque": "Tailandia importa entre 4 y 5 millones de toneladas de maíz por año: si EE.UU. entra sin arancel, el maíz y la harina de soja argentinos pierden terreno en ese mercado.",
-      "claves": [
-        "99% de los bienes estadounidenses",
-        "1 millón de toneladas de maíz de EE.UU. con arancel cero",
-        "El texto legal final todavía no se firmó"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Latin Times",
-          "url": "https://www.latintimes.com/trump-thailand-reciprocal-trade-agreement-corn-imports-601492",
-          "oficial": false
-        }
-      ],
-      "sector": "Mundo",
-      "urgencia": "Informativa",
-      "impacto": "Si exportás maíz o harina de soja al Sudeste Asiático, tené en cuenta la nueva competencia de EE.UU. en Tailandia.",
-      "agregado": "2026-11-18T07:58:00-03:00"
-    },
-    {
-      "fecha": "2026-11-18",
-      "categoria": "Mundo",
-      "titulo": "El tráfico por el Estrecho de Magallanes creció más de 70% por las trabas en Panamá y Suez",
-      "resumen": "El paso de buques por el Estrecho de Magallanes subió más de 70% interanual en agosto y septiembre, según datos de la Gobernación Marítima de Punta Arenas citados por Bloomberg. El aumento se concentra en buques de 60.000 a 65.000 toneladas de arqueo. En Panamá, los turnos prioritarios se subastaron a hasta US$4 millones por buque y luego superaron los US$5 millones.",
-      "porque": "Más tráfico por el sur del continente acerca rutas y escalas a Argentina, pero también refleja que cruzar Panamá se encareció para las cargas entre el Atlántico y el Pacífico.",
-      "claves": [
-        "subió más de 70% interanual",
-        "hasta US$4 millones por buque"
-      ],
-      "fuentes": [
-        {
-          "nombre": "Latin Times (datos vía Bloomberg)",
-          "url": "https://latintimes.com/strait-magellan-shipping-traffic-surges-601487",
-          "oficial": false
-        }
-      ],
-      "sector": "Logística y Fletes",
-      "urgencia": "Informativa",
-      "impacto": "Si importás de Asia vía costa oeste o exportás al Pacífico, preguntá a tu forwarder qué ruta usa y cuántos días suma.",
-      "agregado": "2026-11-18T07:58:00-03:00"
     }
   ]
 }
