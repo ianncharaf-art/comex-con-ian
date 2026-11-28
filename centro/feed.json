@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-28T11:33:56+00:00",
+ "actualizado": "2026-11-28T12:14:19+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -405,6 +405,24 @@
    "noticia": "Vietnam espera un arancel de EE.UU. 'mucho menor' que el 35% propuesto por la USTR (20% con acuerdo recíproco); apunta a textiles, calzado, construcción naval, cemento y tecnología; audiencia el 25/1/2027.",
    "para": "Tomi",
    "titulo": "Si comprás ropa o zapatillas hechas en Vietnam, mirá esto."
+  },
+  "guion-2026-11-28-1": {
+   "fecha": "2026-11-28",
+   "fuente": "https://www.ambito.com/energia/que-necesita-argentina-exportar-us200000-millones-2036-logistica-acuerdos-y-menos-trabas-n6350125",
+   "guion": "GANCHO: \"Si estudiás comex, acá van a estar los laburos de los próximos 10 años.\"\n\n1. \"Argentina ya pasó los 100.000 millones de dólares exportados en 12 meses.\" (en pantalla: US$100.000 M)\n2. \"Un especialista de la Universidad de Córdoba dice que podríamos llegar a 200.000 millones en 2036.\" (en pantalla: US$200.000 M en 2036)\n3. \"Los motores: minería, con 40.000 millones, y petróleo y gas, con 50.000.\" (en pantalla: minería + energía)\n4. \"Hoy somos el 0,37% de lo que exporta el mundo; en 1960 éramos el 0,81%.\" (en pantalla: 0,81% → 0,37%)\n\nMI LECTURA: es una proyección, no una promesa; pero si se cumple aunque sea la mitad, minería, energía y logística van a necesitar mucha gente que sepa de comex.\n\nCIERRE: \"¿Vos a qué sector te meterías? Comentá.\"\n\nFUENTE para el caption: Ámbito, 28/11/2026.",
+   "kind": "guion",
+   "noticia": "Gustavo Scarpetta (UNC): Argentina superó US$100.000 M exportados en 12 meses y podría llegar a US$200.000 M en 2036, con US$40.000 M de minería y US$50.000 M de petróleo y gas; la participación argentina en las exportaciones mundiales pasó de 0,81% en 1960 a 0,37%.",
+   "para": "Tomi",
+   "titulo": "Si estudiás comex, acá van a estar los laburos de los próximos 10 años."
+  },
+  "guion-2026-11-28-2": {
+   "fecha": "2026-11-28",
+   "fuente": "https://www.investing.com/news/economy-news/iran-war-intensifies-maritime-risks-as-opec-prepares-for-oil-supply-talks-5054196",
+   "guion": "GANCHO: \"Si importás de Asia, antes de aceptar una cotización pedí esto.\"\n\n1. \"En Ormuz, dos tanqueros se incendiaron por minas esta semana.\" (en pantalla: 2 tanqueros con minas)\n2. \"Estados Unidos ya desvió 158 buques con su bloqueo a Irán desde abril.\" (en pantalla: 158 buques desviados)\n3. \"La OPEP+, que produce cerca del 35% del petróleo del mundo, se reúne el domingo.\" (en pantalla: OPEP+ 35%)\n\nMI LECTURA: cada incidente sostiene el seguro de guerra y los recargos de las navieras; pedile a tu forwarder el detalle de recargos línea por línea antes de aceptar.\n\nCIERRE: \"¿Tu forwarder te manda los recargos separados? Guardalo.\"\n\nFUENTE para el caption: Investing.com, 28/11/2026.",
+   "kind": "guion",
+   "noticia": "Ormuz: dos tanqueros se incendiaron por minas; EE.UU. ya desvió 158 buques e inhabilitó seis desde abril; la OPEP+ (cerca del 35% del petróleo mundial) tendría un acuerdo para mantener producción hasta el primer trimestre de 2027.",
+   "para": "Graciela",
+   "titulo": "Si importás de Asia, antes de aceptar una cotización pedí esto."
   },
   "sem-2026-10-26": {
    "carruseles": [
