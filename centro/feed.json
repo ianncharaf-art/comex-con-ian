@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-27T12:14:39+00:00",
+ "actualizado": "2026-11-28T11:33:56+00:00",
  "items": {
   "guion-2026-10-19-1": {
    "fecha": "2026-10-19",
@@ -1531,6 +1531,192 @@
      "para": "Los dos",
      "pilar": "Comercio exterior simple",
      "titulo": "Gracias por el primer mes: lo que viene"
+    }
+   ]
+  },
+  "sem-2026-11-30": {
+   "carruseles": [
+    {
+     "caption": "El mayorista cerró en $1.605. Si tenés pagos afuera, revisá esto 📌 Más noticias, link en mi bio.",
+     "destacada": "Noticias",
+     "pilar": "Noticias y tendencias del rubro",
+     "slides": [
+      "Portada: vos mirando la cotización en el celu + \"El dólar pasó los *1.600*. ¿Y ahora?\"",
+      "El mayorista cerró en *$1.605* el 27/11: suba de *$25* en la semana.",
+      "1. Costos: recalculá con el *dólar de hoy*, no con el del mes pasado.",
+      "2. Proveedores: preguntá *cuándo se paga* y en qué moneda.",
+      "3. Precios: revisá si tu *margen* aguanta la suba.",
+      "4. Flete: el petróleo cerca de *US$95* también sube los *recargos*.",
+      "No es para asustarse: es para *hacer la cuenta* antes.",
+      "Todas las noticias del día en mi web. *Link en mi bio* para entrar y registrarte."
+     ],
+     "titulo": "El dólar arriba de 1.600: 4 cosas para revisar si importás"
+    },
+    {
+     "caption": "Si te prometen ganar mucho sin riesgo, desconfiá. Guardalo y mandáselo a quien lo necesite 📌",
+     "destacada": "Empezá acá",
+     "pilar": "Comercio exterior simple",
+     "slides": [
+      "Portada: vos con cara de desconfianza frente a una pantalla + \"¿Oportunidad o *humo*?\"",
+      "1. Ganancia: te prometen *porcentajes enormes* sin hablar de costos.",
+      "2. Riesgo: te dicen que es *\"sin riesgo\"*. Importar siempre tiene.",
+      "3. Apuro: *\"tenés que entrar hoy\"*. Lo bueno aguanta una semana.",
+      "4. Pago: te piden pagar por un *medio raro* o a una cuenta personal.",
+      "5. Papeles: no te muestran *factura ni contrato*.",
+      "Antes de poner plata, *hacé la cuenta* completa: flete, impuestos y tiempos.",
+      "Más guías para arrancar en el *link de mi bio*. Entrá y registrate."
+     ],
+     "titulo": "5 señales de que una \"oportunidad de importar\" es humo"
+    }
+   ],
+   "desde": "2026-11-30",
+   "foco": "Arranca diciembre con el formato nuevo: videos cortos de plata y anti-estafa, 2 por día, más el dólar arriba de 1.600 como noticia de la semana",
+   "hasta": "2026-12-06",
+   "kind": "semana",
+   "perfil": [
+    {
+     "detalle": "Usá la misma portada para todos los videos cortos de diciembre (tu foto + texto grande de 3 o 4 palabras en dorado), así la grilla se ve ordenada y se nota que es una serie.",
+     "titulo": "Portada de diciembre para los Reels"
+    },
+    {
+     "detalle": "Cuando publiques el del sábado 5 (\"te prometen 300% sin riesgo\"), fijalo arriba junto al de presentación: es el que más se comparte y suma seguidores nuevos.",
+     "titulo": "Fijá el video anti-estafa"
+    }
+   ],
+   "stories": [
+    {
+     "detalle": "\"¿Ya actualizaste tus precios con el dólar arriba de 1.600?\" Sí / Todavía no.",
+     "titulo": "Lunes: encuesta dólar"
+    },
+    {
+     "detalle": "Contá en 2 historias que en diciembre vas a subir videos más cortos, de plata y anti-estafa. Preguntá: \"¿Qué estafa te contaron?\"",
+     "titulo": "Martes: formato nuevo"
+    },
+    {
+     "detalle": "\"¿Qué es más difícil: traer el producto o venderlo?\" Traer / Vender. Usalo para el video de las 19:00.",
+     "titulo": "Miércoles: quiz"
+    },
+    {
+     "detalle": "\"¿Te pasó que te llegó menos mercadería de la que pagaste?\" Las respuestas sirven para un video de anti-estafa.",
+     "titulo": "Jueves: caja de preguntas"
+    },
+    {
+     "detalle": "\"¿Cuánto creés que deja una botella térmica importada?\" Antes del video de las 19:00.",
+     "titulo": "Viernes: slider botellas térmicas"
+    },
+    {
+     "detalle": "Mostrá la tanda de grabación del miércoles: cuántos videos grabaste y en cuánto tiempo.",
+     "titulo": "Sábado: detrás de escena"
+    },
+    {
+     "detalle": "\"¿Dónde venderías un importado?\" Mercado Libre / Tienda propia / Instagram. Antes del video de las 13:00.",
+     "titulo": "Domingo: encuesta de canal de venta"
+    }
+   ],
+   "videos": [
+    {
+     "dia": "Lun 30/11",
+     "fecha": "2026-11-30",
+     "guion": "GANCHO: \"El dólar mayorista pasó los 1.600. Si pagás algo afuera, mirá esto.\"\n\n1. \"Cerró en 1.605 pesos el viernes 27: otro récord y 25 pesos más en la semana.\" (en pantalla: mayorista $1.605)\n2. \"El Central volvió a comprar 61 millones después de cuatro días sin comprar.\" (en pantalla: BCRA +US$61 M)\n3. \"Igual las reservas bajaron a 48.698 millones.\" (en pantalla: reservas US$48.698 M)\n\nCIERRE: \"Hacé tus costos con el dólar de hoy, no con el del mes pasado. Guardalo.\"\n\nCAPTION: El dólar mayorista en récord: qué hacer si importás 📌\n\nNOTA: datos del radar al 27/11. Revisá el lunes si hay cierre más nuevo antes de grabar.",
+     "para": "Graciela",
+     "pilar": "Noticias y tendencias del rubro",
+     "titulo": "Extra noticia: el dólar mayorista pasó los 1.600 y sigue marcando récords"
+    },
+    {
+     "dia": "Lun 30/11",
+     "fecha": "2026-11-30",
+     "guion": "GANCHO: \"Estados Unidos les sube el arancel a 14 países. Argentina no está.\"\n\n1. \"Vietnam, hasta 35%; India, hasta 25%; China, hasta 20%.\" (en pantalla: Vietnam 35% · India 25% · China 20%)\n2. \"La Unión Europea, Japón y Corea, 15%.\" (en pantalla: UE 15%)\n3. \"Las audiencias empiezan el 25 de enero de 2027.\" (en pantalla: 25/1/2027)\n\nCIERRE: \"Si a esos países les cuesta más venderle a Estados Unidos, ¿buscan venderle más barato a quién? Comentá.\"\n\nCAPTION: Aranceles nuevos de Estados Unidos: quién paga y por qué Argentina no está 👇\n\nNOTA: fuente USTR (radar 25/11).",
+     "para": "Tomi",
+     "pilar": "Noticias y tendencias del rubro",
+     "titulo": "Extra noticia: Estados Unidos sube aranceles a 14 países y Argentina no está"
+    },
+    {
+     "dia": "Mar 1/12",
+     "fecha": "2026-12-01",
+     "guion": "VIDEO RÁPIDO · 20-30 s · Práctico: qué pedir y qué mirar · Cierre: escribime\nSe graba en una toma o dos: hablás como a un amigo, sin explicar de más.\nTEXTO GRANDE EN PANTALLA (0-3 s): «¿VAS A TRAER ROPA? OJO»\n\n[0-3 s · GANCHO] Si vas a importar ropa, fijate en esto antes de comprar.\n\n[3-25 s · LO QUE TENÉS QUE SABER] Uno: talles. Lo que allá es M acá puede ser S. Pedí la tabla de medidas. Dos: la tela, por escrito. Tres: preguntale a tu despachante cuánto es el derecho, porque en ropa puede pesar mucho en el costo final.\nEN PANTALLA: Vos a cámara + lista en pantalla que aparece de a un punto.\n\n[CIERRE] Si estás por importar ropa y tenés dudas, mandame un mensaje y te ayudo a ordenar la cuenta.\n\nEDICIÓN: cortes rápidos y subtítulos. Lo que está entre [corchetes] lo completás vos (2 minutos de búsqueda o tu dato real); si es un ejemplo, decí que es un ejemplo.\n\nCAPTION:\nSi vas a importar ropa, fijate en esto antes de comprar.\n\nSi estás por importar ropa y tenés dudas, mandame un mensaje y te ayudo a ordenar la cuenta.\n\n#importar #emprender #negocios #comex #argentina",
+     "para": "Tomi",
+     "pilar": "Práctico: qué pedir y qué mirar",
+     "titulo": "Si vas a importar ropa, fijate en esto antes de comprar."
+    },
+    {
+     "dia": "Mié 2/12",
+     "fecha": "2026-12-02",
+     "guion": "VIDEO RÁPIDO · 20-30 s · Mi día a día · Cierre: web\nSe graba en una toma o dos: hablás como a un amigo, sin explicar de más.\nTEXTO GRANDE EN PANTALLA (0-3 s): «LA NOTICIA QUE TOCA TU BOLSILLO»\n\n[0-3 s · GANCHO] La noticia de hoy que te puede tocar el bolsillo si importás o tenés un negocio.\n\n[3-25 s · LO QUE TENÉS QUE SABER] El dólar mayorista cerró en 1.605 pesos, otro récord, y subió 25 en la semana. Qué significa para tu plata: si tenés que pagar algo afuera, hacé la cuenta con el dólar arriba de 1.600, no con el del mes pasado. La tengo resumida en mi web.\nEN PANTALLA: Clips rápidos tuyos o vos a cámara.\n\n[CIERRE] ¿Te afecta esto? Las noticias de cada día están en mi web, link en el perfil.\n\nEDICIÓN: cortes rápidos y subtítulos. Lo que está entre [corchetes] lo completás vos (2 minutos de búsqueda o tu dato real); si es un ejemplo, decí que es un ejemplo.\n\nCAPTION:\nLa noticia de hoy que te puede tocar el bolsillo si importás o tenés un negocio.\n\n¿Te afecta esto? Las noticias de cada día están en mi web, link en el perfil.\n\n#importar #emprender #negocios #comex #argentina\n\nNOTA: dato del radar del 27/11 (Ámbito/BCRA). Si el martes hay una noticia más nueva y más fuerte en el radar, cambiala por esa.",
+     "para": "Tomi",
+     "pilar": "Mi día a día",
+     "titulo": "La noticia de hoy que te puede tocar el bolsillo si importás o tenés un negocio."
+    },
+    {
+     "dia": "Mié 2/12",
+     "fecha": "2026-12-02",
+     "guion": "VIDEO RÁPIDO · 20-30 s · Opinión · Cierre: debate\nSe graba en una toma o dos: hablás como a un amigo, sin explicar de más.\nTEXTO GRANDE EN PANTALLA (0-3 s): «EL QUE MÁS GANA NO ES EL QUE IMPORTA»\n\n[0-3 s · GANCHO] El que más gana no es el que importa: es el que mejor vende.\n\n[3-25 s · LO QUE TENÉS QUE SABER] Traer un producto lo puede hacer cualquiera con plata. Venderlo rápido y a buen precio es lo difícil. Por eso, antes de importar, aprendé a vender.\nEN PANTALLA: Vos a cámara, directo, como charlando.\n\n[CIERRE] ¿Qué es más difícil para ustedes: traer o vender?\n\nEDICIÓN: cortes rápidos y subtítulos. Lo que está entre [corchetes] lo completás vos (2 minutos de búsqueda o tu dato real); si es un ejemplo, decí que es un ejemplo.\n\nCAPTION:\nEl que más gana no es el que importa: es el que mejor vende.\n\n¿Qué es más difícil para ustedes: traer o vender?\n\n#importar #emprender #negocios #comex #argentina",
+     "para": "Tomi",
+     "pilar": "Opinión",
+     "titulo": "El que más gana no es el que importa: es el que mejor vende."
+    },
+    {
+     "dia": "Jue 3/12",
+     "fecha": "2026-12-03",
+     "guion": "VIDEO RÁPIDO · 20-30 s · Cómo no te caguen · Cierre: debate\nSe graba en una toma o dos: hablás como a un amigo, sin explicar de más.\nTEXTO GRANDE EN PANTALLA (0-3 s): «PAGASTE 1.000, LLEGARON 920»\n\n[0-3 s · GANCHO] Pagaste mil unidades y llegaron novecientas veinte. Y nadie te avisó.\n\n[3-25 s · LO QUE TENÉS QUE SABER] Pedí que te digan cuántas unidades van en cada caja y contá cuando llegan, con fotos. Si falta, reclamás con pruebas. Si no contás, nunca lo sabés.\nEN PANTALLA: Vos a cámara, texto grande. Si podés, una captura o un objeto que ilustre.\n\n[CIERRE] ¿Cuentan todo cuando les llega mercadería?\n\nEDICIÓN: cortes rápidos y subtítulos. Lo que está entre [corchetes] lo completás vos (2 minutos de búsqueda o tu dato real); si es un ejemplo, decí que es un ejemplo.\n\nCAPTION:\nPagaste mil unidades y llegaron novecientas veinte. Y nadie te avisó.\n\n¿Cuentan todo cuando les llega mercadería?\n\n#importar #emprender #negocios #comex #argentina",
+     "para": "Tomi",
+     "pilar": "Cómo no te caguen",
+     "titulo": "Pagaste mil unidades y llegaron novecientas veinte. Y nadie te avisó."
+    },
+    {
+     "dia": "Jue 3/12",
+     "fecha": "2026-12-03",
+     "guion": "VIDEO RÁPIDO · 20-30 s · Error que cuesta plata · Cierre: debate\nSe graba en una toma o dos: hablás como a un amigo, sin explicar de más.\nTEXTO GRANDE EN PANTALLA (0-3 s): «PLATA PARADA = PLATA PERDIDA»\n\n[0-3 s · GANCHO] [Ejemplo: cinco mil dólares] parados cuatro meses en un depósito también te cuestan plata.\n\n[3-25 s · LO QUE TENÉS QUE SABER] Desde que pagás hasta que vendés, esa plata no trabaja. Por eso no alcanza con que el producto deje margen: tiene que venderse rápido.\nEN PANTALLA: Vos a cámara + la cuenta en pantalla (números grandes).\n\n[CIERRE] ¿Cuánto tarda en volver su plata?\n\nEDICIÓN: cortes rápidos y subtítulos. Lo que está entre [corchetes] lo completás vos (2 minutos de búsqueda o tu dato real); si es un ejemplo, decí que es un ejemplo.\n\nCAPTION:\n[Ejemplo: cinco mil dólares] parados cuatro meses en un depósito también te cuestan plata.\n\n¿Cuánto tarda en volver su plata?\n\n#importar #emprender #negocios #comex #argentina",
+     "para": "Tomi",
+     "pilar": "Error que cuesta plata",
+     "titulo": "[Ejemplo: cinco mil dólares] parados cuatro meses en un depósito también te cuestan plata."
+    },
+    {
+     "dia": "Vie 4/12",
+     "fecha": "2026-12-04",
+     "guion": "VIDEO RÁPIDO · 20-30 s · Práctico: qué pedir y qué mirar · Cierre: debate\nSe graba en una toma o dos: hablás como a un amigo, sin explicar de más.\nTEXTO GRANDE EN PANTALLA (0-3 s): «SI SE ENCHUFA, PREGUNTÁ»\n\n[0-3 s · GANCHO] Si tu producto se enchufa, hay un paso que no te podés saltear.\n\n[3-25 s · LO QUE TENÉS QUE SABER] En Argentina muchos productos eléctricos necesitan una certificación de seguridad para venderse. Sin eso, el producto se puede trabar o no lo podés vender en blanco. Se averigua antes de comprar, no cuando llega.\nEN PANTALLA: Vos a cámara + lista en pantalla que aparece de a un punto.\n\n[CIERRE] ¿Sabían esto de los productos eléctricos?\n\nEDICIÓN: cortes rápidos y subtítulos. Lo que está entre [corchetes] lo completás vos (2 minutos de búsqueda o tu dato real); si es un ejemplo, decí que es un ejemplo.\n\nCAPTION:\nSi tu producto se enchufa, hay un paso que no te podés saltear.\n\n¿Sabían esto de los productos eléctricos?\n\n#importar #emprender #negocios #comex #argentina",
+     "para": "Tomi",
+     "pilar": "Práctico: qué pedir y qué mirar",
+     "titulo": "Si tu producto se enchufa, hay un paso que no te podés saltear."
+    },
+    {
+     "dia": "Vie 4/12",
+     "fecha": "2026-12-04",
+     "guion": "VIDEO RÁPIDO · 20-30 s · ¿Cuánto deja? · Cierre: debate\nSe graba en una toma o dos: hablás como a un amigo, sin explicar de más.\nTEXTO GRANDE EN PANTALLA (0-3 s): «¿CUÁNTO DEJA? BOTELLAS TÉRMICAS»\n\n[0-3 s · GANCHO] Busqué botellas térmicas afuera y en Mercado Libre. Te muestro cuánto queda de verdad.\n\n[3-25 s · LO QUE TENÉS QUE SABER] Afuera sale [precio en Alibaba]. Acá se vende a [precio en Mercado Libre]. Le sumo flete, impuestos y comisión en la calculadora y queda [resultado]. Tienen buen precio de venta, pero hay muchas marcas y la calidad varía muchísimo.\nEN PANTALLA: Pantalla dividida: Alibaba / Mercado Libre / calculadora de la web.\n\n[CIERRE] ¿Lo traerías o no?\n\nEDICIÓN: cortes rápidos y subtítulos. Lo que está entre [corchetes] lo completás vos (2 minutos de búsqueda o tu dato real); si es un ejemplo, decí que es un ejemplo.\n\nCAPTION:\nBusqué botellas térmicas afuera y en Mercado Libre. Te muestro cuánto queda de verdad.\n\n¿Lo traerías o no?\n\n#importar #emprender #negocios #comex #argentina",
+     "para": "Tomi",
+     "pilar": "¿Cuánto deja?",
+     "titulo": "Busqué botellas térmicas afuera y en Mercado Libre. Te muestro cuánto queda de verdad."
+    },
+    {
+     "dia": "Sáb 5/12",
+     "fecha": "2026-12-05",
+     "guion": "VIDEO RÁPIDO · 20-30 s · Cómo no te caguen · Cierre: debate\nSe graba en una toma o dos: hablás como a un amigo, sin explicar de más.\nTEXTO GRANDE EN PANTALLA (0-3 s): «300% SIN RIESGO = HUMO»\n\n[0-3 s · GANCHO] Si alguien te promete que importando ganás 300% sin riesgo, te están vendiendo humo.\n\n[3-25 s · LO QUE TENÉS QUE SABER] Nadie te muestra el stock que no se vendió, las devoluciones ni la plata parada meses. Hay negocio, sí, pero con números reales y con riesgo. Desconfiá de lo fácil.\nEN PANTALLA: Vos a cámara, texto grande. Si podés, una captura o un objeto que ilustre.\n\n[CIERRE] ¿Viste promesas así en redes?\n\nEDICIÓN: cortes rápidos y subtítulos. Lo que está entre [corchetes] lo completás vos (2 minutos de búsqueda o tu dato real); si es un ejemplo, decí que es un ejemplo.\n\nCAPTION:\nSi alguien te promete que importando ganás 300% sin riesgo, te están vendiendo humo.\n\n¿Viste promesas así en redes?\n\n#importar #emprender #negocios #comex #argentina",
+     "para": "Tomi",
+     "pilar": "Cómo no te caguen",
+     "titulo": "Si alguien te promete que importando ganás 300% sin riesgo, te están vendiendo humo."
+    },
+    {
+     "dia": "Sáb 5/12",
+     "fecha": "2026-12-05",
+     "guion": "VIDEO RÁPIDO · 20-30 s · Error que cuesta plata · Cierre: debate\nSe graba en una toma o dos: hablás como a un amigo, sin explicar de más.\nTEXTO GRANDE EN PANTALLA (0-3 s): «EL DESCUENTO QUE TE HUNDIÓ»\n\n[0-3 s · GANCHO] \"Diez por ciento de descuento si comprás el doble.\" Y te quedaste con la mitad sin vender.\n\n[3-25 s · LO QUE TENÉS QUE SABER] El doble de stock es el doble de plata parada y más riesgo. Comprá lo que podés vender, no lo que te deja el mejor precio.\nEN PANTALLA: Vos a cámara + la cuenta en pantalla (números grandes).\n\n[CIERRE] ¿Aceptarían el descuento o comprarían lo justo?\n\nEDICIÓN: cortes rápidos y subtítulos. Lo que está entre [corchetes] lo completás vos (2 minutos de búsqueda o tu dato real); si es un ejemplo, decí que es un ejemplo.\n\nCAPTION:\n\"Diez por ciento de descuento si comprás el doble.\" Y te quedaste con la mitad sin vender.\n\n¿Aceptarían el descuento o comprarían lo justo?\n\n#importar #emprender #negocios #comex #argentina",
+     "para": "Tomi",
+     "pilar": "Error que cuesta plata",
+     "titulo": "\"Diez por ciento de descuento si comprás el doble.\" Y te quedaste con la mitad sin vender."
+    },
+    {
+     "dia": "Dom 6/12",
+     "fecha": "2026-12-06",
+     "guion": "VIDEO RÁPIDO · 20-30 s · Opinión · Cierre: debate\nSe graba en una toma o dos: hablás como a un amigo, sin explicar de más.\nTEXTO GRANDE EN PANTALLA (0-3 s): «ML, TIENDA PROPIA O MAYORISTA»\n\n[0-3 s · GANCHO] ¿Dónde venderías un producto importado: Mercado Libre, tienda propia o a comercios?\n\n[3-25 s · LO QUE TENÉS QUE SABER] Mercado Libre: rápido pero con comisión y competencia. Tienda propia: más margen pero tenés que traer la gente. Mayorista: menos margen pero más volumen.\nEN PANTALLA: Vos a cámara, directo, como charlando.\n\n[CIERRE] ¿Ustedes dónde venden?\n\nEDICIÓN: cortes rápidos y subtítulos. Lo que está entre [corchetes] lo completás vos (2 minutos de búsqueda o tu dato real); si es un ejemplo, decí que es un ejemplo.\n\nCAPTION:\n¿Dónde venderías un producto importado: Mercado Libre, tienda propia o a comercios?\n\n¿Ustedes dónde venden?\n\n#importar #emprender #negocios #comex #argentina",
+     "para": "Tomi",
+     "pilar": "Opinión",
+     "titulo": "¿Dónde venderías un producto importado: Mercado Libre, tienda propia o a comercios?"
+    },
+    {
+     "dia": "Dom 6/12",
+     "fecha": "2026-12-06",
+     "guion": "VIDEO RÁPIDO · 20-30 s · Práctico: qué pedir y qué mirar · Cierre: escribime\nSe graba en una toma o dos: hablás como a un amigo, sin explicar de más.\nTEXTO GRANDE EN PANTALLA (0-3 s): «¿COSMÉTICOS? LEÉ ESTO»\n\n[0-3 s · GANCHO] Si vas a importar cosméticos o productos de cuidado personal, fijate en esto.\n\n[3-25 s · LO QUE TENÉS QUE SABER] Necesitan autorización de ANMAT para venderse. Sin eso, la carga se puede quedar parada y vos pagando depósito. Preguntá cuánto tarda y cuánto cuesta antes de cerrar con el proveedor.\nEN PANTALLA: Vos a cámara + lista en pantalla que aparece de a un punto.\n\n[CIERRE] Si estás pensando en traer cosméticos, escribime por privado y te digo qué preguntar antes de pagar.\n\nEDICIÓN: cortes rápidos y subtítulos. Lo que está entre [corchetes] lo completás vos (2 minutos de búsqueda o tu dato real); si es un ejemplo, decí que es un ejemplo.\n\nCAPTION:\nSi vas a importar cosméticos o productos de cuidado personal, fijate en esto.\n\nSi estás pensando en traer cosméticos, escribime por privado y te digo qué preguntar antes de pagar.\n\n#importar #emprender #negocios #comex #argentina",
+     "para": "Tomi",
+     "pilar": "Práctico: qué pedir y qué mirar",
+     "titulo": "Si vas a importar cosméticos o productos de cuidado personal, fijate en esto."
     }
    ]
   }
